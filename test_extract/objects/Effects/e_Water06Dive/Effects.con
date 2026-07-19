@@ -1,0 +1,12 @@
+
+
+rem *** e_Water06Dive ***
+ObjectTemplate.create EffectBundle e_Water06Dive
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.timeToLive CRD_NONE/-1/0/0
+rem -------------------------------------
+ObjectTemplate.addTemplate Em_Water06Streak
+ObjectTemplate.setRotation 90/0/0
+rem -------------------------------------
+ObjectTemplate.minDistanceUnderwaterSurface 0.5
+ObjectTemplate.maxDistanceUnderwaterSurface 6

@@ -1,0 +1,3 @@
+ObjectTemplate.create SimpleObject Jungle_tree15_M1
+ObjectTemplate.geometry Jungle_tree15_M1
+ObjectTemplate.setHasCollisionPhysics 0

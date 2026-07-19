@@ -1,0 +1,10 @@
+
+GeometryTemplate.create StandardMesh Ammobox_m1
+GeometryTemplate.file Ammobox_m1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 2
+GeometryTemplate.setLodDistance 2 6
+GeometryTemplate.setLodDistance 3 10
+GeometryTemplate.setLodDistance 4 100
+GeometryTemplate.setLodDistance 5 500
+

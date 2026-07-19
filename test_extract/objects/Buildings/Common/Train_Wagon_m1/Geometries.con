@@ -1,0 +1,8 @@
+GeometryTemplate.create StandardMesh Train_Wagon_m1
+GeometryTemplate.file Train_Wagon_m1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 35
+GeometryTemplate.setLodDistance 2 55
+GeometryTemplate.setLodDistance 3 85
+GeometryTemplate.setLodDistance 4 100
+GeometryTemplate.setLodDistance 5 300

@@ -1,0 +1,3 @@
+ObjectTemplate.create SimpleObject storagebuild_m1
+ObjectTemplate.geometry storagebuild_m1
+ObjectTemplate.setHasCollisionPhysics 1

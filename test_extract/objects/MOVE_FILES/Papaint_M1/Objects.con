@@ -1,0 +1,3 @@
+ObjectTemplate.create SimpleObject Papaint_M1
+ObjectTemplate.geometry Papaint_M1
+ObjectTemplate.setHasCollisionPhysics 1

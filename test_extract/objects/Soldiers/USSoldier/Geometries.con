@@ -1,0 +1,78 @@
+rem *** 1p ****
+GeometryTemplate.create AnimatedMesh Soldier/1PUsBody
+GeometryTemplate.setSkin animations/1PUSbody.skn
+GeometryTemplate.file 1PUsBody
+
+GeometryTemplate.create AnimatedMesh Soldier/1pUSLeftHand
+GeometryTemplate.setSkin animations/1pUSLeftHand.skn
+GeometryTemplate.file 1pUSLeftHand
+
+GeometryTemplate.create AnimatedMesh Soldier/1pUSRightHand
+GeometryTemplate.setSkin animations/1pUSRightHand.skn
+GeometryTemplate.file 1pUSRightHand
+
+rem *** 3p ****
+GeometryTemplate.create AnimatedMesh Soldier/3PUsBody
+GeometryTemplate.setSkin animations/USbody.skn
+GeometryTemplate.file UsBody
+GeometryTemplate.setLodRange 0 0 1 10 2 30
+GeometryTemplate.setLodRange 3 50 4 100 5 200
+GeometryTemplate.setLodPercent 0 1.0
+GeometryTemplate.setLodPercent 1 0.7
+GeometryTemplate.setLodPercent 2 0.3
+GeometryTemplate.setLodPercent 3 0.2
+GeometryTemplate.setLodPercent 4 0.1
+GeometryTemplate.setLodPercent 5 0.05
+
+GeometryTemplate.create AnimatedMesh Soldier/USComplexHead1
+GeometryTemplate.setSkin animations/US1Face.skn
+GeometryTemplate.file us1face
+GeometryTemplate.setLodRange 0 0 1 3 2 10
+GeometryTemplate.setLodPercent 0 1.0
+GeometryTemplate.setLodPercent 1 0.6
+GeometryTemplate.setLodPercent 2 0.3
+
+GeometryTemplate.create AnimatedMesh Soldier/USComplexHead2
+GeometryTemplate.setSkin animations/US2Face.skn
+GeometryTemplate.file us2face
+GeometryTemplate.setLodRange 0 0 1 3 2 10
+GeometryTemplate.setLodPercent 0 1.0
+GeometryTemplate.setLodPercent 1 0.6
+GeometryTemplate.setLodPercent 2 0.3
+
+GeometryTemplate.create AnimatedMesh Soldier/USComplexHead3
+GeometryTemplate.setSkin animations/US3Face.skn
+GeometryTemplate.file us3face
+GeometryTemplate.setLodRange 0 0 1 3 2 10
+GeometryTemplate.setLodPercent 0 1.0
+GeometryTemplate.setLodPercent 1 0.6
+GeometryTemplate.setLodPercent 2 0.3
+
+GeometryTemplate.create AnimatedMesh Soldier/USHead
+GeometryTemplate.setSkin animations/USHead.skn
+GeometryTemplate.file ushead
+GeometryTemplate.setLodRange 0 0 1 10 2 30
+GeometryTemplate.setLodRange 3 50 4 60 5 100
+GeometryTemplate.setLodPercent 0 1.0
+GeometryTemplate.setLodPercent 1 0.6
+GeometryTemplate.setLodPercent 2 0.3
+GeometryTemplate.setLodPercent 3 0.2
+GeometryTemplate.setLodPercent 4 0.1
+GeometryTemplate.setLodPercent 5 0.03
+
+GeometryTemplate.create AnimatedMesh Soldier/USLeftHand
+GeometryTemplate.setSkin animations/USLeftHand.skn
+GeometryTemplate.file USLeftHand
+GeometryTemplate.setLodRange 0 0 1 3 2 10
+GeometryTemplate.setLodPercent 0 1.0
+GeometryTemplate.setLodPercent 1 0.6
+GeometryTemplate.setLodPercent 2 0.3
+
+GeometryTemplate.create AnimatedMesh Soldier/USRightHand
+GeometryTemplate.setSkin animations/USRightHand.skn
+GeometryTemplate.file USRightHand
+GeometryTemplate.setLodRange 0 0 1 3 2 10
+GeometryTemplate.setLodPercent 0 1.0
+GeometryTemplate.setLodPercent 1 0.6
+GeometryTemplate.setLodPercent 2 0.3
+

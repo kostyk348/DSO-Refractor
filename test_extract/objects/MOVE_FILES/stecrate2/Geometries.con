@@ -1,0 +1,8 @@
+GeometryTemplate.create StandardMesh stecrate2_M1
+GeometryTemplate.file stecrate2_M1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 20
+GeometryTemplate.setLodDistance 2 55
+GeometryTemplate.setLodDistance 3 200
+GeometryTemplate.setLodDistance 4 500
+GeometryTemplate.setLodDistance 5 800

@@ -1,0 +1,25 @@
+ObjectTemplate.create KitPart BacpacBig_Desert_ger
+ObjectTemplate.geometry BacpacBig_Desert_ger
+ObjectTemplate.setBoneName backpack
+ObjectTemplate.setCopyLinksCount 0
+
+
+
+ObjectTemplate.create Kit German_Engineer_Desert
+ObjectTemplate.geometry Kit_Axis_Engineer
+ObjectTemplate.setHasCollisionPhysics 1
+ObjectTemplate.networkableInfo KitInfo
+ObjectTemplate.addTemplate Germ_DesertHelmet
+ObjectTemplate.addTemplate German_hippack
+ObjectTemplate.addTemplate BacpacBig_Desert_ger
+
+ObjectTemplate.addTemplate k98
+ObjectTemplate.addTemplate walterp38
+ObjectTemplate.addTemplate KnifeAxis
+
+ObjectTemplate.addTemplate RepairPack
+ObjectTemplate.addTemplate Landmine
+ObjectTemplate.addTemplate Detonator
+ObjectTemplate.addTemplate ExpPack
+rem ObjectTemplate.addTemplate GrenadeAxis
+ObjectTemplate.aiTemplate  Engineer

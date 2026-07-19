@@ -1,0 +1,63 @@
+
+
+rem *** e_watertouchGuy ***
+ObjectTemplate.create EffectBundle e_watertouchGuy
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.loadSoundScript Sounds/swimidle.ssc
+rem -------------------------------------
+ObjectTemplate.addTemplate Em_waterTouchGuyRing
+ObjectTemplate.setRotation -179.999/0/0
+ObjectTemplate.addTemplate Em_WaterTouchGuySprite
+ObjectTemplate.timeToLive CRD_NONE/-1/0/0
+rem -------------------------------------
+
+
+rem *** Em_waterTouchGuyRing ***
+ObjectTemplate.create Emitter Em_waterTouchGuyRing
+ObjectTemplate.template Fx_waterTouchGuyRing
+ObjectTemplate.startAtCreation 1
+ObjectTemplate.addEmitterSpeed 1
+ObjectTemplate.emitterSpeedScale 1
+ObjectTemplate.timeToLive CRD_NONE/0.3/0/0
+ObjectTemplate.intensity CRD_UNIFORM/11/0/0
+ObjectTemplate.relativePositionInUp CRD_NONE/-1/0/0
+ObjectTemplate.startRotation CRD_NONE/90/0/0
+ObjectTemplate.moveToWaterSurface 1
+
+
+rem *** Fx_waterTouchGuyRing ***
+ObjectTemplate.create Particle Fx_waterTouchGuyRing
+ObjectTemplate.geometry watermesh_ring_m1
+ObjectTemplate.timeToLive CRD_NONE/3/0/0
+ObjectTemplate.size CRD_UNIFORM/2/1/0
+ObjectTemplate.gravityModifier CRD_NONE/0/0/0
+ObjectTemplate.sizeModifier 1/1/1
+ObjectTemplate.sizeOverTime 0/0.199988|100/1
+ObjectTemplate.alphaOverTime 0/0.600024|100/0
+
+
+rem *** Em_WaterTouchGuySprite ***
+ObjectTemplate.create Emitter Em_WaterTouchGuySprite
+ObjectTemplate.template Fx_WaterTouchGuySprite
+ObjectTemplate.startAtCreation 1
+ObjectTemplate.addEmitterSpeed 1
+ObjectTemplate.emitterSpeedScale 1
+ObjectTemplate.timeToLive CRD_NONE/0.1/0/0
+ObjectTemplate.intensity CRD_UNIFORM/11/20/0
+ObjectTemplate.positionalSpeedInDof CRD_NONE/0.1/0/1
+ObjectTemplate.positionalSpeedInUp CRD_NONE/0.2/0/0
+ObjectTemplate.positionalSpeedInRight CRD_NONE/0.1/0/1
+ObjectTemplate.startRotation CRD_UNIFORM/1/180/1
+ObjectTemplate.moveToWaterSurface 1
+
+
+rem *** Fx_WaterTouchGuySprite ***
+ObjectTemplate.create SpriteParticle Fx_WaterTouchGuySprite
+ObjectTemplate.timeToLive CRD_NONE/1/1/0
+ObjectTemplate.size CRD_UNIFORM/0.5/1.2/0
+ObjectTemplate.gravityModifier CRD_NONE/0.5/0/0
+ObjectTemplate.sizeOverTime 0/0.299997|100/0.89996
+ObjectTemplate.texture water_ono_I
+ObjectTemplate.initRotation CRD_UNIFORM/1/180/1
+ObjectTemplate.destBlendMode BMOne
+ObjectTemplate.colorRGBAOverTime 0/192/192/192/204|28/223/239/255/102|100/223/239/255/0

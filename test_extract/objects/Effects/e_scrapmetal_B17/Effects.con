@@ -1,0 +1,44 @@
+
+
+rem *** e_ScrapMetal_B17 ***
+ObjectTemplate.create EffectBundle e_ScrapMetal_B17
+ObjectTemplate.saveInSeparateFile 1
+rem -------------------------------------
+ObjectTemplate.addTemplate Em_ScrapMetal_Plane_1
+ObjectTemplate.addTemplate Em_ScrapMetal_Plane_2
+ObjectTemplate.addTemplate Em_ScrapMetal_Plane_3
+ObjectTemplate.addTemplate Em_ScrapMetal_2_B17
+ObjectTemplate.setPosition 7/0/0
+ObjectTemplate.addTemplate Em_ScrapMetal_3_B17
+ObjectTemplate.setPosition -9.999/0/0
+ObjectTemplate.timeToLive CRD_NONE/1.8/0/0
+rem -------------------------------------
+
+rem *** Em_ScrapMetal_2_B17 ***
+ObjectTemplate.create Emitter Em_ScrapMetal_2_B17
+ObjectTemplate.template Wreck_B17_2_m1
+ObjectTemplate.addEmitterSpeed 1
+ObjectTemplate.emitterSpeedScale 1
+ObjectTemplate.lodDistance 375
+ObjectTemplate.timeToLive CRD_NONE/0.1/0/0
+ObjectTemplate.intensity CRD_NONE/10/0/0
+ObjectTemplate.relativePositionInDof CRD_NONE/0.1/0/0
+ObjectTemplate.positionalSpeedInDof CRD_UNIFORM/5/-5/0
+ObjectTemplate.positionalSpeedInUp CRD_UNIFORM/1/5/0
+ObjectTemplate.positionalSpeedInRight CRD_UNIFORM/5/-5/0
+ObjectTemplate.startRotation CRD_NONE/1/0/0
+
+
+rem *** Em_ScrapMetal_3_B17 ***
+ObjectTemplate.create Emitter Em_ScrapMetal_3_B17
+ObjectTemplate.template Wreck_B17_3_m1
+ObjectTemplate.addEmitterSpeed 1
+ObjectTemplate.emitterSpeedScale 1
+ObjectTemplate.lodDistance 375
+ObjectTemplate.timeToLive CRD_NONE/0.1/0/0
+ObjectTemplate.intensity CRD_NONE/10/0/0
+ObjectTemplate.relativePositionInDof CRD_NONE/0.1/0/0
+ObjectTemplate.positionalSpeedInDof CRD_UNIFORM/5/-5/0
+ObjectTemplate.positionalSpeedInUp CRD_UNIFORM/1/5/0
+ObjectTemplate.positionalSpeedInRight CRD_UNIFORM/5/-5/0
+ObjectTemplate.startRotation CRD_NONE/1/0/0

@@ -1,0 +1,53 @@
+
+
+rem *** e_MuzzB17 ***
+ObjectTemplate.create EffectBundle e_MuzzB17
+ObjectTemplate.saveInSeparateFile 1
+rem -------------------------------------
+ObjectTemplate.addTemplate Em_MuzzB17_flash
+ObjectTemplate.addTemplate Em_MuzzB17_smoke
+ObjectTemplate.timeToLive CRD_NONE/-1/0/0
+rem -------------------------------------
+
+rem *** Em_MuzzB17_flash ***
+ObjectTemplate.create Emitter Em_MuzzB17_flash
+ObjectTemplate.template FX_MuzzB17_flash
+ObjectTemplate.addEmitterSpeed 1
+ObjectTemplate.emitterSpeedScale 1
+ObjectTemplate.lodDistance 500
+ObjectTemplate.timeToLive CRD_NONE/0.1/0/0
+ObjectTemplate.intensity CRD_NONE/10/0/0
+ObjectTemplate.relativePositionInDof CRD_NONE/-1/0/0
+ObjectTemplate.startRotation CRD_UNIFORM/0/180/1
+ObjectTemplate.showInThirdPerson 1
+ObjectTemplate.noPhysics 1
+ObjectTemplate.addChild 1
+rem *** FX_MuzzB17_flash ***
+ObjectTemplate.create Particle FX_MuzzB17_flash
+ObjectTemplate.geometry muzzSMG_m1
+ObjectTemplate.timeToLive CRD_NONE/0.07/0/0
+ObjectTemplate.gravityModifier CRD_NONE/0/0/0
+ObjectTemplate.sizeOverTime 0/0.12009|100/9.40001
+
+rem *** Em_MuzzB17_smoke ***
+ObjectTemplate.create Emitter Em_MuzzB17_smoke
+ObjectTemplate.template FX_MuzzB17_smoke
+ObjectTemplate.addEmitterSpeed 1
+ObjectTemplate.emitterSpeedScale 1
+ObjectTemplate.timeToLive CRD_NONE/0.5/0/0
+ObjectTemplate.intensity CRD_NONE/5/0/0
+ObjectTemplate.positionalSpeedInDof CRD_UNIFORM/1/0/0
+ObjectTemplate.positionalSpeedInUp CRD_NONE/0.5/0/0
+rem *** FX_MuzzB17_smoke ***
+ObjectTemplate.create SpriteParticle FX_MuzzB17_smoke
+ObjectTemplate.timeToLive CRD_UNIFORM/0.5/1/0
+ObjectTemplate.gravityModifier CRD_NONE/0.01/0/0
+ObjectTemplate.sizeOverTime 0/0.2|50/0.4|100/1
+ObjectTemplate.Drag CRD_NONE/1/0/0
+ObjectTemplate.texture e_difus1
+ObjectTemplate.initRotation CRD_NONE/1/0/0
+ObjectTemplate.XYSizeRatio CRD_NORMAL/1/0/0
+ObjectTemplate.destBlendMode BMInvSourceAlpha
+ObjectTemplate.rotationSpeed CRD_UNIFORM/15/75/1
+ObjectTemplate.rotationSpeedOverTime 0/0.100009|100/1
+ObjectTemplate.colorRGBAOverTime 0/155/155/155/30|87/150/150/150/30|100/150/150/150/0

@@ -1,0 +1,11 @@
+ObjectTemplate.create SimpleObject sea_obs_M1
+ObjectTemplate.geometry sea_obs_M1
+objectTemplate.cullRadiusScale 5
+ObjectTemplate.setHasCollisionPhysics 1
+
+
+
+
+
+
+

@@ -1,0 +1,3 @@
+ObjectTemplate.create SimpleObject RailRoad_Stopper_m1
+ObjectTemplate.geometry RailRoad_Stopper_m1
+ObjectTemplate.setHasCollisionPhysics 1

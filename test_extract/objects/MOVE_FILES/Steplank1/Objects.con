@@ -1,0 +1,4 @@
+ObjectTemplate.create SimpleObject steplank1_m1
+ObjectTemplate.geometry steplank1_m1
+ObjectTemplate.setHasCollisionPhysics 1
+objectTemplate.aiTemplate steplank1_m1

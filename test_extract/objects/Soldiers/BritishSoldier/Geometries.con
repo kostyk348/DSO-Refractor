@@ -1,0 +1,90 @@
+
+GeometryTemplate.create AnimatedMesh Soldier/1PBritBody
+GeometryTemplate.setSkin animations/1PBritBody.skn
+GeometryTemplate.file 1PBritBody
+
+GeometryTemplate.create AnimatedMesh Soldier/1PBritLeftHand
+GeometryTemplate.setSkin animations/1PBritLeftHand.skn
+GeometryTemplate.file 1PBritLeftHand
+GeometryTemplate.setLodRange 0 0 1 3 2 10
+GeometryTemplate.setLodRange 3 15 4 20 5 30
+
+GeometryTemplate.create AnimatedMesh Soldier/1PBritRightHand
+GeometryTemplate.setSkin animations/1PBritRightHand.skn
+GeometryTemplate.file 1PBritRightHand
+GeometryTemplate.setLodRange 0 0 1 3 2 10
+GeometryTemplate.setLodRange 3 15 4 20 5 30
+
+
+GeometryTemplate.create AnimatedMesh Soldier/3PBritBody
+GeometryTemplate.setSkin animations/BritBody.skn
+GeometryTemplate.file BritBody
+GeometryTemplate.hasDynamicShadow 1
+GeometryTemplate.setLodRange 0 0 1 10 2 30
+GeometryTemplate.setLodRange 3 50 4 100 5 200
+GeometryTemplate.setLodPercent 0 1.0
+GeometryTemplate.setLodPercent 1 0.7
+GeometryTemplate.setLodPercent 2 0.3
+GeometryTemplate.setLodPercent 3 0.2
+GeometryTemplate.setLodPercent 4 0.1
+GeometryTemplate.setLodPercent 5 0.05
+
+
+GeometryTemplate.create AnimatedMesh Soldier/BritComplexHead1
+GeometryTemplate.setSkin animations/Brit1Face.skn
+GeometryTemplate.file Brit1Face
+GeometryTemplate.hasDynamicShadow 1
+GeometryTemplate.setLodRange 0 0 1 3 2 10
+GeometryTemplate.setLodPercent 0 1.0
+GeometryTemplate.setLodPercent 1 0.6
+GeometryTemplate.setLodPercent 2 0.3
+
+GeometryTemplate.create AnimatedMesh Soldier/BritComplexHead2
+GeometryTemplate.setSkin animations/Brit2Face.skn
+GeometryTemplate.file Brit2Face
+GeometryTemplate.hasDynamicShadow 1
+GeometryTemplate.setLodRange 0 0 1 3 2 10
+GeometryTemplate.setLodPercent 0 1.0
+GeometryTemplate.setLodPercent 1 0.6
+GeometryTemplate.setLodPercent 2 0.3
+
+GeometryTemplate.create AnimatedMesh Soldier/BritComplexHead3
+GeometryTemplate.setSkin animations/Brit3Face.skn
+GeometryTemplate.file Brit3Face
+GeometryTemplate.hasDynamicShadow 1
+GeometryTemplate.setLodRange 0 0 1 3 2 10
+GeometryTemplate.setLodPercent 0 1.0
+GeometryTemplate.setLodPercent 1 0.6
+GeometryTemplate.setLodPercent 2 0.3
+
+GeometryTemplate.create AnimatedMesh Soldier/BritHead
+GeometryTemplate.setSkin animations/BritHead.skn
+GeometryTemplate.file BritHead
+GeometryTemplate.hasDynamicShadow 1
+GeometryTemplate.setLodRange 0 0 1 10 2 30
+GeometryTemplate.setLodRange 3 50 4 60 5 100
+GeometryTemplate.setLodPercent 0 1.0
+GeometryTemplate.setLodPercent 1 0.6
+GeometryTemplate.setLodPercent 2 0.3
+GeometryTemplate.setLodPercent 3 0.2
+GeometryTemplate.setLodPercent 4 0.1
+GeometryTemplate.setLodPercent 5 0.03
+
+GeometryTemplate.create AnimatedMesh Soldier/BritLeftHand
+GeometryTemplate.setSkin animations/BritLeftHand.skn
+GeometryTemplate.file BritLeftHand
+GeometryTemplate.hasDynamicShadow 1
+GeometryTemplate.setLodRange 0 0 1 3 2 10
+GeometryTemplate.setLodPercent 0 1.0
+GeometryTemplate.setLodPercent 1 0.6
+GeometryTemplate.setLodPercent 2 0.3
+
+GeometryTemplate.create AnimatedMesh Soldier/BritRightHand
+GeometryTemplate.setSkin animations/BritRightHand.skn
+GeometryTemplate.file BritRightHand
+GeometryTemplate.hasDynamicShadow 1
+GeometryTemplate.setLodRange 0 0 1 3 2 10
+GeometryTemplate.setLodPercent 0 1.0
+GeometryTemplate.setLodPercent 1 0.6
+GeometryTemplate.setLodPercent 2 0.3
+

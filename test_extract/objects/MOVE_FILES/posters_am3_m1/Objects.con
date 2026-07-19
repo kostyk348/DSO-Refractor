@@ -1,0 +1,3 @@
+ObjectTemplate.create SimpleObject posters_am3_m1
+ObjectTemplate.geometry posters_am3_m1
+ObjectTemplate.setHasCollisionPhysics 0

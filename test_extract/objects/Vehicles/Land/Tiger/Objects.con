@@ -1,0 +1,278 @@
+
+
+rem *** Tiger ***
+ObjectTemplate.create PlayerControlObject Tiger
+ObjectTemplate.setNetworkableInfo TigerBodyInfo
+ObjectTemplate.saveInSeparateFile 1
+objectTemplate.cullRadiusScale 4
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasDynamicShadow 1
+ObjectTemplate.explosionRadius 8
+ObjectTemplate.explosionDamage 5
+ObjectTemplate.drag 2
+ObjectTemplate.mass 25000
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.hasArmor 1
+ObjectTemplate.hitpoints 100
+ObjectTemplate.maxhitpoints 100
+ObjectTemplate.material 50
+ObjectTemplate.criticalDamage 12
+ObjectTemplate.hpLostWhileCriticalDamage 1.5
+ObjectTemplate.explosionForceMod 6
+ObjectTemplate.addArmorEffect 35 e_PanzDamage 0/1/-1.6
+ObjectTemplate.addArmorEffect 15 e_PanzFire 0/1/-1.4
+ObjectTemplate.addArmorEffect 0 e_ExplGas 0/0/0
+ObjectTemplate.addArmorEffect 0 e_scrapmetal 0/0/0
+ObjectTemplate.addArmorEffect -1 e_explWater01 0/0/0
+ObjectTemplate.damageFromWater 1
+ObjectTemplate.aiTemplate Tiger
+rem -------------------------------------
+ObjectTemplate.addTemplate lodTiger
+rem -------------------------------------
+ObjectTemplate.setSoldierExitLocation -2.3/0.5/0 0/0/0
+ObjectTemplate.GUIIndex 75
+ObjectTemplate.setVehicleCategory VCLand
+ObjectTemplate.setVehicleType  VTHeavyTank
+
+
+rem *** lodTiger ***
+ObjectTemplate.create LodObject lodTiger
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+rem -------------------------------------
+ObjectTemplate.addTemplate TigerComplex
+ObjectTemplate.addTemplate TigerSimple
+ObjectTemplate.addTemplate TigerWreck
+rem -------------------------------------
+ObjectTemplate.lodSelector TigerLodSelector
+
+
+rem *** TigerComplex ***
+ObjectTemplate.create Bundle TigerComplex
+ObjectTemplate.geometry Tiger_Hull_M1
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+rem -------------------------------------
+ObjectTemplate.addTemplate TigerEntry
+ObjectTemplate.setPosition 0/0/1.2
+ObjectTemplate.addTemplate TigerEntry
+ObjectTemplate.setPosition 0/0/-1.199
+ObjectTemplate.addTemplate TigerEngine
+ObjectTemplate.addTemplate TigerTower
+ObjectTemplate.setPosition 0/0.64/0
+ObjectTemplate.addTemplate TigerHullHatch
+ObjectTemplate.setPosition -1.199/0.65/1.8
+rem -------------------------------------
+
+
+rem *** TigerEntry ***
+ObjectTemplate.create EntryPoint TigerEntry
+ObjectTemplate.setEntryRadius 3.5
+
+
+rem *** TigerTrackL ***
+ObjectTemplate.create AnimatedBundle TigerTrackL
+ObjectTemplate.loadSoundScript Sounds/TigerTrackL.ssc
+ObjectTemplate.geometry Tiger_TrackL_M1
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.createSkeleton animations/Tiger_TrackL_M1.ske
+ObjectTemplate.setAnimatedTextureSpeed -0.012/0
+rem -------------------------------------
+ObjectTemplate.addTemplate TigerWheelL2
+ObjectTemplate.setPosition -0.119/0.15/2.5
+ObjectTemplate.setRotation -179.999/0/0
+ObjectTemplate.addTemplate TigerWheelL2
+ObjectTemplate.setPosition -0.119/0/-2.499
+ObjectTemplate.setRotation -179.999/0/0
+ObjectTemplate.addTemplate TigerWheelL3Dummy
+ObjectTemplate.setPosition -0.079/-0.159/-1.793
+ObjectTemplate.useAsBone 0/0/0
+ObjectTemplate.setBoneOriginOffset 0/0/0
+ObjectTemplate.addTemplate TigerWheelL3
+ObjectTemplate.setPosition -0.229/-0.159/-1.258
+ObjectTemplate.useAsBone 0/0/0
+ObjectTemplate.setBoneOriginOffset 0/0/0
+ObjectTemplate.addTemplate TigerWheelL3Dummy
+ObjectTemplate.setPosition -0.079/-0.159/-0.764
+ObjectTemplate.useAsBone 0/0/0
+ObjectTemplate.setBoneOriginOffset 0/0/0
+ObjectTemplate.addTemplate TigerWheelL3DummySmoke
+ObjectTemplate.setPosition -0.229/-0.159/-0.254
+ObjectTemplate.useAsBone 0/0/0
+ObjectTemplate.setBoneOriginOffset 0/0/0
+ObjectTemplate.addTemplate TigerWheelL3Dummy
+ObjectTemplate.setPosition -0.079/-0.159/0.26
+ObjectTemplate.useAsBone 0/0/0
+ObjectTemplate.setBoneOriginOffset 0/0/0
+ObjectTemplate.addTemplate TigerWheelL3
+ObjectTemplate.setPosition -0.229/-0.159/0.745
+ObjectTemplate.useAsBone 0/0/0
+ObjectTemplate.setBoneOriginOffset 0/0/0
+ObjectTemplate.addTemplate TigerWheelL3Dummy
+ObjectTemplate.setPosition -0.079/-0.159/1.3
+ObjectTemplate.useAsBone 0/0/0
+ObjectTemplate.setBoneOriginOffset 0/0/0
+ObjectTemplate.addTemplate TigerWheelL3Dummy
+ObjectTemplate.setPosition -0.229/-0.159/1.695
+ObjectTemplate.useAsBone 0/0/0
+ObjectTemplate.setBoneOriginOffset 0/0/0
+rem -------------------------------------
+
+
+rem *** TigerWheelL2 ***
+ObjectTemplate.create SimpleObject TigerWheelL2
+ObjectTemplate.geometry Tiger_whe2L_M1
+ObjectTemplate.hasResponsePhysics 1
+
+
+rem *** TigerTrackR ***
+ObjectTemplate.create AnimatedBundle TigerTrackR
+ObjectTemplate.loadSoundScript Sounds/TigerTrackR.ssc
+ObjectTemplate.geometry Tiger_TrackR_M1
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.createSkeleton animations/Tiger_TrackR_M1.ske
+ObjectTemplate.setAnimatedTextureSpeed -0.012/0
+rem -------------------------------------
+ObjectTemplate.addTemplate TigerWheelR2
+ObjectTemplate.setPosition 0.12/0.15/2.5
+ObjectTemplate.setRotation -179.999/0/0
+ObjectTemplate.addTemplate TigerWheelR2
+ObjectTemplate.setPosition 0.12/0/-2.499
+ObjectTemplate.setRotation -179.999/0/0
+ObjectTemplate.addTemplate TigerWheelR3Dummy
+ObjectTemplate.setPosition 0.05/-0.159/-1.793
+ObjectTemplate.useAsBone 0/0/0
+ObjectTemplate.setBoneOriginOffset 0/0/0
+ObjectTemplate.addTemplate TigerWheelR3
+ObjectTemplate.setPosition 0.2/-0.159/-1.256
+ObjectTemplate.useAsBone 0/0/0
+ObjectTemplate.setBoneOriginOffset 0/0/0
+ObjectTemplate.addTemplate TigerWheelR3Dummy
+ObjectTemplate.setPosition 0.05/-0.159/-0.764
+ObjectTemplate.useAsBone 0/0/0
+ObjectTemplate.setBoneOriginOffset 0/0/0
+ObjectTemplate.addTemplate TigerWheelR3DummySmoke
+ObjectTemplate.setPosition 0.2/-0.159/-0.254
+ObjectTemplate.useAsBone 0/0/0
+ObjectTemplate.setBoneOriginOffset 0/0/0
+ObjectTemplate.addTemplate TigerWheelR3Dummy
+ObjectTemplate.setPosition 0.05/-0.159/0.26
+ObjectTemplate.useAsBone 0/0/0
+ObjectTemplate.setBoneOriginOffset 0/0/0
+ObjectTemplate.addTemplate TigerWheelR3
+ObjectTemplate.setPosition 0.2/-0.159/0.745
+ObjectTemplate.useAsBone 0/0/0
+ObjectTemplate.setBoneOriginOffset 0/0/0
+ObjectTemplate.addTemplate TigerWheelR3Dummy
+ObjectTemplate.setPosition 0.05/-0.159/1.3
+ObjectTemplate.useAsBone 0/0/0
+ObjectTemplate.setBoneOriginOffset 0/0/0
+ObjectTemplate.addTemplate TigerWheelR3Dummy
+ObjectTemplate.setPosition 0.2/-0.159/1.695
+ObjectTemplate.useAsBone 0/0/0
+ObjectTemplate.setBoneOriginOffset 0/0/0
+rem -------------------------------------
+
+
+rem *** TigerWheelR2 ***
+ObjectTemplate.create SimpleObject TigerWheelR2
+ObjectTemplate.geometry Tiger_whe2R_M1
+ObjectTemplate.hasResponsePhysics 1
+
+
+rem *** TigerTower ***
+ObjectTemplate.create RotationalBundle TigerTower
+ObjectTemplate.setNetworkableInfo TigerTurretInfo
+ObjectTemplate.setAttachToListener 1
+ObjectTemplate.loadSoundScript Sounds/tigertower.ssc
+ObjectTemplate.geometry Tiger_Tow_M1
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+rem -------------------------------------
+ObjectTemplate.addTemplate TigerGunBase
+ObjectTemplate.setPosition 0/0.325/1.295
+ObjectTemplate.addTemplate TigerTowerHatch
+ObjectTemplate.setPosition -0.792/0.95/-0.232
+rem -------------------------------------
+ObjectTemplate.setMaxSpeed 20/25/0
+ObjectTemplate.setAcceleration 1000/0/0
+ObjectTemplate.setInputToYaw c_PIMouseLookX
+
+rem *** TigerGunBase ***
+ObjectTemplate.create RotationalBundle TigerGunBase
+ObjectTemplate.setNetworkableInfo TigerGunInfo
+ObjectTemplate.setAttachToListener 1
+ObjectTemplate.loadSoundScript Sounds/TigerGunBase.ssc
+rem -------------------------------------
+ObjectTemplate.addTemplate lodTigerCockpit
+ObjectTemplate.addTemplate TigerGunBarrel
+ObjectTemplate.addTemplate Coaxial_MG42
+ObjectTemplate.setPosition 0.5/0/-0.699
+ObjectTemplate.addTemplate TigerCamera
+ObjectTemplate.setPosition -0.789/0/-0.059
+rem -------------------------------------
+ObjectTemplate.setMinRotation 0/-20/0
+ObjectTemplate.setMaxRotation 0/5/0
+ObjectTemplate.setMaxSpeed 15/15/0
+ObjectTemplate.setAcceleration 0/1000/0
+ObjectTemplate.setInputToPitch c_PIMouseLookY
+
+rem *** lodTigerCockpit ***
+ObjectTemplate.create LodObject lodTigerCockpit
+rem -------------------------------------
+ObjectTemplate.addTemplate TigerCockpitExternal
+ObjectTemplate.addTemplate TigerCockpitInternal
+ObjectTemplate.setPosition 0.3/0/0.1
+rem -------------------------------------
+ObjectTemplate.lodSelector TigercockpitSelector
+
+
+rem *** TigerCockpitExternal ***
+ObjectTemplate.create SimpleObject TigerCockpitExternal
+ObjectTemplate.geometry Tiger_Cannon1_M1
+
+
+rem *** TigerCockpitInternal ***
+ObjectTemplate.create SimpleObject TigerCockpitInternal
+ObjectTemplate.geometry 1p_Tiger_Gunner_m1
+
+
+rem *** TigercockpitSelector ***
+LodSelectorTemplate.create DistCompareSelector TigercockpitSelector
+LodSelectorTemplate.addLodDistance 1
+LodSelectorTemplate.addLodComparison 0.5
+
+
+rem *** TigerCamera ***
+ObjectTemplate.create Camera TigerCamera
+ObjectTemplate.setMaxSpeed 0/0/0
+ObjectTemplate.setAcceleration 0/0/0
+ObjectTemplate.setInputToYaw c_PIMouseLookX
+ObjectTemplate.setInputToPitch c_PIMouseLookY
+
+rem *** TigerTowerHatch ***
+ObjectTemplate.create SimpleObject TigerTowerHatch
+ObjectTemplate.geometry Tiger_Tower_Hatch_M1
+
+rem *** TigerHullHatch ***
+ObjectTemplate.create SimpleObject TigerHullHatch
+ObjectTemplate.geometry Tiger_Hull_Hatch_M1
+
+rem *** TigerSimple ***
+ObjectTemplate.create SimpleObject TigerSimple
+ObjectTemplate.geometry Tiger_Hull_L1
+
+
+rem *** TigerWreck ***
+ObjectTemplate.create SimpleObject TigerWreck
+ObjectTemplate.geometry Wreck_Tiger_m1
+
+
+rem *** TigerLodSelector ***
+LodSelectorTemplate.create DistCompareSelector2 TigerLodSelector
+LodSelectorTemplate.hasDestroyedLod 1
+LodSelectorTemplate.addLodDistance 100

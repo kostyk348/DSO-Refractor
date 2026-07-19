@@ -1,0 +1,14 @@
+ObjectTemplate.create Kit Jap_AT
+ObjectTemplate.geometry Kit_Axis_AntiTank
+ObjectTemplate.setHasCollisionPhysics 1
+ObjectTemplate.networkableInfo KitInfo
+ObjectTemplate.addTemplate Jap_Helmet
+ObjectTemplate.addTemplate Jap_hip_pack
+
+
+ObjectTemplate.addTemplate Panzershreck
+ObjectTemplate.addTemplate WalterP38
+ObjectTemplate.addTemplate KnifeAxis
+
+ObjectTemplate.addTemplate GrenadeAxis
+ObjectTemplate.aiTemplate  AT

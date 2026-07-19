@@ -1,0 +1,16 @@
+ObjectTemplate.create Kit US_Scout
+ObjectTemplate.geometry Kit_Allies_Scout
+ObjectTemplate.setHasCollisionPhysics 1
+ObjectTemplate.networkableInfo KitInfo
+ObjectTemplate.addTemplate US_Scout_Helm
+ObjectTemplate.addTemplate Radio
+ObjectTemplate.addTemplate US_Grenades
+ObjectTemplate.addTemplate US_Hip_Pack
+
+ObjectTemplate.addTemplate No4Sniper
+ObjectTemplate.addTemplate Colt
+ObjectTemplate.addTemplate KnifeAllies
+
+ObjectTemplate.addTemplate Binoculars
+ObjectTemplate.addTemplate GrenadeAllies
+ObjectTemplate.aitemplate Scout

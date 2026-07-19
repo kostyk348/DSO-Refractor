@@ -1,0 +1,17 @@
+rem *** Plugins ***
+aiTemplatePlugIn.create Cover afr_house2_steCover
+aiTemplatePlugIn.coverValue 50.0
+
+aiTemplatePlugIn.create Physical afr_house2_stePhysical
+
+rem *** AITemplate ***
+aiTemplate.create afr_house2_ste_m1
+aiTemplate.addType ITCover
+aiTemplate.addType ITStructure
+aiTemplate.addType ITNoTemperature
+aiTemplate.degeneration 1
+aiTemplate.allowedTimeDiff -1
+aiTemplate.basicTemp 1
+aiTemplate.commonKnowledge 1
+aiTemplate.addPlugIn afr_house2_steCover
+aiTemplate.addPlugIn afr_house2_stePhysical

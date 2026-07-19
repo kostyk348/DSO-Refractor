@@ -1,0 +1,8 @@
+NetworkableInfo.createNewInfo DefgunTurretInfo
+NetworkableInfo.setPredictionMode PMLinear
+
+NetworkableInfo.createNewInfo DefgunGunInfo
+NetworkableInfo.setPredictionMode PMLinear
+
+NetworkableInfo.createNewInfo DefgunBodyInfo
+NetworkableInfo.setPredictionMode PMLinear

@@ -1,0 +1,8 @@
+GeometryTemplate.create StandardMesh scrap_metal1_m1
+GeometryTemplate.file scrap_metal1_m1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 20
+GeometryTemplate.setLodDistance 2 40
+GeometryTemplate.setLodDistance 3 80
+GeometryTemplate.setLodDistance 4 100
+GeometryTemplate.setLodDistance 5 200

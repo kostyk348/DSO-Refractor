@@ -1,0 +1,47 @@
+newPatch
+load @ROOT/Sound/@RTD/barbwire1.wav
+randomStartPitch 0.03 / 0.0
+minDistance 3
+volume .5
+*** Distance Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 3
+	param 4
+	param 1
+	param -1	
+endEffect
+
+load @ROOT/Sound/@RTD/barbwire2.wav
+randomStartPitch 0.03 / 0.0
+minDistance 3
+volume .5
+*** Distance Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 3
+	param 4
+	param 1
+	param -1	
+endEffect
+
+load @ROOT/Sound/@RTD/barbwire3.wav
+randomStartPitch 0.03 / 0.0
+minDistance 3
+volume .5
+*** Distance Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 3
+	param 4
+	param 1
+	param -1	
+endEffect
+
+randomPlay 1

@@ -1,0 +1,75 @@
+ObjectTemplate.create BFSoldier USSoldier
+ObjectTemplate.createSkeleton animations/USSoldier.ske
+include ../Common/CommonSoldierData.inc
+include ../Common/Sounds/SoldierSound.inc
+
+ObjectTemplate.addTemplate USSoldierComplexHead
+ObjectTemplate.setRandomGeometries 3
+ObjectTemplate.setIsFirstPersonPart 0
+ObjectTemplate.setLodValue 0.01
+ObjectTemplate.bindToSkeletonPart Bip01_Spine3 3
+
+ObjectTemplate.addTemplate USSoldierHead
+ObjectTemplate.setIsFirstPersonPart 0
+ObjectTemplate.setLodValue -0.01
+
+ObjectTemplate.addTemplate USSoldier3PBody
+ObjectTemplate.setIsFirstPersonPart 0
+
+ObjectTemplate.addTemplate USSoldier1PBody
+ObjectTemplate.setIsFirstPersonPart 1
+
+ObjectTemplate.addTemplate USSoldierRightHand
+ObjectTemplate.setIsFirstPersonPart 0
+ObjectTemplate.setLodValue 0.03
+
+ObjectTemplate.addTemplate USSoldierLeftHand
+ObjectTemplate.setIsFirstPersonPart 0
+ObjectTemplate.setLodValue 0.03
+
+ObjectTemplate.addTemplate 1pUSSoldierRightHand
+ObjectTemplate.setIsFirstPersonPart 1
+ObjectTemplate.setLodValue 0.03
+
+ObjectTemplate.addTemplate 1pUSSoldierLeftHand
+ObjectTemplate.setIsFirstPersonPart 1
+ObjectTemplate.setLodValue 0.03
+
+ObjectTemplate.create SimpleObject USSoldier1PBody
+ObjectTemplate.geometry Soldier/1PUsBody
+
+ObjectTemplate.create SimpleObject USSoldier3PBody
+ObjectTemplate.geometry Soldier/3PUsBody
+ObjectTemplate.hasDynamicShadow 1
+
+ObjectTemplate.create AnimatedBundle USSoldierComplexHead1
+ObjectTemplate.createSkeleton animations/UsFace.ske
+ObjectTemplate.geometry Soldier/USComplexHead1
+ObjectTemplate.hasDynamicShadow 1
+
+ObjectTemplate.create AnimatedBundle USSoldierComplexHead2
+ObjectTemplate.createSkeleton animations/UsFace.ske
+ObjectTemplate.geometry Soldier/USComplexHead2
+ObjectTemplate.hasDynamicShadow 1
+
+ObjectTemplate.create AnimatedBundle USSoldierComplexHead3
+ObjectTemplate.createSkeleton animations/UsFace.ske
+ObjectTemplate.geometry Soldier/USComplexHead3
+ObjectTemplate.hasDynamicShadow 1
+
+ObjectTemplate.create SimpleObject USSoldierHead
+ObjectTemplate.geometry Soldier/USHead
+ObjectTemplate.hasDynamicShadow 1
+
+ObjectTemplate.create SimpleObject USSoldierLeftHand
+ObjectTemplate.geometry Soldier/USLeftHand
+
+ObjectTemplate.create SimpleObject USSoldierRightHand
+ObjectTemplate.geometry Soldier/USRightHand
+
+ObjectTemplate.create SimpleObject 1pUSSoldierLeftHand
+ObjectTemplate.geometry Soldier/1pUSLeftHand
+
+ObjectTemplate.create SimpleObject 1pUSSoldierRightHand
+ObjectTemplate.geometry Soldier/1pUSRightHand
+	

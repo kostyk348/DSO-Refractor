@@ -1,0 +1,4 @@
+ObjectTemplate.create SimpleObject stonebridge_2_m1
+ObjectTemplate.geometry stonebridge_2_m1
+ObjectTemplate.setHasCollisionPhysics 0
+ObjectTemplate.aiTemplate stonebridge_2_AI

@@ -1,0 +1,16 @@
+ObjectTemplate.create Kit  Rus_Medic
+ObjectTemplate.geometry  Kit_Allies_Medic
+ObjectTemplate.setHasCollisionPhysics 1
+ObjectTemplate.networkableInfo KitInfo
+ObjectTemplate.addTemplate medichelm_Russ
+ObjectTemplate.addTemplate Russian_Medic_hippack
+
+
+ObjectTemplate.addTemplate MP18
+ObjectTemplate.addTemplate Colt
+ObjectTemplate.addTemplate KnifeAllies
+ObjectTemplate.addTemplate MedPack
+
+ObjectTemplate.addTemplate GrenadeAllies
+ObjectTemplate.aitemplate Medic
+

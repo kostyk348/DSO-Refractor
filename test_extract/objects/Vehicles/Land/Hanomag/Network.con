@@ -1,0 +1,3 @@
+NetworkableInfo.createNewInfo HanomagInfo
+NetworkableInfo.setPredictionMode PMLinear
+

@@ -1,0 +1,4 @@
+ObjectTemplate.create SimpleObject militable_m1
+ObjectTemplate.geometry militable_m1
+ObjectTemplate.aiTemplate militable_m1
+ObjectTemplate.setHasCollisionPhysics 1

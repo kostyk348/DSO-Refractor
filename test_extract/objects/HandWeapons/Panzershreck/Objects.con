@@ -1,0 +1,90 @@
+ObjectTemplate.create HandFireArms Panzershreck
+ObjectTemplate.itemIndex 3
+ObjectTemplate.networkableInfo HandFireArmsInfo
+ObjectTemplate.projectileTemplate BazookaProjectile
+ObjectTemplate.projectilePosition 0/0/0.5
+ObjectTemplate.ForceOnExplosion 5
+ObjectTemplate.magSize 1
+ObjectTemplate.numOfMag 6
+ObjectTemplate.magType 0
+ObjectTemplate.autoReload 1
+ObjectTemplate.reloadtime 5.6
+ObjectTemplate.roundOfFire 1
+ObjectTemplate.fireOnce 1
+objectTemplate.aiTemplate PanzerschrekRPG
+ObjectTemplate.zoomFov 0.5
+ObjectTemplate.altFireOnce 1
+ObjectTemplate.soldierZoomFov 0.6 
+ObjectTemplate.soldierZoomPosition -0.05/-0.02/0
+ObjectTemplate.AmmoType	3
+
+ObjectTemplate.loadSoundScript Sounds/panzershrek.ssc
+
+ObjectTemplate.GUIIndex 5
+Rem *** Deviation Begin *****
+
+ObjectTemplate.velocity 50
+ObjectTemplate.minDeviation 0
+ObjectTemplate.maxDeviation 0.5
+
+ObjectTemplate.minDevStanding 0.2
+ObjectTemplate.minDevCrouching 0.1
+ObjectTemplate.minDevLying 0.05
+
+ObjectTemplate.subDevStanding 0.03
+ObjectTemplate.subDevCrouching 0.05
+ObjectTemplate.subDevLying 0.025
+
+ObjectTemplate.addDevWalk 0.01
+ObjectTemplate.addDevRun 0.02
+ObjectTemplate.addDevJump 0.05
+ObjectTemplate.addDevYaw 0.02
+ObjectTemplate.addDevPitch 0.02
+ObjectTemplate.addDevStrafe 0.01
+
+ObjectTemplate.addDevFire 0.08
+ObjectTemplate.subDev 0.01
+
+Rem *** Deviation  End *****
+ObjectTemplate.createSkeleton animations/Panzershreck.ske
+ObjectTemplate.useSkeletonPartAsMain Panzershreck
+ObjectTemplate.addTemplate PanzershreckLod
+
+ObjectTemplate.addTemplate e_rocketFumeBack
+ObjectTemplate.setInputId -1
+ObjectTemplate.startoneffects 0
+ObjectTemplate.setPosition 0/0/0
+ObjectTemplate.setRotation 0/0/0
+ObjectTemplate.fireInCameraDof 1
+
+
+rem ** Objects
+
+ObjectTemplate.create SimpleObject PanzershreckTrigger1
+ObjectTemplate.geometry PanzershreckTrigger1
+
+ObjectTemplate.create SimpleObject PanzershreckTrigger2
+ObjectTemplate.geometry PanzershreckTrigger2
+
+ObjectTemplate.create SimpleObject PanzershreckRocket
+ObjectTemplate.geometry PanzershreckRocket
+
+ObjectTemplate.create SimpleObject PanzershreckSimple
+ObjectTemplate.geometry Shad_Panzershreck
+
+ObjectTemplate.create AnimatedBundle PanzershreckComplex
+ObjectTemplate.geometry Panzershreck
+ObjectTemplate.hasDynamicShadow 1
+ObjectTemplate.createSkeleton animations/Panzershreck.ske
+ObjectTemplate.addTemplate PanzershreckTrigger1
+ObjectTemplate.bindToSkeletonPart Trigger1
+ObjectTemplate.addTemplate PanzershreckTrigger2
+ObjectTemplate.bindToSkeletonPart Trigger2
+ObjectTemplate.addTemplate PanzershreckRocket
+ObjectTemplate.bindToSkeletonPart rocket
+
+ObjectTemplate.create LodObject PanzershreckLod
+ObjectTemplate.lodselector HandWeaponLodSelector
+ObjectTemplate.addTemplate PanzershreckComplex
+ObjectTemplate.addTemplate PanzershreckSimple
+

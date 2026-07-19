@@ -1,0 +1,16 @@
+newPatch
+
+load @ROOT/Sound/@RTD/medkit.wav
+randomStartPitch 0.03 / 0.0
+minDistance 1
+volume .6
+*** Distance Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 2
+	param 6
+	param 1
+	param -1	
+endEffect

@@ -1,0 +1,42 @@
+rem *** Create Conditions ***
+
+aiStrategy.createConstantCondition constTest Crisp EqualGreater Friendly UnitConstant 0.5
+aiStrategy.setConditionStrength Advisory
+
+aiStrategy.createConstantCondition halfConstCond Crisp EqualGreater Friendly UnitConstant 0.5
+aiStrategy.setConditionStrength Advisory
+
+aiStrategy.createHomogenousCondition overwhelmingPowerCond Fuzzy QuotientGreater Both Ticket
+aiStrategy.setConditionStrength Required
+aiStrategy.TargetValue 2.5
+
+aiStrategy.createHomogenousCondition loosingCond Fuzzy QuotientSmaller Both Ticket
+aiStrategy.setConditionStrength Advisory
+aiStrategy.TargetValue 0.4
+
+aiStrategy.createHomogenousCondition navalCond Fuzzy QuotientSmaller Both Naval
+aiStrategy.setConditionStrength Advisory
+aiStrategy.TargetValue 0.75
+
+aiStrategy.createConstantCondition airPlaneCond Crisp EqualGreater Friendly Air 40
+aiStrategy.setConditionStrength Required
+
+aiStrategy.createAreaCondition areaTest AleisBase Owned
+aiStrategy.setConditionStrength Advisory
+
+rem *** Americans on Wake ***
+
+aiStrategy.createConstantCondition front2+Cond Fuzzy EqualGreater Friendly NumberOfHostileAreas 4
+aiStrategy.setConditionStrength Required
+
+aiStrategy.createConstantCondition singleFrontCond Fuzzy EqualSmaller Friendly NumberOfHostileAreas 5
+aiStrategy.setConditionStrength Required
+
+aiStrategy.createConstantCondition noFrontCond Crisp EqualSmaller Friendly NumberOfHostileAreas 3
+aiStrategy.setConditionStrength Required
+
+rem *** Japanesee on Wake ***
+
+aiStrategy.createConstantCondition timeDegenerateCond Crisp EqualSmaller Friendly StartTime 360
+aiStrategy.setConditionStrength OnlyNegative
+aiStrategy.isAbortCondition 1

@@ -1,0 +1,39 @@
+
+
+rem *** TigerGunBarrel ***
+ObjectTemplate.create FireArms TigerGunBarrel
+ObjectTemplate.setNetworkableInfo TankFireArmInfo
+ObjectTemplate.loadSoundScript Sounds/tigerCannon.ssc
+ObjectTemplate.geometry Tiger_Cannon2_M1
+ObjectTemplate.aiTemplate TigerMainGun
+rem -------------------------------------
+ObjectTemplate.addTemplate e_MuzzPanz
+ObjectTemplate.setPosition 0/0/3
+ObjectTemplate.setRotation -179.999/0/0
+rem -------------------------------------
+ObjectTemplate.projectileTemplate TigerProjectile
+ObjectTemplate.projectilePosition 0/0/1
+ObjectTemplate.magSize 30
+ObjectTemplate.numOfMag 1
+ObjectTemplate.velocity 100
+ObjectTemplate.autoReload 1
+ObjectTemplate.reloadtime 0.25
+ObjectTemplate.roundOfFire 0.25
+ObjectTemplate.fireingForce 90
+ObjectTemplate.recoilSpeed 10
+ObjectTemplate.recoilSize 10
+
+rem *** TigerProjectile ***
+ObjectTemplate.create Projectile TigerProjectile
+ObjectTemplate.createNotInGrid 1
+ObjectTemplate.loadSoundScript ../../Common/Sounds/Projectile.ssc
+ObjectTemplate.geometry projectile_m1
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.timeToLive CRD_NONE/10/0/0
+ObjectTemplate.damageType 1
+ObjectTemplate.material 239
+ObjectTemplate.material2 207
+ObjectTemplate.hasCollisionEffect 1
+ObjectTemplate.addTemplate e_PanzShootTrail

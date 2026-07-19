@@ -1,0 +1,115 @@
+
+rem *
+rem * ***** Katyusha - allied artillery *****
+rem *
+beginrem * 
+MaterialManager.attGroup 240
+MaterialManager.defGroup 40
+MaterialManager.damageMod 100.0
+MaterialManager.setEffectTemplate e_ExplAni01
+
+MaterialManager.attGroup 240
+MaterialManager.defGroup 41
+MaterialManager.damageMod 100.0
+MaterialManager.setEffectTemplate e_ExplAni01
+
+MaterialManager.attGroup 240
+MaterialManager.defGroup 42
+MaterialManager.damageMod 100.0
+MaterialManager.setEffectTemplate e_ExplAni01
+
+MaterialManager.attGroup 240
+MaterialManager.defGroup 43
+MaterialManager.damageMod 100.0
+MaterialManager.setEffectTemplate e_ExplAni01
+
+MaterialManager.attGroup 240
+MaterialManager.defGroup 44
+MaterialManager.damageMod 100.0
+MaterialManager.setEffectTemplate e_ExplAni01
+
+MaterialManager.attGroup 240
+MaterialManager.defGroup 45
+MaterialManager.damageMod 100.0
+MaterialManager.setEffectTemplate e_ExplAni01
+
+MaterialManager.attGroup 240
+MaterialManager.defGroup 46
+MaterialManager.damageMod 100.0
+MaterialManager.setEffectTemplate e_ExplAni01
+
+MaterialManager.attGroup 240
+MaterialManager.defGroup 47
+MaterialManager.damageMod 100.0
+MaterialManager.setEffectTemplate e_ExplAni01
+
+MaterialManager.attGroup 240
+MaterialManager.defGroup 48
+MaterialManager.damageMod 100.0
+MaterialManager.setEffectTemplate e_ExplAni01
+
+MaterialManager.attGroup 240
+MaterialManager.defGroup 49
+MaterialManager.damageMod 100.0
+MaterialManager.setEffectTemplate e_ExplAni01
+
+MaterialManager.attGroup 240
+MaterialManager.defGroup 50
+MaterialManager.damageMod 4.0
+MaterialManager.setEffectTemplate e_ExplAni01
+
+MaterialManager.attGroup 240
+MaterialManager.defGroup 51
+MaterialManager.damageMod 3.5
+MaterialManager.setEffectTemplate e_ExplAni01
+
+MaterialManager.attGroup 240
+MaterialManager.defGroup 52
+MaterialManager.damageMod 2.5
+MaterialManager.setEffectTemplate e_ExplAni01
+
+MaterialManager.attGroup 240
+MaterialManager.defGroup 53
+MaterialManager.damageMod 2.0
+MaterialManager.setEffectTemplate e_ExplAni01
+
+MaterialManager.attGroup 240
+MaterialManager.defGroup 54
+MaterialManager.damageMod 1.5
+MaterialManager.setEffectTemplate e_ExplAni01
+
+MaterialManager.attGroup 240
+MaterialManager.defGroup 55
+MaterialManager.damageMod 2.0
+MaterialManager.setEffectTemplate e_ExplAni01
+
+MaterialManager.attGroup 240
+MaterialManager.defGroup 56
+MaterialManager.damageMod 1.5
+MaterialManager.setEffectTemplate e_ExplAni01
+
+MaterialManager.attGroup 240
+MaterialManager.defGroup 57
+MaterialManager.damageMod 1.0
+MaterialManager.setEffectTemplate e_ExplAni01
+
+MaterialManager.attGroup 240
+MaterialManager.defGroup 58
+MaterialManager.damageMod 0.6
+MaterialManager.setEffectTemplate e_ExplAni01
+
+MaterialManager.attGroup 240
+MaterialManager.defGroup 59
+MaterialManager.damageMod 0.4
+MaterialManager.setEffectTemplate e_ExplAni01
+
+MaterialManager.attGroup 240
+MaterialManager.defGroup 0
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate e_ExplAni01
+
+MaterialManager.attGroup 240
+MaterialManager.defGroup 1
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate e_ExplWater01
+endrem * 

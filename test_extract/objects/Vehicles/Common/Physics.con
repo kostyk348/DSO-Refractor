@@ -1,0 +1,36 @@
+ObjectTemplate.create Engine Torpedo_Engine
+ObjectTemplate.saveInSeparateFile 1
+rem ObjectTemplate.addTemplate Sound_Torpedo_Engine
+ObjectTemplate.setPosition 0/0/90
+ObjectTemplate.setRotation 0/0/0
+ObjectTemplate.setMinRotation 0/0/0
+ObjectTemplate.setMaxRotation 0/0/5000
+ObjectTemplate.setPivotPosition 0/0/0
+ObjectTemplate.setMaxSpeed 0/0/2500
+ObjectTemplate.setAcceleration 0/0/5000
+ObjectTemplate.setContinousRotationSpeed 0/0/0
+ObjectTemplate.setInputToRoll c_PIThrottle
+ObjectTemplate.setEngineType c_ETTorpedo
+ObjectTemplate.setTorque 14
+ObjectTemplate.setNoPropellerEffectAtSpeed 120
+ObjectTemplate.setDifferential 3
+ObjectTemplate.setAutomaticReset 1
+ObjectTemplate.loadSoundScript Sounds/TorpedEngine.ssc
+
+ObjectTemplate.create FloatingBundle Torpedo_Floater
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.setHullHeight 4.3
+ObjectTemplate.setFloatMaxLift 5.9
+ObjectTemplate.setFloatMinLift 5.9
+ObjectTemplate.setDragModifier 8000.0     
+ObjectTemplate.setMinRotation 0/-1/0
+ObjectTemplate.setMaxRotation 0/1/0
+ObjectTemplate.setMaxSpeed 0/0.1/0
+ObjectTemplate.setAcceleration 0/-0.1/0
+ObjectTemplate.setInputToPitch 1
+ObjectTemplate.setAutomaticReset 1
+
+rem *** Torpedo_Wing ***
+ObjectTemplate.create Wing Torpedo_Wing
+ObjectTemplate.setWingLift 0.2
+

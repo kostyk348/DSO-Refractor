@@ -1,0 +1,8 @@
+GeometryTemplate.create StandardMesh stove_eu_m1
+GeometryTemplate.file stove_eu_m1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 10
+GeometryTemplate.setLodDistance 2 15
+GeometryTemplate.setLodDistance 3 20
+GeometryTemplate.setLodDistance 4 25
+GeometryTemplate.setLodDistance 5 30

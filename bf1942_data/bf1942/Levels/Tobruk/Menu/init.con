@@ -1,0 +1,29 @@
+Game.setLocalized 1
+
+rem ** Allied Briefing **
+game.setAlliedCampaign BRIEFING_ALLIED_CAMPAIGN_TOBRUK
+game.setAlliedHints BRIEFING_ALLIED_HINTS_TOBRUK
+game.setAlliedObjectives BRIEFING_ALLIED_OBJECTIVES_TOBRUK
+game.setAlliedSkirmish BRIEFING_ALLIED_SKIRMISH_TOBRUK
+
+rem ** Axis Briefing **
+game.setAxisCampaign BRIEFING_AXIS_CAMPAIGN_TOBRUK
+game.setAxisHints BRIEFING_AXIS_HINTS_TOBRUK
+game.setAxisObjectives BRIEFING_AXIS_OBJECTIVES_TOBRUK
+game.setAxisSkirmish BRIEFING_AXIS_SKIRMISH_TOBRUK
+
+rem ** Allied Debriefing **
+game.setAlliedDebriefingMajorVictory DEBRIEFING_ALLIED_MAJOR_VICTORY_TOBRUK
+game.setAlliedDebriefingMinorVictory DEBRIEFING_ALLIED_MINOR_VICTORY_TOBRUK
+game.setAlliedDebriefingMajorDefeat DEBRIEFING_ALLIED_MAJOR_DEFEAT_TOBRUK
+game.setAlliedDebriefingMinorDefeat DEBRIEFING_ALLIED_MINOR_DEFEAT_TOBRUK
+
+rem ** Axis Debriefing **
+game.setAxisDebriefingMajorVictory DEBRIEFING_AXIS_MAJOR_VICTORY_TOBRUK
+game.setAxisDebriefingMinorVictory DEBRIEFING_AXIS_MINOR_VICTORY_TOBRUK
+game.setAxisDebriefingMajorDefeat DEBRIEFING_AXIS_MAJOR_DEFEAT_TOBRUK
+game.setAxisDebriefingMinorDefeat DEBRIEFING_AXIS_MINOR_DEFEAT_TOBRUK
+
+rem ** Multiplayer Briefing **
+game.setMultiplayerBriefingObjectives MULTIPLAYER_BRIEFING_TOBRUK
+game.setMultiplayerBriefingMapType MULTIPLAYER_MAP_TYPE_ASSAULT_MAP

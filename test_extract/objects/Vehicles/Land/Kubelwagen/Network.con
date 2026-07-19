@@ -1,0 +1,11 @@
+NetworkableInfo.createNewInfo KubelwagenEngineInfo
+NetworkableInfo.setPredictionMode PMLinear
+
+NetworkableInfo.createNewInfo KubelwagenBodyInfo
+NetworkableInfo.setPredictionMode PMLinear
+
+NetworkableInfo.createNewInfo KubelwagenSteeringInfo
+NetworkableInfo.setPredictionMode PMLinear
+
+NetworkableInfo.createNewInfo KubelwagenTurretInfo
+NetworkableInfo.setPredictionMode PMLinear

@@ -1,0 +1,5 @@
+GeometryTemplate.create StandardMesh Brit_Scout_helm
+GeometryTemplate.file Brit_Scouthelm_m1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 30
+GeometryTemplate.setLodDistance 2 100

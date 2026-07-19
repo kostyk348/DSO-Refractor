@@ -1,0 +1,16 @@
+GeometryTemplate.create StandardMesh afr_house2_ste_m1
+GeometryTemplate.file afr_house2_ste_m1
+GeometryTemplate.textureFadeMaxDist 70
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 15
+GeometryTemplate.setLodDistance 2 30
+GeometryTemplate.setLodDistance 3 40
+
+GeometryTemplate.create StandardMesh afr_house2_ste_m2
+GeometryTemplate.file afr_house2_ste_m2
+GeometryTemplate.textureFadeMaxDist 70
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 70
+GeometryTemplate.setLodDistance 2 80
+GeometryTemplate.setLodDistance 3 100
+GeometryTemplate.setLodDistance 4 120

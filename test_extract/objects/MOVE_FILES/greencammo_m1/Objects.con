@@ -1,0 +1,3 @@
+ObjectTemplate.create SimpleObject greencammo_m1
+ObjectTemplate.geometry greencammo_m1
+ObjectTemplate.setHasCollisionPhysics 1

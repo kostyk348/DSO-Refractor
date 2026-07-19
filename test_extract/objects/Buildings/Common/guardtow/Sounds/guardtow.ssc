@@ -1,0 +1,29 @@
+newPatch
+############
+### Near ###
+############
+load @ROOT/Sound/@RTD/wind.wav
+loop
+minDistance 5
+relativePosition 0/15/0
+randomStartPitch 0.25 / 0.0
+
+*** Offset Pitch ***
+beginEffect
+	controlDestination Pitch
+	controlSource Default
+	envelope Linear
+	param 0.9
+	param 0
+endEffect
+
+*** Distance Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 5
+	param 7
+	param 1
+	param -1	
+endEffect

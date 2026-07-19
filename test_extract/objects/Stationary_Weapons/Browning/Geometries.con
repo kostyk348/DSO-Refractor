@@ -1,0 +1,8 @@
+GeometryTemplate.create StandardMesh RiBro_Body_m1
+GeometryTemplate.file RiBro_Body_m1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 1
+GeometryTemplate.setLodDistance 2 2
+GeometryTemplate.setLodDistance 3 4
+GeometryTemplate.setLodDistance 4 5
+GeometryTemplate.setLodDistance 5 100

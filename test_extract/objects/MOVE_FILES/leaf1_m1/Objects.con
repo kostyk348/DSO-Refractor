@@ -1,0 +1,3 @@
+ObjectTemplate.create SimpleObject leaf1_m1
+ObjectTemplate.geometry leaf1_m1
+ObjectTemplate.setHasCollisionPhysics 0

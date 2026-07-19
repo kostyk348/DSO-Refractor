@@ -1,0 +1,229 @@
+
+
+rem *** flak38 ***
+ObjectTemplate.create PlayerControlObject flak38
+ObjectTemplate.setNetworkableInfo flak38_BodyInfo
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.hasArmor 1
+ObjectTemplate.hitpoints 100
+ObjectTemplate.maxhitpoints 100
+ObjectTemplate.material 45
+ObjectTemplate.addArmorEffect 35 e_AA-GunDamage 0/0.3/0
+ObjectTemplate.addArmorEffect 0 e_ScrapAAFlak38 0/1.2/0
+ObjectTemplate.addArmorEffect 0 e_ExplGas 0/1.2/0
+ObjectTemplate.aiTemplate Flak38
+ObjectTemplate.timetoliveafterdeath 0
+rem -------------------------------------
+ObjectTemplate.addTemplate flak38_Entry
+ObjectTemplate.addTemplate flak38_body
+ObjectTemplate.addTemplate flak38_base
+rem -------------------------------------
+ObjectTemplate.setSoldierExitLocation -2/0.5/0 0/0/0
+ObjectTemplate.GUIIndex 19
+ObjectTemplate.setVehicleCategory VCLand
+ObjectTemplate.setVehicleType  VTAAGun
+
+
+rem *** flak38_Entry ***
+ObjectTemplate.create EntryPoint flak38_Entry
+ObjectTemplate.setEntryRadius 3.2
+
+
+rem *** flak38_body ***
+ObjectTemplate.create RotationalBundle flak38_body
+ObjectTemplate.setNetworkableInfo flak38_BodyInfo
+ObjectTemplate.setAttachToListener 1
+ObjectTemplate.loadSoundScript Sounds/flak38Carriage.ssc
+ObjectTemplate.geometry flak38_lavett_m1
+rem -------------------------------------
+ObjectTemplate.addTemplate flak38_gun
+ObjectTemplate.setPosition 0/0.899/0.373
+ObjectTemplate.addTemplate Flak38_Seat
+ObjectTemplate.setPosition 0.57/0.6/-0.429
+ObjectTemplate.addTemplate flak38_handle1
+ObjectTemplate.setPosition 0/0.08/-0.449
+ObjectTemplate.setRotation 0/0/90
+ObjectTemplate.addTemplate flak38_handle2
+ObjectTemplate.setPosition 0/0.815/-0.215
+ObjectTemplate.addTemplate flak38_pedal
+ObjectTemplate.setPosition 0/0.393/0.423
+ObjectTemplate.addTemplate flak38_targeter
+ObjectTemplate.setPosition 0/1.186/-0.576
+rem -------------------------------------
+ObjectTemplate.setMaxSpeed 100/0/0
+ObjectTemplate.setAcceleration 1000/0/0
+ObjectTemplate.setInputToYaw c_PIMouseLookX
+
+
+rem *** flak38_gun ***
+ObjectTemplate.create RotationalBundle flak38_gun
+ObjectTemplate.setNetworkableInfo flak38_BodyInfo
+ObjectTemplate.setAttachToListener 1
+ObjectTemplate.loadSoundScript Sounds/flak38gunbase.ssc
+rem -------------------------------------
+ObjectTemplate.addTemplate lodFlak38Cockpit
+ObjectTemplate.addTemplate flak38_gun_barrel
+ObjectTemplate.setPosition 0/-0.009/-0.009
+ObjectTemplate.addTemplate flak38_Camera
+ObjectTemplate.setPosition 0.55/0.422/0.14
+rem -------------------------------------
+ObjectTemplate.setMinRotation 0/-70/0
+ObjectTemplate.setMaxSpeed 0/100/0
+ObjectTemplate.setAcceleration 0/1000/0
+ObjectTemplate.setInputToPitch c_PIMouseLookY
+
+
+rem *** lodFlak38Cockpit ***
+ObjectTemplate.create LodObject lodFlak38Cockpit
+rem -------------------------------------
+ObjectTemplate.addTemplate Flak38CockpitExternal
+ObjectTemplate.addTemplate Flak38CockpitInternal
+ObjectTemplate.setPosition -0.035/0.29/0.6
+rem -------------------------------------
+ObjectTemplate.lodSelector Flak38CockpitSelector
+
+
+rem *** Flak38CockpitExternal ***
+ObjectTemplate.create SimpleObject Flak38CockpitExternal
+ObjectTemplate.geometry flak38_gun_m1
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+
+rem *** Flak38CockpitInternal ***
+ObjectTemplate.create SimpleObject Flak38CockpitInternal
+ObjectTemplate.geometry 1P_flak38_gun_m1
+
+
+rem *** flak38CockpitSelector ***
+LodSelectorTemplate.create DistCompareSelector flak38CockpitSelector
+LodSelectorTemplate.addLodDistance 2
+LodSelectorTemplate.addLodComparison 0.5
+
+
+rem *** flak38_gun_barrel ***
+ObjectTemplate.create RotationalBundle flak38_gun_barrel
+rem -------------------------------------
+ObjectTemplate.addTemplate flak38_Gun_fire
+ObjectTemplate.setPosition 0/0/0
+rem ObjectTemplate.setPosition 0/-0.029/1.8
+rem -------------------------------------
+ObjectTemplate.setMaxSpeed 0/0/0
+ObjectTemplate.setAcceleration 0/0/0
+
+
+rem *** flak38_Camera ***
+ObjectTemplate.create Camera flak38_Camera
+ObjectTemplate.setMaxSpeed 0/0/0
+ObjectTemplate.setAcceleration 0/0/0
+ObjectTemplate.setInputToYaw c_PIMouseLookX
+ObjectTemplate.setInputToPitch c_PIMouseLookY
+
+
+rem *** Flak38_Seat ***
+ObjectTemplate.create SeatObject Flak38_Seat
+ObjectTemplate.seatFlags c_SeatShowFullBodySoldier
+ObjectTemplate.seatFlags c_SeatIsOutside
+
+
+rem *** flak38_handle1 ***
+ObjectTemplate.create RotationalBundle flak38_handle1
+ObjectTemplate.geometry flak38_handle02_m1
+rem -------------------------------------
+ObjectTemplate.addTemplate flak38_handle1_grip
+rem -------------------------------------
+ObjectTemplate.setMaxSpeed 0/800/0
+ObjectTemplate.setAcceleration 0/1000/0
+ObjectTemplate.setInputToPitch c_PIMouseLookX
+
+
+rem *** flak38_handle1_grip ***
+ObjectTemplate.create AnimatedBundle flak38_handle1_grip
+
+
+rem *** flak38_handle2 ***
+ObjectTemplate.create RotationalBundle flak38_handle2
+ObjectTemplate.geometry flak38_handle02_m1
+rem -------------------------------------
+ObjectTemplate.addTemplate flak38_handle2_grip
+rem -------------------------------------
+ObjectTemplate.setMaxSpeed 0/800/0
+ObjectTemplate.setAcceleration 0/1000/0
+ObjectTemplate.setInputToPitch c_PIMouseLookY
+
+
+rem *** flak38_handle2_grip ***
+ObjectTemplate.create AnimatedBundle flak38_handle2_grip
+
+
+rem *** flak38_pedal ***
+ObjectTemplate.create RotationalBundle flak38_pedal
+ObjectTemplate.geometry flak38_pedal_m1
+ObjectTemplate.setMinRotation 0/-90/0
+ObjectTemplate.setMaxRotation -1.07374e+008/-1.07374e+008/-1.07374e+008
+ObjectTemplate.setMaxSpeed 0/90/0
+ObjectTemplate.setAcceleration 0/10/0
+
+
+rem *** flak38_targeter ***
+ObjectTemplate.create RotationalBundle flak38_targeter
+ObjectTemplate.geometry flak38_targeter_m1
+ObjectTemplate.setMinRotation 0/-90/0
+ObjectTemplate.setMaxRotation 0/90/0
+ObjectTemplate.setMaxSpeed 90/90/90
+
+
+rem *** flak38_base ***
+ObjectTemplate.create SimpleObject flak38_base
+ObjectTemplate.geometry flak38_base_M1
+ObjectTemplate.setHasCollisionPhysics 1
+ObjectTemplate.setHasResponsePhysics 1
+ObjectTemplate.destroyed 1
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.sinkInToLandAfterDeathSpeed 10
+
+
+rem - Tosses from Explosions.
+
+rem *** flak38_pedal_Toss ***
+ObjectTemplate.create Bundle flak38_pedal_Toss
+ObjectTemplate.geometry flak38_pedal_m1
+ObjectTemplate.setHasResponsePhysics 1
+ObjectTemplate.destroyed 1
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.sinkInToLandAfterDeathSpeed 10
+
+rem *** flak38_gun_Barrel_Toss ***
+ObjectTemplate.create SimpleObject flak38_gun_Barrel_Toss
+ObjectTemplate.geometry flak38_gun_barrel_m1
+ObjectTemplate.setHasResponsePhysics 1
+ObjectTemplate.destroyed 1
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.sinkInToLandAfterDeathSpeed 10
+
+rem *** flak38_cannon_Toss ***
+ObjectTemplate.create SimpleObject flak38_cannon_Toss
+ObjectTemplate.geometry flak38_cannon_m1
+ObjectTemplate.setHasResponsePhysics 1
+ObjectTemplate.destroyed 1
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.sinkInToLandAfterDeathSpeed 10
+
+rem *** flak38_lavett_Toss ***
+ObjectTemplate.create SimpleObject flak38_lavett_Toss
+ObjectTemplate.geometry flak38_lavett_m1
+ObjectTemplate.setHasResponsePhysics 1
+ObjectTemplate.destroyed 1
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.sinkInToLandAfterDeathSpeed 10
+
+rem *** flak38_gun_Toss ***
+ObjectTemplate.create SimpleObject flak38_gun_Toss
+ObjectTemplate.geometry flak38_gun_m1
+ObjectTemplate.setHasResponsePhysics 1
+ObjectTemplate.destroyed 1
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.sinkInToLandAfterDeathSpeed 10
+

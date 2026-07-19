@@ -1,0 +1,44 @@
+ObjectTemplate.create FireArms Browning
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.geometry RiBro_Body_m1
+ObjectTemplate.aiTemplate Browning 
+ObjectTemplate.projectileTemplate Browning_Projectile
+ObjectTemplate.setTracerTemplate Tracer_Projectile CRD_NONE/2/0/0
+ObjectTemplate.projectilePosition 0/0/2
+ObjectTemplate.magSize -1
+ObjectTemplate.numOfMag 999
+ObjectTemplate.magType 0
+ObjectTemplate.reloadtime 0.1
+ObjectTemplate.recoilSpeed 50.0
+ObjectTemplate.roundOfFire 10
+ObjectTemplate.autoReload 1
+ObjectTemplate.addDevFire 0
+
+Rem *** Deviation Begin *****
+
+ObjectTemplate.velocity 700
+ObjectTemplate.setFireDev 0.7 0.3 0.048
+ObjectTemplate.setMinDev 0.5
+
+Rem *** Deviation  End *****
+ObjectTemplate.fireInCameraDof 1
+objectTemplate.heatAddWhenFire 0.04
+objectTemplate.coolDownPerSec 0.4
+objectTemplate.timeDelayOnOverHeat 2
+
+ObjectTemplate.addSkeletonIK Bip01_R_Hand 0.12/0.08/-0.68 -30/80/90
+ObjectTemplate.addSkeletonIK Bip01_L_Hand -0.12/0.08/-0.68 30/-100/-90
+
+ObjectTemplate.addTemplate e_MuzzHeavy
+ObjectTemplate.startoneffects 1
+ObjectTemplate.setPosition 0/0.1/0.8
+ObjectTemplate.setRotation 0/0/0
+
+ObjectTemplate.addTemplate e_Shell1250mm
+ObjectTemplate.startoneffects 1
+ObjectTemplate.setPosition 0/0.12/0.16
+ObjectTemplate.setRotation 0/0/0
+
+rem *** Sound Browning ***
+ObjectTemplate.loadSoundScript Sounds/Browning.ssc
+

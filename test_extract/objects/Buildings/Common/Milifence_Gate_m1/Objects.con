@@ -1,0 +1,9 @@
+ObjectTemplate.create Bundle Milifence_Gate_m1
+ObjectTemplate.geometry Milifence_Gate_m1
+ObjectTemplate.setHasCollisionPhysics 1
+ObjectTemplate.addTemplate Milifence_Gatefence_m1
+
+ObjectTemplate.create SimpleObject Milifence_Gatefence_m1
+ObjectTemplate.geometry Milifence_Gatefence_m1
+ObjectTemplate.setHasCollisionPhysics 1
+ObjectTemplate.addToCollisionGroup c_CGProjectiles

@@ -1,0 +1,8 @@
+[CubeMap]
+PositiveX = bf1942\levels\Tobruk\Textures\env_Tobruk_02.dds
+NegativeX = bf1942\levels\Tobruk\Textures\env_Tobruk_04.dds
+PositiveY = bf1942\levels\Tobruk\Textures\env_Tobruk_05.dds
+NegativeY = bf1942\levels\Tobruk\Textures\env_Tobruk_06.dds
+PositiveZ = bf1942\levels\Tobruk\Textures\env_Tobruk_01.dds
+NegativeZ = bf1942\levels\Tobruk\Textures\env_Tobruk_03.dds
+

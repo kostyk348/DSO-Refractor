@@ -1,0 +1,16 @@
+rem *** Plugins ***
+aiTemplatePlugIn.create Cover French_Barn_LrgCover
+aiTemplatePlugIn.coverValue 70.0
+
+aiTemplatePlugIn.create Physical French_Barn_LrgPhysical
+
+rem *** AITemplate ***
+aiTemplate.create French_Barn_Lrg_m1
+aiTemplate.addType ITCover
+aiTemplate.addType ITNoTemperature
+aiTemplate.degeneration 1
+aiTemplate.allowedTimeDiff -1
+aiTemplate.basicTemp 1
+aiTemplate.commonKnowledge 1
+aiTemplate.addPlugIn French_Barn_LrgCover
+aiTemplate.addPlugIn French_Barn_LrgPhysical

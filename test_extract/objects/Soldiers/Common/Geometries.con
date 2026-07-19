@@ -1,0 +1,2 @@
+GeometryTemplate.create SkeletonCollisionMesh BodyCollision
+GeometryTemplate.file bodycollision_m1

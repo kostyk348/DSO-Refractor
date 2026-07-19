@@ -1,0 +1,9 @@
+
+GeometryTemplate.create StandardMesh hospital_sta1_m1
+GeometryTemplate.file hospital_sta1_m1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 2
+GeometryTemplate.setLodDistance 2 5
+GeometryTemplate.setLodDistance 3 10
+GeometryTemplate.setLodDistance 4 20
+GeometryTemplate.setLodDistance 5 100

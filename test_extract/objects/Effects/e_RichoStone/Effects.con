@@ -1,0 +1,20 @@
+
+
+rem *** e_RichoStone ***
+ObjectTemplate.create EffectBundle e_RichoStone
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.loadSoundScript Sounds/richostone.ssc
+rem -------------------------------------
+ObjectTemplate.addTemplate Em_richoBasic
+ObjectTemplate.addTemplate Em_richoStone
+ObjectTemplate.addTemplate Em_richoStone1
+ObjectTemplate.addTemplate Em_richoStone2
+ObjectTemplate.addTemplate Em_richoS_smoke
+ObjectTemplate.addTemplate Em_RichoStoneMesh
+ObjectTemplate.addTemplate Em_richoStoneBase
+ObjectTemplate.addTemplate Em_RichoBase
+ObjectTemplate.timeToLive CRD_NONE/1/0/0
+rem -------------------------------------
+
+
+

@@ -1,0 +1,74 @@
+############################
+### GainControlPoint1	 ###
+############################
+newPatch
+load @ROOT/Sound/@RTD/@Language/WeNowHaveControlOver.wav
+priority 11
+
+############################
+### GainControlPoint2	 ###
+############################
+newPatch
+load @ROOT/Sound/@RTD/@Language/WeNowHaveControlOver2.wav
+priority 11
+
+############################
+### GainControlPoint3	 ###
+############################
+newPatch
+load @ROOT/Sound/@RTD/@Language/WeNowHaveControlOver3.wav
+priority 11
+
+############################
+### LoseControlPoint1	 ###
+############################
+newPatch
+load @ROOT/Sound/@RTD/@Language/WeHaveLostControlOf.wav
+priority 11
+
+############################
+### LoseControlPoint2	 ###
+############################
+newPatch
+load @ROOT/Sound/@RTD/@Language/WeHaveLostControlOf2.wav
+priority 11
+
+############################
+### LoseControlPoint3	 ###
+############################
+newPatch
+load @ROOT/Sound/@RTD/@Language/WeHaveLostControlOf3.wav
+priority 11
+
+############################
+### AutoLoseTickets	 ###
+############################
+newPatch
+load @ROOT/Sound/@RTD/@Language/WeAreTakingHeavyCasualities.wav
+priority 11
+
+############################
+### TicketLow	 ###
+############################
+newPatch
+load @ROOT/Sound/@RTD/@Language/WeAreRunningLowOnReinforce.wav
+priority 11
+
+############################
+### LeavingCombat	 ###
+############################
+newPatch
+load @ROOT/Sound/@RTD/@Language/WarningDesertersShot.wav
+load @ROOT/Sound/@RTD/@Language/WarningDesertersShotALT.wav
+
+randomPlay 1
+priority 11
+
+
+############################
+### RadioCrackle	 ###
+############################
+newPatch
+load @ROOT/Sound/@RTD/radiomess.wav
+
+priority 11

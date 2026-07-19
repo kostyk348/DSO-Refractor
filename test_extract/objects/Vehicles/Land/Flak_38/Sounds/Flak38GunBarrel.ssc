@@ -1,0 +1,57 @@
+newPatch
+################
+### Left far ###
+################
+
+load @ROOT/Sound/@RTD/WSAAAFIRE2.wav
+minDistance 15
+relativePosition 2/.2/0
+
+*** Engine Pitch ***
+beginEffect
+	controlDestination Pitch
+	controlSource Default
+	envelope Linear
+	param .9
+	param 0
+endEffect
+
+*** Distance Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 150
+	param 200
+	param 1
+	param -1	
+endEffect
+
+###################
+### Right close ###
+###################
+
+load @ROOT/Sound/@RTD/WSAAAFIRE2.wav
+minDistance 1
+relativePosition -2/.2/0
+
+*** Engine Pitch ***
+beginEffect
+	controlDestination Pitch
+	controlSource Default
+	envelope Linear
+	param .8
+	param 0
+endEffect
+
+*** Distance Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 1
+	param 2
+	param 1
+	param -1	
+endEffect
+

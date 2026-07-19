@@ -1,0 +1,4 @@
+ObjectTemplate.create SimpleObject telepole_M1
+ObjectTemplate.geometry telepole_M1
+ObjectTemplate.setHasCollisionPhysics 1
+

@@ -1,0 +1,19 @@
+rem *** Plugins ***
+aiTemplatePlugIn.create Cover HangarCover
+aiTemplatePlugIn.coverValue 50.0
+
+aiTemplatePlugIn.create Physical HangarPhysical
+
+rem *** AITemplate ***
+aiTemplate.create hangar1_m1
+aiTemplate.addType ITCover
+aiTemplate.addType ITStructure
+aiTemplate.addType ITNoTemperature
+aiTemplate.degeneration 1
+aiTemplate.allowedTimeDiff -1
+aiTemplate.basicTemp 1
+aiTemplate.commonKnowledge 1
+aiTemplate.addPlugIn HangarCover
+aiTemplate.addPlugIn HangarPhysical
+
+

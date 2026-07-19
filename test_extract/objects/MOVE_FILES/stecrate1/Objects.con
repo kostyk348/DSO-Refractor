@@ -1,0 +1,4 @@
+ObjectTemplate.create SimpleObject stecrate1_M1
+ObjectTemplate.geometry stecrate1_M1
+ObjectTemplate.setHasCollisionPhysics 1
+ObjectTemplate.aiTemplate stecrate1_M1

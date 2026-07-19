@@ -1,0 +1,10 @@
+ObjectTemplate.create KitPart Brit_helmet
+ObjectTemplate.geometry Brit_helmet
+ObjectTemplate.setBoneName A
+ObjectTemplate.setCopyLinksCount 0
+
+ObjectTemplate.create KitPart British_hippack
+ObjectTemplate.geometry British_hippack
+ObjectTemplate.setBoneName HipPack
+ObjectTemplate.setCopyLinksCount 0
+

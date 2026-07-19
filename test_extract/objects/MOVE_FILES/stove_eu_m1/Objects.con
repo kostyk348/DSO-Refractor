@@ -1,0 +1,3 @@
+ObjectTemplate.create SimpleObject stove_eu_m1
+ObjectTemplate.geometry stove_eu_m1
+ObjectTemplate.setHasCollisionPhysics 1

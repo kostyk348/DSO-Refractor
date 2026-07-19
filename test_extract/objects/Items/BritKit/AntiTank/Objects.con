@@ -1,0 +1,15 @@
+ObjectTemplate.create Kit GB_AT
+ObjectTemplate.geometry Kit_Allies_AntiTank
+ObjectTemplate.setHasCollisionPhysics 1
+ObjectTemplate.networkableInfo KitInfo
+ObjectTemplate.addTemplate Brit_Helmet
+rem ObjectTemplate.addTemplate US_Britt_Bacpac
+ObjectTemplate.addTemplate British_hippack
+
+ObjectTemplate.addTemplate Bazooka
+ObjectTemplate.addTemplate Colt
+ObjectTemplate.addTemplate KnifeAllies
+ObjectTemplate.addTemplate GrenadeAllies
+
+
+ObjectTemplate.aiTemplate  AT

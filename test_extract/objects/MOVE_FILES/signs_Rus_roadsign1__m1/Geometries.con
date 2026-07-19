@@ -1,0 +1,8 @@
+GeometryTemplate.create StandardMesh signs_Rus_roadsign1__m1
+GeometryTemplate.file signs_Rus_roadsign1__m1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 15
+GeometryTemplate.setLodDistance 2 30
+GeometryTemplate.setLodDistance 3 50
+GeometryTemplate.setLodDistance 4 80
+GeometryTemplate.setLodDistance 5 150

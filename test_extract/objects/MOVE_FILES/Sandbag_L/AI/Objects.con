@@ -1,0 +1,17 @@
+rem *** Plugins ***
+aiTemplatePlugIn.create Cover Sandbag_LCover
+aiTemplatePlugIn.coverValue 20.0
+
+aiTemplatePlugIn.create Physical Sandbag_LPhysical
+
+rem *** AITemplate ***
+aiTemplate.create sandbagl_m1
+aiTemplate.addType ITCover
+aiTemplate.addType ITNoTemperature
+aiTemplate.degeneration 1
+aiTemplate.allowedTimeDiff -1
+aiTemplate.basicTemp 1
+aiTemplate.commonKnowledge 1
+aiTemplate.addPlugIn Sandbag_LCover
+aiTemplate.addPlugIn Sandbag_LPhysical
+

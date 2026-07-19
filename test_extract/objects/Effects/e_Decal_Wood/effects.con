@@ -1,0 +1,27 @@
+rem
+rem *** e_RichoWoodDecal ***
+rem
+ObjectTemplate.create EffectBundle e_RichoWoodDecal
+ObjectTemplate.saveInSeparateFile 1
+rem -------------------------------------
+ObjectTemplate.addTemplate Em_RichoWoodDecal
+ObjectTemplate.timeToLive CRD_NONE/0.1/0/0
+rem -------------------------------------
+
+rem *** Em_RichoWoodDecal ***
+ObjectTemplate.create Emitter Em_RichoWoodDecal
+ObjectTemplate.template Fx_RichoWoodDecal
+ObjectTemplate.startProbability 1
+ObjectTemplate.lodDistance 375
+ObjectTemplate.timeToLive CRD_NONE/0.1/0/0
+ObjectTemplate.intensity CRD_NONE/1/0/0
+ObjectTemplate.relativePositionInUp CRD_NONE/0.001/0/0
+
+rem *** Fx_RichoWoodDecal ***
+ObjectTemplate.create Particle Fx_RichoWoodDecal
+ObjectTemplate.geometry Decal_wood_m1
+ObjectTemplate.timeToLive CRD_UNIFORM/15/1/0
+ObjectTemplate.size CRD_UNIFORM/2.0/2.5/0
+ObjectTemplate.gravityModifier CRD_NONE/0/0/1
+ObjectTemplate.sizeModifier 1/1/1
+ObjectTemplate.alphaOverTime 0/1|70/1|100/0

@@ -1,0 +1,16 @@
+GeometryTemplate.create StandardMesh rh_Russian_Barn_main_m1
+GeometryTemplate.file rh_Russian_Barn_main_m1
+GeometryTemplate.textureFadeMaxDist 100
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 35
+GeometryTemplate.setLodDistance 2 70
+
+GeometryTemplate.create StandardMesh rh_Russian_Barn_main_m2
+GeometryTemplate.file rh_Russian_Barn_main_m2
+GeometryTemplate.textureFadeMaxDist 100
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 100
+GeometryTemplate.setLodDistance 2 200
+GeometryTemplate.setLodDistance 3 300
+GeometryTemplate.setLodDistance 4 400
+GeometryTemplate.setLodDistance 5 800

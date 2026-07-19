@@ -1,0 +1,9 @@
+GeometryTemplate.create StandardMesh steshelf_m1
+GeometryTemplate.file steshelf_m1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 15
+GeometryTemplate.setLodDistance 2 25
+GeometryTemplate.setLodDistance 3 35
+GeometryTemplate.setLodDistance 4 60
+GeometryTemplate.setLodDistance 5 100
+

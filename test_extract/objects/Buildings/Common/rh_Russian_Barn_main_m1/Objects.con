@@ -1,0 +1,32 @@
+ObjectTemplate.create Bundle rh_Russian_Barn_main_m1
+ObjectTemplate.setHasCollisionPhysics 1
+objectTemplate.aiTemplate rh_Russian_Barn_main_m1
+ObjectTemplate.addTemplate lodrh_Russian_Barn_main
+
+LodSelectorTemplate.create DistanceSelector rh_Russian_Barn_mainSelector
+LodSelectorTemplate.addLodDistance 100
+
+ObjectTemplate.create LodObject lodrh_Russian_Barn_main
+ObjectTemplate.lodselector rh_Russian_Barn_mainSelector
+ObjectTemplate.addTemplate rh_Russian_Barn_mainInterior
+ObjectTemplate.addTemplate rh_Russian_Barn_mainExterior
+
+ObjectTemplate.create bundle rh_Russian_Barn_mainInterior
+ObjectTemplate.geometry rh_Russian_Barn_main_m1
+rem ---------------------------
+ObjectTemplate.addTemplate Woodladder_4m_m1
+ObjectTemplate.setPosition -3.898/2.4/-6.229
+ObjectTemplate.setRotation 180/0/0
+ObjectTemplate.addTemplate Woodladder_4m_m1
+ObjectTemplate.setPosition -2.426/7/-9.408
+ObjectTemplate.setRotation 90/0/0
+ObjectTemplate.addTemplate stecrate1_m1
+ObjectTemplate.setPosition 0.556/4.7/-8.027
+ObjectTemplate.setRotation 10/0/0
+ObjectTemplate.addTemplate stecrate1_m1
+ObjectTemplate.setPosition 2.556/4.7/-8.027
+ObjectTemplate.setRotation 0/0/0
+rem ---------------------------
+
+ObjectTemplate.create SimpleObject rh_Russian_Barn_mainExterior
+ObjectTemplate.geometry rh_Russian_Barn_main_m2

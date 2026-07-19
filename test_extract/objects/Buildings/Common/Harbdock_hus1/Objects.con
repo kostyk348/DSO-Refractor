@@ -1,0 +1,4 @@
+ObjectTemplate.create SimpleObject harbdock_hus1_m1
+ObjectTemplate.geometry harbdock_hus1_m1
+ObjectTemplate.setHasCollisionPhysics 1
+objectTemplate.aiTemplate harbdock_hus1_m1

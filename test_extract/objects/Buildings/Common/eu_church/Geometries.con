@@ -1,0 +1,17 @@
+GeometryTemplate.create StandardMesh eu_church_M1
+GeometryTemplate.file eu_church_M1
+GeometryTemplate.textureFadeMaxDist 70
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 15
+GeometryTemplate.setLodDistance 2 30
+GeometryTemplate.setLodDistance 3 50
+
+GeometryTemplate.create StandardMesh eu_church_M2
+GeometryTemplate.file eu_church_M2
+GeometryTemplate.textureFadeMaxDist 70
+GeometryTemplate.setLodDistance 0 70
+GeometryTemplate.setLodDistance 1 140
+GeometryTemplate.setLodDistance 2 200
+GeometryTemplate.setLodDistance 3 300
+GeometryTemplate.setLodDistance 4 500
+GeometryTemplate.setLodDistance 5 700

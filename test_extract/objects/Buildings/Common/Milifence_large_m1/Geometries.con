@@ -1,0 +1,11 @@
+GeometryTemplate.create StandardMesh Milifence_large_m1
+GeometryTemplate.file Milifence_large_m1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 35
+GeometryTemplate.setLodDistance 2 55
+GeometryTemplate.setLodDistance 3 75
+GeometryTemplate.setLodDistance 4 100
+GeometryTemplate.setLodDistance 5 300
+
+GeometryTemplate.create StandardMesh Milifence_Largefence_m1
+GeometryTemplate.file Milifence_Largefence_m1

@@ -1,0 +1,79 @@
+ObjectTemplate.create BFSoldier RussianSoldier
+ObjectTemplate.createSkeleton animations/UsSoldier.ske
+include ../Common/CommonSoldierData.inc
+include ../Common/Sounds/SoldierSound.inc
+
+ObjectTemplate.addTemplate RussSoldierComplexHead
+ObjectTemplate.setRandomGeometries 3
+ObjectTemplate.setIsFirstPersonPart 0
+ObjectTemplate.setLodValue 0.01
+ObjectTemplate.bindToSkeletonPart Bip01_Spine3 3
+
+ObjectTemplate.addTemplate RussSoldierHead
+ObjectTemplate.setIsFirstPersonPart 0
+ObjectTemplate.setLodValue -0.01
+
+ObjectTemplate.addTemplate RussSoldier3PBody
+ObjectTemplate.setIsFirstPersonPart 0
+
+ObjectTemplate.addTemplate RussSoldier1PBody
+ObjectTemplate.setIsFirstPersonPart 1
+
+ObjectTemplate.addTemplate RussSoldierRightHand
+ObjectTemplate.setIsFirstPersonPart 0
+ObjectTemplate.setLodValue 0.03
+
+ObjectTemplate.addTemplate RussSoldierLeftHand
+ObjectTemplate.setIsFirstPersonPart 0
+ObjectTemplate.setLodValue 0.03
+
+ObjectTemplate.addTemplate 1PRussSoldierRightHand
+ObjectTemplate.setIsFirstPersonPart 1
+ObjectTemplate.setLodValue 0.03
+
+ObjectTemplate.addTemplate 1PRussSoldierLeftHand
+ObjectTemplate.setIsFirstPersonPart 1
+ObjectTemplate.setLodValue 0.03
+
+ObjectTemplate.create SimpleObject RussSoldier1PBody
+ObjectTemplate.geometry Soldier/1PRussBody
+
+ObjectTemplate.create SimpleObject RussSoldier3PBody
+ObjectTemplate.geometry Soldier/3PRussBody
+ObjectTemplate.hasDynamicShadow 1
+
+ObjectTemplate.create AnimatedBundle RussSoldierComplexHead1
+rem *** SHOULD BE UsFace.Ske on every nationality.
+ObjectTemplate.createSkeleton animations/UsFace.ske
+ObjectTemplate.geometry Soldier/RussComplexHead1
+ObjectTemplate.hasDynamicShadow 1
+
+ObjectTemplate.create AnimatedBundle RussSoldierComplexHead2
+rem *** SHOULD BE UsFace.Ske on every nationality.
+ObjectTemplate.createSkeleton animations/UsFace.ske
+ObjectTemplate.geometry Soldier/RussComplexHead2
+ObjectTemplate.hasDynamicShadow 1
+
+ObjectTemplate.create AnimatedBundle RussSoldierComplexHead3
+rem *** SHOULD BE UsFace.Ske on every nationality.
+ObjectTemplate.createSkeleton animations/UsFace.ske
+ObjectTemplate.geometry Soldier/RussComplexHead3
+ObjectTemplate.hasDynamicShadow 1
+
+ObjectTemplate.create SimpleObject RussSoldierHead
+ObjectTemplate.geometry Soldier/RussHead
+ObjectTemplate.hasDynamicShadow 1
+
+ObjectTemplate.create SimpleObject RussSoldierLeftHand
+ObjectTemplate.geometry Soldier/RussLeftHand
+
+ObjectTemplate.create SimpleObject RussSoldierRightHand
+ObjectTemplate.geometry Soldier/RussRightHand
+
+ObjectTemplate.create SimpleObject 1PRussSoldierLeftHand
+ObjectTemplate.geometry Soldier/1PRussLeftHand
+
+ObjectTemplate.create SimpleObject 1PRussSoldierRightHand
+ObjectTemplate.geometry Soldier/1PRussRightHand
+
+	

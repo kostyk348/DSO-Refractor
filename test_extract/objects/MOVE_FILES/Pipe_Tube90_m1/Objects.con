@@ -1,0 +1,3 @@
+ObjectTemplate.create SimpleObject Pipe_Tube90_m1
+ObjectTemplate.geometry Pipe_Tube90_m1
+ObjectTemplate.setHasCollisionPhysics 1

@@ -1,0 +1,226 @@
+
+
+rem *** HanomagEngine ***
+ObjectTemplate.create Engine HanomagEngine
+ObjectTemplate.setNetworkableInfo TigerEngineInfo
+ObjectTemplate.setAttachToListener 1
+ObjectTemplate.loadSoundScript Sounds/HanomagEngine.ssc
+ObjectTemplate.hasMobilePhysics 1
+rem -------------------------------------
+ObjectTemplate.addTemplate hanomagTrackL
+ObjectTemplate.setPosition -0.099/-0.549/0
+ObjectTemplate.addTemplate hanomagTrackR
+ObjectTemplate.setPosition 0.1/-0.549/0
+rem -------------------------------------
+ObjectTemplate.setMinRotation -1/0/-2500
+ObjectTemplate.setMaxRotation 1/0/5000
+ObjectTemplate.setMaxSpeed 10/0/5000
+ObjectTemplate.setAcceleration 10/0/5000
+ObjectTemplate.setInputToYaw c_PIYaw
+ObjectTemplate.setInputToRoll c_PIThrottle
+ObjectTemplate.setAutomaticReset 1
+ObjectTemplate.setEngineType c_ETTank
+ObjectTemplate.setTorque 4
+ObjectTemplate.setDifferential 5
+ObjectTemplate.setNumberOfGears 4
+ObjectTemplate.setGearUp 0.95
+ObjectTemplate.setGearDown 0.45
+ObjectTemplate.setGearChangeTime 0.5
+
+
+rem *** hanomagWheel3lDummy ***
+ObjectTemplate.create Spring hanomagWheel3lDummy
+ObjectTemplate.geometry hanomag_Whe_3L_M1
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.Grip c_PGFEngineDummyGrip
+ObjectTemplate.setStrength 00
+ObjectTemplate.setDamping 0
+
+
+rem *** hanomagWheel3l ***
+ObjectTemplate.create Spring hanomagWheel3l
+ObjectTemplate.setNetworkableInfo SpringInfo
+ObjectTemplate.geometry hanomag_Whe_3L_M1
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.Grip c_PGFEngineGrip
+ObjectTemplate.setStrength 16
+ObjectTemplate.setDamping 4
+
+
+rem *** hanomagWheel4L ***
+ObjectTemplate.create Spring hanomagWheel4L
+ObjectTemplate.setNetworkableInfo SpringInfo
+ObjectTemplate.geometry hanomag_Whe_4L_M1
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.Grip c_PGFEngineGrip
+ObjectTemplate.setStrength 16
+ObjectTemplate.setDamping 4
+
+
+rem *** hanomagWheel4LDummySmoke ***
+ObjectTemplate.create Spring hanomagWheel4LDummySmoke
+ObjectTemplate.geometry hanomag_Whe_4L_M1
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.Grip c_PGFEngineDummyGrip
+ObjectTemplate.setStrength 0
+ObjectTemplate.setDamping 0
+
+
+rem *** hanomagWheel4LDummy ***
+ObjectTemplate.create Spring hanomagWheel4LDummy
+ObjectTemplate.geometry hanomag_Whe_4L_M1
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.Grip c_PGFEngineDummyGrip
+rem -------------------------------------
+ObjectTemplate.addTemplate e_wdustPanzL
+ObjectTemplate.addTemplate e_wdustPanz
+rem -------------------------------------
+ObjectTemplate.setStrength 0
+ObjectTemplate.setDamping 0
+
+
+rem *** hanomagWheel4LBack ***
+ObjectTemplate.create Spring hanomagWheel4LBack
+ObjectTemplate.geometry hanomag_Whe_4L_M1
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.Grip c_PGFEngineDummyGrip
+ObjectTemplate.setStrength 0
+ObjectTemplate.setDamping 0
+
+
+rem *** hanomagWheelFIL ***
+ObjectTemplate.create Spring hanomagWheelFIL
+ObjectTemplate.geometry hanomag_whe_frl_M1
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.Grip c_PGFEngineDummyGrip
+rem -------------------------------------
+ObjectTemplate.addTemplate e_wdustWheelFL
+ObjectTemplate.addTemplate e_wdustWheelF
+rem -------------------------------------
+ObjectTemplate.setStrength 0
+ObjectTemplate.setDamping 0
+
+
+rem *** hanomagWheel3rDummy ***
+ObjectTemplate.create Spring hanomagWheel3rDummy
+ObjectTemplate.geometry hanomag_Whe_3R_M1
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.Grip c_PGFEngineDummyGrip
+ObjectTemplate.setStrength 0
+ObjectTemplate.setDamping 0
+
+
+rem *** hanomagWheel3r ***
+ObjectTemplate.create Spring hanomagWheel3r
+ObjectTemplate.setNetworkableInfo SpringInfo
+ObjectTemplate.geometry hanomag_Whe_3R_M1
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.Grip c_PGFEngineGrip
+ObjectTemplate.setStrength 16
+ObjectTemplate.setDamping 4
+
+
+rem *** hanomagWheel4r ***
+ObjectTemplate.create Spring hanomagWheel4r
+ObjectTemplate.setNetworkableInfo SpringInfo
+ObjectTemplate.geometry hanomag_Whe_4R_M1
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.Grip c_PGFEngineGrip
+ObjectTemplate.setStrength 16
+ObjectTemplate.setDamping 4
+
+
+rem *** hanomagWheel4rDummySmoke ***
+ObjectTemplate.create Spring hanomagWheel4rDummySmoke
+ObjectTemplate.geometry hanomag_Whe_4R_M1
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.Grip c_PGFEngineDummyGrip
+rem -------------------------------------
+ObjectTemplate.addTemplate e_wdustPanzL
+ObjectTemplate.addTemplate e_wdustPanz
+rem -------------------------------------
+ObjectTemplate.setStrength 0
+ObjectTemplate.setDamping 0
+
+
+rem *** hanomagWheel4rDummy ***
+ObjectTemplate.create Spring hanomagWheel4rDummy
+ObjectTemplate.geometry hanomag_Whe_4R_M1
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.Grip c_PGFEngineDummyGrip
+ObjectTemplate.setStrength 0
+ObjectTemplate.setDamping 0
+
+
+rem *** hanomagWheel4rBack ***
+ObjectTemplate.create Spring hanomagWheel4rBack
+ObjectTemplate.geometry hanomag_Whe_4R_M1
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.Grip c_PGFEngineDummyGrip
+ObjectTemplate.setStrength 0
+ObjectTemplate.setDamping 0
+
+
+rem *** hanomagWheelFIR ***
+ObjectTemplate.create Spring hanomagWheelFIR
+ObjectTemplate.geometry hanomag_whe_frr_M1
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.Grip c_PGFEngineDummyGrip
+rem -------------------------------------
+ObjectTemplate.addTemplate e_wdustWheelFL
+ObjectTemplate.addTemplate e_wdustWheelF
+rem -------------------------------------
+ObjectTemplate.setStrength 0
+ObjectTemplate.setDamping 0
+
+
+rem *** hanomagWheelFRSpring ***
+ObjectTemplate.create Spring hanomagWheelFRSpring
+rem Add networkable here
+ObjectTemplate.geometry hanomag_tireR_M1
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.Grip c_PGFRollGrip
+ObjectTemplate.setStrength 4
+ObjectTemplate.setDamping 1
+
+
+rem *** hanomagWheelFLSpring ***
+ObjectTemplate.create Spring hanomagWheelFLSpring
+rem Add networkable here
+ObjectTemplate.geometry hanomag_tireL_M1
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.Grip c_PGFRollGrip
+ObjectTemplate.setStrength 4
+ObjectTemplate.setDamping 1

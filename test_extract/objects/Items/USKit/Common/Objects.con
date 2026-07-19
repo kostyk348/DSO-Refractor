@@ -1,0 +1,54 @@
+ObjectTemplate.create KitPart US_Grenades
+ObjectTemplate.geometry US_Grenades
+ObjectTemplate.setBoneName HipPack
+ObjectTemplate.setCopyLinksCount 0
+
+ObjectTemplate.create KitPart Us_Helmet
+ObjectTemplate.geometry Us_Helmet
+ObjectTemplate.setBoneName A
+ObjectTemplate.setCopyLinksCount 0
+
+ObjectTemplate.create KitPart Us_Hip_Pack
+ObjectTemplate.geometry Us_Hip_Pack
+ObjectTemplate.setBoneName HipPack
+ObjectTemplate.setCopyLinksCount 0
+
+ObjectTemplate.create KitPart US_Assault_BackPack
+ObjectTemplate.geometry US_Assult_Bacpac
+ObjectTemplate.setBoneName backpack
+ObjectTemplate.setCopyLinksCount 0
+
+ObjectTemplate.create KitPart Bac_pac_Big_us_Bri
+ObjectTemplate.geometry Bacpac_Big_us_Bri
+ObjectTemplate.setBoneName backpack
+ObjectTemplate.setCopyLinksCount 0
+
+ObjectTemplate.create KitPart US_Medic_hippack
+ObjectTemplate.geometry US_Medic_hippack
+ObjectTemplate.setBoneName hippack
+ObjectTemplate.setCopyLinksCount 0
+
+ObjectTemplate.create KitPart Medic_helm_us
+ObjectTemplate.geometry Medic_helm_us
+ObjectTemplate.setBoneName A
+ObjectTemplate.setCopyLinksCount 0
+
+ObjectTemplate.create KitPart US_Britt_Bacpac
+ObjectTemplate.geometry US_Britt_Bacpac
+ObjectTemplate.setBoneName backpack
+ObjectTemplate.setCopyLinksCount 0
+
+ObjectTemplate.create KitPart US_Grenades
+ObjectTemplate.geometry US_Grenades
+ObjectTemplate.setBoneName A
+ObjectTemplate.setCopyLinksCount 0
+
+ObjectTemplate.create KitPart US_Scout_Helm
+ObjectTemplate.geometry US_Scout_Helm
+ObjectTemplate.setBoneName A
+ObjectTemplate.setCopyLinksCount 0
+
+ObjectTemplate.create KitPart Radio
+ObjectTemplate.geometry Radio
+ObjectTemplate.setBoneName backpack
+ObjectTemplate.setCopyLinksCount 0

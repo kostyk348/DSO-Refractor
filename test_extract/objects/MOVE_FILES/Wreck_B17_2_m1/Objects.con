@@ -1,0 +1,14 @@
+ObjectTemplate.create Bundle Wreck_B17_2_m1
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.geometry Wreck_B17_2_m1
+ObjectTemplate.setHasCollisionPhysics 1
+ObjectTemplate.setHasResponsePhysics 1
+ObjectTemplate.destroyed 1
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.sinkInToLandAfterDeathSpeed 0.1
+ObjectTemplate.mass 1200
+
+ObjectTemplate.addTemplate e_ScrapMetalSmoke
+ObjectTemplate.startoneffects 1
+ObjectTemplate.setPosition 0/0.7/-1.7
+ObjectTemplate.setRotation 0/0/0

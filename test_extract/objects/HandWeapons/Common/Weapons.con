@@ -1,0 +1,213 @@
+rem *** Invisible knife projectile.
+ObjectTemplate.create Projectile KnifeProjectile
+ObjectTemplate.geometry bullet_m1
+ObjectTemplate.timeToLive CRD_NONE/0.05/0/0
+rem ObjectTemplate.endEffectTemplate e_RichoSand
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.gravityModifier 0
+ObjectTemplate.hasStartEffect 0
+ObjectTemplate.hasCollisionEffect 1
+ObjectTemplate.hasOnTimeEffect 0
+ObjectTemplate.invisibleAtEndEffect 1
+ObjectTemplate.dieAfterColl 1
+ObjectTemplate.stopAtEndEffect 1
+ObjectTemplate.invisible 1
+ObjectTemplate.material 210
+rem ObjectTemplate.loadSoundScript ..\..\common\Sounds\projectile.ssc
+
+ObjectTemplate.create Projectile MachinegunProjectile
+ObjectTemplate.geometry bullet_m1
+ObjectTemplate.timeToLive CRD_NONE/1/0/0
+Rem ObjectTemplate.endEffectTemplate e_RichoSand
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.gravityModifier 0
+ObjectTemplate.hasStartEffect 0
+ObjectTemplate.hasCollisionEffect 1
+ObjectTemplate.hasOnTimeEffect 0
+ObjectTemplate.invisibleAtEndEffect 1
+ObjectTemplate.dieAfterColl 1
+ObjectTemplate.stopAtEndEffect 1
+ObjectTemplate.invisible 1
+ObjectTemplate.material 216
+ObjectTemplate.loadSoundScript ..\..\common\Sounds\projectile.ssc
+
+ObjectTemplate.create Projectile GunProjectile
+ObjectTemplate.geometry bullet_m1
+ObjectTemplate.timeToLive CRD_NONE/1/0/0
+Rem  ObjectTemplate.endEffectTemplate e_RichoSand
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.gravityModifier 0
+ObjectTemplate.hasStartEffect 0
+ObjectTemplate.hasCollisionEffect 1
+ObjectTemplate.hasOnTimeEffect 0
+ObjectTemplate.invisibleAtEndEffect 1
+ObjectTemplate.dieAfterColl 1
+ObjectTemplate.stopAtEndEffect 1
+ObjectTemplate.invisible 1
+ObjectTemplate.material 216
+ObjectTemplate.loadSoundScript ..\..\common\Sounds\projectile.ssc
+
+ObjectTemplate.create Projectile RifleProjectile
+ObjectTemplate.geometry bullet_m1
+ObjectTemplate.timeToLive CRD_NONE/1/0/0
+Rem  ObjectTemplate.endEffectTemplate e_RichoSand
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.gravityModifier 0
+ObjectTemplate.hasStartEffect 0
+ObjectTemplate.hasCollisionEffect 1
+ObjectTemplate.hasOnTimeEffect 0
+ObjectTemplate.invisibleAtEndEffect 1
+ObjectTemplate.dieAfterColl 1
+ObjectTemplate.stopAtEndEffect 1
+ObjectTemplate.invisible 1
+ObjectTemplate.material 216
+ObjectTemplate.loadSoundScript ..\..\common\Sounds\projectile.ssc
+
+ObjectTemplate.create Projectile BazookaProjectile 
+ObjectTemplate.geometry projectile_m1
+ObjectTemplate.timeToLive CRD_NONE/10/0/0
+Rem  ObjectTemplate.endEffectTemplate e_ExplDirt
+ObjectTemplate.timeOnEndEffect 0.5
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.gravityModifier 0.2
+ObjectTemplate.hasCollisionEffect 1
+ObjectTemplate.invisibleAtEndEffect 1
+ObjectTemplate.damageType 1
+ObjectTemplate.material 226
+ObjectTemplate.material2 200
+ObjectTemplate.radius 5
+ObjectTemplate.ForceOnExplosion 15
+ObjectTemplate.addTemplate e_rocketFume
+ObjectTemplate.loadSoundScript ..\..\common\Sounds\bazookaprojectile.ssc
+
+rem ***** Individual weapons ******
+
+
+ObjectTemplate.create Projectile ColtProjectile
+ObjectTemplate.geometry bullet_m1
+ObjectTemplate.timeToLive CRD_NONE/1/0/0
+Rem ObjectTemplate.endEffectTemplate e_RichoSand
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.gravityModifier 0
+ObjectTemplate.hasStartEffect 0
+ObjectTemplate.hasCollisionEffect 1
+ObjectTemplate.hasOnTimeEffect 0
+ObjectTemplate.invisibleAtEndEffect 1
+ObjectTemplate.dieAfterColl 1
+ObjectTemplate.stopAtEndEffect 1
+ObjectTemplate.invisible 1
+ObjectTemplate.material 214
+ObjectTemplate.loadSoundScript ..\..\common\Sounds\projectile.ssc
+
+ObjectTemplate.create Projectile P38Projectile
+ObjectTemplate.geometry bullet_m1
+ObjectTemplate.timeToLive CRD_NONE/1/0/0
+Rem ObjectTemplate.endEffectTemplate e_RichoSand
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.gravityModifier 0
+ObjectTemplate.hasStartEffect 0
+ObjectTemplate.hasCollisionEffect 1
+ObjectTemplate.hasOnTimeEffect 0
+ObjectTemplate.invisibleAtEndEffect 1
+ObjectTemplate.dieAfterColl 1
+ObjectTemplate.stopAtEndEffect 1
+ObjectTemplate.invisible 1
+ObjectTemplate.material 215
+ObjectTemplate.loadSoundScript ..\..\common\Sounds\projectile.ssc
+
+ObjectTemplate.create Projectile ThomsonProjectile
+ObjectTemplate.geometry bullet_m1
+ObjectTemplate.timeToLive CRD_NONE/1/0/0
+Rem ObjectTemplate.endEffectTemplate e_RichoSand
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.gravityModifier 0
+ObjectTemplate.hasStartEffect 0
+ObjectTemplate.hasCollisionEffect 1
+ObjectTemplate.hasOnTimeEffect 0
+ObjectTemplate.invisibleAtEndEffect 1
+ObjectTemplate.dieAfterColl 1
+ObjectTemplate.stopAtEndEffect 1
+ObjectTemplate.invisible 1
+ObjectTemplate.material 216
+ObjectTemplate.loadSoundScript ..\..\common\Sounds\projectile.ssc
+
+ObjectTemplate.create Projectile Mp40Projectile
+ObjectTemplate.geometry bullet_m1
+ObjectTemplate.timeToLive CRD_NONE/1/0/0
+Rem ObjectTemplate.endEffectTemplate e_RichoSand
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.gravityModifier 0
+ObjectTemplate.hasStartEffect 0
+ObjectTemplate.hasCollisionEffect 1
+ObjectTemplate.hasOnTimeEffect 0
+ObjectTemplate.invisibleAtEndEffect 1
+ObjectTemplate.dieAfterColl 1
+ObjectTemplate.stopAtEndEffect 1
+ObjectTemplate.invisible 1
+ObjectTemplate.material 217
+ObjectTemplate.loadSoundScript ..\..\common\Sounds\projectile.ssc
+
+ObjectTemplate.create Projectile no4Projectile
+ObjectTemplate.geometry bullet_m1
+ObjectTemplate.timeToLive CRD_NONE/1/0/0
+Rem ObjectTemplate.endEffectTemplate e_RichoSand
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.gravityModifier 0
+ObjectTemplate.hasStartEffect 0
+ObjectTemplate.hasCollisionEffect 1
+ObjectTemplate.hasOnTimeEffect 0
+ObjectTemplate.invisibleAtEndEffect 1
+ObjectTemplate.dieAfterColl 1
+ObjectTemplate.stopAtEndEffect 1
+ObjectTemplate.invisible 1
+ObjectTemplate.material 218
+ObjectTemplate.loadSoundScript ..\..\common\Sounds\projectile.ssc
+
+ObjectTemplate.create Projectile k98Projectile
+ObjectTemplate.geometry bullet_m1
+ObjectTemplate.timeToLive CRD_NONE/1/0/0
+Rem ObjectTemplate.endEffectTemplate e_RichoSand
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.gravityModifier 0
+ObjectTemplate.hasStartEffect 0
+ObjectTemplate.hasCollisionEffect 1
+ObjectTemplate.hasOnTimeEffect 0
+ObjectTemplate.invisibleAtEndEffect 1
+ObjectTemplate.dieAfterColl 1
+ObjectTemplate.stopAtEndEffect 1
+ObjectTemplate.invisible 1
+ObjectTemplate.material 219
+ObjectTemplate.loadSoundScript ..\..\common\Sounds\projectile.ssc
+
+ObjectTemplate.create Projectile barProjectile
+ObjectTemplate.geometry bullet_m1
+ObjectTemplate.timeToLive CRD_NONE/1/0/0
+Rem ObjectTemplate.endEffectTemplate e_RichoSand
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.gravityModifier 0
+ObjectTemplate.hasStartEffect 0
+ObjectTemplate.hasCollisionEffect 1
+ObjectTemplate.hasOnTimeEffect 0
+ObjectTemplate.invisibleAtEndEffect 1
+ObjectTemplate.dieAfterColl 1
+ObjectTemplate.stopAtEndEffect 1
+ObjectTemplate.invisible 1
+ObjectTemplate.material 222
+ObjectTemplate.loadSoundScript ..\..\common\Sounds\projectile.ssc
+
+ObjectTemplate.create Projectile sg44Projectile
+ObjectTemplate.geometry bullet_m1
+ObjectTemplate.timeToLive CRD_NONE/1/0/0
+Rem ObjectTemplate.endEffectTemplate e_RichoSand
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.gravityModifier 0
+ObjectTemplate.hasStartEffect 0
+ObjectTemplate.hasCollisionEffect 1
+ObjectTemplate.hasOnTimeEffect 0
+ObjectTemplate.invisibleAtEndEffect 1
+ObjectTemplate.dieAfterColl 1
+ObjectTemplate.stopAtEndEffect 1
+ObjectTemplate.invisible 1
+ObjectTemplate.material 223
+ObjectTemplate.loadSoundScript ..\..\common\Sounds\projectile.ssc
+

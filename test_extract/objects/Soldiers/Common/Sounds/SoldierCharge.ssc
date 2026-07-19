@@ -1,0 +1,54 @@
+newPatch
+
+############
+### Ouch ###
+############
+load @ROOT/Sound/@RTD/@Language/charge.wav
+minDistance 2
+
+randomStartPitch 0.09 / 0.0
+
+*** Distance Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 8
+	param 30
+	param 1
+	param -1
+endEffect
+
+load @ROOT/Sound/@RTD/@Language/charge2.wav
+minDistance 2
+
+randomStartPitch 0.09 / 0.0
+
+*** Distance Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 8
+	param 30
+	param 1
+	param -1
+endEffect
+
+load @ROOT/Sound/@RTD/@Language/charge3.wav
+minDistance 2
+
+randomStartPitch 0.09 / 0.0
+
+*** Distance Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 8
+	param 30
+	param 1
+	param -1
+endEffect
+
+randomPlay 1

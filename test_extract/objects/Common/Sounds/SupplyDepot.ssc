@@ -1,0 +1,16 @@
+
+newPatch
+load @ROOT/Sound/@RTD/Ammorefill.wav
+minDistance 16
+randomStartPitch 0.05 / 0.05
+
+*** Distance Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 10
+	param 50
+	param 1
+	param -1
+endEffect

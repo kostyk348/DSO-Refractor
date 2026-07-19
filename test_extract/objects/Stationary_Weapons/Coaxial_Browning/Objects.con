@@ -1,0 +1,43 @@
+ObjectTemplate.create FireArms Coaxial_browning
+ObjectTemplate.saveInSeparateFile 1
+rem ObjectTemplate.geometry RiBro_Body_m1
+ObjectTemplate.projectileTemplate Browning_Projectile
+ObjectTemplate.projectilePosition 0/0/2
+ObjectTemplate.magSize 400
+ObjectTemplate.numOfMag 1
+ObjectTemplate.magType 0
+ObjectTemplate.reloadtime 0.1
+ObjectTemplate.recoilSpeed 50.0
+ObjectTemplate.roundOfFire 12
+ObjectTemplate.autoReload 1
+objectTemplate.aiTemplate Coaxial_BrowningAI
+rem ObjectTemplate.positionalSpeedInDof CRD_NONE/600/0/0
+rem ObjectTemplate.positionalSpeedInUp CRD_UNIFORM/-0.04/0.04/0
+rem ObjectTemplate.positionalSpeedInRight CRD_UNIFORM/-0.04/0.04/0
+
+Rem *** Deviation Begin *****
+
+ObjectTemplate.velocity 600
+ObjectTemplate.setFireDev 1.9 0.25 0.05
+ObjectTemplate.setMinDev 0.75
+
+Rem *** Deviation  End *****
+ObjectTemplate.fireInCameraDof 1
+objectTemplate.heatAddWhenFire 0.05
+objectTemplate.coolDownPerSec 0.3
+objectTemplate.timeDelayOnOverHeat 2
+ObjectTemplate.setInputFire c_PIAltFire
+
+ObjectTemplate.addTemplate e_MuzzB17
+ObjectTemplate.startoneffects 1
+ObjectTemplate.setPosition 0/0.1/1
+ObjectTemplate.setRotation 0/0/0
+
+ObjectTemplate.addTemplate e_Shell1250mm
+ObjectTemplate.startoneffects 0
+ObjectTemplate.setPosition 0/0.12/0.16
+ObjectTemplate.setRotation 0/0/0
+
+rem *** Sound Browning ***
+ObjectTemplate.loadSoundScript Sounds/Browning.ssc
+

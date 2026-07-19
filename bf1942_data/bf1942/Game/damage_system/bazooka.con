@@ -1,0 +1,988 @@
+
+rem *
+rem * ***** Bazooka explosion - allied rocket launcher explosion *****
+rem *
+
+MaterialManager.attGroup 200
+MaterialManager.defGroup 40
+MaterialManager.damageMod 7
+
+MaterialManager.attGroup 200
+MaterialManager.defGroup 41
+MaterialManager.damageMod 4
+
+MaterialManager.attGroup 200
+MaterialManager.defGroup 42
+MaterialManager.damageMod 4
+
+MaterialManager.attGroup 200
+MaterialManager.defGroup 43
+MaterialManager.damageMod 2.0
+
+MaterialManager.attGroup 200
+MaterialManager.defGroup 44
+MaterialManager.damageMod 2.0
+
+MaterialManager.attGroup 200
+MaterialManager.defGroup 45
+MaterialManager.damageMod 0.5
+
+MaterialManager.attGroup 200
+MaterialManager.defGroup 46
+MaterialManager.damageMod 0.5
+
+MaterialManager.attGroup 200
+MaterialManager.defGroup 47
+MaterialManager.damageMod 0.5
+
+MaterialManager.attGroup 200
+MaterialManager.defGroup 48
+MaterialManager.damageMod 0.5
+
+MaterialManager.attGroup 200
+MaterialManager.defGroup 49
+MaterialManager.damageMod 0.5
+
+MaterialManager.attGroup 200
+MaterialManager.defGroup 50
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 200
+MaterialManager.defGroup 51
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 200
+MaterialManager.defGroup 52
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 200
+MaterialManager.defGroup 53
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 200
+MaterialManager.defGroup 54
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 200
+MaterialManager.defGroup 55
+MaterialManager.damageMod 0.0
+
+MaterialManager.attGroup 200
+MaterialManager.defGroup 56
+MaterialManager.damageMod 0.0
+
+MaterialManager.attGroup 200
+MaterialManager.defGroup 57
+MaterialManager.damageMod 0.0
+
+MaterialManager.attGroup 200
+MaterialManager.defGroup 58
+MaterialManager.damageMod 0.0
+
+MaterialManager.attGroup 200
+MaterialManager.defGroup 59
+MaterialManager.damageMod 0.0
+
+MaterialManager.attGroup 200
+MaterialManager.defGroup 0
+MaterialManager.damageMod 0.0
+
+MaterialManager.attGroup 200
+MaterialManager.defGroup 1
+MaterialManager.damageMod 0.0
+
+
+rem *
+rem * ***** Bazooka - allied rocket launcher *****
+rem *
+
+MaterialManager.attGroup 226
+MaterialManager.defGroup 40
+MaterialManager.damageMod 10
+
+MaterialManager.attGroup 226
+MaterialManager.defGroup 41
+MaterialManager.damageMod 10
+
+MaterialManager.attGroup 226
+MaterialManager.defGroup 42
+MaterialManager.damageMod 10
+
+MaterialManager.attGroup 226
+MaterialManager.defGroup 43
+MaterialManager.damageMod 3.0
+MaterialManager.setEffectTemplate e_ExplBazooka
+
+MaterialManager.attGroup 226
+MaterialManager.defGroup 44
+MaterialManager.damageMod 3.0
+MaterialManager.setEffectTemplate e_ExplBazooka
+
+MaterialManager.attGroup 226
+MaterialManager.defGroup 45
+MaterialManager.damageMod 10
+MaterialManager.setEffectTemplate e_ExplBazooka
+
+MaterialManager.attGroup 226
+MaterialManager.defGroup 46
+MaterialManager.damageMod 5
+MaterialManager.setEffectTemplate e_ExplBazooka
+
+MaterialManager.attGroup 226
+MaterialManager.defGroup 47
+MaterialManager.damageMod 2.5
+MaterialManager.setEffectTemplate e_ExplBazooka
+
+MaterialManager.attGroup 226
+MaterialManager.defGroup 48
+MaterialManager.damageMod 2
+MaterialManager.setEffectTemplate e_ExplBazooka
+
+MaterialManager.attGroup 226
+MaterialManager.defGroup 49
+MaterialManager.damageMod 1.5
+MaterialManager.setEffectTemplate e_ExplBazooka
+
+MaterialManager.attGroup 226
+MaterialManager.defGroup 50
+MaterialManager.damageMod 10
+MaterialManager.setEffectTemplate e_ExplBazooka
+
+MaterialManager.attGroup 226
+MaterialManager.defGroup 51
+MaterialManager.damageMod 3.5
+MaterialManager.setEffectTemplate e_ExplBazooka
+
+MaterialManager.attGroup 226
+MaterialManager.defGroup 52
+MaterialManager.damageMod 2.6
+MaterialManager.setEffectTemplate e_ExplBazooka
+
+MaterialManager.attGroup 226
+MaterialManager.defGroup 53
+MaterialManager.damageMod 1.9
+MaterialManager.setEffectTemplate e_ExplBazooka
+
+MaterialManager.attGroup 226
+MaterialManager.defGroup 54
+MaterialManager.damageMod 1.3
+MaterialManager.setEffectTemplate e_ExplBazooka
+
+MaterialManager.attGroup 226
+MaterialManager.defGroup 55
+MaterialManager.damageMod 0.9
+MaterialManager.setEffectTemplate e_ExplBazooka
+
+MaterialManager.attGroup 226
+MaterialManager.defGroup 56
+MaterialManager.damageMod 3.0
+MaterialManager.setEffectTemplate e_ExplBazooka
+
+MaterialManager.attGroup 226
+MaterialManager.defGroup 57
+MaterialManager.damageMod 1.0
+MaterialManager.setEffectTemplate e_ExplBazooka
+
+MaterialManager.attGroup 226
+MaterialManager.defGroup 58
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate e_ExplBazooka
+
+MaterialManager.attGroup 226
+MaterialManager.defGroup 59
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate e_ExplBazooka
+
+MaterialManager.attGroup 226
+MaterialManager.defGroup 60
+MaterialManager.damageMod 30
+MaterialManager.setEffectTemplate e_ExplBazooka
+
+MaterialManager.attGroup 226
+MaterialManager.defGroup 61
+MaterialManager.damageMod 30
+MaterialManager.setEffectTemplate e_ExplBazooka
+
+MaterialManager.attGroup 226
+MaterialManager.defGroup 62
+MaterialManager.damageMod 30
+MaterialManager.setEffectTemplate e_ExplBazooka
+
+MaterialManager.attGroup 226
+MaterialManager.defGroup 63
+MaterialManager.damageMod 15
+MaterialManager.setEffectTemplate e_ExplBazooka
+
+MaterialManager.attGroup 226
+MaterialManager.defGroup 64
+MaterialManager.damageMod 15
+MaterialManager.setEffectTemplate e_ExplBazooka
+
+MaterialManager.attGroup 226
+MaterialManager.defGroup 65
+MaterialManager.damageMod 5
+MaterialManager.setEffectTemplate e_ExplBazooka
+
+MaterialManager.attGroup 226
+MaterialManager.defGroup 66
+MaterialManager.damageMod 3
+MaterialManager.setEffectTemplate e_ExplBazooka
+
+MaterialManager.attGroup 226
+MaterialManager.defGroup 0
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate e_ExplBazooka
+
+MaterialManager.attGroup 226
+MaterialManager.defGroup 1
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate e_waterimpact
+
+
+
+
+rem * *************************************************
+rem *		Material Effects
+rem * *************************************************
+rem * *************************************************
+rem *		Other Materials
+rem * *************************************************
+
+rem * *** Dry Grass (yellow) ***
+MaterialManager.attGroup 226
+MaterialManager.defGroup 2
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate e_ExplBazooka
+
+rem * *** Juicy Grass (Green) ***
+MaterialManager.attGroup 226
+MaterialManager.defGroup 3
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate e_ExplBazooka
+
+rem * *** Dry Dirt ***
+MaterialManager.attGroup 226
+MaterialManager.defGroup 4
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate e_ExplBazooka
+
+rem * *** Wet Dirt ***
+MaterialManager.attGroup 226
+MaterialManager.defGroup 5
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate e_ExplBazooka
+
+rem * *** Mud ***
+MaterialManager.attGroup 226
+MaterialManager.defGroup 6
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate e_ExplBazooka
+
+rem * *** Deep Mud ***
+MaterialManager.attGroup 226
+MaterialManager.defGroup 7
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate e_ExplBazooka
+
+rem * *** Gravel ***
+MaterialManager.attGroup 226
+MaterialManager.defGroup 8
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate e_ExplBazooka
+
+rem * *** Frozen ground ***
+MaterialManager.attGroup 226
+MaterialManager.defGroup 9
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate e_ExplBazooka
+
+rem * *** Dry Sand ***
+MaterialManager.attGroup 226
+MaterialManager.defGroup 10
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate e_ExplBazooka
+
+rem * *** Wet Sand ***
+MaterialManager.attGroup 226
+MaterialManager.defGroup 11
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate e_ExplBazooka
+
+rem * *** Rock ***
+MaterialManager.attGroup 226
+MaterialManager.defGroup 12
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate e_ExplBazooka
+
+rem * *** Forest Floor ***
+MaterialManager.attGroup 226
+MaterialManager.defGroup 13
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate e_ExplBazooka
+
+rem * *** Dirt Road ***
+MaterialManager.attGroup 226
+MaterialManager.defGroup 14
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate e_ExplBazooka
+
+rem * *** Paved Road ***
+MaterialManager.attGroup 226
+MaterialManager.defGroup 15
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate e_ExplBazooka
+
+rem * *** Solid Wood ***
+MaterialManager.attGroup 226
+MaterialManager.defGroup 80
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate BazookaCascadesWood
+
+rem * *** Wood ***
+MaterialManager.attGroup 226
+MaterialManager.defGroup 81
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate BazookaCascadesWood
+
+rem * *** Thin Wood ***
+MaterialManager.attGroup 226
+MaterialManager.defGroup 82
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate BazookaCascadesWood
+
+rem * *** Hollow Wood ***
+MaterialManager.attGroup 226
+MaterialManager.defGroup 83
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate BazookaCascadesWood
+
+rem * *** Solid Metal ***
+MaterialManager.attGroup 226
+MaterialManager.defGroup 84
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate BazookaCascadesMetal
+
+rem * *** Metal ***
+MaterialManager.attGroup 226
+MaterialManager.defGroup 85
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate BazookaCascadesMetal
+
+rem * *** Thin Metal ***
+MaterialManager.attGroup 226
+MaterialManager.defGroup 86
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate BazookaCascadesMetal
+
+rem * *** Hollow Metal ***
+MaterialManager.attGroup 226
+MaterialManager.defGroup 87
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate BazookaCascadesMetal
+
+rem * *** Solid Stone (Rock) ***
+MaterialManager.attGroup 226
+MaterialManager.defGroup 88
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate BazookaCascadesStone
+
+rem * *** Concrete ***
+MaterialManager.attGroup 226
+MaterialManager.defGroup 92
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate BazookaCascadesStone
+
+rem * *** Reinforced Concrete ***
+MaterialManager.attGroup 226
+MaterialManager.defGroup 93
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate BazookaCascadesStone
+
+rem * *** Flesh ***
+MaterialManager.attGroup 226
+MaterialManager.defGroup 94
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate e_ExplBazooka
+
+rem * *** Exterior Stone Wall ***
+MaterialManager.attGroup 226
+MaterialManager.defGroup 100
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate BazookaCascadesStone
+
+rem * *** Interior Stone Wall ***
+MaterialManager.attGroup 226
+MaterialManager.defGroup 101
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate BazookaCascadesStone
+
+rem * *** Exterior brick Wall ***
+MaterialManager.attGroup 226
+MaterialManager.defGroup 102
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate BazookaCascadesStone
+
+rem * *** Interior brick Wall ***
+MaterialManager.attGroup 226
+MaterialManager.defGroup 103
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate BazookaCascadesStone
+
+rem * *** Exterior wooden Wall ***
+MaterialManager.attGroup 226
+MaterialManager.defGroup 104
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate BazookaCascadesWood
+
+rem * *** Interior wooden Wall ***
+MaterialManager.attGroup 226
+MaterialManager.defGroup 105
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate BazookaCascadesWood
+
+rem * *** Wooden Fence ***
+MaterialManager.attGroup 226
+MaterialManager.defGroup 106
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate BazookaCascadesWood
+
+rem * *** Sandbags ***
+MaterialManager.attGroup 226
+MaterialManager.defGroup 107
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate GranadeExplDry
+
+rem * *** Grate ***
+MaterialManager.attGroup 226
+MaterialManager.defGroup 108
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate e_ExplBazooka
+
+rem * *** Wooden Fence ***
+MaterialManager.attGroup 226
+MaterialManager.defGroup 109
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate BazookaCascadesWood
+
+rem * *** Wire Fence ***
+MaterialManager.attGroup 226
+MaterialManager.defGroup 110
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate e_ExplBazooka
+
+rem * *** Grated Fence ***
+MaterialManager.attGroup 226
+MaterialManager.defGroup 111
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate e_ExplBazooka
+
+rem * *** Mesh Fence ***
+MaterialManager.attGroup 226
+MaterialManager.defGroup 112
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate e_ExplBazooka
+
+rem * *** Bamboo Exterior wall ***
+MaterialManager.attGroup 226
+MaterialManager.defGroup 113
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate BazookaCascadesWood
+
+rem * *** Bamboo Interior wall ***
+MaterialManager.attGroup 226
+MaterialManager.defGroup 114
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate BazookaCascadesWood
+
+rem * *** Bamboo Fence ***
+MaterialManager.attGroup 226
+MaterialManager.defGroup 115
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate BazookaCascadesWood
+
+rem * *** Bamboo Fence ***
+MaterialManager.attGroup 226
+MaterialManager.defGroup 116
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate BazookaCascadesWood
+
+rem * *** Wooden Floor ***
+MaterialManager.attGroup 226
+MaterialManager.defGroup 117
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate e_ExplBazooka
+
+rem * *** Stone Floor ***
+MaterialManager.attGroup 226
+MaterialManager.defGroup 118
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate BazookaCascadesStone
+
+rem * *** Glass Pane ***
+MaterialManager.attGroup 226
+MaterialManager.defGroup 119
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate e_ExplBazooka
+
+
+rem ****************************************************
+rem ****************************************************
+rem ****************************************************
+rem *
+rem * ***** BazookaAxis - allied rocket launcher *****
+rem *
+rem ****************************************************
+rem ****************************************************
+rem ****************************************************
+
+MaterialManager.attGroup 227
+MaterialManager.defGroup 40
+MaterialManager.damageMod 10
+MaterialManager.setEffectTemplate e_ExplBazooka
+
+MaterialManager.attGroup 227
+MaterialManager.defGroup 41
+MaterialManager.damageMod 10
+MaterialManager.setEffectTemplate e_ExplBazooka
+
+MaterialManager.attGroup 227
+MaterialManager.defGroup 42
+MaterialManager.damageMod 10
+MaterialManager.setEffectTemplate e_ExplBazooka
+
+MaterialManager.attGroup 227
+MaterialManager.defGroup 43
+MaterialManager.damageMod 3.0
+MaterialManager.setEffectTemplate e_ExplBazooka
+
+MaterialManager.attGroup 227
+MaterialManager.defGroup 44
+MaterialManager.damageMod 3.0
+MaterialManager.setEffectTemplate e_ExplBazooka
+
+MaterialManager.attGroup 227
+MaterialManager.defGroup 45
+MaterialManager.damageMod 10
+MaterialManager.setEffectTemplate BazookaCascadesMetal
+
+MaterialManager.attGroup 227
+MaterialManager.defGroup 46
+MaterialManager.damageMod 5
+MaterialManager.setEffectTemplate BazookaCascadesMetal
+
+MaterialManager.attGroup 227
+MaterialManager.defGroup 47
+MaterialManager.damageMod 2.5
+MaterialManager.setEffectTemplate BazookaCascadesMetal
+
+MaterialManager.attGroup 227
+MaterialManager.defGroup 48
+MaterialManager.damageMod 2
+MaterialManager.setEffectTemplate BazookaCascadesMetal
+
+MaterialManager.attGroup 227
+MaterialManager.defGroup 49
+MaterialManager.damageMod 1.5
+MaterialManager.setEffectTemplate BazookaCascadesMetal
+
+MaterialManager.attGroup 227
+MaterialManager.defGroup 50
+MaterialManager.damageMod 10
+MaterialManager.setEffectTemplate BazookaCascadesMetal
+
+MaterialManager.attGroup 227
+MaterialManager.defGroup 51
+MaterialManager.damageMod 3.5
+MaterialManager.setEffectTemplate BazookaCascadesMetal
+
+MaterialManager.attGroup 227
+MaterialManager.defGroup 52
+MaterialManager.damageMod 2
+MaterialManager.setEffectTemplate BazookaCascadesMetal
+
+MaterialManager.attGroup 227
+MaterialManager.defGroup 53
+MaterialManager.damageMod 2
+MaterialManager.setEffectTemplate BazookaCascadesMetal
+
+MaterialManager.attGroup 227
+MaterialManager.defGroup 54
+MaterialManager.damageMod 1
+MaterialManager.setEffectTemplate BazookaCascadesMetal
+
+MaterialManager.attGroup 227
+MaterialManager.defGroup 55
+MaterialManager.damageMod 5.0
+MaterialManager.setEffectTemplate BazookaCascadesMetal
+
+MaterialManager.attGroup 227
+MaterialManager.defGroup 56
+MaterialManager.damageMod 3.0
+MaterialManager.setEffectTemplate BazookaCascadesMetal
+
+MaterialManager.attGroup 227
+MaterialManager.defGroup 57
+MaterialManager.damageMod 1.0
+MaterialManager.setEffectTemplate BazookaCascadesMetal
+
+MaterialManager.attGroup 227
+MaterialManager.defGroup 58
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate BazookaCascadesMetal
+
+MaterialManager.attGroup 227
+MaterialManager.defGroup 59
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate BazookaCascadesMetal
+
+MaterialManager.attGroup 227
+MaterialManager.defGroup 60
+MaterialManager.damageMod 20
+MaterialManager.setEffectTemplate BazookaCascadesMetal
+
+MaterialManager.attGroup 227
+MaterialManager.defGroup 61
+MaterialManager.damageMod 20
+MaterialManager.setEffectTemplate BazookaCascadesMetal
+
+MaterialManager.attGroup 227
+MaterialManager.defGroup 62
+MaterialManager.damageMod 20
+MaterialManager.setEffectTemplate BazookaCascadesMetal
+
+MaterialManager.attGroup 227
+MaterialManager.defGroup 63
+MaterialManager.damageMod 20
+MaterialManager.setEffectTemplate BazookaCascadesMetal
+
+MaterialManager.attGroup 227
+MaterialManager.defGroup 64
+MaterialManager.damageMod 20
+MaterialManager.setEffectTemplate BazookaCascadesMetal
+
+MaterialManager.attGroup 227
+MaterialManager.defGroup 65
+MaterialManager.damageMod 5
+MaterialManager.setEffectTemplate BazookaCascadesMetal
+
+MaterialManager.attGroup 227
+MaterialManager.defGroup 66
+MaterialManager.damageMod 3
+MaterialManager.setEffectTemplate BazookaCascadesMetal
+
+MaterialManager.attGroup 227
+MaterialManager.defGroup 0
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate e_ExplBazooka
+
+MaterialManager.attGroup 227
+MaterialManager.defGroup 1
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate e_waterimpact
+
+
+
+
+rem * *************************************************
+rem *		Material Effects
+rem * *************************************************
+rem * *************************************************
+rem *		Other Materials
+rem * *************************************************
+
+rem * *** Dry Grass (yellow) ***
+MaterialManager.attGroup 227
+MaterialManager.defGroup 2
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate e_ExplBazooka
+
+rem * *** Juicy Grass (Green) ***
+MaterialManager.attGroup 227
+MaterialManager.defGroup 3
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate e_ExplBazooka
+
+rem * *** Dry Dirt ***
+MaterialManager.attGroup 227
+MaterialManager.defGroup 4
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate e_ExplBazooka
+
+rem * *** Wet Dirt ***
+MaterialManager.attGroup 227
+MaterialManager.defGroup 5
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate e_ExplBazooka
+
+rem * *** Mud ***
+MaterialManager.attGroup 227
+MaterialManager.defGroup 6
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate e_ExplBazooka
+
+rem * *** Deep Mud ***
+MaterialManager.attGroup 227
+MaterialManager.defGroup 7
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate e_ExplBazooka
+
+rem * *** Gravel ***
+MaterialManager.attGroup 227
+MaterialManager.defGroup 8
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate e_ExplBazooka
+
+rem * *** Frozen ground ***
+MaterialManager.attGroup 227
+MaterialManager.defGroup 9
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate e_ExplBazooka
+
+rem * *** Dry Sand ***
+MaterialManager.attGroup 227
+MaterialManager.defGroup 10
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate e_ExplBazooka
+
+rem * *** Wet Sand ***
+MaterialManager.attGroup 227
+MaterialManager.defGroup 11
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate e_ExplBazooka
+
+rem * *** Rock ***
+MaterialManager.attGroup 227
+MaterialManager.defGroup 12
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate BazookaCascadesStone
+
+rem * *** Forest Floor ***
+MaterialManager.attGroup 227
+MaterialManager.defGroup 13
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate e_ExplBazooka
+
+rem * *** Dirt Road ***
+MaterialManager.attGroup 227
+MaterialManager.defGroup 14
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate e_ExplBazooka
+
+rem * *** Paved Road ***
+MaterialManager.attGroup 227
+MaterialManager.defGroup 15
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate BazookaCascadesStone
+
+rem * *** Solid Wood ***
+MaterialManager.attGroup 227
+MaterialManager.defGroup 80
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate BazookaCascadesWood
+
+rem * *** Wood ***
+MaterialManager.attGroup 227
+MaterialManager.defGroup 81
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate BazookaCascadesWood
+
+rem * *** Thin Wood ***
+MaterialManager.attGroup 227
+MaterialManager.defGroup 82
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate BazookaCascadesWood
+
+rem * *** Hollow Wood ***
+MaterialManager.attGroup 227
+MaterialManager.defGroup 83
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate BazookaCascadesWood
+
+rem * *** Solid Metal ***
+MaterialManager.attGroup 227
+MaterialManager.defGroup 84
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate BazookaCascadesMetal
+
+rem * *** Metal ***
+MaterialManager.attGroup 227
+MaterialManager.defGroup 85
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate BazookaCascadesMetal
+
+rem * *** Thin Metal ***
+MaterialManager.attGroup 227
+MaterialManager.defGroup 86
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate BazookaCascadesMetal
+
+rem * *** Hollow Metal ***
+MaterialManager.attGroup 227
+MaterialManager.defGroup 87
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate BazookaCascadesMetal
+
+rem * *** Solid Stone (Rock) ***
+MaterialManager.attGroup 227
+MaterialManager.defGroup 88
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate BazookaCascadesStone
+
+beginrem *
+rem * *** Thick Cloth ***
+MaterialManager.attGroup 227
+MaterialManager.defGroup 89
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate e_ExplBazooka
+
+rem * *** Cloth ***
+MaterialManager.attGroup 227
+MaterialManager.defGroup 90
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate e_ExplBazooka
+
+rem * *** Thin Cloth ***
+MaterialManager.attGroup 227
+MaterialManager.defGroup 91
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate e_ExplBazooka
+endrem *
+
+rem * *** Concrete ***
+MaterialManager.attGroup 227
+MaterialManager.defGroup 92
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate BazookaCascadesStone
+
+rem * *** Reinforced Concrete ***
+MaterialManager.attGroup 227
+MaterialManager.defGroup 93
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate BazookaCascadesStone
+
+rem * *** Flesh ***
+MaterialManager.attGroup 227
+MaterialManager.defGroup 94
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate e_ExplBazooka
+
+rem * *** Exterior Stone Wall ***
+MaterialManager.attGroup 227
+MaterialManager.defGroup 100
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate BazookaCascadesStone
+
+rem * *** Interior Stone Wall ***
+MaterialManager.attGroup 227
+MaterialManager.defGroup 101
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate BazookaCascadesStone
+
+rem * *** Exterior brick Wall ***
+MaterialManager.attGroup 227
+MaterialManager.defGroup 102
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate BazookaCascadesStone
+
+rem * *** Interior brick Wall ***
+MaterialManager.attGroup 227
+MaterialManager.defGroup 103
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate BazookaCascadesStone
+
+rem * *** Exterior wooden Wall ***
+MaterialManager.attGroup 227
+MaterialManager.defGroup 104
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate BazookaCascadesWood
+
+rem * *** Interior wooden Wall ***
+MaterialManager.attGroup 227
+MaterialManager.defGroup 105
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate BazookaCascadesWood
+
+rem * *** Wooden Fence ***
+MaterialManager.attGroup 227
+MaterialManager.defGroup 106
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate BazookaCascadesWood
+
+rem * *** Sandbags ***
+MaterialManager.attGroup 227
+MaterialManager.defGroup 107
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate e_ExplBazooka
+
+rem * *** Grate ***
+MaterialManager.attGroup 227
+MaterialManager.defGroup 108
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate e_ExplBazooka
+
+rem * *** Wooden Fence ***
+MaterialManager.attGroup 227
+MaterialManager.defGroup 109
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate BazookaCascadesWood
+
+rem * *** Wire Fence ***
+MaterialManager.attGroup 227
+MaterialManager.defGroup 110
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate e_ExplBazooka
+
+rem * *** Grated Fence ***
+MaterialManager.attGroup 227
+MaterialManager.defGroup 111
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate e_ExplBazooka
+
+rem * *** Mesh Fence ***
+MaterialManager.attGroup 227
+MaterialManager.defGroup 112
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate e_ExplBazooka
+
+rem * *** Bamboo Exterior wall ***
+MaterialManager.attGroup 227
+MaterialManager.defGroup 113
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate BazookaCascadesWood
+
+rem * *** Bamboo Interior wall ***
+MaterialManager.attGroup 227
+MaterialManager.defGroup 114
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate BazookaCascadesWood
+
+rem * *** Bamboo Fence ***
+MaterialManager.attGroup 227
+MaterialManager.defGroup 115
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate BazookaCascadesWood
+
+rem * *** Bamboo Fence ***
+MaterialManager.attGroup 227
+MaterialManager.defGroup 116
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate BazookaCascadesWood
+
+rem * *** Wooden Floor ***
+MaterialManager.attGroup 227
+MaterialManager.defGroup 117
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate e_ExplBazooka
+
+rem * *** Stone Floor ***
+MaterialManager.attGroup 227
+MaterialManager.defGroup 118
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate BazookaCascadesStone
+
+rem * *** Glass Pane ***
+MaterialManager.attGroup 227
+MaterialManager.defGroup 119
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate e_ExplBazooka
+

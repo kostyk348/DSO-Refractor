@@ -1,0 +1,23 @@
+rem *** Em_ExFumePOW ***
+ObjectTemplate.create Emitter Em_ExFumePOW
+ObjectTemplate.template Fx_ExFumePOW
+ObjectTemplate.looping 1
+ObjectTemplate.startAtCreation 1
+ObjectTemplate.lodDistance 900
+ObjectTemplate.timeToLive CRD_NONE/1/0/0
+ObjectTemplate.intensity CRD_NONE/4/0/0
+ObjectTemplate.positionalSpeedInUp CRD_NONE/1/0/0
+
+rem *** Fx_ExFumePOW ***
+ObjectTemplate.create SpriteParticle Fx_ExFumePOW
+ObjectTemplate.timeToLive CRD_UNIFORM/4/7/0
+ObjectTemplate.size CRD_NONE/4/0/0
+ObjectTemplate.drag CRD_NONE/1/0/0
+ObjectTemplate.gravityModifier CRD_UNIFORM/-0.5/-1/0
+ObjectTemplate.sizeOverTime 0/0.740239|67/1.72002|100/1.45998
+ObjectTemplate.texture e_muzs2_I
+ObjectTemplate.initRotation CRD_UNIFORM/0/180/0
+ObjectTemplate.destBlendMode BMInvSourceAlpha
+ObjectTemplate.rotationSpeed CRD_NORMAL/15/30/1
+ObjectTemplate.rotationSpeedOverTime 0/0.209998|100/1
+ObjectTemplate.colorRGBAOverTime 0/44/41/39/0|12/41/38/36/133|44/36/33/30/30|100/26/23/19/0

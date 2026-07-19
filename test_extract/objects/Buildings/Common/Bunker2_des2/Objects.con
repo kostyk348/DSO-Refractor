@@ -1,0 +1,17 @@
+ObjectTemplate.create Bundle bunker2_des2_m1
+ObjectTemplate.setHasCollisionPhysics 1
+ObjectTemplate.aiTemplate bunker2_des2_M1
+ObjectTemplate.addTemplate lodbunker2_des2
+
+LodSelectorTemplate.create DistanceSelector bunker2_des2Selector
+LodSelectorTemplate.addLodDistance 70
+ObjectTemplate.create LodObject lodbunker2_des2
+ObjectTemplate.lodselector bunker2_des2Selector
+ObjectTemplate.addTemplate bunker2_des2Interior
+ObjectTemplate.addTemplate bunker2_des2Exterior
+
+ObjectTemplate.create bundle bunker2_des2Interior
+ObjectTemplate.geometry bunker2_des2_m1
+
+ObjectTemplate.create SimpleObject bunker2_des2Exterior
+ObjectTemplate.geometry bunker2_des2_m2

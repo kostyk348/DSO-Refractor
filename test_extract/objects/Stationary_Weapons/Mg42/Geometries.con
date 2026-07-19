@@ -1,0 +1,8 @@
+GeometryTemplate.create StandardMesh MG42_m1
+GeometryTemplate.file RiM42_m1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 4
+GeometryTemplate.setLodDistance 2 6
+GeometryTemplate.setLodDistance 3 8
+GeometryTemplate.setLodDistance 4 10
+GeometryTemplate.setLodDistance 5 100

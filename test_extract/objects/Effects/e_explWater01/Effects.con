@@ -1,0 +1,62 @@
+
+
+rem *** e_explWater01 ***
+ObjectTemplate.create EffectBundle e_explWater01
+ObjectTemplate.saveInSeparateFile 1
+rem -------------------------------------
+ObjectTemplate.addTemplate Em_Expl_Water01_core
+ObjectTemplate.addTemplate Em_Waterexpl_Cascade
+ObjectTemplate.timeToLive CRD_NONE/3/0/0
+rem -------------------------------------
+
+
+rem *** Em_Expl_Water01_core ***
+ObjectTemplate.create Emitter Em_Expl_Water01_core
+ObjectTemplate.template Fx_Expl_Water01_core
+ObjectTemplate.lodDistance 900
+ObjectTemplate.timeToLive CRD_NONE/0.2/0/0
+ObjectTemplate.intensity CRD_NONE/30/0/0
+ObjectTemplate.relativePositionInUp CRD_UNIFORM/0/-3/0
+ObjectTemplate.positionalSpeedInDof CRD_UNIFORM/0/3/1
+ObjectTemplate.positionalSpeedInUp CRD_UNIFORM/10/40/0
+ObjectTemplate.positionalSpeedInRight CRD_UNIFORM/0/3/1
+ObjectTemplate.rotationalSpeedInUp CRD_NONE/30/0/0
+ObjectTemplate.startRotation CRD_NONE/1/0/0
+ObjectTemplate.moveToWaterSurface 1
+
+
+rem *** Fx_Expl_Water01_core ***
+ObjectTemplate.create SpriteParticle Fx_Expl_Water01_core
+ObjectTemplate.timeToLive CRD_NONE/3/3/0
+ObjectTemplate.size CRD_NONE/10/0/0
+ObjectTemplate.gravityModifier CRD_NONE/3/0/0
+ObjectTemplate.drag CRD_NONE/0.6/0/0
+ObjectTemplate.sizeOverTime 0/0.200018|100/2
+ObjectTemplate.gravityModifierOverTime 100/0.699988
+ObjectTemplate.texture water_ono_I
+ObjectTemplate.initRotation CRD_UNIFORM/90/0/0
+ObjectTemplate.destBlendMode BMOne
+ObjectTemplate.rotationSpeed CRD_UNIFORM/0/20/0
+ObjectTemplate.XYSizeRatioOverTime 74/0.499985|100/1
+ObjectTemplate.colorRGBAOverTime 0/255/255/255/153|100/109/147/177/0
+
+
+rem *** Em_Waterexpl_Cascade ***
+ObjectTemplate.create Emitter Em_Waterexpl_Cascade
+ObjectTemplate.template Fx_Waterexpl_Cascade
+ObjectTemplate.lodDistance 900
+ObjectTemplate.timeToLive CRD_NONE/0.1/0/0
+ObjectTemplate.startRotation CRD_NONE/10/0/0
+ObjectTemplate.moveToWaterSurface 1
+
+
+rem *** Fx_Waterexpl_Cascade ***
+ObjectTemplate.create Particle Fx_Waterexpl_Cascade
+ObjectTemplate.geometry Richo_WaterBase_m1
+ObjectTemplate.timeToLive CRD_NONE/1/0/0
+ObjectTemplate.size CRD_UNIFORM/10/12/0
+ObjectTemplate.gravityModifier CRD_NONE/2/0/0
+ObjectTemplate.sizeModifier 30/15/30
+ObjectTemplate.sizeOverTime 0/1.00024|100/5
+ObjectTemplate.gravityModifierOverTime 0/0.300241|77/1.26014|100/0.800073
+ObjectTemplate.alphaOverTime 0/1|100/0

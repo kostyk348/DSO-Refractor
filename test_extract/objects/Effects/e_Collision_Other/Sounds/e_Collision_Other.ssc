@@ -1,0 +1,117 @@
+
+newPatch
+############
+### Side ###
+############
+
+load @ROOT/Sound/@RTD/collside1.wav
+minDistance 7
+randomStartPitch 0.2 / 0.1
+volume 1
+stop FinishSample
+
+*** Distance Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 10
+	param 15
+	param 1
+	param -1	
+endEffect
+
+
+load @ROOT/Sound/@RTD/collside2.wav
+minDistance 7
+randomStartPitch 0.2 / 0.1
+volume 1
+stop FinishSample
+
+*** Distance Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 10
+	param 15
+	param 1
+	param -1	
+endEffect
+
+load @ROOT/Sound/@RTD/collside3.wav
+minDistance 7
+randomStartPitch 0.2 / 0.1
+volume 1
+stop FinishSample
+
+*** Distance Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 10
+	param 15
+	param 1
+	param -1	
+endEffect
+
+
+load @ROOT/Sound/@RTD/collside4.wav
+minDistance 7
+randomStartPitch 0.2 / 0.1
+volume 1
+stop FinishSample
+
+*** Distance Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 10
+	param 15
+	param 1
+	param -1	
+endEffect
+
+
+load @ROOT/Sound/@RTD/collside5.wav
+minDistance 7
+randomStartPitch 0.2 / 0.1
+volume 1
+stop FinishSample
+
+*** Distance Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 10
+	param 15
+	param 1
+	param -1	
+endEffect
+
+load @ROOT/Sound/@RTD/collside6.wav
+minDistance 7
+randomStartPitch 0.2 / 0.1
+volume 1
+stop FinishSample
+
+*** Distance Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 10
+	param 15
+	param 1
+	param -1	
+endEffect
+
+
+
+#################
+### RANDOMIZE ###
+#################
+randomPlay 1

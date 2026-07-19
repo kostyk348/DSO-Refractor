@@ -1,0 +1,4 @@
+ObjectTemplate.create SimpleObject bunker2_des1_m1
+ObjectTemplate.geometry bunker2_des1_m1
+ObjectTemplate.setHasCollisionPhysics 1
+ObjectTemplate.aiTemplate bunker2_des1_m1

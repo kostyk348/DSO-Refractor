@@ -1,0 +1,20 @@
+ObjectTemplate.create KitPart German_Scout_Helm
+ObjectTemplate.geometry ger_Scout_helm
+ObjectTemplate.setBoneName A
+ObjectTemplate.setCopyLinksCount 0
+
+ObjectTemplate.create Kit German_Scout
+ObjectTemplate.geometry Kit_Axis_Scout
+ObjectTemplate.setHasCollisionPhysics 1
+ObjectTemplate.networkableInfo KitInfo
+ObjectTemplate.addTemplate german_Scout_Helm
+ObjectTemplate.addTemplate Radio
+rem ObjectTemplate.addTemplate german_HipPack
+
+ObjectTemplate.addTemplate k98Sniper
+ObjectTemplate.addTemplate walterp38
+ObjectTemplate.addTemplate KnifeAxis
+
+ObjectTemplate.addTemplate Binoculars
+ObjectTemplate.addTemplate GrenadeAxis
+ObjectTemplate.aiTemplate  Scout

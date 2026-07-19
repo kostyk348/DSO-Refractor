@@ -1,0 +1,3 @@
+ObjectTemplate.create SimpleObject WindDust_m1
+ObjectTemplate.geometry WindDust_m1
+ObjectTemplate.setHasCollisionPhysics 0

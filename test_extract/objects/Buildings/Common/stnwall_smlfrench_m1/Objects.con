@@ -1,0 +1,3 @@
+ObjectTemplate.create SimpleObject stnwall_smlfrench_m1
+ObjectTemplate.geometry stnwall_smlfrench_m1
+ObjectTemplate.setHasCollisionPhysics 1

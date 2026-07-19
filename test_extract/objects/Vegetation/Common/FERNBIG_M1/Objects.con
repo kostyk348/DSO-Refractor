@@ -1,0 +1,3 @@
+ObjectTemplate.create SimpleObject FERNBIG_M1
+ObjectTemplate.geometry FERNBIG_M1
+ObjectTemplate.setHasCollisionPhysics 0

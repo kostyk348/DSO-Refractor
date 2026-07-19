@@ -1,0 +1,104 @@
+
+rem *** e_RichoCascadesMetal ***
+ObjectTemplate.create EffectBundle e_RichoCascadesMetal
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.loadSoundScript Sounds/CascadesMetal.ssc
+rem -------------------------------------
+ObjectTemplate.addTemplate em_RichoCascadesMetal1
+ObjectTemplate.timeToLive CRD_NONE/0.1/0/0
+ObjectTemplate.addTemplate em_RichoCascadesMetal2
+ObjectTemplate.timeToLive CRD_NONE/0.1/0/0
+ObjectTemplate.addTemplate Em_expl_richoStone
+ObjectTemplate.timeToLive CRD_NONE/0.1/0/0
+ObjectTemplate.addTemplate Em_expl_richoStone1
+ObjectTemplate.timeToLive CRD_NONE/0.1/0/0
+rem -------------------------------------
+rem *** Em_RichoCascadesMetal1 ***
+ObjectTemplate.create Emitter Em_RichoCascadesMetal1
+ObjectTemplate.template Gibb_Mroof15_m1
+ObjectTemplate.addEmitterSpeed 1
+ObjectTemplate.emitterSpeedScale 1
+ObjectTemplate.startProbability 1
+ObjectTemplate.lodDistance 700
+ObjectTemplate.timeToLive CRD_NONE/0.1/0/0
+ObjectTemplate.intensity CRD_UNIFORM/11/20/0
+ObjectTemplate.relativePositionInDof CRD_NONE/0.1/0/0
+ObjectTemplate.positionalSpeedInDof CRD_UNIFORM/5/-5/0
+ObjectTemplate.positionalSpeedInUp CRD_UNIFORM/10/5/0
+ObjectTemplate.positionalSpeedInRight CRD_UNIFORM/5/-5/0
+ObjectTemplate.rotationalSpeedInUp CRD_UNIFORM/1/10/0
+ObjectTemplate.rotationalSpeedInRight CRD_UNIFORM/1/2/0
+ObjectTemplate.startRotation CRD_UNIFORM/70/0/0
+rem *** Em_RichoCascadesMetal2 ***
+ObjectTemplate.create Emitter Em_RichoCascadesMetal2
+ObjectTemplate.template Gibb_Mroof30_m1
+ObjectTemplate.addEmitterSpeed 1
+ObjectTemplate.emitterSpeedScale 1
+ObjectTemplate.startProbability 1
+ObjectTemplate.lodDistance 700
+ObjectTemplate.delay CRD_NONE/0/0/0
+ObjectTemplate.timeToLive CRD_NONE/0.1/0/0
+ObjectTemplate.intensity CRD_UNIFORM/11/20/0
+ObjectTemplate.relativePositionInDof CRD_NONE/0.1/0/0
+ObjectTemplate.positionalSpeedInDof CRD_UNIFORM/5/-5/0
+ObjectTemplate.positionalSpeedInUp CRD_UNIFORM/8/4/0
+ObjectTemplate.positionalSpeedInRight CRD_UNIFORM/5/-5/0
+ObjectTemplate.rotationalSpeedInDof CRD_UNIFORM/10/0/0
+ObjectTemplate.rotationalSpeedInUp CRD_UNIFORM/1/10/0
+ObjectTemplate.rotationalSpeedInRight CRD_UNIFORM/1/50/0
+ObjectTemplate.startRotation CRD_UNIFORM/1/20/0
+
+rem *** Em_expl_richoStone ***
+ObjectTemplate.create Emitter Em_expl_richoStone
+ObjectTemplate.template Fx_expl_richoStone
+ObjectTemplate.addEmitterSpeed 1
+ObjectTemplate.emitterSpeedScale 1
+ObjectTemplate.startProbability 1
+ObjectTemplate.lodDistance 700
+ObjectTemplate.delay CRD_NONE/0/0/0
+ObjectTemplate.timeToLive CRD_NONE/0.1/0/0
+ObjectTemplate.intensity CRD_UNIFORM/10/2/1
+ObjectTemplate.intensityOverTime 
+ObjectTemplate.relativePositionInDof CRD_NONE/0.1/0/0
+ObjectTemplate.relativePositionInUp CRD_NONE/0/0/0
+ObjectTemplate.relativePositionInRight CRD_NONE/0/0/0
+ObjectTemplate.positionalSpeedInDof CRD_UNIFORM/1/-1/0
+ObjectTemplate.positionalSpeedInUp CRD_UNIFORM/2/0/0
+ObjectTemplate.positionalSpeedInRight CRD_UNIFORM/3/-3/0
+ObjectTemplate.rotationalSpeedInDof CRD_NONE/1/0/0
+ObjectTemplate.rotationalSpeedInUp CRD_UNIFORM/1/10/0
+ObjectTemplate.rotationalSpeedInRight CRD_UNIFORM/1/20/0
+ObjectTemplate.startRotation CRD_UNIFORM/10/0/0
+rem *** Fx_expl_richoStone ***
+ObjectTemplate.create Particle Fx_expl_richoStone
+ObjectTemplate.geometry Gibb_concret20_m1
+ObjectTemplate.timeToLive CRD_UNIFORM/1/2/0
+ObjectTemplate.size CRD_NONE/1/0/0
+ObjectTemplate.gravityModifier CRD_NONE/0.6/-0.3/0
+ObjectTemplate.sizeOverTime 0/0|100/1
+
+rem *** Em_expl_richoStone1 ***
+ObjectTemplate.create Emitter Em_expl_richoStone1
+ObjectTemplate.template Fx_expl_richoStone1
+ObjectTemplate.addEmitterSpeed 1
+ObjectTemplate.emitterSpeedScale 1
+ObjectTemplate.startProbability 1
+ObjectTemplate.lodDistance 700
+ObjectTemplate.timeToLive CRD_NONE/0.1/0/0
+ObjectTemplate.intensity CRD_UNIFORM/60/60/0
+ObjectTemplate.relativePositionInDof CRD_NONE/0.1/0/0
+ObjectTemplate.positionalSpeedInDof CRD_UNIFORM/1/-1/0
+ObjectTemplate.positionalSpeedInUp CRD_UNIFORM/15/1/0
+ObjectTemplate.positionalSpeedInRight CRD_UNIFORM/5/-3/0
+ObjectTemplate.rotationalSpeedInUp CRD_UNIFORM/1/10/0
+ObjectTemplate.rotationalSpeedInRight CRD_UNIFORM/20/0/0
+ObjectTemplate.startRotation CRD_NONE/1/0/0
+rem *** Fx_expl_richoStone1 ***
+ObjectTemplate.create Particle Fx_expl_richoStone1
+ObjectTemplate.geometry Gibb_concret20_m1
+ObjectTemplate.timeToLive CRD_UNIFORM/1/2/0
+ObjectTemplate.size CRD_NONE/1/0/0
+ObjectTemplate.gravityModifier CRD_NONE/0.6/-0.3/0
+ObjectTemplate.sizeOverTime 0/0|100/1
+ 
+

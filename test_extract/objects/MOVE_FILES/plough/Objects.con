@@ -1,0 +1,4 @@
+ObjectTemplate.create SimpleObject plough_M1
+ObjectTemplate.geometry plough_M1
+ObjectTemplate.setHasCollisionPhysics 1
+

@@ -1,0 +1,9 @@
+
+GeometryTemplate.create StandardMesh sandbagi_m1
+GeometryTemplate.file sandbagi_m1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 25
+GeometryTemplate.setLodDistance 2 35
+GeometryTemplate.setLodDistance 3 55
+GeometryTemplate.setLodDistance 4 100
+GeometryTemplate.setLodDistance 5 300

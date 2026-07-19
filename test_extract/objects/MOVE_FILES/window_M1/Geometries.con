@@ -1,0 +1,17 @@
+GeometryTemplate.create StandardMesh windowWhole_M1
+GeometryTemplate.file windowWhole_M1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 50
+GeometryTemplate.setLodDistance 2 100
+GeometryTemplate.setLodDistance 3 200
+GeometryTemplate.setLodDistance 4 400
+GeometryTemplate.setLodDistance 5 800
+
+GeometryTemplate.create StandardMesh windowBroken_M1
+GeometryTemplate.file windowBroken_M1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 50
+GeometryTemplate.setLodDistance 2 100
+GeometryTemplate.setLodDistance 3 200
+GeometryTemplate.setLodDistance 4 400
+GeometryTemplate.setLodDistance 5 800

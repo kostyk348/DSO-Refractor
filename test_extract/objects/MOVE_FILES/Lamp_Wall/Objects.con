@@ -1,0 +1,3 @@
+ObjectTemplate.create SimpleObject walllamp1_m1
+ObjectTemplate.geometry walllamp1_m1
+ObjectTemplate.aiTemplate walllamp1_m1

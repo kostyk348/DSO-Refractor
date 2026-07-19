@@ -1,0 +1,13 @@
+ObjectTemplate.create Kit Rus_AT
+ObjectTemplate.geometry Kit_Allies_Antitank
+ObjectTemplate.setHasCollisionPhysics 1
+ObjectTemplate.networkableInfo KitInfo
+ObjectTemplate.addTemplate Russ_Helmet
+ObjectTemplate.addTemplate Bacpac_rus
+ObjectTemplate.addTemplate Russian_hippack
+
+ObjectTemplate.addTemplate Bazooka
+ObjectTemplate.addTemplate KnifeAllies
+ObjectTemplate.addTemplate Colt
+ObjectTemplate.addTemplate GrenadeAllies
+ObjectTemplate.aitemplate AT

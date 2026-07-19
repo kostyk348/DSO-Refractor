@@ -1,0 +1,112 @@
+ObjectTemplate.create Bundle barack_m1
+ObjectTemplate.setHasCollisionPhysics 1
+ObjectTemplate.aiTemplate barack_m1
+ObjectTemplate.addTemplate lodbarack
+
+LodSelectorTemplate.create DistanceSelector barackSelector
+LodSelectorTemplate.addLodDistance 70
+ObjectTemplate.create LodObject lodbarack
+ObjectTemplate.lodselector barackSelector
+ObjectTemplate.addTemplate barackInterior
+ObjectTemplate.addTemplate barackExterior
+
+ObjectTemplate.create bundle barackInterior
+ObjectTemplate.geometry barack_m1
+rem -------------------------------------
+
+ObjectTemplate.addTemplate milBed_m1
+ObjectTemplate.setPosition 6.4/0.9/1.9
+ObjectTemplate.setRotation -90/0/0
+
+
+ObjectTemplate.addTemplate milBed_m1
+ObjectTemplate.setPosition 6.4/0.9/-3.1
+ObjectTemplate.setRotation -90/0/0
+
+
+ObjectTemplate.addTemplate milBed_m1
+ObjectTemplate.setPosition 6.4/0.9/-8.1
+ObjectTemplate.setRotation -90/0/0
+
+
+ObjectTemplate.addTemplate mililocker_m1
+ObjectTemplate.setPosition 7.3/0.9/3.5
+ObjectTemplate.setRotation -90/0/0
+
+
+ObjectTemplate.addTemplate mililocker_m1
+ObjectTemplate.setPosition 7.3/0.9/-1.6
+ObjectTemplate.setRotation -90/0/0
+
+
+ObjectTemplate.addTemplate mililocker_m1
+ObjectTemplate.setPosition 7.3/0.9/-6.65
+ObjectTemplate.setRotation -90/0/0
+
+
+REM -------------------------------------------
+
+ObjectTemplate.addTemplate milBed_m1
+ObjectTemplate.setPosition -6.7/0.9/1.9
+ObjectTemplate.setRotation 90/0/0
+
+
+ObjectTemplate.addTemplate milBed_m1
+ObjectTemplate.setPosition -6.7/0.9/-3.3
+ObjectTemplate.setRotation 90/0/0
+
+
+ObjectTemplate.addTemplate milBed_m1
+ObjectTemplate.setPosition -6.7/0.9/-8.2
+ObjectTemplate.setRotation 90/0/0
+
+
+ObjectTemplate.addTemplate mililocker_m1
+ObjectTemplate.setPosition -7.6/0.9/3.5
+ObjectTemplate.setRotation 90/0/0
+
+
+ObjectTemplate.addTemplate mililocker_m1
+ObjectTemplate.setPosition -7.6/0.9/-1.6
+ObjectTemplate.setRotation 90/0/0
+
+
+ObjectTemplate.addTemplate mililocker_m1
+ObjectTemplate.setPosition -7.6/0.9/-6.8
+ObjectTemplate.setRotation 90/0/0
+
+REM -------------------------------------------
+
+ObjectTemplate.addTemplate militable_m1
+ObjectTemplate.setPosition 3.9/0.9/9.35
+ObjectTemplate.setRotation 90/0/0
+
+ObjectTemplate.addTemplate milichair_m1
+ObjectTemplate.setPosition 3.0/0.9/8.83
+ObjectTemplate.setRotation 90/0/0
+
+
+ObjectTemplate.addTemplate milichair_m1
+ObjectTemplate.setPosition 3.0/0.9/9.65
+ObjectTemplate.setRotation 90/0/0
+
+
+ObjectTemplate.addTemplate milichair_m1
+ObjectTemplate.setPosition 4.7/0.9/8.83
+ObjectTemplate.setRotation -90/0/0
+
+ObjectTemplate.addTemplate milichair_m1
+ObjectTemplate.setPosition 4.7/0.9/9.65
+ObjectTemplate.setRotation -90/0/0
+
+
+REM -------- Interior Smoke --------------------
+
+ObjectTemplate.addTemplate buildingdust
+ObjectTemplate.setPosition 4.401/4.415/5.24
+ObjectTemplate.setRotation 0/0/0
+
+
+rem ---------------------------------------------
+ObjectTemplate.create SimpleObject barackExterior
+ObjectTemplate.geometry barack_m2

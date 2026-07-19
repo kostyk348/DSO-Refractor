@@ -1,0 +1,7 @@
+GeometryTemplate.create AnimatedMesh Parachute
+GeometryTemplate.setSkin animations/Parachute.skn
+GeometryTemplate.file Parachute_m1
+GeometryTemplate.setLodRange 0 0 1 500 2 1000
+GeometryTemplate.setLodPercent 0 1.0
+GeometryTemplate.setLodPercent 1 1.0
+GeometryTemplate.setLodPercent 2 1.0

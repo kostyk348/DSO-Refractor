@@ -1,0 +1,65 @@
+
+
+rem *** e_richoGHeavy ***
+ObjectTemplate.create EffectBundle e_richoGHeavy
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.loadSoundScript Sounds/Richoground.ssc
+rem -------------------------------------
+ObjectTemplate.addTemplate Em_richoGHeavy
+ObjectTemplate.addTemplate Em_richoGHeavy_smoke
+ObjectTemplate.addTemplate Em_richoGHeavy_Base
+ObjectTemplate.setRotation 45/0/0.02
+ObjectTemplate.setStartOnEffects 1
+ObjectTemplate.timeToLive CRD_NONE/0.1/0/0
+rem -------------------------------------
+
+
+rem *** Em_richoGHeavy ***
+ObjectTemplate.create Emitter Em_richoGHeavy
+ObjectTemplate.template Fx_richoGHeavy
+ObjectTemplate.lodDistance 50
+ObjectTemplate.timeToLive CRD_NONE/0.1/0/0
+ObjectTemplate.intensity CRD_UNIFORM/10/20/0
+ObjectTemplate.startRotation CRD_NONE/1/0/0
+
+
+rem *** Fx_richoGHeavy ***
+ObjectTemplate.create SpriteParticle Fx_richoGHeavy
+ObjectTemplate.timeToLive CRD_NONE/0.1/0/0
+ObjectTemplate.size CRD_UNIFORM/0.4/0.6/0
+ObjectTemplate.sizeOverTime 0/0.310007|100/1
+ObjectTemplate.gravityModifier CRD_NONE/0/0/0
+ObjectTemplate.texture e_richoGitt_I
+ObjectTemplate.initRotation CRD_UNIFORM/1/180/0
+ObjectTemplate.destBlendMode BMOne
+ObjectTemplate.rotationSpeed CRD_UNIFORM/1/180/1
+ObjectTemplate.colorRGBAOverTime 0/255/255/255/0|5/220/219/201/216|82/220/219/201/198|100/220/219/201/0
+
+
+rem *** Em_richoGHeavy_smoke ***
+ObjectTemplate.create Emitter Em_richoGHeavy_smoke
+ObjectTemplate.template Fx_richoGHeavy_smoke
+ObjectTemplate.lodDistance 100
+ObjectTemplate.timeToLive CRD_NONE/0.1/0/0
+ObjectTemplate.intensity CRD_NONE/10/0/0
+ObjectTemplate.relativePositionInUp CRD_UNIFORM/0.1/0/0
+ObjectTemplate.positionalSpeedInDof CRD_UNIFORM/0/0.3/1
+ObjectTemplate.positionalSpeedInUp CRD_UNIFORM/0.5/2/0
+ObjectTemplate.positionalSpeedInRight CRD_UNIFORM/0/0.02/1
+ObjectTemplate.startRotation CRD_NONE/1/0/0
+
+
+rem *** Fx_richoGHeavy_smoke ***
+ObjectTemplate.create SpriteParticle Fx_richoGHeavy_smoke
+ObjectTemplate.timeToLive CRD_UNIFORM/0.45/0.45/0
+ObjectTemplate.size CRD_UNIFORM/1/4/0
+ObjectTemplate.gravityModifier CRD_NONE/0.35/0/0
+ObjectTemplate.drag CRD_NONE/1/0/0
+ObjectTemplate.sizeOverTime 0/0.209998|100/0.709998
+ObjectTemplate.texture e_muzs2_I
+ObjectTemplate.initRotation CRD_UNIFORM/0/180/1
+ObjectTemplate.destBlendMode BMOne
+ObjectTemplate.rotationSpeed CRD_UNIFORM/20/50/1
+ObjectTemplate.colorRGBAOverTime 0/0/0/0/0|18/201/187/143/62|38/201/187/143/97|62/201/187/143/140|100/201/187/143/0
+
+

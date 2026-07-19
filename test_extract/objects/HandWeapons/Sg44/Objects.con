@@ -1,0 +1,84 @@
+ObjectTemplate.create HandFireArms Sg44
+ObjectTemplate.itemIndex 3
+ObjectTemplate.networkableInfo HandFireArmsInfo
+ObjectTemplate.projectileTemplate sg44Projectile
+rem ObjectTemplate.setTracerTemplate Tracer_Projectile CRD_UNIFORM/2/4/0
+ObjectTemplate.projectilePosition 0/0/0.5
+ObjectTemplate.magSize 30
+ObjectTemplate.numOfMag 5
+ObjectTemplate.magType 0
+ObjectTemplate.reloadtime 3.8
+ObjectTemplate.roundOfFire 10
+objectTemplate.aiTemplate SG44AI
+
+ObjectTemplate.zoomFov 0.5
+ObjectTemplate.altFireOnce 1
+ObjectTemplate.soldierZoomFov 0.6 
+ObjectTemplate.soldierZoomPosition -0.04/-0.01/0
+ObjectTemplate.soldierCameraPosition -0.02/-0.04/0.03
+ObjectTemplate.addRootSpeed 0
+ObjectTemplate.ammoType 1
+
+ObjectTemplate.GUIIndex 3
+
+Rem *** Deviation Begin *****
+
+ObjectTemplate.velocity 400
+ObjectTemplate.setRecoilForceUp CRD_UNIFORM/0.28/0.32/0
+ObjectTemplate.setRecoilForceLeftRight CRD_UNIFORM/-0.2/0.2/0
+ObjectTemplate.setHasRecoilForce 1
+ObjectTemplate.setGoBackOnRecoil 0
+
+ObjectTemplate.setFireDev 3.0 0.25 0.03
+ObjectTemplate.setDevMod 1.0 0.85 0.6
+ObjectTemplate.setMinDev 0.5
+ObjectTemplate.setTurnDev 0 0 0 0
+ObjectTemplate.setSpeedDev 1.8 0.2 0.2 0.1
+ObjectTemplate.setMiscDev 2.5 2.5 0.1
+
+Rem *** Deviation  End *****
+
+ObjectTemplate.fireInCameraDof 1
+ObjectTemplate.loadSoundScript Sounds/sg44.ssc
+
+ObjectTemplate.createSkeleton animations/sg44.ske
+ObjectTemplate.useSkeletonPartAsMain Base
+
+rem *** LodObject must be located as first child to work on handweapons.
+ObjectTemplate.addTemplate Sg44Lod
+
+ObjectTemplate.addTemplate e_MuzzSG44
+ObjectTemplate.setInputId -1
+ObjectTemplate.startoneffects 0
+ObjectTemplate.setPosition 0/0.055/0.42
+ObjectTemplate.setRotation 0/0/0
+
+ObjectTemplate.addTemplate e_shell792mm
+ObjectTemplate.setInputId -1
+ObjectTemplate.startoneffects 1
+ObjectTemplate.setPosition 0/0.04/0.30
+ObjectTemplate.setRotation 0/0/0
+
+ObjectTemplate.create SimpleObject Sg44Simple
+ObjectTemplate.geometry Sg44Simple
+
+ObjectTemplate.create SimpleObject sg44Magasin
+ObjectTemplate.geometry sg44Magasin
+
+ObjectTemplate.create SimpleObject sg44trigger
+ObjectTemplate.geometry sg44trigger
+
+ObjectTemplate.create AnimatedBundle Sg44Complex
+ObjectTemplate.createSkeleton animations/sg44.ske
+ObjectTemplate.geometry sg44
+ObjectTemplate.hasDynamicShadow 1
+ObjectTemplate.addTemplate sg44trigger
+ObjectTemplate.bindToSkeletonPart Trigger
+ObjectTemplate.addTemplate Sg44Magasin
+ObjectTemplate.bindToSkeletonPart mag
+
+ObjectTemplate.create LodObject Sg44Lod
+ObjectTemplate.lodselector HandWeaponLodSelector
+ObjectTemplate.addTemplate Sg44Complex
+ObjectTemplate.addTemplate Sg44Simple
+

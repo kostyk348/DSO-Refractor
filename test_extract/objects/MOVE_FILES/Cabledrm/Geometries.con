@@ -1,0 +1,9 @@
+
+GeometryTemplate.create StandardMesh cabledrm_m1
+GeometryTemplate.file cabledrm_m1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 10
+GeometryTemplate.setLodDistance 2 20
+GeometryTemplate.setLodDistance 3 30
+GeometryTemplate.setLodDistance 4 60
+GeometryTemplate.setLodDistance 5 100

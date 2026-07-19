@@ -1,0 +1,65 @@
+##############
+### FABRIC ###
+##############
+newPatch
+load @ROOT/Sound/@RTD/SoFa1.wav
+randomStartPitch 0.03 / 0.03
+minDistance 1
+volume .3
+*** Distance Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 3
+	param 4
+	param 1
+	param -1	
+endEffect
+
+load @ROOT/Sound/@RTD/SoFa2.wav
+randomStartPitch 0.03 / 0.03
+minDistance 1
+volume .8
+*** Distance Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 3
+	param 4
+	param 1
+	param -1	
+endEffect
+
+load @ROOT/Sound/@RTD/SoFa3.wav
+randomStartPitch 0.03 / 0.03
+minDistance 1
+volume .8
+*** Distance Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 3
+	param 4
+	param 1
+	param -1	
+endEffect
+
+load @ROOT/Sound/@RTD/SoFa4.wav
+randomStartPitch 0.03 / 0.03
+minDistance 1
+volume .8
+*** Distance Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 3
+	param 4
+	param 1
+	param -1	
+endEffect
+
+randomPlay 1

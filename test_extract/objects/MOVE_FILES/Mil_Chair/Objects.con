@@ -1,0 +1,4 @@
+ObjectTemplate.create SimpleObject milichair_m1
+ObjectTemplate.geometry milichair_m1
+ObjectTemplate.aiTemplate milichair_m1
+ObjectTemplate.setHasCollisionPhysics 1

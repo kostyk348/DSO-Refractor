@@ -1,0 +1,15 @@
+NetworkableInfo.createNewInfo KatTurretInfo
+NetworkableInfo.setPredictionMode PMLinear
+
+NetworkableInfo.createNewInfo KatGunInfo
+NetworkableInfo.setPredictionMode PMLinear
+
+
+NetworkableInfo.createNewInfo KatEngineInfo
+NetworkableInfo.setPredictionMode PMLinear
+
+NetworkableInfo.createNewInfo KatBodyInfo
+NetworkableInfo.setPredictionMode PMLinear
+
+
+

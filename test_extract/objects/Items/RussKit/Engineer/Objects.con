@@ -1,0 +1,17 @@
+ObjectTemplate.create Kit Rus_Engineer
+ObjectTemplate.geometry Kit_Allies_Engineer
+ObjectTemplate.setHasCollisionPhysics 1
+ObjectTemplate.networkableInfo KitInfo
+ObjectTemplate.addTemplate Russ_Helmet
+ObjectTemplate.addTemplate Russian_hippack
+ObjectTemplate.addTemplate BacpacBig_rus
+
+ObjectTemplate.addTemplate No4
+ObjectTemplate.addTemplate Colt
+ObjectTemplate.addTemplate KnifeAllies
+
+ObjectTemplate.addTemplate RepairPack
+ObjectTemplate.addTemplate Landmine
+ObjectTemplate.addTemplate Detonator
+ObjectTemplate.addTemplate ExpPack
+ObjectTemplate.aitemplate Engineer

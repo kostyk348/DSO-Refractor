@@ -1,0 +1,51 @@
+ObjectTemplate.create FireArms MG42
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.geometry MG42_m1
+ObjectTemplate.aiTemplate MG42
+ObjectTemplate.projectileTemplate MG42_Projectile
+ObjectTemplate.setTracerTemplate Tracer_Projectile CRD_NONE/2/0/0
+ObjectTemplate.projectilePosition 0/0/2
+ObjectTemplate.magSize -1
+ObjectTemplate.numOfMag 999
+ObjectTemplate.magType 0
+ObjectTemplate.reloadtime 0.1
+ObjectTemplate.recoilSpeed 50.0
+ObjectTemplate.roundOfFire 15
+ObjectTemplate.autoReload 1
+
+
+Rem *** Deviation Begin *****
+
+ObjectTemplate.velocity 700
+ObjectTemplate.setFireDev 0.9 0.25 0.05
+ObjectTemplate.setMinDev 0.7
+
+
+Rem *** Deviation  End *****
+ObjectTemplate.fireInCameraDof 1
+objectTemplate.heatAddWhenFire 0.04
+objectTemplate.coolDownPerSec 0.4
+objectTemplate.timeDelayOnOverHeat 2
+
+rem Looks good but doesn't work with the current IK
+rem ObjectTemplate.addSkeletonIK Bip01_R_Hand 0.00/-0.03/0.02 0/0/90
+rem ObjectTemplate.addSkeletonIK Bip01_L_Hand -0.0/0.09/0.15 0/-80/0
+rem ObjectTemplate.addSkeletonIK Bip01_R_Hand 0.10/-0.03/0.22 0/0/90
+rem ObjectTemplate.addSkeletonIK Bip01_L_Hand -0.10/-0.03/-0.22 0/0/-90
+
+ObjectTemplate.addSkeletonIK Bip01_R_Hand 0.04/-0.03/-0.07 0/80/90
+ObjectTemplate.addSkeletonIK Bip01_L_Hand -0.05/0.10/-0.18 0/-160/-20
+
+ObjectTemplate.addTemplate e_MuzzHeavy
+ObjectTemplate.startoneffects 1
+ObjectTemplate.setPosition 0/0.1/0.8
+ObjectTemplate.setRotation 0/0/0
+
+ObjectTemplate.addTemplate e_shell792mm
+ObjectTemplate.startoneffects 1
+ObjectTemplate.setPosition 0.01/0.07/0.37
+ObjectTemplate.setRotation 0/0/0
+
+rem *** Sound Browning ***
+ObjectTemplate.loadSoundScript Sounds/mg42.ssc
+

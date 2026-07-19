@@ -1,0 +1,72 @@
+ObjectTemplate.create SimpleObject richo_glintbase_m1
+ObjectTemplate.geometry richo_glintbase_m1
+ObjectTemplate.setHasCollisionPhysics 0
+
+ObjectTemplate.create SimpleObject Richo_glintlong_m1
+ObjectTemplate.geometry Richo_glintlong_m1
+ObjectTemplate.setHasCollisionPhysics 0
+
+ObjectTemplate.create SimpleObject Richo_meshDbrown_m1
+ObjectTemplate.geometry Richo_meshDbrown_m1
+ObjectTemplate.setHasCollisionPhysics 0
+
+ObjectTemplate.create SimpleObject richo_WhiteM_m1
+ObjectTemplate.geometry richo_WhiteM_m1
+ObjectTemplate.setHasCollisionPhysics 0
+
+ObjectTemplate.create SimpleObject Richo_meshbrown1_m1
+ObjectTemplate.geometry Richo_meshbrown1_m1
+ObjectTemplate.setHasCollisionPhysics 0
+
+ObjectTemplate.create SimpleObject Richo_meshbrown2_m1
+ObjectTemplate.geometry Richo_meshbrown2_m1
+ObjectTemplate.setHasCollisionPhysics 0
+
+ObjectTemplate.create SimpleObject watermesh_m1
+ObjectTemplate.geometry watermesh_m1
+ObjectTemplate.setHasCollisionPhysics 0
+
+ObjectTemplate.create SimpleObject watermesh_streak_m1
+ObjectTemplate.geometry watermesh_streak_m1
+ObjectTemplate.setHasCollisionPhysics 0
+
+ObjectTemplate.create SimpleObject watermesh_streak1_m1
+ObjectTemplate.geometry watermesh_streak1_m1
+ObjectTemplate.setHasCollisionPhysics 0
+
+ObjectTemplate.create SimpleObject watermesh_ring_m1
+ObjectTemplate.geometry watermesh_ring_m1
+ObjectTemplate.setHasCollisionPhysics 0
+
+ObjectTemplate.create SimpleObject watermesh_pouring_m1
+ObjectTemplate.geometry watermesh_pouring_m1
+ObjectTemplate.setHasCollisionPhysics 0
+
+ObjectTemplate.create SimpleObject Richo_WaterBase_m1
+ObjectTemplate.geometry Richo_WaterBase_m1
+ObjectTemplate.setHasCollisionPhysics 0
+
+ObjectTemplate.create SimpleObject Richo_meshbig_m1
+ObjectTemplate.geometry Richo_meshbig_m1
+ObjectTemplate.setHasCollisionPhysics 0
+
+ObjectTemplate.create SimpleObject Richo_meshmbig_m1
+ObjectTemplate.geometry Richo_meshmbig_m1
+ObjectTemplate.setHasCollisionPhysics 0
+
+ObjectTemplate.create SimpleObject Richo_meshsbig_m1
+ObjectTemplate.geometry Richo_meshsbig_m1
+ObjectTemplate.setHasCollisionPhysics 0
+
+ObjectTemplate.create SimpleObject shockwave_m1
+ObjectTemplate.geometry shockwave_m1
+ObjectTemplate.setHasCollisionPhysics 0
+
+ObjectTemplate.create SimpleObject shell792mmHi_m1
+ObjectTemplate.geometry shell792mmHi_m1
+ObjectTemplate.setHasCollisionPhysics 0
+
+ObjectTemplate.create SimpleObject shell792mmLw_m1
+ObjectTemplate.geometry shell792mmLw_m1
+ObjectTemplate.setHasCollisionPhysics 0
+

@@ -1,0 +1,190 @@
+ObjectTemplate.create Projectile Torpedo
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.geometry Torpedo_Hull_M1
+ObjectTemplate.timeToLive CRD_NONE/20/0/0
+ObjectTemplate.endEffectTemplate WaterExplosionTorpedo
+ObjectTemplate.gravityModifier 1.0
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasCollisionEffect 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.setHasPointPhysics 0
+ObjectTemplate.DetonateOnWaterCollision 0
+ObjectTemplate.drag 0.04
+ObjectTemplate.mass 800
+ObjectTemplate.material 250
+rem ObjectTemplate.material2 206
+ObjectTemplate.radius 30
+
+rem -------------------------------------------------
+
+ObjectTemplate.addTemplate e_WaterTorpedo 
+ObjectTemplate.setPosition 0/0/0
+ObjectTemplate.setRotation 0/0/0
+
+ObjectTemplate.addTemplate Torpedo_Floater
+ObjectTemplate.setPosition 0/3/-2
+ObjectTemplate.setRotation 0/0/0
+
+ObjectTemplate.addTemplate Torpedo_Floater
+ObjectTemplate.setPosition 0/3/2
+ObjectTemplate.setRotation 0/0/0
+
+ObjectTemplate.addTemplate Torpedo_Engine
+ObjectTemplate.setPosition 0/0/-3
+ObjectTemplate.setRotation 0/0/0
+
+ObjectTemplate.addTemplate Torpedo_Wing
+ObjectTemplate.setPosition 0/0/-3
+ObjectTemplate.setRotation 0/0/0
+
+ObjectTemplate.addTemplate Torpedo_Wing
+ObjectTemplate.setPosition 0/0/-3
+ObjectTemplate.setRotation 0/0/-90
+
+
+rem -------------------------------------------------
+
+
+ObjectTemplate.create Projectile AircraftTorpedo
+ObjectTemplate.geometry Torpedo_Sml_M1
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.timeToLive CRD_NONE/20/0/0
+ObjectTemplate.endEffectTemplate WaterExplosionTorpedo
+ObjectTemplate.gravityModifier 1.0
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasCollisionEffect 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.setHasPointPhysics 0
+ObjectTemplate.DetonateOnWaterCollision 0
+ObjectTemplate.drag 0.04
+ObjectTemplate.mass 800
+ObjectTemplate.material 250
+rem ObjectTemplate.material2 206
+ObjectTemplate.radius 30
+
+rem -------------------------------------------------
+
+ObjectTemplate.addTemplate e_WaterTorpedo 
+ObjectTemplate.setPosition 0/0/0
+ObjectTemplate.setRotation 0/0/0
+
+ObjectTemplate.addTemplate Torpedo_Floater
+ObjectTemplate.setPosition 0/3/-2
+ObjectTemplate.setRotation 0/0/0
+
+ObjectTemplate.addTemplate Torpedo_Floater
+ObjectTemplate.setPosition 0/3/2
+ObjectTemplate.setRotation 0/0/0
+
+ObjectTemplate.addTemplate Torpedo_Engine
+ObjectTemplate.setPosition 0/0/-3
+ObjectTemplate.setRotation 0/0/0
+
+ObjectTemplate.addTemplate Torpedo_Wing
+ObjectTemplate.setPosition 0/0/-3
+ObjectTemplate.setRotation 0/0/0
+
+ObjectTemplate.addTemplate Torpedo_Wing
+ObjectTemplate.setPosition 0/0/-3
+ObjectTemplate.setRotation 0/0/-90
+
+rem -------------------------------------------------
+
+
+ObjectTemplate.create Projectile FighterBomb
+ObjectTemplate.createNotInGrid 1
+ObjectTemplate.loadSoundScript ../air/common/Sounds/Bomb.ssc
+ObjectTemplate.geometry Big_Bomb_M1
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.timeToLive CRD_NONE/20/0/0
+ObjectTemplate.damageType 1
+ObjectTemplate.material 242
+ObjectTemplate.material2 202
+ObjectTemplate.radius 20
+ObjectTemplate.stopAtEndEffect 1
+ObjectTemplate.dieAfterColl 0
+ObjectTemplate.hasCollisionEffect 1
+ObjectTemplate.mass 250
+ObjectTemplate.drag 0.08
+ObjectTemplate.setHasPointPhysics 0
+
+rem -------------------------------------------------
+
+ObjectTemplate.addTemplate Bomb_wing
+ObjectTemplate.setPosition 0/0/-0.5
+
+ObjectTemplate.addTemplate Bomb_wing
+ObjectTemplate.setPosition 0/0/-0.5
+ObjectTemplate.setRotation 0/0/-90
+
+rem -------------------------------------------------
+
+
+ObjectTemplate.create Projectile DiveBomberBomb
+ObjectTemplate.createNotInGrid 1
+ObjectTemplate.loadSoundScript ../air/common/Sounds/Bomb.ssc
+ObjectTemplate.geometry Big_Bomb_M1
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.timeToLive CRD_NONE/20/0/0
+ObjectTemplate.damageType 1
+ObjectTemplate.material 242
+ObjectTemplate.material2 202
+ObjectTemplate.radius 20
+ObjectTemplate.stopAtEndEffect 1
+ObjectTemplate.dieAfterColl 0
+ObjectTemplate.hasCollisionEffect 1
+ObjectTemplate.mass 250
+ObjectTemplate.drag 0.08
+ObjectTemplate.setHasPointPhysics 0
+
+rem -------------------------------------------------
+
+ObjectTemplate.addTemplate Bomb_wing
+ObjectTemplate.setPosition 0/0/-0.5
+
+ObjectTemplate.addTemplate Bomb_wing
+ObjectTemplate.setPosition 0/0/-0.5
+ObjectTemplate.setRotation 0/0/-90
+
+rem -------------------------------------------------
+
+
+ObjectTemplate.create Projectile HeavyBomberBomb
+ObjectTemplate.createNotInGrid 1
+ObjectTemplate.loadSoundScript ../air/common/Sounds/Bomb.ssc
+ObjectTemplate.geometry Big_Bomb_M1
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.timeToLive CRD_NONE/20/0/0
+ObjectTemplate.damageType 1
+ObjectTemplate.material 240
+ObjectTemplate.material2 204
+ObjectTemplate.radius 30
+ObjectTemplate.stopAtEndEffect 1
+ObjectTemplate.dieAfterColl 0
+ObjectTemplate.hasCollisionEffect 1
+ObjectTemplate.mass 250
+ObjectTemplate.drag 0.08
+ObjectTemplate.setHasPointPhysics 0
+
+rem -------------------------------------------------
+
+ObjectTemplate.addTemplate Bomb_wing
+ObjectTemplate.setPosition 0/0/-0.5
+
+ObjectTemplate.addTemplate Bomb_wing
+ObjectTemplate.setPosition 0/0/-0.5
+ObjectTemplate.setRotation 0/0/-90
+
+rem -------------------------------------------------
+
+
+ObjectTemplate.create Wing Bomb_wing
+ObjectTemplate.setWingLift 0.2

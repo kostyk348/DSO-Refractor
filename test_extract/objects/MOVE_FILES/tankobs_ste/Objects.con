@@ -1,0 +1,4 @@
+ObjectTemplate.create SimpleObject tankobs_ste_M1
+ObjectTemplate.geometry tankobs_ste_M1
+ObjectTemplate.setHasCollisionPhysics 1
+objectTemplate.cullRadiusScale 6

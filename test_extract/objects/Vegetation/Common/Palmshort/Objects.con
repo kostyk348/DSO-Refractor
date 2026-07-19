@@ -1,0 +1,5 @@
+ObjectTemplate.create SimpleObject Palmshort_m1
+ObjectTemplate.geometry Palmshort_m1
+ObjectTemplate.setHasCollisionPhysics 1
+ObjectTemplate.addToCollisionGroup c_CGProjectiles
+objectTemplate.aiTemplate Palmshort_m1

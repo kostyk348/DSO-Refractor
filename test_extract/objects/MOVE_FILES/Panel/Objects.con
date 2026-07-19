@@ -1,0 +1,3 @@
+ObjectTemplate.create SimpleObject signalpanel_m1
+ObjectTemplate.geometry signalpanel_m1
+objectTemplate.aiTemplate signalpanel_m1

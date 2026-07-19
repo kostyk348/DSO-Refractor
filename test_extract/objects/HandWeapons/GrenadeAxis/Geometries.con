@@ -1,0 +1,14 @@
+GeometryTemplate.create StandardMesh GrenadeAxis
+GeometryTemplate.file granade_axis_m1
+GeometryTemplate.hasDynamicShadow 0
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 5
+GeometryTemplate.setLodDistance 2 60
+
+
+GeometryTemplate.create StandardMesh Shad_GrenadeAxis
+GeometryTemplate.file Shad_grenade_axis_m1
+GeometryTemplate.hasDynamicShadow 1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 300
+

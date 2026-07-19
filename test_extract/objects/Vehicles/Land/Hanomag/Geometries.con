@@ -1,0 +1,101 @@
+renderer.beginGlobalCluster Hanomag
+
+GeometryTemplate.create StandardMesh hanomag_Hull_M1
+GeometryTemplate.file hanomag_Hull_M1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 15
+GeometryTemplate.setLodDistance 2 45
+GeometryTemplate.setLodDistance 3 80
+GeometryTemplate.hasDynamicShadow 1
+
+GeometryTemplate.create AnimatedMesh hanomag_TrackL_M1
+GeometryTemplate.file hanomag_TrackL_M1
+GeometryTemplate.setSkin animations/hanomag_TrackL_M1.skn
+
+GeometryTemplate.create AnimatedMesh hanomag_TrackR_M1
+GeometryTemplate.file hanomag_TrackR_M1
+GeometryTemplate.setSkin animations/hanomag_TrackR_M1.skn
+
+GeometryTemplate.create StandardMesh hanomag_tireL_M1
+GeometryTemplate.file hanomag_tireL_M1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 20
+GeometryTemplate.setLodDistance 2 60
+GeometryTemplate.setLodDistance 3 100
+
+GeometryTemplate.create StandardMesh hanomag_tireR_M1
+GeometryTemplate.file hanomag_tireR_M1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 20
+GeometryTemplate.setLodDistance 2 60
+GeometryTemplate.setLodDistance 3 100
+
+GeometryTemplate.create StandardMesh hanomag_whe_frl_M1
+GeometryTemplate.file Hanomag_Whe1R_M1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 20
+GeometryTemplate.setLodDistance 2 60
+GeometryTemplate.setLodDistance 3 100
+
+GeometryTemplate.create StandardMesh hanomag_whe_frr_M1
+GeometryTemplate.file Hanomag_Whe1L_M1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 20
+GeometryTemplate.setLodDistance 2 60
+GeometryTemplate.setLodDistance 3 100
+
+GeometryTemplate.create StandardMesh Hanomag_Whe_4l_M1
+GeometryTemplate.file Hanomag_Whe3R_M1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 20
+GeometryTemplate.setLodDistance 2 60
+GeometryTemplate.setLodDistance 3 100
+
+GeometryTemplate.create StandardMesh Hanomag_Whe_4R_M1
+GeometryTemplate.file Hanomag_Whe3L_M1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 20
+GeometryTemplate.setLodDistance 2 60
+GeometryTemplate.setLodDistance 3 100
+
+GeometryTemplate.create StandardMesh Hanomag_Whe_3l_M1
+GeometryTemplate.file Hanomag_Whe2R_M1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 20
+GeometryTemplate.setLodDistance 2 60
+GeometryTemplate.setLodDistance 3 100
+
+GeometryTemplate.create StandardMesh Hanomag_Whe_3r_M1
+GeometryTemplate.file Hanomag_Whe2L_M1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 20
+GeometryTemplate.setLodDistance 2 60
+GeometryTemplate.setLodDistance 3 100
+
+GeometryTemplate.create StandardMesh Hanomag_shield_M1
+GeometryTemplate.file Hanomag_shield_M1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 10
+GeometryTemplate.setLodDistance 2 15
+GeometryTemplate.setLodDistance 3 30
+GeometryTemplate.setLodDistance 4 50
+GeometryTemplate.setLodDistance 5 100
+
+GeometryTemplate.create StandardMesh 1P_Hanomag_Driver_M1
+GeometryTemplate.file 1P_Hanomag_Driver_M1
+renderer.endGlobalCluster
+
+GeometryTemplate.create StandardMesh hanomag_Hull_L1
+GeometryTemplate.file hanomag_Hull_L1
+GeometryTemplate.hasDynamicShadow 1
+
+GeometryTemplate.create StandardMesh Wreck_hanomag_m1
+GeometryTemplate.file Wreck_hanomag_m1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 150
+GeometryTemplate.setLodDistance 2 200
+GeometryTemplate.setLodDistance 3 250
+GeometryTemplate.setLodDistance 4 300
+GeometryTemplate.setLodDistance 5 500
+
+

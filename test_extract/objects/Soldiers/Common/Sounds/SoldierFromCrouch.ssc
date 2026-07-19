@@ -1,0 +1,95 @@
+newPatch
+##################
+### FromCrouch ###
+##################
+
+load @ROOT/Sound/@RTD/SOSTAND2.wav
+randomStartPitch 0.05 / 0.05
+minDistance 1
+
+*** Distance Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 4
+	param 5
+	param 1
+	param -1	
+endEffect
+
+load @ROOT/Sound/@RTD/SOSTAND1.wav
+randomStartPitch 0.05 / 0.05
+minDistance 1
+
+*** Distance Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 4
+	param 5
+	param 1
+	param -1	
+endEffect
+
+randomPlay 1
+
+delayed
+
+load @ROOT/Sound/@RTD/SOCRAWL4.wav
+randomStartPitch 0.05 / 0.05
+minDistance 1
+
+*** Distance Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 4
+	param 5
+	param 1
+	param -1	
+endEffect
+
+*** Time Delay ***
+beginEffect
+	controlDestination Volume
+	controlSource Time
+	envelope Ramp
+	param .25
+	param .25
+	param 0
+	param 1
+endEffect
+
+trigger Volume
+
+
+load @ROOT/Sound/@RTD/SoMewa3.wav
+randomStartPitch 0.05 / 0.05
+minDistance 1
+
+*** Distance Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 4
+	param 5
+	param 1
+	param -1	
+endEffect
+
+*** Time Delay ***
+beginEffect
+	controlDestination Volume
+	controlSource Time
+	envelope Ramp
+	param .35
+	param .35
+	param 0
+	param 1
+endEffect
+
+trigger Volume

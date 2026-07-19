@@ -1,0 +1,42 @@
+
+
+rem *** e_ExplDrySand ***
+ObjectTemplate.create EffectBundle e_ExplDrySand
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.loadSoundScript Sounds/ExplDrySand.ssc
+rem -------------------------------------
+ObjectTemplate.addTemplate Em_Expl_Core
+ObjectTemplate.addTemplate Em_Expl_Flash
+ObjectTemplate.addTemplate Em_Expl_sparks
+ObjectTemplate.addTemplate Em_ExplDrySand_Smoke
+ObjectTemplate.timeToLive CRD_NONE/3/0/0
+rem -------------------------------------
+
+rem *** Em_ExplDrySand_Smoke ***
+ObjectTemplate.create Emitter Em_ExplDrySand_Smoke
+ObjectTemplate.template Fx_ExplDrySand_Smoke
+ObjectTemplate.addEmitterSpeed 1
+ObjectTemplate.emitterSpeedScale 1
+ObjectTemplate.lodDistance 800
+ObjectTemplate.timeToLive CRD_NONE/0.1/0/0
+ObjectTemplate.intensity CRD_UNIFORM/10/30/0
+ObjectTemplate.positionalSpeedInUp CRD_NONE/5/0/0
+ObjectTemplate.rotationalSpeedInDof CRD_NONE/0/0/0
+ObjectTemplate.rotationalSpeedInUp CRD_NONE/0/0/0
+ObjectTemplate.rotationalSpeedInRight CRD_NONE/0/0/0
+ObjectTemplate.startRotation CRD_UNIFORM/180/0/0
+rem *** Fx_ExplDrySand_Smoke ***
+ObjectTemplate.create SpriteParticle Fx_ExplDrySand_Smoke
+ObjectTemplate.timeToLive CRD_NONE/4/4/0
+ObjectTemplate.size CRD_UNIFORM/8/5/0
+ObjectTemplate.gravityModifier CRD_NONE/6/0/0
+ObjectTemplate.drag CRD_NONE/1/0/0
+ObjectTemplate.sizeOverTime 0/0.599994|53/2.96585|100/4
+ObjectTemplate.gravityModifierOverTime 0/0.199988|100/0.199988
+ObjectTemplate.texture E_dustwind_I
+ObjectTemplate.initRotation CRD_NONE/1/0/0
+ObjectTemplate.XYSizeRatio CRD_NONE/0.7/0/0
+ObjectTemplate.destBlendMode BMInvSourceAlpha
+ObjectTemplate.rotationSpeed CRD_NONE/0/0/0
+ObjectTemplate.rotationSpeedOverTime 0/2.04004|26/3.36|64/3.84002|100/6
+ObjectTemplate.colorRGBAOverTime 0/233/215/158/255|47/228/218/185/135|48/228/218/186/132|80/226/221/205/51|100/226/221/205/0

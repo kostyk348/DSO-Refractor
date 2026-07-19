@@ -1,0 +1,32 @@
+ObjectTemplate.create Bundle Window_m1
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.sethascollisionPhysics 1
+ObjectTemplate.sethasresponsePhysics 1
+ObjectTemplate.hasArmor 1
+ObjectTemplate.maxhitpoints 1
+ObjectTemplate.hitpoints 1
+ObjectTemplate.Material 41
+ObjectTemplate.addArmorEffect 0 e_ExplWindow 0/0/0
+ObjectTemplate.explosionDamage 0
+ObjectTemplate.stayAsDestroyed 1
+ObjectTemplate.noCollisionsAsDestroyed 1
+ObjectTemplate.addTemplate lodWindow
+
+
+rem
+rem *** Willy lod tree stucture
+rem
+LodSelectorTemplate.create DistCompareSelector2 WindowLodSelector
+LodSelectorTemplate.hasDestroyedLod 1
+LodSelectorTemplate.addLodComparison 0
+ObjectTemplate.create LodObject lodWindow
+ObjectTemplate.lodselector WindowLodSelector
+ObjectTemplate.addTemplate WindowWhole
+ObjectTemplate.addTemplate WindowBroken
+ObjectTemplate.setRotation 0/0/0
+
+ObjectTemplate.create SimpleObject WindowWhole
+ObjectTemplate.geometry windowWhole_M1
+
+ObjectTemplate.create SimpleObject WindowBroken
+ObjectTemplate.geometry windowBroken_M1

@@ -1,0 +1,18 @@
+rem *** Plugins ***
+aiTemplatePlugIn.create Cover PaciFarmCover
+aiTemplatePlugIn.coverValue 1.0
+
+aiTemplatePlugIn.create Physical PaciFarmPhysical
+aiTemplatePlugIn.setStrType LightArmour
+
+rem *** AITemplate ***
+aiTemplate.create pacificfarm1_m1
+aiTemplate.addType ITCover
+aiTemplate.addType ITStructure
+aiTemplate.addType ITLowPriority
+aiTemplate.degeneration 1
+aiTemplate.allowedTimeDiff -1
+aiTemplate.basicTemp 1
+aiTemplate.commonKnowledge 1
+aiTemplate.addPlugIn PaciFarmCover
+aiTemplate.addPlugIn PaciFarmPhysical

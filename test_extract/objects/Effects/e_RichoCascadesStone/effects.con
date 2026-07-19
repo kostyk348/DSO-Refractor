@@ -1,0 +1,49 @@
+rem
+rem *** e_RichoCascadesStone ***
+rem
+ObjectTemplate.create EffectBundle e_RichoCascadesStone
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.loadSoundScript Sounds/CascadesStone.ssc
+rem -------------------------------------
+ObjectTemplate.addTemplate em_RichoCascadesStone1
+ObjectTemplate.addTemplate em_RichoCascadesStone2
+ObjectTemplate.timeToLive CRD_NONE/1.8/0/0
+rem -------------------------------------
+
+rem *** Em_RichoCascadesStone1 ***
+ObjectTemplate.create Emitter Em_RichoCascadesStone1
+ObjectTemplate.template Gibb_concret45_m1
+ObjectTemplate.addEmitterSpeed 1
+ObjectTemplate.emitterSpeedScale 1
+ObjectTemplate.startProbability 1
+ObjectTemplate.lodDistance 700
+ObjectTemplate.timeToLive CRD_NONE/0.1/0/0
+ObjectTemplate.intensity CRD_UNIFORM/5/20/0
+ObjectTemplate.relativePositionInDof CRD_NONE/0.1/0/0
+ObjectTemplate.relativePositionInUp CRD_NONE/0/0/0
+ObjectTemplate.relativePositionInRight CRD_NONE/0/0/0
+ObjectTemplate.positionalSpeedInDof CRD_UNIFORM/5/-5/0
+ObjectTemplate.positionalSpeedInUp CRD_UNIFORM/10/5/0
+ObjectTemplate.positionalSpeedInRight CRD_UNIFORM/5/-5/0
+ObjectTemplate.rotationalSpeedInDof CRD_NONE/1/0/0
+ObjectTemplate.rotationalSpeedInUp CRD_UNIFORM/1/10/0
+ObjectTemplate.rotationalSpeedInRight CRD_UNIFORM/1/2/0
+ObjectTemplate.startRotation CRD_UNIFORM/70/0/0
+
+rem *** Em_RichoCascadesStone2 ***
+ObjectTemplate.create Emitter Em_RichoCascadesStone2
+ObjectTemplate.template Gibb_concret60_m1
+ObjectTemplate.addEmitterSpeed 1
+ObjectTemplate.emitterSpeedScale 1
+ObjectTemplate.startProbability 1
+ObjectTemplate.lodDistance 700
+ObjectTemplate.timeToLive CRD_NONE/0.1/0/0
+ObjectTemplate.intensity CRD_UNIFORM/5/40/0
+ObjectTemplate.relativePositionInDof CRD_NONE/0.1/0/0
+ObjectTemplate.positionalSpeedInDof CRD_UNIFORM/25/-5/0
+ObjectTemplate.positionalSpeedInUp CRD_UNIFORM/13/4/0
+ObjectTemplate.positionalSpeedInRight CRD_UNIFORM/5/-5/0
+ObjectTemplate.rotationalSpeedInDof CRD_UNIFORM/10/0/0
+ObjectTemplate.rotationalSpeedInUp CRD_UNIFORM/1/10/0
+ObjectTemplate.rotationalSpeedInRight CRD_UNIFORM/1/50/0
+ObjectTemplate.startRotation CRD_UNIFORM/1/20/0

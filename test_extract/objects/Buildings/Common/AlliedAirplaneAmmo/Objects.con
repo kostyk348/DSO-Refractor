@@ -1,0 +1,23 @@
+rem
+rem *** Ammobox ***
+rem
+ObjectTemplate.create Bundle AlliedAirplaneAmmo
+ObjectTemplate.saveInSeparateFile 1
+rem ObjectTemplate.geometry Ammobox_m1
+rem ObjectTemplate.aiTemplate Ammobox_m1
+ObjectTemplate.hasCollisionPhysics 0
+ObjectTemplate.hasResponsePhysics 0
+rem -------------------------------------
+ObjectTemplate.addTemplate AlliedAirplaneSupplyDepot
+ObjectTemplate.setPosition 0/0/0
+ObjectTemplate.setRotation 0/0/0
+
+ObjectTemplate.create SupplyDepot AlliedAirplaneSupplyDepot
+ObjectTemplate.radius 20
+ObjectTemplate.team 2
+ObjectTemplate.setHealth 0 0 0
+ObjectTemplate.addAmmoType 10 -1 40 0
+ObjectTemplate.addAmmoType 9 -1 4 0
+ObjectTemplate.workOnVehicles 1
+ObjectTemplate.workOnSoldiers 0
+ObjectTemplate.loadSoundScript ../../../Common/Sounds/SupplyDepot.ssc

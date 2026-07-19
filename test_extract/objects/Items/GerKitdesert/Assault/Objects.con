@@ -1,0 +1,15 @@
+ObjectTemplate.create Kit German_Assault_Desert
+ObjectTemplate.geometry Kit_Axis_Assault
+ObjectTemplate.setHasCollisionPhysics 1
+ObjectTemplate.networkableInfo KitInfo
+ObjectTemplate.addTemplate Germ_DesertHelmet
+ObjectTemplate.addTemplate German_hippack
+
+rem *** The order is important, first the best weapons!
+ObjectTemplate.addTemplate Sg44
+ObjectTemplate.addTemplate WalterP38
+ObjectTemplate.addTemplate KnifeAxis
+ObjectTemplate.addTemplate GrenadeAxis
+
+ObjectTemplate.aiTemplate  Assault
+

@@ -1,0 +1,69 @@
+
+
+rem *** e_ScrapAABase***
+ObjectTemplate.create EffectBundle e_ScrapAABase
+ObjectTemplate.saveInSeparateFile 1
+rem -------------------------------------
+ObjectTemplate.addTemplate Em_ScrapAABase_1
+ObjectTemplate.addTemplate Em_ScrapAABase_2
+ObjectTemplate.addTemplate Em_ScrapAABase_3
+ObjectTemplate.addTemplate Em_ScrapAABase_4
+ObjectTemplate.timeToLive CRD_NONE/1.8/0/0
+rem -------------------------------------
+
+
+rem *** Em_ScrapAABase_1 ***
+ObjectTemplate.create Emitter Em_ScrapAABase_1
+ObjectTemplate.template AABase_crank_Toss
+ObjectTemplate.addEmitterSpeed 1
+ObjectTemplate.emitterSpeedScale 1
+ObjectTemplate.lodDistance 375
+ObjectTemplate.timeToLive CRD_NONE/1/0/0
+ObjectTemplate.intensity CRD_NONE/1/0/0
+ObjectTemplate.relativePositionInDof CRD_NONE/0.1/0/0
+ObjectTemplate.positionalSpeedInDof CRD_UNIFORM/10/0/1
+ObjectTemplate.positionalSpeedInUp CRD_UNIFORM/20/15/0
+ObjectTemplate.positionalSpeedInRight CRD_UNIFORM/10/0/1
+ObjectTemplate.startRotation CRD_UNIFORM/1/100/0
+
+rem *** Em_ScrapAABase_2 ***
+ObjectTemplate.create Emitter Em_ScrapAABase_2
+ObjectTemplate.template AABase_roll_Toss
+ObjectTemplate.addEmitterSpeed 1
+ObjectTemplate.emitterSpeedScale 1
+ObjectTemplate.lodDistance 375
+ObjectTemplate.timeToLive CRD_NONE/1/0/0
+ObjectTemplate.intensity CRD_NONE/1/0/0
+ObjectTemplate.relativePositionInDof CRD_NONE/0.1/0/0
+ObjectTemplate.positionalSpeedInDof CRD_UNIFORM/10/0/1
+ObjectTemplate.positionalSpeedInUp CRD_UNIFORM/20/15/0
+ObjectTemplate.positionalSpeedInRight CRD_UNIFORM/10/0/1
+ObjectTemplate.startRotation CRD_NONE/1/0/0
+
+rem *** Em_ScrapAABase_3 ***
+ObjectTemplate.create Emitter Em_ScrapAABase_3
+ObjectTemplate.template AABase_cannon_Toss
+ObjectTemplate.addEmitterSpeed 1
+ObjectTemplate.emitterSpeedScale 1
+ObjectTemplate.lodDistance 375
+ObjectTemplate.timeToLive CRD_NONE/1/0/0
+ObjectTemplate.intensity CRD_NONE/1/0/0
+ObjectTemplate.relativePositionInDof CRD_NONE/0.1/0/0
+ObjectTemplate.positionalSpeedInDof CRD_UNIFORM/10/0/1
+ObjectTemplate.positionalSpeedInUp CRD_UNIFORM/20/15/0
+ObjectTemplate.positionalSpeedInRight CRD_UNIFORM/10/0/1
+ObjectTemplate.startRotation CRD_NONE/1/0/0
+
+rem *** Em_ScrapAABase_4 ***
+ObjectTemplate.create Emitter Em_ScrapAABase_4
+ObjectTemplate.template AABase_carriage_Toss
+ObjectTemplate.addEmitterSpeed 1
+ObjectTemplate.emitterSpeedScale 1
+ObjectTemplate.lodDistance 375
+ObjectTemplate.timeToLive CRD_NONE/1/0/0
+ObjectTemplate.intensity CRD_NONE/1/0/0
+ObjectTemplate.relativePositionInDof CRD_NONE/0.1/0/0
+ObjectTemplate.positionalSpeedInDof CRD_UNIFORM/10/0/1
+ObjectTemplate.positionalSpeedInUp CRD_UNIFORM/20/15/0
+ObjectTemplate.positionalSpeedInRight CRD_UNIFORM/10/0/1
+ObjectTemplate.startRotation CRD_NONE/1/0/0

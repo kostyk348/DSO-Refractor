@@ -1,0 +1,44 @@
+ObjectTemplate.create HandFireArms KnifeAxis
+ObjectTemplate.itemIndex 1
+ObjectTemplate.networkableInfo HandFireArmsInfo
+ObjectTemplate.projectileTemplate KnifeProjectile
+ObjectTemplate.projectilePosition 0/0/0
+ObjectTemplate.magSize -1
+ObjectTemplate.numOfMag 4
+ObjectTemplate.magType 0
+ObjectTemplate.reloadtime 1
+ObjectTemplate.fireOnce c_True
+ObjectTemplate.roundOfFire 2
+ObjectTemplate.GUIIndex 83
+ObjectTemplate.fireInCameraDof 1
+ObjectTemplate.loadSoundScript Sounds/knife.ssc
+ObjectTemplate.soldierCameraPosition 0/-0.03/0.1
+
+ObjectTemplate.velocity 50
+
+ObjectTemplate.createSkeleton animations/KnifeAxis.ske
+ObjectTemplate.useSkeletonPartAsMain Base
+ObjectTemplate.addTemplate KnifeAxisLod
+
+rem *** Objects ***
+ObjectTemplate.create SimpleObject KnifeAxisSimple
+ObjectTemplate.geometry Shad_KnifeAxis
+
+ObjectTemplate.create AnimatedBundle KnifeAxisComplex
+ObjectTemplate.geometry KnifeAxis
+ObjectTemplate.hasDynamicShadow 1
+ObjectTemplate.createSkeleton animations/KnifeAxis.ske
+
+ObjectTemplate.create LodObject KnifeAxisLod
+ObjectTemplate.lodselector HandWeaponLodSelector
+ObjectTemplate.addTemplate KnifeAxisComplex
+ObjectTemplate.addTemplate KnifeAxisSimple
+
+
+
+
+
+
+
+
+

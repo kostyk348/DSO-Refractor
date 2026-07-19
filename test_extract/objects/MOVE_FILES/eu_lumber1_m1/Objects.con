@@ -1,0 +1,3 @@
+ObjectTemplate.create SimpleObject eu_lumber1_m1
+ObjectTemplate.geometry eu_lumber1_m1
+ObjectTemplate.setHasCollisionPhysics 1

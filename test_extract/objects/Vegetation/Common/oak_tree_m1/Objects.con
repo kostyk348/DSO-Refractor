@@ -1,0 +1,3 @@
+ObjectTemplate.create SimpleObject oak_tree_m1
+ObjectTemplate.geometry oak_tree_m1
+ObjectTemplate.setHasCollisionPhysics 0

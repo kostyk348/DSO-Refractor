@@ -1,0 +1,89 @@
+ObjectTemplate.create HandFireArms Mp18
+ObjectTemplate.itemIndex 3
+ObjectTemplate.networkableInfo HandFireArmsInfo
+ObjectTemplate.projectileTemplate Mp40Projectile
+rem ObjectTemplate.setTracerTemplate Tracer_Projectile CRD_UNIFORM/2/4/0
+ObjectTemplate.projectilePosition 0/0/0.5
+ObjectTemplate.magSize 32
+ObjectTemplate.numOfMag 5
+ObjectTemplate.magType 0
+ObjectTemplate.reloadtime 4.3
+ObjectTemplate.roundOfFire 9
+ObjectTemplate.GUIIndex 7
+objectTemplate.aiTemplate Mp18AI
+ObjectTemplate.zoomFov 0.6
+ObjectTemplate.altFireOnce 1
+ObjectTemplate.soldierZoomFov 0.6 
+ObjectTemplate.soldierZoomPosition -0.05/0.02/0.06
+ObjectTemplate.soldierCameraPosition -0.01/-0.04/0.09
+ObjectTemplate.addRootSpeed 0
+ObjectTemplate.AmmoType	1
+
+rem ObjectTemplate.autoReload 1
+Rem *** Deviation Begin *****
+
+ObjectTemplate.velocity 400
+ObjectTemplate.setRecoilForceUp CRD_UNIFORM/0.21/0.25/0
+ObjectTemplate.setRecoilForceLeftRight CRD_UNIFORM/-0.1/0.1/0
+ObjectTemplate.setHasRecoilForce 1
+ObjectTemplate.setGoBackOnRecoil 1
+
+ObjectTemplate.setFireDev 2.0 0.35 0.06
+ObjectTemplate.setDevMod 1.2 0.9 0.7
+ObjectTemplate.setMinDev 0.4
+ObjectTemplate.setTurnDev 0 0 0 0
+ObjectTemplate.setSpeedDev 1 0.2 0.2 0.1
+ObjectTemplate.setMiscDev 2.5 2.5 0.1
+
+Rem *** Deviation  End *****
+
+ObjectTemplate.fireInCameraDof 1
+ObjectTemplate.loadSoundScript Sounds/Mp18.ssc
+
+ObjectTemplate.createSkeleton animations/Mp18.ske
+ObjectTemplate.useSkeletonPartAsMain Mp18
+ObjectTemplate.addTemplate Mp18Lod
+
+ObjectTemplate.addTemplate e_MuzzThomp
+ObjectTemplate.setInputId -1
+ObjectTemplate.startoneffects 0
+ObjectTemplate.setPosition 0/0.058/0.3
+ObjectTemplate.setRotation 0/0/0
+
+ObjectTemplate.addTemplate e_Shell9mm
+ObjectTemplate.setInputId -1
+ObjectTemplate.startoneffects 0
+ObjectTemplate.setPosition 0/0.02/0.43
+ObjectTemplate.setRotation 0/0/0
+
+
+rem *** Objects ***
+ObjectTemplate.create SimpleObject Mp18Trigger
+ObjectTemplate.geometry Mp18Trigger
+
+ObjectTemplate.create SimpleObject Mp18Plupp
+ObjectTemplate.geometry Mp18Plupp
+
+ObjectTemplate.create SimpleObject Mp18Mag
+ObjectTemplate.geometry Mp18Mag
+
+ObjectTemplate.create SimpleObject Mp18Simple
+ObjectTemplate.geometry Shad_Mp18
+
+ObjectTemplate.create AnimatedBundle Mp18Complex
+ObjectTemplate.geometry Mp18
+ObjectTemplate.hasDynamicShadow 1
+ObjectTemplate.createSkeleton animations/Mp18.ske
+ObjectTemplate.addTemplate Mp18Trigger
+ObjectTemplate.bindToSkeletonPart Trigger
+ObjectTemplate.addTemplate Mp18Plupp
+ObjectTemplate.bindToSkeletonPart plupp
+ObjectTemplate.addTemplate Mp18Mag
+ObjectTemplate.bindToSkeletonPart Mag
+
+ObjectTemplate.create LodObject Mp18Lod
+ObjectTemplate.lodselector HandWeaponLodSelector
+ObjectTemplate.addTemplate Mp18Complex
+ObjectTemplate.addTemplate Mp18Simple
+
+

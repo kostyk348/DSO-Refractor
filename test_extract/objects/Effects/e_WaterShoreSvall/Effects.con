@@ -1,0 +1,34 @@
+
+
+rem *** e_WaterShoreSvall ***
+ObjectTemplate.create EffectBundle e_WaterShoreSvall
+ObjectTemplate.saveInSeparateFile 1
+rem -------------------------------------
+ObjectTemplate.addTemplate Em_WaterShoreSvall
+ObjectTemplate.setRotation 90/0/0
+ObjectTemplate.timeToLive CRD_NONE/-1/0/0
+rem -------------------------------------
+
+rem *** Em_WaterShoreSvall ***
+ObjectTemplate.create Emitter Em_WaterShoreSvall
+ObjectTemplate.template Fx_WaterShoreSvall
+ObjectTemplate.looping 1
+ObjectTemplate.startAtCreation 1
+ObjectTemplate.lodDistance 800
+ObjectTemplate.delay CRD_NONE/1/0/0
+ObjectTemplate.timeToLive CRD_NONE/1/0/0
+ObjectTemplate.intensity CRD_NONE/3/0/0
+ObjectTemplate.positionalSpeedInDof CRD_NONE/6/0/0
+ObjectTemplate.positionalSpeedInUp CRD_NONE/0/0/0
+ObjectTemplate.positionalSpeedInRight CRD_NONE/0/0/0
+ObjectTemplate.moveToWaterSurface 1
+
+rem *** Fx_WaterShoreSvall ***
+ObjectTemplate.create Particle Fx_WaterShoreSvall
+ObjectTemplate.geometry watermesh_pouring_m1
+ObjectTemplate.timeToLive CRD_NONE/3/0/0
+ObjectTemplate.size CRD_NONE/10/0/0
+ObjectTemplate.gravityModifier CRD_NONE/0/0/0
+ObjectTemplate.sizeModifier 7/1/7
+ObjectTemplate.sizeOverTime 0/0.200003|100/0.599994
+ObjectTemplate.alphaOverTime 0/0.000089|50/0.440089|80/0.640089|100/0

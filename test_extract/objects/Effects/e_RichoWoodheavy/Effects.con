@@ -1,0 +1,15 @@
+
+
+rem *** e_richoWoodHeavy ***
+ObjectTemplate.create EffectBundle e_richoWoodHeavy
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.loadSoundScript Sounds/richowood.ssc
+rem -------------------------------------
+ObjectTemplate.addTemplate Em_richoWBasic
+ObjectTemplate.addTemplate Em_richoWood
+ObjectTemplate.addTemplate Em_richoWBasic_smoke
+ObjectTemplate.addTemplate Em_richoWoodBase
+ObjectTemplate.addTemplate Em_RichoBaseHeavy
+ObjectTemplate.timeToLive CRD_NONE/1/0/0
+rem -------------------------------------
+

@@ -1,0 +1,122 @@
+ObjectTemplate.create Bundle citymesh2_m1
+ObjectTemplate.setHasCollisionPhysics 1
+objectTemplate.aiTemplate citymesh2_m1
+ObjectTemplate.addTemplate lodcitymesh2
+
+LodSelectorTemplate.create DistanceSelector citymesh2Selector
+LodSelectorTemplate.addLodDistance 70
+ObjectTemplate.create LodObject lodcitymesh2
+ObjectTemplate.lodselector citymesh2Selector
+ObjectTemplate.addTemplate citymesh2Interior
+ObjectTemplate.addTemplate citymesh2Exterior
+
+ObjectTemplate.create Bundle citymesh2Interior
+ObjectTemplate.geometry citymesh2_m1
+rem -------------------------------------
+
+
+ObjectTemplate.addTemplate eupaint1_m1
+ObjectTemplate.setPosition 5.76/6.69/3.72
+ObjectTemplate.setRotation 90/0/180
+
+
+ObjectTemplate.addTemplate eupaint2_m1
+ObjectTemplate.setPosition 5.76/6.79/-1
+ObjectTemplate.setRotation 90/0/0
+
+ObjectTemplate.addTemplate eupaint2_M1
+ObjectTemplate.setPosition 5.76/11/1.3
+ObjectTemplate.setRotation 90/0/0
+
+ObjectTemplate.addTemplate eutable_M1
+ObjectTemplate.setPosition 4.87/4.41/3.65
+ObjectTemplate.setRotation 0/0/180
+
+ObjectTemplate.addTemplate eurocarpet1_M1
+ObjectTemplate.setPosition 0/4.46/1
+ObjectTemplate.setRotation 0/0/0
+
+
+ObjectTemplate.addTemplate euchair_M1
+ObjectTemplate.setPosition 4.22/4.69/1.85
+ObjectTemplate.setRotation 20/0/92
+
+ObjectTemplate.addTemplate euchair_M1
+ObjectTemplate.setPosition 4.60/4.41/2.85
+ObjectTemplate.setRotation 0/0/180
+
+ObjectTemplate.addTemplate euchair_M1
+ObjectTemplate.setPosition 5.22/4.41/4.4
+ObjectTemplate.setRotation 180/0/180
+
+ObjectTemplate.addTemplate euchair_M1
+ObjectTemplate.setPosition 4.60/4.41/4.4
+ObjectTemplate.setRotation 180/0/180
+
+ObjectTemplate.addTemplate eubooksh_M1
+ObjectTemplate.setPosition 2.2/4.41/6.095
+ObjectTemplate.setRotation 180/0/0
+
+ObjectTemplate.addTemplate eubooksh_M1
+ObjectTemplate.setPosition -4.769/4.41/-1
+ObjectTemplate.setRotation 90/0/0
+
+ObjectTemplate.addTemplate eucloset_M1
+ObjectTemplate.setPosition 5.38/8.57/-0.5
+ObjectTemplate.setRotation -90/0/180
+
+ObjectTemplate.addTemplate eucloset_M1
+ObjectTemplate.setPosition 5.38/8.57/3.5
+ObjectTemplate.setRotation -90/0/180
+
+ObjectTemplate.addTemplate eucloset_M1
+ObjectTemplate.setPosition -2.72/8.57/-4.1
+ObjectTemplate.setRotation 0/0/180
+
+ObjectTemplate.addTemplate eubed_m1
+ObjectTemplate.setPosition 4.75/8.57/1.3
+ObjectTemplate.setRotation -90/0/0
+
+ObjectTemplate.addTemplate eupaint1_m1
+ObjectTemplate.setPosition -5/10.79/-1
+ObjectTemplate.setRotation -90/0/180
+
+ObjectTemplate.addTemplate eurocarpet2_M1
+ObjectTemplate.setPosition 2.4/8.615/1.4
+ObjectTemplate.setRotation 0/0/0
+
+rem --------------------------------------
+
+
+ObjectTemplate.addTemplate eutable_M1
+ObjectTemplate.setPosition 4/0.71/2
+ObjectTemplate.setRotation 90/-83/180
+
+ObjectTemplate.addTemplate euchair_M1
+ObjectTemplate.setPosition 3/0.47/5
+ObjectTemplate.setRotation 150/-87/180
+
+ObjectTemplate.addTemplate euchair_M1
+ObjectTemplate.setPosition 0/0.47/-1
+ObjectTemplate.setRotation 50/-87/180
+
+
+ObjectTemplate.addTemplate euchair_M1
+ObjectTemplate.setPosition 2/0.47/3
+ObjectTemplate.setRotation 40/-87/180
+
+ObjectTemplate.addTemplate stecrate1_M1
+ObjectTemplate.setPosition 3.5/0.18/0
+ObjectTemplate.setRotation 90/0/0
+
+ObjectTemplate.addTemplate stecrate1_M1
+ObjectTemplate.setPosition 3.5/0.18/-1.35
+ObjectTemplate.setRotation 90/0/0
+
+
+
+
+
+rem --------------------------------------------
+ObjectTemplate.create SimpleObject citymesh2Exterior
+ObjectTemplate.geometry citymesh2_m2

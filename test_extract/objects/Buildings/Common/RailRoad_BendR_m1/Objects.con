@@ -1,0 +1,3 @@
+ObjectTemplate.create SimpleObject RailRoad_BendR_m1
+ObjectTemplate.geometry RailRoad_BendR_m1
+ObjectTemplate.setHasCollisionPhysics 1

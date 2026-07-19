@@ -1,0 +1,68 @@
+rem
+rem **** Initialize level specific rendering settings. 
+rem
+ShaderManager.setTextureParam envmap bf1942\levels\tobruk\Textures\ENVMAP_G_.rcm
+renderer.vertexFogEnable 1 
+renderer.fogColorVec 0.8/0.718/0.531
+renderer.fogLinearStart 150
+renderer.fogLinearEnd 300
+textureManager.alternativePath Texture/Africa
+
+renderer.globalAmbientColor .2/.2/.2
+
+renderer.setViewdistance 700
+renderer.ambientColor .12/.1/.08
+renderer.diffuseColor .55/.52/0.38
+renderer.specularColor .3/.3/.3
+
+Game.setViewDistance 300
+Game.spawnPlayers 1
+
+game.setTeamSkin 1 GermanDesertSoldier
+game.setKit 1 0 German_Scout_Desert
+game.setKit 1 1 German_Assault_Desert
+game.setKit 1 2 German_AT_Desert
+game.setKit 1 3 German_Medic_Desert
+game.setKit 1 4 German_Engineer_Desert
+
+game.setTeamSkin 2 BritishSoldier
+game.setKit 2 0 GB_Scout
+game.setKit 2 1 GB_Assault
+game.setKit 2 2 GB_AT
+game.setKit 2 3 GB_Medic
+game.setKit 2 4 GB_Engineer
+
+rem *** Active Combat Area ***
+game.setActiveCombatArea 1024 0 2048 2048
+
+rem *** Set team 1 ***
+rem game.setBeforeSpawnCameraPosition 1 2096.16/100.6/1891.57
+game.setBeforeSpawnCameraPosition 1 2065/70/571
+rem *** Set team 2 ***
+rem game.setBeforeSpawnCameraPosition 2 2431.62/110.7977/1196.04
+game.setBeforeSpawnCameraPosition 2 2065/70/571
+
+run Init/SkyAndSun
+run Init/Terrain
+
+
+water.specularEnable 1
+water.texLayer1 texture/water01
+water.texLayer2 texture/water02
+water.normalMap texture/normalMap01
+water.scrollDirectionNormalmap 1/1
+water.scrollDirection1 1/0
+water.scrollDirection2 0/1
+water.specularColor 0.85/0.83/0.88
+water.scrollLayer1 0.03
+water.scrollLayer2 0.03
+water.scrollNormalmap 0.02
+water.specularStreakFactor 0.001
+water.tileLayer1 1
+water.tileLayer2 1
+water.tileNormalmap 2
+water.lightDirection -0.3/0.5/-0.65
+water.color 0.63/0.59/0.33
+water.deepcolor 0.5/0.45/0.3
+
+run Sounds/Environment

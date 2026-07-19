@@ -1,0 +1,21 @@
+rem
+rem *** mediclocker ***
+rem
+ObjectTemplate.create Bundle mediclocker
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.geometry mediclocker_m1
+ObjectTemplate.aiTemplate mediclocker_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+
+rem -------------------------------------
+ObjectTemplate.addTemplate mediclockerRepairpoint
+ObjectTemplate.setPosition 0/0/0.5
+ObjectTemplate.setRotation 0/0/0
+
+ObjectTemplate.create SupplyDepot mediclockerRepairpoint
+ObjectTemplate.radius 2
+ObjectTemplate.team 0
+ObjectTemplate.workOnVehicles 0
+ObjectTemplate.workOnSoldiers 1
+ObjectTemplate.setHealth -1 4.0 0

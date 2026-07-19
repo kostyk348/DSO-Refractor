@@ -1,0 +1,8 @@
+GeometryTemplate.create StandardMesh Berlinbridge_m1
+GeometryTemplate.file Berlinbridge_m1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 35
+GeometryTemplate.setLodDistance 2 65
+GeometryTemplate.setLodDistance 3 95
+GeometryTemplate.setLodDistance 4 150
+GeometryTemplate.setLodDistance 5 300

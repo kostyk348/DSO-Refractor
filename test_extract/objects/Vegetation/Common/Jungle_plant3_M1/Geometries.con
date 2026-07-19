@@ -1,0 +1,4 @@
+GeometryTemplate.create TreeMesh Jungle_plant3_M1
+GeometryTemplate.file Jungle_plant3_M1
+GeometryTemplate.billboard 1
+GeometryTemplate.billboardDistance 50

@@ -1,0 +1,185 @@
+#include ../../Common/Sounds/SoundMap.ssc
+
+newPatch
+
+load @ROOT/Sound/@RTD/metdebriecol1.wav
+randomStartPitch 0.05 / 0.0
+minDistance 2
+volume 1
+dopplerOff
+
+*** Distance Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 16
+	param 23
+	param 1
+	param -1	
+endEffect
+
+*** Speed Volume ***
+beginEffect
+ 	controlDestination Volume
+  	controlSource Extern #map<Effect::Speed>
+  	envelope Ramp
+  	param 1
+  	param 3
+  	param 0
+  	param 1
+  	param 2
+	param 2
+endEffect
+
+load @ROOT/Sound/@RTD/metdebriecol2.wav
+randomStartPitch 0.05 / 0.0
+minDistance 2
+volume 1
+dopplerOff
+
+*** Distance Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 16
+	param 23
+	param 1
+	param -1	
+endEffect
+
+*** Speed Volume ***
+beginEffect
+ 	controlDestination Volume
+  	controlSource Extern #map<Effect::Speed>
+  	envelope Ramp
+  	param 1
+  	param 3
+  	param 0
+  	param 1
+  	param 2
+	param 2
+endEffect
+
+load @ROOT/Sound/@RTD/metdebriecol3.wav
+randomStartPitch 0.05 / 0.0
+minDistance 2
+volume 1
+dopplerOff
+
+*** Distance Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 16
+	param 23
+	param 1
+	param -1	
+endEffect
+
+*** Speed Volume ***
+beginEffect
+ 	controlDestination Volume
+  	controlSource Extern #map<Effect::Speed>
+  	envelope Ramp
+  	param 1
+  	param 3
+  	param 0
+  	param 1
+  	param 2
+	param 2
+endEffect
+
+load @ROOT/Sound/@RTD/metdebriecol4.wav
+randomStartPitch 0.05 / 0.0
+minDistance 2
+volume 1
+dopplerOff
+
+*** Distance Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 16
+	param 23
+	param 1
+	param -1	
+endEffect
+
+*** Speed Volume ***
+beginEffect
+ 	controlDestination Volume
+  	controlSource Extern #map<Effect::Speed>
+  	envelope Ramp
+  	param 1
+  	param 3
+  	param 0
+  	param 1
+  	param 2
+	param 2
+endEffect
+
+load @ROOT/Sound/@RTD/metdebriecol5.wav
+randomStartPitch 0.05 / 0.0
+minDistance 2
+volume 1
+dopplerOff
+
+*** Distance Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 16
+	param 23
+	param 1
+	param -1	
+endEffect
+
+*** Speed Volume ***
+beginEffect
+ 	controlDestination Volume
+  	controlSource Extern #map<Effect::Speed>
+  	envelope Ramp
+  	param 1
+  	param 3
+  	param 0
+  	param 1
+  	param 2
+	param 2
+endEffect
+
+load @ROOT/Sound/@RTD/metdebriecol6.wav
+randomStartPitch 0.05 / 0.0
+minDistance 2
+volume 1
+dopplerOff
+
+*** Distance Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 16
+	param 23
+	param 1
+	param -1	
+endEffect
+
+*** Speed Volume ***
+beginEffect
+ 	controlDestination Volume
+  	controlSource Extern #map<Effect::Speed>
+  	envelope Ramp
+   	param 1
+  	param 3
+  	param 0
+  	param 1
+  	param 2
+	param 2
+endEffect
+
+randomPlay 1

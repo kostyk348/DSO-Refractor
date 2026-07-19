@@ -1,0 +1,86 @@
+ObjectTemplate.create HandFireArms Thompson
+ObjectTemplate.itemIndex 3
+ObjectTemplate.networkableInfo HandFireArmsInfo
+ObjectTemplate.projectileTemplate ThomsonProjectile
+rem ObjectTemplate.setTracerTemplate Tracer_Projectile CRD_UNIFORM/2/4/0
+ObjectTemplate.projectilePosition 0/0/0.5
+ObjectTemplate.magSize 30
+ObjectTemplate.numOfMag 5
+ObjectTemplate.magType 0
+ObjectTemplate.reloadtime 4.8
+ObjectTemplate.roundOfFire 10
+ObjectTemplate.zoomFov 0.5
+ObjectTemplate.altFireOnce 1
+objectTemplate.aiTemplate ThompsonSMG
+objectTemplate.GUIIndex 2
+ObjectTemplate.soldierZoomFov 0.6
+ObjectTemplate.soldierZoomPosition -0.05/-0.01/0.08
+ObjectTemplate.soldierCameraPosition -0.01/-0.04/0.09
+ObjectTemplate.addRootSpeed 0
+ObjectTemplate.AmmoType	1
+
+Rem *** Deviation Begin *****
+
+ObjectTemplate.velocity 400
+ObjectTemplate.setRecoilForceUp CRD_UNIFORM/0.21/0.25/0
+ObjectTemplate.setRecoilForceLeftRight CRD_UNIFORM/-0.1/0.1/0
+ObjectTemplate.setHasRecoilForce 1
+ObjectTemplate.setGoBackOnRecoil 1
+
+ObjectTemplate.setFireDev 2.0 0.35 0.06
+ObjectTemplate.setDevMod 1.2 0.9 0.7
+ObjectTemplate.setMinDev 0.4
+ObjectTemplate.setTurnDev 0 0 0 0
+ObjectTemplate.setSpeedDev 0.8 0.2 0.2 0.1
+ObjectTemplate.setMiscDev 2.5 2.5 0.1
+
+
+Rem *** Deviation  End *****
+
+ObjectTemplate.fireInCameraDof 1
+
+ObjectTemplate.loadSoundScript Sounds/Thompson.ssc
+
+ObjectTemplate.createSkeleton animations/Thompson.ske
+ObjectTemplate.useSkeletonPartAsMain Thompson
+ObjectTemplate.addTemplate ThompsonLod
+
+ObjectTemplate.addTemplate e_MuzzThomp
+ObjectTemplate.setInputId -1
+ObjectTemplate.startoneffects 0
+ObjectTemplate.setPosition -0.004/0.08/0.38
+ObjectTemplate.setRotation 0/0/0
+
+ObjectTemplate.addTemplate e_Shell9mm
+ObjectTemplate.setInputId -1
+ObjectTemplate.startoneffects 0
+ObjectTemplate.setPosition 0/0.08/0.35
+ObjectTemplate.setRotation 0/0/0
+
+rem ** Objects
+
+ObjectTemplate.create SimpleObject ThompsonMagasin
+ObjectTemplate.geometry ThompsonMagasin
+
+ObjectTemplate.create SimpleObject ThompsonFlerp
+ObjectTemplate.geometry ThompsonFlerp
+
+ObjectTemplate.create SimpleObject ThompsonSimple
+ObjectTemplate.geometry Shad_Thompson
+
+ObjectTemplate.create AnimatedBundle ThompsonComplex
+ObjectTemplate.geometry Thompson
+ObjectTemplate.hasDynamicShadow 1
+ObjectTemplate.createSkeleton animations/Thompson.ske
+ObjectTemplate.addTemplate ThompsonMagasin
+ObjectTemplate.bindToSkeletonPart magasin
+ObjectTemplate.addTemplate ThompsonFlerp
+ObjectTemplate.bindToSkeletonPart flerp
+
+ObjectTemplate.create LodObject ThompsonLod
+ObjectTemplate.lodselector HandWeaponLodSelector
+ObjectTemplate.addTemplate ThompsonComplex
+ObjectTemplate.addTemplate ThompsonSimple
+
+
+

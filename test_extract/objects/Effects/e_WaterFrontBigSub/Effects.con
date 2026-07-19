@@ -1,0 +1,79 @@
+
+
+rem *** e_WaterFrontBigSub ***
+ObjectTemplate.create EffectBundle e_WaterFrontBigSub
+ObjectTemplate.saveInSeparateFile 1
+rem -------------------------------------
+ObjectTemplate.addTemplate Em_WaterFrontBigSub
+ObjectTemplate.setPosition 0/1/0
+ObjectTemplate.setRotation -179.999/0/0
+ObjectTemplate.addTemplate Em_WaterFoamSub
+ObjectTemplate.setRotation -179.999/0/0
+ObjectTemplate.timeToLive CRD_NONE/-1/0/0
+rem -------------------------------------
+ObjectTemplate.minDistanceUnderwaterSurface 0
+ObjectTemplate.maxDistanceUnderwaterSurface 5
+
+
+rem *** Em_WaterFrontBigSub ***
+ObjectTemplate.create Emitter Em_WaterFrontBigSub
+ObjectTemplate.template Fx_WaterFrontBigSubMesh
+ObjectTemplate.looping 1
+ObjectTemplate.startAtCreation 1
+ObjectTemplate.lodDistance 600
+ObjectTemplate.timeToLive CRD_NONE/0.1/0/0
+ObjectTemplate.intensity CRD_UNIFORM/30/20/0
+ObjectTemplate.IntensityAtSpeed 10
+ObjectTemplate.relativePositionInDof CRD_NONE/-4/0/0
+ObjectTemplate.relativePositionInUp CRD_UNIFORM/-2/-3/0
+ObjectTemplate.positionalSpeedInUp CRD_UNIFORM/4/0/0
+ObjectTemplate.positionalSpeedInRight CRD_NONE/4/0/1
+ObjectTemplate.rotationalSpeedInDof CRD_NONE/0/0/0
+ObjectTemplate.rotationalSpeedInUp CRD_NONE/0/0/0
+ObjectTemplate.rotationalSpeedInRight CRD_NONE/0/0/0
+ObjectTemplate.startRotation CRD_UNIFORM/20/-20/0
+
+
+rem *** Fx_WaterFrontBigSubMesh ***
+ObjectTemplate.create Particle Fx_WaterFrontBigSubMesh
+ObjectTemplate.geometry watermesh_m1
+ObjectTemplate.timeToLive CRD_NONE/1/0/0
+ObjectTemplate.size CRD_UNIFORM/1/2/0
+ObjectTemplate.gravityModifier CRD_UNIFORM/1/0.9/0
+ObjectTemplate.sizeModifier 4/2/5
+ObjectTemplate.sizeOverTime 0/1.10009|100/2.40004
+ObjectTemplate.alphaOverTime 0/1|31/0.490005|100/0
+
+
+rem *** Em_WaterFoamSub ***
+ObjectTemplate.create Emitter Em_WaterFoamSub
+ObjectTemplate.template Fx_WaterFoamSub
+ObjectTemplate.looping 1
+ObjectTemplate.startAtCreation 1
+ObjectTemplate.addEmitterSpeed 1
+ObjectTemplate.emitterSpeedScale 1
+ObjectTemplate.lodDistance 600
+ObjectTemplate.timeToLive CRD_NONE/0.1/0/0
+ObjectTemplate.intensity CRD_UNIFORM/11/15/0
+ObjectTemplate.IntensityAtSpeed 10
+ObjectTemplate.relativePositionInDof CRD_NONE/3/0/0
+ObjectTemplate.relativePositionInRight CRD_UNIFORM/0.5/0/1
+ObjectTemplate.positionalSpeedInDof CRD_NONE/10/0/0
+ObjectTemplate.positionalSpeedInUp CRD_UNIFORM/4/2/0
+ObjectTemplate.positionalSpeedInRight CRD_UNIFORM/2/0/0
+ObjectTemplate.rotationalSpeedInDof CRD_NONE/0/0/0
+ObjectTemplate.rotationalSpeedInUp CRD_NONE/0/0/0
+ObjectTemplate.rotationalSpeedInRight CRD_NONE/0/0/0
+ObjectTemplate.startRotation CRD_UNIFORM/-20/0/0
+
+
+rem *** Fx_WaterFoamSub ***
+ObjectTemplate.create SpriteParticle Fx_WaterFoamSub
+ObjectTemplate.timeToLive CRD_UNIFORM/1.5/1.5/0
+ObjectTemplate.gravityModifier CRD_NONE/0.5/0/0
+ObjectTemplate.sizeOverTime 0/1.99995|100/5
+ObjectTemplate.texture water_ono_I
+ObjectTemplate.initRotation CRD_NONE/1/0/0
+ObjectTemplate.destBlendMode BMInvSourceAlpha
+ObjectTemplate.XYSizeRatioOverTime 0/1|100/1.39995
+ObjectTemplate.colorRGBAOverTime 0/255/255/255/255|100/255/255/255/0

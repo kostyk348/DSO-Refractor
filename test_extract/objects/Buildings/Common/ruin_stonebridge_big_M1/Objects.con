@@ -1,0 +1,3 @@
+ObjectTemplate.create SimpleObject ruin_stonebridge_big_M1
+ObjectTemplate.geometry ruin_stonebridge_big_M1
+ObjectTemplate.setHasCollisionPhysics 1

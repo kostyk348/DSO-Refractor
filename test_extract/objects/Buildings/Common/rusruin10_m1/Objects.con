@@ -1,0 +1,3 @@
+ObjectTemplate.create SimpleObject rusruin10_m1
+ObjectTemplate.geometry rusruin10_m1
+ObjectTemplate.setHasCollisionPhysics 1

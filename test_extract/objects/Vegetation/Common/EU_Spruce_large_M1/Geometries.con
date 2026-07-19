@@ -1,0 +1,6 @@
+GeometryTemplate.create TreeMesh EU_Spruce_large_M1
+GeometryTemplate.file EU_Spruce_large_M1
+GeometryTemplate.swayEnable 1
+GeometryTemplate.swayRangeDegrees 1.1
+GeometryTemplate.billboard 1
+GeometryTemplate.billboardDistance 50

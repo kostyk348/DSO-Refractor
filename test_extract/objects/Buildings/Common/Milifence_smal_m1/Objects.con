@@ -1,0 +1,9 @@
+ObjectTemplate.create Bundle Milifence_smal_m1
+ObjectTemplate.geometry Milifence_smal_m1
+ObjectTemplate.setHasCollisionPhysics 1
+ObjectTemplate.addTemplate Milifence_smalfence_m1
+
+ObjectTemplate.create SimpleObject Milifence_smalfence_m1
+ObjectTemplate.geometry Milifence_smalfence_m1
+ObjectTemplate.setHasCollisionPhysics 1
+ObjectTemplate.addToCollisionGroup c_CGProjectiles

@@ -1,0 +1,3 @@
+ObjectTemplate.create SimpleObject eubooksh_M1
+ObjectTemplate.geometry eubooksh_M1
+ObjectTemplate.setHasCollisionPhysics 1

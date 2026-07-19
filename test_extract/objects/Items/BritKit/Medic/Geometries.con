@@ -1,0 +1,14 @@
+GeometryTemplate.create StandardMesh British_Medic_hippack
+GeometryTemplate.file British_Medic_hippack_m1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 30
+GeometryTemplate.setLodDistance 2 100
+
+GeometryTemplate.create StandardMesh Medic_helm_brit
+GeometryTemplate.file Medichelm_brit_m1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 30
+GeometryTemplate.setLodDistance 2 100
+
+
+

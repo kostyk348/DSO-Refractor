@@ -1,0 +1,19 @@
+GeometryTemplate.create StandardMesh eu_lumbermill_m1
+GeometryTemplate.file eu_lumbermill_m1
+GeometryTemplate.textureFadeMaxDist 70
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 15
+GeometryTemplate.setLodDistance 2 20
+GeometryTemplate.setLodDistance 3 30
+GeometryTemplate.setLodDistance 4 40
+GeometryTemplate.setLodDistance 5 60
+
+GeometryTemplate.create StandardMesh eu_lumbermill_m2
+GeometryTemplate.file eu_lumbermill_m2
+GeometryTemplate.textureFadeMaxDist 70
+GeometryTemplate.setLodDistance 0 70
+GeometryTemplate.setLodDistance 1 100
+GeometryTemplate.setLodDistance 2 150
+GeometryTemplate.setLodDistance 3 200
+GeometryTemplate.setLodDistance 4 350
+GeometryTemplate.setLodDistance 5 800

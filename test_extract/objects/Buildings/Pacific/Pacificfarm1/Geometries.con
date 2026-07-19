@@ -1,0 +1,17 @@
+
+GeometryTemplate.create StandardMesh pacificfarm1_m1
+GeometryTemplate.file pacificfarm1_m1
+GeometryTemplate.textureFadeMaxDist 70
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 15
+GeometryTemplate.setLodDistance 2 30
+GeometryTemplate.setLodDistance 3 40
+
+GeometryTemplate.create StandardMesh pacificfarm1_M2
+GeometryTemplate.file pacificfarm1_M2
+GeometryTemplate.textureFadeMaxDist 70
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 70
+GeometryTemplate.setLodDistance 2 80
+GeometryTemplate.setLodDistance 3 100
+GeometryTemplate.setLodDistance 4 120

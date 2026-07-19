@@ -1,0 +1,53 @@
+ObjectTemplate.create HandFireArms Binoculars
+ObjectTemplate.itemIndex 5
+ObjectTemplate.magType 2
+ObjectTemplate.numOfMag 1
+ObjectTemplate.magSize -1
+ObjectTemplate.fireOnce 1
+ObjectTemplate.altFireOnce 1
+ObjectTemplate.soldierCameraPosition 0/-0.03/0.2
+ObjectTemplate.projectileTemplate BinocularsProjectile
+ObjectTemplate.projectile2Template BinocularsProjectile2
+ObjectTemplate.createSkeleton animations/Binoculars.ske
+ObjectTemplate.useSkeletonPartAsMain base
+ObjectTemplate.zoomFov 0.2
+ObjectTemplate.useScope 1
+ObjectTemplate.fireInCameraDof 1
+ObjectTemplate.projectilePosition 0/0/2
+ObjectTemplate.GUIIndex 84
+ObjectTemplate.createSkeleton animations/Binoculars.ske
+ObjectTemplate.useSkeletonPartAsMain Binoculars
+ObjectTemplate.addTemplate BinocularsLod
+
+
+rem ** Objects
+
+ObjectTemplate.create Projectile BinocularsProjectile
+ObjectTemplate.networkebleInfo SpyProjectileInfo
+ObjectTemplate.timeToLive CRD_NONE/120/0/0
+ObjectTemplate.hasCollisionPhysics 0
+ObjectTemplate.gravityModifier 0.0
+ObjectTemplate.hasCollisionEffect 0
+ObjectTemplate.damageType 3
+
+ObjectTemplate.create Projectile BinocularsProjectile2
+ObjectTemplate.networkebleInfo SpyProjectileInfo
+ObjectTemplate.timeToLive CRD_NONE/120/0/0
+ObjectTemplate.hasCollisionPhysics 0
+ObjectTemplate.gravityModifier 0.0
+ObjectTemplate.hasCollisionEffect 0
+
+ObjectTemplate.create SimpleObject BinocularsSimple
+ObjectTemplate.geometry Shad_Binoculars
+
+ObjectTemplate.create AnimatedBundle  BinocularsComplex
+ObjectTemplate.geometry Binoculars
+ObjectTemplate.hasDynamicShadow 1
+ObjectTemplate.createSkeleton animations/Binoculars.ske
+
+ObjectTemplate.create LodObject BinocularsLod
+ObjectTemplate.lodselector HandWeaponLodSelector
+ObjectTemplate.addTemplate BinocularsComplex
+ObjectTemplate.addTemplate BinocularsSimple
+
+

@@ -1,0 +1,38 @@
+
+
+rem *** e_FlakSmall ***
+ObjectTemplate.create EffectBundle e_FlakSmall
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.loadSoundScript Sounds/flaksmall.ssc
+rem -------------------------------------
+ObjectTemplate.addTemplate Em_flak_small
+ObjectTemplate.timeToLive CRD_NONE/3/0/0
+rem -------------------------------------
+
+
+rem *** Em_flak_small ***
+ObjectTemplate.create Emitter Em_flak_small
+ObjectTemplate.template Fx_flak_small
+ObjectTemplate.lodDistance 700
+ObjectTemplate.timeToLive CRD_NONE/0.1/0/0
+ObjectTemplate.intensity CRD_NONE/30/0/0
+ObjectTemplate.intensityOverTime 0/1|18/1|100/0
+ObjectTemplate.relativePositionInDof CRD_NORMAL/0/0.1/1
+ObjectTemplate.relativePositionInUp CRD_NORMAL/0/0.1/1
+ObjectTemplate.relativePositionInRight CRD_NORMAL/0/0.1/1
+ObjectTemplate.startRotation CRD_NONE/1/0/0
+
+
+rem *** Fx_flak_small ***
+ObjectTemplate.create SpriteParticle Fx_flak_small
+ObjectTemplate.timeToLive CRD_NONE/5/5/0
+ObjectTemplate.size CRD_UNIFORM/5/7/0
+ObjectTemplate.gravityModifier CRD_NONE/-0.4/0/0
+ObjectTemplate.sizeOverTime 0/0|1/1|9/0.959975|100/0.599994
+ObjectTemplate.gravityModifierOverTime 0/0|100/1
+ObjectTemplate.texture e_flak2
+ObjectTemplate.initRotation CRD_NORMAL/0/180/1
+ObjectTemplate.destBlendMode BMInvSourceAlpha
+ObjectTemplate.rotationSpeed CRD_NORMAL/20/50/1
+ObjectTemplate.rotationSpeedOverTime 0/0|100/1
+ObjectTemplate.colorRGBAOverTime 0/0/0/0/163|26/0/0/0/120|100/0/0/0/0

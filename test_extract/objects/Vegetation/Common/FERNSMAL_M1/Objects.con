@@ -1,0 +1,3 @@
+ObjectTemplate.create SimpleObject FERNSMAL_M1
+ObjectTemplate.geometry FERNSMAL_M1
+ObjectTemplate.setHasCollisionPhysics 0

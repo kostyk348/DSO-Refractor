@@ -1,0 +1,4 @@
+ObjectTemplate.create SimpleObject jungle_bush_M1
+ObjectTemplate.geometry jungle_bush_M1
+ObjectTemplate.setHasCollisionPhysics 0
+objectTemplate.cullRadiusScale 5.0

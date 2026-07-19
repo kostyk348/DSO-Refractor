@@ -1,0 +1,9 @@
+GeometryTemplate.create StandardMesh Military_boxW3_M1
+GeometryTemplate.file Military_boxW3_M1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 15
+GeometryTemplate.setLodDistance 2 35
+GeometryTemplate.setLodDistance 3 60
+GeometryTemplate.setLodDistance 4 80
+GeometryTemplate.setLodDistance 5 100
+

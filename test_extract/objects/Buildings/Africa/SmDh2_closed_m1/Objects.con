@@ -1,0 +1,3 @@
+ObjectTemplate.create SimpleObject SmDh2_closed_m1
+ObjectTemplate.geometry SmDh2_closed_m1
+ObjectTemplate.setHasCollisionPhysics 1

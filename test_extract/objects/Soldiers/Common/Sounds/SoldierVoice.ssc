@@ -1,0 +1,548 @@
+###################################
+### IStayOnDefense		###
+###################################
+newPatch
+load @ROOT/Sound/@RTD/@Language/IStayOnDefense.wav
+minDistance 10
+*** Distance Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 20
+	param 70
+	param 1
+	param -1	
+endEffect
+
+load @ROOT/Sound/@RTD/@Language/IStayOnDefenseALT.wav
+minDistance 10
+*** Distance Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 20
+	param 70
+	param 1
+	param -1	
+endEffect
+
+randomPlay 1
+priority 11
+
+###################################
+### IWillAttack			###
+###################################
+newPatch
+load @ROOT/Sound/@RTD/@Language/IWillAttack.wav
+minDistance 10
+*** Distance Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 20
+	param 70
+	param 1
+	param -1	
+endEffect
+
+load @ROOT/Sound/@RTD/@Language/IWillAttackALT1.wav
+minDistance 10
+*** Distance Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 20
+	param 70
+	param 1
+	param -1	
+endEffect
+
+load @ROOT/Sound/@RTD/@Language/IWillAttackALT2.wav
+minDistance 10
+*** Distance Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 20
+	param 70
+	param 1
+	param -1	
+endEffect
+
+randomPlay 1
+priority 11
+
+###################################
+### Negative			###
+###################################
+newPatch
+load @ROOT/Sound/@RTD/@Language/LocalNegative.wav
+minDistance 10
+*** Distance Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 20
+	param 70
+	param 1
+	param -1	
+endEffect
+
+load @ROOT/Sound/@RTD/@Language/LocalNegativeALT1.wav
+minDistance 10
+*** Distance Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 20
+	param 70
+	param 1
+	param -1	
+endEffect
+
+randomPlay 1
+priority 11
+
+###################################
+### RogerThat			###
+###################################
+newPatch
+load @ROOT/Sound/@RTD/@Language/LocalRoger.wav
+minDistance 10
+*** Distance Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 20
+	param 70
+	param 1
+	param -1	
+endEffect
+
+load @ROOT/Sound/@RTD/@Language/LocalRogerALT1.wav
+minDistance 10
+*** Distance Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 20
+	param 70
+	param 1
+	param -1	
+endEffect
+
+load @ROOT/Sound/@RTD/@Language/LocalRogerALT2.wav
+minDistance 10
+*** Distance Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 20
+	param 70
+	param 1
+	param -1	
+endEffect
+
+load @ROOT/Sound/@RTD/@Language/LocalRogerALT3.wav
+minDistance 10
+*** Distance Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 20
+	param 70
+	param 1
+	param -1	
+endEffect
+
+load @ROOT/Sound/@RTD/@Language/LocalRogerALT4.wav
+minDistance 10
+*** Distance Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 20
+	param 70
+	param 1
+	param -1	
+endEffect
+
+load @ROOT/Sound/@RTD/@Language/LocalRogerALT5.wav
+minDistance 10
+*** Distance Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 20
+	param 70
+	param 1
+	param -1	
+endEffect
+
+load @ROOT/Sound/@RTD/@Language/LocalRogerALT6.wav
+minDistance 10
+*** Distance Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 20
+	param 70
+	param 1
+	param -1	
+endEffect
+
+randomPlay 1
+priority 11
+
+###################################
+### Wait			###
+###################################
+newPatch
+load @ROOT/Sound/@RTD/@Language/Wait.wav
+minDistance 10
+*** Distance Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 20
+	param 70
+	param 1
+	param -1	
+endEffect
+priority 11
+
+###################################
+### GoGoGo			###
+###################################
+newPatch
+load @ROOT/Sound/@RTD/@Language/GoGoGo.wav
+minDistance 10
+*** Distance Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 20
+	param 70
+	param 1
+	param -1	
+endEffect
+priority 11
+
+###################################
+### FollowMe			###
+###################################
+newPatch
+load @ROOT/Sound/@RTD/@Language/FollowMe.wav
+minDistance 10
+*** Distance Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 20
+	param 70
+	param 1
+	param -1	
+endEffect
+priority 11
+
+###################################
+### StickTogether		###
+###################################
+newPatch
+load @ROOT/Sound/@RTD/@Language/StayTogether.wav
+minDistance 10
+*** Distance Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 20
+	param 70
+	param 1
+	param -1	
+endEffect
+priority 11
+
+###################################
+### GetIn			###
+###################################
+newPatch
+load @ROOT/Sound/@RTD/@Language/GetIn.wav
+minDistance 10
+*** Distance Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 20
+	param 70
+	param 1
+	param -1	
+endEffect
+priority 11
+
+###################################
+### FireInTheHole		###
+###################################
+newPatch
+load @ROOT/Sound/@RTD/@Language/FireInTheHole.wav
+minDistance 10
+*** Distance Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 20
+	param 70
+	param 1
+	param -1	
+endEffect
+priority 11
+
+###################################
+### TakeCover			###
+###################################
+newPatch
+load @ROOT/Sound/@RTD/@Language/TakeCover.wav
+minDistance 10
+*** Distance Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 20
+	param 70
+	param 1
+	param -1	
+endEffect
+priority 11
+
+###################################
+### CheckYourSix		###
+###################################
+newPatch
+load @ROOT/Sound/@RTD/@Language/CheckYourSix.wav
+minDistance 10
+*** Distance Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 20
+	param 70
+	param 1
+	param -1	
+endEffect
+priority 11
+
+###################################
+### BailOut			###
+###################################
+newPatch
+load @ROOT/Sound/@RTD/@Language/BailOut.wav
+minDistance 10
+*** Distance Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 20
+	param 70
+	param 1
+	param -1	
+endEffect
+priority 11
+
+###################################
+### AbandonShip			###
+###################################
+newPatch
+load @ROOT/Sound/@RTD/@Language/AbandonShip.wav
+minDistance 10
+*** Distance Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 20
+	param 70
+	param 1
+	param -1	
+endEffect
+priority 11
+
+###################################
+### CoverMe			###
+###################################
+newPatch
+load @ROOT/Sound/@RTD/@Language/CoverMe.wav
+minDistance 10
+*** Distance Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 20
+	param 70
+	param 1
+	param -1	
+endEffect
+priority 11
+
+###################################
+### HoldThisPosition		###
+###################################
+newPatch
+load @ROOT/Sound/@RTD/@Language/HoldThisPosition.wav
+minDistance 10
+*** Distance Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 20
+	param 70
+	param 1
+	param -1	
+endEffect
+priority 11
+
+###################################
+### YouTakeThePoint		###
+###################################
+newPatch
+load @ROOT/Sound/@RTD/@Language/YouTakePoint.wav
+minDistance 10
+*** Distance Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 20
+	param 70
+	param 1
+	param -1	
+endEffect
+priority 11
+
+###################################
+### FallBack			###
+###################################
+newPatch
+load @ROOT/Sound/@RTD/@Language/FallBack.wav
+minDistance 10
+*** Distance Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 20
+	param 70
+	param 1
+	param -1	
+endEffect
+priority 11
+
+###################################
+### HoldYourFire		###
+###################################
+newPatch
+load @ROOT/Sound/@RTD/@Language/HoldYourFire.wav
+minDistance 10
+*** Distance Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 20
+	param 70
+	param 1
+	param -1	
+endEffect
+priority 11
+
+###################################
+### Fire			###
+###################################
+newPatch
+load @ROOT/Sound/@RTD/@Language/Fire.wav
+minDistance 10
+*** Distance Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 20
+	param 70
+	param 1
+	param -1	
+endEffect
+priority 11
+
+###################################
+### Medic			###
+###################################
+newPatch
+load @ROOT/Sound/@RTD/@Language/Medic.wav
+minDistance 10
+*** Distance Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 20
+	param 70
+	param 1
+	param -1	
+endEffect
+priority 11
+
+###################################
+### NeedRepairs			###
+###################################
+newPatch
+load @ROOT/Sound/@RTD/@Language/NeedRepairs.wav
+minDistance 10
+*** Distance Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 20
+	param 70
+	param 1
+	param -1	
+endEffect
+
+load @ROOT/Sound/@RTD/@Language/NeedRepairsALT.wav
+minDistance 10
+*** Distance Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 20
+	param 70
+	param 1
+	param -1	
+endEffect
+
+randomPlay 1
+priority 11

@@ -1,0 +1,3 @@
+ObjectTemplate.create SimpleObject Train_Wagon_m1
+ObjectTemplate.geometry Train_Wagon_m1
+ObjectTemplate.setHasCollisionPhysics 1

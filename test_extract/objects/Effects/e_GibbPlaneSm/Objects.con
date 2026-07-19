@@ -1,0 +1,35 @@
+ObjectTemplate.create Bundle Planepart1
+ObjectTemplate.geometry Planepart1_m1
+ObjectTemplate.setHasCollisionPhysics 1
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.destroyed 1
+ObjectTemplate.addTemplate e_FireSmallYellow
+ObjectTemplate.startoneffects 1
+ObjectTemplate.setPosition 0/0.7/-2.5
+ObjectTemplate.setRotation 0/0/0
+
+ObjectTemplate.create Bundle Planepart2
+ObjectTemplate.geometry Planepart2_m1
+ObjectTemplate.setHasCollisionPhysics 1
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.destroyed 1
+ObjectTemplate.addTemplate e_FireSmallYellow
+ObjectTemplate.startoneffects 1
+ObjectTemplate.setPosition 0/0.7/-2.5
+ObjectTemplate.setRotation 0/0/0
+
+ObjectTemplate.create Bundle Planepart3
+ObjectTemplate.geometry Planepart3_m1
+ObjectTemplate.setHasCollisionPhysics 1
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.destroyed 1
+ObjectTemplate.addTemplate e_FireSmallYellow
+ObjectTemplate.startoneffects 1
+ObjectTemplate.setPosition 0/0.7/-2.5
+ObjectTemplate.setRotation 0/0/0
+
+ObjectTemplate.create SimpleObject Planepart4
+ObjectTemplate.geometry Planepart4_m1
+ObjectTemplate.setHasCollisionPhysics 1
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.destroyed 1

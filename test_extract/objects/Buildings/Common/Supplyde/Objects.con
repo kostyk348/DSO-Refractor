@@ -1,0 +1,60 @@
+ObjectTemplate.create Bundle Supplyde_m1
+ObjectTemplate.setHasCollisionPhysics 1
+objectTemplate.aiTemplate Supplyde_m1
+ObjectTemplate.addTemplate lodSupplyde
+
+LodSelectorTemplate.create DistanceSelector SupplydeSelector
+LodSelectorTemplate.addLodDistance 70
+ObjectTemplate.create LodObject lodSupplyde
+ObjectTemplate.lodselector SupplydeSelector
+ObjectTemplate.addTemplate SupplydeInterior
+ObjectTemplate.addTemplate SupplydeExterior
+
+ObjectTemplate.create bundle SupplydeInterior
+ObjectTemplate.geometry Supplyde_m1
+rem-------------------------------------------
+
+ObjectTemplate.addTemplate militable_m1
+ObjectTemplate.setPosition 4.1/0.2/3.55
+ObjectTemplate.setRotation 90/0.1/0
+
+ObjectTemplate.addTemplate milichair_m1
+ObjectTemplate.setPosition 3.2/0.2/3.03
+ObjectTemplate.setRotation 90/0.1/0
+
+
+ObjectTemplate.addTemplate milichair_m1
+ObjectTemplate.setPosition 3.2/0.2/3.85
+ObjectTemplate.setRotation 90/0.1/0
+
+
+ObjectTemplate.addTemplate milichair_m1
+ObjectTemplate.setPosition 4.9/0.2/3.03
+ObjectTemplate.setRotation -90/0.1/0
+
+
+ObjectTemplate.addTemplate milichair_m1
+ObjectTemplate.setPosition 4.9/0.2/3.85
+ObjectTemplate.setRotation -90/0/0
+
+rem ------------------------------------------------
+
+ObjectTemplate.addTemplate mililocker_m1
+ObjectTemplate.setPosition 5.01/0.2/-3.85
+ObjectTemplate.setRotation -90/0/0
+
+rem ------------------------------------------------
+
+ObjectTemplate.addTemplate military_boxw3_m1
+ObjectTemplate.setPosition -0.139/0.2/-5.314
+ObjectTemplate.setRotation -90/0/0
+
+rem ------------------------------------------------
+
+ObjectTemplate.addTemplate rooflamp1_m1
+ObjectTemplate.setPosition -0.203/2.88/-0.363
+ObjectTemplate.setRotation -90/0/0
+
+rem ------------------------------------------------
+ObjectTemplate.create SimpleObject SupplydeExterior
+ObjectTemplate.geometry Supplyde_m2

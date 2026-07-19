@@ -1,0 +1,104 @@
+
+
+rem *** TigerEngine ***
+ObjectTemplate.create Engine TigerEngine
+ObjectTemplate.setNetworkableInfo TigerEngineInfo
+ObjectTemplate.setAttachToListener 1
+ObjectTemplate.loadSoundScript Sounds/TigerEngine.ssc
+ObjectTemplate.hasMobilePhysics 1
+rem -------------------------------------
+ObjectTemplate.addTemplate TigerTrackL
+ObjectTemplate.setPosition -1.499/-0.699/0.2
+ObjectTemplate.addTemplate TigerTrackR
+ObjectTemplate.setPosition 1.5/-0.699/0.2
+rem -------------------------------------
+ObjectTemplate.setMinRotation -1/0/-2500
+ObjectTemplate.setMaxRotation 1/0/5000
+ObjectTemplate.setMaxSpeed 10/0/5000
+ObjectTemplate.setAcceleration 10/0/5000
+ObjectTemplate.setInputToYaw c_PIYaw
+ObjectTemplate.setInputToRoll c_PIThrottle
+ObjectTemplate.setAutomaticReset 1
+ObjectTemplate.setEngineType c_ETTank
+ObjectTemplate.setTorque 1.75
+ObjectTemplate.setDifferential 4
+ObjectTemplate.setNumberOfGears 5
+ObjectTemplate.setGearUp 0.95
+ObjectTemplate.setGearDown 0.45
+ObjectTemplate.setGearChangeTime 0.5
+
+
+rem *** TigerWheelL3Dummy ***
+ObjectTemplate.create Spring TigerWheelL3Dummy
+ObjectTemplate.geometry Tiger_whe3L_M1
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.Grip c_PGFEngineDummyGrip
+ObjectTemplate.setStrength 0
+ObjectTemplate.setDamping 0
+
+
+rem *** TigerWheelL3DummySmoke ***
+ObjectTemplate.create Spring TigerWheelL3DummySmoke
+ObjectTemplate.geometry Tiger_whe3L_M1
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.Grip c_PGFEngineDummyGrip
+rem -------------------------------------
+ObjectTemplate.addTemplate e_wdustPanzL
+ObjectTemplate.addTemplate e_wdustPanz
+rem -------------------------------------
+ObjectTemplate.setStrength 0
+ObjectTemplate.setDamping 0
+
+
+rem *** TigerWheelL3 ***
+ObjectTemplate.create Spring TigerWheelL3
+ObjectTemplate.setNetworkableInfo SpringInfo
+ObjectTemplate.geometry Tiger_whe3L_M1
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.Grip c_PGFEngineGrip
+ObjectTemplate.setStrength 19
+ObjectTemplate.setDamping 3.5
+
+
+rem *** TigerWheelR3Dummy ***
+ObjectTemplate.create Spring TigerWheelR3Dummy
+ObjectTemplate.geometry Tiger_whe3R_M1
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.Grip c_PGFEngineDummyGrip
+ObjectTemplate.setStrength 0
+ObjectTemplate.setDamping 0
+
+
+rem *** TigerWheelR3DummySmoke ***
+ObjectTemplate.create Spring TigerWheelR3DummySmoke
+ObjectTemplate.geometry Tiger_whe3R_M1
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.Grip c_PGFEngineDummyGrip
+rem -------------------------------------
+ObjectTemplate.addTemplate e_wdustPanzL
+ObjectTemplate.addTemplate e_wdustPanz
+rem -------------------------------------
+ObjectTemplate.setStrength 0
+ObjectTemplate.setDamping 0
+
+
+rem *** TigerWheelR3 ***
+ObjectTemplate.create Spring TigerWheelR3
+ObjectTemplate.setNetworkableInfo SpringInfo
+ObjectTemplate.geometry Tiger_whe3R_M1
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.Grip c_PGFEngineGrip
+ObjectTemplate.setStrength 19
+ObjectTemplate.setDamping 3.5

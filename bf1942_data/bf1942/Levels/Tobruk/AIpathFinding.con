@@ -1,0 +1,28 @@
+rem *** pathfinding debug mode
+rem game.aiPathfindingDebuggingActive 1
+
+rem *** Set number of maps ***
+rem ai.setNSearchMaps 2 *** DEPRICATED ***
+rem ai.setNSearchTypes 2 *** DEPRICATED ***
+
+rem *** Set number of AStar resources ***
+ai.numAStarResources 12
+
+rem *** Setup map parameters ***
+rem *** searchMap name/waterHeight/waterDepth/maxSlope/brush/lowClipLevel/hiClipLevel/considerAITypes
+rem *** searchType name/mapNum/minSearchLevel
+
+rem *** Tank ***
+ai.addSearchMap Tank0 25 5 30 3.0 0.3 2.5 0
+ai.addSearchType Tank 0 0
+ai.setMapSpawnPoints 0 400/200
+ai.setSmoothing 0 20
+
+rem *** Infantry ***
+ai.addSearchMap Infantry1 25 5 30 1.0 0.4 2.0 1
+ai.addSearchType Infantry 1 0
+ai.setMapSpawnPoints 1 400/200
+ai.setSmoothing 1 10
+
+rem *** Load maps ***
+ai.loadMaps

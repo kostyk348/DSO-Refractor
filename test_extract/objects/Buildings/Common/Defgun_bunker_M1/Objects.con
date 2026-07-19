@@ -1,0 +1,4 @@
+ObjectTemplate.create SimpleObject Defgun_bunker_m1
+ObjectTemplate.geometry Defgun_bunker_m1
+ObjectTemplate.setHasCollisionPhysics 1
+ObjectTemplate.aiTemplate Defgun_bunker_m1

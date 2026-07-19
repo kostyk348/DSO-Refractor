@@ -1,0 +1,73 @@
+ObjectTemplate.create HandFireArms ExpPack
+ObjectTemplate.networkableInfo HandFireArmsInfo
+ObjectTemplate.itemIndex 4
+ObjectTemplate.projectileTemplate ExpPackProjectile
+ObjectTemplate.projectilePosition 0/0/1
+ObjectTemplate.projectileVisible 0
+ObjectTemplate.magSize 4
+ObjectTemplate.numOfMag 1
+ObjectTemplate.magType 0
+ObjectTemplate.reloadtime 1
+ObjectTemplate.roundOfFire 1
+ObjectTemplate.fireOnce 1
+ObjectTemplate.altFireOnce 1
+ObjectTemplate.autoReload 0
+ObjectTemplate.GUIIndex 14
+ObjectTemplate.velocity 6
+ObjectTemplate.fireInCameraDof 1
+ObjectTemplate.hideDuringFireTime 0.2
+ObjectTemplate.fireDelay 0.4
+ObjectTemplate.soldierCameraPosition 0.02/-0.03/0.25
+ObjectTemplate.cantSelectWhenNoAmmo 1
+ObjectTemplate.changeWeaponWhenNoAmmo 1
+ObjectTemplate.AmmoType	2
+ObjectTemplate.loadSoundScript Sounds/ExpPack.ssc
+ObjectTemplate.createSkeleton animations/ExpPack.ske
+ObjectTemplate.useSkeletonPartAsMain base
+ObjectTemplate.addTemplate ExpPackLod
+
+rem ** Objects
+ObjectTemplate.create SimpleObject ExpPackHandle
+ObjectTemplate.geometry deto_hand_m1
+
+ObjectTemplate.create SimpleObject ExpPackSimple
+ObjectTemplate.geometry Shad_ExpPack
+
+ObjectTemplate.create AnimatedBundle ExpPackComplex
+ObjectTemplate.geometry ExpPack
+ObjectTemplate.hasDynamicShadow 1
+ObjectTemplate.createSkeleton animations/ExpPack.ske
+
+ObjectTemplate.create LodObject ExpPackLod
+ObjectTemplate.lodselector HandWeaponLodSelector
+ObjectTemplate.addTemplate ExpPackComplex
+ObjectTemplate.addTemplate ExpPackSimple
+
+
+ObjectTemplate.create Projectile ExpPackProjectile
+ObjectTemplate.networkableInfo ProjectileInfo
+ObjectTemplate.geometry ExpPack
+ObjectTemplate.hasDynamicShadow 1
+ObjectTemplate.setHasMobilePhysics 1
+ObjectTemplate.setHasCollisionPhysics 1
+ObjectTemplate.setHasResponsePhysics 1
+ObjectTemplate.setHasPointPhysics 0
+ObjectTemplate.hasCollisionEffect 0
+ObjectTemplate.invisibleAtEndEffect 1
+rem *** ExpPacks explodes after 120 seconds, if not detonated by hand first.
+ObjectTemplate.timeToLive CRD_NONE/240/0/0
+ObjectTemplate.dieAfterColl 0
+ObjectTemplate.radius 12
+ObjectTemplate.ForceOnExplosion 50
+ObjectTemplate.DamageType 1
+ObjectTemplate.material 230
+ObjectTemplate.material2 204
+ObjectTemplate.hasOnTimeEffect 1
+ObjectTemplate.endEffectTemplate e_ExplGranade
+ObjectTemplate.fadeOnDist 1
+ObjectTemplate.minDist 2
+ObjectTemplate.maxDist 20
+ObjectTemplate.minDistAlpha 50
+ObjectTemplate.maxDistAlpha 100
+ObjectTemplate.noFFSound 1
+

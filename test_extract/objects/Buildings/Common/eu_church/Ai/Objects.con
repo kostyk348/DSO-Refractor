@@ -1,0 +1,17 @@
+rem *** Plugins ***
+aiTemplatePlugIn.create Cover eu_churchCover
+aiTemplatePlugIn.coverValue 70.0
+
+aiTemplatePlugIn.create Physical eu_churchPhysical
+
+rem *** AITemplate ***
+aiTemplate.create eu_church_M1
+aiTemplate.addType ITCover
+aiTemplate.addType ITStructure
+aiTemplate.addType ITNoTemperature
+aiTemplate.degeneration 1
+aiTemplate.allowedTimeDiff -1
+aiTemplate.basicTemp 1
+aiTemplate.commonKnowledge 1
+aiTemplate.addPlugIn eu_churchCover
+aiTemplate.addPlugIn eu_churchPhysical

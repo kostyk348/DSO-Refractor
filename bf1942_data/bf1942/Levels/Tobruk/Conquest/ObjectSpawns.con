@@ -1,0 +1,174 @@
+
+rem ****************************************
+rem ****        ALLIES BASE             *****
+rem ****************************************
+rem
+rem ***  ***
+rem
+Object.create ArtillerySpawner
+Object.absolutePosition 2590.03/70.5877/836.359
+Object.rotation -93.6981/0.0618215/-1.52588e-005
+Object.setOSId 10
+Object.setTeam 2
+
+Object.create MachinegunSpawner 
+Object.absolutePosition 2486.83/80.8236/805.036
+Object.rotation -111.618/12.168/0.0656281
+Object.setOSId 10
+Object.setTeam 2
+
+Object.create heavytankspawner
+Object.absolutePosition 2586.19/70.5323/825.766
+Object.rotation -92.664/0.00175252/-1.52588e-005
+Object.setOSId 10
+Object.setTeam 2
+
+rem **************************************
+rem ****        AXIS BASE            *****
+rem *************************************
+
+
+
+
+rem
+rem ***  ***
+rem
+rem
+rem ***  ***
+rem
+Object.create lighttankspawner
+Object.absolutePosition 1754.94/68.0798/560.473
+Object.rotation -1.16986/-0.000603976/-1.52588e-005
+Object.setTeam 1
+
+rem
+rem ***  ***
+rem
+Object.create lighttankspawner
+Object.absolutePosition 1759.19/68.7434/592.15
+Object.rotation 85.1761/0.0512673/-1.52588e-005
+Object.setTeam 1
+rem
+rem ***  ***
+rem
+Object.create lighttankspawner
+Object.absolutePosition 1744.26/68.0894/560.255
+Object.rotation -1.16986/-0.000603976/-1.52588e-005
+Object.setTeam 1
+rem
+rem ***  ***
+rem
+Object.create heavytankspawner
+Object.absolutePosition 1716.46/68.4366/584.004
+Object.rotation 0.0197823/-0.664419/-1.52588e-005
+Object.setTeam 1
+rem
+rem ***  ***
+rem
+
+rem
+rem ***  ***
+rem
+Object.create ArtillerySpawner
+Object.absolutePosition 1777.01/68.0333/553.02
+Object.rotation -176.542/0.168716/1.52588e-005
+Object.setTeam 1
+
+Object.create MachinegunSpawner 
+Object.absolutePosition 1907.49/86.3652/577.005
+Object.rotation 45.244/6.57769/1.63268
+Object.setTeam 1
+
+Object.create MachinegunSpawner 
+Object.absolutePosition 1839.67/78.8938/618.009
+Object.rotation 42.12/0/0.0713348
+Object.setTeam 1
+
+Object.create MachinegunSpawner 
+Object.absolutePosition 1814.06/87.2852/717.605
+Object.rotation 81.432/0/0.0342712
+Object.setTeam 1
+rem **************************************
+rem ****        ALLIES_BASE_SECONDLINE_right        *****
+rem *************************************
+
+Object.create lighttankspawner
+Object.absolutePosition 2237.13/74.6455/700.531
+Object.rotation -89.856/0.000258112/-1.52588e-005
+Object.setOSId 12
+Object.setTeam 2
+
+Object.create MachinegunSpawner 
+Object.absolutePosition 2223.6/74.7/708.7
+Object.rotation -106.236/0/0.0884857s
+Object.setOSId 12
+Object.setTeam 2
+
+rem **************************************
+rem ****        ALLIES_BASE_SECONDLINE_left       *****
+rem *************************************
+
+Object.create lighttankspawner
+Object.absolutePosition 2218.57/79.5207/841.344
+Object.rotation -91.6085/0.179314/1.22957
+Object.setOSId 13
+Object.setTeam 2
+
+Object.create MachinegunSpawner 
+Object.absolutePosition 2207.33/79.63/834.857
+Object.rotation -107.406/0/0.0523529
+Object.setOSId 13
+Object.setTeam 2
+
+Object.create ArtillerySpawner
+Object.absolutePosition 2205.89/83.0565/939.746
+Object.rotation -178.243/-0.157112/-0.062561
+Object.setOSId 13
+Object.setTeam 2
+
+rem **************************************
+rem ****        ALLIES_BASE_FIRSTLINE_middle       *****
+rem *************************************
+
+Object.create lighttankspawner
+Object.absolutePosition 2037/72.8752/738.541
+Object.rotation 88.308/0.0866383/0.44191
+Object.setOSId 14
+Object.setTeam 2
+
+Object.create MachinegunSpawner 
+Object.absolutePosition 2011.21/73/714.468
+Object.rotation -140.4/0/1.52588e-005
+Object.setOSId 14
+Object.setTeam 2
+
+Object.create MachinegunSpawner 
+Object.absolutePosition 2007.45/73/729.31
+Object.rotation -117.468/0/0.0815735
+Object.setOSId 14
+Object.setTeam 2
+
+rem **************************************
+rem ****        ALLIES_BASE_FIRSTLINE_right      *****
+rem *************************************
+
+Object.create MachinegunSpawner 
+Object.absolutePosition 2068.97/70.5202/611.301
+Object.rotation -127.116/0/0.0395813
+Object.setOSId 15
+Object.setTeam 2
+
+Object.create AAGunSpawner 
+Object.absolutePosition 2128.48/67.0594/568.114
+Object.rotation -76.428/0/1.52588e-005
+Object.setTeam 2
+
+rem **************************************
+rem ****        ALLIES_BASE_FIRSTLINE_left      *****
+rem *************************************
+
+Object.create MachinegunSpawner 
+Object.absolutePosition 1969.6/81.85/831.453
+Object.rotation 177.804/0/0.0395813
+Object.setOSId 16
+Object.setTeam 2

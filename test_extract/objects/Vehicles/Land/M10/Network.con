@@ -1,0 +1,11 @@
+NetworkableInfo.createNewInfo M10TurretInfo
+NetworkableInfo.setPredictionMode PMLinear
+
+NetworkableInfo.createNewInfo M10GunInfo
+NetworkableInfo.setPredictionMode PMLinear
+
+NetworkableInfo.createNewInfo M10EngineInfo
+NetworkableInfo.setPredictionMode PMLinear
+
+NetworkableInfo.createNewInfo M10BodyInfo
+NetworkableInfo.setPredictionMode PMLinear

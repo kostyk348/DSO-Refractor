@@ -1,0 +1,7 @@
+ObjectTemplate.create SimpleObject Woodbrdg_M1
+ObjectTemplate.geometry Woodbrdg_M1
+ObjectTemplate.setHasCollisionPhysics 1
+ObjectTemplate.aiTemplate woodBrgdAI
+
+
+

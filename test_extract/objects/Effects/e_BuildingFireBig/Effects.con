@@ -1,0 +1,36 @@
+
+
+rem *** e_BuildingFireBig ***
+ObjectTemplate.create EffectBundle e_BuildingFireBig
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.loadSoundScript Sounds/e_BuildingFireBig.ssc
+rem -------------------------------------
+ObjectTemplate.addTemplate Em_BuildingFireBig
+ObjectTemplate.timeToLive CRD_NONE/10/0/0
+rem -------------------------------------
+
+
+rem *** Em_BuildingFireBig ***
+ObjectTemplate.create Emitter Em_BuildingFireBig
+ObjectTemplate.template Fx_BuildingFireBig
+ObjectTemplate.lodDistance 600
+ObjectTemplate.intensity CRD_NONE/0.2/0/0
+ObjectTemplate.relativePositionInUp CRD_NONE/0.3/0/0
+ObjectTemplate.relativePositionInRight CRD_UNIFORM/0.3/0/0
+ObjectTemplate.startRotation CRD_NONE/1/0/0
+
+
+rem *** Fx_BuildingFireBig ***
+ObjectTemplate.create SpriteParticle Fx_BuildingFireBig
+ObjectTemplate.size CRD_NONE/1.3/0/0
+ObjectTemplate.gravityModifier CRD_NONE/0/0/0
+ObjectTemplate.texture e_Fire256
+ObjectTemplate.useMipMaps 0
+ObjectTemplate.initRotation CRD_NONE/1/0/0
+ObjectTemplate.XYSizeRatio CRD_NONE/0.6/0/0
+ObjectTemplate.destBlendMode BMOne
+ObjectTemplate.rotationSpeed CRD_NONE/0/0/0
+ObjectTemplate.colorRGBAOverTime 0/255/255/255/0|28/255/255/255/245|61/255/255/255/255|100/255/255/255/0
+ObjectTemplate.numAnimationFrames 16
+ObjectTemplate.initAnimationFrame CRD_NORMAL/1/8/0
+ObjectTemplate.animationSpeed CRD_NONE/50/0/0

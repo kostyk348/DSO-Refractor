@@ -1,0 +1,3 @@
+ObjectTemplate.create SimpleObject Tlight_m1
+ObjectTemplate.geometry Tlight_m1
+ObjectTemplate.setHasCollisionPhysics 0

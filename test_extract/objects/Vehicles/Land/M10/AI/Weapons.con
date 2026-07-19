@@ -1,0 +1,52 @@
+
+rem *** Add gun ***
+weaponTemplate.create M10MainGun
+weaponTemplate.burst 0
+weaponTemplate.indirect 0
+weaponTemplate.minRange 15.0
+weaponTemplate.maxRange 200.0
+weaponTemplate.weaponActivate PINone
+weaponTemplate.weaponFire PIFire
+weaponTemplate.setStrength 0 6.0
+weaponTemplate.setStrength 1 4.0
+weaponTemplate.setStrength 2 3.0
+weaponTemplate.setStrength 3 1.0
+weaponTemplate.setStrength 4 0.0
+weaponTemplate.setStrength 5 0.0
+
+
+beginrem 
+
+	rem *** Add Browning Machine Gun ***
+	weaponTemplate.create ShermanBrowningMG
+	weaponTemplate.burst 0
+	weaponTemplate.indirect 0
+	weaponTemplate.minRange 5.0
+	weaponTemplate.maxRange 100.0
+	weaponTemplate.weaponActivate PINone
+	weaponTemplate.weaponFire PIFire
+	weaponTemplate.setStrength 0 0.0
+	weaponTemplate.setStrength 1 8.0
+	weaponTemplate.setStrength 2 0.0
+	weaponTemplate.setStrength 3 0.0
+	weaponTemplate.setStrength 4 0.0
+	weaponTemplate.setStrength 5 4.9
+	
+	
+	rem *** Add Coaxial Machine Gun ***
+	weaponTemplate.create ShermanCoaxMachineGun
+	weaponTemplate.burst 0
+	weaponTemplate.indirect 0
+	weaponTemplate.minRange 5.0
+	weaponTemplate.maxRange 100.0
+	weaponTemplate.weaponActivate PINone
+	weaponTemplate.weaponFire PIAltFire
+	weaponTemplate.setStrength 0 0.0
+	weaponTemplate.setStrength 1 8.0
+	weaponTemplate.setStrength 2 0.0
+	weaponTemplate.setStrength 3 0.0
+	weaponTemplate.setStrength 4 0.0
+	weaponTemplate.setStrength 5 4.9
+	
+	
+endrem

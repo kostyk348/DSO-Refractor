@@ -1,0 +1,10 @@
+
+rem *** e_waterBoatSink ***
+ObjectTemplate.create EffectBundle e_waterBoatSink
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.loadSoundScript Sounds/e_waterBoatSink.ssc
+
+rem *** Em_Silent ***
+ObjectTemplate.addTemplate Em_SilentLoop
+ObjectTemplate.timeToLive CRD_NONE/-1/0/0
+

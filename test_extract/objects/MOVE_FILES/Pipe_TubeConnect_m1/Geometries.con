@@ -1,0 +1,7 @@
+GeometryTemplate.create StandardMesh Pipe_TubeConnect_m1
+GeometryTemplate.file Pipe_TubeConnect_m1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 15
+GeometryTemplate.setLodDistance 2 35
+
+

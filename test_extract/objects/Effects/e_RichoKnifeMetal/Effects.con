@@ -1,0 +1,39 @@
+
+
+rem *** e_RichoKnifeMetal ***
+ObjectTemplate.create EffectBundle e_RichoKnifeMetal
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.loadSoundScript Sounds/knife.ssc
+rem -------------------------------------
+ObjectTemplate.addTemplate Em_richoKnife_Glint
+ObjectTemplate.timeToLive CRD_NONE/1.8/0/0
+rem -------------------------------------
+
+
+rem *** Em_richoKnife_Glint ***
+ObjectTemplate.create Emitter Em_richoKnife_Glint
+ObjectTemplate.template Fx_richoKnife_Glint
+ObjectTemplate.addEmitterSpeed 1
+ObjectTemplate.emitterSpeedScale 1
+ObjectTemplate.lodDistance 150
+ObjectTemplate.timeToLive CRD_NONE/0.1/0/0
+ObjectTemplate.intensity CRD_UNIFORM/20/60/0
+ObjectTemplate.positionalSpeedInDof CRD_UNIFORM/0/1/1
+ObjectTemplate.positionalSpeedInUp CRD_UNIFORM/4/0.4/0
+ObjectTemplate.positionalSpeedInRight CRD_UNIFORM/0.2/2/1
+ObjectTemplate.rotationalSpeedInUp CRD_UNIFORM/2/0/0
+ObjectTemplate.rotationalSpeedInRight CRD_UNIFORM/1/0/0
+ObjectTemplate.startRotation CRD_NONE/1/0/0
+
+
+rem *** Fx_richoKnife_Glint ***
+ObjectTemplate.create SpriteParticle Fx_richoKnife_Glint
+ObjectTemplate.timeToLive CRD_NONE/1/1/0
+ObjectTemplate.size CRD_UNIFORM/0.08/0.14/0
+ObjectTemplate.gravityModifier CRD_UNIFORM/0.4/1/0
+ObjectTemplate.drag CRD_UNIFORM/0/0.5/0
+ObjectTemplate.sizeOverTime 0/1|100/1
+ObjectTemplate.dragOverTime 0/0.059999|100/1
+ObjectTemplate.texture E_richoMetal_I
+ObjectTemplate.destBlendMode BMOne
+ObjectTemplate.colorRGBAOverTime 0/255/255/255/255|86/255/255/128/255|100/255/255/255/51

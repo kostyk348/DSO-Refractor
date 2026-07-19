@@ -1,0 +1,619 @@
+rem *
+rem * ***** Wespe gun explosion SPLASH DAMAGE*****
+rem *
+
+rem * *************************************************
+rem *		Infantry target
+rem * *************************************************
+MaterialManager.attGroup 202
+MaterialManager.setCell 40 7
+MaterialManager.setCell 41 2 
+MaterialManager.setCell 42 2 
+
+rem * *************************************************
+rem *		scout cars target
+rem * *************************************************
+
+MaterialManager.attGroup 202
+MaterialManager.defGroup 43
+MaterialManager.damageMod 10
+
+MaterialManager.attGroup 202
+MaterialManager.defGroup 44
+MaterialManager.damageMod 10
+
+rem  *************************************************
+rem *		Light Vehicle target
+rem * *************************************************
+
+MaterialManager.attGroup 202
+MaterialManager.defGroup 45
+MaterialManager.damageMod 8
+
+MaterialManager.attGroup 202
+MaterialManager.defGroup 46
+MaterialManager.damageMod 4
+
+MaterialManager.attGroup 202
+MaterialManager.defGroup 47
+MaterialManager.damageMod 4
+
+MaterialManager.attGroup 202
+MaterialManager.defGroup 48
+MaterialManager.damageMod 4
+
+MaterialManager.attGroup 202
+MaterialManager.defGroup 49
+MaterialManager.damageMod 4
+
+rem * *************************************************
+rem *		Heavy Vehicle target
+rem * *************************************************
+
+MaterialManager.attGroup 202
+MaterialManager.defGroup 50
+MaterialManager.damageMod 6
+
+MaterialManager.attGroup 202
+MaterialManager.defGroup 51
+MaterialManager.damageMod 0.5
+
+MaterialManager.attGroup 202
+MaterialManager.defGroup 52
+MaterialManager.damageMod 0.5
+
+MaterialManager.attGroup 202
+MaterialManager.defGroup 53
+MaterialManager.damageMod 0
+
+MaterialManager.attGroup 202
+MaterialManager.defGroup 54
+MaterialManager.damageMod 0
+
+rem * *************************************************
+rem *		Ship target
+rem * *************************************************
+
+
+MaterialManager.attGroup 202
+MaterialManager.defGroup 55
+MaterialManager.damageMod 0.0
+
+MaterialManager.attGroup 202
+MaterialManager.defGroup 56
+MaterialManager.damageMod 0.0
+
+MaterialManager.attGroup 202
+MaterialManager.defGroup 57
+MaterialManager.damageMod 0.0
+
+MaterialManager.attGroup 202
+MaterialManager.defGroup 58
+MaterialManager.damageMod 0.0
+
+MaterialManager.attGroup 202
+MaterialManager.defGroup 59
+MaterialManager.damageMod 0.0
+
+rem * *************************************************
+rem *		Planes target
+rem * *************************************************
+
+MaterialManager.attGroup 202
+MaterialManager.defGroup 60
+MaterialManager.damageMod 10
+
+MaterialManager.attGroup 202
+MaterialManager.defGroup 61
+MaterialManager.damageMod 10
+
+MaterialManager.attGroup 202
+MaterialManager.defGroup 62
+MaterialManager.damageMod 10
+
+rem * *************************************************
+rem *		Default
+rem * *************************************************
+
+MaterialManager.attGroup 202
+MaterialManager.defGroup 0
+MaterialManager.damageMod 0.0
+
+MaterialManager.attGroup 202
+MaterialManager.defGroup 1
+MaterialManager.damageMod 0.0
+
+rem ***************************************************
+rem * ***** Bombs gun explosion - DIRECT DAMAGE *****
+rem ***************************************************
+
+rem * *************************************************
+rem *		Infantry target
+rem * *************************************************
+MaterialManager.attGroup 242
+MaterialManager.defGroup 40
+MaterialManager.damageMod 4
+MaterialManager.setEffectTemplate BombSmall_Expl
+
+MaterialManager.attGroup 242
+MaterialManager.defGroup 41
+MaterialManager.damageMod 4
+MaterialManager.setEffectTemplate BombSmall_Expl
+
+MaterialManager.attGroup 242
+MaterialManager.defGroup 42
+MaterialManager.damageMod 4
+MaterialManager.setEffectTemplate BombSmall_Expl
+
+rem * *************************************************
+rem *		scout cars target
+rem * *************************************************
+
+MaterialManager.attGroup 242
+MaterialManager.defGroup 43
+MaterialManager.damageMod 10
+MaterialManager.setEffectTemplate BombSmall_Expl
+
+MaterialManager.attGroup 242
+MaterialManager.defGroup 44
+MaterialManager.damageMod 10
+MaterialManager.setEffectTemplate BombSmall_Expl
+
+rem * *************************************************
+rem *		Light Vehicle target
+rem * *************************************************
+
+MaterialManager.attGroup 242
+MaterialManager.defGroup 45
+MaterialManager.damageMod 20
+MaterialManager.setEffectTemplate BombSmall_Expl
+
+MaterialManager.attGroup 242
+MaterialManager.defGroup 46
+MaterialManager.damageMod 20
+MaterialManager.setEffectTemplate BombSmall_Expl
+
+MaterialManager.attGroup 242
+MaterialManager.defGroup 47
+MaterialManager.damageMod 20
+MaterialManager.setEffectTemplate BombSmall_Expl
+
+MaterialManager.attGroup 242
+MaterialManager.defGroup 48
+MaterialManager.damageMod 20
+MaterialManager.setEffectTemplate BombSmall_Expl
+
+MaterialManager.attGroup 242
+MaterialManager.defGroup 49
+MaterialManager.damageMod 20
+MaterialManager.setEffectTemplate BombSmall_Expl
+
+rem * *************************************************
+rem *		Heavy Vehicle target
+rem * *************************************************
+
+MaterialManager.attGroup 242
+MaterialManager.defGroup 50
+MaterialManager.damageMod 20
+MaterialManager.setEffectTemplate BombSmall_Expl
+
+MaterialManager.attGroup 242
+MaterialManager.defGroup 51
+MaterialManager.damageMod 20
+MaterialManager.setEffectTemplate BombSmall_Expl
+
+MaterialManager.attGroup 242
+MaterialManager.defGroup 52
+MaterialManager.damageMod 20
+MaterialManager.setEffectTemplate BombSmall_Expl
+
+MaterialManager.attGroup 242
+MaterialManager.defGroup 53
+MaterialManager.damageMod 15
+MaterialManager.setEffectTemplate BombSmall_Expl
+
+MaterialManager.attGroup 242
+MaterialManager.defGroup 54
+MaterialManager.damageMod 10
+MaterialManager.setEffectTemplate BombSmall_Expl
+
+rem * *************************************************
+rem *		Ship target
+rem * *************************************************
+
+
+MaterialManager.attGroup 242
+MaterialManager.defGroup 55
+MaterialManager.damageMod 5
+MaterialManager.setEffectTemplate BombSmall_Expl
+
+MaterialManager.attGroup 242
+MaterialManager.defGroup 56
+MaterialManager.damageMod 4
+MaterialManager.setEffectTemplate BombSmall_Expl
+
+MaterialManager.attGroup 242
+MaterialManager.defGroup 57
+MaterialManager.damageMod 3
+MaterialManager.setEffectTemplate BombSmall_Expl
+
+MaterialManager.attGroup 242
+MaterialManager.defGroup 58
+MaterialManager.damageMod 2
+MaterialManager.setEffectTemplate BombSmall_Expl
+
+MaterialManager.attGroup 242
+MaterialManager.defGroup 59
+MaterialManager.damageMod 1
+MaterialManager.setEffectTemplate BombSmall_Expl
+
+MaterialManager.attGroup 242
+MaterialManager.defGroup 65
+MaterialManager.damageMod 6
+MaterialManager.setEffectTemplate e_Explani02
+
+MaterialManager.attGroup 242
+MaterialManager.defGroup 66
+MaterialManager.damageMod 6
+MaterialManager.setEffectTemplate e_Explani02
+
+MaterialManager.attGroup 242
+MaterialManager.defGroup 67
+MaterialManager.damageMod 6
+MaterialManager.setEffectTemplate e_Explani02
+
+rem * *************************************************
+rem *		Planes target
+rem * *************************************************
+
+MaterialManager.attGroup 242
+MaterialManager.defGroup 60
+MaterialManager.damageMod 20
+MaterialManager.setEffectTemplate BombSmall_Expl
+
+MaterialManager.attGroup 242
+MaterialManager.defGroup 61
+MaterialManager.damageMod 20
+MaterialManager.setEffectTemplate BombSmall_Expl
+
+MaterialManager.attGroup 242
+MaterialManager.defGroup 62
+MaterialManager.damageMod 20
+MaterialManager.setEffectTemplate BombSmall_Expl
+
+
+rem * *************************************************
+rem *		Default
+rem * *************************************************
+
+MaterialManager.attGroup 242
+MaterialManager.defGroup 0
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate BombSmall_Expl
+
+MaterialManager.attGroup 242
+MaterialManager.defGroup 1
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate WaterWaterExplosion
+
+rem * *************************************************
+rem *		Material Effects
+rem * *************************************************
+rem * *************************************************
+rem *		Other Materials
+rem * *************************************************
+
+rem * *** Dry Grass (yellow) ***
+MaterialManager.attGroup 242
+MaterialManager.defGroup 2
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate BombSmall_Expl
+
+rem * *** Juicy Grass (Green) ***
+MaterialManager.attGroup 242
+MaterialManager.defGroup 3
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate BombSmall_Expl
+
+rem * *** Dry Dirt ***
+MaterialManager.attGroup 242
+MaterialManager.defGroup 4
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate BombSmall_Expl
+
+rem * *** Wet Dirt ***
+MaterialManager.attGroup 242
+MaterialManager.defGroup 5
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate BombSmall_Expl
+
+rem * *** Mud ***
+MaterialManager.attGroup 242
+MaterialManager.defGroup 6
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate BombSmall_Expl
+
+rem * *** Deep Mud ***
+MaterialManager.attGroup 242
+MaterialManager.defGroup 7
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate BombSmall_Expl
+
+rem * *** Gravel ***
+MaterialManager.attGroup 242
+MaterialManager.defGroup 8
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate BombSmall_Expl
+
+rem * *** Frozen ground ***
+MaterialManager.attGroup 242
+MaterialManager.defGroup 9
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate BombSmall_Expl
+
+rem * *** Dry Sand ***
+MaterialManager.attGroup 242
+MaterialManager.defGroup 10
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate BombSmall_Expl
+
+rem * *** Wet Sand ***
+MaterialManager.attGroup 242
+MaterialManager.defGroup 11
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate BombSmall_Expl
+
+rem * *** Rock ***
+MaterialManager.attGroup 242
+MaterialManager.defGroup 12
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate BombSmall_Expl
+
+rem * *** Forest Floor ***
+MaterialManager.attGroup 242
+MaterialManager.defGroup 13
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate BombSmall_Expl
+
+rem * *** Dirt Road ***
+MaterialManager.attGroup 242
+MaterialManager.defGroup 14
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate BombSmall_Expl
+
+rem * *** Paved Road ***
+MaterialManager.attGroup 242
+MaterialManager.defGroup 15
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate BombSmall_Expl
+
+rem * *** Solid Wood ***
+MaterialManager.attGroup 242
+MaterialManager.defGroup 80
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate BombSmall_Expl
+
+rem * *** Wood ***
+MaterialManager.attGroup 242
+MaterialManager.defGroup 81
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate BombSmall_Expl
+
+rem * *** Thin Wood ***
+MaterialManager.attGroup 242
+MaterialManager.defGroup 82
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate BombSmall_Expl
+
+rem * *** Hollow Wood ***
+MaterialManager.attGroup 242
+MaterialManager.defGroup 83
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate BombSmall_Expl
+
+rem * *** Solid Metal ***
+MaterialManager.attGroup 242
+MaterialManager.defGroup 84
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate BombSmall_Expl
+
+rem * *** Metal ***
+MaterialManager.attGroup 242
+MaterialManager.defGroup 85
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate BombSmall_Expl
+
+rem * *** Thin Metal ***
+MaterialManager.attGroup 242
+MaterialManager.defGroup 86
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate BombSmall_Expl
+
+rem * *** Hollow Metal ***
+MaterialManager.attGroup 242
+MaterialManager.defGroup 87
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate BombSmall_Expl
+
+rem * *** Solid Stone (Rock) ***
+MaterialManager.attGroup 242
+MaterialManager.defGroup 88
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate BombSmall_Expl
+
+rem * *** Concrete ***
+MaterialManager.attGroup 242
+MaterialManager.defGroup 92
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate BombSmall_Expl
+
+rem * *** Reinforced Concrete ***
+MaterialManager.attGroup 242
+MaterialManager.defGroup 93
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate BombSmall_Expl
+
+rem * *** Flesh ***
+MaterialManager.attGroup 242
+MaterialManager.defGroup 94
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate BombSmall_Expl
+
+rem * *** Exterior Stone Wall ***
+MaterialManager.attGroup 242
+MaterialManager.defGroup 100
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate BombSmall_Expl
+
+rem * *** Interior Stone Wall ***
+MaterialManager.attGroup 242
+MaterialManager.defGroup 101
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate BombSmall_Expl
+
+rem * *** Exterior brick Wall ***
+MaterialManager.attGroup 242
+MaterialManager.defGroup 102
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate BombSmall_Expl
+
+rem * *** Interior brick Wall ***
+MaterialManager.attGroup 242
+MaterialManager.defGroup 103
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate BombSmall_Expl
+
+rem * *** Exterior wooden Wall ***
+MaterialManager.attGroup 242
+MaterialManager.defGroup 104
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate BombSmall_Expl
+
+rem * *** Interior wooden Wall ***
+MaterialManager.attGroup 242
+MaterialManager.defGroup 105
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate BombSmall_Expl
+
+rem * *** Wooden Fence ***
+MaterialManager.attGroup 242
+MaterialManager.defGroup 106
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate BombSmall_Expl
+
+rem * *** Sandbags ***
+MaterialManager.attGroup 242
+MaterialManager.defGroup 107
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate BombSmall_Expl
+
+rem * *** Grate ***
+MaterialManager.attGroup 242
+MaterialManager.defGroup 108
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate BombSmall_Expl
+
+rem * *** Wooden Fence ***
+MaterialManager.attGroup 242
+MaterialManager.defGroup 109
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate BombSmall_Expl
+
+rem * *** Wire Fence ***
+MaterialManager.attGroup 242
+MaterialManager.defGroup 110
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate BombSmall_Expl
+
+rem * *** Grated Fence ***
+MaterialManager.attGroup 242
+MaterialManager.defGroup 111
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate BombSmall_Expl
+
+rem * *** Mesh Fence ***
+MaterialManager.attGroup 242
+MaterialManager.defGroup 112
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate BombSmall_Expl
+
+rem * *** Bamboo Exterior wall ***
+MaterialManager.attGroup 242
+MaterialManager.defGroup 113
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate BombSmall_Expl
+
+rem * *** Bamboo Interior wall ***
+MaterialManager.attGroup 242
+MaterialManager.defGroup 114
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate BombSmall_Expl
+
+rem * *** Bamboo Fence ***
+MaterialManager.attGroup 242
+MaterialManager.defGroup 115
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate BombSmall_Expl
+
+rem * *** Bamboo Fence ***
+MaterialManager.attGroup 242
+MaterialManager.defGroup 116
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate BombSmall_Expl
+
+rem * *** Wooden Floor ***
+MaterialManager.attGroup 242
+MaterialManager.defGroup 117
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate BombSmall_Expl
+
+rem * *** Stone Floor ***
+MaterialManager.attGroup 242
+MaterialManager.defGroup 118
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate BombSmall_Expl
+
+rem * *** Glass Pane ***
+MaterialManager.attGroup 242
+MaterialManager.defGroup 119
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate BombSmall_Expl
+
+rem * *************************************************
+rem *		Special items
+rem * *************************************************
+
+rem * *** Wooden door ***
+MaterialManager.attGroup 242
+MaterialManager.defGroup 190
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate BombSmall_Expl
+
+rem * *** Metal Door ***
+MaterialManager.attGroup 242
+MaterialManager.defGroup 191
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate BombSmall_Expl
+
+rem * *** Wooden Ladder ***
+MaterialManager.attGroup 242
+MaterialManager.defGroup 192
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate BombSmall_Expl
+
+rem * *** Metal Ladder ***
+MaterialManager.attGroup 242
+MaterialManager.defGroup 193
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate BombSmall_Expl
+
+rem * *** Switch/control panel ***
+MaterialManager.attGroup 242
+MaterialManager.defGroup 194
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate BombSmall_Expl
+
+rem * *** Climbing net ***
+MaterialManager.attGroup 242
+MaterialManager.defGroup 195
+MaterialManager.damageMod 0.0

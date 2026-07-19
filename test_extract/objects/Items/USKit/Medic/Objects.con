@@ -1,0 +1,17 @@
+ObjectTemplate.create Kit  US_Medic
+ObjectTemplate.geometry  Kit_Allies_Medic
+ObjectTemplate.setHasCollisionPhysics 1
+ObjectTemplate.networkableInfo KitInfo
+ObjectTemplate.addTemplate Medic_helm_us
+ObjectTemplate.addTemplate US_Medic_hippack
+ObjectTemplate.addTemplate US_Britt_Bacpac
+ObjectTemplate.addTemplate US_Grenades
+
+ObjectTemplate.addTemplate Thompson
+ObjectTemplate.addTemplate Colt
+ObjectTemplate.addTemplate KnifeAllies
+ObjectTemplate.addTemplate MedPack
+
+ObjectTemplate.addTemplate GrenadeAllies
+ObjectTemplate.aitemplate Medic
+

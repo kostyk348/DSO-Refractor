@@ -1,0 +1,3 @@
+ObjectTemplate.create SimpleObject Richo_meshbrown3_m1
+ObjectTemplate.geometry Richo_meshbrown3_m1
+ObjectTemplate.setHasCollisionPhysics 0

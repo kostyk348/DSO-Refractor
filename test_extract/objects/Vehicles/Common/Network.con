@@ -1,0 +1,11 @@
+NetworkableInfo.createNewInfo TankFireArmInfo
+NetworkableInfo.setPredictionMode PMNone
+
+NetworkableInfo.createNewInfo PlaneFireArmInfo
+NetworkableInfo.setPredictionMode PMNone
+
+NetworkableInfo.createNewInfo SpringInfo
+NetworkableInfo.setIsUnique 1
+
+
+

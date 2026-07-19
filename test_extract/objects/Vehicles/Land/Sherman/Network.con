@@ -1,0 +1,11 @@
+NetworkableInfo.createNewInfo ShermanTurretInfo
+NetworkableInfo.setPredictionMode PMLinear
+
+NetworkableInfo.createNewInfo ShermanGunInfo
+NetworkableInfo.setPredictionMode PMLinear
+
+NetworkableInfo.createNewInfo ShermanEngineInfo
+NetworkableInfo.setPredictionMode PMLinear
+
+NetworkableInfo.createNewInfo ShermanBodyInfo
+NetworkableInfo.setPredictionMode PMLinear

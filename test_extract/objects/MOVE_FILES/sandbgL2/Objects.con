@@ -1,0 +1,4 @@
+ObjectTemplate.create SimpleObject sandbagL2_M1
+ObjectTemplate.geometry sandbagL2_M1
+ObjectTemplate.setHasCollisionPhysics 1
+

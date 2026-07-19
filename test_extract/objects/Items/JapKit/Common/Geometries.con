@@ -1,0 +1,37 @@
+GeometryTemplate.create StandardMesh Jap_Hip_Pack
+GeometryTemplate.file Jap_hippack_m1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 30
+GeometryTemplate.setLodDistance 2 100
+
+GeometryTemplate.create StandardMesh Jap_Helmet
+GeometryTemplate.file Jap_Helmet_m1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 30
+GeometryTemplate.setLodDistance 2 100
+
+rem ****engineer*****
+GeometryTemplate.create StandardMesh BacpacBig_jap
+GeometryTemplate.file BacpacBig_jap_m1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 30
+GeometryTemplate.setLodDistance 2 100
+
+GeometryTemplate.create StandardMesh Jap_Medic_hippack
+GeometryTemplate.file Jap_Medic_hippack_m1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 30
+GeometryTemplate.setLodDistance 2 100
+
+GeometryTemplate.create StandardMesh Medichelm_jap
+GeometryTemplate.file Medichelm_jap_m1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 30
+GeometryTemplate.setLodDistance 2 100
+
+GeometryTemplate.create StandardMesh Jap_ScoutHelm
+GeometryTemplate.file Jap_ScoutHelm_m1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 30
+GeometryTemplate.setLodDistance 2 100
+

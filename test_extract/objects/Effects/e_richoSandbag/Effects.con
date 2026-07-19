@@ -1,0 +1,140 @@
+
+
+rem *** e_richoSandbag ***
+ObjectTemplate.create EffectBundle e_richoSandbag
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.loadSoundScript Sounds/richosandbag.ssc
+rem -------------------------------------
+ObjectTemplate.addTemplate Em_richoSandbag
+ObjectTemplate.addTemplate Em_richoSandbag_smoke
+ObjectTemplate.addTemplate Em_richoSandbag_WSmoke
+ObjectTemplate.addTemplate Em_RichoSandbag_sand
+ObjectTemplate.addTemplate Em_RichoSandbag_Base
+ObjectTemplate.timeToLive CRD_NONE/1/0/0
+rem -------------------------------------
+
+
+rem *** Em_richoSandbag ***
+ObjectTemplate.create Emitter Em_richoSandbag
+ObjectTemplate.template Fx_richoSandbag
+ObjectTemplate.startAtCreation 1
+ObjectTemplate.lodDistance 350
+ObjectTemplate.timeToLive CRD_NONE/0.1/0/0
+ObjectTemplate.intensity CRD_NONE/10/0/0
+ObjectTemplate.positionalSpeedInUp CRD_UNIFORM/1/2/0
+ObjectTemplate.startRotation CRD_NONE/1/0/0
+
+
+rem *** Fx_richoSandbag ***
+ObjectTemplate.create SpriteParticle Fx_richoSandbag
+ObjectTemplate.timeToLive CRD_NONE/0.3/0.3/0
+ObjectTemplate.size CRD_UNIFORM/0.14/0.17/0
+ObjectTemplate.gravityModifier CRD_NONE/0.1/0/0
+ObjectTemplate.sizeOverTime 0/1.11005|43/1|100/2
+ObjectTemplate.texture e_richo3_I
+ObjectTemplate.initRotation CRD_UNIFORM/1/360/0
+ObjectTemplate.destBlendMode BMOne
+ObjectTemplate.colorRGBAOverTime 0/111/99/74/204|58/183/168/138/136|100/0/0/0/0
+
+
+rem *** Em_richoSandbag_smoke ***
+ObjectTemplate.create Emitter Em_richoSandbag_smoke
+ObjectTemplate.template Fx_richoSandbag_smoke
+ObjectTemplate.lodDistance 350
+ObjectTemplate.timeToLive CRD_NONE/0.1/0/0
+ObjectTemplate.intensity CRD_NONE/20/0/0
+ObjectTemplate.positionalSpeedInDof CRD_UNIFORM/0/0.3/1
+ObjectTemplate.positionalSpeedInUp CRD_UNIFORM/0/0/0
+ObjectTemplate.positionalSpeedInRight CRD_UNIFORM/0/0.02/1
+ObjectTemplate.startRotation CRD_NONE/1/0/0
+
+
+rem *** Fx_richoSandbag_smoke ***
+ObjectTemplate.create SpriteParticle Fx_richoSandbag_smoke
+ObjectTemplate.timeToLive CRD_UNIFORM/2/2/0
+ObjectTemplate.size CRD_UNIFORM/2/1.5/0
+ObjectTemplate.gravityModifier CRD_NONE/0.35/0/0
+ObjectTemplate.sizeOverTime 0/0.140034|100/0.869991
+ObjectTemplate.texture e_muzs1_I
+ObjectTemplate.initRotation CRD_UNIFORM/0/180/1
+ObjectTemplate.destBlendMode BMDestAlpha
+ObjectTemplate.rotationSpeed CRD_UNIFORM/20/50/1
+ObjectTemplate.colorRGBAOverTime 0/128/128/128/51|7/131/131/129/102|65/159/157/138/55|100/159/157/138/0
+
+
+rem *** Em_richoSandbag_WSmoke ***
+ObjectTemplate.create Emitter Em_richoSandbag_WSmoke
+ObjectTemplate.template Fx_richoSandbag_WSmoke
+ObjectTemplate.addEmitterSpeed 1
+ObjectTemplate.emitterSpeedScale 1
+ObjectTemplate.lodDistance 450
+ObjectTemplate.timeToLive CRD_NONE/0.1/0/0
+ObjectTemplate.intensity CRD_NONE/20/0/0
+ObjectTemplate.positionalSpeedInUp CRD_UNIFORM/1/2/0
+ObjectTemplate.startRotation CRD_NONE/1/0/0
+
+
+rem *** Fx_richoSandbag_WSmoke ***
+ObjectTemplate.create SpriteParticle Fx_richoSandbag_WSmoke
+ObjectTemplate.timeToLive CRD_UNIFORM/0.6/0.6/0
+ObjectTemplate.size CRD_NONE/0.4/0/0
+ObjectTemplate.gravityModifier CRD_NONE/0.2/0/0
+ObjectTemplate.drag CRD_NONE/1/0/0
+ObjectTemplate.sizeOverTime 0/0.480056|100/1.87997
+ObjectTemplate.gravityModifierOverTime 0/1|100/1
+ObjectTemplate.texture e_muzs1_I
+ObjectTemplate.initRotation CRD_UNIFORM/1/180/1
+ObjectTemplate.srcBlendMode BMSourceColor
+ObjectTemplate.destBlendMode BMInvSourceAlpha
+ObjectTemplate.rotationSpeedOverTime 0/5.87979|64/5.03995|100/6
+ObjectTemplate.colorRGBAOverTime 0/255/255/255/102|57/255/255/255/43|100/0/0/0/0
+
+
+rem *** Em_RichoSandbag_sand ***
+ObjectTemplate.create Emitter Em_RichoSandbag_sand
+ObjectTemplate.template Fx_RichoSandbag_Sand
+ObjectTemplate.lodDistance 38
+ObjectTemplate.delay CRD_UNIFORM/0/1/0
+ObjectTemplate.timeToLive CRD_UNIFORM/3/1/0
+ObjectTemplate.intensity CRD_UNIFORM/20/50/0
+ObjectTemplate.intensityOverTime 0/1|100/0.100009
+ObjectTemplate.positionalSpeedInDof CRD_UNIFORM/0/0.04/1
+ObjectTemplate.positionalSpeedInUp CRD_UNIFORM/0.3/0.2/0
+ObjectTemplate.positionalSpeedInRight CRD_NONE/0.1/0/0
+ObjectTemplate.rotationalSpeedInDof CRD_NONE/0/0/0
+ObjectTemplate.rotationalSpeedInUp CRD_NONE/0/0/0
+ObjectTemplate.rotationalSpeedInRight CRD_NONE/0/0/0
+ObjectTemplate.startRotation CRD_UNIFORM/90/0/0
+
+
+rem *** Fx_RichoSandbag_Sand ***
+ObjectTemplate.create Particle Fx_RichoSandbag_Sand
+ObjectTemplate.geometry Richo_sandcorn_m1
+ObjectTemplate.timeToLive CRD_NONE/1/1/0
+ObjectTemplate.drag CRD_NONE/10/0/0
+ObjectTemplate.gravityModifierOverTime 0/0.10007|38/0.53|100/0.730018
+
+
+rem *** Em_RichoSandbag_Base ***
+ObjectTemplate.create Emitter Em_RichoSandbag_Base
+ObjectTemplate.template Fx_RichoSandbag_Base
+ObjectTemplate.timeToLive CRD_NONE/0.1/0/0
+ObjectTemplate.intensity CRD_NONE/300/0/0
+ObjectTemplate.positionalSpeedInUp CRD_UNIFORM/5/1/0
+ObjectTemplate.startRotation CRD_NONE/1/0/0
+
+
+rem *** Fx_RichoSandbag_Base ***
+ObjectTemplate.create SpriteParticle Fx_RichoSandbag_Base
+ObjectTemplate.timeToLive CRD_NONE/0.2/0.2/0
+ObjectTemplate.size CRD_NONE/0.6/0.1/0
+ObjectTemplate.gravityModifier CRD_NONE/0/0/0
+ObjectTemplate.drag CRD_NONE/50/0/0
+ObjectTemplate.sizeOverTime 0/0.600009|100/0.400037
+ObjectTemplate.dragOverTime 0/6.1e-005|100/1
+ObjectTemplate.texture E_richoMetaL_I
+ObjectTemplate.initRotation CRD_UNIFORM/1/180/1
+ObjectTemplate.destBlendMode BMInvSourceAlpha
+ObjectTemplate.rotationSpeed CRD_UNIFORM/1/180/1
+ObjectTemplate.colorRGBAOverTime 0/255/255/255/255|52/191/183/119/122|100/128/128/128/0
+ObjectTemplate.alphaTestRefOverTime 

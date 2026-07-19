@@ -1,0 +1,3 @@
+ObjectTemplate.create SimpleObject rooflamp1_m1
+ObjectTemplate.geometry rooflamp1_m1
+ObjectTemplate.aiTemplate rooflamp1_m1

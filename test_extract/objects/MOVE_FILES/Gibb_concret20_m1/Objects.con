@@ -1,0 +1,18 @@
+ObjectTemplate.create SimpleObject Gibb_concret20_m1
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.geometry Gibb_concret20_m1
+ObjectTemplate.setHasCollisionPhysics 1
+ObjectTemplate.setHasResponsePhysics 1
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.destroyed 1
+ObjectTemplate.HasArmor 1
+ObjectTemplate.Hitpoints 0
+ObjectTemplate.timeToLiveAfterDeath  3
+ObjectTemplate.fadeAtTimeToLiveAfterDeath 1
+ObjectTemplate.timeToStartFadeAfterDeath 1
+ObjectTemplate.damageFromWater 0
+ObjectTemplate.explosionDamage 0
+ObjectTemplate.hpLostWhileUpSideDown 0
+
+
+ObjectTemplate.sinkInToLandAfterDeathSpeed 10

@@ -1,0 +1,86 @@
+ObjectTemplate.create Bundle hospital_m1
+ObjectTemplate.setHasCollisionPhysics 1
+objectTemplate.aiTemplate hospital_m1
+ObjectTemplate.addTemplate lodHospital
+
+LodSelectorTemplate.create DistanceSelector HospitalSelector
+LodSelectorTemplate.addLodDistance 70
+ObjectTemplate.create LodObject lodHospital
+ObjectTemplate.lodselector HospitalSelector
+ObjectTemplate.addTemplate HospitalInterior
+ObjectTemplate.addTemplate HospitalExterior
+
+ObjectTemplate.create bundle HospitalInterior
+ObjectTemplate.geometry hospital_m1
+rem ----------------------------------------
+
+ObjectTemplate.addTemplate hspbed_m1
+ObjectTemplate.setPosition 6.4/0.94/4.3
+ObjectTemplate.setRotation -90/0/0
+
+
+ObjectTemplate.addTemplate hspbed_m1
+ObjectTemplate.setPosition 6.4/0.94/-0.8
+ObjectTemplate.setRotation -90/0/0
+
+
+ObjectTemplate.addTemplate hspbed_m1
+ObjectTemplate.setPosition 6.4/0.94/-6
+ObjectTemplate.setRotation -90/0/0
+
+
+ObjectTemplate.addTemplate mililocker_m1
+ObjectTemplate.setPosition 7.3/0.94/6
+ObjectTemplate.setRotation -90/0/0
+
+
+ObjectTemplate.addTemplate mililocker_m1
+ObjectTemplate.setPosition 7.3/0.94/0.9
+ObjectTemplate.setRotation -90/0/0
+
+
+ObjectTemplate.addTemplate mililocker_m1
+ObjectTemplate.setPosition 7.3/0.94/-4.3
+ObjectTemplate.setRotation -90/0/0
+
+REM -------------------------------------------
+
+ObjectTemplate.addTemplate hspbed_m1
+ObjectTemplate.setPosition -6.7/0.94/4.3
+ObjectTemplate.setRotation 90/0/0
+
+
+ObjectTemplate.addTemplate hspbed_m1
+ObjectTemplate.setPosition -6.7/0.94/-0.8
+ObjectTemplate.setRotation 90/0/0
+
+
+ObjectTemplate.addTemplate hspbed_m1
+ObjectTemplate.setPosition -6.7/0.94/-6
+ObjectTemplate.setRotation 90/0/0
+
+
+ObjectTemplate.addTemplate mililocker_m1
+ObjectTemplate.setPosition -7.6/0.94/6
+ObjectTemplate.setRotation 90/0/0
+
+
+ObjectTemplate.addTemplate mililocker_m1
+ObjectTemplate.setPosition -7.6/0.94/0.9
+ObjectTemplate.setRotation 90/0/0
+
+
+ObjectTemplate.addTemplate mililocker_m1
+ObjectTemplate.setPosition -7.6/0.94/-4.3
+ObjectTemplate.setRotation 90/0/0
+
+rem ----------------------------------------
+
+ObjectTemplate.addTemplate rooflamp1_m1
+ObjectTemplate.setPosition -0.329/4.75/-2.199
+ObjectTemplate.setRotation 90/0/0
+
+
+rem ----------------------------------------
+ObjectTemplate.create SimpleObject HospitalExterior
+ObjectTemplate.geometry hospital_m2

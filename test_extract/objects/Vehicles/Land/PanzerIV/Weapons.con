@@ -1,0 +1,41 @@
+
+
+rem *** PanzerIVGunBarrel ***
+ObjectTemplate.create FireArms PanzerIVGunBarrel
+ObjectTemplate.setNetworkableInfo TankFireArmInfo
+ObjectTemplate.loadSoundScript Sounds/PanzerIVCannon.ssc
+ObjectTemplate.geometry PanzerIV_Gun_Barrel_M1
+ObjectTemplate.aiTemplate PanzerIVMainGun
+rem -------------------------------------
+ObjectTemplate.addTemplate e_MuzzPanz
+ObjectTemplate.setPosition 0/0/0.3
+ObjectTemplate.setRotation -179.999/0/0
+rem -------------------------------------
+ObjectTemplate.projectileTemplate PanzerIVProjectile
+ObjectTemplate.projectilePosition 0/0/1
+ObjectTemplate.magSize 30
+ObjectTemplate.numOfMag 1
+ObjectTemplate.velocity 100
+ObjectTemplate.autoReload 1
+ObjectTemplate.reloadtime 0.35
+ObjectTemplate.roundOfFire 0.35
+ObjectTemplate.fireingForce 70
+ObjectTemplate.recoilSpeed 10
+ObjectTemplate.recoilSize 3
+
+
+rem *** PanzerIVProjectile ***
+ObjectTemplate.create Projectile PanzerIVProjectile
+ObjectTemplate.createNotInGrid 1
+ObjectTemplate.loadSoundScript ../../Common/Sounds/Projectile.ssc
+ObjectTemplate.geometry projectile_m1
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.timeToLive CRD_NONE/10/0/0
+ObjectTemplate.gravityModifier 0.5
+ObjectTemplate.damageType 1
+ObjectTemplate.material 237
+ObjectTemplate.material2 206
+ObjectTemplate.hasCollisionEffect 1
+ObjectTemplate.addTemplate e_PanzShootTrail

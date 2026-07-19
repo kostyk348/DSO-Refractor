@@ -1,0 +1,48 @@
+ObjectTemplate.create HandFireArms KnifeAllies
+ObjectTemplate.itemIndex 1
+ObjectTemplate.networkableInfo HandFireArmsInfo
+ObjectTemplate.projectileTemplate KnifeProjectile
+ObjectTemplate.projectilePosition 0/0/0
+ObjectTemplate.magSize -1
+ObjectTemplate.numOfMag 4
+ObjectTemplate.magType 0
+ObjectTemplate.reloadtime 1
+ObjectTemplate.fireOnce c_True
+ObjectTemplate.roundOfFire 2
+ObjectTemplate.GUIIndex 82
+ObjectTemplate.fireInCameraDof 1
+ObjectTemplate.loadSoundScript Sounds/knife.ssc
+ObjectTemplate.soldierCameraPosition 0/-0.03/0.1
+
+ObjectTemplate.velocity 50
+
+ObjectTemplate.createSkeleton animations/KnifeAllies.ske
+ObjectTemplate.useSkeletonPartAsMain Base
+ObjectTemplate.addTemplate KnifeAlliesLod
+
+rem *** Objects ***
+
+ObjectTemplate.create SimpleObject KnifeAlliesSimple
+ObjectTemplate.geometry Shad_KnifeAllies
+
+ObjectTemplate.create AnimatedBundle KnifeAlliesComplex
+ObjectTemplate.geometry KnifeAllies
+ObjectTemplate.createSkeleton animations/KnifeAllies.ske
+
+ObjectTemplate.create LodObject KnifeAlliesLod
+ObjectTemplate.lodselector HandWeaponLodSelector
+ObjectTemplate.addTemplate KnifeAlliesComplex
+ObjectTemplate.addTemplate KnifeAlliesSimple
+
+
+
+
+
+
+
+
+
+
+
+
+

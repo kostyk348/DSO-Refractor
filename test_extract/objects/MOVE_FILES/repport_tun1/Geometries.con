@@ -1,0 +1,8 @@
+GeometryTemplate.create StandardMesh repport_tun1_M1
+GeometryTemplate.file repport_tun1_M1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 5
+GeometryTemplate.setLodDistance 2 10
+GeometryTemplate.setLodDistance 3 55
+GeometryTemplate.setLodDistance 4 100
+GeometryTemplate.setLodDistance 5 300

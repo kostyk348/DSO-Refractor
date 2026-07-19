@@ -1,0 +1,47 @@
+
+
+rem *** e_HatsuZukiDamage ***
+ObjectTemplate.create EffectBundle e_HatsuZukiDamage
+ObjectTemplate.saveInSeparateFile 1
+rem -------------------------------------
+ObjectTemplate.addTemplate Em_HatsuZukiDamage
+ObjectTemplate.timeToLive CRD_NONE/-1/0/0
+ObjectTemplate.addTemplate Em_HatsuZukiDamage
+ObjectTemplate.setPosition 0/0/20
+ObjectTemplate.timeToLive CRD_NONE/-1/0/0
+ObjectTemplate.addTemplate Em_HatsuZukiDamage
+ObjectTemplate.setPosition 0/0/-29.996
+ObjectTemplate.timeToLive CRD_NONE/-1/0/0
+rem -------------------------------------
+
+
+rem *** Em_HatsuZukiDamage ***
+ObjectTemplate.create Emitter Em_HatsuZukiDamage
+ObjectTemplate.template Fx_HatsuZukiDamage
+ObjectTemplate.looping 1
+ObjectTemplate.addEmitterSpeed 1
+ObjectTemplate.emitterSpeedScale 1
+ObjectTemplate.lodDistance 800
+ObjectTemplate.timeToLive CRD_NONE/0.1/0/0
+ObjectTemplate.intensity CRD_UNIFORM/11/20/0
+ObjectTemplate.relativePositionInDof CRD_UNIFORM/0/8/1
+ObjectTemplate.relativePositionInUp CRD_UNIFORM/4/8/0
+ObjectTemplate.rotationalSpeedInDof CRD_NONE/10/0/0
+ObjectTemplate.rotationalSpeedInUp CRD_NONE/25/0/0
+ObjectTemplate.startRotation CRD_NONE/1/0/0
+ObjectTemplate.hasOverDamage 1
+
+
+rem *** Fx_HatsuZukiDamage ***
+ObjectTemplate.create SpriteParticle Fx_HatsuZukiDamage
+ObjectTemplate.timeToLive CRD_UNIFORM/3/3/0
+ObjectTemplate.size CRD_UNIFORM/4/5/0
+ObjectTemplate.gravityModifier CRD_NONE/-0.5/0/0
+ObjectTemplate.drag CRD_NONE/1/0/0
+ObjectTemplate.sizeOverTime 0/0.200018|32/0.439985|66/1.25999|100/2
+ObjectTemplate.texture e_muzs2_I
+ObjectTemplate.initRotation CRD_UNIFORM/0/180/1
+ObjectTemplate.destBlendMode BMInvSourceAlpha
+ObjectTemplate.rotationSpeed CRD_UNIFORM/1/50/1
+ObjectTemplate.colorRGBAOverTime 0/128/128/128/0|29/194/194/194/73|55/255/255/255/139|62/0/0/0/117|80/0/0/0/61|100/0/0/0/0
+ObjectTemplate.hasStaticColor 1

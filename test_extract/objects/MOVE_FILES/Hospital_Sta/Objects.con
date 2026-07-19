@@ -1,0 +1,4 @@
+ObjectTemplate.create SimpleObject hospital_sta1_m1
+ObjectTemplate.geometry hospital_sta1_m1
+ObjectTemplate.setHasCollisionPhysics 1
+objectTemplate.aiTemplate hospital_sta1_m1

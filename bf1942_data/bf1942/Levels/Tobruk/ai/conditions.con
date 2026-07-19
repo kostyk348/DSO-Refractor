@@ -1,0 +1,44 @@
+rem *** Create Conditions ***
+
+rem *** German ***
+
+aiStrategy.createConstantCondition flankCond Crisp EqualGreater Enemy FrontFlank 2
+aiStrategy.setConditionStrength Required
+
+aiStrategy.createConstantCondition frontWidthCond Fuzzy EqualGreater Enemy Front 0
+aiStrategy.setConditionStrength Advisory
+
+aiStrategy.createConstantCondition baseOpenCond Fuzzy EqualGreater Enemy FrontBase 1
+aiStrategy.setConditionStrength Advisory
+
+aiStrategy.createConstantCondition baseCloseCond Crisp EqualGreater Enemy FrontClose 1
+aiStrategy.setConditionStrength Advisory
+
+aiStrategy.createConstantCondition centreCond Crisp EqualGreater Enemy FrontCentre 1
+aiStrategy.setConditionStrength Required
+
+aiStrategy.createConstantCondition finishOffCond Crisp Equal Enemy ControlPoint 1
+aiStrategy.setConditionStrength Required
+
+rem *** Brittish ***
+
+aiStrategy.createConstantCondition front3Cond Fuzzy EqualGreater Friendly Front 2
+aiStrategy.setConditionStrength Required
+
+aiStrategy.createConstantCondition noMoreThan3CPs Fuzzy EqualSmaller Enemy ControlPoint 3
+aiStrategy.setConditionStrength Required
+
+aiStrategy.createConstantCondition front2Cond Fuzzy EqualSmaller Friendly Front 4
+aiStrategy.setConditionStrength Advisory
+
+aiStrategy.createConstantCondition atSecondLineCPs Fuzzy EqualSmaller Friendly ControlPoint 3
+aiStrategy.setConditionStrength Required
+
+aiStrategy.createConstantCondition retakeCond Fuzzy EqualGreater Enemy ControlPoint 1
+aiStrategy.setConditionStrength Required
+
+aiStrategy.createConstantCondition oneCPLeftCond Crisp Equal Friendly ControlPoint 1
+aiStrategy.setConditionStrength AdvisoryPositive
+
+aiStrategy.createConstantCondition noCPLeftCond Crisp Equal Friendly ControlPoint 0
+aiStrategy.setConditionStrength AdvisoryPositive

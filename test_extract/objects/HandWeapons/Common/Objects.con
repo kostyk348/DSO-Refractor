@@ -1,0 +1,6 @@
+ObjectTemplate.create SimpleObject Gunmag
+ObjectTemplate.geometry Gunmag
+
+LodSelectorTemplate.create DistCompareSelector2 HandWeaponLodSelector
+LodSelectorTemplate.addLodComparison 0.0
+LodSelectorTemplate.addLodDistance 5.0

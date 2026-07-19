@@ -1,0 +1,11 @@
+GeometryTemplate.create StandardMesh Germ_DesertHelmet
+GeometryTemplate.file Germ_DesertHelmet_m1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 30
+GeometryTemplate.setLodDistance 2 100
+
+GeometryTemplate.create StandardMesh German_hippack
+GeometryTemplate.file German_hippack_m1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 30
+GeometryTemplate.setLodDistance 2 100

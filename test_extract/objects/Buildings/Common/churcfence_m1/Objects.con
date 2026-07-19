@@ -1,0 +1,9 @@
+ObjectTemplate.create Bundle churcfence_m1
+ObjectTemplate.geometry churcfence_m1
+ObjectTemplate.setHasCollisionPhysics 1
+ObjectTemplate.addTemplate churcfencefence_m1
+
+ObjectTemplate.create SimpleObject churcfencefence_m1
+ObjectTemplate.geometry churcfencefence_m1
+ObjectTemplate.setHasCollisionPhysics 1
+ObjectTemplate.addToCollisionGroup c_CGProjectiles

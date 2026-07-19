@@ -1,0 +1,3 @@
+ObjectTemplate.create SimpleObject SightScene1_M1
+ObjectTemplate.geometry SightScene1_M1
+ObjectTemplate.setHasCollisionPhysics 1

@@ -1,0 +1,3 @@
+ObjectTemplate.create SimpleObject RailRoad_Switch_m1
+ObjectTemplate.geometry RailRoad_Switch_m1
+ObjectTemplate.setHasCollisionPhysics 1

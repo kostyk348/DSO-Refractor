@@ -1,0 +1,32 @@
+#beginMap HeartBeat
+	Pitch
+	Volume
+#endMap
+
+newPatch
+
+load @ROOT/Sound/@RTD/heartbeatloop.wav
+loop
+stereo
+
+*** Pitch ***
+beginEffect
+	controlDestination Pitch
+	controlSource Extern #map<HeartBeat::Pitch>
+	envelope Ramp
+	param 0
+	param 1
+	param 0
+	param 1
+endEffect
+
+*** Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Extern #map<HeartBeat::Volume>
+	envelope Ramp
+	param 0
+	param 1
+	param 0
+	param 1
+endEffect

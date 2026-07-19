@@ -1,0 +1,25 @@
+ObjectTemplate.create KitPart German_Medic_hippack
+ObjectTemplate.geometry German_Medic_hippack
+ObjectTemplate.setBoneName hippack
+ObjectTemplate.setCopyLinksCount 0
+
+ObjectTemplate.create KitPart Medichelm_Desert_ger
+ObjectTemplate.geometry Medichelm_Desert_ger
+ObjectTemplate.setBoneName A
+ObjectTemplate.setCopyLinksCount 0
+
+ObjectTemplate.create Kit  German_Medic_Desert
+ObjectTemplate.geometry  Kit_Axis_Medic
+ObjectTemplate.setHasCollisionPhysics 1
+ObjectTemplate.networkableInfo KitInfo
+ObjectTemplate.addTemplate Medichelm_Desert_ger
+ObjectTemplate.addTemplate german_Medic_hippack
+
+ObjectTemplate.addTemplate MP40
+ObjectTemplate.addTemplate walterP38
+ObjectTemplate.addTemplate KnifeAxis
+
+
+ObjectTemplate.addTemplate MedPack
+ObjectTemplate.addTemplate GrenadeAxis
+ObjectTemplate.aiTemplate  Medic

@@ -1,0 +1,43 @@
+
+
+rem *** DefgunGunBarrel ***
+ObjectTemplate.create FireArms DefgunGunBarrel
+ObjectTemplate.setNetworkableInfo TankFireArmInfo
+ObjectTemplate.geometry Defgun_barrel_end_m1
+ObjectTemplate.loadSoundScript Sounds/defgunfire.ssc
+ObjectTemplate.aiTemplate DefGunGunAI
+rem -------------------------------------
+ObjectTemplate.addTemplate e_MuzzDefGun
+ObjectTemplate.setPosition 0/0/9.2
+rem ObjectTemplate.setPosition 0/0/0.5
+ObjectTemplate.setRotation -179.999/0/0
+rem -------------------------------------
+ObjectTemplate.projectileTemplate Defgun_Projectile
+ObjectTemplate.projectilePosition 0/0/9.7
+rem ObjectTemplate.projectilePosition 0/0/1
+ObjectTemplate.magSize 499
+ObjectTemplate.numOfMag 999
+ObjectTemplate.velocity 125
+ObjectTemplate.reloadtime 5
+ObjectTemplate.roundOfFire 0.2
+ObjectTemplate.recoilSpeed 10.0
+ObjectTemplate.recoilSize 50
+
+
+rem *** Defgun_Projectile ***
+ObjectTemplate.create Projectile Defgun_Projectile
+ObjectTemplate.createNotInGrid 1
+ObjectTemplate.loadSoundScript ../../Common/Sounds/Projectile.ssc
+ObjectTemplate.geometry Projectile_m1
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.timeToLive CRD_NONE/2/0/0
+ObjectTemplate.endEffectTemplate e_ExplDirt
+ObjectTemplate.damageType 1
+ObjectTemplate.material 252
+ObjectTemplate.material2 208
+ObjectTemplate.radius 15
+ObjectTemplate.stopAtEndEffect 1
+ObjectTemplate.hasOnTimeEffect 1
+ObjectTemplate.addTemplate e_PanzShootTrail

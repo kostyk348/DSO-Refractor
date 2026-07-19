@@ -1,0 +1,9 @@
+
+rem *** e_collision_granade_Metal ***
+ObjectTemplate.create EffectBundle e_collision_granade_Metal
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.loadSoundScript Sounds/Metal.ssc
+rem -------------------------------------
+ObjectTemplate.addTemplate Em_silent
+ObjectTemplate.timeToLive CRD_NONE/1.8/0/0
+rem -------------------------------------

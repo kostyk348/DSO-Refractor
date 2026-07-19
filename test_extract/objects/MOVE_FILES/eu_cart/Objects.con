@@ -1,0 +1,4 @@
+ObjectTemplate.create SimpleObject eu_cart_M1
+ObjectTemplate.geometry eu_cart_M1
+ObjectTemplate.setHasCollisionPhysics 1
+

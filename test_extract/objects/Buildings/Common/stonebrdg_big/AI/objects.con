@@ -1,0 +1,15 @@
+rem *** Plugins ***
+aiTemplatePlugIn.create Cover stonebridge_bigCover
+aiTemplatePlugIn.coverValue 2.0
+
+aiTemplatePlugIn.create Physical stonebridge_bigPhysical
+
+rem *** AITemplate ***
+aiTemplate.create stonebridge_bigAI
+aiTemplate.addType ITCover
+aiTemplate.degeneration 1
+aiTemplate.allowedTimeDiff -1
+aiTemplate.basicTemp 1
+aiTemplate.commonKnowledge 1
+aiTemplate.addPlugIn stonebridge_bigCover
+aiTemplate.addPlugIn stonebridge_bigPhysical

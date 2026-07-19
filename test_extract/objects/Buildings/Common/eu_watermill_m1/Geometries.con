@@ -1,0 +1,30 @@
+GeometryTemplate.create StandardMesh eu_watermill_m1
+GeometryTemplate.file eu_watermill_m1
+GeometryTemplate.textureFadeMaxDist 70
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 15
+GeometryTemplate.setLodDistance 2 20
+GeometryTemplate.setLodDistance 3 30
+GeometryTemplate.setLodDistance 4 40
+GeometryTemplate.setLodDistance 5 60
+
+GeometryTemplate.create StandardMesh eu_watermill_m2
+GeometryTemplate.file eu_watermill_m2
+GeometryTemplate.textureFadeMaxDist 70
+GeometryTemplate.setLodDistance 0 70
+GeometryTemplate.setLodDistance 1 100
+GeometryTemplate.setLodDistance 2 150
+GeometryTemplate.setLodDistance 3 200
+GeometryTemplate.setLodDistance 4 350
+GeometryTemplate.setLodDistance 5 800
+
+GeometryTemplate.create StandardMesh eu_watermill_wheel_m1
+GeometryTemplate.file eu_watermill_wheel_m1
+GeometryTemplate.textureFadeMaxDist 70
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 15
+GeometryTemplate.setLodDistance 2 35
+GeometryTemplate.setLodDistance 3 70
+GeometryTemplate.setLodDistance 4 100
+GeometryTemplate.setLodDistance 5 300
+

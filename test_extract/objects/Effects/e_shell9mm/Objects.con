@@ -1,0 +1,7 @@
+ObjectTemplate.create SimpleObject shell9mmHi_m1
+ObjectTemplate.geometry shell9mmHi_m1
+ObjectTemplate.setHasCollisionPhysics 0
+
+ObjectTemplate.create SimpleObject shell9mmLw_m1
+ObjectTemplate.geometry shell9mmLw_m1
+ObjectTemplate.setHasCollisionPhysics 0

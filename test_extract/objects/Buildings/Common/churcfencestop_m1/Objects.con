@@ -1,0 +1,3 @@
+ObjectTemplate.create SimpleObject churcfencestop_m1
+ObjectTemplate.geometry churcfencestop_m1
+ObjectTemplate.setHasCollisionPhysics 1

@@ -1,0 +1,19 @@
+newPatch
+load @ROOT/Sound/@RTD/divesiren.wav
+loop
+minDistance 10
+randomStartPitch 0.3 / 0.0
+dopplerOff
+
+*** Distance Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 30
+	param 120
+	param 1
+	param -1	
+endEffect
+
+

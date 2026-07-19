@@ -1,0 +1,59 @@
+rem *** Create Prerequisites ***
+
+rem run conditions
+
+aiStrategy.createPrerequisite test1
+aiStrategy.addCondition constTest 2.3
+
+
+aiStrategy.createPrerequisite overwhelmingPowerPrereq
+aiStrategy.addCondition overwhelmingPowerCond 1.0
+
+
+aiStrategy.createPrerequisite loosingPrereq
+aiStrategy.addCondition loosingCond   3.0
+aiStrategy.addCondition halfConstCond 2.0
+
+
+aiStrategy.createPrerequisite constPrereq
+aiStrategy.addCondition halfConstCond 1.0
+
+
+aiStrategy.createPrerequisite airToNavalPrereq
+aiStrategy.addCondition navalCond     1.5
+aiStrategy.addCondition airPlaneCond  2.0
+
+
+
+rem *** Wake American ***
+
+aiStrategy.createPrerequisite front2+Prereq
+aiStrategy.addCondition front2+Cond     5.0
+
+aiStrategy.createPrerequisite singleFrontPrereq
+aiStrategy.addCondition singleFrontCond     5.0
+
+aiStrategy.createPrerequisite noFrontPrereq
+aiStrategy.addCondition noFrontCond     5.0
+
+
+rem *** Wake Japanesee ***
+
+aiStrategy.createPrerequisite constTimeDecreasingPrereq
+aiStrategy.addCondition halfConstCond  5.0
+aiStrategy.addCondition timeDegenerateCond  0.03
+
+
+beginrem
+
+aiStrategy.createPrerequisite directPrereq
+aiStrategy.addCondition halfConstCond  5.0
+
+aiStrategy.createPrerequisite singleFlankPrereq
+aiStrategy.addCondition singleFlankCond     5.0
+
+aiStrategy.createPrerequisite doubleFlankPrereq
+aiStrategy.addCondition doubleFlankCond     5.0
+
+endrem
+

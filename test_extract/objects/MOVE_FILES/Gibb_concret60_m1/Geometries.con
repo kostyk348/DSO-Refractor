@@ -1,0 +1,8 @@
+GeometryTemplate.create StandardMesh Gibb_concret60_m1
+GeometryTemplate.file Gibb_concret60_m1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 15
+GeometryTemplate.setLodDistance 2 35
+GeometryTemplate.setLodDistance 3 60
+GeometryTemplate.setLodDistance 4 100
+GeometryTemplate.setLodDistance 5 300

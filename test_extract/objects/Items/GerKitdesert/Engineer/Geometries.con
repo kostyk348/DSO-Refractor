@@ -1,0 +1,10 @@
+GeometryTemplate.create StandardMesh BacpacBig_Desert_ger
+GeometryTemplate.file BacpacBig_Desert_ger_m1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 3
+GeometryTemplate.setLodDistance 2 10
+GeometryTemplate.setLodDistance 3 20
+GeometryTemplate.setLodDistance 4 30
+GeometryTemplate.setLodDistance 5 100
+
+

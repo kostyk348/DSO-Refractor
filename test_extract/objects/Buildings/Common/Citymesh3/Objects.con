@@ -1,0 +1,3 @@
+ObjectTemplate.create SimpleObject citymesh3_m1
+ObjectTemplate.geometry citymesh3_m1
+ObjectTemplate.setHasCollisionPhysics 1

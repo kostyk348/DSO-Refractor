@@ -1,0 +1,8 @@
+GeometryTemplate.create StandardMesh euchair03
+GeometryTemplate.file euchair03
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 10
+GeometryTemplate.setLodDistance 2 20
+GeometryTemplate.setLodDistance 3 30
+GeometryTemplate.setLodDistance 4 60
+GeometryTemplate.setLodDistance 5 100

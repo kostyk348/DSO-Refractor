@@ -1,0 +1,113 @@
+
+
+rem *** Defgun ***
+ObjectTemplate.create PlayerControlObject Defgun
+ObjectTemplate.setNetworkableInfo DefgunBodyInfo
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.geometry stecrate1_M1
+ObjectTemplate.hasArmor 1
+ObjectTemplate.hitpoints 50
+ObjectTemplate.maxhitpoints 50
+ObjectTemplate.material 50
+ObjectTemplate.criticalDamage 12
+ObjectTemplate.hpLostWhileCriticalDamage 1
+ObjectTemplate.addArmorEffect 30 e_DefGunDamage 0/5/0
+ObjectTemplate.addArmorEffect 0 e_scrapmetal 0/20/0
+ObjectTemplate.addArmorEffect 0 e_ExplGas 0/12/0
+ObjectTemplate.aiTemplate DefGun
+ObjectTemplate.timetoliveafterdeath 0
+rem -------------------------------------
+ObjectTemplate.addTemplate DefgunEntry
+ObjectTemplate.setPosition 0/1.8/-2.699
+ObjectTemplate.addTemplate DefgunTurret
+ObjectTemplate.setPosition 0/5.133/-0.399
+rem -------------------------------------
+ObjectTemplate.setSoldierExitLocation 0/2.2/-6.4 -180/0/0
+ObjectTemplate.GUIIndex 67
+ObjectTemplate.setVehicleCategory VCLand
+ObjectTemplate.setVehicleType VTDefGun
+ObjectTemplate.artPos 1
+ObjectTemplate.DirBarXScale 90
+ObjectTemplate.DirBarYScaleAbove 30
+ObjectTemplate.DirBarYScaleBelow 10
+
+
+rem *** DefgunEntry ***
+ObjectTemplate.create EntryPoint DefgunEntry
+ObjectTemplate.setEntryRadius 3.5
+
+
+rem *** DefgunTurret ***
+ObjectTemplate.create RotationalBundle DefgunTurret
+ObjectTemplate.setNetworkableInfo DefgunBodyInfo
+ObjectTemplate.setAttachToListener 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.loadSoundScript Sounds/defgunturret.ssc
+ObjectTemplate.geometry Defgun_turret_m1
+ObjectTemplate.hasCollisionPhysics 1
+rem -------------------------------------
+ObjectTemplate.addTemplate DefgunGunBase
+ObjectTemplate.setPosition 0/1.7/1.1
+rem -------------------------------------
+ObjectTemplate.setMinRotation -90/0/0
+ObjectTemplate.setMaxRotation 90/0/0
+ObjectTemplate.setMaxSpeed 90/0/0
+ObjectTemplate.setAcceleration 50/0/0
+ObjectTemplate.setInputToYaw c_PIMouseLookX
+
+
+rem *** DefgunGunBase ***
+ObjectTemplate.create RotationalBundle DefgunGunBase
+ObjectTemplate.setNetworkableInfo DefgunBodyInfo
+ObjectTemplate.setAttachToListener 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.loadSoundScript Sounds/defguntower.ssc
+ObjectTemplate.geometry Defgun_barrel_base_m1
+ObjectTemplate.hasCollisionPhysics 1
+rem -------------------------------------
+ObjectTemplate.addTemplate DefgunBarrelMid
+rem ObjectTemplate.addTemplate DefgunBarrelEnd
+ObjectTemplate.addTemplate DefgunGunBarrel
+ObjectTemplate.setPosition 0/0/0
+ObjectTemplate.addTemplate DefgunCamera
+ObjectTemplate.setPosition -0.999/0.6/0.2
+ObjectTemplate.addTemplate DefgunCockpit
+ObjectTemplate.setPosition -0.461/0.58/0.298
+rem -------------------------------------
+ObjectTemplate.setMinRotation 0/-30/0
+ObjectTemplate.setMaxRotation 0/10/0
+ObjectTemplate.setMaxSpeed 0/50/0
+ObjectTemplate.setAcceleration 0/75/0
+ObjectTemplate.setInputToPitch c_PIMouseLookY
+
+
+rem *** DefgunBarrelMid ***
+ObjectTemplate.create RotationalBundle DefgunBarrelMid
+ObjectTemplate.geometry Defgun_barrel_mid_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.setMaxSpeed 0/0/0
+ObjectTemplate.setAcceleration 0/0/0
+
+
+rem *** DefgunBarrelEnd ***
+ObjectTemplate.create RotationalBundle DefgunBarrelEnd
+ObjectTemplate.geometry Defgun_barrel_end_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.setMaxSpeed 0/0/0
+ObjectTemplate.setAcceleration 0/0/0
+
+
+rem *** DefgunCamera ***
+ObjectTemplate.create Camera DefgunCamera
+ObjectTemplate.setMaxSpeed 0/0/0
+ObjectTemplate.setAcceleration 0/0/0
+ObjectTemplate.setInputToYaw c_PIMouseLookX
+ObjectTemplate.setInputToPitch c_PIMouseLookY
+ObjectTemplate.CVMExternTrace 1
+
+
+rem *** DefgunCockpit ***
+ObjectTemplate.create SimpleObject DefgunCockpit
+ObjectTemplate.geometry 1p_shipgun_m1

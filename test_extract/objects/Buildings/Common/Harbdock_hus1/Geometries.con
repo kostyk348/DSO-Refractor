@@ -1,0 +1,9 @@
+
+GeometryTemplate.create StandardMesh harbdock_hus1_m1
+GeometryTemplate.file harbdock_hus1_m1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 15
+GeometryTemplate.setLodDistance 2 35
+GeometryTemplate.setLodDistance 3 60
+GeometryTemplate.setLodDistance 4 100
+GeometryTemplate.setLodDistance 5 300

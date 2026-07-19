@@ -1,0 +1,26 @@
+GeometryTemplate.create StandardMesh bunker2_M1
+GeometryTemplate.file bunker2_M1
+GeometryTemplate.textureFadeMaxDist 70
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 15
+GeometryTemplate.setLodDistance 2 30
+GeometryTemplate.setLodDistance 3 40
+
+GeometryTemplate.create StandardMesh bunker2_m2
+GeometryTemplate.file bunker2_m2
+GeometryTemplate.textureFadeMaxDist 70
+GeometryTemplate.setLodDistance 0 70
+GeometryTemplate.setLodDistance 1 100
+GeometryTemplate.setLodDistance 2 150
+GeometryTemplate.setLodDistance 3 200
+GeometryTemplate.setLodDistance 4 450
+GeometryTemplate.setLodDistance 5 600
+
+GeometryTemplate.create StandardMesh bunker2_ladder_m1
+GeometryTemplate.file Shokaku_lad_03_m1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 25
+GeometryTemplate.setLodDistance 2 50
+GeometryTemplate.setLodDistance 3 75
+GeometryTemplate.setLodDistance 4 100
+GeometryTemplate.setLodDistance 5 200

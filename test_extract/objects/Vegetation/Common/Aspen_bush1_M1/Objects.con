@@ -1,0 +1,4 @@
+ObjectTemplate.create SimpleObject Aspen_bush1_M1
+ObjectTemplate.geometry Aspen_bush1_M1
+ObjectTemplate.setHasCollisionPhysics 0
+objectTemplate.cullRadiusScale 5.0

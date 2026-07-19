@@ -1,0 +1,33 @@
+Console.setAccess c_fullAccess
+
+run Init/Menu
+run globalSpawnGroups
+
+rem 
+rem
+rem 
+NetworkableInfo.createNewInfo FreeCameraInfo
+NetworkableInfo.setIsControlledBy 0
+NetworkableInfo.setHasOrientation 1
+NetworkableInfo.setPredictionMode PMNone
+NetworkableInfo.setBasePriority 0
+
+rem
+rem *** Default MultiPlayerCamera  ***
+rem
+ObjectTemplate.create FreeCamera MultiPlayerFreeCamera
+rem ObjectTemplate.mesh Mustang_fus1_m1
+ObjectTemplate.networkableInfo FreeCameraInfo
+ObjectTemplate.name MultiPlayerFreeCamera
+
+rem
+rem *** Default Camera ***
+rem
+ObjectTemplate.create FreeCamera defaultCamera
+
+rem *** Create textures for raytracer. should not be active in release mode.
+rem ** ask MatsD about this.
+rem rayTracer.init
+
+console.showFps 0
+

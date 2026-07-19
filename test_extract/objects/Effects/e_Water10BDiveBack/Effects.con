@@ -1,0 +1,37 @@
+
+
+rem *** e_Water10BDiveBack ***
+ObjectTemplate.create EffectBundle e_Water10BDiveBack
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.timeToLive CRD_NONE/-1/0/0
+rem -------------------------------------
+ObjectTemplate.addTemplate Em_Water10BStreakBack
+ObjectTemplate.setRotation 90/0/0
+rem -------------------------------------
+ObjectTemplate.minDistanceUnderwaterSurface 0
+ObjectTemplate.maxDistanceUnderwaterSurface 3
+
+rem *** Em_Water10BStreakBack ***
+ObjectTemplate.create Emitter Em_Water10BStreakBack
+ObjectTemplate.template Fx_Water10BStreakBack
+ObjectTemplate.looping 1
+ObjectTemplate.startAtCreation 1
+ObjectTemplate.addEmitterSpeed 1
+ObjectTemplate.emitterSpeedScale 1
+ObjectTemplate.timeToLive CRD_NONE/0.1/0/0
+ObjectTemplate.intensity CRD_NONE/15/0/0
+ObjectTemplate.IntensityAtSpeed 10
+ObjectTemplate.relativePositionInUp CRD_NONE/-1/0/0
+ObjectTemplate.startRotation CRD_NONE/90/0/0
+ObjectTemplate.moveToWaterSurface 1
+
+rem *** Fx_Water10BStreakBack ***
+ObjectTemplate.create Particle Fx_Water10BStreakBack
+ObjectTemplate.geometry watermesh_streak1_m1
+ObjectTemplate.timeToLive CRD_UNIFORM/3/1/0
+ObjectTemplate.size CRD_UNIFORM/3/4/0
+ObjectTemplate.gravityModifier CRD_NONE/0/0/0
+ObjectTemplate.sizeModifier 7/1/4
+ObjectTemplate.sizeOverTime 0/0.100024|100/1
+ObjectTemplate.gravityModifierOverTime 0/0.5|86/0.530015|100/1
+ObjectTemplate.alphaOverTime 0/0.200034|37/0.290017|100/0

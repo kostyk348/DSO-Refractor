@@ -1,0 +1,9 @@
+GeometryTemplate.create StandardMesh rh_tsp_M1
+GeometryTemplate.file rh_tsp_M1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 2
+GeometryTemplate.setLodDistance 2 4
+GeometryTemplate.setLodDistance 3 6
+GeometryTemplate.setLodDistance 4 8
+GeometryTemplate.setLodDistance 5 50
+

@@ -1,0 +1,9 @@
+ObjectTemplate.create KitPart Germ_DesertHelmet
+ObjectTemplate.geometry Germ_DesertHelmet
+ObjectTemplate.setBoneName A
+ObjectTemplate.setCopyLinksCount 0
+
+ObjectTemplate.create KitPart German_hippack
+ObjectTemplate.geometry German_hippack
+ObjectTemplate.setBoneName HipPack
+ObjectTemplate.setCopyLinksCount 0

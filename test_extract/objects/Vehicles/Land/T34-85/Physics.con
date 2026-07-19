@@ -1,0 +1,104 @@
+
+
+rem *** T34-85Engine ***
+ObjectTemplate.create Engine T34-85Engine
+ObjectTemplate.setNetworkableInfo T34-85EngineInfo
+ObjectTemplate.setAttachToListener 1
+ObjectTemplate.loadSoundScript Sounds/T34-85Engine.ssc
+ObjectTemplate.hasMobilePhysics 1
+rem -------------------------------------
+ObjectTemplate.addTemplate T34-85TrackL
+ObjectTemplate.setPosition -1.291/-0.243/-0.013
+ObjectTemplate.addTemplate T34-85TrackR
+ObjectTemplate.setPosition 1.292/-0.243/-0.013
+rem -------------------------------------
+ObjectTemplate.setMinRotation -1/0/-2500
+ObjectTemplate.setMaxRotation 1/0/5000
+ObjectTemplate.setMaxSpeed 10/0/5000
+ObjectTemplate.setAcceleration 10/0/5000
+ObjectTemplate.setInputToYaw c_PIYaw
+ObjectTemplate.setInputToRoll c_PIThrottle
+ObjectTemplate.setAutomaticReset 1
+ObjectTemplate.setEngineType c_ETTank
+ObjectTemplate.setTorque 2.5
+ObjectTemplate.setDifferential 4
+ObjectTemplate.setNumberOfGears 5
+ObjectTemplate.setGearUp 0.95
+ObjectTemplate.setGearDown 0.45
+ObjectTemplate.setGearChangeTime 0.5
+
+
+rem *** T34-85WheelL3Dummy ***
+ObjectTemplate.create Spring T34-85WheelL3Dummy
+ObjectTemplate.geometry T34-85_whe3R_M1
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.Grip c_PGFEngineDummyGrip
+ObjectTemplate.setStrength 0
+ObjectTemplate.setDamping 0
+
+
+rem *** T34-85WheelL3 ***
+ObjectTemplate.create Spring T34-85WheelL3
+ObjectTemplate.setNetworkableInfo SpringInfo
+ObjectTemplate.geometry T34-85_whe3R_M1
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.Grip c_PGFEngineGrip
+ObjectTemplate.setStrength 14
+ObjectTemplate.setDamping 3
+
+
+rem *** T34-85WheelL3DummySmoke ***
+ObjectTemplate.create Spring T34-85WheelL3DummySmoke
+ObjectTemplate.geometry T34-85_whe3R_M1
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.Grip c_PGFEngineDummyGrip
+rem -------------------------------------
+ObjectTemplate.addTemplate e_wdustPanzL
+ObjectTemplate.addTemplate e_wdustPanz
+rem -------------------------------------
+ObjectTemplate.setStrength 0
+ObjectTemplate.setDamping 0
+
+
+rem *** T34-85WheelR3Dummy ***
+ObjectTemplate.create Spring T34-85WheelR3Dummy
+ObjectTemplate.geometry T34-85_whe3L_M1
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.Grip c_PGFEngineDummyGrip
+ObjectTemplate.setStrength 0
+ObjectTemplate.setDamping 0
+
+
+rem *** T34-85WheelR3 ***
+ObjectTemplate.create Spring T34-85WheelR3
+ObjectTemplate.setNetworkableInfo SpringInfo
+ObjectTemplate.geometry T34-85_whe3L_M1
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.Grip c_PGFEngineGrip
+ObjectTemplate.setStrength 14
+ObjectTemplate.setDamping 3
+
+
+rem *** T34-85WheelR3DummySmoke ***
+ObjectTemplate.create Spring T34-85WheelR3DummySmoke
+ObjectTemplate.geometry T34-85_whe3L_M1
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.Grip c_PGFEngineDummyGrip
+rem -------------------------------------
+ObjectTemplate.addTemplate e_wdustPanzL
+ObjectTemplate.addTemplate e_wdustPanz
+rem -------------------------------------
+ObjectTemplate.setStrength 0
+ObjectTemplate.setDamping 0

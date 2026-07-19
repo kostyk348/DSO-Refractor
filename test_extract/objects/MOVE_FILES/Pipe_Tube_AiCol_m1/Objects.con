@@ -1,0 +1,3 @@
+ObjectTemplate.create SimpleObject Pipe_Tube_AiCol_m1
+ObjectTemplate.geometry Pipe_Tube_AiCol_m1
+ObjectTemplate.setHasCollisionPhysics 1

@@ -1,0 +1,79 @@
+ObjectTemplate.create BFSoldier BritishSoldier
+ObjectTemplate.createSkeleton animations/UsSoldier.ske
+include ../Common/CommonSoldierData.inc
+include ../Common/Sounds/SoldierSound.inc
+
+ObjectTemplate.addTemplate BritSoldierComplexHead
+ObjectTemplate.setRandomGeometries 3
+ObjectTemplate.setIsFirstPersonPart 0
+ObjectTemplate.setLodValue 0.01
+ObjectTemplate.bindToSkeletonPart Bip01_Spine3 3
+
+ObjectTemplate.addTemplate BritSoldierHead
+ObjectTemplate.setIsFirstPersonPart 0
+ObjectTemplate.setLodValue -0.01
+
+ObjectTemplate.addTemplate BritSoldier3PBody
+ObjectTemplate.setIsFirstPersonPart 0
+
+ObjectTemplate.addTemplate BritSoldier1PBody
+ObjectTemplate.setIsFirstPersonPart 1
+
+ObjectTemplate.addTemplate BritSoldierRightHand
+ObjectTemplate.setIsFirstPersonPart 0
+ObjectTemplate.setLodValue 0.03
+
+ObjectTemplate.addTemplate BritSoldierLeftHand
+ObjectTemplate.setIsFirstPersonPart 0
+ObjectTemplate.setLodValue 0.03
+
+ObjectTemplate.addTemplate 1PBritSoldierRightHand
+ObjectTemplate.setIsFirstPersonPart 1
+ObjectTemplate.setLodValue 0.03
+
+ObjectTemplate.addTemplate 1PBritSoldierLeftHand
+ObjectTemplate.setIsFirstPersonPart 1
+ObjectTemplate.setLodValue 0.03
+
+
+ObjectTemplate.create SimpleObject BritSoldier1PBody
+ObjectTemplate.geometry Soldier/1PBritBody
+
+ObjectTemplate.create SimpleObject BritSoldier3PBody
+ObjectTemplate.geometry Soldier/3PBritBody
+ObjectTemplate.hasDynamicShadow 1
+
+ObjectTemplate.create AnimatedBundle BritSoldierComplexHead1
+rem *** SHOULD BE UsFace.Ske on every nationality.
+ObjectTemplate.createSkeleton animations/UsFace.ske
+ObjectTemplate.geometry Soldier/BritComplexHead1
+ObjectTemplate.hasDynamicShadow 1
+
+ObjectTemplate.create AnimatedBundle BritSoldierComplexHead2
+rem *** SHOULD BE UsFace.Ske on every nationality.
+ObjectTemplate.createSkeleton animations/UsFace.ske
+ObjectTemplate.geometry Soldier/BritComplexHead2
+ObjectTemplate.hasDynamicShadow 1
+
+ObjectTemplate.create AnimatedBundle BritSoldierComplexHead3
+rem *** SHOULD BE UsFace.Ske on every nationality.
+ObjectTemplate.createSkeleton animations/UsFace.ske
+ObjectTemplate.geometry Soldier/BritComplexHead3
+ObjectTemplate.hasDynamicShadow 1
+
+ObjectTemplate.create SimpleObject BritSoldierHead
+ObjectTemplate.geometry Soldier/BritHead
+ObjectTemplate.hasDynamicShadow 1
+
+ObjectTemplate.create SimpleObject BritSoldierLeftHand
+ObjectTemplate.geometry Soldier/BritLeftHand
+
+ObjectTemplate.create SimpleObject BritSoldierRightHand
+ObjectTemplate.geometry Soldier/BritRightHand
+
+ObjectTemplate.create SimpleObject 1PBritSoldierLeftHand
+ObjectTemplate.geometry Soldier/1PBritLeftHand
+
+ObjectTemplate.create SimpleObject 1PBritSoldierRightHand
+ObjectTemplate.geometry Soldier/1PBritRightHand
+	

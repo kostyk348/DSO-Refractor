@@ -1,0 +1,35 @@
+ObjectTemplate.create KitPart Jap_Helmet
+ObjectTemplate.geometry Jap_Helmet
+ObjectTemplate.setBoneName A
+ObjectTemplate.setCopyLinksCount 0
+
+ObjectTemplate.create KitPart Jap_Hip_Pack
+ObjectTemplate.geometry Jap_Hip_Pack
+ObjectTemplate.setBoneName HipPack
+ObjectTemplate.setCopyLinksCount 0
+
+ObjectTemplate.create KitPart BacpacBig_jap
+ObjectTemplate.geometry BacpacBig_jap
+ObjectTemplate.setBoneName backpack
+ObjectTemplate.setCopyLinksCount 0
+
+ObjectTemplate.create KitPart Jap_Medic_hippack
+ObjectTemplate.geometry Jap_Medic_hippack
+ObjectTemplate.setBoneName HipPack
+ObjectTemplate.setCopyLinksCount 0
+
+ObjectTemplate.create KitPart Medichelm_jap
+ObjectTemplate.geometry Medichelm_jap
+ObjectTemplate.setBoneName A
+ObjectTemplate.setCopyLinksCount 0
+
+ObjectTemplate.create KitPart Radio
+ObjectTemplate.geometry Radio
+ObjectTemplate.setBoneName backpack
+ObjectTemplate.setCopyLinksCount 0
+
+ObjectTemplate.create KitPart Jap_ScoutHelm
+ObjectTemplate.geometry Jap_ScoutHelm
+ObjectTemplate.setBoneName A
+ObjectTemplate.setCopyLinksCount 0
+

@@ -1,0 +1,9 @@
+GeometryTemplate.create StandardMesh Pipe_sRack_m1
+GeometryTemplate.file Pipe_sRack_m1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 15
+GeometryTemplate.setLodDistance 2 35
+GeometryTemplate.setLodDistance 3 85
+GeometryTemplate.setLodDistance 4 120
+GeometryTemplate.setLodDistance 5 200
+

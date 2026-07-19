@@ -1,0 +1,3 @@
+ObjectTemplate.create SimpleObject frwall_m1
+ObjectTemplate.geometry frwall_m1
+ObjectTemplate.setHasCollisionPhysics 1

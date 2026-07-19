@@ -1,0 +1,16 @@
+NetworkableInfo.createNewInfo ProjectileInfo
+NetworkableInfo.setPredictionMode PMLinear
+
+NetworkableInfo.createNewInfo HandFireArmsInfo
+NetworkableInfo.setPredictionMode PMNone
+NetworkableInfo.setForceNetworkableId 1
+
+NetworkableInfo.createNewInfo SpyProjectileInfo
+NetworkableInfo.setPredictionMode PMLinear
+NetworkableInfo.setBasePriority c_NIGhostAlways
+
+rem *** EndOfFile ***
+
+
+
+

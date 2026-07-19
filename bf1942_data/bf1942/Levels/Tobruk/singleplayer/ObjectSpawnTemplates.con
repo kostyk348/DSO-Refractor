@@ -1,0 +1,66 @@
+ObjectTemplate.create ObjectSpawner lighttankspawner
+ObjectTemplate.setObjectTemplate 2 sherman
+ObjectTemplate.setObjectTemplate 1 panzeriv
+ObjectTemplate.SpawnDelay 60
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.TimeToLive 120
+ObjectTemplate.Distance 200
+
+ObjectTemplate.create ObjectSpawner heavytankspawner
+ObjectTemplate.setObjectTemplate 2 m10
+ObjectTemplate.setObjectTemplate 1 Tiger
+ObjectTemplate.SpawnDelay 120
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.TimeToLive 120
+ObjectTemplate.Distance 200
+
+ObjectTemplate.create ObjectSpawner APCSpawner
+ObjectTemplate.setObjectTemplate 2 M3A1
+ObjectTemplate.setObjectTemplate 1 Hanomag
+ObjectTemplate.SpawnDelay 30
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.TimeToLive 120
+ObjectTemplate.Distance 200
+
+ObjectTemplate.create ObjectSpawner willyspawner 
+ObjectTemplate.setObjectTemplate 2 Willy
+ObjectTemplate.setObjectTemplate 1 Kubelwagen
+ObjectTemplate.SpawnDelay 20
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.TimeToLive 120
+ObjectTemplate.Distance 200
+
+ObjectTemplate.create ObjectSpawner ScoutCarSpawner
+ObjectTemplate.setObjectTemplate 2 Willy
+ObjectTemplate.setObjectTemplate 1 Kubelwagen
+ObjectTemplate.SpawnDelay 20
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.TimeToLive 120
+ObjectTemplate.Distance 200
+
+ObjectTemplate.create ObjectSpawner AAGunSpawner
+ObjectTemplate.setObjectTemplate 2 AA_allies
+ObjectTemplate.setObjectTemplate 1 flak38
+ObjectTemplate.SpawnDelay 60
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.TimeToLive 120
+ObjectTemplate.Distance 200
+
+ObjectTemplate.create ObjectSpawner MachinegunSpawner
+ObjectTemplate.setObjectTemplate 2 Stationary_browning
+ObjectTemplate.setObjectTemplate 1 Stationary_mg42
+ObjectTemplate.SpawnDelay 60
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.TimeToLive 120
+ObjectTemplate.Distance 200
+
+
+ObjectTemplate.create ObjectSpawner ArtillerySpawner
+ObjectTemplate.setObjectTemplate 2 Priest
+ObjectTemplate.setObjectTemplate 1 Wespe
+ObjectTemplate.SpawnDelay 60
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.TimeToLive 120
+ObjectTemplate.Distance 200
+
+rem EndOfFile

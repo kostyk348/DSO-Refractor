@@ -1,0 +1,73 @@
+###########################
+### Axis team stole flag ###
+###########################
+newPatch
+load @ROOT/Sound/@RTD/@Language/AxisStoleFlag.wav
+load @ROOT/Sound/@RTD/@Language/AxisStoleFlagALT.wav	
+
+randomPlay 1
+priority 11
+
+############################
+### Allied team stole flag ###
+############################
+newPatch
+load @ROOT/Sound/@RTD/@Language/AlliedStoleFlag.wav
+load @ROOT/Sound/@RTD/@Language/AlliedStoleFlagALT.wav
+
+randomPlay 1
+priority 11
+
+##################################
+### Axis team captured the flag ###
+##################################
+newPatch
+load @ROOT/Sound/@RTD/@Language/AxisCapturedEnemyFlag.wav
+load @ROOT/Sound/@RTD/@Language/AxisCapturedEnemyFlagALT.wav
+
+randomPlay 1
+priority 11
+	
+###################################
+### Allied team captured the flag ###
+###################################
+newPatch
+load @ROOT/Sound/@RTD/@Language/AlliedCapturedEnemyFlag.wav
+load @ROOT/Sound/@RTD/@Language/AlliedCapturedEnemyFlagALT.wav
+
+randomPlay 1
+priority 11
+
+##################################
+### Axis team returned the flag ###
+##################################
+newPatch
+load @ROOT/Sound/@RTD/@Language/AxisRecoveredFlag.wav
+load @ROOT/Sound/@RTD/@Language/AxisRecoveredFlagALT.wav
+
+randomPlay 1
+priority 11
+
+###################################
+### Allied team returned the flag ###
+###################################
+newPatch
+load @ROOT/Sound/@RTD/@Language/AlliedRecoveredFlag.wav
+load @ROOT/Sound/@RTD/@Language/AlliedRecoveredFlagALT.wav
+
+randomPlay 1
+priority 11
+
+##################################
+### Axis team dropped the flag ###
+##################################
+newPatch
+load @ROOT/Sound/@RTD/@Language/AxisRecoveredFlag.wav
+priority 11
+	
+###################################
+### Allied team dropped the flag ###
+###################################
+newPatch
+load @ROOT/Sound/@RTD/@Language/AlliedRecoveredFlag.wav
+priority 11

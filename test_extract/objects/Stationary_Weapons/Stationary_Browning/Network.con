@@ -1,0 +1,6 @@
+NetworkableInfo.createNewInfo Stationary_mg_BodyInfo
+NetworkableInfo.setPredictionMode PMLinear
+
+NetworkableInfo.createNewInfo Stationary_mg_TurretInfo
+NetworkableInfo.setPredictionMode PMLinear
+

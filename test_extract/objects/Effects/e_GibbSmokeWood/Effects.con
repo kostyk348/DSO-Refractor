@@ -1,0 +1,36 @@
+
+
+rem *** e_GibbSmokeWood ***
+ObjectTemplate.create EffectBundle e_GibbSmokeWood
+ObjectTemplate.saveInSeparateFile 1
+rem -------------------------------------
+ObjectTemplate.addTemplate Em_GibbSmokeWood
+ObjectTemplate.timeToLive CRD_NONE/1.8/0/0
+rem -------------------------------------
+
+
+rem *** Em_GibbSmokeWood ***
+ObjectTemplate.create Emitter Em_GibbSmokeWood
+ObjectTemplate.template Fx_GibbSmokeWood
+ObjectTemplate.addEmitterSpeed 1
+ObjectTemplate.emitterSpeedScale 0.5
+ObjectTemplate.lodDistance 700
+ObjectTemplate.timeToLive CRD_NONE/1/0/0
+ObjectTemplate.intensity CRD_NONE/10/0/0
+ObjectTemplate.intensityOverTime 0/2.40043|100/0
+ObjectTemplate.startRotation CRD_NONE/1/0/0
+
+
+rem *** Fx_GibbSmokeWood ***
+ObjectTemplate.create SpriteParticle Fx_GibbSmokeWood
+ObjectTemplate.timeToLive CRD_NONE/1/1/0
+ObjectTemplate.size CRD_UNIFORM/0.4/1/0
+ObjectTemplate.gravityModifier CRD_NONE/0.1/0/0
+ObjectTemplate.sizeOverTime 0/0.720038|100/3
+ObjectTemplate.texture e_muzs1_I
+ObjectTemplate.initRotation CRD_NONE/0/0/0
+ObjectTemplate.srcBlendMode BMSourceColor
+ObjectTemplate.destBlendMode BMOne
+ObjectTemplate.rotationSpeed CRD_NONE/0/0/0
+ObjectTemplate.rotationSpeedOverTime 0/0|100/1
+ObjectTemplate.colorRGBAOverTime 0/192/192/192/153|59/98/85/60/104|100/0/0/0/0

@@ -1,0 +1,145 @@
+rem *** Create Strategies ***
+
+rem run prerequisites
+
+aiStrategy.createStrategy test1
+aiStrategy.Aggression 0.8
+aiStrategy.NumberOfAttacks 2
+aiStrategy.NumberOfDefences 1
+aiStrategy.setPrerequisite test1
+
+aiStrategy.createStrategy assault
+aiStrategy.Aggression 1.0
+aiStrategy.NumberOfAttacks 4
+aiStrategy.NumberOfDefences 3
+aiStrategy.setPrerequisite constPrereq
+aiStrategy.setTreeModifier  TTNDefensivePos 0.75
+aiStrategy.setTreeModifier  TTNFriendGroundFixed 0.8
+aiStrategy.setTreeModifier  TTNHostileGroundFixed 1.25
+aiStrategy.setStrategicObjectsModifier ControlPoint 4.0
+aiStrategy.setStrategicObjectsModifier Flank 1.25
+aiStrategy.setStrategicObjectsModifier Neutral 3.0
+
+aiStrategy.createStrategy allOutAttack
+aiStrategy.Aggression 0.8
+aiStrategy.NumberOfAttacks 4
+aiStrategy.NumberOfDefences 3
+aiStrategy.setPrerequisite overwhelmingPowerPrereq
+aiStrategy.setTreeModifier  TTNDefensivePos 0.75
+aiStrategy.setTreeModifier  TTNFriendGroundFixed 0.8
+aiStrategy.setTreeModifier  TTNHostileGroundFixed 1.25
+
+aiStrategy.createStrategy allDefence
+aiStrategy.Aggression 0.0
+aiStrategy.NumberOfAttacks 0
+aiStrategy.NumberOfDefences 1
+aiStrategy.setPrerequisite loosingPrereq
+aiStrategy.setTreeModifier  TTNDefensivePos 1.5
+aiStrategy.setTreeModifier  TTNFriendGroundFixed 1.2
+aiStrategy.setTreeModifier  TTNTransportation 0.8
+
+aiStrategy.createStrategy default
+aiStrategy.Aggression 0.7
+aiStrategy.NumberOfAttacks 2
+aiStrategy.NumberOfDefences 2
+aiStrategy.setPrerequisite constPrereq
+aiStrategy.setPrerequisiteWeight 5.0
+aiStrategy.setStrategicObjectsModifier Base 0.5
+aiStrategy.setStrategicObjectsModifier ControlPoint 4.0
+aiStrategy.setStrategicObjectsModifier Flank 3.0
+aiStrategy.setStrategicObjectsModifier Neutral 3.0
+
+aiStrategy.createStrategy airToNaval
+aiStrategy.Aggression 0.35
+aiStrategy.NumberOfAttacks 1
+aiStrategy.NumberOfDefences 3
+aiStrategy.setPrerequisite airToNavalPrereq
+aiStrategy.setTreeModifierCombatStrength  TTNFriendAirMobile All 1.5
+aiStrategy.setTreeModifierCombatStrength  TTNFriendAirMobile NavalArmour 2.5
+aiStrategy.setTreeModifier  TTNHostileNaval 2.0
+aiStrategy.setTreeModifier  TTNAirField 1.5
+aiStrategy.setTreeModifierCombatStrength  TTNHostileNavalMobile NavalArmour 3.0
+aiStrategy.setTreeModifier  TTNFriendlyNaval 0.75
+aiStrategy.setTreeModifier  TTNFriendlyGround 0.5
+
+
+
+rem *** Americans on Wake ***
+
+aiStrategy.createStrategy front2+
+aiStrategy.Aggression 0.5
+aiStrategy.NumberOfAttacks 2
+aiStrategy.NumberOfDefences 3
+aiStrategy.setPrerequisite front2+Prereq
+aiStrategy.setTreeModifier TTNHostileGroundMobile 1.2
+aiStrategy.setStrategicObjectsModifier ControlPoint 6.0
+aiStrategy.setStrategicObjectsModifier Flank 1.5 
+aiStrategy.setStrategicObjectsModifier Close 2.0 
+aiStrategy.setStrategicObjectsModifier Centre 3.0 
+aiStrategy.setStrategicObjectsModifier Base 3.0 
+aiStrategy.setStrategicObjectsModifier Safe 0.05 Owned
+aiStrategy.setStrategicObjectsModifier Front 10.0
+
+aiStrategy.createStrategy singleFront
+aiStrategy.Aggression 0.4
+aiStrategy.NumberOfAttacks 1
+aiStrategy.NumberOfDefences 3
+aiStrategy.setPrerequisite singleFrontPrereq
+aiStrategy.setTreeModifier TTNHostileGroundMobile 1.2
+aiStrategy.setStrategicObjectsModifier ControlPoint 6.0
+aiStrategy.setStrategicObjectsModifier Flank 1.5 
+aiStrategy.setStrategicObjectsModifier Close 2.0 
+aiStrategy.setStrategicObjectsModifier Centre 3.0 
+aiStrategy.setStrategicObjectsModifier Base 3.0 
+aiStrategy.setStrategicObjectsModifier Safe 0.05 Owned
+aiStrategy.setStrategicObjectsModifier Front 10.0
+
+aiStrategy.createStrategy noFront
+aiStrategy.Aggression 0.0
+aiStrategy.NumberOfAttacks 0
+aiStrategy.NumberOfDefences 5
+aiStrategy.setPrerequisite noFrontPrereq
+aiStrategy.setStrategicObjectsModifier ControlPoint 6.0
+
+rem *** Japanesee on Wake ***
+
+aiStrategy.createStrategy singleFlank
+aiStrategy.Aggression 1.0
+aiStrategy.NumberOfAttacks 1
+aiStrategy.NumberOfDefences 0
+aiStrategy.setPrerequisite constTimeDecreasingPrereq
+aiStrategy.setStrategicObjectsModifier ControlPoint 6.0
+aiStrategy.setStrategicObjectsModifier Flank 10
+aiStrategy.setStrategicObjectsModifier Close 2.0 
+aiStrategy.setStrategicObjectsModifier Centre 0.5 
+aiStrategy.setStrategicObjectsModifier Base 1.5 
+aiStrategy.setStrategicObjectsModifier Safe 0.05 Owned
+aiStrategy.setStrategicObjectsModifier Front 10.0
+
+aiStrategy.createStrategy doubleFlank
+aiStrategy.Aggression 1.0
+aiStrategy.NumberOfAttacks 2
+aiStrategy.NumberOfDefences 0
+aiStrategy.setPrerequisite constTimeDecreasingPrereq
+aiStrategy.setStrategicObjectsModifier ControlPoint 6.0
+aiStrategy.setStrategicObjectsModifier Flank 10
+aiStrategy.setStrategicObjectsModifier Close 2.0 
+aiStrategy.setStrategicObjectsModifier Centre 0.5 
+aiStrategy.setStrategicObjectsModifier Base 1.5 
+aiStrategy.setStrategicObjectsModifier Safe 0.05 Owned
+aiStrategy.setStrategicObjectsModifier Front 10.0
+
+aiStrategy.createStrategy directCentre
+aiStrategy.Aggression 1.0
+aiStrategy.NumberOfAttacks 1
+aiStrategy.NumberOfDefences 0
+aiStrategy.setPrerequisite constTimeDecreasingPrereq
+aiStrategy.setStrategicObjectsModifier ControlPoint 6.0
+aiStrategy.setStrategicObjectsModifier Flank 0.5
+aiStrategy.setStrategicObjectsModifier Close 2.0 
+aiStrategy.setStrategicObjectsModifier Centre 5.0 
+aiStrategy.setStrategicObjectsModifier Base 3.0 
+aiStrategy.setStrategicObjectsModifier Safe 0.05 Owned
+aiStrategy.setStrategicObjectsModifier Front 10.0
+
+

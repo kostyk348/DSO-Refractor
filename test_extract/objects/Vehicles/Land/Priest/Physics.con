@@ -1,0 +1,104 @@
+
+
+rem *** PriestEngine ***
+ObjectTemplate.create Engine PriestEngine
+ObjectTemplate.setNetworkableInfo PriestEngineInfo
+ObjectTemplate.setAttachToListener 1
+ObjectTemplate.loadSoundScript Sounds/PriestEngine.ssc
+ObjectTemplate.hasMobilePhysics 1
+rem -------------------------------------
+ObjectTemplate.addTemplate Priest_TrackL
+ObjectTemplate.setPosition -0.009/-0.799/0
+ObjectTemplate.addTemplate Priest_TrackR
+ObjectTemplate.setPosition 0.01/-0.799/0
+rem -------------------------------------
+ObjectTemplate.setMinRotation -1/0/-2500
+ObjectTemplate.setMaxRotation 1/0/5000
+ObjectTemplate.setMaxSpeed 10/0/5000
+ObjectTemplate.setAcceleration 10/0/5000
+ObjectTemplate.setInputToYaw c_PIYaw
+ObjectTemplate.setInputToRoll c_PIThrottle
+ObjectTemplate.setAutomaticReset 1
+ObjectTemplate.setEngineType c_ETTank
+ObjectTemplate.setTorque 2.5
+ObjectTemplate.setDifferential 4
+ObjectTemplate.setNumberOfGears 5
+ObjectTemplate.setGearUp 0.95
+ObjectTemplate.setGearDown 0.45
+ObjectTemplate.setGearChangeTime 0.5
+
+
+rem *** PriestWheelL3Dummy ***
+ObjectTemplate.create Spring PriestWheelL3Dummy
+ObjectTemplate.geometry Priest_whe3L_M1
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.Grip c_PGFEngineDummyGrip
+ObjectTemplate.setStrength 0
+ObjectTemplate.setDamping 0
+
+
+rem *** PriestWheelL3 ***
+ObjectTemplate.create Spring PriestWheelL3
+ObjectTemplate.setNetworkableInfo SpringInfo
+ObjectTemplate.geometry Priest_whe3L_M1
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.Grip c_PGFEngineGrip
+ObjectTemplate.setStrength 18
+ObjectTemplate.setDamping 2.7
+
+
+rem *** PriestWheelL3DummySmoke ***
+ObjectTemplate.create Spring PriestWheelL3DummySmoke
+ObjectTemplate.geometry Priest_whe3L_M1
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.Grip c_PGFEngineDummyGrip
+rem -------------------------------------
+ObjectTemplate.addTemplate e_wdustPanzL
+ObjectTemplate.addTemplate e_wdustPanz
+rem -------------------------------------
+ObjectTemplate.setStrength 0
+ObjectTemplate.setDamping 0
+
+
+rem *** PriestWheelR3Dummy ***
+ObjectTemplate.create Spring PriestWheelR3Dummy
+ObjectTemplate.geometry Priest_whe3R_M1
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.Grip c_PGFEngineDummyGrip
+ObjectTemplate.setStrength 0
+ObjectTemplate.setDamping 0
+
+
+rem *** PriestWheelR3 ***
+ObjectTemplate.create Spring PriestWheelR3
+ObjectTemplate.setNetworkableInfo SpringInfo
+ObjectTemplate.geometry Priest_whe3R_M1
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.Grip c_PGFEngineGrip
+ObjectTemplate.setStrength 18
+ObjectTemplate.setDamping 2.7
+
+
+rem *** PriestWheelR3DummySmoke ***
+ObjectTemplate.create Spring PriestWheelR3DummySmoke
+ObjectTemplate.geometry Priest_whe3R_M1
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.Grip c_PGFEngineDummyGrip
+rem -------------------------------------
+ObjectTemplate.addTemplate e_wdustPanzL
+ObjectTemplate.addTemplate e_wdustPanz
+rem -------------------------------------
+ObjectTemplate.setStrength 0
+ObjectTemplate.setDamping 0

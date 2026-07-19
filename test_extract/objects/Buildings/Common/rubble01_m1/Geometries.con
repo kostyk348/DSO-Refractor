@@ -1,0 +1,8 @@
+GeometryTemplate.create StandardMesh rubble01_m1
+GeometryTemplate.file rubble01_m1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 15
+GeometryTemplate.setLodDistance 2 20
+GeometryTemplate.setLodDistance 3 25
+GeometryTemplate.setLodDistance 4 50
+GeometryTemplate.setLodDistance 5 100

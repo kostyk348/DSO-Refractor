@@ -1,0 +1,10 @@
+NetworkableInfo.createNewInfo AA_Allies_TurretInfo
+NetworkableInfo.setPredictionMode PMLinear
+
+NetworkableInfo.createNewInfo AA_Allies_GunInfo
+NetworkableInfo.setPredictionMode PMLinear
+
+
+NetworkableInfo.createNewInfo AA_Allies_BodyInfo
+NetworkableInfo.setPredictionMode PMLinear
+

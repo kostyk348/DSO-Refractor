@@ -1,0 +1,357 @@
+rem
+rem ***  ***
+rem
+Object.create AxisSpawnPoint_supplydep 
+Object.absolutePosition 1798/67.1854/551
+Object.rotation 176.076/0/1.52588e-005
+rem
+rem ***  ***
+rem
+Object.create AxisSpawnPoint_hospital 
+Object.absolutePosition 1724/67.3125/628
+Object.rotation -89.856/0/0.0279846
+rem
+rem ***  ***
+rem
+Object.create AxisSpawnPoint_barrack 
+Object.absolutePosition 1701/67.1438/600
+Object.rotation -0.467712/2.60551e-011/0.0342712
+rem
+rem ***  ***
+rem
+Object.create AxisSpawnPoint_middle_sandbag 
+Object.absolutePosition 1813.2/71.6602/593.768
+Object.rotation -86.58/-1.0422e-010/0.0197906
+rem
+rem ***  ***
+rem
+Object.create AxisSpawnPoint_right_sandbag 
+Object.absolutePosition 1718.03/67.1438/609.531
+Object.rotation 112.464/0/1.52588e-005
+rem
+rem ***  ***
+rem
+Object.create AxisSpawnPoint_left_sandbag 
+Object.absolutePosition 1768.99/67.1952/601.189
+Object.rotation 167.904/0/1.52588e-005
+
+rem
+rem ***  ***
+rem
+Object.create AxisSpawnPoint_7
+Object.absolutePosition 1737.48/67.1438/581.102
+Object.rotation 32.868/0/1.52588e-005
+rem
+rem ***  ***
+rem
+Object.create AxisSpawnPoint_8
+Object.absolutePosition 1767.14/67.1438/575.096
+Object.rotation 0/0/1.52588e-005
+rem
+rem ***  ***
+rem
+Object.create AxisSpawnPoint_9
+Object.absolutePosition 1728.83/67.1438/560.71
+Object.rotation 0/0/1.52588e-005
+
+rem ------------------------------------------------
+
+
+rem
+rem ***  ***
+rem
+Object.create alliesSpawnPoint_firstline_right 
+Object.absolutePosition 2082/69.7201/621
+Object.rotation -94.0681/4.16882e-010/0.0740356
+rem
+rem ***  ***
+rem
+Object.create alliesSpawnPoint_firstline_right2
+Object.absolutePosition 2101.54/69.5425/598.425
+Object.rotation -87.516/0/1.52588e-005
+rem
+rem ***  ***
+rem
+Object.create alliesSpawnPoint_firstline_right3
+Object.absolutePosition 2094.83/69.628/611.546
+Object.rotation -125.532/0/1.52588e-005
+rem
+rem ***  ***
+rem
+Object.create alliesSpawnPoint_firstline_right4
+Object.absolutePosition 2093.76/69.0546/596.963
+Object.rotation -125.532/0/1.52588e-005
+rem
+rem ***  ***
+rem
+Object.create alliesSpawnPoint_firstline_right5
+Object.absolutePosition 2099.02/69.5602/604.703
+Object.rotation -125.532/0/1.52588e-005
+rem
+rem ***  ***
+rem
+Object.create alliesSpawnPoint_firstline_right6
+Object.absolutePosition 2079.98/69.7901/622.189
+Object.rotation -125.532/0/1.52588e-005
+rem
+rem ***  ***
+rem
+Object.create alliesSpawnPoint_firstline_right7
+Object.absolutePosition 2091.9/69.1818/601.223
+Object.rotation -87.516/0/1.52588e-005
+rem
+rem ***  ***
+rem
+Object.create alliesSpawnPoint_firstline_right8
+Object.absolutePosition 2101.23/69.5765/595.306
+Object.rotation -60.192/0/1.52588e-005
+
+rem ----------------------------------------------------
+
+Object.create alliesSpawnPoint_firstline_middleb 
+Object.absolutePosition 2027/71.673/733
+Object.rotation -94.0681/4.16882e-010/0.0740356
+rem
+rem ***  ***
+rem
+Object.create alliesSpawnPoint_firstline_middles 
+Object.absolutePosition 2035/71.6508/731
+Object.rotation -3.27597/0/0.0713348
+rem
+rem ***  ***
+rem
+Object.create alliesSpawnPoint_firstline_middle3 
+Object.absolutePosition 2034.87/71.5664/726.198
+Object.rotation -60.192/0/1.52588e-005
+rem
+rem ***  ***
+rem
+Object.create alliesSpawnPoint_firstline_middle4 
+Object.absolutePosition 2026.62/71.6073/729.202
+Object.rotation -127.908/0/1.52588e-005
+rem
+rem ***  ***
+rem
+Object.create alliesSpawnPoint_firstline_middle5 
+Object.absolutePosition 2034.66/71.6285/729.854
+Object.rotation -127.908/0/1.52588e-005
+rem
+rem ***  ***
+rem
+Object.create alliesSpawnPoint_firstline_middle6 
+Object.absolutePosition 2024.15/71.6345/730.869
+Object.rotation -32.076/0/1.52588e-005
+rem
+rem ***  ***
+rem
+Object.create alliesSpawnPoint_firstline_middle7 
+Object.absolutePosition 2024.57/71.7131/735.013
+Object.rotation -32.076/0/1.52588e-005
+rem
+rem ***  ***
+rem
+Object.create alliesSpawnPoint_firstline_middle8 
+Object.absolutePosition 2031.05/71.6135/729.58
+Object.rotation -32.076/0/1.52588e-005
+rem ----------------------------------------------------
+
+Object.create alliesSpawnPoint_firstline_left 
+Object.absolutePosition 1984/79.4461/830
+Object.rotation -102.492/0/0.0815735
+rem
+rem ***  ***
+rem
+Object.create alliesSpawnPoint_firstline_left2 
+Object.absolutePosition 1982.58/81.3495/853.987
+Object.rotation -171.468/0/0.0395813
+rem
+rem ***  ***
+rem
+Object.create alliesSpawnPoint_firstline_left3 
+Object.absolutePosition 1978.12/80.7926/847.195
+Object.rotation 169.128/0/1.52588e-005
+rem
+rem ***  ***
+rem
+Object.create alliesSpawnPoint_firstline_left4 
+Object.absolutePosition 1977.78/81.5317/855.746
+Object.rotation -171.468/0/0.0395813
+rem
+rem ***  ***
+rem
+Object.create alliesSpawnPoint_firstline_left5 
+Object.absolutePosition 1975.38/81.1877/853.496
+Object.rotation 169.128/0/1.52588e-005
+rem
+rem ***  ***
+rem
+Object.create alliesSpawnPoint_firstline_left6 
+Object.absolutePosition 1980.55/81.1554/850.848
+Object.rotation 169.128/0/1.52588e-005
+rem
+rem ***  ***
+rem
+Object.create alliesSpawnPoint_firstline_left7 
+Object.absolutePosition 1985.58/80.5491/841.26
+Object.rotation 169.128/0/1.52588e-005
+rem
+rem ***  ***
+rem
+Object.create alliesSpawnPoint_firstline_left8 
+Object.absolutePosition 1979.03/81.1067/851.019
+Object.rotation -171.468/0/0.0395813
+rem
+rem ***  ***
+rem
+
+rem -----------------------------------------------------
+
+Object.create alliesSpawnPoint_secondline_left 
+Object.absolutePosition 2224/78.593/837
+Object.rotation -102.492/0/0.0815735
+rem
+rem ***  ***
+rem
+Object.create alliesSpawnPoint_secondline_left2 
+Object.absolutePosition 2234.92/78.5943/836.409
+Object.rotation 137.016/0/0.0197906
+rem
+rem ***  ***
+rem
+Object.create alliesSpawnPoint_secondline_left3 
+Object.absolutePosition 2224.48/78.5924/836.265
+Object.rotation 137.016/0/0.0197906
+rem
+rem ***  ***
+rem
+Object.create alliesSpawnPoint_secondline_left4 
+Object.absolutePosition 2230.61/78.592/836.173
+Object.rotation 137.016/0/0.0197906
+rem
+rem ***  ***
+rem
+Object.create alliesSpawnPoint_secondline_left5 
+Object.absolutePosition 2234.05/78.5929/833.39
+Object.rotation 137.016/0/0.0197906
+rem
+rem ***  ***
+rem
+Object.create alliesSpawnPoint_secondline_left6 
+Object.absolutePosition 2228.8/78.5943/837.482
+Object.rotation 137.016/0/0.0197906
+rem
+rem ***  ***
+rem
+Object.create alliesSpawnPoint_secondline_left7 
+Object.absolutePosition 2221.72/80.668/853.253
+Object.rotation 137.016/0/0.0197906
+rem
+rem ***  ***
+rem
+Object.create alliesSpawnPoint_secondline_left8 
+Object.absolutePosition 2228.06/80.0736/851.756
+Object.rotation 137.016/0/0.0197906
+rem
+rem ***  ***
+rem
+
+rem -----------------------------------------------------
+
+Object.create alliesSpawnPoint_secondline_right 
+Object.absolutePosition 2241/73.5738/711
+Object.rotation -102.492/0/0.0815735
+rem
+rem ***  ***
+rem
+Object.create alliesSpawnPoint_secondline_right2 
+Object.absolutePosition 2242.84/73.4937/712.811
+Object.rotation -118.44/0/0.0484619
+rem
+rem ***  ***
+rem
+Object.create alliesSpawnPoint_secondline_right3 
+Object.absolutePosition 2236.19/73.7208/713.947
+Object.rotation -118.44/0/0.0484619
+rem
+rem ***  ***
+rem
+Object.create alliesSpawnPoint_secondline_right4 
+Object.absolutePosition 2239.93/73.7993/717.46
+Object.rotation -118.44/0/0.0484619
+rem
+rem ***  ***
+rem
+Object.create alliesSpawnPoint_secondline_right5 
+Object.absolutePosition 2240.54/73.5797/711.434
+Object.rotation -118.44/0/0.0484619
+rem
+rem ***  ***
+rem
+Object.create alliesSpawnPoint_secondline_right6 
+Object.absolutePosition 2243.05/73.4889/716.094
+Object.rotation -118.44/0/0.0484619
+rem
+rem ***  ***
+rem
+Object.create alliesSpawnPoint_secondline_right7 
+Object.absolutePosition 2249.96/73.6494/706.621
+Object.rotation -118.44/0/0.0484619
+rem
+rem ***  ***
+rem
+Object.create alliesSpawnPoint_secondline_right8 
+Object.absolutePosition 2247.8/73.4342/711.54
+Object.rotation -118.44/0/0.0484619
+
+
+rem ----------------------------------------------------
+
+
+rem
+rem ***  ***
+rem
+Object.create alliesSpawnPoint_hospital 
+Object.absolutePosition 2540/69.648/773
+Object.rotation -92.1961/0/0.0884857
+rem
+rem ***  ***
+rem
+Object.create alliesSpawnPoint_barrack 
+Object.absolutePosition 2558/69.6516/856
+Object.rotation 176.076/0/0.104691
+rem
+rem ***  ***
+rem
+Object.create alliesSpawnPoint_supplydepot 
+Object.absolutePosition 2515/69.6516/800
+Object.rotation 176.076/0/0.104691
+rem
+rem ***  ***
+rem
+Object.create alliesSpawnPoint_4 
+Object.absolutePosition 2576.46/69.6493/786.112
+Object.rotation -118.44/0/0.0484619
+rem
+rem ***  ***
+rem
+Object.create alliesSpawnPoint_5 
+Object.absolutePosition 2504.24/69.6515/809.926
+Object.rotation -118.44/0/0.0484619
+rem
+rem ***  ***
+rem
+Object.create alliesSpawnPoint_6 
+Object.absolutePosition 2554.99/69.6515/855.211
+Object.rotation -118.44/0/0.0484619
+rem
+rem ***  ***
+rem
+Object.create alliesSpawnPoint_7 
+Object.absolutePosition 2587.89/69.6538/845.66
+Object.rotation -118.44/0/0.0484619
+rem
+rem ***  ***
+rem
+Object.create alliesSpawnPoint_8 
+Object.absolutePosition 2520.1/69.6515/804.617
+Object.rotation -118.44/0/0.0484619

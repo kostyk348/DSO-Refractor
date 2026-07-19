@@ -1,0 +1,814 @@
+newPatch
+
+################################################################################
+### Near Right###
+#################
+load @ROOT/Sound/@RTD/aafire.wav
+minDistance 4
+relativePosition .4/.4/0
+randomStartPitch 0.05 / 0.0
+
+*** Pitch ***
+beginEffect
+	controlDestination Pitch
+	controlSource Default
+	envelope Linear
+	param 0.9
+	param 0
+endEffect
+
+*** Distance Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 4
+	param 8
+	param 1
+	param -1
+endEffect
+
+*** Time Delay ***
+beginEffect
+	controlDestination Volume
+	controlSource Time
+	envelope Ramp
+	param .06
+	param .06
+	param 0
+	param 1
+endEffect
+
+trigger Volume
+
+##################################################################################
+### Near Left ###
+#################
+load @ROOT/Sound/@RTD/aafire.wav
+minDistance 4
+relativePosition -1.4/.4/0
+randomStartPitch 0.05 / 0.0
+
+*** Pitch ***
+beginEffect
+	controlDestination Pitch
+	controlSource Default
+	envelope Linear
+	param 0.8
+	param 0
+endEffect
+
+*** Distance Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 4
+	param 8
+	param 1
+	param -1
+endEffect
+
+*** Time Delay ***
+beginEffect
+	controlDestination Volume
+	controlSource Time
+	envelope Ramp
+	param .07
+	param .07
+	param 0
+	param 1
+endEffect
+
+trigger Volume
+
+#################################################################################
+### Main ###
+############
+load @ROOT/Sound/@RTD/shrmfire.wav
+minDistance 3.8
+relativePosition -.5/.4/1
+randomStartPitch 0.1 / 0.1
+
+*** Distance Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 100
+	param 100
+	param 1
+	param -1
+endEffect
+
+*** Time Delay ***
+beginEffect
+	controlDestination Volume
+	controlSource Time
+	envelope Ramp
+	param .15
+	param .15
+	param 0
+	param 1
+endEffect
+
+trigger Volume
+
+###################################################################################################
+### Shell ###
+#############
+load @ROOT/Sound/@RTD/pnzrfire.wav
+minDistance 3.8
+relativePosition -.5/.4/1
+randomStartPitch 0.1 / 0.1
+
+*** Distance Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 100
+	param 100
+	param 1
+	param -1
+endEffect
+
+#####################
+### Shell Far 100 ###
+#####################
+load @ROOT/Sound/@RTD/shrmfire.wav
+minDistance 3
+randomStartPitch 0.1 / 0.1
+
+*** Start Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 100
+	param 100
+	param 0
+	param 1
+endEffect
+
+*** Distance Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 200
+	param 200
+	param 1
+	param -1
+endEffect
+
+*** Time Delay ***
+beginEffect
+	controlDestination Volume
+	controlSource Time
+	envelope Ramp
+	param .33
+	param .33
+	param 0
+	param 1
+endEffect
+
+trigger Volume
+
+
+#####################
+### Shell Far 200 ###
+#####################
+load @ROOT/Sound/@RTD/shrmfire.wav
+minDistance 2
+randomStartPitch 0.1 / 0.1
+
+*** Start Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 200
+	param 200
+	param 0
+	param 1
+endEffect
+
+*** Distance Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 300
+	param 300
+	param 1
+	param -1
+endEffect
+
+*** Time Delay ***
+beginEffect
+	controlDestination Volume
+	controlSource Time
+	envelope Ramp
+	param .66
+	param .66
+	param 0
+	param 1
+endEffect
+
+trigger Volume
+
+#####################
+### Shell Far 300 ###
+#####################
+load @ROOT/Sound/@RTD/shrmfire.wav
+minDistance 1
+randomStartPitch 0.1 / 0.1
+
+*** Start Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 300
+	param 300
+	param 0
+	param 1
+endEffect
+
+*** Distance Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 400
+	param 400
+	param 1
+	param -1
+endEffect
+
+*** Time Delay ***
+beginEffect
+	controlDestination Volume
+	controlSource Time
+	envelope Ramp
+	param 1
+	param 1
+	param 0
+	param 1
+endEffect
+
+trigger Volume
+
+###################################################################################################
+### Reverb ###
+##############
+load @ROOT/Sound/@RTD/tigerrev.wav
+minDistance 8
+relativePosition -.3/0/1
+randomStartPitch 0.1 / 0.0
+volume .6
+*** Distance Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 100
+	param 100
+	param 1
+	param -1
+endEffect
+
+*** Time Delay ***
+beginEffect
+	controlDestination Volume
+	controlSource Time
+	envelope Ramp
+	param .85
+	param 1.2
+	param 0
+	param 1
+endEffect
+
+trigger Volume
+
+##################
+### Reverb 100 ###
+##################
+load @ROOT/Sound/@RTD/tigerrev.wav
+minDistance 7
+randomStartPitch 0.1 / 0.1
+
+*** Start Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 100
+	param 100
+	param 0
+	param 1
+endEffect
+
+*** Pitch ***
+beginEffect
+	controlDestination Pitch
+	controlSource Default
+	envelope Linear
+	param .8
+	param .8
+endEffect
+
+*** Distance Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 200
+	param 200
+	param 1
+	param -1
+endEffect
+
+*** Time Delay ***
+beginEffect
+	controlDestination Volume
+	controlSource Time
+	envelope Ramp
+	param 1.1
+	param 1.5
+	param 0
+	param 1
+endEffect
+
+trigger Volume
+
+
+##################
+### Reverb 200 ###
+##################
+load @ROOT/Sound/@RTD/tigerrev.wav
+minDistance 6
+randomStartPitch 0.1 / 0.1
+
+*** Pitch ***
+beginEffect
+	controlDestination Pitch
+	controlSource Default
+	envelope Linear
+	param .7
+	param .7
+endEffect
+
+*** Start Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 200
+	param 200
+	param 0
+	param 1
+endEffect
+
+*** Distance Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 300
+	param 300
+	param 1
+	param -1
+endEffect
+
+*** Time Delay ***
+beginEffect
+	controlDestination Volume
+	controlSource Time
+	envelope Ramp
+	param 1.6
+	param 2
+	param 0
+	param 1
+endEffect
+
+trigger Volume
+
+
+##################
+### Reverb 300 ###
+##################
+load @ROOT/Sound/@RTD/tigerrev.wav
+minDistance 5
+randomStartPitch 0.1 / 0.1
+
+*** Start Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 300
+	param 300
+	param 0
+	param 1
+endEffect
+
+*** Distance Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 400
+	param 400
+	param 1
+	param -1
+endEffect
+
+*** Pitch ***
+beginEffect
+	controlDestination Pitch
+	controlSource Default
+	envelope Linear
+	param .6
+	param .6
+endEffect
+
+*** Time Delay ***
+beginEffect
+	controlDestination Volume
+	controlSource Time
+	envelope Ramp
+	param 2
+	param 2.4
+	param 0
+	param 1
+endEffect
+
+trigger Volume
+
+
+##################
+### Reverb 400 ###
+##################
+load @ROOT/Sound/@RTD/tigerrev.wav
+minDistance 4
+randomStartPitch 0.1 / 0.1
+
+*** Start Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 400
+	param 400
+	param 0
+	param 1
+endEffect
+
+*** Pitch ***
+beginEffect
+	controlDestination Pitch
+	controlSource Default
+	envelope Linear
+	param .5
+	param .5
+endEffect
+
+*** Distance Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 450
+	param 500
+	param 1
+	param -1
+endEffect
+
+*** Time Delay ***
+beginEffect
+	controlDestination Volume
+	controlSource Time
+	envelope Ramp
+	param 2.4
+	param 2.8
+	param 0
+	param 1
+endEffect
+
+trigger Volume
+#########################################
+### after fire ###
+##################
+load @ROOT/Sound/@RTD/postfiretnk.wav
+minDistance 1
+relativePosition -.67/.2/.25
+randomStartPitch 0.08 / 0.08
+
+*** Time Delay ***
+beginEffect
+	controlDestination Volume
+	controlSource Time
+	envelope Ramp
+	param 0.27
+	param 0.27
+	param 0
+	param 1
+endEffect
+trigger Volume
+
+*** Distance Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 2
+	param 2.1
+	param 1
+	param -1
+endEffect
+
+##################
+### empty fire ###
+##################
+load @ROOT/Sound/@RTD/tnkfireempty.wav
+minDistance 1
+relativePosition -.6/.2/.25
+randomStartPitch 0.04 / 0.04
+volume .25
+*** Time Delay ***
+beginEffect
+	controlDestination Volume
+	controlSource Time
+	envelope Ramp
+	param .85
+	param .85
+	param 0
+	param 1
+endEffect
+trigger Volume
+
+*** Distance Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 2
+	param 2.1
+	param 1
+	param -1
+endEffect
+
+##################
+### empty fire ###
+##################
+load @ROOT/Sound/@RTD/bmbreal3.wav
+minDistance 1
+relativePosition -.6/.2/.25
+randomStartPitch 0.04 / 0.04
+volume .2
+*** Time Delay ***
+beginEffect
+	controlDestination Volume
+	controlSource Time
+	envelope Ramp
+	param 1.1
+	param 1.1
+	param 0
+	param 1
+endEffect
+trigger Volume
+
+*** Distance Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 2
+	param 2.1
+	param 1
+	param -1
+endEffect
+
+##################
+### after fire ###
+##################
+load @ROOT/Sound/@RTD/bigshellload.wav
+minDistance 1
+relativePosition -.53/.2/.25
+randomStartPitch 0.02 / 0.02
+volume .6
+
+*** Time Delay ***
+beginEffect
+	controlDestination Volume
+	controlSource Time
+	envelope Ramp
+	param 1.6
+	param 1.6
+	param 0
+	param 1
+endEffect
+trigger Volume
+
+*** Distance Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 2
+	param 2.1
+	param 1
+	param -1
+endEffect
+
+##################
+### after fire ###
+##################
+load @ROOT/Sound/@RTD/tnkreload2.wav
+minDistance 1
+relativePosition -.6/.2/.25
+randomStartPitch 0.03 / 0.03
+volume .3
+
+*** Time Delay ***
+beginEffect
+	controlDestination Volume
+	controlSource Time
+	envelope Ramp
+	param 2
+	param 2
+	param 0
+	param 1
+endEffect
+trigger Volume
+
+*** Distance Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 2
+	param 2.1
+	param 1
+	param -1
+endEffect
+
+##################
+### after fire ###
+##################
+load @ROOT/Sound/@RTD/tnkreload1.wav
+minDistance 1
+relativePosition -.6/.2/.25
+randomStartPitch 0.02 / 0.02
+volume .3
+
+*** Time Delay ***
+beginEffect
+	controlDestination Volume
+	controlSource Time
+	envelope Ramp
+	param 2.3
+	param 2.3
+	param 0
+	param 1
+endEffect
+trigger Volume
+
+*** Distance Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 2
+	param 2.1
+	param 1
+	param -1
+endEffect
+##################
+### after fire ###
+##################
+load @ROOT/Sound/@RTD/bmbreal4.wav
+minDistance 1
+relativePosition -.5/.2/.25
+randomStartPitch 0.02 / 0.02
+volume .2
+
+*** Time Delay ***
+beginEffect
+	controlDestination Volume
+	controlSource Time
+	envelope Ramp
+	param 2.5
+	param 2.5
+	param 0
+	param 1
+endEffect
+trigger Volume
+
+*** Distance Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 2
+	param 2.1
+	param 1
+	param -1
+endEffect
+
+###################
+### reload fire ###
+###################
+load @ROOT/Sound/@RTD/rldfire.wav
+minDistance 1
+relativePosition -.6/.2/.25
+randomStartPitch 0.05 / 0.05
+volume .7
+*** Time Delay ***
+beginEffect
+	controlDestination Volume
+	controlSource Time
+	envelope Ramp
+	param 2.7
+	param 2.7
+	param 0
+	param 1
+endEffect
+trigger Volume
+
+*** Distance Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 2
+	param 2.1
+	param 1
+	param -1
+endEffect
+
+##################
+### after fire ###
+##################
+load @ROOT/Sound/@RTD/bmbreal2.wav
+minDistance 1
+relativePosition -.6/.2/.25
+randomStartPitch 0.02 / 0.02
+volume .3
+
+*** Time Delay ***
+beginEffect
+	controlDestination Volume
+	controlSource Time
+	envelope Ramp
+	param 2.9
+	param 2.9
+	param 0
+	param 1
+endEffect
+trigger Volume
+
+*** Distance Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 2
+	param 2.1
+	param 1
+	param -1
+endEffect
+
+##################
+### after fire ###
+##################
+load @ROOT/Sound/@RTD/bmbreal1.wav
+minDistance 1
+relativePosition -.5/.2/.25
+randomStartPitch 0.02 / 0.02
+volume .3
+
+*** Time Delay ***
+beginEffect
+	controlDestination Volume
+	controlSource Time
+	envelope Ramp
+	param 3
+	param 3
+	param 0
+	param 1
+endEffect
+trigger Volume
+
+*** Distance Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 2
+	param 2.1
+	param 1
+	param -1
+endEffect

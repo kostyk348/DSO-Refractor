@@ -1,0 +1,11 @@
+NetworkableInfo.createNewInfo PriestTurretInfo
+NetworkableInfo.setPredictionMode PMLinear
+
+NetworkableInfo.createNewInfo PriestGunInfo
+NetworkableInfo.setPredictionMode PMLinear
+
+NetworkableInfo.createNewInfo PriestEngineInfo
+NetworkableInfo.setPredictionMode PMLinear
+
+NetworkableInfo.createNewInfo PriestBodyInfo
+NetworkableInfo.setPredictionMode PMLinear

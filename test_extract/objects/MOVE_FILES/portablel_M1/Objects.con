@@ -1,0 +1,3 @@
+ObjectTemplate.create SimpleObject portablel_M1
+ObjectTemplate.geometry portablel_M1
+ObjectTemplate.setHasCollisionPhysics 1

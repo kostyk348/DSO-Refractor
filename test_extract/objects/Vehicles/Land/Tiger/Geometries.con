@@ -1,0 +1,143 @@
+renderer.beginGlobalCluster Tiger
+GeometryTemplate.create StandardMesh Tiger_Cannon1_M1
+GeometryTemplate.file Tiger_Canon_M1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 20
+GeometryTemplate.setLodDistance 2 30
+GeometryTemplate.setLodDistance 3 40
+GeometryTemplate.setLodDistance 4 80
+GeometryTemplate.setLodDistance 5 100
+
+GeometryTemplate.create StandardMesh 1p_Tiger_Gunner_m1
+GeometryTemplate.file 1p_Tiger_Gunner_m1
+
+GeometryTemplate.create StandardMesh Tiger_Cannon2_M1
+GeometryTemplate.file Tiger_Cannon2_M1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 10
+GeometryTemplate.setLodDistance 2 15
+GeometryTemplate.setLodDistance 3 30
+GeometryTemplate.setLodDistance 4 50
+GeometryTemplate.setLodDistance 5 100
+
+GeometryTemplate.create StandardMesh Tiger_Hull_M1
+GeometryTemplate.file Tiger_Hull_M1
+GeometryTemplate.hasDynamicShadow 1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 20
+GeometryTemplate.setLodDistance 2 35
+GeometryTemplate.setLodDistance 3 50
+GeometryTemplate.setLodDistance 4 75
+GeometryTemplate.setLodDistance 5 100
+
+GeometryTemplate.create AnimatedMesh Tiger_TrackL_M1
+GeometryTemplate.file Tiger_TrackL_M1
+GeometryTemplate.setSkin animations/Tiger_TrackL_M1.skn
+
+GeometryTemplate.create AnimatedMesh Tiger_TrackR_M1
+GeometryTemplate.file Tiger_TrackR_M1
+GeometryTemplate.setSkin animations/Tiger_TrackR_M1.skn
+
+GeometryTemplate.create StandardMesh Tiger_whe1R_M1
+GeometryTemplate.file Tiger_whe1R_M1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 20
+GeometryTemplate.setLodDistance 2 60
+GeometryTemplate.setLodDistance 3 100
+
+GeometryTemplate.create StandardMesh Tiger_whe1L_M1
+GeometryTemplate.file Tiger_whe1L_M1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 20
+GeometryTemplate.setLodDistance 2 60
+GeometryTemplate.setLodDistance 3 100
+
+GeometryTemplate.create StandardMesh Tiger_whe2R_M1
+GeometryTemplate.file Tiger_whe2R_M1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 20
+GeometryTemplate.setLodDistance 2 60
+GeometryTemplate.setLodDistance 3 100
+
+GeometryTemplate.create StandardMesh Tiger_whe2L_M1
+GeometryTemplate.file Tiger_whe2L_M1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 20
+GeometryTemplate.setLodDistance 2 60
+GeometryTemplate.setLodDistance 3 100
+
+GeometryTemplate.create StandardMesh Tiger_whe3R_M1
+GeometryTemplate.file Tiger_whe3R_M1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 20
+GeometryTemplate.setLodDistance 2 60
+GeometryTemplate.setLodDistance 3 100
+
+GeometryTemplate.create StandardMesh Tiger_whe3L_M1
+GeometryTemplate.file Tiger_whe3L_M1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 20
+GeometryTemplate.setLodDistance 2 60
+GeometryTemplate.setLodDistance 3 100
+
+GeometryTemplate.create StandardMesh Tiger_whe4R_M1
+GeometryTemplate.file Tiger_whe4R_M1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 20
+GeometryTemplate.setLodDistance 2 60
+GeometryTemplate.setLodDistance 3 100
+
+GeometryTemplate.create StandardMesh Tiger_whe4L_M1
+GeometryTemplate.file Tiger_whe4L_M1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 20
+GeometryTemplate.setLodDistance 2 60
+GeometryTemplate.setLodDistance 3 100
+
+GeometryTemplate.create StandardMesh Tiger_Hull_Hatch_M1
+GeometryTemplate.file Tiger_Hull_Hatch_M1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 20
+GeometryTemplate.setLodDistance 2 30
+GeometryTemplate.setLodDistance 3 40
+GeometryTemplate.setLodDistance 4 80
+GeometryTemplate.setLodDistance 5 100
+
+GeometryTemplate.create StandardMesh Tiger_Tow_M1
+GeometryTemplate.file Tiger_Tow_M1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 10
+GeometryTemplate.setLodDistance 2 15
+GeometryTemplate.setLodDistance 3 30
+GeometryTemplate.setLodDistance 4 50
+GeometryTemplate.setLodDistance 5 100
+
+GeometryTemplate.create StandardMesh Tiger_Tower_Hatch_M1
+GeometryTemplate.file Tiger_Tow_Hatch_M1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 20
+GeometryTemplate.setLodDistance 2 30
+GeometryTemplate.setLodDistance 3 40
+GeometryTemplate.setLodDistance 4 80
+GeometryTemplate.setLodDistance 5 100
+
+renderer.endGlobalCluster
+
+GeometryTemplate.create StandardMesh Tiger_Hull_L1
+GeometryTemplate.file Tiger_Hull_L1
+GeometryTemplate.hasDynamicShadow 1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 200
+GeometryTemplate.setLodDistance 2 250
+GeometryTemplate.setLodDistance 3 300
+GeometryTemplate.setLodDistance 4 350
+GeometryTemplate.setLodDistance 5 500
+
+GeometryTemplate.create StandardMesh Wreck_Tiger_M1
+GeometryTemplate.file Wreck_Tiger_M1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 200
+GeometryTemplate.setLodDistance 2 250
+GeometryTemplate.setLodDistance 3 300
+GeometryTemplate.setLodDistance 4 350
+GeometryTemplate.setLodDistance 5 500

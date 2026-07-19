@@ -1,0 +1,13 @@
+rem *** Plugins ***
+aiTemplatePlugIn.create Cover harbdock_pinCover
+aiTemplatePlugIn.coverValue 1.0
+
+rem *** AITemplate ***
+aiTemplate.create harbdock_pin1_m1
+aiTemplate.addType ITCover
+aiTemplate.degeneration 1
+aiTemplate.allowedTimeDiff -1
+aiTemplate.basicTemp 1
+aiTemplate.commonKnowledge 1
+aiTemplate.addPlugIn harbdock_pinCover
+

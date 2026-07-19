@@ -1,0 +1,2 @@
+GeometryTemplate.create StandardMesh muzzMSTG_m1
+GeometryTemplate.file muzzMSTG_m1

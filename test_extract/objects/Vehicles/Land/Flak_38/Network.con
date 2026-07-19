@@ -1,0 +1,2 @@
+NetworkableInfo.createNewInfo flak38_BodyInfo
+NetworkableInfo.setPredictionMode PMLinear

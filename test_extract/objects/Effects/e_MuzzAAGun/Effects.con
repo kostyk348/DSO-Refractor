@@ -1,0 +1,99 @@
+
+
+rem *** e_MuzzAAgun ***
+ObjectTemplate.create EffectBundle e_MuzzAAgun
+ObjectTemplate.saveInSeparateFile 1
+rem -------------------------------------
+ObjectTemplate.addTemplate Em_MuzzAAgun_Flare
+ObjectTemplate.setPosition 0.02/-0.02/-1.14
+ObjectTemplate.addTemplate Em_MuzzAAgun_Glint
+ObjectTemplate.setPosition 0.02/-0.02/-1.14
+ObjectTemplate.addTemplate Em_MuzzAAgun_WSmoke
+ObjectTemplate.setPosition 0.02/-0.02/-1.14
+ObjectTemplate.timeToLive CRD_NONE/-1/0/0
+rem -------------------------------------
+
+
+rem *** Em_MuzzAAgun_Flare ***
+ObjectTemplate.create Emitter Em_MuzzAAgun_Flare
+ObjectTemplate.template Fx_MuzzAAgun_Flare
+ObjectTemplate.addEmitterSpeed 1
+ObjectTemplate.emitterSpeedScale 1
+ObjectTemplate.lodDistance 800
+ObjectTemplate.timeToLive CRD_NONE/0.1/0/0
+ObjectTemplate.intensity CRD_NONE/60/0/0
+ObjectTemplate.relativePositionInDof CRD_NONE/0.4/0/0
+ObjectTemplate.positionalSpeedInDof CRD_UNIFORM/-10/0/0
+ObjectTemplate.startRotation CRD_NONE/1/0/0
+ObjectTemplate.addChild 1
+
+
+rem *** Fx_MuzzAAgun_Flare ***
+ObjectTemplate.create SpriteParticle Fx_MuzzAAgun_Flare
+ObjectTemplate.timeToLive CRD_NONE/0.2/0.2/0
+ObjectTemplate.size CRD_NONE/0.8/0/0
+ObjectTemplate.gravityModifier CRD_NONE/0/0/0
+ObjectTemplate.sizeOverTime 0/0.280007|18/0.629582|100/0
+ObjectTemplate.texture e_muz1_I
+ObjectTemplate.initRotation CRD_UNIFORM/1/180/1
+ObjectTemplate.destBlendMode BMOne
+ObjectTemplate.XYSizeRatioOverTime 0/1|100/1
+ObjectTemplate.colorRGBAOverTime 0/255/255/217/153|100/0/0/0/0
+
+
+rem *** Em_MuzzAAgun_Glint ***
+ObjectTemplate.create Emitter Em_MuzzAAgun_Glint
+ObjectTemplate.template Fx_MuzzAAgun_Glint
+ObjectTemplate.addEmitterSpeed 1
+ObjectTemplate.emitterSpeedScale 0
+ObjectTemplate.lodDistance 800
+ObjectTemplate.timeToLive CRD_NONE/0.1/0/0
+ObjectTemplate.intensity CRD_NONE/10/0/0
+ObjectTemplate.relativePositionInDof CRD_NONE/0.3/0/0
+ObjectTemplate.positionalSpeedInDof CRD_NONE/3/0/0
+ObjectTemplate.startRotation CRD_NONE/1/0/0
+ObjectTemplate.addChild 1
+
+
+rem *** Fx_MuzzAAgun_Glint ***
+ObjectTemplate.create SpriteParticle Fx_MuzzAAgun_Glint
+ObjectTemplate.timeToLive CRD_NONE/0.1/0.1/0
+ObjectTemplate.size CRD_NONE/0.2/0/0
+ObjectTemplate.gravityModifier CRD_NONE/0/0/0
+ObjectTemplate.sizeOverTime 0/2|100/2
+ObjectTemplate.gravityModifierOverTime 0/0|100/0
+ObjectTemplate.texture e_smoke5
+ObjectTemplate.initRotation CRD_UNIFORM/1/180/1
+ObjectTemplate.srcBlendMode BMInvSourceAlpha
+ObjectTemplate.rotationSpeed CRD_UNIFORM/0/0/0
+ObjectTemplate.rotationSpeedOverTime 0/5.87979|64/5.03995|100/6
+ObjectTemplate.colorRGBAOverTime 0/192/192/192/255|30/132/97/87/192|60/64/0/0/130|100/0/0/0/47
+
+
+rem *** Em_MuzzAAgun_WSmoke ***
+ObjectTemplate.create Emitter Em_MuzzAAgun_WSmoke
+ObjectTemplate.template Fx_MuzzAAgun_WSmoke
+ObjectTemplate.addEmitterSpeed 1
+ObjectTemplate.emitterSpeedScale 1
+ObjectTemplate.lodDistance 800
+ObjectTemplate.timeToLive CRD_NONE/0.1/0/0
+ObjectTemplate.intensity CRD_NONE/30/0/0
+ObjectTemplate.positionalSpeedInDof CRD_UNIFORM/-15/-6/0
+ObjectTemplate.startRotation CRD_NONE/1/0/0
+ObjectTemplate.addChild 1
+
+
+rem *** Fx_MuzzAAgun_WSmoke ***
+ObjectTemplate.create SpriteParticle Fx_MuzzAAgun_WSmoke
+ObjectTemplate.timeToLive CRD_NONE/0.5/0.5/0
+ObjectTemplate.size CRD_NONE/0.6/0/0
+ObjectTemplate.gravityModifier CRD_NONE/0.5/0/0
+ObjectTemplate.drag CRD_NONE/2/0/0
+ObjectTemplate.sizeOverTime 0/0.800195|100/0.400098
+ObjectTemplate.gravityModifierOverTime 0/1|100/1
+ObjectTemplate.texture e_muzs3_I
+ObjectTemplate.initRotation CRD_UNIFORM/1/180/1
+ObjectTemplate.destBlendMode BMInvSourceAlpha
+ObjectTemplate.rotationSpeed CRD_UNIFORM/1/30/0
+ObjectTemplate.rotationSpeedOverTime 0/3.47993|64/5.03995|100/6
+ObjectTemplate.colorRGBAOverTime 0/255/255/255/102|100/255/255/255/0

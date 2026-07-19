@@ -1,0 +1,6 @@
+GeometryTemplate.create StandardMesh pacificfurni1_m1
+GeometryTemplate.file pacificfurni1_m1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 50
+GeometryTemplate.setLodDistance 2 100
+

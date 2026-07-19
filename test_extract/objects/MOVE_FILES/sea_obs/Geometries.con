@@ -1,0 +1,8 @@
+GeometryTemplate.create StandardMesh sea_obs_M1
+GeometryTemplate.file sea_obs_M1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 3
+GeometryTemplate.setLodDistance 2 20
+GeometryTemplate.setLodDistance 3 40
+
+

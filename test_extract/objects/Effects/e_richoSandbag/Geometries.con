@@ -1,0 +1,5 @@
+GeometryTemplate.create StandardMesh Richo_sandcorn_m1
+GeometryTemplate.file Richo_sandcorn_m1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 100
+

@@ -1,0 +1,17 @@
+GeometryTemplate.create StandardMesh shell9mmHi_m1
+GeometryTemplate.file shell9mmHi_m1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 50
+GeometryTemplate.setLodDistance 2 100
+GeometryTemplate.setLodDistance 3 200
+GeometryTemplate.setLodDistance 4 400
+GeometryTemplate.setLodDistance 5 800
+
+GeometryTemplate.create StandardMesh shell9mmLw_m1
+GeometryTemplate.file shell9mmLw_m1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 50
+GeometryTemplate.setLodDistance 2 100
+GeometryTemplate.setLodDistance 3 200
+GeometryTemplate.setLodDistance 4 400
+GeometryTemplate.setLodDistance 5 800

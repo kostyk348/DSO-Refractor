@@ -1,0 +1,34 @@
+
+
+rem *** e_wdustfeet ***
+ObjectTemplate.create EffectBundle e_wdustfeet
+ObjectTemplate.saveInSeparateFile 1
+rem -------------------------------------
+ObjectTemplate.addTemplate Em_wdustfeet
+ObjectTemplate.timeToLive CRD_NONE/-1/0/0
+rem -------------------------------------
+
+
+rem *** Em_wdustfeet ***
+ObjectTemplate.create Emitter Em_wdustfeet
+ObjectTemplate.template Fx_wdustfeet
+ObjectTemplate.looping 1
+ObjectTemplate.startAtCreation 1
+ObjectTemplate.addEmitterSpeed 1
+ObjectTemplate.emitterSpeedScale 1
+ObjectTemplate.timeToLive CRD_NONE/3/0/0
+ObjectTemplate.intensity CRD_NONE/11/0/0
+ObjectTemplate.relativePositionInUp CRD_NONE/0.5/0/0
+ObjectTemplate.startRotation CRD_NONE/1/0/0
+
+
+rem *** Fx_wdustfeet ***
+ObjectTemplate.create SpriteParticle Fx_wdustfeet
+ObjectTemplate.timeToLive CRD_NONE/2/2/0
+ObjectTemplate.size CRD_NONE/0.4/0.3/0
+ObjectTemplate.gravityModifier CRD_NONE/0/0/0
+ObjectTemplate.sizeOverTime 0/0.160039|44/0.400006|100/1.20005
+ObjectTemplate.texture e_dustwind_I
+ObjectTemplate.initRotation CRD_NONE/1/0/0
+ObjectTemplate.destBlendMode BMInvSourceAlpha
+ObjectTemplate.colorRGBAOverTime 0/191/175/145/204|6/195/180/152/199|82/198/186/151/140|100/255/255/255/153

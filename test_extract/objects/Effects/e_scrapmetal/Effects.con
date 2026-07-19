@@ -1,0 +1,13 @@
+
+
+rem *** e_ScrapMetal ***
+ObjectTemplate.create EffectBundle e_ScrapMetal
+ObjectTemplate.saveInSeparateFile 1
+rem -------------------------------------
+ObjectTemplate.addTemplate Em_ScrapMetal_1
+ObjectTemplate.addTemplate Em_ScrapMetal_2
+ObjectTemplate.addTemplate Em_ScrapMetal_3
+ObjectTemplate.timeToLive CRD_NONE/1.8/0/0
+rem -------------------------------------
+
+

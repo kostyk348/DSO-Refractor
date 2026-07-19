@@ -1,0 +1,34 @@
+rem 
+rem **** Initialize Terrain *****
+rem
+GeometryTemplate.create patchTerrain terrainGeometry
+GeometryTemplate.file bf1942\levels\Tobruk\Heightmap
+GeometryTemplate.materialMap bf1942\levels\Tobruk\Materialmap
+GeometryTemplate.materialSize 1024
+GeometryTemplate.targetTriCount 5000
+GeometryTemplate.worldSize 4096
+GeometryTemplate.yScale 0.6
+GeometryTemplate.texBaseName bf1942\levels\Tobruk\Textures\Tx
+GeometryTemplate.texOffsetX 4
+rem **** MatsD:  Skip last 10 rows of patches only row 0-5 is used on Tobruk
+GeometryTemplate.texOffsetY -10
+GeometryTemplate.detailTexName bf1942\levels\Tobruk\Textures\Detail
+GeometryTemplate.waterLevel 25
+GeometryTemplate.seaFloorLevel 16
+
+Water.baseTex texture/Water
+
+ObjectTemplate.create SimpleObject terrainObject
+ObjectTemplate.geometry terrainGeometry
+objectTemplate.createNotInGrid 1
+
+Object.create terrainObject
+Object.setName track
+Object.absolutePosition 0/0/0
+Object.rotation 0/0/0
+
+Console.worldSize 4096
+
+Terrain.ShadowAmbient 70/70/70
+Terrain.ShadowBorderFadeTime 0.075
+Terrain.ShadowSamplingCullY 5

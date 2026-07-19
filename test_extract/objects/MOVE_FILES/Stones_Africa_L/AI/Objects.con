@@ -1,0 +1,18 @@
+rem *** Plugins ***
+aiTemplatePlugIn.create Cover Stones_Africa_LCover
+aiTemplatePlugIn.coverValue 5.0
+
+aiTemplatePlugIn.create Physical Stones_Africa_LPhysical
+
+rem *** AITemplate ***
+aiTemplate.create Stones_Africa_L_M1
+aiTemplate.addType ITCover
+aiTemplate.addType ITNoTemperature
+aiTemplate.degeneration 1
+aiTemplate.allowedTimeDiff -1
+aiTemplate.basicTemp 1
+aiTemplate.commonKnowledge 1
+aiTemplate.addPlugIn Stones_Africa_LCover
+aiTemplate.addPlugIn Stones_Africa_LPhysical
+
+

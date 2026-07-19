@@ -1,0 +1,81 @@
+newPatch
+############
+### Near ###
+############
+load @ROOT/Sound/@RTD/harbdock.wav
+loop
+minDistance 5
+relativePosition 0/0/0
+randomStartPitch 0.25 / 0.0
+volume .6
+*** Offset Pitch ***
+beginEffect
+	controlDestination Pitch
+	controlSource Default
+	envelope Linear
+	param 0.9
+	param 0
+endEffect
+
+*** Distance Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 50
+	param 90
+	param 1
+	param -1	
+endEffect
+
+newPatch
+############
+### Near ###
+############
+load @ROOT/Sound/@RTD/Factory_Rumble.wav
+loop
+minDistance 10
+relativePosition 5/0/0
+randomStartPitch 0.5 / 0.0
+volume .6
+*** Offset Pitch ***
+beginEffect
+	controlDestination Pitch
+	controlSource Default
+	envelope Linear
+	param 0.7
+	param 0
+endEffect
+
+*** Distance Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 29
+	param 60
+	param 1
+	param -1	
+endEffect
+
+
+################
+### Near/Far ###
+################
+load @ROOT/Sound/@RTD/harbdock.wav
+loop
+minDistance 10
+relativePosition -5/0/0
+randomStartPitch 0.3 / 0.0
+volume .6
+
+*** Distance Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 80
+	param 110
+	param 1
+	param -1	
+endEffect

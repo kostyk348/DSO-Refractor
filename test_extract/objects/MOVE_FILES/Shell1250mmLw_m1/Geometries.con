@@ -1,0 +1,8 @@
+GeometryTemplate.create StandardMesh Shell1250mmLw_m1
+GeometryTemplate.file Shell1250mmLw_m1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 5
+GeometryTemplate.setLodDistance 2 10
+GeometryTemplate.setLodDistance 3 15
+GeometryTemplate.setLodDistance 4 20
+GeometryTemplate.setLodDistance 5 25

@@ -1,0 +1,90 @@
+ObjectTemplate.create HandFireArms Mp40
+ObjectTemplate.itemIndex 3
+ObjectTemplate.projectileTemplate mp40Projectile
+rem ObjectTemplate.setTracerTemplate Tracer_Projectile CRD_UNIFORM/2/4/0
+ObjectTemplate.projectilePosition 0/0/0.5
+ObjectTemplate.magSize 32
+ObjectTemplate.numOfMag 5
+ObjectTemplate.magType 0
+ObjectTemplate.reloadtime 4.3
+ObjectTemplate.roundOfFire 9
+ObjectTemplate.GUIIndex 7
+objectTemplate.aiTemplate MP40AI
+ObjectTemplate.zoomFov 0.6
+ObjectTemplate.altFireOnce 1
+ObjectTemplate.soldierZoomFov 0.9 
+ObjectTemplate.soldierZoomPosition -0.02/-0.0/-0.08
+ObjectTemplate.soldierCameraPosition 0.01/-0.04/0.09
+ObjectTemplate.addRootSpeed 0
+ObjectTemplate.AmmoType	1
+
+rem ObjectTemplate.autoReload 1
+Rem *** Deviation Begin *****
+
+ObjectTemplate.velocity 400
+ObjectTemplate.setRecoilForceUp CRD_UNIFORM/0.21/0.25/0
+ObjectTemplate.setRecoilForceLeftRight CRD_UNIFORM/-0.1/0.1/0
+ObjectTemplate.setHasRecoilForce 1
+ObjectTemplate.setGoBackOnRecoil 1
+
+ObjectTemplate.setFireDev 2.0 0.35 0.06
+ObjectTemplate.setDevMod 1.2 0.9 0.7
+ObjectTemplate.setMinDev 0.4
+ObjectTemplate.setTurnDev 0 0 0 0
+ObjectTemplate.setSpeedDev 0.8 0.2 0.2 0.1
+ObjectTemplate.setMiscDev 2.5 2.5 0.1
+
+Rem *** Deviation  End *****
+
+ObjectTemplate.fireInCameraDof 1
+ObjectTemplate.loadSoundScript Sounds/mp40.ssc
+
+ObjectTemplate.createSkeleton animations/Mp40.ske
+ObjectTemplate.useSkeletonPartAsMain Mp40
+ObjectTemplate.addTemplate Mp40Lod
+
+ObjectTemplate.addTemplate e_MuzzThomp
+ObjectTemplate.setInputId -1
+ObjectTemplate.startoneffects 0
+ObjectTemplate.setPosition 0/0.023/0.43
+ObjectTemplate.setRotation 0/0/0
+
+ObjectTemplate.addTemplate e_Shell9mm
+ObjectTemplate.setInputId -1
+ObjectTemplate.startoneffects 0
+ObjectTemplate.setPosition 0/0.02/0.43
+ObjectTemplate.setRotation 0/0/0
+
+
+ObjectTemplate.networkableInfo HandFireArmsInfo
+
+rem ** Objects
+ObjectTemplate.create SimpleObject Mp40Trigger
+ObjectTemplate.geometry Mp40Trigger
+
+ObjectTemplate.create SimpleObject Mp40Plupp
+ObjectTemplate.geometry Mp40Plupp
+
+ObjectTemplate.create SimpleObject Mp40Mag
+ObjectTemplate.geometry Mp40Mag
+
+ObjectTemplate.create SimpleObject Mp40Simple
+ObjectTemplate.geometry Shad_Mp40
+
+ObjectTemplate.create AnimatedBundle Mp40Complex
+ObjectTemplate.geometry Mp40
+ObjectTemplate.hasDynamicShadow 1
+ObjectTemplate.createSkeleton animations/Mp40.ske
+ObjectTemplate.addTemplate Mp40Trigger
+ObjectTemplate.bindToSkeletonPart Trigger
+ObjectTemplate.addTemplate Mp40Plupp
+ObjectTemplate.bindToSkeletonPart plupp
+ObjectTemplate.addTemplate Mp40Mag
+ObjectTemplate.bindToSkeletonPart Mag
+
+ObjectTemplate.create LodObject Mp40Lod
+ObjectTemplate.lodselector HandWeaponLodSelector
+ObjectTemplate.addTemplate Mp40Complex
+ObjectTemplate.addTemplate Mp40Simple
+
+

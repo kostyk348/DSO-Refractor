@@ -1,0 +1,7 @@
+ObjectTemplate.create SimpleObject weldtank_M1
+ObjectTemplate.geometry weldtank_M1
+ObjectTemplate.setHasCollisionPhysics 1
+
+
+
+

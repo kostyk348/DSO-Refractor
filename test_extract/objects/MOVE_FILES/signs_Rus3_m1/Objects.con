@@ -1,0 +1,3 @@
+ObjectTemplate.create SimpleObject signs_Rus3_m1
+ObjectTemplate.geometry signs_Rus3_m1
+ObjectTemplate.setHasCollisionPhysics 0

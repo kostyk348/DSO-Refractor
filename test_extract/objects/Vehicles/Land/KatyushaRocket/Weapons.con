@@ -1,0 +1,29 @@
+ObjectTemplate.create Projectile KatyushaRocket
+ObjectTemplate.geometry r_rocket_m1
+ObjectTemplate.timeToLive CRD_NONE/10/0/0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.drag 1.0
+ObjectTemplate.mass 20
+ObjectTemplate.startEffectTemplate e_KatyushaFume
+ObjectTemplate.hasCollisionEffect 1
+ObjectTemplate.hasOnTimeEffect 0
+ObjectTemplate.invisibleAtEndEffect 0
+ObjectTemplate.dieAfterColl 1
+ObjectTemplate.stopAtEndEffect 0
+ObjectTemplate.invisible 0
+ObjectTemplate.damageType 1
+ObjectTemplate.material 240
+ObjectTemplate.material2 201
+ObjectTemplate.radius 15
+ObjectTemplate.ForceOnExplosion 15
+
+ObjectTemplate.addTemplate KatyushaRocket_Wing
+ObjectTemplate.setPosition 0/0/-1.5
+ObjectTemplate.setRotation 0/0/0
+
+ObjectTemplate.addTemplate KatyushaRocket_Engine
+ObjectTemplate.setPosition 0/0/-2
+ObjectTemplate.setRotation 0/0/0
+
+
+

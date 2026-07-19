@@ -1,0 +1,3 @@
+ObjectTemplate.create SimpleObject civiltable_m1
+ObjectTemplate.geometry civiltable_m1
+ObjectTemplate.setHasCollisionPhysics 1

@@ -1,0 +1,10 @@
+ObjectTemplate.create Bundle Afri_bush_SandStorm
+ObjectTemplate.setHasCollisionPhysics 0
+
+ObjectTemplate.addTemplate Afri_bush5_M1
+
+ObjectTemplate.addTemplate e_dustWind
+ObjectTemplate.setInputId 0
+ObjectTemplate.startoneffects 1
+ObjectTemplate.setPosition 0/1/0
+ObjectTemplate.setRotation 0/0/0

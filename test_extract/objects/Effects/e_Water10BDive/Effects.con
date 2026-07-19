@@ -1,0 +1,13 @@
+
+
+rem *** e_Water10BDive ***
+ObjectTemplate.create EffectBundle e_Water10BDive
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.timeToLive CRD_NONE/-1/0/0
+rem -------------------------------------
+ObjectTemplate.addTemplate Em_Water10BStreak
+ObjectTemplate.setRotation 90/0/0
+rem -------------------------------------
+ObjectTemplate.minDistanceUnderwaterSurface 0
+ObjectTemplate.maxDistanceUnderwaterSurface 3
+

@@ -1,0 +1,272 @@
+
+
+rem *** T34 ***
+ObjectTemplate.create PlayerControlObject T34
+ObjectTemplate.setNetworkableInfo T34BodyInfo
+ObjectTemplate.saveInSeparateFile 1
+objectTemplate.cullRadiusScale 5
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasDynamicShadow 1
+ObjectTemplate.explosionRadius 8
+ObjectTemplate.explosionDamage 5
+ObjectTemplate.drag 2
+ObjectTemplate.mass 25000
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.hasArmor 1
+ObjectTemplate.hitpoints 75
+ObjectTemplate.maxhitpoints 75
+ObjectTemplate.material 50
+ObjectTemplate.criticalDamage 12
+ObjectTemplate.hpLostWhileCriticalDamage 1.5
+ObjectTemplate.explosionForceMod 6
+ObjectTemplate.addArmorEffect 30 e_PanzDamage 0/1/-1.6
+ObjectTemplate.addArmorEffect 15 e_PanzFire 0/1/-1.4
+ObjectTemplate.addArmorEffect 0 e_ExplGas 0/0/0
+ObjectTemplate.addArmorEffect 0 e_scrapmetal 0/0/0
+ObjectTemplate.addArmorEffect -1 e_explWater01 0/0/0
+ObjectTemplate.damageFromWater 1
+ObjectTemplate.aiTemplate T34
+rem -------------------------------------
+ObjectTemplate.addTemplate lodT34
+rem -------------------------------------
+ObjectTemplate.setSoldierExitLocation -2.5/0/0 0/0/0
+ObjectTemplate.GUIIndex 74
+ObjectTemplate.setVehicleCategory VCLand
+ObjectTemplate.setVehicleType  VTHeavyTank
+
+
+rem *** lodT34 ***
+ObjectTemplate.create LodObject lodT34
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+rem -------------------------------------
+ObjectTemplate.addTemplate T34Complex
+ObjectTemplate.addTemplate T34Simple
+ObjectTemplate.addTemplate T34Wreck
+rem -------------------------------------
+ObjectTemplate.lodSelector T34LodSelector
+
+
+rem *** T34Complex ***
+ObjectTemplate.create Bundle T34Complex
+ObjectTemplate.geometry T34_Hull_M1
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+rem -------------------------------------
+ObjectTemplate.addTemplate T34Entry
+ObjectTemplate.setPosition 0/0/1.2
+ObjectTemplate.addTemplate T34Entry
+ObjectTemplate.setPosition 0/0/-1.199
+ObjectTemplate.addTemplate T34Engine
+ObjectTemplate.addTemplate T34Tower
+ObjectTemplate.setPosition 0/0.841/0.405
+ObjectTemplate.addTemplate T34HullHatch
+ObjectTemplate.setPosition -0.359/0.71/1.78
+rem -------------------------------------
+
+
+rem *** T34Entry ***
+ObjectTemplate.create EntryPoint T34Entry
+ObjectTemplate.setEntryRadius 4.1
+
+
+rem *** T34TrackL ***
+ObjectTemplate.create AnimatedBundle T34TrackL
+ObjectTemplate.loadSoundScript Sounds/T34TrackL.ssc
+ObjectTemplate.geometry T-34_TrackL_M1
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.createSkeleton animations/T-34_TrackL_M1.ske
+ObjectTemplate.setAnimatedTextureSpeed 0.006/0
+rem -------------------------------------
+ObjectTemplate.addTemplate T34WheelL1
+ObjectTemplate.setPosition -0.009/0.15/2.68
+ObjectTemplate.addTemplate T34WheelL2
+ObjectTemplate.setPosition -0.009/0.1/-2.649
+ObjectTemplate.addTemplate T34WheelL3
+ObjectTemplate.setPosition -0.009/-0.15/-1.919
+ObjectTemplate.useAsBone 0/-0.15/0
+ObjectTemplate.setBoneOriginOffset 0/0/0
+ObjectTemplate.addTemplate T34WheelL3Dummy
+ObjectTemplate.setPosition -0.009/-0.15/-0.949
+ObjectTemplate.useAsBone 0/-0.15/0
+ObjectTemplate.setBoneOriginOffset 0/0/0
+ObjectTemplate.addTemplate T34WheelL3DummySmoke
+ObjectTemplate.setPosition -0.009/-0.15/0
+ObjectTemplate.useAsBone 0/-0.15/0
+ObjectTemplate.setBoneOriginOffset 0/0/0
+ObjectTemplate.addTemplate T34WheelL3Dummy
+ObjectTemplate.setPosition -0.009/-0.15/0.95
+ObjectTemplate.useAsBone 0/-0.15/0
+ObjectTemplate.setBoneOriginOffset 0/0/0
+ObjectTemplate.addTemplate T34WheelL3
+ObjectTemplate.setPosition -0.009/-0.15/1.92
+ObjectTemplate.useAsBone 0/-0.15/0
+ObjectTemplate.setBoneOriginOffset 0/0/0
+rem -------------------------------------
+
+
+rem *** T34WheelL1 ***
+ObjectTemplate.create SimpleObject T34WheelL1
+ObjectTemplate.geometry T34_whe1L_M1
+ObjectTemplate.hasResponsePhysics 1
+
+
+rem *** T34WheelL2 ***
+ObjectTemplate.create SimpleObject T34WheelL2
+ObjectTemplate.geometry T34_whe2L_M1
+ObjectTemplate.hasResponsePhysics 1
+
+
+rem *** T34TrackR ***
+ObjectTemplate.create AnimatedBundle T34TrackR
+ObjectTemplate.loadSoundScript Sounds/T34TrackR.ssc
+ObjectTemplate.geometry T-34_TrackR_M1
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.createSkeleton animations/T-34_TrackR_M1.ske
+ObjectTemplate.setAnimatedTextureSpeed 0.006/0
+rem -------------------------------------
+ObjectTemplate.addTemplate T34WheelR1
+ObjectTemplate.setPosition 0.01/0.15/2.68
+ObjectTemplate.addTemplate T34WheelR2
+ObjectTemplate.setPosition 0.01/0.1/-2.649
+ObjectTemplate.addTemplate T34WheelR3
+ObjectTemplate.setPosition 0.01/-0.15/-1.919
+ObjectTemplate.useAsBone 0/-0.15/0
+ObjectTemplate.setBoneOriginOffset 0/0/0
+ObjectTemplate.addTemplate T34WheelR3Dummy
+ObjectTemplate.setPosition 0.01/-0.15/-0.949
+ObjectTemplate.useAsBone 0/-0.15/0
+ObjectTemplate.setBoneOriginOffset 0/0/0
+ObjectTemplate.addTemplate T34WheelR3DummySmoke
+ObjectTemplate.setPosition 0.01/-0.15/0
+ObjectTemplate.useAsBone 0/-0.15/0
+ObjectTemplate.setBoneOriginOffset 0/0/0
+ObjectTemplate.addTemplate T34WheelR3Dummy
+ObjectTemplate.setPosition 0.01/-0.15/0.95
+ObjectTemplate.useAsBone 0/-0.15/0
+ObjectTemplate.setBoneOriginOffset 0/0/0
+ObjectTemplate.addTemplate T34WheelR3
+ObjectTemplate.setPosition 0.01/-0.15/1.92
+ObjectTemplate.useAsBone 0/-0.15/0
+ObjectTemplate.setBoneOriginOffset 0/0/0
+rem -------------------------------------
+
+
+rem *** T34WheelR1 ***
+ObjectTemplate.create SimpleObject T34WheelR1
+ObjectTemplate.geometry T34_whe1R_M1
+ObjectTemplate.hasResponsePhysics 1
+
+
+rem *** T34WheelR2 ***
+ObjectTemplate.create SimpleObject T34WheelR2
+ObjectTemplate.geometry T34_whe2R_M1
+ObjectTemplate.hasResponsePhysics 1
+
+
+rem *** T34Tower ***
+ObjectTemplate.create RotationalBundle T34Tower
+ObjectTemplate.setNetworkableInfo T34TurretInfo
+ObjectTemplate.setAttachToListener 1
+ObjectTemplate.loadSoundScript Sounds/T34tower.ssc
+ObjectTemplate.geometry T34_Tower_M1
+ObjectTemplate.hasCollisionPhysics 1
+rem -------------------------------------
+ObjectTemplate.addTemplate T34GunBase
+ObjectTemplate.setPosition 0/0.455/0.996
+ObjectTemplate.addTemplate T34TowerHatch1
+ObjectTemplate.setPosition -0.321/1.105/-0.861
+ObjectTemplate.addTemplate T34TowerHatch2
+ObjectTemplate.setPosition -0.321/1.105/-0.221
+rem -------------------------------------
+ObjectTemplate.setMaxSpeed 20/25/0
+ObjectTemplate.setAcceleration 1000/0/0
+ObjectTemplate.setInputToYaw c_PIMouseLookX
+ObjectTemplate.setInputToPitch 
+ObjectTemplate.setInputToRoll 
+
+
+rem *** T34GunBase ***
+ObjectTemplate.create RotationalBundle T34GunBase
+ObjectTemplate.setNetworkableInfo T34GunInfo
+ObjectTemplate.setAttachToListener 1
+ObjectTemplate.loadSoundScript Sounds/T34GunBase.ssc
+rem -------------------------------------
+ObjectTemplate.addTemplate lodT34Cockpit
+ObjectTemplate.addTemplate T34GunBarrel
+ObjectTemplate.addTemplate Coaxial_MG42
+ObjectTemplate.setPosition 0.5/0/-0.699
+ObjectTemplate.addTemplate T34Camera
+ObjectTemplate.setPosition -0.789/0/0.04
+rem -------------------------------------
+ObjectTemplate.setMinRotation 0/-20/0
+ObjectTemplate.setMaxRotation 0/5/0
+ObjectTemplate.setMaxSpeed 15/15/0
+ObjectTemplate.setAcceleration 0/1000/0
+ObjectTemplate.setInputToPitch c_PIMouseLookY
+
+
+rem *** lodT34Cockpit ***
+ObjectTemplate.create LodObject lodT34Cockpit
+rem -------------------------------------
+ObjectTemplate.addTemplate T34CockpitExternal
+ObjectTemplate.addTemplate T34CockpitInternal
+ObjectTemplate.setPosition 0.3/0/0.2
+rem -------------------------------------
+ObjectTemplate.lodSelector T34cockpitSelector
+
+
+rem *** T34CockpitExternal ***
+ObjectTemplate.create SimpleObject T34CockpitExternal
+ObjectTemplate.geometry T34_Canon1_M1
+ObjectTemplate.hasCollisionPhysics 1
+
+rem *** T34CockpitInternal ***
+ObjectTemplate.create SimpleObject T34CockpitInternal
+ObjectTemplate.geometry 1p_T34_Gunner_m1
+
+
+rem *** T34cockpitSelector ***
+LodSelectorTemplate.create DistCompareSelector T34cockpitSelector
+LodSelectorTemplate.addLodDistance 1
+LodSelectorTemplate.addLodComparison 0.5
+
+
+rem *** T34Camera ***
+ObjectTemplate.create Camera T34Camera
+ObjectTemplate.setMaxSpeed 0/0/0
+ObjectTemplate.setAcceleration 0/0/0
+
+
+rem *** T34TowerHatch1 ***
+ObjectTemplate.create SimpleObject T34TowerHatch1
+ObjectTemplate.geometry T34_Tower_Hatch1_M1
+
+
+rem *** T34TowerHatch2 ***
+ObjectTemplate.create SimpleObject T34TowerHatch2
+ObjectTemplate.geometry T34_Tower_Hatch2_M1
+
+
+rem *** T34HullHatch ***
+ObjectTemplate.create SimpleObject T34HullHatch
+ObjectTemplate.geometry T34_Hull_Hatch_M1
+
+
+rem *** T34Simple ***
+ObjectTemplate.create SimpleObject T34Simple
+ObjectTemplate.geometry T34_Hull_L1
+
+
+rem *** T34Wreck ***
+ObjectTemplate.create SimpleObject T34Wreck
+ObjectTemplate.geometry Wreck_T34_M1
+
+
+rem *** T34LodSelector ***
+LodSelectorTemplate.create DistCompareSelector2 T34LodSelector
+LodSelectorTemplate.hasDestroyedLod 1
+LodSelectorTemplate.addLodDistance 100

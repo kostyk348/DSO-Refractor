@@ -1,0 +1,4 @@
+GeometryTemplate.create TreeMesh Afri_tree5_M1
+GeometryTemplate.file Afri_tree5_M1
+GeometryTemplate.billboard 1
+GeometryTemplate.billboardDistance 50

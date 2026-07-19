@@ -1,0 +1,4 @@
+ObjectTemplate.create SimpleObject well_eu_M1
+ObjectTemplate.geometry well_eu_M1
+ObjectTemplate.setHasCollisionPhysics 1
+

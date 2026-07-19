@@ -1,0 +1,347 @@
+############
+### SAND ###
+############
+newPatch
+
+load @ROOT/Sound/@RTD/SOWAMTL1.wav
+randomStartPitch 0.03 / 0.03
+minDistance 1
+volume .6
+*** Distance Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 4
+	param 10
+	param 1
+	param -1	
+endEffect
+
+load @ROOT/Sound/@RTD/SOWAMTL2.wav
+randomStartPitch 0.03 / 0.03
+minDistance 1
+volume .6
+*** Distance Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 4
+	param 10
+	param 1
+	param -1	
+endEffect
+
+load @ROOT/Sound/@RTD/SOWAMTL3.wav
+randomStartPitch 0.03 / 0.03
+minDistance 1
+volume .6
+*** Distance Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 4
+	param 10
+	param 1
+	param -1	
+endEffect
+
+load @ROOT/Sound/@RTD/SOWAMTL4.wav
+randomStartPitch 0.03 / 0.03
+minDistance 1
+volume .6
+*** Distance Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 4
+	param 10
+	param 1
+	param -1	
+endEffect
+
+randomPlay 1
+
+###################
+### METAL DUMMY ###
+###################
+newPatch
+load @ROOT/Sound/@RTD/SOWAMTL1.wav
+volume 0
+
+##################
+### WOOD DUMMY ###
+##################
+newPatch
+load @ROOT/Sound/@RTD/SOWAWD1.wav
+volume 0
+
+
+######################
+### CONCRETE DUMMY ###
+######################
+newPatch
+load @ROOT/Sound/@RTD/SOWACRT1.wav
+volume 0
+
+
+###################
+### GRASS DUMMY ###
+###################
+newPatch
+load @ROOT/Sound/@RTD/SOWAGRASS1.wav
+volume 0
+
+
+####################
+### Gravel DUMMY ###
+####################
+newPatch
+load @ROOT/Sound/@RTD/SOWAROAD1.wav
+volume 0
+
+
+####################
+### Frozen DUMMY ###
+####################
+newPatch
+load @ROOT/Sound/@RTD/SOWAICE1.wav
+volume 0
+
+
+##############
+### FABRIC ###
+##############
+newPatch
+
+load @ROOT/Sound/@RTD/SoFa1.wav
+randomStartPitch 0.03 / 0.03
+minDistance 1
+volume .3
+*** Distance Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 3
+	param 4
+	param 1
+	param -1	
+endEffect
+
+*** Time Delay ***
+beginEffect
+	controlDestination Volume
+	controlSource Time
+	envelope Ramp
+	param 0.30
+	param 0.30
+	param 0
+	param 1
+endEffect
+
+trigger Volume
+
+load @ROOT/Sound/@RTD/SoFa2.wav
+randomStartPitch 0.03 / 0.03
+minDistance 1
+volume .8
+*** Distance Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 3
+	param 4
+	param 1
+	param -1	
+endEffect
+
+*** Time Delay ***
+beginEffect
+	controlDestination Volume
+	controlSource Time
+	envelope Ramp
+	param 0.30
+	param 0.30
+	param 0
+	param 1
+endEffect
+
+trigger Volume
+
+load @ROOT/Sound/@RTD/SoFa3.wav
+randomStartPitch 0.03 / 0.03
+minDistance 1
+volume .8
+*** Distance Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 3
+	param 4
+	param 1
+	param -1	
+endEffect
+
+*** Time Delay ***
+beginEffect
+	controlDestination Volume
+	controlSource Time
+	envelope Ramp
+	param 0.30
+	param 0.30
+	param 0
+	param 1
+endEffect
+
+trigger Volume
+
+load @ROOT/Sound/@RTD/SoFa4.wav
+randomStartPitch 0.03 / 0.03
+minDistance 1¨
+volume .8
+*** Distance Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 3
+	param 4
+	param 1
+	param -1	
+endEffect
+
+*** Time Delay ***
+beginEffect
+	controlDestination Volume
+	controlSource Time
+	envelope Ramp
+	param 0.30
+	param 0.30
+	param 0
+	param 1
+endEffect
+
+trigger Volume
+
+randomPlay 1
+
+###############
+### HARNESS ###
+###############
+newPatch
+
+load @ROOT/Sound/@RTD/SoMewa1.wav
+randomStartPitch 0.03 / 0.03
+minDistance 1
+volume .7
+*** Distance Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 2
+	param 3
+	param 1
+	param -1	
+endEffect
+
+*** Time Delay ***
+beginEffect
+	controlDestination Volume
+	controlSource Time
+	envelope Ramp
+	param 0.18
+	param 0.18
+	param 0
+	param 1
+endEffect
+trigger Volume
+
+load @ROOT/Sound/@RTD/SoMewa2.wav
+randomStartPitch 0.03 / 0.03
+minDistance 1
+volume .7
+*** Distance Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 2
+	param 3
+	param 1
+	param -1	
+endEffect
+
+*** Time Delay ***
+beginEffect
+	controlDestination Volume
+	controlSource Time
+	envelope Ramp
+	param 0.18
+	param 0.18
+	param 0
+	param 1
+endEffect
+trigger Volume
+
+load @ROOT/Sound/@RTD/SoMewa3.wav
+randomStartPitch 0.03 / 0.03
+minDistance 1
+volume .7
+*** Distance Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 2
+	param 3
+	param 1
+	param -1	
+endEffect
+
+*** Time Delay ***
+beginEffect
+	controlDestination Volume
+	controlSource Time
+	envelope Ramp
+	param 0.18
+	param 0.18
+	param 0
+	param 1
+endEffect
+trigger Volume
+
+load @ROOT/Sound/@RTD/SoMewa4.wav
+randomStartPitch 0.03 / 0.03
+minDistance 1
+volume .7
+*** Distance Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 2
+	param 3
+	param 1
+	param -1	
+endEffect
+
+*** Time Delay ***
+beginEffect
+	controlDestination Volume
+	controlSource Time
+	envelope Ramp
+	param 0.18
+	param 0.18
+	param 0
+	param 1
+endEffect
+trigger Volume
+
+randomPlay 1

@@ -1,0 +1,80 @@
+console.useRelativePaths 0 
+
+
+
+
+rem run ai/spawnBot KTAssault 1901.000000/69.294502/647.000000 0.000000/0.000000/0.000000 StandardWeights 1 axis_tank_right NoEquipment
+
+rem run ai/spawnBot KTAssault 1860.000000/69.598900/786.000000 0.000000/0.000000/0.000000 StandardWeights 1 axis_tank_left NoEquipment
+
+rem run ai/spawnBot KTAssault 1881.000000/74.398903/679.000000 0.000000/0.000000/0.000000 StandardWeights 1 axis_middlesoldier1 NoEquipment
+
+rem run ai/spawnBot KTAssault 1744.000000/79.198799/569.000000 0.000000/0.000000/0.000000 StandardWeights 1 axis_leftsoldier1 NoEquipment
+
+
+run ai/spawnBot KTScout 1832.000000/74.398903/657.000000 0.000000/0.000000/0.000000 StandardWeights 1 axis_middlesoldier NoEquipment
+
+run ai/spawnBot KTScout 1927.000000/81.598801/625.000000 0.000000/0.000000/0.000000 StandardWeights 1 axis_middlesoldier2 NoEquipment
+
+run ai/spawnBot KTMedic 1732.000000/67.198997/587.000000 0.000000/0.000000/0.000000 StandardWeights 1 axis_tank_tigerleft NoEquipment
+
+run ai/spawnBot KTAssault 1960.000000/71.998901/543.000000 0.000000/0.000000/0.000000 StandardWeights 1 axis_rightsoldier2 NoEquipment
+
+run ai/spawnBot KTAssault 1963.000000/67.198997/519.000000 0.000000/0.000000/0.000000 StandardWeights 1 axis_rightsoldier3 NoEquipment
+
+run ai/spawnBot KTAssault 1866.000000/79.198799/726.000000 0.000000/0.000000/0.000000 StandardWeights 1 axis_middlesoldier3 NoEquipment
+
+run ai/spawnBot KTAssault 1763.000000/74.398903/573.000000 0.000000/0.000000/0.000000 StandardWeights 1 axis_hanomag_left NoEquipment
+
+run ai/spawnBot KTEngineer 1744.000000/69.598900/581.000000 0.000000/0.000000/0.000000 StandardWeights 1 axis_rightsoldier4 NoEquipment
+
+run ai/spawnBot KTAssault 1976.000000/81.598801/850.000000 0.000000/0.000000/0.000000 StandardWeights 2 allied_leftsoldier1 NoEquipment
+
+run ai/spawnBot KTAssault 1983.000000/79.198799/831.000000 0.000000/0.000000/0.000000 StandardWeights 2 allied_leftsoldier2 NoEquipment
+
+run ai/spawnBot KTAssault 2091.000000/69.598900/618.000000 0.000000/0.000000/0.000000 StandardWeights 2 allied_right2soldier1 NoEquipment
+
+run ai/spawnBot KTScout 2232.000000/79.198799/840.000000 0.000000/0.000000/0.000000 StandardWeights 2 allied_secondline_leftsoldier NoEquipment
+
+run ai/spawnBot KTScout 2037.000000/81.598801/753.000000 0.000000/0.000000/0.000000 StandardWeights 2 allied_secondline_leftsoldier2 NoEquipment
+
+run ai/spawnBot KTEngineer 2549.000000/70.651604/822.000000 0.000000/0.000000/0.000000 StandardWeights 2 allied_secondline_middlesoldier NoEquipment
+
+run ai/spawnBot KTEngineer 2569.000000/76.798798/840.000000 0.000000/0.000000/0.000000 StandardWeights 2 allied_secondline_rightsoldier NoEquipment
+
+run ai/spawnBot KTAT 2247.000000/74.398903/726.000000 0.000000/0.000000/0.000000 StandardWeights 2 allied_secondline_rightsoldier2 NoEquipment
+
+
+rem run ai/spawnBot KTAT 2052.000000/71.998901/723.000000 0.000000/0.000000/0.000000 StandardWeights 2 allied_secondline_middletank NoEquipment
+
+rem run ai/spawnBot KTAT 2054.000000/71.998901/743.000000 0.000000/0.000000/0.000000 StandardWeights 2 allied_secondline_middletank2 NoEquipment
+
+rem run ai/spawnBot KTMedic 2082.000000/69.598900/630.000000 0.000000/0.000000/0.000000 StandardWeights 2 allied_secondline_middlewilly NoEquipment
+
+rem run ai/spawnBot KTEngineer 2241.000000/69.598900/707.000000 0.000000/0.000000/0.000000 StandardWeights 2 allied_secondline_rightsoldier3 NoEquipment
+
+
+
+
+beginrem
+
+
+run ai/spawnBot KTAssault 1810.000000/67.198997/547.000000 0.000000/0.000000/0.000000 StandardWeights 1 axis_tank_right2 NoEquipment
+
+run ai/spawnBot KTMedic 1720.000000/67.198997/712.000000 0.000000/0.000000/0.000000 StandardWeights 1 axis_leftsoldier2 NoEquipment
+
+run ai/spawnBot KTAssault 1846.000000/76.798798/781.000000 0.000000/0.000000/0.000000 StandardWeights 1 axis_leftsoldier3 NoEquipment
+
+run ai/spawnBot KTEngineer 1734.000000/67.198997/589.000000 0.000000/0.000000/0.000000 StandardWeights 1 axis_basesoldier NoEquipment
+
+run ai/spawnBot KTAssault 2146.000000/67.198997/577.000000 0.000000/0.000000/0.000000 StandardWeights 2 allied_right1 NoEquipment
+
+run ai/spawnBot KTMedic 2066.000000/69.598900/741.000000 0.000000/0.000000/0.000000 StandardWeights 2 allied_tank_middle NoEquipment
+
+run ai/spawnBot KTAssault 2028.000000/71.998901/731.000000 0.000000/0.000000/0.000000 StandardWeights 2 allied_middlesoldier1 NoEquipment
+
+run ai/spawnBot KTEngineer 2046.000000/69.598900/714.000000 0.000000/0.000000/0.000000 StandardWeights 2 allied_middlesoldier2 NoEquipment
+
+
+
+console.useRelativePaths 1

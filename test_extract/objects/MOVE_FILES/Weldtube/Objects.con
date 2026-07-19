@@ -1,0 +1,4 @@
+ObjectTemplate.create SimpleObject weldtube_m1
+ObjectTemplate.geometry weldtube_m1
+objectTemplate.aiTemplate weldtube_m1
+ObjectTemplate.setHasCollisionPhysics 1

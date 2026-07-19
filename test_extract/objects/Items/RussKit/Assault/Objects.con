@@ -1,0 +1,12 @@
+ObjectTemplate.create Kit Rus_Assault
+ObjectTemplate.geometry Kit_Allies_Assault
+ObjectTemplate.setHasCollisionPhysics 1
+ObjectTemplate.networkableInfo KitInfo
+ObjectTemplate.addTemplate Russ_Helmet
+ObjectTemplate.addTemplate Russian_hippack
+
+ObjectTemplate.addTemplate Bar1918
+ObjectTemplate.addTemplate Colt
+ObjectTemplate.addTemplate KnifeAllies
+ObjectTemplate.addTemplate GrenadeAllies
+ObjectTemplate.aitemplate Assault

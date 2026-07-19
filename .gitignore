@@ -1,0 +1,11 @@
+*.o
+*.a
+*.so
+dsr-bin
+rfatool
+meshview
+texture_list
+test_rfa
+/tmp/rfa_sm/
+/tmp/rfa_extract/
+/tmp/*.c

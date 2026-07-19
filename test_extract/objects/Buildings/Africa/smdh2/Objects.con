@@ -1,0 +1,79 @@
+ObjectTemplate.create Bundle smdh2_M1
+ObjectTemplate.setHasCollisionPhysics 1
+objectTemplate.aiTemplate smdh2_m1
+ObjectTemplate.addTemplate lodsmdh2
+
+LodSelectorTemplate.create DistanceSelector smdh2Selector
+LodSelectorTemplate.addLodDistance 70
+ObjectTemplate.create LodObject lodsmdh2
+ObjectTemplate.lodselector smdh2Selector
+ObjectTemplate.addTemplate smdh2Interior
+ObjectTemplate.addTemplate smdh2Exterior
+
+ObjectTemplate.create bundle smdh2Interior
+ObjectTemplate.geometry smdh2_m1
+rem ----------------------------------------------
+
+ObjectTemplate.addTemplate PajarB_M1
+ObjectTemplate.setPosition -5.7/0.18/-1.1
+ObjectTemplate.setRotation 0/0/180
+
+ObjectTemplate.addTemplate PajarB_M1
+ObjectTemplate.setPosition -5.7/0.18/-3.3
+ObjectTemplate.setRotation 0/0/180
+
+ObjectTemplate.addTemplate Pajar1_M1
+ObjectTemplate.setPosition -3.5/3.05/-1
+ObjectTemplate.setRotation 90/0/180
+
+ObjectTemplate.addTemplate Pajar1_M1
+ObjectTemplate.setPosition 3.8/0.18/0
+ObjectTemplate.setRotation 90/0/180
+
+ObjectTemplate.addTemplate africarpet1_m1
+ObjectTemplate.setPosition -1/0.19/0
+ObjectTemplate.setRotation 0/0/0
+
+
+ObjectTemplate.addTemplate Pacificfurni1_m1
+ObjectTemplate.setPosition -5.8/0.18/1
+ObjectTemplate.setRotation 90/0/0
+
+ObjectTemplate.addTemplate Pachair_M1
+ObjectTemplate.setPosition -1/0.18/-3.3
+ObjectTemplate.setRotation 0/0/0
+
+ObjectTemplate.addTemplate Pachair_M1
+ObjectTemplate.setPosition 1/0.18/-3.3
+ObjectTemplate.setRotation 0/0/0
+
+rem ----------------------------------------------
+
+ObjectTemplate.addTemplate Patable_M1
+ObjectTemplate.setPosition 0/3.05/0
+ObjectTemplate.setRotation 90/0/180
+
+
+ObjectTemplate.addTemplate bambrug_M1
+ObjectTemplate.setPosition 1.7/3.05/0
+ObjectTemplate.setRotation 0/0/180
+
+ObjectTemplate.addTemplate bambrug_M1
+ObjectTemplate.setPosition -1.7/3.05/0
+ObjectTemplate.setRotation 0/0/180
+
+ObjectTemplate.addTemplate bambrug_M1
+ObjectTemplate.setPosition 0/3.05/-1.7
+ObjectTemplate.setRotation 90/0/180
+
+ObjectTemplate.addTemplate bambrug_M1
+ObjectTemplate.setPosition 0/3.05/1.7
+ObjectTemplate.setRotation 90/0/180
+
+
+rem ------------------------------------------------
+ObjectTemplate.create SimpleObject smdh2Exterior
+ObjectTemplate.geometry smdh2_m2
+
+
+

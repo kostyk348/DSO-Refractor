@@ -1,0 +1,16 @@
+ObjectTemplate.create Bundle eu_lumbermill_m1
+ObjectTemplate.setHasCollisionPhysics 1
+objectTemplate.aiTemplate eu_lumbermill_m1
+ObjectTemplate.addTemplate lodeu_lumbermill
+
+LodSelectorTemplate.create DistanceSelector eu_lumbermillSelector
+LodSelectorTemplate.addLodDistance 70
+ObjectTemplate.create LodObject lodeu_lumbermill
+ObjectTemplate.lodselector eu_lumbermillSelector
+ObjectTemplate.addTemplate eu_lumbermillInterior
+ObjectTemplate.addTemplate eu_lumbermillExterior
+
+ObjectTemplate.create SimpleObject eu_lumbermillInterior
+ObjectTemplate.geometry eu_lumbermill_m1
+ObjectTemplate.create SimpleObject eu_lumbermillExterior
+ObjectTemplate.geometry eu_lumbermill_m2

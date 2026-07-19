@@ -1,0 +1,18 @@
+rem *** Plugins ***
+aiTemplatePlugIn.create Cover Hospital_StaCover
+aiTemplatePlugIn.coverValue 10.0
+
+aiTemplatePlugIn.create Physical Hospital_StaPhysical
+
+rem *** AITemplate ***
+rem *** Observe the ITStructure-type, maybe a new flag for this ***
+aiTemplate.create hospital_sta1_m1
+aiTemplate.addType ITCover
+aiTemplate.addType ITStructure 
+aiTemplate.addType ITNoTemperature
+aiTemplate.degeneration 1
+aiTemplate.allowedTimeDiff -1
+aiTemplate.basicTemp 1
+aiTemplate.commonKnowledge 1
+aiTemplate.addPlugIn Hospital_StaCover
+aiTemplate.addPlugIn Hospital_StaPhysical

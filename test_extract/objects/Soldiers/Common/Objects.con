@@ -1,0 +1,8 @@
+ObjectTemplate.create EntryPoint SoldierEntry
+ObjectTemplate.setEntryRadius 3
+
+ObjectTemplate.create Camera SoldierCamera
+ObjectTemplate.setPivotPosition 0/0/0
+ObjectTemplate.setMaxSpeed 0/0/0
+ObjectTemplate.setHasTarget 0
+

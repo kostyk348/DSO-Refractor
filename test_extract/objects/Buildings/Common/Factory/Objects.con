@@ -1,0 +1,27 @@
+ObjectTemplate.create Bundle factory_m1
+ObjectTemplate.geometry factory_m1
+ObjectTemplate.setHasCollisionPhysics 1
+ObjectTemplate.addTemplate e_ExFumeFact
+ObjectTemplate.startoneffects 1
+ObjectTemplate.setPosition 16/34/3.8
+ObjectTemplate.setRotation 0/0/0
+ObjectTemplate.addTemplate e_ExFumeFact
+ObjectTemplate.startoneffects 1
+ObjectTemplate.setPosition 16.2/28/-3.2
+ObjectTemplate.setRotation 0/0/0
+ObjectTemplate.addTemplate ladder_5m_m1
+ObjectTemplate.setPosition 13.022/2.5/12.3
+ObjectTemplate.setRotation 180/0/0
+ObjectTemplate.addTemplate ladder_5m_m1
+ObjectTemplate.setPosition 11.307/8.2/11
+ObjectTemplate.setRotation -90/0/0
+objectTemplate.aiTemplate factory_m1
+objectTemplate.loadSoundScript Sounds/Factory.ssc
+
+
+ObjectTemplate.create SimpleObject Ladder_5m_m1
+ObjectTemplate.setHasCollisionPhysics 1
+ObjectTemplate.setHasResponsePhysics 1
+ObjectTemplate.addToCollisionGroup c_CGLadders
+ObjectTemplate.addToCollisionGroup c_CGProjectiles
+ObjectTemplate.geometry ladder_5m_m1

@@ -1,0 +1,5 @@
+GeometryTemplate.create TreeMesh PALMSHORT_M1
+GeometryTemplate.file PALMSHORT_M1
+GeometryTemplate.swayEnable 1
+GeometryTemplate.billboard 1
+GeometryTemplate.billboardDistance 50

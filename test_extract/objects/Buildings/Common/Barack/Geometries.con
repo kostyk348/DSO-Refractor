@@ -1,0 +1,18 @@
+
+GeometryTemplate.create StandardMesh barack_m1
+GeometryTemplate.file barack_m1
+GeometryTemplate.textureFadeMaxDist 70
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 15
+GeometryTemplate.setLodDistance 2 30
+GeometryTemplate.setLodDistance 3 40
+
+GeometryTemplate.create StandardMesh barack_m2
+GeometryTemplate.file barack_m2
+GeometryTemplate.textureFadeMaxDist 70
+GeometryTemplate.setLodDistance 0 70
+GeometryTemplate.setLodDistance 1 100
+GeometryTemplate.setLodDistance 2 150
+GeometryTemplate.setLodDistance 3 200
+GeometryTemplate.setLodDistance 4 450
+GeometryTemplate.setLodDistance 5 600

@@ -1,0 +1,28 @@
+rem
+rem *** e_RichoMetalDecal ***
+rem
+ObjectTemplate.create EffectBundle e_RichoMetalDecal
+ObjectTemplate.saveInSeparateFile 1
+rem -------------------------------------
+ObjectTemplate.addTemplate Em_RichoMetalDecal
+ObjectTemplate.timeToLive CRD_NONE/0.1/0/0
+rem -------------------------------------
+rem
+rem *** Em_RichoMetalDecal ***
+rem
+ObjectTemplate.create Emitter Em_RichoMetalDecal
+ObjectTemplate.template Fx_RichoMetalDecal
+ObjectTemplate.startProbability 1
+ObjectTemplate.lodDistance 375
+ObjectTemplate.timeToLive CRD_NONE/0.1/0/0
+ObjectTemplate.intensity CRD_NONE/2/0/0
+ObjectTemplate.relativePositionInUp CRD_NONE/0.001/0/0
+
+rem *** Fx_RichoMetalDecal ***
+ObjectTemplate.create Particle Fx_RichoMetalDecal
+ObjectTemplate.geometry Decal_metal_m1
+ObjectTemplate.timeToLive CRD_UNIFORM/15/1/0
+ObjectTemplate.size CRD_UNIFORM/0.15/0.25/0
+ObjectTemplate.gravityModifier CRD_NONE/0/0/1
+ObjectTemplate.sizeModifier 1/1/1
+ObjectTemplate.alphaOverTime 0/1|70/1|100/0

@@ -1,0 +1,17 @@
+rem *** Plugins ***
+aiTemplatePlugIn.create Cover DefgunCover
+aiTemplatePlugIn.coverValue 100.0
+
+aiTemplatePlugIn.create Physical DefgunPhysical
+
+rem *** AITemplate ***
+aiTemplate.create Defgun_bunker_m1
+aiTemplate.addType ITCover
+aiTemplate.addType ITStructure
+aiTemplate.addType ITNoMapRender
+aiTemplate.degeneration 1
+aiTemplate.allowedTimeDiff -1
+aiTemplate.basicTemp 1
+aiTemplate.commonKnowledge 1
+aiTemplate.addPlugIn DefgunCover
+aiTemplate.addPlugIn DefgunPhysical

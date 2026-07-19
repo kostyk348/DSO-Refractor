@@ -1,0 +1,9 @@
+ObjectTemplate.create Obstacle stebarbwire2_m1
+ObjectTemplate.geometry stebarbwire2_m1
+ObjectTemplate.setHasCollisionPhysics 1
+ObjectTemplate.addToCollisionGroup c_CGProjectiles
+ObjectTemplate.aiTemplate stebarbwire2_m1
+
+ObjectTemplate.addtemplate e_Barbwire
+ObjectTemplate.setPosition 0/0/0
+ObjectTemplate.setRotation 0/0/0

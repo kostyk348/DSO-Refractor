@@ -1,0 +1,53 @@
+ObjectTemplate.create Bundle pacificfarm2_m1
+ObjectTemplate.setHasCollisionPhysics 1
+ObjectTemplate.aiTemplate pacificfarm2_m1
+ObjectTemplate.addTemplate lodpacificfarm2
+
+LodSelectorTemplate.create DistanceSelector pacificfarm2Selector
+LodSelectorTemplate.addLodDistance 70
+ObjectTemplate.create LodObject lodpacificfarm2
+ObjectTemplate.lodselector pacificfarm2Selector
+ObjectTemplate.addTemplate pacificfarm2Interior
+ObjectTemplate.addTemplate pacificfarm2Exterior
+
+ObjectTemplate.create Bundle pacificfarm2Interior
+ObjectTemplate.geometry pacificfarm2_m1
+
+rem ---------------------------
+
+
+ObjectTemplate.addTemplate Pacifbed_M1
+ObjectTemplate.setPosition -1.898/0.235/5.215
+ObjectTemplate.setRotation 180/180/0
+
+
+ObjectTemplate.addTemplate Pacifbed_M1
+ObjectTemplate.setPosition 1.898/0.235/5.215
+ObjectTemplate.setRotation 180/180/0
+
+
+
+ObjectTemplate.addTemplate Pascreen_M1
+ObjectTemplate.setPosition 1.898/0.235/2.615
+ObjectTemplate.setRotation 180/180/0
+
+
+ObjectTemplate.addTemplate patable_M1
+ObjectTemplate.setPosition 0.198/0.235/-4.584
+ObjectTemplate.setRotation 180/180/0
+
+
+ObjectTemplate.addTemplate bambrug_M1
+ObjectTemplate.setPosition 0.208/0.25/-5.783
+ObjectTemplate.setRotation 90/0/180
+
+ObjectTemplate.addTemplate bambrug_M1
+ObjectTemplate.setPosition 0.208/0.25/-3.392
+ObjectTemplate.setRotation 90/0/180
+
+
+
+
+rem ---------------------------
+ObjectTemplate.create SimpleObject pacificfarm2Exterior
+ObjectTemplate.geometry pacificfarm2_m2

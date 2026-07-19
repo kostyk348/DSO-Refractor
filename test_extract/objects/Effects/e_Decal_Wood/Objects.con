@@ -1,0 +1,3 @@
+ObjectTemplate.create SimpleObject Decal_Wood_m1
+ObjectTemplate.geometry Decal_Wood_m1
+ObjectTemplate.setHasCollisionPhysics 0

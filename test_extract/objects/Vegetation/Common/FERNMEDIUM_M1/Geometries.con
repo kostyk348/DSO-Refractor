@@ -1,0 +1,4 @@
+GeometryTemplate.create TreeMesh FERNMEDIUM_M1
+GeometryTemplate.file FERNMEDIUM_M1
+GeometryTemplate.billboard 1
+GeometryTemplate.billboardDistance 50

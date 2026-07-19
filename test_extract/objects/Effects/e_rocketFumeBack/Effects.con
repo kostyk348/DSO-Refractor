@@ -1,0 +1,120 @@
+rem
+rem *** e_rocketFumeBack ***
+rem
+ObjectTemplate.create EffectBundle e_rocketFumeBack
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.timeToLive CRD_NONE/-1/0/0
+rem -------------------------------------
+ObjectTemplate.addTemplate Em_rocketFumeBack_Flare
+ObjectTemplate.addTemplate Em_rocketFumeBack_Glint
+ObjectTemplate.setPosition 0.02/-0.023/-1.143
+ObjectTemplate.addTemplate Em_rocketFumeBack_Smoke
+rem -------------------------------------
+
+rem *** Em_rocketFumeBack_Flare ***
+ObjectTemplate.create Emitter Em_rocketFumeBack_Flare
+ObjectTemplate.template Fx_rocketFumeBack_Flare
+ObjectTemplate.startProbability 1
+ObjectTemplate.lodDistance 800
+ObjectTemplate.delay CRD_NONE/0/0/0
+ObjectTemplate.timeToLive CRD_NONE/0.1/0/0
+ObjectTemplate.intensity CRD_NONE/80/0/0
+ObjectTemplate.intensityOverTime 
+ObjectTemplate.relativePositionInDof CRD_UNIFORM/-2/-1/0
+ObjectTemplate.relativePositionInUp CRD_NONE/0/0/0
+ObjectTemplate.relativePositionInRight CRD_NONE/0/0/0
+ObjectTemplate.positionalSpeedInDof CRD_NONE/-5/0/0
+ObjectTemplate.positionalSpeedInUp CRD_NONE/0/0/0
+ObjectTemplate.positionalSpeedInRight CRD_NONE/0/0/0
+ObjectTemplate.rotationalSpeedInDof CRD_NONE/1/0/0
+ObjectTemplate.rotationalSpeedInUp CRD_NONE/1/0/0
+ObjectTemplate.rotationalSpeedInRight CRD_NONE/1/0/0
+ObjectTemplate.startRotation CRD_NONE/1/0/0
+ 
+rem *** Fx_rocketFumeBack_Flare ***
+ObjectTemplate.create SpriteParticle Fx_rocketFumeBack_Flare
+ObjectTemplate.timeToLive CRD_NONE/0.2/0/0
+ObjectTemplate.size CRD_NONE/0.5/0/0
+ObjectTemplate.gravityModifier CRD_NONE/0/0/0
+ObjectTemplate.drag CRD_NONE/5/0/0
+ObjectTemplate.sizeOverTime 0/1.00009|72/1.10401|100/0
+ObjectTemplate.gravityModifierOverTime 
+ObjectTemplate.dragOverTime 
+ObjectTemplate.texture e_muzs2_I
+ObjectTemplate.initRotation CRD_UNIFORM/1/180/1
+ObjectTemplate.useUVRotation 0
+ObjectTemplate.XYSizeRatio CRD_NONE/1/0/0
+ObjectTemplate.srcBlendMode BMOne
+ObjectTemplate.destBlendMode BMInvSourceAlpha
+ObjectTemplate.rotationSpeed CRD_UNIFORM/1/180/1
+ObjectTemplate.XYSizeRatioOverTime 0/1|100/1
+ObjectTemplate.rotationSpeedOverTime 
+ObjectTemplate.colorRGBAOverTime 0/193/191/181/51|18/180/175/156/79|36/168/160/131/107|52/126/120/98/132|100/0/0/0/0
+ObjectTemplate.alphaTestRef CRD_NONE/0/0/0
+ObjectTemplate.alphaTestRefOverTime 
+ObjectTemplate.hasStaticColor 0
+ObjectTemplate.numAnimationFrames 0
+ObjectTemplate.initAnimationFrame CRD_NONE/1/0/0
+ObjectTemplate.animationSpeed CRD_NONE/1/0/0
+ObjectTemplate.animationSpeedOverTime 
+
+rem *** Em_rocketFumeBack_Glint ***
+ObjectTemplate.create Emitter Em_rocketFumeBack_Glint
+ObjectTemplate.template Fx_rocketFumeBack_Glint
+ObjectTemplate.addEmitterSpeed 1
+ObjectTemplate.emitterSpeedScale 1
+ObjectTemplate.startProbability 1
+ObjectTemplate.lodDistance 800
+ObjectTemplate.delay CRD_NONE/0/0/0
+ObjectTemplate.timeToLive CRD_NONE/0.1/0/0
+ObjectTemplate.intensity CRD_NONE/20/0/0
+ObjectTemplate.intensityOverTime 
+ObjectTemplate.relativePositionInDof CRD_NONE/-1/0/0
+
+rem *** Fx_rocketFumeBack_Glint ***
+ObjectTemplate.create SpriteParticle Fx_rocketFumeBack_Glint
+ObjectTemplate.timeToLive CRD_NONE/0.1/0/0
+ObjectTemplate.size CRD_NONE/1/0/0
+ObjectTemplate.gravityModifier CRD_NONE/0/0/0
+ObjectTemplate.drag CRD_NONE/5/0/0
+ObjectTemplate.sizeOverTime 0/1|13/0.840007|100/0
+ObjectTemplate.gravityModifierOverTime 0/6.1e-005|100/6.1e-005
+ObjectTemplate.texture e_muz2_I
+ObjectTemplate.initRotation CRD_UNIFORM/1/180/1
+ObjectTemplate.XYSizeRatio CRD_NONE/1/0/0
+ObjectTemplate.srcBlendMode BMSourceAlpha
+ObjectTemplate.destBlendMode BMOne
+ObjectTemplate.rotationSpeed CRD_UNIFORM/1/180/1
+ObjectTemplate.rotationSpeedOverTime 0/5.87979|64/5.03995|100/6
+ObjectTemplate.colorRGBAOverTime 0/254/253/226/102|30/177/177/158/65|60/101/101/90/130|100/0/0/0/0
+
+rem *** Em_rocketFumeBack_Smoke ***
+ObjectTemplate.create Emitter Em_rocketFumeBack_Smoke
+ObjectTemplate.template Fx_rocketFumeBack_Smoke
+ObjectTemplate.addEmitterSpeed 1
+ObjectTemplate.emitterSpeedScale 1
+ObjectTemplate.startProbability 1
+ObjectTemplate.lodDistance 800
+ObjectTemplate.timeToLive CRD_NONE/0.2/0/0
+ObjectTemplate.intensity CRD_NONE/10/0/0
+ObjectTemplate.relativePositionInDof CRD_NONE/-2.2/0/0
+
+ObjectTemplate.positionalSpeedInDof CRD_UNIFORM/-8/-3/0
+
+rem *** Fx_rocketFumeBack_Smoke ***
+ObjectTemplate.create SpriteParticle Fx_rocketFumeBack_Smoke
+ObjectTemplate.timeToLive CRD_UNIFORM/2/3/0
+ObjectTemplate.size CRD_UNIFORM/1/1.5/0
+ObjectTemplate.gravityModifier CRD_NONE/1/0/0
+ObjectTemplate.drag CRD_NONE/3/0/0
+ObjectTemplate.sizeOverTime 0/2|100/4
+ObjectTemplate.gravityModifierOverTime 0/0.199988|100/0.199988
+ObjectTemplate.texture e_muzs2_I
+ObjectTemplate.initRotation CRD_UNIFORM/1/180/0
+ObjectTemplate.XYSizeRatio CRD_NONE/1/0/0
+ObjectTemplate.srcBlendMode BMSourceAlpha
+ObjectTemplate.destBlendMode BMInvSourceAlpha
+ObjectTemplate.rotationSpeed CRD_UNIFORM/0/10/0
+ObjectTemplate.rotationSpeedOverTime 0/2.04004|26/3.36|64/3.84002|100/6
+ObjectTemplate.colorRGBAOverTime 0/128/128/128/51|31/55/55/55/160|55/0/0/0/112|100/255/255/255/22
+

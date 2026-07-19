@@ -1,0 +1,86 @@
+renderer.beginGlobalCluster Katyusha
+
+beginrem
+GeometryTemplate.create StandardMesh Katyusha_Str_M1
+GeometryTemplate.file Katyusha_Str_M1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 10
+GeometryTemplate.setLodDistance 2 15
+GeometryTemplate.setLodDistance 3 30
+GeometryTemplate.setLodDistance 4 50
+GeometryTemplate.setLodDistance 5 100
+endrem
+
+GeometryTemplate.create StandardMesh Katyusha_main_M1
+GeometryTemplate.file Katyusha_main_M1
+GeometryTemplate.hasDynamicShadow 1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 10
+GeometryTemplate.setLodDistance 2 15
+GeometryTemplate.setLodDistance 3 30
+GeometryTemplate.setLodDistance 4 50
+GeometryTemplate.setLodDistance 5 100
+
+GeometryTemplate.create StandardMesh Katyusha_Whe1L_M1
+GeometryTemplate.file Katyusha_Whe1L_M1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 20
+GeometryTemplate.setLodDistance 2 60
+GeometryTemplate.setLodDistance 3 100
+
+GeometryTemplate.create StandardMesh Katyusha_Whe1R_M1
+GeometryTemplate.file Katyusha_Whe1R_M1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 20
+GeometryTemplate.setLodDistance 2 60
+GeometryTemplate.setLodDistance 3 100
+
+GeometryTemplate.create StandardMesh Katyusha_Whe2L_M1
+GeometryTemplate.file Katyusha_Whe2L_M1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 20
+GeometryTemplate.setLodDistance 2 60
+GeometryTemplate.setLodDistance 3 100
+
+GeometryTemplate.create StandardMesh Katyusha_Whe2R_M1
+GeometryTemplate.file Katyusha_Whe2R_M1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 20
+GeometryTemplate.setLodDistance 2 60
+GeometryTemplate.setLodDistance 3 100
+
+GeometryTemplate.create StandardMesh Katyusha_Ramp_Rot_M1
+GeometryTemplate.file Katyusha_Ramp_Rot_M1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 20
+GeometryTemplate.setLodDistance 2 60
+GeometryTemplate.setLodDistance 3 100
+
+GeometryTemplate.create StandardMesh Katyusha_Ramp_M1
+GeometryTemplate.file Katyusha_Ramp_M1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 20
+GeometryTemplate.setLodDistance 2 60
+GeometryTemplate.setLodDistance 3 100
+
+GeometryTemplate.create StandardMesh 1P_Katyusha_M1
+GeometryTemplate.file 1P_Katyusha_M1
+
+GeometryTemplate.create StandardMesh 1P_Katyusha_Steer_M1
+GeometryTemplate.file 1P_Katyusha_Steer_M1
+
+renderer.endGlobalCluster
+
+GeometryTemplate.create StandardMesh Katyusha_main_L1
+GeometryTemplate.file Katyusha_main_L1
+GeometryTemplate.hasDynamicShadow 1
+
+GeometryTemplate.create StandardMesh Wreck_Katyusha_m1
+GeometryTemplate.file Wreck_Katyusha_m1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 150
+GeometryTemplate.setLodDistance 2 200
+GeometryTemplate.setLodDistance 3 250
+GeometryTemplate.setLodDistance 4 300
+GeometryTemplate.setLodDistance 5 500
+

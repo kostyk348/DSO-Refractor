@@ -1,0 +1,3 @@
+ObjectTemplate.create SimpleObject afr_house2_ste_closed_m1
+ObjectTemplate.geometry afr_house2_ste_closed_m1
+ObjectTemplate.setHasCollisionPhysics 1

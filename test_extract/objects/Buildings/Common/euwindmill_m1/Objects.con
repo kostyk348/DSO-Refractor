@@ -1,0 +1,44 @@
+ObjectTemplate.create Bundle euwindmill_m1
+ObjectTemplate.setHasCollisionPhysics 1
+objectTemplate.aiTemplate euwindmill_m1
+rem -------------------------------------
+ObjectTemplate.addTemplate lodeuwindmill
+
+ObjectTemplate.addTemplate euwindmillWings
+ObjectTemplate.setPosition 0/20.42/0.1
+rem -------------------------------------
+objectTemplate.loadSoundScript Sounds/windmill.ssc
+LodSelectorTemplate.create DistanceSelector euwindmillSelector
+LodSelectorTemplate.addLodDistance 70
+ObjectTemplate.create LodObject lodeuwindmill
+ObjectTemplate.lodselector euwindmillSelector
+ObjectTemplate.addTemplate euwindmillInterior
+ObjectTemplate.addTemplate euwindmillExterior
+
+ObjectTemplate.create Bundle euwindmillInterior
+ObjectTemplate.geometry euwindmill_m1
+rem -------------------------------------
+ObjectTemplate.addTemplate euwindmillStone
+ObjectTemplate.setPosition 0.43/0.695/0.075
+rem -------------------------------------
+
+ObjectTemplate.create SimpleObject euwindmillExterior
+ObjectTemplate.geometry euwindmill_m2
+
+ObjectTemplate.create RotationalBundle euwindmillWings
+ObjectTemplate.geometry euwindmill_wings_m1
+ObjectTemplate.setMinRotation 0/0/0
+ObjectTemplate.setMaxRotation 0/0/0
+ObjectTemplate.setPivotPosition 0/0/0
+ObjectTemplate.setMaxSpeed 0/-110/0
+ObjectTemplate.setAcceleration 0/10/0
+ObjectTemplate.setContinousRotationSpeed 0/-10/0
+
+ObjectTemplate.create RotationalBundle euwindmillStone
+ObjectTemplate.geometry euwindmill_stone_m1
+ObjectTemplate.setMinRotation 0/0/0
+ObjectTemplate.setMaxRotation 0/0/0
+ObjectTemplate.setPivotPosition 0/0/0
+ObjectTemplate.setMaxSpeed 110/0/0
+ObjectTemplate.setAcceleration 10/0/0
+ObjectTemplate.setContinousRotationSpeed 12/0/0

@@ -1,0 +1,6 @@
+GeometryTemplate.create StandardMesh tankobs_ste_M1
+GeometryTemplate.file tankobs_ste_M1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 15
+GeometryTemplate.setLodDistance 2 65
+GeometryTemplate.setLodDistance 3 250

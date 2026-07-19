@@ -1,0 +1,18 @@
+ObjectTemplate.create Bundle guardtow_M1
+ObjectTemplate.geometry guardtow_M1
+ObjectTemplate.setHasCollisionPhysics 1
+ObjectTemplate.setHasResponsePhysics 1
+ObjectTemplate.addTemplate ladder_10m
+ObjectTemplate.setPosition 0/6/1.9
+ObjectTemplate.setRotation 180/1/0
+objectTemplate.aiTemplate guardtow_M1
+objectTemplate.loadSoundScript Sounds/guardtow.ssc
+
+ObjectTemplate.create SimpleObject Ladder_10m
+ObjectTemplate.setHasCollisionPhysics 1
+ObjectTemplate.setHasResponsePhysics 1
+ObjectTemplate.addToCollisionGroup c_CGLadders
+ObjectTemplate.addToCollisionGroup c_CGProjectiles
+ObjectTemplate.geometry ladder_10m_m1
+
+

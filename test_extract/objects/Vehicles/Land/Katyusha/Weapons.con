@@ -1,0 +1,26 @@
+
+
+rem *** KatyushaFireArms ***
+ObjectTemplate.create FireArms KatyushaFireArmsBundle
+ObjectTemplate.setAsynchronyFire 1
+ObjectTemplate.aiTemplate KatyushaMainGun
+ObjectTemplate.projectileTemplate KatyushaRocket
+ObjectTemplate.projectilePosition 0/0/0
+ObjectTemplate.visibleDummyProjectileTemplate KatyushaRocketDummy
+ObjectTemplate.magSize 6
+ObjectTemplate.numOfMag 2
+ObjectTemplate.velocity 20
+ObjectTemplate.autoReload 1
+ObjectTemplate.reloadtime 5
+ObjectTemplate.roundOfFire 0.15
+ObjectTemplate.fireingForce 30
+ObjectTemplate.addFireArmsPosition -1.15/-0.188/0 0/0/0
+ObjectTemplate.addFireArmsPosition -0.69/-0.188/0 0/0/0
+ObjectTemplate.addFireArmsPosition -0.24/-0.188/0 0/0/0
+ObjectTemplate.addFireArmsPosition 0.24/-0.188/0 0/0/0
+ObjectTemplate.addFireArmsPosition 0.69/-0.188/0 0/0/0
+ObjectTemplate.addFireArmsPosition 1.15/-0.188/0 0/0/0
+
+ObjectTemplate.create SimpleObject KatyushaRocketDummy
+ObjectTemplate.geometry r_rocket_m1
+

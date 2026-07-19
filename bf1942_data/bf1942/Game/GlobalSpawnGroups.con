@@ -1,0 +1,115 @@
+rem ************** Spawn Groups for vehicle and objects ********************
+
+rem -------------------------------------------------------------------
+
+rem *** Yamato ***
+spawnPointManager.group 64
+spawnPointManager.groupTeam 1
+spawnPointManager.groupIcon test2.tga
+rem spawnPointManager.groupStatus 0
+
+rem *** Yamato Driver ***
+spawnPointManager.group 65
+spawnPointManager.groupTeam 1
+spawnPointManager.groupIcon test2.tga
+rem spawnPointManager.groupStatus 0
+
+rem -------------------------------------------------------------------
+
+rem *** PrinceOW Driver ***
+spawnPointManager.group 66
+spawnPointManager.groupTeam 2
+spawnPointManager.groupIcon test2.tga
+rem spawnPointManager.groupStatus 0
+
+rem *** PrinceOW ***
+spawnPointManager.group 67
+spawnPointManager.groupTeam 2
+spawnPointManager.groupIcon test2.tga
+rem spawnPointManager.groupStatus 0
+
+rem -------------------------------------------------------------------
+
+rem *** Fletcher Driver ***
+spawnPointManager.group 68
+spawnPointManager.groupTeam 2
+spawnPointManager.groupIcon test2.tga
+rem spawnPointManager.groupStatus 0
+
+rem *** Fletcher ***
+spawnPointManager.group 69
+spawnPointManager.groupTeam 2
+spawnPointManager.groupIcon test2.tga
+rem spawnPointManager.groupStatus 0
+
+rem -------------------------------------------------------------------
+
+rem *** Hatsuzuki Driver ***
+spawnPointManager.group 70
+spawnPointManager.groupTeam 1
+spawnPointManager.groupIcon test2.tga
+rem spawnPointManager.groupStatus 0
+
+rem *** Hatsuzuki ***
+spawnPointManager.group 71
+spawnPointManager.groupTeam 1
+spawnPointManager.groupIcon test2.tga
+rem spawnPointManager.groupStatus 0
+
+rem -------------------------------------------------------------------
+
+rem *** Enterprise Driver ***
+spawnPointManager.group 72
+spawnPointManager.groupTeam 2
+spawnPointManager.groupIcon test2.tga
+rem spawnPointManager.groupStatus 0
+
+rem *** Enterprise Lcvp ***
+spawnPointManager.group 73
+spawnPointManager.groupTeam 2
+spawnPointManager.groupIcon test2.tga
+rem spawnPointManager.groupStatus 0
+
+rem *** Enterprise AirCraft ***
+spawnPointManager.group 74
+spawnPointManager.groupTeam 2
+spawnPointManager.groupIcon test2.tga
+rem spawnPointManager.groupStatus 0
+
+rem -------------------------------------------------------------------
+
+rem *** Shokaku Driver ***
+spawnPointManager.group 75
+spawnPointManager.groupTeam 1
+spawnPointManager.groupIcon test2.tga
+rem spawnPointManager.groupStatus 0
+
+rem *** Shokaku Lcvp ***
+spawnPointManager.group 76
+spawnPointManager.groupTeam 1
+spawnPointManager.groupIcon test2.tga
+rem spawnPointManager.groupStatus 0
+
+rem *** Shokaku AirCraft ***
+spawnPointManager.group 77
+spawnPointManager.groupTeam 1
+spawnPointManager.groupIcon test2.tga
+rem spawnPointManager.groupStatus 0
+
+rem -------------------------------------------------------------------
+
+rem *** Sub7c Driver ***
+spawnPointManager.group 78
+spawnPointManager.groupTeam 1
+spawnPointManager.groupIcon test2.tga
+rem spawnPointManager.groupStatus 0
+
+rem -------------------------------------------------------------------
+
+rem *** Gato Driver ***
+spawnPointManager.group 79
+spawnPointManager.groupTeam 2
+spawnPointManager.groupIcon test2.tga
+rem spawnPointManager.groupStatus 0
+
+

@@ -1,0 +1,16 @@
+ObjectTemplate.create Bundle o_bunker_m1
+ObjectTemplate.setHasCollisionPhysics 1
+objectTemplate.aiTemplate o_bunker_m1
+ObjectTemplate.addTemplate lodo_bunker
+
+LodSelectorTemplate.create DistanceSelector o_bunkerSelector
+LodSelectorTemplate.addLodDistance 70
+ObjectTemplate.create LodObject lodo_bunker
+ObjectTemplate.lodselector o_bunkerSelector
+ObjectTemplate.addTemplate o_bunkerInterior
+ObjectTemplate.addTemplate o_bunkerExterior
+
+ObjectTemplate.create SimpleObject o_bunkerInterior
+ObjectTemplate.geometry o_bunker_m1
+ObjectTemplate.create SimpleObject o_bunkerExterior
+ObjectTemplate.geometry o_bunker_m2

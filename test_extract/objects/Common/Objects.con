@@ -1,0 +1,2 @@
+ObjectTemplate.create SimpleObject MG_tripodStick
+ObjectTemplate.geometry tripod_stick_m1

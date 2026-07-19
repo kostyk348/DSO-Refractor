@@ -1,0 +1,59 @@
+rem *** Plugins ***
+aiTemplatePlugIn.create Unit DefGunUnit
+aiTemplatePlugIn.equipmentType 4
+aiTemplatePlugIn.setStrategicStrength 0 4
+aiTemplatePlugIn.setStrategicStrength 1 4
+aiTemplatePlugIn.setUseNoPathfindingToGetToObject 1
+
+aiTemplatePlugIn.create Armament DefGunArmament
+
+aiTemplatePlugIn.create Physical DefGunPhysical
+aiTemplatePlugIn.strType NavalArmour
+
+aiTemplatePlugIn.create ControlInfo DefGunCtrl
+aiTemplatePlugIn.driveTurnControl           PINone
+aiTemplatePlugIn.driveThrottleControl       PINone
+aiTemplatePlugIn.aimHorizontalControl       PIMouseLookX
+aiTemplatePlugIn.aimVerticalControl         PIMouseLookY
+aiTemplatePlugIn.lookHorizontalControl      PIMouseLookX
+aiTemplatePlugIn.lookVerticalControl        PIMouseLookY
+aiTemplatePlugIn.throttleSensitivity       -1.0
+rem aiTemplatePlugIn.pitchSensitivity           0.021817
+rem aiTemplatePlugIn.rollSensitivity           -0.021817
+aiTemplatePlugIn.pitchSensitivity           0.21817
+aiTemplatePlugIn.rollSensitivity           -0.21817
+aiTemplatePlugIn.yawSensitivity            -2.5
+rem aiTemplatePlugIn.lookVerticalSensitivity    0.021817
+rem aiTemplatePlugIn.lookHorizontalSensitivity -0.021817
+aiTemplatePlugIn.lookVerticalSensitivity    0.21817
+aiTemplatePlugIn.lookHorizontalSensitivity -0.21817
+aiTemplatePlugIn.throttleLookAhead          1.0
+aiTemplatePlugIn.pitchLookAhead             1.0
+aiTemplatePlugIn.rollLookAhead              1.0
+aiTemplatePlugIn.yawLookAhead               1.0
+aiTemplatePlugIn.lookVerticalLookAhead      1.0
+aiTemplatePlugIn.lookHorizontalLookAhead    1.0
+aiTemplatePlugIn.throttleScale              1.0
+rem *** Angle in radians ***
+aiTemplatePlugIn.pitchScale                 0.1
+aiTemplatePlugIn.rollScale                  0.1
+aiTemplatePlugIn.yawScale                   0.0020
+aiTemplatePlugIn.lookVerticalScale          1.0
+aiTemplatePlugIn.lookHorizontalScale        1.0
+
+rem *** AITemplate ***
+aiTemplate.create DefGun
+aiTemplate.addType ITUnit
+aiTemplate.addType ITGround
+aiTemplate.addType ITFixed
+aiTemplate.addType ITStructure
+aiTemplate.addType ITObstructedView
+aiTemplate.addType ITNoChildRender
+aiTemplate.degeneration 120
+aiTemplate.allowedTimeDiff 2
+aiTemplate.basicTemp 10
+aiTemplate.commonKnowledge 0
+aiTemplate.addPlugIn DefGunUnit
+aiTemplate.addPlugIn DefGunPhysical
+aiTemplate.addPlugIn DefGunArmament
+aiTemplate.addPlugIn DefGunCtrl

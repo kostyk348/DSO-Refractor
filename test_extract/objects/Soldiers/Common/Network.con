@@ -1,0 +1,4 @@
+NetworkableInfo.createNewInfo NetSoldierInfo
+NetworkableInfo.setIsControlledBy 0
+NetworkableInfo.setHasOrientation 1
+NetworkableInfo.setPredictionMode PMLinear

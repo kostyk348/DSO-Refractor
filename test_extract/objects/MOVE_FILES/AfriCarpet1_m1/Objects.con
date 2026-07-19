@@ -1,0 +1,3 @@
+ObjectTemplate.create SimpleObject AfriCarpet1_m1
+ObjectTemplate.geometry AfriCarpet1_m1
+ObjectTemplate.setHasCollisionPhysics 0

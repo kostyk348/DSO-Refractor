@@ -1,0 +1,16 @@
+rem *** Plugins ***
+aiTemplatePlugIn.create Cover rh_Russian_Barn_mainCover
+aiTemplatePlugIn.coverValue 60.0
+
+aiTemplatePlugIn.create Physical rh_Russian_Barn_mainPhysical
+
+rem *** AITemplate ***
+aiTemplate.create rh_Russian_Barn_main_m1
+aiTemplate.addType ITCover
+aiTemplate.addType ITNoTemperature
+aiTemplate.degeneration 1
+aiTemplate.allowedTimeDiff -1
+aiTemplate.basicTemp 1
+aiTemplate.commonKnowledge 1
+aiTemplate.addPlugIn rh_Russian_Barn_mainCover
+aiTemplate.addPlugIn rh_Russian_Barn_mainPhysical

@@ -1,0 +1,102 @@
+newPatch
+
+############
+### Ouch ###
+############
+load @ROOT/Sound/@RTD/@Language/BeingHit1.wav
+minDistance 2
+
+randomStartPitch 0.09 / 0.0
+
+*** Distance Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 8
+	param 30
+	param 1
+	param -1
+endEffect
+
+load @ROOT/Sound/@RTD/@Language/BeingHit2.wav
+minDistance 2
+
+randomStartPitch 0.09 / 0.0
+
+*** Distance Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 8
+	param 30
+	param 1
+	param -1
+endEffect
+
+load @ROOT/Sound/@RTD/@Language/BeingHit3.wav
+minDistance 2
+
+randomStartPitch 0.09 / 0.0
+
+*** Distance Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 8
+	param 30
+	param 1
+	param -1
+endEffect
+
+load @ROOT/Sound/@RTD/@Language/BeingHit4.wav
+minDistance 2
+
+randomStartPitch 0.09 / 0.0
+
+*** Distance Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 8
+	param 30
+	param 1
+	param -1
+endEffect
+
+load @ROOT/Sound/@RTD/@Language/BeingHit5.wav
+minDistance 2
+
+randomStartPitch 0.09 / 0.0
+
+*** Distance Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 8
+	param 30
+	param 1
+	param -1
+endEffect
+
+load @ROOT/Sound/@RTD/@Language/BeingHit6.wav
+minDistance 2
+
+randomStartPitch 0.09 / 0.0
+
+*** Distance Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 8
+	param 30
+	param 1
+	param -1
+endEffect
+
+randomPlay 1

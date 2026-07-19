@@ -1,0 +1,34 @@
+ObjectTemplate.create Bundle eu_watermill_m1
+ObjectTemplate.setHasCollisionPhysics 1
+ObjectTemplate.aiTemplate eu_watermill_m1
+rem ---------------------------------------
+
+ObjectTemplate.addTemplate lodeu_watermill
+
+ObjectTemplate.addTemplate eu_watermillWheel
+ObjectTemplate.setPosition -4.099/-0.189/3.145
+
+rem ---------------------------------------
+objectTemplate.loadSoundScript Sounds/watermill.ssc
+
+LodSelectorTemplate.create DistanceSelector eu_watermillSelector
+LodSelectorTemplate.addLodDistance 70
+ObjectTemplate.create LodObject lodeu_watermill
+ObjectTemplate.lodselector eu_watermillSelector
+ObjectTemplate.addTemplate eu_watermillInterior
+ObjectTemplate.addTemplate eu_watermillExterior
+
+ObjectTemplate.create SimpleObject eu_watermillInterior
+ObjectTemplate.geometry eu_watermill_m1
+ObjectTemplate.create SimpleObject eu_watermillExterior
+ObjectTemplate.geometry eu_watermill_m2
+
+ObjectTemplate.create RotationalBundle eu_watermillWheel
+ObjectTemplate.geometry eu_watermill_wheel_m1
+ObjectTemplate.setMinRotation 0/0/0
+ObjectTemplate.setMaxRotation 0/0/0
+ObjectTemplate.setPivotPosition 0/0/0
+ObjectTemplate.setMaxSpeed 0/0/110
+ObjectTemplate.setAcceleration 0/0/10
+ObjectTemplate.setContinousRotationSpeed 0/0/-15
+

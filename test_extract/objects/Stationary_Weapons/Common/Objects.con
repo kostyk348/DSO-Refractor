@@ -1,0 +1,58 @@
+ObjectTemplate.create Projectile Tracer_Projectile
+ObjectTemplate.geometry TLight_m1
+ObjectTemplate.timeToLive CRD_NONE/3/0/0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.gravityModifier 0.0
+ObjectTemplate.hasStartEffect 0
+ObjectTemplate.hasCollisionEffect 1
+ObjectTemplate.hasOnTimeEffect 0
+ObjectTemplate.invisibleAtEndEffect 1
+ObjectTemplate.dieAfterColl 1
+ObjectTemplate.stopAtEndEffect 1
+ObjectTemplate.invisible 1
+ObjectTemplate.material 225
+ObjectTemplate.tracerScaler 50.0
+ObjectTemplate.invisible 0
+
+
+ObjectTemplate.create Projectile mg42_Projectile 
+ObjectTemplate.geometry bullet_m1
+ObjectTemplate.timeToLive CRD_NONE/3/0/0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.gravityModifier 0.0
+ObjectTemplate.hasStartEffect 0
+ObjectTemplate.hasCollisionEffect 1
+ObjectTemplate.hasOnTimeEffect 0
+ObjectTemplate.invisibleAtEndEffect 1
+ObjectTemplate.dieAfterColl 1
+ObjectTemplate.stopAtEndEffect 1
+ObjectTemplate.invisible 1
+ObjectTemplate.material 225
+
+rem *** Sound Browning Projectile ***
+ObjectTemplate.loadSoundScript ..\..\Common\Sounds/Projectile.ssc
+
+
+
+ObjectTemplate.create Projectile Browning_Projectile 
+ObjectTemplate.geometry bullet_m1
+ObjectTemplate.timeToLive CRD_NONE/3/0/0
+
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.gravityModifier 0.0
+ObjectTemplate.hasStartEffect 0
+ObjectTemplate.hasCollisionEffect 1
+ObjectTemplate.hasOnTimeEffect 0
+ObjectTemplate.invisibleAtEndEffect 1
+ObjectTemplate.dieAfterColl 1
+ObjectTemplate.stopAtEndEffect 1
+ObjectTemplate.invisible 1
+ObjectTemplate.material 224
+
+rem *** Sound Browning Projectile ***
+ObjectTemplate.loadSoundScript ..\..\Common\Sounds/Projectile.ssc
+
+ObjectTemplate.create SimpleObject MG_tripod
+ObjectTemplate.geometry tripod_m1
+
+

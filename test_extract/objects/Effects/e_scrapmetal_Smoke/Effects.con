@@ -1,0 +1,38 @@
+rem
+rem *** e_ScrapMetalSmoke ***
+rem
+ObjectTemplate.create EffectBundle e_ScrapMetalSmoke
+ObjectTemplate.saveInSeparateFile 1
+rem -------------------------------------
+ObjectTemplate.addTemplate Em_ScrapMetalSmokeBIG
+ObjectTemplate.timeToLive CRD_NONE/1.8/0/0
+rem -------------------------------------
+rem
+rem *** Em_ScrapMetalSmokeBIG ***
+rem
+ObjectTemplate.create Emitter Em_ScrapMetalSmokeBIG
+ObjectTemplate.template Fx_ScrapMetalSmokeBIG
+ObjectTemplate.addEmitterSpeed 1
+ObjectTemplate.emitterSpeedScale 0
+ObjectTemplate.startProbability 1
+ObjectTemplate.lodDistance 700
+ObjectTemplate.delay CRD_NONE/0/0/0
+ObjectTemplate.timeToLive CRD_NONE/1/0/0
+ObjectTemplate.intensity CRD_NONE/10/0/0
+ObjectTemplate.intensityOverTime 0/2.40043|100/0
+rem *** Fx_ScrapMetalSmokeBIG ***
+ObjectTemplate.create SpriteParticle Fx_ScrapMetalSmokeBIG
+ObjectTemplate.timeToLive CRD_NONE/3/0/0
+ObjectTemplate.size CRD_UNIFORM/0.5/1.1/0
+ObjectTemplate.gravityModifier CRD_NONE/0.2/0/0
+ObjectTemplate.drag CRD_NONE/0/0/0
+ObjectTemplate.sizeOverTime 0/0.720038|100/3
+ObjectTemplate.texture E_muzs2_I
+ObjectTemplate.useMipMaps 1
+ObjectTemplate.initRotation CRD_UNIFORM/0/180/1
+ObjectTemplate.XYSizeRatio CRD_NONE/1/0/0
+ObjectTemplate.srcBlendMode BMSourceAlpha
+ObjectTemplate.destBlendMode BMInvSourceAlpha
+ObjectTemplate.rotationSpeedOverTime 0/0|100/1
+ObjectTemplate.colorRGBAOverTime 0/32/29/23/104|59/45/38/34/134|100/0/0/0/0
+

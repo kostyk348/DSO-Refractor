@@ -1,0 +1,3 @@
+ObjectTemplate.create SimpleObject Plank_10m_m1
+ObjectTemplate.geometry Plank_10m_m1
+ObjectTemplate.setHasCollisionPhysics 1

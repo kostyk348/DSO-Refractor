@@ -1,0 +1,82 @@
+rem
+rem *** e_RichoCascadesWood ***
+rem
+ObjectTemplate.create EffectBundle e_RichoCascadesWood
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.loadSoundScript Sounds/CascadesWood.ssc
+rem -------------------------------------
+ObjectTemplate.addTemplate em_RichoCascadesWood1
+ObjectTemplate.addTemplate em_RichoCascadesWood2
+ObjectTemplate.addTemplate em_RichoCascadesWood3
+ObjectTemplate.addTemplate em_RichoCascadesWood4
+ObjectTemplate.timeToLive CRD_NONE/1.8/0/0
+rem -------------------------------------
+rem
+rem *** Em_RichoCascadesWood1 ***
+rem
+ObjectTemplate.create Emitter Em_RichoCascadesWood1
+ObjectTemplate.template Gibb_wood20_m1
+ObjectTemplate.addEmitterSpeed 1
+ObjectTemplate.emitterSpeedScale 1
+ObjectTemplate.startProbability 1
+ObjectTemplate.lodDistance 500
+ObjectTemplate.timeToLive CRD_NONE/0.1/0/0
+ObjectTemplate.intensity CRD_UNIFORM/5/20/0
+ObjectTemplate.relativePositionInDof CRD_NONE/0.1/0/0
+ObjectTemplate.positionalSpeedInDof CRD_UNIFORM/5/-5/0
+ObjectTemplate.positionalSpeedInUp CRD_UNIFORM/10/5/0
+ObjectTemplate.positionalSpeedInRight CRD_UNIFORM/5/-5/0
+ObjectTemplate.rotationalSpeedInUp CRD_UNIFORM/1/10/0
+ObjectTemplate.rotationalSpeedInRight CRD_UNIFORM/1/2/0
+ObjectTemplate.startRotation CRD_UNIFORM/70/0/0
+
+rem *** Em_RichoCascadesWood2 ***
+ObjectTemplate.create Emitter Em_RichoCascadesWood2
+ObjectTemplate.template Gibb_wood40_m1
+ObjectTemplate.addEmitterSpeed 1
+ObjectTemplate.emitterSpeedScale 1
+ObjectTemplate.startProbability 1
+ObjectTemplate.lodDistance 500
+ObjectTemplate.timeToLive CRD_NONE/0.1/0/0
+ObjectTemplate.intensity CRD_UNIFORM/5/30/0
+ObjectTemplate.relativePositionInDof CRD_NONE/0.1/0/0
+ObjectTemplate.positionalSpeedInDof CRD_UNIFORM/5/-5/0
+ObjectTemplate.positionalSpeedInUp CRD_UNIFORM/8/4/0
+ObjectTemplate.positionalSpeedInRight CRD_UNIFORM/5/-5/0
+ObjectTemplate.rotationalSpeedInDof CRD_UNIFORM/10/0/0
+ObjectTemplate.rotationalSpeedInRight CRD_UNIFORM/1/50/0
+ObjectTemplate.startRotation CRD_UNIFORM/1/20/0
+
+rem *** Em_RichoCascadesWood3 ***
+ObjectTemplate.create Emitter Em_RichoCascadesWood3
+ObjectTemplate.template Gibb_wood72_m1
+ObjectTemplate.addEmitterSpeed 1
+ObjectTemplate.emitterSpeedScale 1
+ObjectTemplate.startProbability 1
+ObjectTemplate.lodDistance 500
+ObjectTemplate.timeToLive CRD_NONE/0.1/0/0
+ObjectTemplate.intensity CRD_UNIFORM/11/20/0
+ObjectTemplate.relativePositionInDof CRD_NONE/0.1/0/0
+ObjectTemplate.positionalSpeedInDof CRD_UNIFORM/5/-5/0
+ObjectTemplate.positionalSpeedInUp CRD_UNIFORM/7/3/0
+ObjectTemplate.positionalSpeedInRight CRD_UNIFORM/5/-5/0
+ObjectTemplate.rotationalSpeedInUp CRD_UNIFORM/1/10/0
+ObjectTemplate.rotationalSpeedInRight CRD_UNIFORM/5/0/0
+ObjectTemplate.startRotation CRD_UNIFORM/1/10/0
+
+rem *** Em_RichoCascadesWood4 ***
+ObjectTemplate.create Emitter Em_RichoCascadesWood4
+ObjectTemplate.template Gibb_wood90_m1
+ObjectTemplate.addEmitterSpeed 1
+ObjectTemplate.emitterSpeedScale 1
+ObjectTemplate.startProbability 1
+ObjectTemplate.lodDistance 500
+ObjectTemplate.timeToLive CRD_NONE/0.1/0/0
+ObjectTemplate.intensity CRD_UNIFORM/5/40/0
+ObjectTemplate.relativePositionInDof CRD_NONE/0.1/0/0
+ObjectTemplate.positionalSpeedInDof CRD_UNIFORM/15/-5/0
+ObjectTemplate.positionalSpeedInUp CRD_UNIFORM/15/10/0
+ObjectTemplate.positionalSpeedInRight CRD_UNIFORM/5/-5/0
+ObjectTemplate.rotationalSpeedInUp CRD_UNIFORM/1/10/0
+ObjectTemplate.rotationalSpeedInRight CRD_UNIFORM/20/0/0
+ObjectTemplate.startRotation CRD_NONE/1/0/0

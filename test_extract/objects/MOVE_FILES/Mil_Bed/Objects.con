@@ -1,0 +1,4 @@
+ObjectTemplate.create SimpleObject milBed_m1
+ObjectTemplate.geometry milBed_m1
+ObjectTemplate.aiTemplate milBed_m1
+ObjectTemplate.setHasCollisionPhysics 1

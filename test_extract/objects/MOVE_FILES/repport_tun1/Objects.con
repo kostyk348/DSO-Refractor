@@ -1,0 +1,3 @@
+ObjectTemplate.create SimpleObject repport_tun1_M1
+ObjectTemplate.geometry repport_tun1_M1
+ObjectTemplate.setHasCollisionPhysics 1

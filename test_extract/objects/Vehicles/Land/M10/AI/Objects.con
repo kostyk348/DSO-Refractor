@@ -1,0 +1,71 @@
+rem *** Plugins ***
+aiTemplatePlugIn.create Mobile M10Mobile
+aiTemplatePlugIn.vehicleNumber 0
+aiTemplatePlugIn.maxSpeed 12.0
+aiTemplatePlugIn.turnRadius 5.0
+aiTemplatePlugIn.coverSearchRadius 50.0
+aiTemplatePlugIn.lodHeight 0.8
+
+aiTemplatePlugIn.create Physical M10Physical
+aiTemplatePlugIn.setStrType HeavyArmour
+
+aiTemplatePlugIn.create Cover M10Cover
+aiTemplatePlugIn.coverValue 4.0
+
+aiTemplatePlugIn.create Armament M10Turret
+
+aiTemplatePlugIn.create Unit M10Unit
+aiTemplatePlugIn.equipmentType 0
+aiTemplatePlugIn.setStrategicStrength 0 4
+aiTemplatePlugIn.setStrategicStrength 1 4
+
+aiTemplatePlugIn.create ControlInfo M10Ctrl
+aiTemplatePlugIn.driveTurnControl           PIYaw
+aiTemplatePlugIn.driveThrottleControl       PIThrottle
+aiTemplatePlugIn.aimHorizontalControl       PIMouseLookX
+aiTemplatePlugIn.aimVerticalControl         PIMouseLookY
+aiTemplatePlugIn.lookHorizontalControl      PIMouseLookX
+aiTemplatePlugIn.lookVerticalControl        PIMouseLookY
+aiTemplatePlugIn.throttleSensitivity       -1.0
+rem aiTemplatePlugIn.pitchSensitivity           0.021817
+rem aiTemplatePlugIn.rollSensitivity           -0.021817
+aiTemplatePlugIn.pitchSensitivity           0.21817
+aiTemplatePlugIn.rollSensitivity           -0.21817
+aiTemplatePlugIn.yawSensitivity            -2.5
+rem aiTemplatePlugIn.lookVerticalSensitivity    0.021817
+rem aiTemplatePlugIn.lookHorizontalSensitivity -0.021817
+aiTemplatePlugIn.lookVerticalSensitivity    0.21817
+aiTemplatePlugIn.lookHorizontalSensitivity -0.21817
+aiTemplatePlugIn.throttleLookAhead          1.0
+aiTemplatePlugIn.pitchLookAhead             1.0
+aiTemplatePlugIn.rollLookAhead              1.0
+aiTemplatePlugIn.yawLookAhead               1.0
+aiTemplatePlugIn.lookVerticalLookAhead      1.0
+aiTemplatePlugIn.lookHorizontalLookAhead    1.0
+aiTemplatePlugIn.throttleScale              1.0
+rem *** Angle in radians ***
+aiTemplatePlugIn.pitchScale                 1.0
+aiTemplatePlugIn.rollScale                  1.0
+aiTemplatePlugIn.yawScale                   0.0020
+aiTemplatePlugIn.lookVerticalScale          1.0
+aiTemplatePlugIn.lookHorizontalScale        1.0
+
+rem *** AITemplate ***
+aiTemplate.create M10
+aiTemplate.addType ITUnit
+aiTemplate.addType ITBiological
+aiTemplate.addType ITGround
+aiTemplate.addType ITMobile
+aiTemplate.addType ITObstructedView
+aiTemplate.degeneration 30
+aiTemplate.allowedTimeDiff 1
+aiTemplate.basicTemp 5
+aiTemplate.commonKnowledge 0
+aiTemplate.addPlugIn M10Mobile
+aiTemplate.addPlugIn M10Physical
+aiTemplate.addPlugIn M10Cover
+aiTemplate.addPlugIn M10Turret
+aiTemplate.addPlugIn M10Unit
+aiTemplate.addPlugIn M10Ctrl
+
+

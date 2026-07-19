@@ -1,0 +1,37 @@
+rem *** Create Prerequisites ***
+
+
+rem *** Tobruk German ***
+
+aiStrategy.createPrerequisite flankPrereq
+aiStrategy.addCondition flankCond       5.0
+aiStrategy.addCondition frontWidthCond  1.0
+
+aiStrategy.createPrerequisite spearPrereq
+aiStrategy.addCondition finishOffCond  20.0
+rem aiStrategy.addCondition baseCloseCond  1.0
+rem aiStrategy.addCondition halfConstCond  2.5
+
+aiStrategy.createPrerequisite centrePrereq
+aiStrategy.addCondition centreCond      5.0
+aiStrategy.addCondition frontWidthCond  1.0
+
+
+rem *** Tobruk British ***
+
+aiStrategy.createPrerequisite front2Prereq
+aiStrategy.addCondition front2Cond      5.0
+aiStrategy.addCondition atSecondLineCPs 1.0
+
+aiStrategy.createPrerequisite front3Prereq
+aiStrategy.addCondition front3Cond     5.0
+aiStrategy.addCondition noMoreThan3CPs 1.0
+
+aiStrategy.createPrerequisite retakePrereq
+aiStrategy.addCondition retakeCond     7.0
+
+aiStrategy.createPrerequisite breakOutPrereq
+aiStrategy.addCondition oneCPLeftCond  	45.0
+aiStrategy.addCondition noCPLeftCond    65.0
+
+

@@ -1,0 +1,117 @@
+renderer.beginGlobalCluster Wespe
+
+GeometryTemplate.create StandardMesh Wespe_Cannon_M1
+GeometryTemplate.file Wespe_Cannon_M1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 10
+GeometryTemplate.setLodDistance 2 15
+GeometryTemplate.setLodDistance 3 30
+GeometryTemplate.setLodDistance 4 50
+GeometryTemplate.setLodDistance 5 100
+
+GeometryTemplate.create StandardMesh Wespe_Hull_M1
+GeometryTemplate.file Wespe_Hull_M1
+GeometryTemplate.hasDynamicShadow 1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 10
+GeometryTemplate.setLodDistance 2 15
+GeometryTemplate.setLodDistance 3 30
+GeometryTemplate.setLodDistance 4 50
+GeometryTemplate.setLodDistance 5 100
+
+GeometryTemplate.create AnimatedMesh Wespe_Track_L_M1
+GeometryTemplate.file Wespe_Track_L_M1
+GeometryTemplate.setSkin animations/Wespe_Track_L_M1.skn
+
+GeometryTemplate.create AnimatedMesh Wespe_Track_R_M1
+GeometryTemplate.file Wespe_Track_R_M1
+GeometryTemplate.setSkin animations/Wespe_Track_R_M1.skn
+
+GeometryTemplate.create StandardMesh Wespe_wheel1L_M1
+GeometryTemplate.file Wespe_wheel1L_M1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 20
+GeometryTemplate.setLodDistance 2 60
+GeometryTemplate.setLodDistance 3 100
+
+GeometryTemplate.create StandardMesh Wespe_wheel1R_M1
+GeometryTemplate.file Wespe_wheel1R_M1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 20
+GeometryTemplate.setLodDistance 2 60
+GeometryTemplate.setLodDistance 3 100
+
+GeometryTemplate.create StandardMesh Wespe_wheel2L_M1
+GeometryTemplate.file Wespe_wheel2L_M1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 20
+GeometryTemplate.setLodDistance 2 60
+GeometryTemplate.setLodDistance 3 100
+
+GeometryTemplate.create StandardMesh Wespe_wheel2R_M1
+GeometryTemplate.file Wespe_wheel2R_M1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 20
+GeometryTemplate.setLodDistance 2 60
+GeometryTemplate.setLodDistance 3 100
+
+GeometryTemplate.create StandardMesh Wespe_wheel3L_M1
+GeometryTemplate.file Wespe_wheel3L_M1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 20
+GeometryTemplate.setLodDistance 2 60
+GeometryTemplate.setLodDistance 3 100
+
+GeometryTemplate.create StandardMesh Wespe_wheel3R_M1
+GeometryTemplate.file Wespe_wheel3R_M1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 20
+GeometryTemplate.setLodDistance 2 60
+GeometryTemplate.setLodDistance 3 100
+
+GeometryTemplate.create StandardMesh Wespe_wheel4L_M1
+GeometryTemplate.file Wespe_wheel4L_M1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 20
+GeometryTemplate.setLodDistance 2 60
+GeometryTemplate.setLodDistance 3 100
+
+GeometryTemplate.create StandardMesh Wespe_wheel4R_M1
+GeometryTemplate.file Wespe_wheel4R_M1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 20
+GeometryTemplate.setLodDistance 2 60
+GeometryTemplate.setLodDistance 3 100
+
+GeometryTemplate.create StandardMesh Wespe_Tower_M1
+GeometryTemplate.file Wespe_Tower_M1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 20
+GeometryTemplate.setLodDistance 2 60
+GeometryTemplate.setLodDistance 3 100
+
+GeometryTemplate.create StandardMesh 1P_Wespe_Driver_M1
+GeometryTemplate.file 1P_Wespe_Driver_M1
+
+GeometryTemplate.create StandardMesh Wespe_Door_M1
+GeometryTemplate.file Wespe_Door_M1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 10
+GeometryTemplate.setLodDistance 2 15
+GeometryTemplate.setLodDistance 3 30
+GeometryTemplate.setLodDistance 4 50
+GeometryTemplate.setLodDistance 5 100
+renderer.endGlobalCluster
+
+GeometryTemplate.create StandardMesh Wespe_Hull_L1
+GeometryTemplate.file Wespe_Hull_L1
+GeometryTemplate.hasDynamicShadow 1
+
+GeometryTemplate.create StandardMesh Wreck_Wespe_M1
+GeometryTemplate.file Wreck_Wespe_M1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 150
+GeometryTemplate.setLodDistance 2 200
+GeometryTemplate.setLodDistance 3 250
+GeometryTemplate.setLodDistance 4 300
+GeometryTemplate.setLodDistance 5 500

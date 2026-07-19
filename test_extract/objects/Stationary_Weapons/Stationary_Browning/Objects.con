@@ -1,0 +1,94 @@
+rem
+rem *** StationaryBrowning_mg ***
+rem
+ObjectTemplate.create PlayerControlObject Stationary_Browning
+ObjectTemplate.networkableInfo Stationary_mg_BodyInfo
+ObjectTemplate.setSoldierExitLocation -0.5/0/-0.8 0/0/0
+ObjectTemplate.aiTemplate Stationary_Browning
+ObjectTemplate.geometry MGPointDummy
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.setPcoId 0
+ObjectTemplate.HasArmor 1
+ObjectTemplate.HitPoints 45
+ObjectTemplate.MaxHitPoints 45
+ObjectTemplate.Material 45
+Objecttemplate.GUIIndex 80
+ObjectTemplate.setVehicleCategory VCLand
+ObjectTemplate.setVehicleType VTStationaryMG
+ObjectTemplate.setHasCollisionPhysics 1
+ObjectTemplate.setHasResponsePhysics 1
+rem -------------------------------------
+ObjectTemplate.addTemplate StationaryBrowningPoint
+ObjectTemplate.setPosition 0/0.1/0
+ObjectTemplate.setRotation 0/0/0
+ObjectTemplate.addTemplate StationaryBrowningSeat
+ObjectTemplate.setPosition 0/0.0/-0.65
+ObjectTemplate.setRotation 0/0/0
+rem -------------------------------------
+rem
+rem *** StationaryBrowningpoint ***
+rem
+ObjectTemplate.create RotationalBundle StationaryBrowningPoint
+ObjectTemplate.networkableInfo Stationary_mg_TurretInfo
+ObjectTemplate.geometry tripod_stick_m1
+rem -------------------------------------
+ObjectTemplate.addTemplate StationaryBrowningRotation
+rem -------------------------------------
+ObjectTemplate.setMinRotation -70/0/0
+ObjectTemplate.setMaxRotation 70/0/0
+ObjectTemplate.setMaxSpeed 90/0/0
+ObjectTemplate.setAcceleration 5000/0/0
+ObjectTemplate.setInputToYaw 4
+ObjectTemplate.setInputToPitch 5
+
+rem
+rem *** StationaryBrowningRotation ***
+rem
+ObjectTemplate.create RotationalBundle StationaryBrowningRotation
+ObjectTemplate.networkableInfo Stationary_mg_TurretInfo
+rem -------------------------------------
+ObjectTemplate.addTemplate Browning
+ObjectTemplate.setPosition 0/0/0.4
+ObjectTemplate.setRotation 0/0/0
+ObjectTemplate.addTemplate StationaryBrowningEntry
+ObjectTemplate.setPosition 0/0/-1
+ObjectTemplate.setRotation 0/0/0
+ObjectTemplate.addTemplate StationaryBrowningCamera
+ObjectTemplate.setPosition 0/0.3/-0.1
+ObjectTemplate.setRotation 0/0/0
+rem -------------------------------------
+ObjectTemplate.setMinRotation 0/-70/0
+ObjectTemplate.setMaxRotation 0/30/0
+ObjectTemplate.setMaxSpeed 0/90/0
+ObjectTemplate.setAcceleration 0/5000/0
+ObjectTemplate.setInputToYaw 4
+ObjectTemplate.setInputToPitch 5
+
+rem
+rem *** StationaryBrowningCamera ***
+rem
+ObjectTemplate.create Camera StationaryBrowningCamera
+rem -------------------------------------
+rem -------------------------------------
+ObjectTemplate.setMinRotation 0/0/0
+ObjectTemplate.setMaxRotation 0/0/0
+ObjectTemplate.setPivotPosition 0/0/0
+ObjectTemplate.setMaxSpeed 0/0/0
+ObjectTemplate.setAcceleration 0/0/0
+ObjectTemplate.setContinousRotationSpeed 0/0/0
+ObjectTemplate.setInputToYaw c_PINone
+ObjectTemplate.setInputToPitch c_PINone
+ObjectTemplate.setInputToRoll c_PINone
+ObjectTemplate.setHasTarget 0
+rem
+rem *** StationaryBrowningEntry ***
+rem
+ObjectTemplate.create EntryPoint StationaryBrowningEntry
+ObjectTemplate.setEntryRadius 1.1
+
+rem
+rem *** StationaryBrowningSeat ***
+rem
+ObjectTemplate.create SeatObject StationaryBrowningSeat
+ObjectTemplate.seatFlags c_SeatShowStandingSoldier
+ObjectTemplate.seatFlags c_SeatIsOutside

@@ -1,0 +1,9 @@
+NetworkableInfo.createNewInfo KitInfo
+NetworkableInfo.setHasOrientation 1
+NetworkableInfo.setBasePriority c_NIGhostAlways
+NetworkableInfo.setPredictionMode PMNone
+
+
+
+
+

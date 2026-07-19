@@ -1,0 +1,4 @@
+ObjectTemplate.create SimpleObject lcvp_static
+ObjectTemplate.geometry lcvp_static
+ObjectTemplate.aiTemplate lcvp_static
+ObjectTemplate.setHasCollisionPhysics 1

@@ -1,0 +1,43 @@
+rem
+rem *** e_DefGunDamage **
+rem
+ObjectTemplate.create EffectBundle e_DefGunDamage
+ObjectTemplate.saveInSeparateFile 1
+rem -------------------------------------
+ObjectTemplate.addTemplate em_DefGunDamage
+ObjectTemplate.setPosition 0.4/0/0
+ObjectTemplate.timeToLive CRD_NONE/-1/0/0
+rem -------------------------------------
+rem
+rem *** Em_DefGunDamage***
+rem
+ObjectTemplate.create Emitter Em_DefGunDamage
+ObjectTemplate.template Fx_DefGunDamage
+ObjectTemplate.looping 1
+ObjectTemplate.addEmitterSpeed 1
+ObjectTemplate.emitterSpeedScale 0.4
+ObjectTemplate.startProbability 1
+ObjectTemplate.lodDistance 700
+ObjectTemplate.timeToLive CRD_NONE/0.5/0/0
+ObjectTemplate.intensity CRD_NONE/10/0/0
+ObjectTemplate.intensityOverTime 0/1|100/1
+ObjectTemplate.relativePositionInDof CRD_NONE/0.1/0/0
+ObjectTemplate.relativePositionInUp CRD_NONE/0.1/0/0
+ObjectTemplate.hasOverDamage 1
+rem
+rem *** Fx_DefGunDamage***
+rem
+ObjectTemplate.create SpriteParticle Fx_DefGunDamage
+ObjectTemplate.timeToLive CRD_UNIFORM/0.7/0.6/0
+ObjectTemplate.size CRD_UNIFORM/3/4/0
+ObjectTemplate.gravityModifier CRD_NONE/-0.7/-0.5/0
+ObjectTemplate.drag CRD_NONE/0.5/0/0
+ObjectTemplate.sizeOverTime 0/1.20005|100/1.51991
+ObjectTemplate.texture e_muzs2_I
+ObjectTemplate.initRotation CRD_UNIFORM/0/90/1
+ObjectTemplate.XYSizeRatio CRD_NONE/1/0/0
+ObjectTemplate.srcBlendMode BMSourceAlpha
+ObjectTemplate.destBlendMode BMInvSourceAlpha
+ObjectTemplate.rotationSpeed CRD_UNIFORM/0/10/1
+ObjectTemplate.colorRGBAOverTime 0/212/208/200/110|7/255/255/255/217|54/255/255/255/172|62/176/176/176/165|80/92/92/92/148|100/0/0/0/0
+ObjectTemplate.hasStaticColor 1

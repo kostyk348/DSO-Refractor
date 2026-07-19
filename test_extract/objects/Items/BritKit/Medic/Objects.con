@@ -1,0 +1,30 @@
+ObjectTemplate.create KitPart GB_Medic_hippack
+ObjectTemplate.geometry brit_Medic_hippack
+ObjectTemplate.setBoneName hippack
+ObjectTemplate.setCopyLinksCount 0
+
+ObjectTemplate.create KitPart Medic_helm_brit
+ObjectTemplate.geometry Medic_helm_brit
+ObjectTemplate.setBoneName A
+ObjectTemplate.setCopyLinksCount 0
+
+ObjectTemplate.create KitPart US_Britt_Bacpac
+ObjectTemplate.geometry US_Britt_Bacpac
+ObjectTemplate.setBoneName backpack
+ObjectTemplate.setCopyLinksCount 0
+
+ObjectTemplate.create Kit  GB_Medic
+ObjectTemplate.geometry  Kit_Allies_Medic
+ObjectTemplate.setHasCollisionPhysics 1
+ObjectTemplate.networkableInfo KitInfo
+ObjectTemplate.addTemplate Medic_helm_brit
+rem ObjectTemplate.addTemplate GB_Medic_hippack
+ObjectTemplate.addTemplate US_Britt_Bacpac
+
+ObjectTemplate.addTemplate Thompson
+ObjectTemplate.addTemplate Colt
+ObjectTemplate.addTemplate KnifeAllies
+
+ObjectTemplate.addTemplate MedPack
+ObjectTemplate.addTemplate GrenadeAllies
+ObjectTemplate.aiTemplate  Medic

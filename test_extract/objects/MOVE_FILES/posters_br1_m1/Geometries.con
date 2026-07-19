@@ -1,0 +1,8 @@
+GeometryTemplate.create StandardMesh posters_br1_m1
+GeometryTemplate.file posters_br1_m1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 15
+GeometryTemplate.setLodDistance 2 35
+GeometryTemplate.setLodDistance 3 45
+GeometryTemplate.setLodDistance 4 100
+GeometryTemplate.setLodDistance 5 200

@@ -1,0 +1,29 @@
+ObjectTemplate.create Bundle bunker2_M1
+ObjectTemplate.setHasCollisionPhysics 1
+ObjectTemplate.aiTemplate Bunker2_m1
+ObjectTemplate.addTemplate lodbunker2
+ObjectTemplate.addTemplate bunker2Ladder
+ObjectTemplate.setPosition 0.46/1.48/2.91
+ObjectTemplate.setRotation 240/5/0
+
+LodSelectorTemplate.create DistanceSelector bunker2Selector
+LodSelectorTemplate.addLodDistance 70
+ObjectTemplate.create LodObject lodbunker2
+ObjectTemplate.lodselector bunker2Selector
+ObjectTemplate.addTemplate bunker2Interior
+ObjectTemplate.addTemplate bunker2Exterior
+
+ObjectTemplate.create Bundle bunker2Interior
+ObjectTemplate.geometry bunker2_m1
+
+
+ObjectTemplate.create SimpleObject bunker2Exterior
+ObjectTemplate.geometry bunker2_m2
+
+rem *** ShipLadder02 ***
+ObjectTemplate.create SimpleObject bunker2Ladder
+ObjectTemplate.geometry bunker2_ladder_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.addToCollisionGroup c_CGLadders
+

@@ -1,0 +1,85 @@
+ObjectTemplate.create HandFireArms Bazooka
+ObjectTemplate.networkableInfo HandFireArmsInfo
+ObjectTemplate.aiTemplate BazookaRPG
+ObjectTemplate.itemIndex 3
+ObjectTemplate.projectileTemplate BazookaProjectile
+ObjectTemplate.projectilePosition 0/0/0.5
+ObjectTemplate.ForceOnExplosion 5
+ObjectTemplate.magSize 1
+ObjectTemplate.numOfMag 6
+ObjectTemplate.magType 0
+ObjectTemplate.autoReload 1
+ObjectTemplate.reloadtime 5.6
+ObjectTemplate.roundOfFire 1
+ObjectTemplate.fireOnce 1
+ObjectTemplate.soldierZoomFov 0.6 
+ObjectTemplate.soldierZoomPosition -0.05/-0.02/0
+ObjectTemplate.AmmoType	3
+
+ObjectTemplate.loadSoundScript Sounds/bazooka.ssc
+
+ObjectTemplate.zoomFov 0.5
+ObjectTemplate.altFireOnce 1
+ObjectTemplate.fireInCameraDof 1
+
+ObjectTemplate.GUIIndex 17
+
+Rem *** Deviation Begin *****
+
+ObjectTemplate.velocity 50
+ObjectTemplate.minDeviation 0
+ObjectTemplate.maxDeviation 0.5
+
+ObjectTemplate.minDevStanding 0.2
+ObjectTemplate.minDevCrouching 0.1
+ObjectTemplate.minDevLying 0.05
+
+ObjectTemplate.subDevStanding 0.03
+ObjectTemplate.subDevCrouching 0.05
+ObjectTemplate.subDevLying 0.025
+
+ObjectTemplate.addDevWalk 0.01
+ObjectTemplate.addDevRun 0.02
+ObjectTemplate.addDevJump 0.05
+ObjectTemplate.addDevYaw 0.02
+ObjectTemplate.addDevPitch 0.02
+ObjectTemplate.addDevStrafe 0.01
+
+ObjectTemplate.addDevFire 0.08
+ObjectTemplate.subDev 0.01
+
+Rem *** Deviation  End *****
+
+ObjectTemplate.createSkeleton animations/Bazooka.ske
+ObjectTemplate.useSkeletonPartAsMain Bazooka
+ObjectTemplate.addTemplate BazookaLod
+
+ObjectTemplate.addTemplate e_rocketFumeBack
+ObjectTemplate.setInputId -1
+ObjectTemplate.startoneffects 0
+ObjectTemplate.setPosition 0/0/0
+ObjectTemplate.setRotation 0/0/0
+
+rem ** Objects
+ObjectTemplate.create SimpleObject BazookaTrigger
+ObjectTemplate.geometry BazookaTrigger
+
+ObjectTemplate.create SimpleObject BazookaRocket
+ObjectTemplate.geometry BazookaRocket
+
+ObjectTemplate.create SimpleObject BazookaSimple
+ObjectTemplate.geometry Shad_Bazooka
+
+ObjectTemplate.create AnimatedBundle BazookaComplex
+ObjectTemplate.geometry Bazooka
+ObjectTemplate.hasDynamicShadow 1
+ObjectTemplate.createSkeleton animations/Bazooka.ske
+ObjectTemplate.addTemplate BazookaTrigger
+ObjectTemplate.bindToSkeletonPart trigger
+ObjectTemplate.addTemplate BazookaRocket
+ObjectTemplate.bindToSkeletonPart rocket
+
+ObjectTemplate.create LodObject BazookaLod
+ObjectTemplate.lodselector HandWeaponLodSelector
+ObjectTemplate.addTemplate BazookaComplex
+ObjectTemplate.addTemplate BazookaSimple	

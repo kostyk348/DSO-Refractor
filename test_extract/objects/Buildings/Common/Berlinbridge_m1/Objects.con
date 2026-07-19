@@ -1,0 +1,4 @@
+ObjectTemplate.create SimpleObject Berlinbridge_m1
+ObjectTemplate.aiTemplate BerlinBridge_m1
+ObjectTemplate.geometry Berlinbridge_m1
+ObjectTemplate.setHasCollisionPhysics 1

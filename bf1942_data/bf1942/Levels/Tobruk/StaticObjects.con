@@ -1,0 +1,5077 @@
+rem
+rem ***  ***
+rem
+Object.create coastline 
+Object.absolutePosition 3361.73/25/18.94
+Object.rotation 0/0/1.52588e-005
+rem
+rem ***  ***
+rem
+Object.create Afri_bush9_M1 
+Object.absolutePosition 1849.47/72.874/660.429
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.836941/0.924471/0.839765
+Object.geometry.color 0.494118/0.494118/0.494118
+rem
+rem ***  ***
+rem
+Object.create Afri_bush8_M1 
+Object.absolutePosition 1885.55/79.1123/602.675
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.884941/0.984471/0.878588
+Object.geometry.color 0.494118/0.494118/0.494118
+rem
+rem ***  ***
+rem
+Object.create Afri_bush8_M1 
+Object.absolutePosition 1882.41/78.8055/600.274
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.88/0.908941/0.995765
+Object.geometry.color 0.494118/0.494118/0.494118
+rem
+rem ***  ***
+rem
+Object.create Afri_bush8_M1 
+Object.absolutePosition 1886.92/79.2683/599.275
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.88/0.913882/0.894824
+Object.geometry.color 0.494118/0.494118/0.494118
+rem
+rem ***  ***
+rem
+Object.create Afri_bush8_M1 
+Object.absolutePosition 1887.23/79.1769/601.764
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.890588/0.937176/0.820706
+Object.geometry.color 0.494118/0.494118/0.494118
+rem
+rem ***  ***
+rem
+Object.create Afri_bush8_M1 
+Object.absolutePosition 1841.49/76.669/597.412
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.823529/0.926588/0.919529
+Object.geometry.color 0.494118/0.494118/0.494118
+rem
+rem ***  ***
+rem
+Object.create Afri_bush8_M1 
+Object.absolutePosition 1845.79/76.5378/599.608
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.901882/0.933647/0.923059
+Object.geometry.color 0.494118/0.494118/0.494118
+rem
+rem ***  ***
+rem
+Object.create Afri_bush8_M1 
+Object.absolutePosition 1843.65/77.5225/603.483
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.951294/0.972471/0.896235
+Object.geometry.color 0.494118/0.494118/0.494118
+rem
+rem ***  ***
+rem
+Object.create Afri_bush8_M1 
+Object.absolutePosition 1839.97/78.2689/604.638
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.975294/0.829176/0.853176
+Object.geometry.color 0.494118/0.494118/0.494118
+rem
+rem ***  ***
+rem
+Object.create Afri_bush8_M1 
+Object.absolutePosition 1843.95/72.5293/655.453
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.952706/0.869412/0.933647
+Object.geometry.color 0.494118/0.494118/0.494118
+rem
+rem ***  ***
+rem
+Object.create Afri_bush8_M1 
+Object.absolutePosition 1845.49/72.6376/656.233
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.864471/0.956941/0.843294
+Object.geometry.color 0.494118/0.494118/0.494118
+rem
+rem ***  ***
+rem
+Object.create Afri_bush8_M1 
+Object.absolutePosition 1847.41/72.8769/655.41
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.933647/0.834823/0.860941
+Object.geometry.color 0.494118/0.494118/0.494118
+rem
+rem ***  ***
+rem
+Object.create Afri_bush8_M1 
+Object.absolutePosition 1845.6/72.6056/657.554
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.997176/0.868706/0.915294
+Object.geometry.color 0.494118/0.494118/0.494118
+rem
+rem ***  ***
+rem
+Object.create Afri_bush8_M1 
+Object.absolutePosition 1845.65/72.5305/659.632
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.865176/0.88/0.980941
+Object.geometry.color 0.494118/0.494118/0.494118
+rem
+rem ***  ***
+rem
+Object.create Afri_bush8_M1 
+Object.absolutePosition 1846.54/73.0328/651.865
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.894824/0.843294/0.951294
+Object.geometry.color 0.494118/0.494118/0.494118
+rem
+rem ***  ***
+rem
+Object.create Afri_bush8_M1 
+Object.absolutePosition 1831.59/77.4747/618.624
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.859529/0.932235/0.872941
+Object.geometry.color 0.494118/0.494118/0.494118
+rem
+rem ***  ***
+rem
+Object.create Afri_bush8_M1 
+Object.absolutePosition 1830.51/77.717/621.974
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.981647/0.865176/0.977412
+Object.geometry.color 0.494118/0.494118/0.494118
+rem
+rem ***  ***
+rem
+Object.create Afri_bush8_M1 
+Object.absolutePosition 1828.88/78.0813/621.524
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.828471/0.867294/0.875059
+Object.geometry.color 0.494118/0.494118/0.494118
+rem
+rem ***  ***
+rem
+Object.create Afri_bush8_M1 
+Object.absolutePosition 1825.72/78.2757/622.638
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.889176/0.823529/0.856706
+Object.geometry.color 0.494118/0.494118/0.494118
+rem
+rem ***  ***
+rem
+Object.create Afri_bush8_M1 
+Object.absolutePosition 1821.2/77.5346/618.929
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.907529/0.834823/0.973882
+Object.geometry.color 0.494118/0.494118/0.494118
+rem
+rem ***  ***
+rem
+Object.create Afri_bush8_M1 
+Object.absolutePosition 1824.07/78.2687/624.02
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.987294/0.865176/0.820706
+Object.geometry.color 0.494118/0.494118/0.494118
+rem
+rem ***  ***
+rem
+Object.create Afri_bush8_M1 
+Object.absolutePosition 1823.35/77.8868/625.793
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.932941/0.944941/0.847529
+Object.geometry.color 0.494118/0.494118/0.494118
+rem
+rem ***  ***
+rem
+Object.create Afri_bush8_M1 
+Object.absolutePosition 1820.67/77.8897/630.936
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.920235/0.995765/0.865882
+Object.geometry.color 0.494118/0.494118/0.494118
+rem
+rem ***  ***
+rem
+Object.create Afri_bush8_M1 
+Object.absolutePosition 1818.95/77.6597/630.602
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.884235/0.882824/0.975294
+Object.geometry.color 0.494118/0.494118/0.494118
+rem
+rem ***  ***
+rem
+Object.create Afri_bush8_M1 
+Object.absolutePosition 1816.39/77.7577/634.073
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.978824/0.871529/0.904
+Object.geometry.color 0.494118/0.494118/0.494118
+rem
+rem ***  ***
+rem
+Object.create Afri_bush8_M1 
+Object.absolutePosition 1814.99/78.5896/637.619
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.943529/0.952/0.963294
+Object.geometry.color 0.494118/0.494118/0.494118
+rem
+rem ***  ***
+rem
+Object.create Afri_bush8_M1 
+Object.absolutePosition 1808.59/78.9388/641.751
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.952/0.832/0.973176
+Object.geometry.color 0.494118/0.494118/0.494118
+rem
+rem ***  ***
+rem
+Object.create Afri_bush8_M1 
+Object.absolutePosition 1806.33/78.824/643.198
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.845412/0.944235/1
+Object.geometry.color 0.494118/0.494118/0.494118
+rem
+rem ***  ***
+rem
+Object.create Afri_bush8_M1 
+Object.absolutePosition 1810.96/79.0887/636.792
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.986588/0.841882/0.846824
+Object.geometry.color 0.494118/0.494118/0.494118
+rem
+rem ***  ***
+rem
+Object.create Afri_bush8_M1 
+Object.absolutePosition 1811.16/78.1253/633.548
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.977412/0.918118/0.898353
+Object.geometry.color 0.494118/0.494118/0.494118
+rem
+rem ***  ***
+rem
+Object.create Afri_bush8_M1 
+Object.absolutePosition 1903.83/76.7167/675.667
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.937176/0.824941/0.824235
+Object.geometry.color 0.494118/0.494118/0.494118
+rem
+rem ***  ***
+rem
+Object.create Afri_bush8_M1 
+Object.absolutePosition 1900.61/77.0963/676.079
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.859529/0.845412/0.896235
+Object.geometry.color 0.494118/0.494118/0.494118
+rem
+rem ***  ***
+rem
+Object.create Afri_bush8_M1 
+Object.absolutePosition 1898.59/77.2392/673.931
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.990118/0.899059/0.924471
+Object.geometry.color 0.494118/0.494118/0.494118
+rem
+rem ***  ***
+rem
+Object.create Afri_bush8_M1 
+Object.absolutePosition 1903.67/76.8216/679.206
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.952/0.897647/0.985882
+Object.geometry.color 0.494118/0.494118/0.494118
+rem
+rem ***  ***
+rem
+Object.create Afri_bush8_M1 
+Object.absolutePosition 1894.8/83.2624/552.277
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.978824/0.826353/0.853882
+Object.geometry.color 0.494118/0.494118/0.494118
+rem
+rem ***  ***
+rem
+Object.create Afri_bush8_M1 
+Object.absolutePosition 1889.69/83.7774/554.899
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.831294/0.841882/0.853176
+Object.geometry.color 0.494118/0.494118/0.494118
+rem
+rem ***  ***
+rem
+Object.create Afri_bush8_M1 
+Object.absolutePosition 1897.19/83.348/555.533
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.834118/0.915294/0.884235
+Object.geometry.color 0.494118/0.494118/0.494118
+rem
+rem ***  ***
+rem
+Object.create Afri_bush8_M1 
+Object.absolutePosition 1889.81/83.5483/548.397
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.824941/0.968941/0.845412
+Object.geometry.color 0.494118/0.494118/0.494118
+rem
+rem ***  ***
+rem
+Object.create Afri_bush8_M1 
+Object.absolutePosition 1884.18/68.6501/520.167
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.839765/0.835529/0.989412
+Object.geometry.color 0.494118/0.494118/0.494118
+rem
+rem ***  ***
+rem
+Object.create Afri_bush8_M1 
+Object.absolutePosition 1884.61/69.0496/522.483
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.889882/0.872941/0.998588
+Object.geometry.color 0.494118/0.494118/0.494118
+rem
+rem ***  ***
+rem
+Object.create Afri_bush8_M1 
+Object.absolutePosition 1848.04/80.2926/707.667
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.939294/0.997176/0.981647
+Object.geometry.color 0.494118/0.494118/0.494118
+rem
+rem ***  ***
+rem
+Object.create Afri_bush8_M1 
+Object.absolutePosition 1846.37/80.1934/706.651
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.937882/0.954824/0.929412
+Object.geometry.color 0.494118/0.494118/0.494118
+rem
+rem ***  ***
+rem
+Object.create Afri_bush8_M1 
+Object.absolutePosition 1715.28/89.4247/784.367
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.877176/0.990118/0.989412
+Object.geometry.color 0.494118/0.494118/0.494118
+rem
+rem ***  ***
+rem
+Object.create Afri_bush8_M1 
+Object.absolutePosition 1712.32/89.7922/783.404
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.992235/0.950588/0.846118
+Object.geometry.color 0.494118/0.494118/0.494118
+rem
+rem ***  ***
+rem
+Object.create Afri_bush8_M1 
+Object.absolutePosition 1717.08/89.1105/783.261
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.885647/0.878588/0.876471
+Object.geometry.color 0.494118/0.494118/0.494118
+rem
+rem ***  ***
+rem
+Object.create Afri_bush8_M1 
+Object.absolutePosition 1897.42/85.6034/574.755
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.836235/0.877176/0.912471
+Object.geometry.color 0.494118/0.494118/0.494118
+rem
+rem ***  ***
+rem
+Object.create Afri_bush8_M1 
+Object.absolutePosition 1823.26/72.0531/588.258
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.885647/0.959765/0.976706
+Object.geometry.color 0.494118/0.494118/0.494118
+rem
+rem ***  ***
+rem
+Object.create Afri_bush8_M1 
+Object.absolutePosition 1692.2/67.1438/600.432
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.897647/0.889176/0.833412
+Object.geometry.color 0.494118/0.494118/0.494118
+rem
+rem ***  ***
+rem
+Object.create Afri_bush8_M1 
+Object.absolutePosition 1692.18/67.1438/603.875
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.980235/0.976/0.843294
+Object.geometry.color 0.494118/0.494118/0.494118
+rem
+rem ***  ***
+rem
+Object.create Afri_bush8_M1 
+Object.absolutePosition 1705.71/69.0296/646.747
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.868/0.904/0.986588
+Object.geometry.color 0.494118/0.494118/0.494118
+rem
+rem ***  ***
+rem
+Object.create Afri_bush8_M1 
+Object.absolutePosition 1781.27/85.6885/715.361
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.841176/0.985882/0.938588
+Object.geometry.color 0.494118/0.494118/0.494118
+rem
+rem ***  ***
+rem
+Object.create Afri_bush8_M1 
+Object.absolutePosition 1780.64/85.6892/714.719
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.849647/0.972471/0.901176
+Object.geometry.color 0.494118/0.494118/0.494118
+rem
+rem ***  ***
+rem
+Object.create Afri_bush8_M1 
+Object.absolutePosition 1787.65/85.1974/694.691
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.879294/0.824941/0.966118
+Object.geometry.color 0.494118/0.494118/0.494118
+rem
+rem ***  ***
+rem
+Object.create Afri_bush8_M1 
+Object.absolutePosition 1785.61/85.7167/693.187
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.906118/0.858118/0.863059
+Object.geometry.color 0.494118/0.494118/0.494118
+rem
+rem ***  ***
+rem
+Object.create Afri_bush8_M1 
+Object.absolutePosition 1790.33/85.2491/695.133
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.908941/0.888471/0.820706
+Object.geometry.color 0.494118/0.494118/0.494118
+rem
+rem ***  ***
+rem
+Object.create Afri_bush8_M1 
+Object.absolutePosition 1790.37/85.4125/697.083
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.888471/0.821412/0.928
+Object.geometry.color 0.494118/0.494118/0.494118
+rem
+rem ***  ***
+rem
+Object.create Afri_bush8_M1 
+Object.absolutePosition 1790.5/85.0493/691.741
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.890588/0.839059/0.993647
+Object.geometry.color 0.494118/0.494118/0.494118
+rem
+rem ***  ***
+rem
+Object.create Afri_bush8_M1 
+Object.absolutePosition 1789.53/85.0863/691.184
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.872235/0.845412/0.863765
+Object.geometry.color 0.494118/0.494118/0.494118
+rem
+rem ***  ***
+rem
+Object.create Afri_bush8_M1 
+Object.absolutePosition 1777.3/84.1388/663.636
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.973882/0.887059/0.945647
+Object.geometry.color 0.494118/0.494118/0.494118
+rem
+rem ***  ***
+rem
+Object.create Afri_bush8_M1 
+Object.absolutePosition 1776.53/84.4667/664.681
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.926588/0.832706/0.914588
+Object.geometry.color 0.494118/0.494118/0.494118
+rem
+rem ***  ***
+rem
+Object.create Afri_bush8_M1 
+Object.absolutePosition 1801.72/85.4867/671.593
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.887059/0.912471/0.839059
+Object.geometry.color 0.494118/0.494118/0.494118
+rem
+rem ***  ***
+rem
+Object.create Afri_bush8_M1 
+Object.absolutePosition 1760.92/68.3827/738.647
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.908941/0.941412/0.966824
+Object.geometry.color 0.494118/0.494118/0.494118
+rem
+rem ***  ***
+rem
+Object.create Afri_bush8_M1 
+Object.absolutePosition 1759.39/68.2359/737.078
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.832/0.887765/0.956941
+Object.geometry.color 0.494118/0.494118/0.494118
+rem
+rem ***  ***
+rem
+Object.create Afri_bush8_M1 
+Object.absolutePosition 1724.99/68.3453/732.187
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.990824/0.868706/0.947059
+Object.geometry.color 0.494118/0.494118/0.494118
+rem
+rem ***  ***
+rem
+Object.create Afri_bush8_M1 
+Object.absolutePosition 1723.23/68.4834/730.677
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.867294/0.826353/0.826353
+Object.geometry.color 0.494118/0.494118/0.494118
+rem
+rem ***  ***
+rem
+Object.create Afri_bush8_M1 
+Object.absolutePosition 1710.24/67.9064/717.502
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.985882/0.875765/0.837647
+Object.geometry.color 0.494118/0.494118/0.494118
+rem
+rem ***  ***
+rem
+Object.create Afri_bush8_M1 
+Object.absolutePosition 1708.85/67.8564/715.641
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.879294/0.959765/0.900471
+Object.geometry.color 0.494118/0.494118/0.494118
+rem
+rem ***  ***
+rem
+Object.create Afri_bush8_M1 
+Object.absolutePosition 1746.38/68.222/747.172
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.890588/0.908235/0.952706
+Object.geometry.color 0.494118/0.494118/0.494118
+rem
+rem ***  ***
+rem
+Object.create Afri_bush8_M1 
+Object.absolutePosition 1762.47/68.8677/759.469
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.921647/0.916/0.907529
+Object.geometry.color 0.494118/0.494118/0.494118
+rem
+rem ***  ***
+rem
+Object.create Afri_bush8_M1 
+Object.absolutePosition 1763.99/69.2865/760.684
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.932941/0.953412/0.995765
+Object.geometry.color 0.494118/0.494118/0.494118
+rem
+rem ***  ***
+rem
+Object.create Afri_bush8_M1 
+Object.absolutePosition 1726.49/68.077/705.705
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.954824/0.928706/0.986588
+Object.geometry.color 0.494118/0.494118/0.494118
+rem
+rem ***  ***
+rem
+Object.create Afri_bush8_M1 
+Object.absolutePosition 1727.7/68.0758/705.873
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.876471/0.976706/0.903294
+Object.geometry.color 0.494118/0.494118/0.494118
+rem
+rem ***  ***
+rem
+Object.create Afri_bush8_M1 
+Object.absolutePosition 1873.45/76.5723/591.646
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.985176/0.887765/0.894824
+Object.geometry.color 0.494118/0.494118/0.494118
+rem
+rem ***  ***
+rem
+Object.create Afri_bush8_M1 
+Object.absolutePosition 1794.47/67.2422/536.326
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.852471/0.965412/0.957647
+Object.geometry.color 0.494118/0.494118/0.494118
+rem
+rem ***  ***
+rem
+Object.create Afri_bush8_M1 
+Object.absolutePosition 1965.99/71.5787/658.165
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.881412/0.962588/0.949882
+Object.geometry.color 0.494118/0.494118/0.494118
+rem
+rem ***  ***
+rem
+Object.create Afri_bush8_M1 
+Object.absolutePosition 1978.54/75.3426/593.765
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.860941/0.943529/0.824235
+Object.geometry.color 0.494118/0.494118/0.494118
+rem
+rem ***  ***
+rem
+Object.create Afri_bush8_M1 
+Object.absolutePosition 1977.78/75.4304/594.721
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.937882/0.947059/0.965412
+Object.geometry.color 0.494118/0.494118/0.494118
+rem
+rem ***  ***
+rem
+Object.create Afri_bush8_M1 
+Object.absolutePosition 1914.19/73.1588/835.726
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.853176/0.928/0.856
+Object.geometry.color 0.494118/0.494118/0.494118
+rem
+rem ***  ***
+rem
+Object.create Afri_bush8_M1 
+Object.absolutePosition 2039.38/68.1148/614.548
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.971765/0.953412/0.906118
+Object.geometry.color 0.494118/0.494118/0.494118
+rem
+rem ***  ***
+rem
+Object.create Afri_bush8_M1 
+Object.absolutePosition 2037.06/72.2825/689.799
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.851765/0.904/0.971765
+Object.geometry.color 0.494118/0.494118/0.494118
+rem
+rem ***  ***
+rem
+Object.create Afri_bush8_M1 
+Object.absolutePosition 2064.85/70.972/716.781
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.908941/0.890588/0.973176
+Object.geometry.color 0.494118/0.494118/0.494118
+rem
+rem ***  ***
+rem
+Object.create Afri_bush8_M1 
+Object.absolutePosition 2113.57/69.9086/629.115
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.853882/0.964/0.918118
+Object.geometry.color 0.494118/0.494118/0.494118
+rem
+rem ***  ***
+rem
+Object.create Afri_bush8_M1 
+Object.absolutePosition 2156.83/69.2588/651.803
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.890588/0.971059/0.928
+Object.geometry.color 0.494118/0.494118/0.494118
+rem
+rem ***  ***
+rem
+Object.create Afri_bush8_M1 
+Object.absolutePosition 2068.46/70.3683/623.161
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.832706/0.995765/0.896235
+Object.geometry.color 0.494118/0.494118/0.494118
+rem
+rem ***  ***
+rem
+Object.create Afri_bush8_M1 
+Object.absolutePosition 1956.85/57.9431/216.948
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.889882/0.999294/0.943529
+Object.geometry.color 0.494118/0.494118/0.494118
+rem
+rem ***  ***
+rem
+Object.create Afri_bush8_M1 
+Object.absolutePosition 2031.1/84.0787/866.37
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.984471/0.94/0.868706
+Object.geometry.color 0.494118/0.494118/0.494118
+rem
+rem ***  ***
+rem
+Object.create Afri_bush8_M1 
+Object.absolutePosition 2173.67/82.1153/987.658
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.978118/0.915294/0.944941
+Object.geometry.color 0.494118/0.494118/0.494118
+rem
+rem ***  ***
+rem
+Object.create Afri_bush8_M1 
+Object.absolutePosition 2138.5/81.1192/938.68
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.991529/0.983765/0.835529
+Object.geometry.color 0.494118/0.494118/0.494118
+rem
+rem ***  ***
+rem
+Object.create Afri_bush8_M1 
+Object.absolutePosition 2172.26/80.0681/870.868
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.979529/0.892/0.937882
+Object.geometry.color 0.494118/0.494118/0.494118
+rem
+rem ***  ***
+rem
+Object.create Afri_bush8_M1 
+Object.absolutePosition 2202.84/73.04/767.551
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.927294/0.834118/0.958353
+Object.geometry.color 0.494118/0.494118/0.494118
+rem
+rem ***  ***
+rem
+Object.create Afri_bush8_M1 
+Object.absolutePosition 2168.56/70.8842/700.145
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.988706/0.995765/0.847529
+Object.geometry.color 0.494118/0.494118/0.494118
+rem
+rem ***  ***
+rem
+Object.create Afri_bush8_M1 
+Object.absolutePosition 2284.9/75.0664/791.512
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.915294/0.820706/0.908235
+Object.geometry.color 0.494118/0.494118/0.494118
+rem
+rem ***  ***
+rem
+Object.create Afri_bush8_M1 
+Object.absolutePosition 2286.17/75.0273/793.995
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.944235/0.951294/0.832706
+Object.geometry.color 0.494118/0.494118/0.494118
+rem
+rem ***  ***
+rem
+Object.create Afri_bush8_M1 
+Object.absolutePosition 2285.2/75.0437/797.91
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.971765/0.976/0.874353
+Object.geometry.color 0.494118/0.494118/0.494118
+rem
+rem ***  ***
+rem
+Object.create Afri_bush8_M1 
+Object.absolutePosition 2280.22/75.2969/797.124
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.837647/0.956941/0.964706
+Object.geometry.color 0.494118/0.494118/0.494118
+rem
+rem ***  ***
+rem
+Object.create Afri_bush8_M1 
+Object.absolutePosition 2281.93/75.1937/799.707
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.971059/0.852471/0.853176
+Object.geometry.color 0.494118/0.494118/0.494118
+rem
+rem ***  ***
+rem
+Object.create Afri_bush8_M1 
+Object.absolutePosition 2280.2/75.2927/793.562
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.955529/0.926588/0.964
+Object.geometry.color 0.494118/0.494118/0.494118
+rem
+rem ***  ***
+rem
+Object.create Afri_bush8_M1 
+Object.absolutePosition 2303.88/75.0394/799.425
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.851765/0.863765/0.838353
+Object.geometry.color 0.494118/0.494118/0.494118
+rem
+rem ***  ***
+rem
+Object.create Afri_bush8_M1 
+Object.absolutePosition 2305.77/75.0997/799.429
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.851059/0.882118/0.992941
+Object.geometry.color 0.494118/0.494118/0.494118
+rem
+rem ***  ***
+rem
+Object.create Afri_bush8_M1 
+Object.absolutePosition 2305.66/75.0538/802.081
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.824941/0.894824/0.955529
+Object.geometry.color 0.494118/0.494118/0.494118
+rem
+rem ***  ***
+rem
+Object.create Afri_bush8_M1 
+Object.absolutePosition 2310.08/75.2052/801.817
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.860235/0.845412/0.875765
+Object.geometry.color 0.494118/0.494118/0.494118
+rem
+rem ***  ***
+rem
+Object.create Afri_bush8_M1 
+Object.absolutePosition 2307.89/75.2254/794.82
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.832706/0.857412/0.836235
+Object.geometry.color 0.494118/0.494118/0.494118
+rem
+rem ***  ***
+rem
+Object.create Afri_bush8_M1 
+Object.absolutePosition 2304.98/75.1326/796.025
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.932235/0.828471/0.863765
+Object.geometry.color 0.494118/0.494118/0.494118
+rem
+rem ***  ***
+rem
+Object.create Afri_bush8_M1 
+Object.absolutePosition 2282.46/75.1772/791.97
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.899059/0.955529/0.918824
+Object.geometry.color 0.494118/0.494118/0.494118
+rem
+rem ***  ***
+rem
+Object.create Afri_bush8_M1 
+Object.absolutePosition 2237.63/77.7201/807.959
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.878588/0.923765/0.930118
+Object.geometry.color 0.494118/0.494118/0.494118
+rem
+rem ***  ***
+rem
+Object.create Afri_bush8_M1 
+Object.absolutePosition 2593.58/77.8088/958.018
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.832/0.910353/0.907529
+Object.geometry.color 0.494118/0.494118/0.494118
+rem
+rem ***  ***
+rem
+Object.create Afri_bush8_M1 
+Object.absolutePosition 2799.12/56.8469/736.84
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.951294/0.921647/0.887765
+Object.geometry.color 0.494118/0.494118/0.494118
+rem
+rem ***  ***
+rem
+Object.create Afri_bush8_M1 
+Object.absolutePosition 2487.95/85.7235/975.978
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.952/0.926588/0.988706
+Object.geometry.color 0.494118/0.494118/0.494118
+rem
+rem ***  ***
+rem
+Object.create Afri_bush8_M1 
+Object.absolutePosition 2498.96/79.032/1049.83
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.997882/0.868706/0.880706
+Object.geometry.color 0.494118/0.494118/0.494118
+rem
+rem ***  ***
+rem
+Object.create Afri_bush8_M1 
+Object.absolutePosition 2309.71/88.2219/896.939
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.920941/0.880706/0.949176
+Object.geometry.color 0.494118/0.494118/0.494118
+rem
+rem ***  ***
+rem
+Object.create Afri_bush8_M1 
+Object.absolutePosition 2255.68/83.2762/901.461
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.914588/0.858824/0.863059
+Object.geometry.color 0.494118/0.494118/0.494118
+rem
+rem ***  ***
+rem
+Object.create Afri_bush8_M1 
+Object.absolutePosition 2422.21/89.1804/959.951
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.878588/0.984471/0.981647
+Object.geometry.color 0.494118/0.494118/0.494118
+rem
+rem ***  ***
+rem
+Object.create Afri_bush8_M1 
+Object.absolutePosition 2008.96/71.722/733.531
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.878588/0.836941/0.949176
+Object.geometry.color 0.494118/0.494118/0.494118
+rem
+rem ***  ***
+rem
+Object.create Afri_bush8_M1 
+Object.absolutePosition 2010.8/71.5847/725.803
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.948471/0.997882/0.912471
+Object.geometry.color 0.494118/0.494118/0.494118
+rem
+rem ***  ***
+rem
+Object.create Afri_bush8_M1 
+Object.absolutePosition 1964.1/80.3004/836.931
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.854588/0.855294/0.983765
+Object.geometry.color 0.494118/0.494118/0.494118
+rem
+rem ***  ***
+rem
+Object.create Afri_bush8_M1 
+Object.absolutePosition 1974.15/80.7222/827.795
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.875059/0.834118/0.990118
+Object.geometry.color 0.494118/0.494118/0.494118
+rem
+rem ***  ***
+rem
+Object.create Afri_bush8_M1 
+Object.absolutePosition 2229.67/73.6266/704.379
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.893412/0.946353/0.893412
+Object.geometry.color 0.494118/0.494118/0.494118
+rem
+rem ***  ***
+rem
+Object.create Afri_bush8_M1 
+Object.absolutePosition 2228.92/73.6647/714.26
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.884941/0.822824/0.836941
+Object.geometry.color 0.494118/0.494118/0.494118
+rem
+rem ***  ***
+rem
+Object.create Afri_bush8_M1 
+Object.absolutePosition 2212.97/78.575/829.864
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.955529/0.870824/0.962588
+Object.geometry.color 0.494118/0.494118/0.494118
+rem
+rem ***  ***
+rem
+Object.create Afri_bush8_M1 
+Object.absolutePosition 2180.08/82.1789/920.024
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.881412/0.942118/0.881412
+Object.geometry.color 0.494118/0.494118/0.494118
+rem
+rem ***  ***
+rem
+Object.create Afri_bush8_M1 
+Object.absolutePosition 2190.2/82.1815/937.678
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.992941/0.875765/0.950588
+Object.geometry.color 0.494118/0.494118/0.494118
+rem
+rem ***  ***
+rem
+Object.create Afri_bush8_M1 
+Object.absolutePosition 2183.44/82.1789/929.432
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.946353/0.977412/0.936471
+Object.geometry.color 0.494118/0.494118/0.494118
+rem
+rem ***  ***
+rem
+Object.create Afri_bush8_M1 
+Object.absolutePosition 2213.3/78.5869/840.732
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.875765/0.980235/0.88
+Object.geometry.color 0.494118/0.494118/0.494118
+rem
+rem ***  ***
+rem
+Object.create Afri_bush8_M1 
+Object.absolutePosition 2213.52/78.6266/842.107
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.987294/0.934353/0.896235
+Object.geometry.color 0.494118/0.494118/0.494118
+rem
+rem ***  ***
+rem
+Object.create Afri_bush8_M1 
+Object.absolutePosition 2211.68/78.5736/840.477
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.896235/0.879294/0.856
+Object.geometry.color 0.494118/0.494118/0.494118
+rem
+rem ***  ***
+rem
+Object.create Afri_bush8_M1 
+Object.absolutePosition 2209.9/78.5607/840.019
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.953412/0.932235/0.954118
+Object.geometry.color 0.494118/0.494118/0.494118
+rem
+rem ***  ***
+rem
+Object.create Afri_bush8_M1 
+Object.absolutePosition 2226.58/73.6411/714.146
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.983765/0.930824/0.878588
+Object.geometry.color 0.494118/0.494118/0.494118
+rem
+rem ***  ***
+rem
+Object.create Afri_bush8_M1 
+Object.absolutePosition 2298.2/77.5222/704.167
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.837647/0.841176/0.975294
+Object.geometry.color 0.494118/0.494118/0.494118
+rem
+rem ***  ***
+rem
+Object.create Afri_bush8_M1 
+Object.absolutePosition 2283.69/76.5956/768.761
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.868706/0.892/0.948471
+Object.geometry.color 0.494118/0.494118/0.494118
+rem
+rem ***  ***
+rem
+Object.create Afri_bush10_M1 
+Object.absolutePosition 2385.13/73.7868/814.351
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.923765/0.956235/0.829882
+Object.geometry.color 0.494118/0.494118/0.494118
+rem
+rem ***  ***
+rem
+Object.create Afri_bush10_M1 
+Object.absolutePosition 2412.76/68.9714/795.82
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.992235/0.939294/0.901882
+Object.geometry.color 0.494118/0.494118/0.494118
+rem
+rem ***  ***
+rem
+Object.create Afri_bush11_M1 
+Object.absolutePosition 2386.77/72.9902/806.989
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.858118/0.915294/0.827059
+Object.geometry.color 0.494118/0.494118/0.494118
+rem
+rem ***  ***
+rem
+Object.create Afri_bush11_M1 
+Object.absolutePosition 2389.47/71.786/795.822
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.971059/0.999294/0.953412
+Object.geometry.color 0.494118/0.494118/0.494118
+rem
+rem ***  ***
+rem
+Object.create Afri_bush11_M1 
+Object.absolutePosition 2393.6/69.4732/788.188
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.952/0.94/0.838353
+Object.geometry.color 0.494118/0.494118/0.494118
+rem
+rem ***  ***
+rem
+Object.create Afri_bush11_M1 
+Object.absolutePosition 2416.3/68.9945/793.537
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.873647/0.957647/0.929412
+Object.geometry.color 0.494118/0.494118/0.494118
+rem
+rem ***  ***
+rem
+Object.create Afri_bush11_M1 
+Object.absolutePosition 2387.42/73.6885/833.205
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.883529/0.822824/0.889176
+Object.geometry.color 0.494118/0.494118/0.494118
+rem
+rem ***  ***
+rem
+Object.create Afri_bush11_M1 
+Object.absolutePosition 2383.72/73.4977/826.154
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.917412/0.900471/0.955529
+Object.geometry.color 0.494118/0.494118/0.494118
+rem
+rem ***  ***
+rem
+Object.create Afri_bush11_M1 
+Object.absolutePosition 2396.49/73.4977/837.722
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.968941/0.858824/0.950588
+Object.geometry.color 0.494118/0.494118/0.494118
+rem
+rem ***  ***
+rem
+Object.create Afri_bush11_M1 
+Object.absolutePosition 2404.58/73.5177/839.913
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.968941/0.935765/0.856
+Object.geometry.color 0.494118/0.494118/0.494118
+rem
+rem ***  ***
+rem
+Object.create Afri_bush11_M1 
+Object.absolutePosition 2413.08/73.4588/841.078
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.973176/0.970353/0.983059
+Object.geometry.color 0.494118/0.494118/0.494118
+rem
+rem ***  ***
+rem
+Object.create Afri_bush11_M1 
+Object.absolutePosition 2387.96/74.9013/824.821
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.897647/0.928706/0.907529
+Object.geometry.color 0.494118/0.494118/0.494118
+rem
+rem ***  ***
+rem
+Object.create Afri_bush11_M1 
+Object.absolutePosition 2393.23/77.1905/813.13
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.989412/0.929412/0.956941
+Object.geometry.color 0.494118/0.494118/0.494118
+rem
+rem ***  ***
+rem
+Object.create Afri_bush11_M1 
+Object.absolutePosition 2395.66/73.1183/797.633
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.937176/0.935059/0.921647
+Object.geometry.color 0.494118/0.494118/0.494118
+rem
+rem ***  ***
+rem
+Object.create Afri_bush11_M1 
+Object.absolutePosition 2425.61/72.1418/824.98
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.956235/0.944941/0.843294
+Object.geometry.color 0.494118/0.494118/0.494118
+rem
+rem ***  ***
+rem
+Object.create Afri_bush11_M1 
+Object.absolutePosition 2409.89/78.6761/824.857
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.869412/0.915294/0.874353
+Object.geometry.color 0.494118/0.494118/0.494118
+rem
+rem ***  ***
+rem
+Object.create Afri_bush11_M1 
+Object.absolutePosition 2298.85/71.6803/751.19
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.869412/0.916/0.884941
+Object.geometry.color 0.494118/0.494118/0.494118
+rem
+rem ***  ***
+rem
+Object.create Afri_bush11_M1 
+Object.absolutePosition 2303.93/71.6467/751.839
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.918118/0.853176/0.957647
+Object.geometry.color 0.494118/0.494118/0.494118
+rem
+rem ***  ***
+rem
+Object.create Afri_bush11_M1 
+Object.absolutePosition 2292.35/71.5811/722.204
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.860235/0.959059/0.832
+Object.geometry.color 0.494118/0.494118/0.494118
+rem
+rem ***  ***
+rem
+Object.create Afri_bush11_M1 
+Object.absolutePosition 2319.88/68.9437/706.606
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.822118/0.997176/1
+Object.geometry.color 0.494118/0.494118/0.494118
+rem
+rem ***  ***
+rem
+Object.create Afri_bush11_M1 
+Object.absolutePosition 2322.25/68.9348/707.045
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.866588/0.872941/0.999294
+Object.geometry.color 0.494118/0.494118/0.494118
+rem
+rem ***  ***
+rem
+Object.create Afri_bush11_M1 
+Object.absolutePosition 2343.11/68.9208/710.379
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.847529/0.821412/0.985882
+Object.geometry.color 0.494118/0.494118/0.494118
+rem
+rem ***  ***
+rem
+Object.create Afri_bush11_M1 
+Object.absolutePosition 2360.39/68.9203/714.658
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.918824/0.984471/0.867294
+Object.geometry.color 0.494118/0.494118/0.494118
+rem
+rem ***  ***
+rem
+Object.create Afri_bush11_M1 
+Object.absolutePosition 2382.46/68.9203/721.977
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.976/0.971765/0.823529
+Object.geometry.color 0.494118/0.494118/0.494118
+rem
+rem ***  ***
+rem
+Object.create Afri_bush11_M1 
+Object.absolutePosition 2353.97/68.9227/746.452
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.987294/0.875059/0.882118
+Object.geometry.color 0.494118/0.494118/0.494118
+rem
+rem ***  ***
+rem
+Object.create Afri_bush11_M1 
+Object.absolutePosition 2379.08/68.9227/748.871
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.937882/0.877882/0.972471
+Object.geometry.color 0.494118/0.494118/0.494118
+rem
+rem ***  ***
+rem
+Object.create Afri_bush11_M1 
+Object.absolutePosition 2398.15/68.9304/755.414
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.898353/0.844706/0.875059
+Object.geometry.color 0.494118/0.494118/0.494118
+rem
+rem ***  ***
+rem
+Object.create Afri_bush11_M1 
+Object.absolutePosition 2398.75/68.938/756.555
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.870118/0.857412/0.868
+Object.geometry.color 0.494118/0.494118/0.494118
+rem
+rem ***  ***
+rem
+Object.create Afri_bush11_M1 
+Object.absolutePosition 2427.11/69.4196/739.108
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.838353/0.827765/0.859529
+Object.geometry.color 0.494118/0.494118/0.494118
+rem
+rem ***  ***
+rem
+Object.create Afri_bush11_M1 
+Object.absolutePosition 2422.96/50.3203/685.987
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.959059/0.847529/0.824941
+Object.geometry.color 0.494118/0.494118/0.494118
+rem
+rem ***  ***
+rem
+Object.create Afri_bush11_M1 
+Object.absolutePosition 2422.18/50.3203/684.869
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.922353/0.996471/0.956235
+Object.geometry.color 0.494118/0.494118/0.494118
+rem
+rem ***  ***
+rem
+Object.create Afri_bush11_M1 
+Object.absolutePosition 2417.93/50.3203/683.709
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.973176/0.949176/0.842588
+Object.geometry.color 0.494118/0.494118/0.494118
+rem
+rem ***  ***
+rem
+Object.create Afri_bush11_M1 
+Object.absolutePosition 2418.03/50.3203/679.605
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.944941/0.891294/0.908235
+Object.geometry.color 0.494118/0.494118/0.494118
+rem
+rem ***  ***
+rem
+Object.create Afri_bush11_M1 
+Object.absolutePosition 2419.44/50.3156/667.521
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.823529/0.886353/0.848235
+Object.geometry.color 0.494118/0.494118/0.494118
+rem
+rem ***  ***
+rem
+Object.create Afri_bush11_M1 
+Object.absolutePosition 2461.69/29.8129/624.477
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.823529/0.905412/0.873647
+Object.geometry.color 0.494118/0.494118/0.494118
+rem
+rem ***  ***
+rem
+Object.create Afri_bush11_M1 
+Object.absolutePosition 2464.27/29.6256/627.333
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.896941/0.898353/0.953412
+Object.geometry.color 0.494118/0.494118/0.494118
+rem
+rem ***  ***
+rem
+Object.create Afri_bush11_M1 
+Object.absolutePosition 2417.51/32.627/622.604
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.822118/0.884941/0.898353
+Object.geometry.color 0.494118/0.494118/0.494118
+rem
+rem ***  ***
+rem
+Object.create Afri_bush3_M1 
+Object.absolutePosition 2430.26/89.036/948.737
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.885647/0.865882/0.865176
+Object.geometry.color 0.494118/0.494118/0.494118
+rem
+rem ***  ***
+rem
+Object.create Afri_bush3_M1 
+Object.absolutePosition 2129.58/70.2/666.938
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.959059/0.898353/0.942824
+Object.geometry.color 0.494118/0.494118/0.494118
+rem
+rem ***  ***
+rem
+Object.create Afri_bush3_M1 
+Object.absolutePosition 2135.29/69.7766/641.206
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.858824/0.834118/0.899765
+Object.geometry.color 0.494118/0.494118/0.494118
+rem
+rem ***  ***
+rem
+Object.create Afri_bush3_M1 
+Object.absolutePosition 2081.36/70.2437/665.948
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.959059/0.996471/0.856
+Object.geometry.color 0.494118/0.494118/0.494118
+rem
+rem ***  ***
+rem
+Object.create Afri_bush3_M1 
+Object.absolutePosition 2066.78/72.269/778.559
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.900471/0.896235/0.872235
+Object.geometry.color 0.494118/0.494118/0.494118
+rem
+rem ***  ***
+rem
+Object.create Afri_bush3_M1 
+Object.absolutePosition 2202.71/73.1292/753.963
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.942118/0.872941/0.980941
+Object.geometry.color 0.494118/0.494118/0.494118
+rem
+rem ***  ***
+rem
+Object.create Afri_bush3_M1 
+Object.absolutePosition 2169.69/76.9774/837.809
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.988/0.999294/0.990824
+Object.geometry.color 0.494118/0.494118/0.494118
+rem
+rem ***  ***
+rem
+Object.create Afri_bush3_M1 
+Object.absolutePosition 2181.88/78.0779/838.849
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.966118/0.972471/0.868706
+Object.geometry.color 0.494118/0.494118/0.494118
+rem
+rem ***  ***
+rem
+Object.create Afri_bush3_M1 
+Object.absolutePosition 2188.22/72.6052/757.431
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.906118/0.987294/0.923765
+Object.geometry.color 0.494118/0.494118/0.494118
+rem
+rem ***  ***
+rem
+Object.create Afri_bush3_M1 
+Object.absolutePosition 2214.65/71.6667/660.627
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.878588/0.865882/0.976
+Object.geometry.color 0.494118/0.494118/0.494118
+rem
+rem ***  ***
+rem
+Object.create Afri_bush3_M1 
+Object.absolutePosition 2208.23/71.4702/672.866
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.866588/0.895529/0.851059
+Object.geometry.color 0.494118/0.494118/0.494118
+rem
+rem ***  ***
+rem
+Object.create Afri_bush3_M1 
+Object.absolutePosition 2261.5/71.938/663.988
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.930824/0.934353/0.895529
+Object.geometry.color 0.494118/0.494118/0.494118
+rem
+rem ***  ***
+rem
+Object.create Afri_bush3_M1 
+Object.absolutePosition 2107.56/68.8547/588.964
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.934353/0.957647/0.968235
+Object.geometry.color 0.494118/0.494118/0.494118
+rem
+rem ***  ***
+rem
+Object.create Afri_bush3_M1 
+Object.absolutePosition 2004.68/65.7582/497.577
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.938588/0.881412/0.881412
+Object.geometry.color 0.494118/0.494118/0.494118
+rem
+rem ***  ***
+rem
+Object.create Afri_bush3_M1 
+Object.absolutePosition 2022.3/69.9105/528.196
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.992941/0.885647/0.954118
+Object.geometry.color 0.494118/0.494118/0.494118
+rem
+rem ***  ***
+rem
+Object.create Afri_bush3_M1 
+Object.absolutePosition 1899.4/68.7122/457.838
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.897647/0.892706/0.944235
+Object.geometry.color 0.494118/0.494118/0.494118
+rem
+rem ***  ***
+rem
+Object.create Afri_bush3_M1 
+Object.absolutePosition 2175.13/67.6764/610.512
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.951294/0.852471/0.889176
+Object.geometry.color 0.494118/0.494118/0.494118
+rem
+rem ***  ***
+rem
+Object.create Afri_bush3_M1 
+Object.absolutePosition 2258.52/78.6026/840.159
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.911059/0.908941/0.921647
+Object.geometry.color 0.494118/0.494118/0.494118
+rem
+rem ***  ***
+rem
+Object.create Afri_bush3_M1 
+Object.absolutePosition 2246.46/81.3902/863.818
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.950588/0.894118/0.948471
+Object.geometry.color 0.494118/0.494118/0.494118
+rem
+rem ***  ***
+rem
+Object.create Afri_bush3_M1 
+Object.absolutePosition 2466.36/69.7337/834.033
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.973176/1/0.824235
+Object.geometry.color 0.494118/0.494118/0.494118
+rem
+rem ***  ***
+rem
+Object.create Afri_bush3_M1 
+Object.absolutePosition 2446.98/72.3598/900.381
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.965412/0.881412/0.821412
+Object.geometry.color 0.494118/0.494118/0.494118
+rem
+rem ***  ***
+rem
+Object.create Afri_bush3_M1 
+Object.absolutePosition 2467.49/73.1057/899.084
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.94/0.916706/0.922353
+Object.geometry.color 0.494118/0.494118/0.494118
+rem
+rem ***  ***
+rem
+Object.create Afri_bush3_M1 
+Object.absolutePosition 2484.54/76.1673/927.591
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.985176/0.980235/0.950588
+Object.geometry.color 0.494118/0.494118/0.494118
+rem
+rem ***  ***
+rem
+Object.create Afri_bush3_M1 
+Object.absolutePosition 2514.32/76.876/940.102
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.834118/0.825647/0.945647
+Object.geometry.color 0.494118/0.494118/0.494118
+rem
+rem ***  ***
+rem
+Object.create Afri_bush3_M1 
+Object.absolutePosition 2560.39/79.8434/928.899
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.929412/0.991529/0.937882
+Object.geometry.color 0.494118/0.494118/0.494118
+rem
+rem ***  ***
+rem
+Object.create Afri_bush3_M1 
+Object.absolutePosition 2572.79/80.9799/935.72
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.949176/0.848941/0.946353
+Object.geometry.color 0.494118/0.494118/0.494118
+rem
+rem ***  ***
+rem
+Object.create Afri_bush3_M1 
+Object.absolutePosition 2646.17/73.9748/897.02
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.887059/0.911765/0.877176
+Object.geometry.color 0.494118/0.494118/0.494118
+rem
+rem ***  ***
+rem
+Object.create Afri_bush3_M1 
+Object.absolutePosition 2566.64/80.5135/959.837
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.904706/0.981647/0.990824
+Object.geometry.color 0.494118/0.494118/0.494118
+rem
+rem ***  ***
+rem
+Object.create Afri_bush3_M1 
+Object.absolutePosition 2532.02/80.8623/1003.04
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.984471/0.853882/0.911765
+Object.geometry.color 0.494118/0.494118/0.494118
+rem
+rem ***  ***
+rem
+Object.create Afri_bush3_M1 
+Object.absolutePosition 2473.63/77.0367/1033.25
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.863765/0.877176/0.886353
+Object.geometry.color 0.494118/0.494118/0.494118
+rem
+rem ***  ***
+rem
+Object.create Afri_bush3_M1 
+Object.absolutePosition 2489.91/83.7239/963.372
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.873647/0.865882/0.895529
+Object.geometry.color 0.494118/0.494118/0.494118
+rem
+rem ***  ***
+rem
+Object.create Afri_bush3_M1 
+Object.absolutePosition 2408.23/78.7411/918.026
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.855294/0.941412/0.952706
+Object.geometry.color 0.494118/0.494118/0.494118
+rem
+rem ***  ***
+rem
+Object.create Afri_bush3_M1 
+Object.absolutePosition 2434.33/73.0941/911.584
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.923765/0.945647/0.826353
+Object.geometry.color 0.494118/0.494118/0.494118
+rem
+rem ***  ***
+rem
+Object.create Afri_bush3_M1 
+Object.absolutePosition 2457.74/72.0332/882.979
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.877176/0.842588/0.970353
+Object.geometry.color 0.494118/0.494118/0.494118
+rem
+rem ***  ***
+rem
+Object.create Afri_bush2_M1 
+Object.absolutePosition 2686.73/60.2928/762.442
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.952706/0.887765/0.879294
+Object.geometry.color 0.494118/0.494118/0.494118
+rem
+rem ***  ***
+rem
+Object.create Afri_bush2_M1 
+Object.absolutePosition 1869.03/69.4226/482.333
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.821412/0.882824/0.979529
+Object.geometry.color 0.494118/0.494118/0.494118
+rem
+rem ***  ***
+rem
+Object.create Afri_bush2_M1 
+Object.absolutePosition 1812.56/67.269/526.646
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.860235/0.956941/0.994353
+Object.geometry.color 0.494118/0.494118/0.494118
+rem
+rem ***  ***
+rem
+Object.create Afri_bush2_M1 
+Object.absolutePosition 1810.79/67.3281/527.707
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.940706/0.896941/0.887059
+Object.geometry.color 0.494118/0.494118/0.494118
+rem
+rem ***  ***
+rem
+Object.create Afri_bush2_M1 
+Object.absolutePosition 1808.96/67.5333/528.36
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.964/0.948471/0.927294
+Object.geometry.color 0.494118/0.494118/0.494118
+rem
+rem ***  ***
+rem
+Object.create Afri_bush2_M1 
+Object.absolutePosition 1884.28/79.0375/603.893
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.861647/0.961176/0.828471
+Object.geometry.color 0.494118/0.494118/0.494118
+rem
+rem ***  ***
+rem
+Object.create Afri_bush2_M1 
+Object.absolutePosition 1883.25/78.5957/606.672
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.892706/0.902588/0.901176
+Object.geometry.color 0.494118/0.494118/0.494118
+rem
+rem ***  ***
+rem
+Object.create Afri_bush2_M1 
+Object.absolutePosition 1888.39/78.2837/606.241
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.932941/0.917412/0.824235
+Object.geometry.color 0.494118/0.494118/0.494118
+rem
+rem ***  ***
+rem
+Object.create Afri_bush2_M1 
+Object.absolutePosition 1845.36/77.3807/604.77
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.998588/0.973176/0.853882
+Object.geometry.color 0.494118/0.494118/0.494118
+rem
+rem ***  ***
+rem
+Object.create Afri_bush2_M1 
+Object.absolutePosition 1842.54/77.1151/599.443
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.920235/0.953412/0.869412
+Object.geometry.color 0.494118/0.494118/0.494118
+rem
+rem ***  ***
+rem
+Object.create Afri_bush2_M1 
+Object.absolutePosition 1840.54/78.212/607.545
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.955529/0.966118/0.864471
+Object.geometry.color 0.494118/0.494118/0.494118
+rem
+rem ***  ***
+rem
+Object.create Afri_bush2_M1 
+Object.absolutePosition 1832.31/77.384/623.787
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.924471/0.901882/0.839059
+Object.geometry.color 0.494118/0.494118/0.494118
+rem
+rem ***  ***
+rem
+Object.create Afri_bush2_M1 
+Object.absolutePosition 1824.13/78.0153/631.521
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.978824/0.922353/0.916706
+Object.geometry.color 0.494118/0.494118/0.494118
+rem
+rem ***  ***
+rem
+Object.create Afri_bush2_M1 
+Object.absolutePosition 1807.01/78.4204/644.022
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.937176/0.857412/0.870118
+Object.geometry.color 0.494118/0.494118/0.494118
+rem
+rem ***  ***
+rem
+Object.create Afri_bush2_M1 
+Object.absolutePosition 1843.01/72.5706/653.619
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.834118/0.857412/0.885647
+Object.geometry.color 0.494118/0.494118/0.494118
+rem
+rem ***  ***
+rem
+Object.create Afri_bush2_M1 
+Object.absolutePosition 1850.07/73.6105/649.563
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.902588/0.921647/0.930824
+Object.geometry.color 0.494118/0.494118/0.494118
+rem
+rem ***  ***
+rem
+Object.create Afri_bush2_M1 
+Object.absolutePosition 1852.83/73.3927/655.079
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.826353/0.961882/0.839059
+Object.geometry.color 0.494118/0.494118/0.494118
+rem
+rem ***  ***
+rem
+Object.create Afri_bush2_M1 
+Object.absolutePosition 1847.45/80.0891/701.785
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.968235/0.937176/0.822118
+Object.geometry.color 0.494118/0.494118/0.494118
+rem
+rem ***  ***
+rem
+Object.create Afri_bush2_M1 
+Object.absolutePosition 1900.68/76.858/681.358
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.976/0.884941/0.966824
+Object.geometry.color 0.494118/0.494118/0.494118
+rem
+rem ***  ***
+rem
+Object.create Afri_bush2_M1 
+Object.absolutePosition 1900.92/77.0208/678.551
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.822824/0.967529/0.837647
+Object.geometry.color 0.494118/0.494118/0.494118
+rem
+rem ***  ***
+rem
+Object.create Afri_bush2_M1 
+Object.absolutePosition 1982.1/69.1529/691.286
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.868706/0.873647/0.847529
+Object.geometry.color 0.494118/0.494118/0.494118
+rem
+rem ***  ***
+rem
+Object.create Afri_bush2_M1 
+Object.absolutePosition 2029.08/71.0194/670.087
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.954118/0.879294/0.960471
+Object.geometry.color 0.494118/0.494118/0.494118
+rem
+rem ***  ***
+rem
+Object.create Afri_bush2_M1 
+Object.absolutePosition 1915.25/71.3057/771.596
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.904/0.993647/0.954118
+Object.geometry.color 0.494118/0.494118/0.494118
+rem
+rem ***  ***
+rem
+Object.create Afri_bush2_M1 
+Object.absolutePosition 1934.1/71.3427/721.18
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.975294/0.834823/0.923765
+Object.geometry.color 0.494118/0.494118/0.494118
+rem
+rem ***  ***
+rem
+Object.create Afri_bush2_M1 
+Object.absolutePosition 1923.4/73.975/827.204
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.863059/0.869412/0.994353
+Object.geometry.color 0.494118/0.494118/0.494118
+rem
+rem ***  ***
+rem
+Object.create Afri_bush2_M1 
+Object.absolutePosition 2022.35/75.2277/782.79
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.988/0.981647/0.883529
+Object.geometry.color 0.494118/0.494118/0.494118
+rem
+rem ***  ***
+rem
+Object.create Afri_bush2_M1 
+Object.absolutePosition 2005.17/80.3206/817.718
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.858118/0.884941/0.949882
+Object.geometry.color 0.494118/0.494118/0.494118
+rem
+rem ***  ***
+rem
+Object.create Afri_bush2_M1 
+Object.absolutePosition 2008.3/71.5204/716.673
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.820706/0.993647/0.949176
+Object.geometry.color 0.494118/0.494118/0.494118
+rem
+rem ***  ***
+rem
+Object.create Afri_bush2_M1 
+Object.absolutePosition 2019.78/71.5143/713.417
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.853176/0.985176/0.94
+Object.geometry.color 0.494118/0.494118/0.494118
+rem
+rem ***  ***
+rem
+Object.create Afri_bush2_M1 
+Object.absolutePosition 2070.95/69.0634/607.302
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.962588/0.985176/0.892706
+Object.geometry.color 0.494118/0.494118/0.494118
+rem
+rem ***  ***
+rem
+Object.create Afri_bush2_M1 
+Object.absolutePosition 2078.3/69.0234/600.27
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.990118/0.872941/0.865176
+Object.geometry.color 0.494118/0.494118/0.494118
+rem
+rem ***  ***
+rem
+Object.create Afri_bush2_M1 
+Object.absolutePosition 2143.75/66.9852/553.643
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.942118/0.923059/0.937882
+Object.geometry.color 0.494118/0.494118/0.494118
+rem
+rem ***  ***
+rem
+Object.create Afri_bush2_M1 
+Object.absolutePosition 2071.38/70.3831/665.756
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.863059/0.894824/0.840471
+Object.geometry.color 0.494118/0.494118/0.494118
+rem
+rem ***  ***
+rem
+Object.create Afri_bush2_M1 
+Object.absolutePosition 2098.99/62.5731/540.141
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.924471/0.913176/0.881412
+Object.geometry.color 0.494118/0.494118/0.494118
+rem
+rem ***  ***
+rem
+Object.create Afri_bush2_M1 
+Object.absolutePosition 2205.66/78.4816/836.254
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.964/0.977412/0.877176
+Object.geometry.color 0.494118/0.494118/0.494118
+rem
+rem ***  ***
+rem
+Object.create Afri_bush2_M1 
+Object.absolutePosition 2188.74/80.5395/866.877
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.935765/0.902588/0.944941
+Object.geometry.color 0.494118/0.494118/0.494118
+rem
+rem ***  ***
+rem
+Object.create Afri_bush2_M1 
+Object.absolutePosition 2175.14/82.1789/919.679
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.913882/0.899059/0.855294
+Object.geometry.color 0.494118/0.494118/0.494118
+rem
+rem ***  ***
+rem
+Object.create Afri_bush2_M1 
+Object.absolutePosition 2328.01/73.297/685.545
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.926588/0.928/0.846824
+Object.geometry.color 0.494118/0.494118/0.494118
+rem
+rem ***  ***
+rem
+Object.create Afri_bush2_M1 
+Object.absolutePosition 2292.67/78.572/686.146
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.912471/0.962588/0.947765
+Object.geometry.color 0.494118/0.494118/0.494118
+rem
+rem ***  ***
+rem
+Object.create Afri_bush2_M1 
+Object.absolutePosition 2266.03/73.223/677.637
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.875059/0.892/0.980941
+Object.geometry.color 0.494118/0.494118/0.494118
+rem
+rem ***  ***
+rem
+Object.create Afri_bush2_M1 
+Object.absolutePosition 2461.68/70.1941/832.099
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.827059/0.932235/0.974588
+Object.geometry.color 0.494118/0.494118/0.494118
+rem
+rem ***  ***
+rem
+Object.create Afri_bush2_M1 
+Object.absolutePosition 2467.22/69.6206/803.548
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.878588/0.953412/0.966824
+Object.geometry.color 0.494118/0.494118/0.494118
+rem
+rem ***  ***
+rem
+Object.create Afri_bush2_M1 
+Object.absolutePosition 2474.61/69.6213/780.555
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.834823/0.860941/0.993647
+Object.geometry.color 0.494118/0.494118/0.494118
+rem
+rem ***  ***
+rem
+Object.create Afri_bush2_M1 
+Object.absolutePosition 2480.03/69.6588/875.591
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.987294/0.853176/0.853882
+Object.geometry.color 0.494118/0.494118/0.494118
+rem
+rem ***  ***
+rem
+Object.create Afri_bush2_M1 
+Object.absolutePosition 2493.05/73.582/921.439
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.979529/0.883529/0.908941
+Object.geometry.color 0.494118/0.494118/0.494118
+rem
+rem ***  ***
+rem
+Object.create Afri_bush2_M1 
+Object.absolutePosition 2573.01/69.6539/908.828
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.923765/0.847529/0.947059
+Object.geometry.color 0.494118/0.494118/0.494118
+rem
+rem ***  ***
+rem
+Object.create Afri_bush2_M1 
+Object.absolutePosition 2597.27/70.0557/911.526
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.954824/0.838353/0.923059
+Object.geometry.color 0.494118/0.494118/0.494118
+rem
+rem ***  ***
+rem
+Object.create Afri_bush2_M1 
+Object.absolutePosition 2773.67/52.5584/715.102
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.892/0.890588/0.933647
+Object.geometry.color 0.494118/0.494118/0.494118
+rem
+rem ***  ***
+rem
+Object.create Afri_bush2_M1 
+Object.absolutePosition 2667.6/64.1756/778.359
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.862353/0.885647/0.915294
+Object.geometry.color 0.494118/0.494118/0.494118
+rem
+rem ***  ***
+rem
+Object.create Afri_bush2_M1 
+Object.absolutePosition 2134.89/67.0584/554.48
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.863059/0.894824/0.840471
+rem
+rem ***  ***
+rem
+Object.create Afri_bush2_M1 
+Object.absolutePosition 2071.38/70.3854/666.776
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.863059/0.894824/0.840471
+rem
+rem ***  ***
+rem
+Object.create Afri_bush2_M1 
+Object.absolutePosition 2019.71/67.6841/628.191
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.954118/0.879294/0.960471
+rem
+rem ***  ***
+rem
+Object.create barack_m1 
+Object.absolutePosition 2589.38/69.6539/875.854
+Object.rotation 0/0/1.52588e-005
+rem
+rem ***  ***
+rem
+Object.create barack_m1 
+Object.absolutePosition 2557.47/69.6539/875.741
+Object.rotation 0/0/1.52588e-005
+rem
+rem ***  ***
+rem
+Object.create Supplyde_m1 
+Object.absolutePosition 2502.86/69.6516/798.428
+Object.rotation -180/0/1.52588e-005
+rem
+rem ***  ***
+rem
+Object.create Supplyde_m1 
+Object.absolutePosition 2502.24/69.6535/847.299
+Object.rotation 0/0/1.52588e-005
+rem
+rem ***  ***
+rem
+Object.create hospital_m1 
+Object.absolutePosition 2558.36/69.5636/773.573
+Object.rotation 90/0/1.52588e-005
+rem
+rem ***  ***
+rem
+Object.create afr_house1_ste_m1 
+Object.absolutePosition 2341.5/68.9226/746.141
+Object.rotation -180/0/1.52588e-005
+rem
+rem ***  ***
+rem
+Object.create afr_house2_ste_m1 
+Object.absolutePosition 2456.36/70.5973/847.075
+Object.rotation 90/0/1.52588e-005
+rem
+rem ***  ***
+rem
+Object.create smdh2_M1 
+Object.absolutePosition 2412.43/68.9508/763.44
+Object.rotation -180/0/1.52588e-005
+rem
+rem ***  ***
+rem
+Object.create tankobs_ste_M1 
+Object.absolutePosition 2189.19/66.968/610.55
+Object.rotation 43.7/8.33763e-010/0.0279846
+rem
+rem ***  ***
+rem
+Object.create bunker1_M1 
+Object.absolutePosition 2076.44/69.0376/605.821
+Object.rotation 180/0/1.52588e-005
+rem
+rem ***  ***
+rem
+Object.create factory_m1 
+Object.absolutePosition 1748.52/67.0967/533.731
+Object.rotation -179.901/0.0625576/-0.0197906
+rem
+rem ***  ***
+rem
+Object.create bunker1_M1 
+Object.absolutePosition 2211.2/78.4416/835.231
+Object.rotation -180/0/1.52588e-005
+rem
+rem ***  ***
+rem
+Object.create bunker2_M1 
+Object.absolutePosition 2181.89/82.1015/922.674
+Object.rotation 180/0/1.52588e-005
+rem
+rem ***  ***
+rem
+Object.create barack_m1 
+Object.absolutePosition 1703.58/67.1458/547.823
+Object.rotation 0/0/1.52588e-005
+rem
+rem ***  ***
+rem
+Object.create Supplyde_m1 
+Object.absolutePosition 1786.26/67.1414/555.135
+Object.rotation -180/0/1.52588e-005
+rem
+rem ***  ***
+rem
+Object.create barack_m1 
+Object.absolutePosition 1703.55/67.1461/583.327
+Object.rotation 0/0/1.52588e-005
+rem
+rem ***  ***
+rem
+Object.create hospital_m1 
+Object.absolutePosition 1732.83/67.0754/616.069
+Object.rotation -90.1199/1.24184e-007/1.52588e-005
+rem
+rem ***  ***
+rem
+Object.create Supplyde_m1 
+Object.absolutePosition 1790.02/67.1462/590.211
+Object.rotation 180/0/1.52588e-005
+rem
+rem ***  ***
+rem
+Object.create Supplyde_m1 
+Object.absolutePosition 2197.36/82.1836/940.971
+Object.rotation -180/0/1.52588e-005
+rem
+rem ***  ***
+rem
+Object.create sandbagi_m1 
+Object.absolutePosition 2195.01/82.1827/915.028
+Object.rotation -4.70395/-4.16882e-010/0.0685425
+rem
+rem ***  ***
+rem
+Object.create sandbagi_m1 
+Object.absolutePosition 2230.28/80.9876/974.543
+Object.rotation 154.624/-0.0254331/1.08878
+rem
+rem ***  ***
+rem
+Object.create sandbagl_m1 
+Object.absolutePosition 2181.93/82.1811/935.499
+Object.rotation 84.77/-2.08441e-010/0.0279846
+rem
+rem ***  ***
+rem
+Object.create sandbagu_m1 
+Object.absolutePosition 2182.82/82.1789/914.004
+Object.rotation -138.74/-8.33763e-009/0.0342712
+rem
+rem ***  ***
+rem
+Object.create stebarbwire_m1 
+Object.absolutePosition 2168.71/81.6431/909.633
+Object.rotation -24.7/-8.33356e-010/-1.52588e-005
+rem
+rem ***  ***
+rem
+Object.create stebarbwire_m1 
+Object.absolutePosition 2231.09/77.8408/810.163
+Object.rotation -41.77/-3.97796/0.0279846
+rem
+rem ***  ***
+rem
+Object.create stebarbwire_m1 
+Object.absolutePosition 2176.36/81.5112/894.941
+Object.rotation -55.93/7.328e-012/1.52588e-005
+rem
+rem ***  ***
+rem
+Object.create stebarbwire_m1 
+Object.absolutePosition 2165.81/81.2172/900.492
+Object.rotation 0/0/1.52588e-005
+rem
+rem ***  ***
+rem
+Object.create stebarbwire_m1 
+Object.absolutePosition 2163.72/81.4482/917.081
+Object.rotation -19.4/8.33763e-010/1.52588e-005
+rem
+rem ***  ***
+rem
+Object.create stebarbwire_m1 
+Object.absolutePosition 2166.25/81.6917/924.235
+Object.rotation -18.97/0/1.52588e-005
+rem
+rem ***  ***
+rem
+Object.create stebarbwire_m1 
+Object.absolutePosition 2168.49/81.6626/939.717
+Object.rotation 44.99/-1.62844e-012/1.52588e-005
+rem
+rem ***  ***
+rem
+Object.create stebarbwire_m1 
+Object.absolutePosition 2161.37/81.5137/938.938
+Object.rotation 3.43/1.01778e-013/1.52588e-005
+rem
+rem ***  ***
+rem
+Object.create stebarbwire_m1 
+Object.absolutePosition 2181.24/81.9225/899.628
+Object.rotation 31.8528/-2.56136/1.07521
+rem
+rem ***  ***
+rem
+Object.create stebarbwire_m1 
+Object.absolutePosition 2188.29/81.9978/894.315
+Object.rotation -39.57/0/1.52588e-005
+rem
+rem ***  ***
+rem
+Object.create stebarbwire_m1 
+Object.absolutePosition 2195.2/82.1572/894.701
+Object.rotation 74.1/0/1.52588e-005
+rem
+rem ***  ***
+rem
+Object.create stebarbwire_m1 
+Object.absolutePosition 2203.17/82.1325/889.912
+Object.rotation -73.8/-8.33763e-010/0.0279846
+rem
+rem ***  ***
+rem
+Object.create stebarbwire_m1 
+Object.absolutePosition 2169.75/81.8231/948.172
+Object.rotation 0/0/1.52588e-005
+rem
+rem ***  ***
+rem
+Object.create stebarbwire_m1 
+Object.absolutePosition 2178.45/81.9788/955.479
+Object.rotation 46.49/8.33763e-010/0.0197906
+rem
+rem ***  ***
+rem
+Object.create stebarbwire_m1 
+Object.absolutePosition 2195.5/81.849/965.066
+Object.rotation 49.79/-1.62844e-012/1.52588e-005
+rem
+rem ***  ***
+rem
+Object.create stebarbwire_m1 
+Object.absolutePosition 2204.57/76.4617/805.267
+Object.rotation -17.6101/-6.31791/1.52588e-005
+rem
+rem ***  ***
+rem
+Object.create stebarbwire_m1 
+Object.absolutePosition 2210.36/80.1665/858.695
+Object.rotation 0/-6.55201/0.155777
+rem
+rem ***  ***
+rem
+Object.create stebarbwire_m1 
+Object.absolutePosition 2204.43/78.7378/844.011
+Object.rotation 53.7/0/1.52588e-005
+rem
+rem ***  ***
+rem
+Object.create stebarbwire_m1 
+Object.absolutePosition 2197.32/78.4834/837.161
+Object.rotation 0/0/1.52588e-005
+rem
+rem ***  ***
+rem
+Object.create stebarbwire_m1 
+Object.absolutePosition 2199.9/78.2951/828.149
+Object.rotation -38/-8.65518e-010/1.52588e-005
+rem
+rem ***  ***
+rem
+Object.create stebarbwire_m1 
+Object.absolutePosition 2203.88/77.7146/815.676
+Object.rotation 15.7067/-6.10886/2.19402
+rem
+rem ***  ***
+rem
+Object.create stebarbwire_m1 
+Object.absolutePosition 2210.94/75.5945/797.765
+Object.rotation -60.46/-4.21198/-0.0395813
+rem
+rem ***  ***
+rem
+Object.create stebarbwire_m1 
+Object.absolutePosition 2223.11/75.3037/793.121
+Object.rotation -28.7089/-9.49245/-3.93936
+rem
+rem ***  ***
+rem
+Object.create stebarbwire_m1 
+Object.absolutePosition 2228.85/73.8219/784.787
+Object.rotation 54.0635/-4.4111/-6.05292
+rem
+rem ***  ***
+rem
+Object.create stebarbwire_m1 
+Object.absolutePosition 2236.69/74.0179/783.637
+Object.rotation 0/-8.42402/1.52588e-005
+rem
+rem ***  ***
+rem
+Object.create bunker1_M1 
+Object.absolutePosition 2227.26/73.5006/709.224
+Object.rotation 180/0/1.52588e-005
+rem
+rem ***  ***
+rem
+Object.create stebarbwire_m1 
+Object.absolutePosition 2224.92/72.4823/684.25
+Object.rotation 92/-2.03555e-012/1.52588e-005
+rem
+rem ***  ***
+rem
+Object.create stebarbwire_m1 
+Object.absolutePosition 2236.37/73.6583/763.159
+Object.rotation -51.78/-3.33505e-009/1.52588e-005
+rem
+rem ***  ***
+rem
+Object.create stebarbwire_m1 
+Object.absolutePosition 2319.59/74.3657/777.334
+Object.rotation 16.937/-3.20005/-0.826859
+rem
+rem ***  ***
+rem
+Object.create stebarbwire_m1 
+Object.absolutePosition 2243.57/73.7281/767.831
+Object.rotation -13.34/0/1.52588e-005
+rem
+rem ***  ***
+rem
+Object.create sandbagu_m1 
+Object.absolutePosition 2247.87/76.0273/797.651
+Object.rotation -136.372/4.96923e-007/0.0484619
+rem
+rem ***  ***
+rem
+Object.create sandbagl_m1 
+Object.absolutePosition 2225.64/73.4973/720.465
+Object.rotation 86.334/-5.83207e-006/1.52588e-005
+rem
+rem ***  ***
+rem
+Object.create sandbagi_m1 
+Object.absolutePosition 2224.18/78.593/829.705
+Object.rotation 6.60001/-1.22133e-012/1.52588e-005
+rem
+rem ***  ***
+rem
+Object.create sandbagl_m1 
+Object.absolutePosition 2231.34/73.5444/697.806
+Object.rotation -3.23596/-1.2027e-006/0.0656281
+rem
+rem ***  ***
+rem
+Object.create sandbagi_m1 
+Object.absolutePosition 2263.75/75.188/777.829
+Object.rotation 73.8332/0.563155/-4.06915
+rem
+rem ***  ***
+rem
+Object.create stebarbwire_m1 
+Object.absolutePosition 2225.18/73.9967/738.532
+Object.rotation -59.03/-1.22133e-012/1.52588e-005
+rem
+rem ***  ***
+rem
+Object.create stebarbwire_m1 
+Object.absolutePosition 2226.98/73.933/730.425
+Object.rotation 13.85/-1.4174e-008/0.0279846
+rem
+rem ***  ***
+rem
+Object.create stebarbwire_m1 
+Object.absolutePosition 2220.96/73.8657/725.058
+Object.rotation 88.97/1.03839e-010/1.52588e-005
+rem
+rem ***  ***
+rem
+Object.create stebarbwire_m1 
+Object.absolutePosition 2210.36/73.1703/720.521
+Object.rotation -36.5/-3.25689e-012/1.52588e-005
+rem
+rem ***  ***
+rem
+Object.create stebarbwire_m1 
+Object.absolutePosition 2216.12/72.9247/699.164
+Object.rotation -26.93/2.03555e-012/1.52588e-005
+rem
+rem ***  ***
+rem
+Object.create stebarbwire_m1 
+Object.absolutePosition 2219.68/72.5311/690.075
+Object.rotation -8.72/2.03555e-013/1.52588e-005
+rem
+rem ***  ***
+rem
+Object.create stebarbwire_m1 
+Object.absolutePosition 2054.29/69.0396/608.728
+Object.rotation -2.14319/-5.04/0.0989227
+rem
+rem ***  ***
+rem
+Object.create sandbagl_m1 
+Object.absolutePosition 2203.43/82.1942/892.905
+Object.rotation 0/0/1.52588e-005
+rem
+rem ***  ***
+rem
+Object.create sandbagi_m1 
+Object.absolutePosition 2245.03/77.4236/810.167
+Object.rotation 69.92/1.70755e-006/-8.99829
+rem
+rem ***  ***
+rem
+Object.create sandbagi_m1 
+Object.absolutePosition 2203.09/82.1782/908.52
+Object.rotation 88.43/9.92333e-013/1.52588e-005
+rem
+rem ***  ***
+rem
+Object.create sandbagl_m1 
+Object.absolutePosition 2209.98/78.2964/846.851
+Object.rotation 90.94/-0.00561825/1.52588e-005
+rem
+rem ***  ***
+rem
+Object.create bunker2_M1 
+Object.absolutePosition 2012.74/71.4912/728.469
+Object.rotation 180/0/1.52588e-005
+rem
+rem ***  ***
+rem
+Object.create bunker1_M1 
+Object.absolutePosition 1969.56/80.39/835.095
+Object.rotation 180/0/1.52588e-005
+rem
+rem ***  ***
+rem
+Object.create sandbagl_m1 
+Object.absolutePosition 2010.63/71.6313/741.252
+Object.rotation 87.9461/-1.188/0.111923
+rem
+rem ***  ***
+rem
+Object.create Supplyde_m1 
+Object.absolutePosition 2026.7/71.5141/716.168
+Object.rotation 0/0/1.52588e-005
+rem
+rem ***  ***
+rem
+Object.create sandbagi_m1 
+Object.absolutePosition 2026.17/71.8198/741.849
+Object.rotation -2.1098/-5.15036e-006/0.0713348
+rem
+rem ***  ***
+rem
+Object.create sandbagu_m1 
+Object.absolutePosition 2014.44/71.5265/716.724
+Object.rotation -142.774/3.45845e-006/0.0342712
+rem
+rem ***  ***
+rem
+Object.create sandbagl_m1 
+Object.absolutePosition 2040/71.5187/721.391
+Object.rotation -91.9139/-8.28235e-007/1.52588e-005
+rem
+rem ***  ***
+rem
+Object.create sandbagi_m1 
+Object.absolutePosition 2235.76/73.4582/728.662
+Object.rotation 107.264/-5.03676e-006/1.52588e-005
+rem
+rem ***  ***
+rem
+Object.create sandbagi_m1 
+Object.absolutePosition 2202.44/81.8964/954.723
+Object.rotation 89.34/-9.38817e-007/1.63495
+rem
+rem ***  ***
+rem
+Object.create sandbagu_m1 
+Object.absolutePosition 2204.46/81.4092/966.971
+Object.rotation -18.68/-1.38871e-005/1.52588e-005
+rem
+rem ***  ***
+rem
+Object.create sandbagu_m1 
+Object.absolutePosition 1964.54/80.2239/842.678
+Object.rotation -53.76/2.56966e-006/1.52588e-005
+rem
+rem ***  ***
+rem
+Object.create stecrate1_M1 
+Object.absolutePosition 2028.99/72.3536/704.957
+Object.rotation -0.806/3.70754e-006/0.0685425
+rem
+rem ***  ***
+rem
+Object.create sandbagl_m1 
+Object.absolutePosition 2085.26/69.0282/613.651
+Object.rotation 179.98/-0.000655211/0.0593567
+rem
+rem ***  ***
+rem
+Object.create sandbagu_m1 
+Object.absolutePosition 2072.3/69.0434/613.732
+Object.rotation -43.998/5.70628e-006/0.0884857
+rem
+rem ***  ***
+rem
+Object.create stebarbwire_m1 
+Object.absolutePosition 2057.43/68.1484/600.283
+Object.rotation -46.0371/1.52776/-0.437912
+rem
+rem ***  ***
+rem
+Object.create stebarbwire_m1 
+Object.absolutePosition 2063.74/68.4509/594.782
+Object.rotation -38.6816/-2.51957/1.77631
+rem
+rem ***  ***
+rem
+Object.create stebarbwire_m1 
+Object.absolutePosition 1956.89/78.2611/809.563
+Object.rotation -46.91/0/1.52588e-005
+rem
+rem ***  ***
+rem
+Object.create stebarbwire_m1 
+Object.absolutePosition 2072.78/68.9686/591.462
+Object.rotation -42.48/2.50129e-009/1.52588e-005
+rem
+rem ***  ***
+rem
+Object.create stebarbwire_m1 
+Object.absolutePosition 2078.62/68.4029/586.16
+Object.rotation -15.6951/-2.28806/-0.966934
+rem
+rem ***  ***
+rem
+Object.create stebarbwire_m1 
+Object.absolutePosition 2083.5/67.8038/577.661
+Object.rotation -19.5215/-7.8529/-1.52588e-005
+rem
+rem ***  ***
+rem
+Object.create stebarbwire_m1 
+Object.absolutePosition 2058.3/69.4309/618.065
+Object.rotation -26.9/0/1.52588e-005
+rem
+rem ***  ***
+rem
+Object.create stebarbwire_m1 
+Object.absolutePosition 2051.49/69.4784/624.795
+Object.rotation -58.4/-6.67011e-009/0.0442505
+rem
+rem ***  ***
+rem
+Object.create stebarbwire_m1 
+Object.absolutePosition 2043.01/69.7161/635.043
+Object.rotation -35.92/-1.66834e-009/1.52588e-005
+rem
+rem ***  ***
+rem
+Object.create stebarbwire_m1 
+Object.absolutePosition 2098.56/65.4533/561.136
+Object.rotation -53.0762/-2.73776/1.52588e-005
+rem
+rem ***  ***
+rem
+Object.create stebarbwire_m1 
+Object.absolutePosition 2106.1/65.4051/558.844
+Object.rotation 87.59/1.0417e-010/-1.52588e-005
+rem
+rem ***  ***
+rem
+Object.create stebarbwire_m1 
+Object.absolutePosition 2113.93/64.6428/555.664
+Object.rotation -34.83/8.33763e-010/0.0279846
+rem
+rem ***  ***
+rem
+Object.create stebarbwire_m1 
+Object.absolutePosition 2120.46/64.3087/554.53
+Object.rotation 0/0/1.52588e-005
+rem
+rem ***  ***
+rem
+Object.create stebarbwire_m1 
+Object.absolutePosition 2110.75/65.8491/564.879
+Object.rotation -17.72/0/1.52588e-005
+rem
+rem ***  ***
+rem
+Object.create stebarbwire_m1 
+Object.absolutePosition 2041.08/70.3422/656.575
+Object.rotation 15.89/-2.57401/1.52588e-005
+rem
+rem ***  ***
+rem
+Object.create stebarbwire_m1 
+Object.absolutePosition 2038.11/70.6285/664.81
+Object.rotation -51.56/0/1.52588e-005
+rem
+rem ***  ***
+rem
+Object.create stebarbwire_m1 
+Object.absolutePosition 2033.05/71.165/672.916
+Object.rotation -12.3/-1.584/1.52588e-005
+rem
+rem ***  ***
+rem
+Object.create stebarbwire_m1 
+Object.absolutePosition 2027.19/71.3331/677.482
+Object.rotation 78.47/2.50129e-008/0.100876
+rem
+rem ***  ***
+rem
+Object.create stebarbwire_m1 
+Object.absolutePosition 2023.5/70.89/667.083
+Object.rotation -27.48/0/1.52588e-005
+rem
+rem ***  ***
+rem
+Object.create stebarbwire_m1 
+Object.absolutePosition 2025.64/71.4981/686.592
+Object.rotation -29.99/1.62844e-011/1.52588e-005
+rem
+rem ***  ***
+rem
+Object.create stebarbwire_m1 
+Object.absolutePosition 2018.04/71.5296/691.159
+Object.rotation 83.64/-4.17289e-012/1.52588e-005
+rem
+rem ***  ***
+rem
+Object.create stebarbwire_m1 
+Object.absolutePosition 2023.34/71.703/696.928
+Object.rotation 6.73001/-2.08441e-010/1.52588e-005
+rem
+rem ***  ***
+rem
+Object.create stebarbwire_m1 
+Object.absolutePosition 2018.21/71.5569/701.037
+Object.rotation -94.98/2.03555e-013/1.52588e-005
+rem
+rem ***  ***
+rem
+Object.create stebarbwire_m1 
+Object.absolutePosition 2009.5/71.5042/703.476
+Object.rotation -46.19/-3.33505e-009/0.0395813
+rem
+rem ***  ***
+rem
+Object.create stebarbwire_m1 
+Object.absolutePosition 1999.32/71.0825/702.148
+Object.rotation -13.1392/-3.79752/0.61676
+rem
+rem ***  ***
+rem
+Object.create stebarbwire_m1 
+Object.absolutePosition 2004.08/71.4543/693.663
+Object.rotation -39.13/0/1.52588e-005
+rem
+rem ***  ***
+rem
+Object.create stebarbwire_m1 
+Object.absolutePosition 1988.42/70.5076/702.574
+Object.rotation -37.71/4.16882e-009/1.52588e-005
+rem
+rem ***  ***
+rem
+Object.create stebarbwire_m1 
+Object.absolutePosition 1986.59/70.7776/709.9
+Object.rotation 26.1159/-5.33438/-0.649521
+rem
+rem ***  ***
+rem
+Object.create stebarbwire_m1 
+Object.absolutePosition 1989.97/71.5255/718.713
+Object.rotation 23.1395/-2.47628/-0.289398
+rem
+rem ***  ***
+rem
+Object.create stebarbwire_m1 
+Object.absolutePosition 1985.07/71.5385/726.565
+Object.rotation 0.360452/-4.97749/-0.766693
+rem
+rem ***  ***
+rem
+Object.create stebarbwire_m1 
+Object.absolutePosition 1978.39/73.3376/755.345
+Object.rotation -30.0412/-3.74907/2.14194
+rem
+rem ***  ***
+rem
+Object.create stebarbwire_m1 
+Object.absolutePosition 1977.26/72.8365/750.093
+Object.rotation -71.6/-8.33763e-010/1.52588e-005
+rem
+rem ***  ***
+rem
+Object.create stebarbwire_m1 
+Object.absolutePosition 1977.07/74.1851/764.519
+Object.rotation 11.9/-4.32009/1.52588e-005
+rem
+rem ***  ***
+rem
+Object.create stebarbwire_m1 
+Object.absolutePosition 1983.81/72.6176/744.241
+Object.rotation -32.1672/-1.95382/0.88736
+rem
+rem ***  ***
+rem
+Object.create stebarbwire_m1 
+Object.absolutePosition 1981.22/74.6584/772.401
+Object.rotation -63.4312/-3.71632/1.34583
+rem
+rem ***  ***
+rem
+Object.create stebarbwire_m1 
+Object.absolutePosition 1971.22/74.6882/771.383
+Object.rotation 62.06/-5.61603/1.52588e-005
+rem
+rem ***  ***
+rem
+Object.create stebarbwire_m1 
+Object.absolutePosition 1964.12/76.541/788.515
+Object.rotation 124.11/0/1.52588e-005
+rem
+rem ***  ***
+rem
+Object.create stebarbwire_m1 
+Object.absolutePosition 1966.32/77.1175/792.293
+Object.rotation -19.0799/-4.32003/0.110153
+rem
+rem ***  ***
+rem
+Object.create stebarbwire_m1 
+Object.absolutePosition 1962.58/77.8375/801.896
+Object.rotation -18.8/-5.75991/0.0342712
+rem
+rem ***  ***
+rem
+Object.create stebarbwire_m1 
+Object.absolutePosition 1951.64/78.4811/817.866
+Object.rotation -13.19/-2.80799/0.0197906
+rem
+rem ***  ***
+rem
+Object.create stebarbwire_m1 
+Object.absolutePosition 1943.5/77.9155/823.359
+Object.rotation -34.98/2.77201/15.3425
+rem
+rem ***  ***
+rem
+Object.create stebarbwire_m1 
+Object.absolutePosition 1945.75/78.9774/833.095
+Object.rotation -34.15/0/1.52588e-005
+rem
+rem ***  ***
+rem
+Object.create stebarbwire_m1 
+Object.absolutePosition 1952.25/79.2762/827.145
+Object.rotation 19.7983/-4.68001/0.219406
+rem
+rem ***  ***
+rem
+Object.create stebarbwire_m1 
+Object.absolutePosition 1707.91/68.9442/650.868
+Object.rotation 23.3/-1.25666e-005/1.52588e-005
+rem
+rem ***  ***
+rem
+Object.create stebarbwire_m1 
+Object.absolutePosition 1932.79/77.4417/844
+Object.rotation 71.27/-12.96/1.52588e-005
+rem
+rem ***  ***
+rem
+Object.create stebarbwire_m1 
+Object.absolutePosition 1929.84/78.2972/859.223
+Object.rotation -45.141/5.56471/-2.53358
+rem
+rem ***  ***
+rem
+Object.create stebarbwire_m1 
+Object.absolutePosition 1921.66/77.6654/871.254
+Object.rotation -44.76/-3.33505e-009/0.0342712
+rem
+rem ***  ***
+rem
+Object.create stebarbwire_m1 
+Object.absolutePosition 1922.96/78.4908/880.884
+Object.rotation -46.4689/3.168/0.111923
+rem
+rem ***  ***
+rem
+Object.create stebarbwire_m1 
+Object.absolutePosition 1928.31/78.6539/871.214
+Object.rotation 37.8426/-8.80766/-0.1595
+rem
+rem ***  ***
+rem
+Object.create stebarbwire_m1 
+Object.absolutePosition 1912.45/76.6156/881.089
+Object.rotation -51.025/5.39597/0.125122
+rem
+rem ***  ***
+rem
+Object.create stebarbwire_m1 
+Object.absolutePosition 1916.46/78.6062/892.917
+Object.rotation -25.2/3.33505e-009/0.0559692
+rem
+rem ***  ***
+rem
+Object.create stebarbwire_m1 
+Object.absolutePosition 1901.94/76.3232/896.345
+Object.rotation 137.08/-2.50129e-009/0.0279846
+rem
+rem ***  ***
+rem
+Object.create stebarbwire_m1 
+Object.absolutePosition 1900.87/77.0652/905.042
+Object.rotation -54.0903/6.08076/1.87389
+rem
+rem ***  ***
+rem
+Object.create stebarbwire_m1 
+Object.absolutePosition 1914.55/78.777/902.155
+Object.rotation -0.0197754/-2.51995/0.0197906
+rem
+rem ***  ***
+rem
+Object.create stebarbwire_m1 
+Object.absolutePosition 1905.61/78.2709/912.565
+Object.rotation 133.22/-3.95998/1.52588e-005
+rem
+rem ***  ***
+rem
+Object.create stebarbwire_m1 
+Object.absolutePosition 1889.09/76.4507/929.281
+Object.rotation 0/0/1.52588e-005
+rem
+rem ***  ***
+rem
+Object.create stebarbwire_m1 
+Object.absolutePosition 1893.75/76.9133/937.036
+Object.rotation 55.7375/-3.56437/-0.458862
+rem
+rem ***  ***
+rem
+Object.create stebarbwire_m1 
+Object.absolutePosition 1871.02/74.4692/948.647
+Object.rotation -0.55603/5.00692/1.52588e-005
+rem
+rem ***  ***
+rem
+Object.create smdh2_M1 
+Object.absolutePosition 2359.29/73.1913/795.398
+Object.rotation 0/0/1.52588e-005
+rem
+rem ***  ***
+rem
+Object.create landrep1_supply 
+Object.absolutePosition 2529.45/69.6563/865.863
+Object.rotation 180/0/1.52588e-005
+rem
+rem ***  ***
+rem
+Object.create tankobs_ste_M1 
+Object.absolutePosition 2187.37/70.2202/637.471
+Object.rotation 0/0/1.52588e-005
+rem
+rem ***  ***
+rem
+Object.create tankobs_ste_M1 
+Object.absolutePosition 2177.79/70.6712/644.574
+Object.rotation -57.7/0/1.52588e-005
+rem
+rem ***  ***
+rem
+Object.create tankobs_ste_M1 
+Object.absolutePosition 2181.65/70.8176/656.565
+Object.rotation 56.6/0/1.52588e-005
+rem
+rem ***  ***
+rem
+Object.create tankobs_ste_M1 
+Object.absolutePosition 2166.67/70.4109/681.098
+Object.rotation -19.8/1.25064e-009/1.52588e-005
+rem
+rem ***  ***
+rem
+Object.create tankobs_ste_M1 
+Object.absolutePosition 2172.35/70.7926/693.98
+Object.rotation 0/0/1.52588e-005
+rem
+rem ***  ***
+rem
+Object.create tankobs_ste_M1 
+Object.absolutePosition 2163.01/71.0015/702.725
+Object.rotation 27.52/0/0.0279846
+rem
+rem ***  ***
+rem
+Object.create tankobs_ste_M1 
+Object.absolutePosition 2159.07/70.7221/692.45
+Object.rotation 20.1/-4.07111e-013/1.52588e-005
+rem
+rem ***  ***
+rem
+Object.create tankobs_ste_M1 
+Object.absolutePosition 2153.57/71.3427/708.134
+Object.rotation 33.9/0/0.0395813
+rem
+rem ***  ***
+rem
+Object.create tankobs_ste_M1 
+Object.absolutePosition 2170.13/71.2895/718.684
+Object.rotation -39.8/0/-0.0484619
+rem
+rem ***  ***
+rem
+Object.create tankobs_ste_M1 
+Object.absolutePosition 2143.17/71.5147/731.985
+Object.rotation -22.2/-3.33505e-009/0.0559692
+rem
+rem ***  ***
+rem
+Object.create tankobs_ste_M1 
+Object.absolutePosition 2149.97/71.9919/755.578
+Object.rotation -22.4/0/0.0559692
+rem
+rem ***  ***
+rem
+Object.create tankobs_ste_M1 
+Object.absolutePosition 2135.44/72.6044/780.684
+Object.rotation -17.7/0/1.52588e-005
+rem
+rem ***  ***
+rem
+Object.create tankobs_ste_M1 
+Object.absolutePosition 2138.19/72.713/790.174
+Object.rotation 0/0/1.52588e-005
+rem
+rem ***  ***
+rem
+Object.create tankobs_ste_M1 
+Object.absolutePosition 2146.7/72.8194/793.771
+Object.rotation 32.68/-8.14222e-013/1.52588e-005
+rem
+rem ***  ***
+rem
+Object.create tankobs_ste_M1 
+Object.absolutePosition 2139.14/73.4574/816.657
+Object.rotation -24.2/-5.29244e-012/1.52588e-005
+rem
+rem ***  ***
+rem
+Object.create tankobs_ste_M1 
+Object.absolutePosition 2119.67/75.8969/839.91
+Object.rotation 44.15/8.33763e-010/1.52588e-005
+rem
+rem ***  ***
+rem
+Object.create tankobs_ste_M1 
+Object.absolutePosition 2107.6/77.4765/848.969
+Object.rotation -19.05/8.14222e-013/1.52588e-005
+rem
+rem ***  ***
+rem
+Object.create tankobs_ste_M1 
+Object.absolutePosition 2108.62/78.4364/858.637
+Object.rotation -19.5/4.07111e-013/1.52588e-005
+rem
+rem ***  ***
+rem
+Object.create tankobs_ste_M1 
+Object.absolutePosition 2110.81/79.9288/876.812
+Object.rotation 47.87/0/0.0279846
+rem
+rem ***  ***
+rem
+Object.create tankobs_ste_M1 
+Object.absolutePosition 2103.01/79.6426/871.093
+Object.rotation -38.38/2.50536e-009/1.52588e-005
+rem
+rem ***  ***
+rem
+Object.create tankobs_ste_M1 
+Object.absolutePosition 2095.34/80.627/887.328
+Object.rotation 19.57/0/1.52588e-005
+rem
+rem ***  ***
+rem
+Object.create tankobs_ste_M1 
+Object.absolutePosition 2103.94/81.0774/903.048
+Object.rotation -33.3/0/1.52588e-005
+rem
+rem ***  ***
+rem
+Object.create tankobs_ste_M1 
+Object.absolutePosition 2106.52/80.9974/919.339
+Object.rotation 0/0/1.52588e-005
+rem
+rem ***  ***
+rem
+Object.create tankobs_ste_M1 
+Object.absolutePosition 2103.98/80.862/939.089
+Object.rotation -43.43/-6.67011e-009/0.0279846
+rem
+rem ***  ***
+rem
+Object.create tankobs_ste_M1 
+Object.absolutePosition 2085.35/80.595/945.785
+Object.rotation 0.509373/0/1.52588e-005
+rem
+rem ***  ***
+rem
+Object.create sandbagu_m1 
+Object.absolutePosition 1836.95/77.3859/615.241
+Object.rotation 58.68/5.83634e-009/0.0279846
+rem
+rem ***  ***
+rem
+Object.create sandbagi_m1 
+Object.absolutePosition 1835.38/77.1177/602.511
+Object.rotation -88.2/-3.33505e-009/1.63339
+rem
+rem ***  ***
+rem
+Object.create sandbagi_m1 
+Object.absolutePosition 1824.4/77.3814/615.97
+Object.rotation -180/0/0.0197906
+rem
+rem ***  ***
+rem
+Object.create sandbagu_m1 
+Object.absolutePosition 1810.13/85.697/717.128
+Object.rotation 46.8/0/1.52588e-005
+rem
+rem ***  ***
+rem
+Object.create sandbagu_m1 
+Object.absolutePosition 1784.78/85.6875/719.517
+Object.rotation -20.52/4.07111e-013/1.52588e-005
+rem
+rem ***  ***
+rem
+Object.create sandbagi_m1 
+Object.absolutePosition 1809.57/85.577/704.514
+Object.rotation -90.36/-2.41722e-013/1.52588e-005
+rem
+rem ***  ***
+rem
+Object.create sandbagi_m1 
+Object.absolutePosition 1807.28/85.6866/689.272
+Object.rotation -73.08/-4.18103e-010/1.52588e-005
+rem
+rem ***  ***
+rem
+Object.create sandbagi_m1 
+Object.absolutePosition 1797.25/85.6884/717.231
+Object.rotation 0/0/1.52588e-005
+rem
+rem ***  ***
+rem
+Object.create sandbagi_m1 
+Object.absolutePosition 1803.67/84.9187/674.36
+Object.rotation -79.5602/-1.60083e-006/5.03517
+rem
+rem ***  ***
+rem
+Object.create Stones_Africa_L_M1 
+Object.absolutePosition 1787.5/85.6899/692.457
+Object.rotation 0/0/1.52588e-005
+rem
+rem ***  ***
+rem
+Object.create Stones_Africa_L_M1 
+Object.absolutePosition 1827.7/77.3827/622.893
+Object.rotation -140.76/-3.00155e-008/0.0656281
+rem
+rem ***  ***
+rem
+Object.create Stones_Africa_L_M1 
+Object.absolutePosition 1689.63/67.1414/597.26
+Object.rotation 0/0/1.52588e-005
+rem
+rem ***  ***
+rem
+Object.create Stones_Africa_L_M1 
+Object.absolutePosition 1856.18/80.5942/580.14
+Object.rotation 50.0335/9.46385/8.47342
+rem
+rem ***  ***
+rem
+Object.create Stones_Africa_L_M1 
+Object.absolutePosition 1811.81/77.7638/635.919
+Object.rotation -178.92/-5.21102e-011/1.52588e-005
+rem
+rem ***  ***
+rem
+Object.create Stones_Africa_L_M1 
+Object.absolutePosition 1820.14/77.3992/627.244
+Object.rotation 0/0/1.52588e-005
+rem
+rem ***  ***
+rem
+Object.create Stones_Africa_L_M1 
+Object.absolutePosition 1846.84/72.9292/653.764
+Object.rotation 0/0/1.52588e-005
+rem
+rem ***  ***
+rem
+Object.create sandbagu_m1 
+Object.absolutePosition 1904.75/84.6616/574.23
+Object.rotation 32.4/8.33763e-010/0.0395813
+rem
+rem ***  ***
+rem
+Object.create sandbagi_m1 
+Object.absolutePosition 1901.76/83.7745/562.76
+Object.rotation -60.12/-1.4941e-006/7.56012
+rem
+rem ***  ***
+rem
+Object.create Stones_Africa_L_M1 
+Object.absolutePosition 1892.75/83.5772/553.117
+Object.rotation 0/0/1.52588e-005
+rem
+rem ***  ***
+rem
+Object.create Stones_Africa_L_M1 
+Object.absolutePosition 1806.99/78.3652/638.423
+Object.rotation 0/0/1.52588e-005
+rem
+rem ***  ***
+rem
+Object.create stebarrel1_m1 
+Object.absolutePosition 1788.84/67.1438/561.765
+Object.rotation 0/0/1.52588e-005
+rem
+rem ***  ***
+rem
+Object.create stebarrel1_m1 
+Object.absolutePosition 1789.86/67.1438/561.44
+Object.rotation 0/0/1.52588e-005
+rem
+rem ***  ***
+rem
+Object.create sandbagu_m1 
+Object.absolutePosition 1880.16/69.0987/513.785
+Object.rotation 91.44/2.54444e-014/1.52588e-005
+rem
+rem ***  ***
+rem
+Object.create sandbagu_m1 
+Object.absolutePosition 1869.6/68.9776/489.653
+Object.rotation 126.36/-1.66753e-009/1.52588e-005
+rem
+rem ***  ***
+rem
+Object.create sandbagi_m1 
+Object.absolutePosition 1857/69.4987/489.604
+Object.rotation 0/0/-2.87999
+rem
+rem ***  ***
+rem
+Object.create sandbagu_m1 
+Object.absolutePosition 1720.8/88.6693/777.07
+Object.rotation 43.92/0/1.52588e-005
+rem
+rem ***  ***
+rem
+Object.create sandbagl_m1 
+Object.absolutePosition 1725.09/88.7486/765.354
+Object.rotation -124.56/0/1.52588e-005
+rem
+rem ***  ***
+rem
+Object.create sandbagi_m1 
+Object.absolutePosition 1708.4/88.5596/774.453
+Object.rotation -18.36/0/1.87274
+rem
+rem ***  ***
+rem
+Object.create Stones_Africa_L_M1 
+Object.absolutePosition 1712.02/89.0782/785.01
+Object.rotation 163.8/0/1.52588e-005
+rem
+rem ***  ***
+rem
+Object.create Stones_Africa_L_M1 
+Object.absolutePosition 1969.5/75.6847/780.209
+Object.rotation 0/0/1.52588e-005
+rem
+rem ***  ***
+rem
+Object.create Stones_Africa_L_M1 
+Object.absolutePosition 1900.76/77.0577/672.914
+Object.rotation 0/0/1.52588e-005
+rem
+rem ***  ***
+rem
+Object.create Stones_Africa_L_M1 
+Object.absolutePosition 1884.67/78.8206/599.584
+Object.rotation 0/0/1.52588e-005
+rem
+rem ***  ***
+rem
+Object.create factory_m1 
+Object.absolutePosition 2615.57/69.7408/831.254
+Object.rotation 87.84/-1.5248e-005/0.0197906
+rem
+rem ***  ***
+rem
+Object.create stebarbwire_m1 
+Object.absolutePosition 2477.92/72.256/889.705
+Object.rotation 33.0425/-6.25815/2.17044
+rem
+rem ***  ***
+rem
+Object.create stebarbwire_m1 
+Object.absolutePosition 2473.7/70.4579/881.033
+Object.rotation 24.5306/-10.1748/-4.60922
+rem
+rem ***  ***
+rem
+Object.create stebarbwire_m1 
+Object.absolutePosition 2471.68/69.6587/871.264
+Object.rotation 5.75997/7.35098e-006/1.52588e-005
+rem
+rem ***  ***
+rem
+Object.create stebarbwire_m1 
+Object.absolutePosition 2471.05/69.6563/861.104
+Object.rotation 0/0/1.52588e-005
+rem
+rem ***  ***
+rem
+Object.create stebarbwire_m1 
+Object.absolutePosition 2470.89/69.6563/850.635
+Object.rotation 0/0/1.52588e-005
+rem
+rem ***  ***
+rem
+Object.create stebarbwire_m1 
+Object.absolutePosition 2471.21/69.6563/840.135
+Object.rotation 0/0/1.52588e-005
+rem
+rem ***  ***
+rem
+Object.create stebarbwire_m1 
+Object.absolutePosition 2469.8/69.6563/834.207
+Object.rotation 0/0/1.52588e-005
+rem
+rem ***  ***
+rem
+Object.create stebarbwire_m1 
+Object.absolutePosition 2470.61/69.6402/803.252
+Object.rotation 0/0/1.52588e-005
+rem
+rem ***  ***
+rem
+Object.create stebarbwire_m1 
+Object.absolutePosition 2473.59/69.6478/794.043
+Object.rotation -18.72/0/1.52588e-005
+rem
+rem ***  ***
+rem
+Object.create stebarbwire_m1 
+Object.absolutePosition 2475.16/69.6382/784.454
+Object.rotation -18.72/0/1.52588e-005
+rem
+rem ***  ***
+rem
+Object.create guardtow_M1 
+Object.absolutePosition 2488.31/68.7416/805.247
+Object.rotation 89.28/2.60551e-011/1.52588e-005
+rem
+rem ***  ***
+rem
+Object.create guardtow_M1 
+Object.absolutePosition 2651.63/69.915/816.008
+Object.rotation -92.1602/0/1.52588e-005
+rem
+rem ***  ***
+rem
+Object.create guardtow_M1 
+Object.absolutePosition 2488.24/68.7723/838.857
+Object.rotation 91.08/-1.45909e-009/0.12973
+rem
+rem ***  ***
+rem
+Object.create guardtow_M1 
+Object.absolutePosition 2537.32/69.7656/756.037
+Object.rotation 48.6/0/1.52588e-005
+rem
+rem ***  ***
+rem
+Object.create barack_m1 
+Object.absolutePosition 2595.49/69.6313/777.477
+Object.rotation 90/0/1.52588e-005
+rem
+rem ***  ***
+rem
+Object.create sandbagl_m1 
+Object.absolutePosition 2484.67/69.6516/780.687
+Object.rotation -14.04/1.4174e-008/0.0342712
+rem
+rem ***  ***
+rem
+Object.create sandbagl_m1 
+Object.absolutePosition 2477.92/69.6516/811.037
+Object.rotation 82.8/0/1.52588e-005
+rem
+rem ***  ***
+rem
+Object.create sandbagl_m1 
+Object.absolutePosition 2478.38/69.6563/828.174
+Object.rotation 0/0/1.52588e-005
+rem
+rem ***  ***
+rem
+Object.create sandbagi_m1 
+Object.absolutePosition 2480.78/69.6516/795.678
+Object.rotation 75.96/8.33763e-010/1.52588e-005
+rem
+rem ***  ***
+rem
+Object.create sandbagu_m1 
+Object.absolutePosition 2500.43/69.6008/765.697
+Object.rotation -147.6/0/1.52588e-005
+rem
+rem ***  ***
+rem
+Object.create sandbagi_m1 
+Object.absolutePosition 2478.44/69.6554/843.712
+Object.rotation -88.56/2.54444e-014/1.52588e-005
+rem
+rem ***  ***
+rem
+Object.create sandbagi_m1 
+Object.absolutePosition 2484.22/69.6563/874.211
+Object.rotation -70.2/0/1.52588e-005
+rem
+rem ***  ***
+rem
+Object.create sandbagi_m1 
+Object.absolutePosition 2480.11/69.6563/859.205
+Object.rotation -79.2/-1.24678e-009/1.52588e-005
+rem
+rem ***  ***
+rem
+Object.create sandbagi_m1 
+Object.absolutePosition 2489.94/71.674/888.682
+Object.rotation -66.9702/-0.0851823/14.3953
+rem
+rem ***  ***
+rem
+Object.create sandbagu_m1 
+Object.absolutePosition 2488.19/73.3043/898.697
+Object.rotation -96.8401/0/0.0279846
+rem
+rem ***  ***
+rem
+Object.create sandbagi_m1 
+Object.absolutePosition 2493.59/73.6216/909.979
+Object.rotation -74.16/-1.66712e-009/1.52588e-005
+rem
+rem ***  ***
+rem
+Object.create sandbagl_m1 
+Object.absolutePosition 2495.66/73.582/925.202
+Object.rotation 89.64/0/1.52588e-005
+rem
+rem ***  ***
+rem
+Object.create sandbagi_m1 
+Object.absolutePosition 2511.81/74.1527/938.708
+Object.rotation 0/0/1.52588e-005
+rem
+rem ***  ***
+rem
+Object.create sandbagi_m1 
+Object.absolutePosition 2511.18/73.582/925.328
+Object.rotation -179.64/0/0.0395813
+rem
+rem ***  ***
+rem
+Object.create sandbagi_m1 
+Object.absolutePosition 2526.82/73.582/925.19
+Object.rotation -179.28/5.21102e-011/1.52588e-005
+rem
+rem ***  ***
+rem
+Object.create sandbagi_m1 
+Object.absolutePosition 2538.84/73.582/918.291
+Object.rotation -121.68/8.65925e-010/1.52588e-005
+rem
+rem ***  ***
+rem
+Object.create Supplyde_m1 
+Object.absolutePosition 2526.61/73.582/906.28
+Object.rotation -180/0/1.52588e-005
+rem
+rem ***  ***
+rem
+Object.create guardtow_M1 
+Object.absolutePosition 2504.97/72.828/906.918
+Object.rotation 109.08/0/1.52588e-005
+rem
+rem ***  ***
+rem
+Object.create sandbagl_m1 
+Object.absolutePosition 2645.37/70.8648/759.395
+Object.rotation -88.92/-2.54444e-014/1.52588e-005
+rem
+rem ***  ***
+rem
+Object.create sandbagi_m1 
+Object.absolutePosition 2645.53/70.9519/775.043
+Object.rotation -90.36/0/0.0395813
+rem
+rem ***  ***
+rem
+Object.create sandbagi_m1 
+Object.absolutePosition 2629.79/70.95/759.389
+Object.rotation 0/0/1.52588e-005
+rem
+rem ***  ***
+rem
+Object.create sandbagi_m1 
+Object.absolutePosition 2598.49/70.9477/758.951
+Object.rotation -2.52002/0/1.52588e-005
+rem
+rem ***  ***
+rem
+Object.create sandbagi_m1 
+Object.absolutePosition 2614.16/70.9494/759.309
+Object.rotation 0/0/1.52588e-005
+rem
+rem ***  ***
+rem
+Object.create sandbagi_m1 
+Object.absolutePosition 2582.92/70.9477/757.625
+Object.rotation -7.19992/-4.16678e-010/1.52588e-005
+rem
+rem ***  ***
+rem
+Object.create sandbagi_m1 
+Object.absolutePosition 2567.43/70.9477/756.655
+Object.rotation 0/0/1.52588e-005
+rem
+rem ***  ***
+rem
+Object.create sandbagi_m1 
+Object.absolutePosition 2552.31/70.9477/753.7
+Object.rotation -21.96/1.22133e-012/1.52588e-005
+rem
+rem ***  ***
+rem
+Object.create bunker1_M1 
+Object.absolutePosition 2133.43/67.0594/560.601
+Object.rotation -180/0/1.52588e-005
+rem
+rem ***  ***
+rem
+Object.create sandbagu_m1 
+Object.absolutePosition 2127.89/66.5429/568.157
+Object.rotation -62.7145/3.14535/-1.52588e-005
+rem
+rem ***  ***
+rem
+Object.create sandbagl_m1 
+Object.absolutePosition 2146.74/66.804/555.378
+Object.rotation -91.08/1.45909e-009/0.12973
+rem
+rem ***  ***
+rem
+Object.create sandbagi_m1 
+Object.absolutePosition 2651.62/70.957/828.558
+Object.rotation -87.84/-1.0422e-010/0.0342712
+rem
+rem ***  ***
+rem
+Object.create sandbagi_m1 
+Object.absolutePosition 2651.5/70.9523/859.725
+Object.rotation -93.24/3.46044e-012/1.52588e-005
+rem
+rem ***  ***
+rem
+Object.create sandbagi_m1 
+Object.absolutePosition 2651.93/70.957/844.114
+Object.rotation -90/0/1.52588e-005
+rem
+rem ***  ***
+rem
+Object.create weldtank_M1 
+Object.absolutePosition 2504.61/88.8107/851.362
+Object.rotation 0/0/1.52588e-005
+rem
+rem ***  ***
+rem
+Object.create Pipe_M1 
+Object.absolutePosition 2485.04/83.1245/865.233
+Object.rotation 0/0/1.52588e-005
+rem
+rem ***  ***
+rem
+Object.create Stones_Africa_L_M1 
+Object.absolutePosition 2537.08/70.9477/745.759
+Object.rotation 0/0/1.52588e-005
+rem
+rem ***  ***
+rem
+Object.create stebarrel1_m1 
+Object.absolutePosition 2493.1/73.582/896.058
+Object.rotation 0/0/1.52588e-005
+rem
+rem ***  ***
+rem
+Object.create stebarrel1_m1 
+Object.absolutePosition 2522.56/69.6516/849.82
+Object.rotation 0/0/1.52588e-005
+rem
+rem ***  ***
+rem
+Object.create stebarrel1_m1 
+Object.absolutePosition 2522.34/69.6516/848.621
+Object.rotation 0/0/1.52588e-005
+rem
+rem ***  ***
+rem
+Object.create stebarrel1_m1 
+Object.absolutePosition 2521.46/69.6516/849.43
+Object.rotation 0/0/1.52588e-005
+rem
+rem ***  ***
+rem
+Object.create Stones_Africa_L_M1 
+Object.absolutePosition 2308.17/75.2175/796.881
+Object.rotation 0/0/1.52588e-005
+rem
+rem ***  ***
+rem
+Object.create Stones_Africa_L_M1 
+Object.absolutePosition 2282.51/75.1901/796.008
+Object.rotation 100.08/0/0.0559692
+rem
+rem ***  ***
+rem
+Object.create sandbagi_m1 
+Object.absolutePosition 1666.25/67.1484/577.802
+Object.rotation -79.56/0/0.0279846
+rem
+rem ***  ***
+rem
+Object.create sandbagi_m1 
+Object.absolutePosition 1666.64/67.1484/562.469
+Object.rotation -103.32/0/0.0279846
+rem
+rem ***  ***
+rem
+Object.create sandbagi_m1 
+Object.absolutePosition 1673.42/67.1539/548.751
+Object.rotation -129.24/0/0.0523529
+rem
+rem ***  ***
+rem
+Object.create sandbagi_m1 
+Object.absolutePosition 1692.77/67.2352/524.413
+Object.rotation 43.56/0/1.52588e-005
+rem
+rem ***  ***
+rem
+Object.create sandbagi_m1 
+Object.absolutePosition 1706.15/67.2352/517.176
+Object.rotation 13.32/0/1.52588e-005
+rem
+rem ***  ***
+rem
+Object.create sandbagi_m1 
+Object.absolutePosition 1720.68/67.2671/511.787
+Object.rotation 27.36/2.44267e-012/1.52588e-005
+rem
+rem ***  ***
+rem
+Object.create stebarbwire2_m1 
+Object.absolutePosition 1701.32/67.3862/617.355
+Object.rotation 0.212142/-5.12386/-1.82114
+rem
+rem ***  ***
+rem
+Object.create stecrate2_M1 
+Object.absolutePosition 2520.85/69.6516/848.345
+Object.rotation 0/0/1.52588e-005
+rem
+rem ***  ***
+rem
+Object.create stecrate1_M1 
+Object.absolutePosition 2522.96/69.6516/847.459
+Object.rotation 0/0/1.52588e-005
+rem
+rem ***  ***
+rem
+Object.create stecrate1_M1 
+Object.absolutePosition 2535.94/69.6516/849.294
+Object.rotation 0/0/1.52588e-005
+rem
+rem ***  ***
+rem
+Object.create stecrate1_M1 
+Object.absolutePosition 2500.24/69.6516/792.268
+Object.rotation 0/0/1.52588e-005
+rem
+rem ***  ***
+rem
+Object.create stecrate1_M1 
+Object.absolutePosition 1779.64/67.1438/559.306
+Object.rotation 0/0/1.52588e-005
+rem
+rem ***  ***
+rem
+Object.create stecrate1_M1 
+Object.absolutePosition 1749.58/67.1148/608.162
+Object.rotation 0/0/1.52588e-005
+rem
+rem ***  ***
+rem
+Object.create stecrate1_M1 
+Object.absolutePosition 1736.68/67.1438/551.496
+Object.rotation 0/0/1.52588e-005
+rem
+rem ***  ***
+rem
+Object.create stecrate1_M1 
+Object.absolutePosition 1714.57/67.1438/613.695
+Object.rotation 0/0/1.52588e-005
+rem
+rem ***  ***
+rem
+Object.create stecrate1_M1 
+Object.absolutePosition 1714.46/67.1438/615.092
+Object.rotation 0/0/1.52588e-005
+rem
+rem ***  ***
+rem
+Object.create landrep1_supply 
+Object.absolutePosition 1759.05/67.1438/602.712
+Object.rotation 180/0/1.52588e-005
+rem
+rem ***  ***
+rem
+Object.create PALMHIGH_M1 
+Object.absolutePosition 2412/68.9518/795.582
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.838353/0.949176/0.839765
+Object.geometry.color 0.494118/0.494118/0.494118
+rem
+rem ***  ***
+rem
+Object.create PALMHIGH_M1 
+Object.absolutePosition 2511.08/29.3766/663.045
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.979529/0.913882/0.827059
+Object.geometry.color 0.494118/0.494118/0.494118
+rem
+rem ***  ***
+rem
+Object.create PALMHIGH_M1 
+Object.absolutePosition 2341.1/73.7713/800.334
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.995765/0.844/0.892
+Object.geometry.color 0.494118/0.494118/0.494118
+rem
+rem ***  ***
+rem
+Object.create PALMHIGH_M1 
+Object.absolutePosition 2320.29/68.9574/705.572
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.930118/0.917412/0.884235
+Object.geometry.color 0.494118/0.494118/0.494118
+rem
+rem ***  ***
+rem
+Object.create PALMHIGH_M1 
+Object.absolutePosition 2388.04/73.7516/833.258
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.852471/0.888471/0.921647
+Object.geometry.color 0.494118/0.494118/0.494118
+rem
+rem ***  ***
+rem
+Object.create PALMHIGH_M1 
+Object.absolutePosition 2385.55/73.8954/814.827
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.912471/0.862353/0.868706
+Object.geometry.color 0.494118/0.494118/0.494118
+rem
+rem ***  ***
+rem
+Object.create PALMHIGH_M1 
+Object.absolutePosition 2406.54/73.4977/840.002
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.884235/0.935765/0.875059
+Object.geometry.color 0.494118/0.494118/0.494118
+rem
+rem ***  ***
+rem
+Object.create PALMHIGH_M1 
+Object.absolutePosition 2389.06/71.7823/796.367
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.863765/0.843294/0.975294
+Object.geometry.color 0.494118/0.494118/0.494118
+rem
+rem ***  ***
+rem
+Object.create PALMHIGH_M1 
+Object.absolutePosition 2321.36/70.2165/739.831
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.905412/0.887765/0.937882
+Object.geometry.color 0.494118/0.494118/0.494118
+rem
+rem ***  ***
+rem
+Object.create PALMHIGH_M1 
+Object.absolutePosition 2398.36/68.9355/756.246
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.863765/0.966824/0.837647
+Object.geometry.color 0.494118/0.494118/0.494118
+rem
+rem ***  ***
+rem
+Object.create PALMHIGH_M1 
+Object.absolutePosition 2361.73/68.9203/714.52
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.899059/0.924471/0.861647
+Object.geometry.color 0.494118/0.494118/0.494118
+rem
+rem ***  ***
+rem
+Object.create PALMHIGH_M1 
+Object.absolutePosition 2354.26/68.9227/747.6
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.990118/0.970353/0.896941
+Object.geometry.color 0.494118/0.494118/0.494118
+rem
+rem ***  ***
+rem
+Object.create PALMHIGH_M1 
+Object.absolutePosition 2417.26/69.039/793.704
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.926588/0.856/0.990118
+Object.geometry.color 0.494118/0.494118/0.494118
+rem
+rem ***  ***
+rem
+Object.create PALMHIGH_M1 
+Object.absolutePosition 2351.55/73.2876/827.641
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.966824/0.869412/0.870118
+Object.geometry.color 0.494118/0.494118/0.494118
+rem
+rem ***  ***
+rem
+Object.create PALMHIGH_M1 
+Object.absolutePosition 2304/72.0343/751.739
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.841882/0.828471/0.928706
+Object.geometry.color 0.494118/0.494118/0.494118
+rem
+rem ***  ***
+rem
+Object.create PALMHIGH_M1 
+Object.absolutePosition 2299.02/72.1046/751.393
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.918824/0.875059/0.855294
+Object.geometry.color 0.494118/0.494118/0.494118
+rem
+rem ***  ***
+rem
+Object.create Palmshort_m1 
+Object.absolutePosition 2414.49/69.3925/798.179
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.989412/0.915294/0.882118
+Object.geometry.color 0.494118/0.494118/0.494118
+rem
+rem ***  ***
+rem
+Object.create Palmshort_m1 
+Object.absolutePosition 2418.87/69.3806/797.154
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.824941/0.992941/0.986588
+Object.geometry.color 0.494118/0.494118/0.494118
+rem
+rem ***  ***
+rem
+Object.create PALMHIGH_M1 
+Object.absolutePosition 2417.22/50.3203/678.532
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.898353/0.865176/0.867294
+Object.geometry.color 0.494118/0.494118/0.494118
+rem
+rem ***  ***
+rem
+Object.create PALMHIGH_M1 
+Object.absolutePosition 2419.07/50.3156/666.482
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.935059/0.850353/0.849647
+Object.geometry.color 0.494118/0.494118/0.494118
+rem
+rem ***  ***
+rem
+Object.create PALMHIGH_M1 
+Object.absolutePosition 2415.84/32.2661/620.237
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.888471/0.979529/0.935059
+Object.geometry.color 0.494118/0.494118/0.494118
+rem
+rem ***  ***
+rem
+Object.create PALMHIGH_M1 
+Object.absolutePosition 2415.86/32.6799/624.144
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.826353/0.860941/0.951294
+Object.geometry.color 0.494118/0.494118/0.494118
+rem
+rem ***  ***
+rem
+Object.create PALMHIGH_M1 
+Object.absolutePosition 2487.75/29.4368/661.657
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.831294/0.827765/0.901176
+Object.geometry.color 0.494118/0.494118/0.494118
+rem
+rem ***  ***
+rem
+Object.create PALMHIGH_M1 
+Object.absolutePosition 2462.05/29.7607/624.252
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.846118/0.88/0.958353
+Object.geometry.color 0.494118/0.494118/0.494118
+rem
+rem ***  ***
+rem
+Object.create PALMHIGH_M1 
+Object.absolutePosition 2464.33/29.6025/626.906
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.982353/0.929412/0.850353
+Object.geometry.color 0.494118/0.494118/0.494118
+rem
+rem ***  ***
+rem
+Object.create stebarrel1_m1 
+Object.absolutePosition 1778.03/84.891/723.23
+Object.rotation 0/0/-34.848
+rem
+rem ***  ***
+rem
+Object.create stebarrel1_m1 
+Object.absolutePosition 1723.49/67.1438/615.263
+Object.rotation 0/0/1.52588e-005
+rem
+rem ***  ***
+rem
+Object.create mediclocker 
+Object.absolutePosition 1745.25/68.0228/615.176
+Object.rotation -90.774/-3.74386e-007/-0.0279846
+rem
+rem ***  ***
+rem
+Object.create mediclocker 
+Object.absolutePosition 1702.72/68.0311/537.697
+Object.rotation 0/0/1.52588e-005
+rem
+rem ***  ***
+rem
+Object.create mediclocker 
+Object.absolutePosition 2021.98/71.7107/712.606
+Object.rotation 88.965/1.52584e-005/1.52588e-005
+rem
+rem ***  ***
+rem
+Object.create mediclocker 
+Object.absolutePosition 1972.64/80.597/832.439
+Object.rotation -88.11/-2.70973e-009/0.0342712
+rem
+rem ***  ***
+rem
+Object.create mediclocker 
+Object.absolutePosition 2230.52/73.6701/707.016
+Object.rotation -92.0697/-0.0438062/-1.52588e-005
+rem
+rem ***  ***
+rem
+Object.create mediclocker 
+Object.absolutePosition 2545.94/70.4986/776.325
+Object.rotation 89.28/-5.21102e-011/0.0593567
+rem
+rem ***  ***
+rem
+Object.create mediclocker 
+Object.absolutePosition 2555.14/70.5315/865.62
+Object.rotation 0/0/1.52588e-005
+rem
+rem ***  ***
+rem
+Object.create mediclocker 
+Object.absolutePosition 2192.59/82.3096/943.033
+Object.rotation 90.684/-1.52577e-005/-0.0342712
+rem
+rem ***  ***
+rem
+Object.create Ammobox 
+Object.absolutePosition 1765.17/67.1438/587.322
+Object.rotation 0/0/1.52588e-005
+rem
+rem ***  ***
+rem
+Object.create Ammobox 
+Object.absolutePosition 1704.26/67.1438/559.343
+Object.rotation 0/0/1.52588e-005
+rem
+rem ***  ***
+rem
+Object.create Ammobox 
+Object.absolutePosition 1723.59/67.1438/609.379
+Object.rotation 178.56/0/1.52588e-005
+rem
+rem ***  ***
+rem
+Object.create Ammobox 
+Object.absolutePosition 1902.45/84.6791/568.296
+Object.rotation -136.438/2.44937/6.40022
+rem
+rem ***  ***
+rem
+Object.create Ammobox 
+Object.absolutePosition 1793.62/85.688/716.447
+Object.rotation 0/0/1.52588e-005
+rem
+rem ***  ***
+rem
+Object.create Ammobox 
+Object.absolutePosition 1720.87/89.2394/769.782
+Object.rotation 141.48/0/1.52588e-005
+rem
+rem ***  ***
+rem
+Object.create Ammobox 
+Object.absolutePosition 2037.72/71.5312/722.435
+Object.rotation -94.644/1.52087e-005/-1.52588e-005
+rem
+rem ***  ***
+rem
+Object.create Ammobox 
+Object.absolutePosition 1970.42/80.45/844.622
+Object.rotation -87.12/0.00192715/-0.0279846
+rem
+rem ***  ***
+rem
+Object.create Ammobox 
+Object.absolutePosition 2079.19/69.2521/602.933
+Object.rotation -179.28/5.21102e-011/0.0523529
+rem
+rem ***  ***
+rem
+Object.create Ammobox 
+Object.absolutePosition 2138.07/67.0496/557.022
+Object.rotation 0/0/1.52588e-005
+rem
+rem ***  ***
+rem
+Object.create Ammobox 
+Object.absolutePosition 2220.51/78.5916/830.93
+Object.rotation 0/0/1.52588e-005
+rem
+rem ***  ***
+rem
+Object.create Ammobox 
+Object.absolutePosition 2232.28/73.672/706.826
+Object.rotation -4.04996/-3.12661e-010/1.52588e-005
+rem
+rem ***  ***
+rem
+Object.create Ammobox 
+Object.absolutePosition 2251.26/76.1778/796.864
+Object.rotation -156.6/0/0.0197906
+rem
+rem ***  ***
+rem
+Object.create Ammobox 
+Object.absolutePosition 2198.92/82.1836/916.234
+Object.rotation 0/0/1.52588e-005
+rem
+rem ***  ***
+rem
+Object.create Ammobox 
+Object.absolutePosition 2348.64/68.9214/741.777
+Object.rotation 0/0/1.52588e-005
+rem
+rem ***  ***
+rem
+Object.create Ammobox 
+Object.absolutePosition 2366.3/73.2461/798.857
+Object.rotation -89.28/5.21102e-011/0.0593567
+rem
+rem ***  ***
+rem
+Object.create Ammobox 
+Object.absolutePosition 2410.48/73.2445/855.853
+Object.rotation 0/0/1.52588e-005
+rem
+rem ***  ***
+rem
+Object.create Ammobox 
+Object.absolutePosition 2501.75/69.6515/792.767
+Object.rotation 0/0/1.52588e-005
+rem
+rem ***  ***
+rem
+Object.create Ammobox 
+Object.absolutePosition 2588.22/70.5538/865.934
+Object.rotation 179.64/0/1.52588e-005
+rem
+rem ***  ***
+rem
+Object.create Ammobox 
+Object.absolutePosition 2607.23/69.6186/775.726
+Object.rotation 0/0/1.52588e-005
+rem
+rem ***  ***
+rem
+Object.create Ammobox 
+Object.absolutePosition 2500.02/69.6052/769.492
+Object.rotation 59.4/0/1.52588e-005
+rem
+rem ***  ***
+rem
+Object.create Ammobox 
+Object.absolutePosition 2419.6/68.9437/762.699
+Object.rotation 0/0/1.52588e-005
+rem
+rem ***  ***
+rem
+Object.create Ammobox 
+Object.absolutePosition 1797.54/85.688/716.447
+Object.rotation 0/0/1.52588e-005
+rem
+rem ***  ***
+rem
+Object.create Ammobox 
+Object.absolutePosition 1834.61/77.3836/610.076
+Object.rotation -177.48/4.5857e-009/0.138489
+rem
+rem ***  ***
+rem
+Object.create Ammobox 
+Object.absolutePosition 2492.54/73.5819/903.043
+Object.rotation 11.88/1.22133e-012/1.52588e-005
+rem
+rem ***  ***
+rem
+Object.create Ammobox 
+Object.absolutePosition 2612.44/75.2751/810.816
+Object.rotation 0/0/1.52588e-005
+rem
+rem ***  ***
+rem
+Object.create tankobs_ste_M1 
+Object.absolutePosition 2111.32/61.1398/508.741
+Object.rotation 13.7262/25.5601/0.0740356
+rem
+rem ***  ***
+rem
+Object.create tankobs_ste_M1 
+Object.absolutePosition 2108.41/61.3626/511.346
+Object.rotation 13.7262/25.5603/-13.2777
+rem
+rem ***  ***
+rem
+Object.create tankobs_ste_M1 
+Object.absolutePosition 2105.95/61.1196/516.905
+Object.rotation 13.7262/25.5603/-13.2777
+rem
+rem ***  ***
+rem
+Object.create tankobs_ste_M1 
+Object.absolutePosition 2106.9/61.1893/535.217
+Object.rotation 18.2147/6.23073/-12.03
+rem
+rem ***  ***
+rem
+Object.create tankobs_ste_M1 
+Object.absolutePosition 2105.69/60.9733/530.41
+Object.rotation 18.2147/6.23073/-12.03
+rem
+rem ***  ***
+rem
+Object.create tankobs_ste_M1 
+Object.absolutePosition 2103.27/61.5749/524.811
+Object.rotation 12.608/11.7811/-18.6613
+rem
+rem ***  ***
+rem
+Object.create tankobs_ste_M1 
+Object.absolutePosition 2103.86/61.5574/519.86
+Object.rotation 12.608/11.7811/-18.6613
+rem
+rem ***  ***
+rem
+Object.create tankobs_ste_M1 
+Object.absolutePosition 2111.98/62.8654/545.29
+Object.rotation 18.3593/-6.29169/-15.8385
+rem
+rem ***  ***
+rem
+Object.create tankobs_ste_M1 
+Object.absolutePosition 2108.27/61.7413/541.095
+Object.rotation 12.608/11.7811/-18.6613
+rem
+rem ***  ***
+rem
+Object.create tankobs_ste_M1 
+Object.absolutePosition 2134.82/72.0002/758.852
+Object.rotation 25.01/0/1.52588e-005
+rem
+rem ***  ***
+rem
+Object.create tankobs_ste_M1 
+Object.absolutePosition 2069.65/66.7525/578.091
+Object.rotation 25.0088/-3.60002/0.0839386
+rem
+rem ***  ***
+rem
+Object.create tankobs_ste_M1 
+Object.absolutePosition 2060.68/66.1034/578.391
+Object.rotation 25.0088/-3.60002/0.0839386
+rem
+rem ***  ***
+rem
+Object.create tankobs_ste_M1 
+Object.absolutePosition 2061.15/67.1205/586.671
+Object.rotation 25.0088/-3.60002/0.0839386
+rem
+rem ***  ***
+rem
+Object.create tankobs_ste_M1 
+Object.absolutePosition 2050.3/66.8052/591.966
+Object.rotation 25.0088/-3.60002/0.0839386
+rem
+rem ***  ***
+rem
+Object.create tankobs_ste_M1 
+Object.absolutePosition 2045.26/67.4793/601.943
+Object.rotation 25.0088/-3.60002/0.0839386
+rem
+rem ***  ***
+rem
+Object.create tankobs_ste_M1 
+Object.absolutePosition 2043.45/68.1664/610.046
+Object.rotation 25.0088/-3.60002/0.0839386
+rem
+rem ***  ***
+rem
+Object.create tankobs_ste_M1 
+Object.absolutePosition 2068.04/70.1599/620.406
+Object.rotation 21.5905/-4.50571/0.386658
+rem
+rem ***  ***
+rem
+Object.create tankobs_ste_M1 
+Object.absolutePosition 2003.55/70.9781/682.383
+Object.rotation 25.0088/-3.60002/0.0839386
+rem
+rem ***  ***
+rem
+Object.create tankobs_ste_M1 
+Object.absolutePosition 1993.63/69.8627/683.024
+Object.rotation 25.0088/-3.60002/0.0839386
+rem
+rem ***  ***
+rem
+Object.create tankobs_ste_M1 
+Object.absolutePosition 1996.39/70.8279/691.843
+Object.rotation 25.0088/-3.60002/0.0839386
+rem
+rem ***  ***
+rem
+Object.create tankobs_ste_M1 
+Object.absolutePosition 1987.05/69.5996/690.285
+Object.rotation 25.0088/-3.60002/0.0839386
+rem
+rem ***  ***
+rem
+Object.create tankobs_ste_M1 
+Object.absolutePosition 1866.16/77.1378/587.918
+Object.rotation 25.0391/16.5961/2.46188
+rem
+rem ***  ***
+rem
+Object.create tankobs_ste_M1 
+Object.absolutePosition 1982.29/70.1487/707.501
+Object.rotation 25.0088/-3.60002/0.0839386
+rem
+rem ***  ***
+rem
+Object.create tankobs_ste_M1 
+Object.absolutePosition 1975.83/69.8113/712.657
+Object.rotation 25.0088/-3.60002/0.0839386
+rem
+rem ***  ***
+rem
+Object.create tankobs_ste_M1 
+Object.absolutePosition 1980.46/70.7143/717.702
+Object.rotation 25.0088/-3.60002/0.0839386
+rem
+rem ***  ***
+rem
+Object.create tankobs_ste_M1 
+Object.absolutePosition 1974.43/70.25/720.484
+Object.rotation 25.0088/-3.60002/0.0839386
+rem
+rem ***  ***
+rem
+Object.create tankobs_ste_M1 
+Object.absolutePosition 1978.53/71.2383/727.588
+Object.rotation 25.0088/-3.60002/0.0839386
+rem
+rem ***  ***
+rem
+Object.create tankobs_ste_M1 
+Object.absolutePosition 1972.75/71.1892/732.711
+Object.rotation 25.0088/-3.60002/0.0839386
+rem
+rem ***  ***
+rem
+Object.create tankobs_ste_M1 
+Object.absolutePosition 2010.38/73.0224/744.702
+Object.rotation 21.7708/-15.8652/14.8904
+rem
+rem ***  ***
+rem
+Object.create tankobs_ste_M1 
+Object.absolutePosition 1970.43/71.5293/738.953
+Object.rotation 25.0088/-3.60002/0.0839386
+rem
+rem ***  ***
+rem
+Object.create tankobs_ste_M1 
+Object.absolutePosition 1943.5/76.4235/809.946
+Object.rotation 25.3882/-7.88352/8.21017
+rem
+rem ***  ***
+rem
+Object.create tankobs_ste_M1 
+Object.absolutePosition 1940.01/76.9843/820.937
+Object.rotation 25.3882/-7.88352/8.21017
+rem
+rem ***  ***
+rem
+Object.create tankobs_ste_M1 
+Object.absolutePosition 1946.37/75.9311/802.813
+Object.rotation 25.3882/-7.88352/8.21017
+rem
+rem ***  ***
+rem
+Object.create tankobs_ste_M1 
+Object.absolutePosition 1932.03/76.3641/834.361
+Object.rotation 25.3882/-7.88352/8.21017
+rem
+rem ***  ***
+rem
+Object.create tankobs_ste_M1 
+Object.absolutePosition 1923.02/74.7093/837.861
+Object.rotation 25.3882/-7.88352/8.21017
+rem
+rem ***  ***
+rem
+Object.create tankobs_ste_M1 
+Object.absolutePosition 1927.3/76.25/844.571
+Object.rotation 25.3882/-7.88352/8.21017
+rem
+rem ***  ***
+rem
+Object.create tankobs_ste_M1 
+Object.absolutePosition 2090.02/80.2893/971.315
+Object.rotation -32.6/0/1.52588e-005
+rem
+rem ***  ***
+rem
+Object.create Stones_Africa_L_M1 
+Object.absolutePosition 1840.12/77.1226/604.67
+Object.rotation 151.92/-2.47279e-009/1.52588e-005
+rem
+rem ***  ***
+rem
+Object.create stecrate1_M1 
+Object.absolutePosition 1752.15/67.1438/586.886
+Object.rotation 0/0/1.52588e-005
+rem
+rem ***  ***
+rem
+Object.create stebarrel1_m1 
+Object.absolutePosition 1785.75/67.1438/584.355
+Object.rotation 0/0/1.52588e-005
+rem
+rem ***  ***
+rem
+Object.create tankobs_ste_M1 
+Object.absolutePosition 1979.62/69.3031/697.819
+Object.rotation 25.0088/-3.60002/0.0839386
+rem
+rem ***  ***
+rem
+Object.create tankobs_ste_M1 
+Object.absolutePosition 1783.39/68.3671/602.601
+Object.rotation 26.364/-9.74487/-0.84465
+rem
+rem ***  ***
+rem
+Object.create tankobs_ste_M1 
+Object.absolutePosition 1856.55/76.8005/609.897
+Object.rotation 22.8121/-0.599438/8.91267
+rem
+rem ***  ***
+rem
+Object.create tankobs_ste_M1 
+Object.absolutePosition 1860.5/77.7248/606.434
+Object.rotation 25.0089/-3.60001/15.1322
+rem
+rem ***  ***
+rem
+Object.create tankobs_ste_M1 
+Object.absolutePosition 1862.53/76.7961/593.703
+Object.rotation 25.0088/-3.60002/0.0839386
+rem
+rem ***  ***
+rem
+Object.create tankobs_ste_M1 
+Object.absolutePosition 1850.61/76.4022/608.427
+Object.rotation 25.018/2.63697/0.206543
+rem
+rem ***  ***
+rem
+Object.create tankobs_ste_M1 
+Object.absolutePosition 1773.46/69.0685/615.639
+Object.rotation 25.904/-9.17241/-9.12434
+rem
+rem ***  ***
+rem
+Object.create tankobs_ste_M1 
+Object.absolutePosition 1776.23/67.6947/603.086
+Object.rotation 25.0088/-3.60002/0.0839386
+rem
+rem ***  ***
+rem
+Object.create tankobs_ste_M1 
+Object.absolutePosition 1774.65/68.1924/610.637
+Object.rotation 25.0193/3.52796/0.163132
+rem
+rem ***  ***
+rem
+Object.create stecrate1_M1 
+Object.absolutePosition 1778.24/67.1438/559.405
+Object.rotation 0/0/1.52588e-005
+rem
+rem ***  ***
+rem
+Object.create tankobs_ste_M1 
+Object.absolutePosition 1860.69/77.5632/599.44
+Object.rotation 25.9281/-7.47555/10.8714
+rem
+rem ***  ***
+rem
+Object.create Pacific_Palm_large_1_M1 
+Object.absolutePosition 2299.58/72.0909/751.277
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.820706/0.979529/0.986588
+rem
+rem ***  ***
+rem
+Object.create Pacific_Palm_large_2_M1 
+Object.absolutePosition 2319.06/70.2957/737.512
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.843294/0.905412/0.959059
+rem
+rem ***  ***
+rem
+Object.create Pacific_Palm_1_M1 
+Object.absolutePosition 2293.42/71.6433/721.759
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.945647/0.916706/0.954824
+rem
+rem ***  ***
+rem
+Object.create Pacific_Palm_large_2_M1 
+Object.absolutePosition 2322.93/68.9571/705.59
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.872235/0.952706/0.858824
+rem
+rem ***  ***
+rem
+Object.create Pacific_Palm_2_M1 
+Object.absolutePosition 2343.25/68.9203/709.177
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.916706/0.966824/0.997882
+rem
+rem ***  ***
+rem
+Object.create Pacific_Palm_2_M1 
+Object.absolutePosition 2382.42/68.9203/721.147
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.820706/0.950588/0.999294
+rem
+rem ***  ***
+rem
+Object.create Pacific_Palm_large_2_M1 
+Object.absolutePosition 2428.19/69.5432/738.895
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.949176/0.88/0.868706
+rem
+rem ***  ***
+rem
+Object.create Pacific_Palm_2_M1 
+Object.absolutePosition 2379.27/68.9226/749.708
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.839059/0.867294/0.836235
+rem
+rem ***  ***
+rem
+Object.create Pacific_Palm_2_M1 
+Object.absolutePosition 2419.02/50.3194/671.207
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.979529/0.996471/0.865176
+rem
+rem ***  ***
+rem
+Object.create Pacific_Palm_large_2_M1 
+Object.absolutePosition 2423.59/49.9192/685.439
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.987294/0.964/0.985176
+rem
+rem ***  ***
+rem
+Object.create Pacific_Palm_large_1_M1 
+Object.absolutePosition 2419.59/32.7038/621.721
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.997882/0.832/0.916
+rem
+rem ***  ***
+rem
+Object.create Pacific_Palm_large_2_M1 
+Object.absolutePosition 2498.01/29.3766/661.802
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.853882/0.946353/0.846824
+rem
+rem ***  ***
+rem
+Object.create Pacific_Palm_large_1_M1 
+Object.absolutePosition 2353.45/73.2538/852.737
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.949882/0.844706/0.942118
+rem
+rem ***  ***
+rem
+Object.create Pacific_Palm_large_1_M1 
+Object.absolutePosition 2415.33/68.9577/795.807
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 1/0.822118/0.880706
+rem
+rem ***  ***
+rem
+Object.create Pacific_Palm_large_1_M1 
+Object.absolutePosition 2387.52/72.8016/806.635
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 1/0.965412/0.914588
+rem
+rem ***  ***
+rem
+Object.create Pacific_Palm_large_2_M1 
+Object.absolutePosition 2414.77/73.4911/839.65
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.926588/0.851765/0.985882
+rem
+rem ***  ***
+rem
+Object.create Pacific_Palm_2_M1 
+Object.absolutePosition 2393.54/69.6122/788.399
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.858824/0.854588/0.860941
+rem
+rem ***  ***
+rem
+Object.create Pacific_Palm_2_M1 
+Object.absolutePosition 2397.21/73.4976/837.676
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.858824/0.854588/0.860941
+rem
+rem ***  ***
+rem
+Object.create Pacific_Palm_large_2_M1 
+Object.absolutePosition 2384.87/73.6903/824.607
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.926588/0.851765/0.985882
+rem
+rem ***  ***
+rem
+Object.create Pacific_Palm_large_1_M1 
+Object.absolutePosition 2461.76/29.9145/627.965
+Object.rotation 0/0/1.52588e-005
+Object.geometry.scale 0.997882/0.832/0.916
+rem
+rem ***  ***
+rem
+Object.create stebarbwire_m1 
+Object.absolutePosition 1939.8/78.6698/841.162
+Object.rotation -32.14/-8.33763e-010/1.52588e-005
+rem
+rem ***  ***
+rem
+Object.create afr_house1_ste_closed_m1 
+Object.absolutePosition 2386.19/68.9225/760.239
+Object.rotation 89.496/2.29e-013/1.52588e-005
+rem
+rem ***  ***
+rem
+Object.create afr_house1_ste_closed_m1 
+Object.absolutePosition 2353.64/73.2515/816.168
+Object.rotation 88.308/0/0.0342712
+rem
+rem ***  ***
+rem
+Object.create afr_house2_ste_closed_m1 
+Object.absolutePosition 2441.96/69.5651/738.641
+Object.rotation 0/-0.000597797/-0.092804
+rem
+rem ***  ***
+rem
+Object.create SmDh2_closed_m1 
+Object.absolutePosition 2403.15/73.2445/859.295
+Object.rotation 179.785/0/0.0484619
+rem
+rem ***  ***
+rem
+Object.create SmDh2_closed_m1 
+Object.absolutePosition 2393.27/68.9203/718.745
+Object.rotation 0/0/1.52588e-005
+rem
+rem ***  ***
+rem
+Object.create afr_house1_ste_closed_m1 
+Object.absolutePosition 2375.44/73.2475/852.516
+Object.rotation 179.388/-4.68992e-010/0.0279846
+rem
+rem ***  ***
+rem
+Object.create SmDh2_closed_m1 
+Object.absolutePosition 2353.17/68.9219/706.674
+Object.rotation 0/0/1.52588e-005
+rem
+rem ***  ***
+rem
+Object.create afr_house1_ste_closed_m1 
+Object.absolutePosition 2372.75/68.9203/713.36
+Object.rotation 0/0/1.52588e-005
+rem
+rem ***  ***
+rem
+Object.create afr_house2_ste_closed_m1 
+Object.absolutePosition 2430.39/73.2445/866.53
+Object.rotation -173.25/-0.00598442/0.0740356
+rem
+rem ***  ***
+rem
+Object.create afr_house2_ste_closed_m1 
+Object.absolutePosition 2332.44/68.8686/703.217
+Object.rotation 0/-0.000597797/-0.092804
+rem
+rem ***  ***
+rem
+Object.create stebarbwire_m1 
+Object.absolutePosition 2244.83/73.6121/776.074
+Object.rotation -30.23/-1.18062e-011/1.52588e-005
+rem
+rem ***  ***
+rem
+Object.create stebarbwire_m1 
+Object.absolutePosition 2318.36/75.4366/805.472
+Object.rotation 7.78598/-9.40027e-006/0.0395813
+rem
+rem ***  ***
+rem
+Object.create stebarbwire_m1 
+Object.absolutePosition 2321.45/75.3486/796.257
+Object.rotation -40.922/-0.990021/0.0740356
+rem
+rem ***  ***
+rem
+Object.create stebarbwire_m1 
+Object.absolutePosition 2322.66/74.9552/787.421
+Object.rotation 16.937/-3.20005/-0.826859
+rem
+rem ***  ***
+rem
+Object.create tankobs_ste_M1 
+Object.absolutePosition 2187.45/69.1545/625.987
+Object.rotation 43.7/8.33763e-010/0.0279846
+rem
+rem ***  ***
+rem
+Object.create tankobs_ste_M1 
+Object.absolutePosition 2193.66/67.5996/621.456
+Object.rotation 47.4948/-12.5141/-17.0194
+rem
+rem ***  ***
+rem
+Object.create tankobs_ste_M1 
+Object.absolutePosition 2193.49/66.968/613.05
+Object.rotation 43.7/8.33763e-010/0.0279846
+rem
+rem ***  ***
+rem
+Object.create tankobs_ste_M1 
+Object.absolutePosition 2186.87/66.9703/607.773
+Object.rotation 43.7/8.33763e-010/0.0279846
+rem
+rem ***  ***
+rem
+Object.create tankobs_ste_M1 
+Object.absolutePosition 2190.56/66.9659/602.443
+Object.rotation 43.7/8.33763e-010/0.0279846
+rem
+rem ***  ***
+rem
+Object.create tankobs_ste_M1 
+Object.absolutePosition 2186.11/66.9666/597.751
+Object.rotation 43.7/8.33763e-010/0.0279846
+rem
+rem ***  ***
+rem
+Object.create tankobs_ste_M1 
+Object.absolutePosition 2187.28/66.8255/591.045
+Object.rotation 43.7/8.33763e-010/0.0279846
+rem
+rem ***  ***
+rem
+Object.create tankobs_ste_M1 
+Object.absolutePosition 2189.19/66.9434/594.964
+Object.rotation 43.7/8.33763e-010/0.0279846
+rem
+rem ***  ***
+rem
+Object.create tankobs_ste_M1 
+Object.absolutePosition 1919.02/74.825/849.366
+Object.rotation 25.3882/-7.88352/8.21017
+rem
+rem ***  ***
+rem
+Object.create tankobs_ste_M1 
+Object.absolutePosition 1911.38/73.8164/853.1
+Object.rotation 25.3882/-7.88352/8.21017
+rem
+rem ***  ***
+rem
+Object.create tankobs_ste_M1 
+Object.absolutePosition 1905.77/72.9414/850.718
+Object.rotation 25.3882/-7.88352/8.21017
+rem
+rem ***  ***
+rem
+Object.create tankobs_ste_M1 
+Object.absolutePosition 1907.65/73.483/855.947
+Object.rotation 25.3882/-7.88352/8.21017
+rem
+rem ***  ***
+rem
+Object.create tankobs_ste_M1 
+Object.absolutePosition 1897.85/71.305/848.118
+Object.rotation 20.4683/-11.0132/19.8561
+rem
+rem ***  ***
+rem
+Object.create tankobs_ste_M1 
+Object.absolutePosition 1914.13/73.9934/849.399
+Object.rotation 25.3882/-7.88352/8.21017
+rem
+rem ***  ***
+rem
+Object.create tankobs_ste_M1 
+Object.absolutePosition 1901.36/72.208/847.829
+Object.rotation 25.3882/-7.88352/8.21017
+rem
+rem ***  ***
+rem
+Object.create Stones_Africa_L_M1 
+Object.absolutePosition 1961.49/68.8071/708.996
+Object.rotation 0/0/1.52588e-005
+rem
+rem ***  ***
+rem
+Object.create tankobs_ste_M1 
+Object.absolutePosition 1928.63/74.906/826.233
+Object.rotation 25.3882/-7.88352/8.21017
+rem
+rem ***  ***
+rem
+Object.create tankobs_ste_M1 
+Object.absolutePosition 1997.1/69.951/679.014
+Object.rotation 25.3882/-7.88352/8.21017
+rem
+rem ***  ***
+rem
+Object.create tankobs_ste_M1 
+Object.absolutePosition 2048.52/67.3197/597.779
+Object.rotation 25.0088/-3.60002/0.0839386
+rem
+rem ***  ***
+rem
+Object.create tankobs_ste_M1 
+Object.absolutePosition 2047.16/68.2323/606.388
+Object.rotation 25.0088/-3.60002/0.0839386
+rem
+rem ***  ***
+rem
+Object.create tankobs_ste_M1 
+Object.absolutePosition 2056.87/67.2851/591.172
+Object.rotation 25.0088/-3.60002/0.0839386
+rem
+rem ***  ***
+rem
+Object.create tankobs_ste_M1 
+Object.absolutePosition 2055.1/66.5533/586.1
+Object.rotation 25.0088/-3.60002/0.0839386
+rem
+rem ***  ***
+rem
+Object.create tankobs_ste_M1 
+Object.absolutePosition 2062.56/65.7267/573.677
+Object.rotation 25.0088/-3.60002/0.0839386
+rem
+rem ***  ***
+rem
+Object.create sandbagi_m1 
+Object.absolutePosition 1682.74/67.2349/536.289
+Object.rotation 55.8/0/0.0279846
+rem
+rem ***  ***
+rem
+Object.create tankobs_ste_M1 
+Object.absolutePosition 2049.5/69.2525/618.389
+Object.rotation 25.0088/-3.60002/0.0839386
+rem
+rem ***  ***
+rem
+Object.create sandbagi_m1 
+Object.absolutePosition 2032.91/72.3146/697.169
+Object.rotation 60.552/-0.00231836/1.52588e-005
+rem
+rem ***  ***
+rem
+Object.create sandbagi_m1 
+Object.absolutePosition 2056.5/70.6374/644.451
+Object.rotation 60.552/-0.00231836/1.52588e-005
+rem
+rem ***  ***
+rem
+Object.create stecrate1_M1 
+Object.absolutePosition 1979.61/80.3222/842.079
+Object.rotation -0.806/3.70754e-006/0.0685425
+rem
+rem ***  ***
+rem
+Object.create tankobs_ste_M1 
+Object.absolutePosition 1935.99/75.3155/814.215
+Object.rotation 25.3882/-7.88352/8.21017
+rem
+rem ***  ***
+rem
+Object.create sandbagi_m1 
+Object.absolutePosition 2187.27/70.4556/645.653
+Object.rotation 78.4707/0.0700406/-0.490204
+rem
+rem ***  ***
+rem
+Object.create sandbagi_m1 
+Object.absolutePosition 2064.18/70.6451/630.848
+Object.rotation 60.552/-0.00231836/1.52588e-005
+rem
+rem ***  ***
+rem
+Object.create sandbagi_m1 
+Object.absolutePosition 2089.9/68.8707/597.126
+Object.rotation 21.348/-0.00178685/1.52588e-005
+rem
+rem ***  ***
+rem
+Object.create sandbagi_m1 
+Object.absolutePosition 2129.77/66.8001/577.657
+Object.rotation 69.0311/6.44094/-1.52588e-005
+rem
+rem ***  ***
+rem
+Object.create sandbagi_m1 
+Object.absolutePosition 2119.65/67.6167/587.379
+Object.rotation 16.992/-0.00166934/-5.63863
+rem
+rem ***  ***
+rem
+Object.create sandbagi_m1 
+Object.absolutePosition 2104.63/68.7172/591.968
+Object.rotation 16.9921/-0.00166897/-2.76938
+rem
+rem ***  ***
+rem
+Object.create sandbagi_m1 
+Object.absolutePosition 1970.52/80.8161/851.773
+Object.rotation 96.8949/0.455132/-3.43155
+rem
+rem ***  ***
+rem
+Object.create sandbagi_m1 
+Object.absolutePosition 1972.41/81.466/867.334
+Object.rotation 96.8949/0.455132/-1.33795
+rem
+rem ***  ***
+rem
+Object.create sandbagi_m1 
+Object.absolutePosition 1971.88/81.3377/882.856
+Object.rotation 78.6842/0.00720614/2.11267
+rem
+rem ***  ***
+rem
+Object.create sandbagi_m1 
+Object.absolutePosition 1967.55/80.4155/897.697
+Object.rotation 68.8047/0.645194/5.0304
+rem
+rem ***  ***
+rem
+Object.create sandbagi_m1 
+Object.absolutePosition 1961.9/79.4491/912.213
+Object.rotation 68.8047/0.645196/1.93837
+rem
+rem ***  ***
+rem
+Object.create stecrate1_M1 
+Object.absolutePosition 1979.65/80.3222/839.176
+Object.rotation -0.806/3.70754e-006/0.0685425
+rem
+rem ***  ***
+rem
+Object.create stecrate1_M1 
+Object.absolutePosition 1979.63/80.3222/840.672
+Object.rotation -0.806/3.70754e-006/0.0685425
+rem
+rem ***  ***
+rem
+Object.create sandbagi_m1 
+Object.absolutePosition 1985.72/79.6144/807.377
+Object.rotation 60.5625/-0.352555/-3.51503
+rem
+rem ***  ***
+rem
+Object.create tankobs_ste_M1 
+Object.absolutePosition 1980.67/72.249/737.051
+Object.rotation 25.0088/-3.60002/0.0839386
+rem
+rem ***  ***
+rem
+Object.create sandbagi_m1 
+Object.absolutePosition 2008.08/73.8508/754.309
+Object.rotation 60.5625/-0.352555/-3.51503
+rem
+rem ***  ***
+rem
+Object.create sandbagi_m1 
+Object.absolutePosition 1978.67/80.274/821.37
+Object.rotation 66.195/-0.00504947/1.52588e-005
+rem
+rem ***  ***
+rem
+Object.create sandbagi_m1 
+Object.absolutePosition 2112.9/79.9867/886.203
+Object.rotation 77.5087/2.71503/-2.55667
+rem
+rem ***  ***
+rem
+Object.create sandbagi_m1 
+Object.absolutePosition 2167.8/71.2836/738.273
+Object.rotation 69.759/-0.00504068/-1.5829
+rem
+rem ***  ***
+rem
+Object.create sandbagi_m1 
+Object.absolutePosition 2174.09/71.2413/721.226
+Object.rotation 69.759/-0.00504096/-0.492188
+rem
+rem ***  ***
+rem
+Object.create sandbagi_m1 
+Object.absolutePosition 2177.59/71.1073/706.012
+Object.rotation 84.8065/0.123728/-0.479294
+rem
+rem ***  ***
+rem
+Object.create sandbagi_m1 
+Object.absolutePosition 2179.02/70.9758/690.369
+Object.rotation 84.8065/0.123728/-0.479294
+rem
+rem ***  ***
+rem
+Object.create sandbagi_m1 
+Object.absolutePosition 2184.13/70.5241/661.044
+Object.rotation 78.4707/0.0700406/-0.490204
+rem
+rem ***  ***
+rem
+Object.create sandbagi_m1 
+Object.absolutePosition 2162.38/71.7124/752.963
+Object.rotation 69.759/-0.00504052/-1.38382
+rem
+rem ***  ***
+rem
+Object.create sandbagi_m1 
+Object.absolutePosition 2151.15/72.6991/791.298
+Object.rotation 69.759/-0.00504052/-1.38382
+rem
+rem ***  ***
+rem
+Object.create sandbagi_m1 
+Object.absolutePosition 2320.77/74.2766/776.774
+Object.rotation 119.24/1.52907/-1.65623
+rem
+rem ***  ***
+rem
+Object.create sandbagi_m1 
+Object.absolutePosition 2140.33/73.6437/820.668
+Object.rotation 69.759/-0.00504057/-2.96664
+rem
+rem ***  ***
+rem
+Object.create sandbagi_m1 
+Object.absolutePosition 2125.59/75.8921/841.974
+Object.rotation 51.1701/-0.952401/-5.28418
+rem
+rem ***  ***
+rem
+Object.create sandbagi_m1 
+Object.absolutePosition 2116.24/77.4697/854.508
+Object.rotation 55.9021/-0.511644/-5.34479
+rem
+rem ***  ***
+rem
+Object.create sandbagi_m1 
+Object.absolutePosition 2113.45/78.9567/868.586
+Object.rotation 102.481/3.54048/-5.52866
+rem
+rem ***  ***
+rem
+Object.create sandbagi_m1 
+Object.absolutePosition 2145.74/72.8802/805.994
+Object.rotation 69.759/-0.00504052/-1.38382
+rem
+rem ***  ***
+rem
+Object.create sandbagi_m1 
+Object.absolutePosition 2327.75/75.3527/806.556
+Object.rotation 86.7823/0.401102/-2.21736
+rem
+rem ***  ***
+rem
+Object.create sandbagi_m1 
+Object.absolutePosition 2326.38/74.7775/791.202
+Object.rotation 103.404/1.01905/-2.01344
+rem
+rem ***  ***
+rem
+Object.create sandbagi_m1 
+Object.absolutePosition 2237.2/78.571/823.138
+Object.rotation 47.31/8.14222e-013/1.52588e-005
+rem
+rem ***  ***
+rem
+Object.create sandbagi_m1 
+Object.absolutePosition 2257.47/76.1059/791.529
+Object.rotation 56.4179/-2.29452e-006/-1.87701
+rem
+rem ***  ***
+rem
+Object.create sandbagi_m1 
+Object.absolutePosition 2202.76/82.1836/924.096
+Object.rotation 89.284/-9.96373e-007/0.0279846
+rem
+rem ***  ***
+rem
+Object.create sandbagi_m1 
+Object.absolutePosition 2216.17/81.2877/967.848
+Object.rotation 154.624/-0.0254331/1.08878
+rem
+rem ***  ***
+rem
+Object.create stecrate2_M1 
+Object.absolutePosition 1839.43/77.583/617.327
+Object.rotation 48.312/3.86032e-006/0.0279846
+rem
+rem ***  ***
+rem
+Object.create stecrate2_M1 
+Object.absolutePosition 1906.94/85.1475/576.471
+Object.rotation 36.036/-8.33763e-010/0.0395813
+rem
+rem ***  ***
+rem
+Object.create stecrate2_M1 
+Object.absolutePosition 1813.35/85.6645/717.559
+Object.rotation 75.636/0.0141573/0.0523529
+rem
+rem ***  ***
+rem
+Object.create stecrate2_M1 
+Object.absolutePosition 1969.55/80.5055/831.935
+Object.rotation 179.784/0/0.0906677
+rem
+rem ***  ***
+rem
+Object.create stecrate2_M1 
+Object.absolutePosition 2487.19/79.603/805.202
+Object.rotation 86.13/0.00662182/0.0279846
+rem
+rem ***  ***
+rem
+Object.create stecrate2_M1 
+Object.absolutePosition 2011.71/71.6812/714.847
+Object.rotation 54.648/0/0.0791321
+rem
+rem ***  ***
+rem
+Object.create stecrate2_M1 
+Object.absolutePosition 2007.86/71.6496/729.497
+Object.rotation 93.852/-4.16882e-010/0.0685425
+rem
+rem ***  ***
+rem
+Object.create stecrate2_M1 
+Object.absolutePosition 1813.35/86.0055/717.56
+Object.rotation 75.636/0.0141573/0.0523529
+rem
+rem ***  ***
+rem
+Object.create stecrate2_M1 
+Object.absolutePosition 1839.32/77.242/617.224
+Object.rotation 48.312/3.86032e-006/0.0279846
+rem
+rem ***  ***
+rem
+Object.create stecrate2_M1 
+Object.absolutePosition 2011.71/71.3512/714.847
+Object.rotation 54.648/0/0.0791321
+rem
+rem ***  ***
+rem
+Object.create stecrate2_M1 
+Object.absolutePosition 2069.43/69.2006/611.546
+Object.rotation 64.35/0.00713695/1.52588e-005

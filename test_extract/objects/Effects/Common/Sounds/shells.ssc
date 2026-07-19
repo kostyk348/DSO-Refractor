@@ -1,0 +1,418 @@
+### Removed because it costs to much fps ###
+
+/*
+#templateLevel HIGH
+
+newPatch
+###############
+### SOUND 1 ###
+###############
+load @ROOT/Sound/@RTD/patron1.wav
+minDistance 2
+randomStartPitch 0.05 / 0.05
+relativePosition .2/0/0
+dopplerOff
+volume 0.23
+
+*** Distance Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 5
+	param 10
+	param 1
+	param -1	
+endEffect
+
+*** Time Delay ***
+beginEffect
+	controlDestination Volume
+	controlSource Time
+	envelope Ramp
+	param 0.07
+	param 0.07
+	param 0
+	param 1
+endEffect
+
+trigger Volume
+
+###############
+### SOUND 2 ###
+###############
+load @ROOT/Sound/@RTD/patron2.wav
+minDistance 2
+randomStartPitch 0.05 / 0.05
+relativePosition .2/0/0
+dopplerOff
+volume 0.23
+
+*** Distance Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 5
+	param 10
+	param 1
+	param -1	
+endEffect
+
+*** Time Delay ***
+beginEffect
+	controlDestination Volume
+	controlSource Time
+	envelope Ramp
+	param 0.07
+	param 0.07
+	param 0
+	param 1
+endEffect
+
+trigger Volume
+
+###############
+### SOUND 3 ###
+###############
+load @ROOT/Sound/@RTD/patron3.wav
+minDistance 2
+randomStartPitch 0.05 / 0.05
+relativePosition .2/0/0
+volume 0.23
+dopplerOff
+
+*** Distance Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 5
+	param 10
+	param 1
+	param -1	
+endEffect
+
+*** Time Delay ***
+beginEffect
+	controlDestination Volume
+	controlSource Time
+	envelope Ramp
+	param 0.07
+	param 0.07
+	param 0
+	param 1
+endEffect
+
+trigger Volume
+
+###############
+### SOUND 4 ###
+###############
+load @ROOT/Sound/@RTD/patron4.wav
+minDistance 2
+randomStartPitch 0.05 / 0.05
+relativePosition .2/0/0
+volume 0.23
+dopplerOff
+
+*** Distance Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 5
+	param 10
+	param 1
+	param -1	
+endEffect
+
+*** Time Delay ***
+beginEffect
+	controlDestination Volume
+	controlSource Time
+	envelope Ramp
+	param 0.07
+	param 0.07
+	param 0
+	param 1
+endEffect
+
+trigger Volume
+
+###############
+### SOUND 5 ###
+###############
+load @ROOT/Sound/@RTD/patron5.wav
+minDistance 2
+randomStartPitch 0.05 / 0.05
+relativePosition .2/0/0
+volume 0.23
+dopplerOff
+
+*** Distance Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 5
+	param 10
+	param 1
+	param -1	
+endEffect
+
+*** Time Delay ***
+beginEffect
+	controlDestination Volume
+	controlSource Time
+	envelope Ramp
+	param 0.07
+	param 0.07
+	param 0
+	param 1
+endEffect
+
+trigger Volume
+
+###############
+### SOUND 6 ###
+###############
+load @ROOT/Sound/@RTD/patron6.wav
+minDistance 2
+randomStartPitch 0.05 / 0.05
+relativePosition .2/0/0
+volume 0.23
+dopplerOff
+
+*** Distance Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 5
+	param 10
+	param 1
+	param -1	
+endEffect
+
+*** Time Delay ***
+beginEffect
+	controlDestination Volume
+	controlSource Time
+	envelope Ramp
+	param 0.07
+	param 0.07
+	param 0
+	param 1
+endEffect
+
+trigger Volume
+
+###############
+### SOUND 7 ###
+###############
+load @ROOT/Sound/@RTD/patron7.wav
+minDistance 2
+randomStartPitch 0.05 / 0.05
+relativePosition .2/0/0
+volume 0.23
+dopplerOff
+
+*** Distance Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 5
+	param 10
+	param 1
+	param -1	
+endEffect
+
+*** Time Delay ***
+beginEffect
+	controlDestination Volume
+	controlSource Time
+	envelope Ramp
+	param 0.07
+	param 0.07
+	param 0
+	param 1
+endEffect
+
+trigger Volume
+
+###############
+### SOUND 8 ###
+###############
+load @ROOT/Sound/@RTD/patron8.wav
+minDistance 2
+randomStartPitch 0.05 / 0.05
+relativePosition .2/0/0
+volume 0.23
+dopplerOff
+
+*** Distance Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 5
+	param 10
+	param 1
+	param -1	
+endEffect
+
+*** Time Delay ***
+beginEffect
+	controlDestination Volume
+	controlSource Time
+	envelope Ramp
+	param 0.07
+	param 0.07
+	param 0
+	param 1
+endEffect
+
+trigger Volume
+
+###############
+### SOUND 9 ###
+###############
+load @ROOT/Sound/@RTD/patron9.wav
+minDistance 2
+randomStartPitch 0.05 / 0.05
+relativePosition .2/0/0
+volume 0.23
+dopplerOff
+
+*** Distance Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 5
+	param 10
+	param 1
+	param -1	
+endEffect
+
+*** Time Delay ***
+beginEffect
+	controlDestination Volume
+	controlSource Time
+	envelope Ramp
+	param 0.07
+	param 0.07
+	param 0
+	param 1
+endEffect
+
+trigger Volume
+
+################
+### SOUND 10 ###
+################
+load @ROOT/Sound/@RTD/patron10.wav
+minDistance 2
+randomStartPitch 0.05 / 0.05
+relativePosition .2/0/0
+volume 0.23
+dopplerOff
+
+*** Distance Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 5
+	param 10
+	param 1
+	param -1	
+endEffect
+
+*** Time Delay ***
+beginEffect
+	controlDestination Volume
+	controlSource Time
+	envelope Ramp
+	param 0.07
+	param 0.07
+	param 0
+	param 1
+endEffect
+
+trigger Volume
+
+################
+### SOUND 11 ###
+################
+load @ROOT/Sound/@RTD/patron11.wav
+minDistance 2
+randomStartPitch 0.05 / 0.05
+relativePosition .2/0/0
+volume 0.23
+dopplerOff
+
+*** Distance Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 5
+	param 10
+	param 1
+	param -1	
+endEffect
+
+*** Time Delay ***
+beginEffect
+	controlDestination Volume
+	controlSource Time
+	envelope Ramp
+	param 0.07
+	param 0.07
+	param 0
+	param 1
+endEffect
+
+trigger Volume
+
+################
+### SOUND 12 ###
+################
+load @ROOT/Sound/@RTD/patron12.wav
+minDistance 2
+randomStartPitch 0.05 / 0.05
+relativePosition .2/0/0
+volume 0.23
+dopplerOff
+
+*** Distance Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 5
+	param 10
+	param 1
+	param -1	
+endEffect
+
+*** Time Delay ***
+beginEffect
+	controlDestination Volume
+	controlSource Time
+	envelope Ramp
+	param 0.07
+	param 0.07
+	param 0
+	param 1
+endEffect
+
+trigger Volume
+
+#################
+### RANDOMIZE ###
+#################
+randomPlay 1

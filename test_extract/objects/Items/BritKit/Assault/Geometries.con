@@ -1,0 +1,10 @@
+GeometryTemplate.create StandardMesh brit_Assult_Bacpac
+GeometryTemplate.file brit_Assult_Bacpac_m1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 3
+GeometryTemplate.setLodDistance 2 10
+GeometryTemplate.setLodDistance 3 20
+GeometryTemplate.setLodDistance 4 30
+GeometryTemplate.setLodDistance 5 100
+
+

@@ -1,0 +1,4 @@
+ObjectTemplate.create SimpleObject hspbed_m1
+ObjectTemplate.geometry hspbed_m1
+objectTemplate.aiTemplate hspbed_m1
+ObjectTemplate.setHasCollisionPhysics 1

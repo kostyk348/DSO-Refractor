@@ -1,0 +1,19 @@
+NetworkableInfo.createNewInfo M3A1EngineInfo
+NetworkableInfo.setPredictionMode PMLinear
+
+NetworkableInfo.createNewInfo M3A1BrowningConsoleInfo
+NetworkableInfo.setPredictionMode PMLinear
+
+NetworkableInfo.createNewInfo M3A1BrowningHolderInfo
+NetworkableInfo.setPredictionMode PMLinear
+
+NetworkableInfo.createNewInfo M3A1BodyInfo
+NetworkableInfo.setPredictionMode PMLinear
+
+NetworkableInfo.createNewInfo M3A1SpringInfo
+NetworkableInfo.setPredictionMode PMLinear
+
+
+
+
+

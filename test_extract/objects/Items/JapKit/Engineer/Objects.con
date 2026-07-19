@@ -1,0 +1,17 @@
+ObjectTemplate.create Kit Jap_Engineer
+ObjectTemplate.geometry Kit_Axis_Engineer
+ObjectTemplate.setHasCollisionPhysics 1
+ObjectTemplate.networkableInfo KitInfo
+ObjectTemplate.addTemplate Jap_Helmet
+ObjectTemplate.addTemplate Jap_hip_pack
+ObjectTemplate.addTemplate BacpacBig_jap
+
+ObjectTemplate.addTemplate k98
+ObjectTemplate.addTemplate walterp38
+ObjectTemplate.addTemplate KnifeAxis
+
+ObjectTemplate.addTemplate RepairPack
+ObjectTemplate.addTemplate Landmine
+ObjectTemplate.addTemplate Detonator
+ObjectTemplate.addTemplate ExpPack
+ObjectTemplate.aiTemplate  Engineer

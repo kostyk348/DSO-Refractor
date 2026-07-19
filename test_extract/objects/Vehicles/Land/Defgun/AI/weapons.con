@@ -1,0 +1,16 @@
+
+rem *** Add gun ***
+weaponTemplate.create DefGunGunAI
+weaponTemplate.burst 0
+weaponTemplate.indirect 0
+weaponTemplate.minRange 15.0
+weaponTemplate.maxRange 600.0
+weaponTemplate.weaponActivate PINone
+weaponTemplate.weaponFire PIFire
+weaponTemplate.setStrength Infantery   5.0
+weaponTemplate.setStrength LightArmour 7.0
+weaponTemplate.setStrength HeavyArmour 8.0
+weaponTemplate.setStrength NavalArmour 5.0
+weaponTemplate.setStrength Submarine   4.0
+weaponTemplate.setStrength Air         0.0
+

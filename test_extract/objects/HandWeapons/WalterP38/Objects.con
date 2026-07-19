@@ -1,0 +1,92 @@
+ObjectTemplate.create HandFireArms WalterP38
+ObjectTemplate.itemIndex 2
+ObjectTemplate.networkableInfo HandFireArmsInfo
+ObjectTemplate.projectileTemplate p38Projectile
+ObjectTemplate.projectilePosition 0/0/0.5
+ObjectTemplate.magSize 8
+ObjectTemplate.numOfMag 4
+ObjectTemplate.magType 0
+ObjectTemplate.reloadtime 4
+ObjectTemplate.roundOfFire 6
+ObjectTemplate.fireOnce 1
+objectTemplate.aiTemplate P38AI
+ObjectTemplate.zoomFov 0.7
+ObjectTemplate.altFireOnce 1
+ObjectTemplate.soldierZoomFov 0.5 
+ObjectTemplate.soldierZoomPosition -0.05/-0.01/0.1
+ObjectTemplate.soldierCameraPosition 0/-0.05/0.1
+ObjectTemplate.AmmoType	1
+
+rem ObjectTemplate.autoReload 1
+Rem *** Deviation Begin *****
+
+ObjectTemplate.velocity 400
+ObjectTemplate.setRecoilForceUp CRD_UNIFORM/0.4/0.6/0
+ObjectTemplate.setRecoilForceLeftRight CRD_UNIFORM/-0.2/-0.2/0
+ObjectTemplate.setHasRecoilForce 1
+ObjectTemplate.setGoBackOnRecoil 1
+
+ObjectTemplate.setFireDev 2.5 0.8 0.07
+ObjectTemplate.setMinDev 0.75
+ObjectTemplate.setTurnDev 0 0 0 0
+ObjectTemplate.setSpeedDev 1 0.2 0.2 0.1
+ObjectTemplate.setMiscDev 2.5 2.5 0.1
+ObjectTemplate.addRootSpeed 0
+
+Rem *** Deviation  End *****
+
+ObjectTemplate.fireInCameraDof 1
+ObjectTemplate.loadSoundScript Sounds/WalterP38.ssc
+ObjectTemplate.GUIIndex 1
+
+ObjectTemplate.createSkeleton animations/WalterP38.ske
+ObjectTemplate.useSkeletonPartAsMain WalterP38
+ObjectTemplate.addTemplate WalterP38Lod
+
+ObjectTemplate.addTemplate e_MuzzGun
+ObjectTemplate.setInputId -1
+ObjectTemplate.startoneffects 0
+ObjectTemplate.setPosition 0.005/0.03/0.165
+ObjectTemplate.setRotation 0/0/0
+
+ObjectTemplate.addTemplate e_Shell9mm
+ObjectTemplate.setInputId -1
+ObjectTemplate.startoneffects 0
+ObjectTemplate.setPosition 0.01/0.02/0.28
+ObjectTemplate.setRotation 0/0/0
+
+
+rem ** Objects
+
+ObjectTemplate.create SimpleObject WalterP38Trigger
+ObjectTemplate.geometry WalterP38Trigger
+
+ObjectTemplate.create SimpleObject WalterP38Hane
+ObjectTemplate.geometry WalterP38Hane
+
+ObjectTemplate.create SimpleObject WalterP38Mantel
+ObjectTemplate.geometry WalterP38Mantel
+
+ObjectTemplate.create SimpleObject WalterP38Simple
+ObjectTemplate.geometry Shad_WalterP38
+
+ObjectTemplate.create AnimatedBundle WalterP38Complex
+ObjectTemplate.geometry WalterP38
+ObjectTemplate.hasDynamicShadow 1
+ObjectTemplate.createSkeleton animations/WalterP38.ske
+ObjectTemplate.addTemplate WalterP38Trigger
+ObjectTemplate.bindToSkeletonPart Trigger
+ObjectTemplate.addTemplate WalterP38Hane
+ObjectTemplate.bindToSkeletonPart Hane
+ObjectTemplate.addTemplate WalterP38Mantel
+ObjectTemplate.bindToSkeletonPart mantel
+ObjectTemplate.addTemplate Gunmag
+ObjectTemplate.bindToSkeletonPart mag
+
+ObjectTemplate.create LodObject WalterP38Lod
+ObjectTemplate.lodselector HandWeaponLodSelector
+ObjectTemplate.addTemplate WalterP38Complex
+ObjectTemplate.addTemplate WalterP38Simple
+
+
+

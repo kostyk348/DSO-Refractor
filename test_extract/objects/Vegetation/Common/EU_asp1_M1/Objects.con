@@ -1,0 +1,3 @@
+ObjectTemplate.create SimpleObject EU_asp1_M1
+ObjectTemplate.geometry EU_asp1_M1
+ObjectTemplate.setHasCollisionPhysics 1

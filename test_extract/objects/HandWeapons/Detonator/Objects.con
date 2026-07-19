@@ -1,0 +1,42 @@
+ObjectTemplate.create HandFireArms Detonator
+ObjectTemplate.itemIndex 11
+ObjectTemplate.magSize -1
+ObjectTemplate.numOfMag -1
+ObjectTemplate.magType 0
+ObjectTemplate.reloadtime 1
+ObjectTemplate.roundOfFire 1
+ObjectTemplate.fireOnce 1
+ObjectTemplate.altFireOnce 1
+ObjectTemplate.autoReload 0
+ObjectTemplate.GUIIndex 15
+ObjectTemplate.soldierCameraPosition 0.06/-0.07/0.3
+ObjectTemplate.loadSoundScript Sounds/Detonator.ssc
+
+ObjectTemplate.createSkeleton animations/Detonator.ske
+ObjectTemplate.useSkeletonPartAsMain base
+ObjectTemplate.addTemplate DetonatorLod
+
+rem ** Objects
+ObjectTemplate.create SimpleObject DetonatorHandle
+ObjectTemplate.geometry deto_hand_m1
+
+ObjectTemplate.create SimpleObject DetonatorSimple
+ObjectTemplate.geometry Shad_Detonator
+
+ObjectTemplate.create AnimatedBundle DetonatorComplex
+ObjectTemplate.geometry deto_base_m1
+ObjectTemplate.hasDynamicShadow 1
+ObjectTemplate.createSkeleton animations/Detonator.ske
+ObjectTemplate.addTemplate DetonatorHandle
+ObjectTemplate.bindToSkeletonPart hand
+
+ObjectTemplate.create LodObject DetonatorLod
+ObjectTemplate.lodselector HandWeaponLodSelector
+ObjectTemplate.addTemplate DetonatorComplex
+ObjectTemplate.addTemplate DetonatorSimple
+
+
+
+
+
+

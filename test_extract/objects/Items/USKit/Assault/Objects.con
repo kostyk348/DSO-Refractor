@@ -1,0 +1,15 @@
+ObjectTemplate.create Kit Us_Assault
+ObjectTemplate.geometry Kit_Allies_Assault
+ObjectTemplate.setHasCollisionPhysics 1
+ObjectTemplate.networkableInfo KitInfo
+ObjectTemplate.addTemplate Us_Helmet
+ObjectTemplate.addTemplate US_Assault_BackPack
+ObjectTemplate.addTemplate US_Grenades
+ObjectTemplate.addTemplate US_Hip_Pack
+
+ObjectTemplate.addTemplate Bar1918
+ObjectTemplate.addTemplate Colt
+ObjectTemplate.addTemplate KnifeAllies
+
+ObjectTemplate.addTemplate GrenadeAllies
+ObjectTemplate.aitemplate Assault

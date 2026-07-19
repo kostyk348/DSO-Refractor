@@ -1,0 +1,33 @@
+
+
+rem *** e_wDustPlane ***
+ObjectTemplate.create EffectBundle e_wDustPlane
+ObjectTemplate.saveInSeparateFile 1
+rem -------------------------------------
+ObjectTemplate.addTemplate Em_wDustPlane
+ObjectTemplate.timeToLive CRD_NONE/-1/0/0
+rem -------------------------------------
+
+
+rem *** Em_wDustPlane ***
+ObjectTemplate.create Emitter Em_wDustPlane
+ObjectTemplate.template Fx_wDustPlane
+rem ObjectTemplate.looping 1
+ObjectTemplate.startAtCreation 1
+ObjectTemplate.timeToLive CRD_NONE/0.1/0/0
+ObjectTemplate.intensity CRD_NONE/30/0/0
+ObjectTemplate.IntensityAtSpeed 20
+ObjectTemplate.relativePositionInRight CRD_UNIFORM/0/0/0
+ObjectTemplate.startRotation CRD_NONE/1/0/0
+
+rem *** Fx_wDustPlane ***
+ObjectTemplate.create SpriteParticle Fx_wDustPlane
+ObjectTemplate.timeToLive CRD_NONE/1/1/0
+ObjectTemplate.size CRD_UNIFORM/2/3/0
+ObjectTemplate.gravityModifier CRD_NONE/0/0/0
+ObjectTemplate.drag CRD_UNIFORM/0.5/0.4/0
+ObjectTemplate.sizeOverTime 0/0|53/0.239998|100/0.400006
+ObjectTemplate.texture e_dustwind_I
+ObjectTemplate.initRotation CRD_UNIFORM/1/180/1
+ObjectTemplate.destBlendMode BMInvSourceAlpha
+ObjectTemplate.colorRGBAOverTime 0/191/175/145/204|6/195/180/152/88|82/198/186/151/67|100/255/255/255/0

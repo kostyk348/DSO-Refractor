@@ -1,0 +1,3 @@
+ObjectTemplate.create SimpleObject T_Stone3_m1
+ObjectTemplate.geometry T_Stone3_m1
+ObjectTemplate.setHasCollisionPhysics 1

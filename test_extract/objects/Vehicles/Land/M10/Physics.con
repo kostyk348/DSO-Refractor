@@ -1,0 +1,105 @@
+
+
+rem *** M10Engine ***
+ObjectTemplate.create Engine M10Engine
+ObjectTemplate.setNetworkableInfo M10EngineInfo
+ObjectTemplate.setAttachToListener 1
+ObjectTemplate.loadSoundScript Sounds/M10Engine.ssc
+ObjectTemplate.hasMobilePhysics 1
+rem -------------------------------------
+ObjectTemplate.addTemplate M10_TrackL
+ObjectTemplate.setPosition -0.009/-0.799/0
+ObjectTemplate.addTemplate M10_TrackR
+ObjectTemplate.setPosition 0.01/-0.799/0
+rem -------------------------------------
+ObjectTemplate.setMinRotation -1/0/-2500
+ObjectTemplate.setMaxRotation 1/0/5000
+ObjectTemplate.setMaxSpeed 10/0/5000
+ObjectTemplate.setAcceleration 10/0/5000
+ObjectTemplate.setInputToYaw c_PIYaw
+ObjectTemplate.setInputToRoll c_PIThrottle
+ObjectTemplate.setAutomaticReset 1
+ObjectTemplate.setEngineType c_ETTank
+ObjectTemplate.setTorque 1.75
+ObjectTemplate.setDifferential 4
+ObjectTemplate.setNumberOfGears 5
+ObjectTemplate.setGearUp 0.95
+ObjectTemplate.setGearDown 0.45
+ObjectTemplate.setGearChangeTime 0.5
+
+
+rem *** M10WheelL3Dummy ***
+ObjectTemplate.create Spring M10WheelL3Dummy
+ObjectTemplate.geometry M10_whe3L_M1
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.Grip c_PGFEngineDummyGrip
+ObjectTemplate.setStrength 0
+ObjectTemplate.setDamping 0
+
+
+rem *** M10WheelL3 ***
+ObjectTemplate.create Spring M10WheelL3
+ObjectTemplate.setNetworkableInfo SpringInfo
+ObjectTemplate.geometry M10_whe3L_M1
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.Grip c_PGFEngineGrip
+ObjectTemplate.setStrength 20
+ObjectTemplate.setDamping 2.6
+
+
+rem *** M10WheelL3DummyMiddle ***
+ObjectTemplate.create Spring M10WheelL3DummyMiddle
+ObjectTemplate.geometry M10_whe3L_M1
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.Grip c_PGFEngineDummyGrip
+rem -------------------------------------
+ObjectTemplate.addTemplate e_wdustPanzL
+ObjectTemplate.addTemplate e_wdustPanz
+rem -------------------------------------
+ObjectTemplate.setStrength 0
+ObjectTemplate.setDamping 0
+
+
+rem *** M10WheelR3Dummy ***
+ObjectTemplate.create Spring M10WheelR3Dummy
+ObjectTemplate.geometry M10_whe3R_M1
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.Grip c_PGFEngineDummyGrip
+ObjectTemplate.setStrength 0
+ObjectTemplate.setDamping 0
+
+
+rem *** M10WheelR3 ***
+ObjectTemplate.create Spring M10WheelR3
+ObjectTemplate.setNetworkableInfo SpringInfo
+ObjectTemplate.geometry M10_whe3R_M1
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.Grip c_PGFEngineGrip
+ObjectTemplate.setStrength 20
+ObjectTemplate.setDamping 2.6
+
+
+rem *** M10WheelR3DummyMiddle ***
+ObjectTemplate.create Spring M10WheelR3DummyMiddle
+ObjectTemplate.geometry M10_whe3R_M1
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.Grip c_PGFEngineDummyGrip
+rem -------------------------------------
+ObjectTemplate.addTemplate e_wdustPanzL
+ObjectTemplate.addTemplate e_wdustPanz
+rem -------------------------------------
+ObjectTemplate.setStrength 0
+ObjectTemplate.setDamping 0
+

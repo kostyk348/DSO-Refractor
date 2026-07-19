@@ -1,0 +1,94 @@
+ObjectTemplate.create HandFireArms Colt
+ObjectTemplate.hasDynamicShadow 1
+ObjectTemplate.networkableInfo HandFireArmsInfo
+ObjectTemplate.itemIndex 2
+ObjectTemplate.projectileTemplate coltProjectile
+ObjectTemplate.projectilePosition 0/0/0.5
+ObjectTemplate.magSize 8
+ObjectTemplate.numOfMag 4
+ObjectTemplate.magType 0
+ObjectTemplate.reloadtime 4
+ObjectTemplate.roundOfFire 6
+ObjectTemplate.fireOnce 1
+objectTemplate.aiTemplate ColtAI
+ObjectTemplate.zoomFov 0.7
+ObjectTemplate.altFireOnce 1
+ObjectTemplate.soldierZoomFov 0.5 
+ObjectTemplate.soldierZoomPosition -0.05/-0.01/0.1
+ObjectTemplate.soldierCameraPosition 0/-0.05/0.2
+ObjectTemplate.addRootSpeed 0
+ObjectTemplate.AmmoType	1
+
+rem ObjectTemplate.autoReload 1
+ObjectTemplate.GUIIndex 16
+
+Rem *** Deviation Begin *****
+
+ObjectTemplate.velocity 400
+ObjectTemplate.setRecoilForceUp CRD_UNIFORM/0.4/0.6/0
+ObjectTemplate.setRecoilForceLeftRight CRD_UNIFORM/-0.2/-0.2/0
+ObjectTemplate.setHasRecoilForce 1
+ObjectTemplate.setGoBackOnRecoil 1
+
+ObjectTemplate.setFireDev 2.5 0.7 0.07
+ObjectTemplate.setMinDev 0.75
+ObjectTemplate.setTurnDev 0 0 0 0
+ObjectTemplate.setSpeedDev 1 0.2 0.2 0.1
+ObjectTemplate.setMiscDev 2.5 2.5 0.1
+
+Rem *** Deviation  End *****
+
+
+ObjectTemplate.fireInCameraDof 1
+
+ObjectTemplate.loadSoundScript Sounds/colt.ssc
+
+ObjectTemplate.createSkeleton animations/Colt.ske
+ObjectTemplate.useSkeletonPartAsMain Colt
+ObjectTemplate.addTemplate ColtLod
+
+ObjectTemplate.addTemplate e_MuzzGun
+ObjectTemplate.setInputId -1
+ObjectTemplate.startoneffects 0
+ObjectTemplate.setPosition 0/0.001/0.14
+ObjectTemplate.setRotation 0/0/0
+
+ObjectTemplate.addTemplate e_Shell9mm
+ObjectTemplate.setInputId -1
+ObjectTemplate.startoneffects 0
+ObjectTemplate.setPosition 0/0.01/0.29
+ObjectTemplate.setRotation 0/0/0
+
+ObjectTemplate.create AnimatedBundle ColtComplex
+ObjectTemplate.createSkeleton animations/Colt.ske
+ObjectTemplate.geometry Colt
+ObjectTemplate.addTemplate ColtTrigger
+ObjectTemplate.bindToSkeletonPart Trigger
+ObjectTemplate.addTemplate ColtHane
+ObjectTemplate.bindToSkeletonPart hane
+ObjectTemplate.addTemplate ColtMantel
+ObjectTemplate.bindToSkeletonPart mantel
+ObjectTemplate.addTemplate Gunmag
+ObjectTemplate.bindToSkeletonPart mag
+
+ObjectTemplate.create SimpleObject ColtSimple
+ObjectTemplate.geometry Shad_Colt
+
+ObjectTemplate.create SimpleObject ColtTrigger
+ObjectTemplate.geometry ColtTrigger
+
+ObjectTemplate.create SimpleObject ColtMantel
+ObjectTemplate.geometry ColtMantel
+
+ObjectTemplate.create SimpleObject ColtHane
+ObjectTemplate.geometry ColtHane
+
+ObjectTemplate.create LodObject ColtLod
+ObjectTemplate.lodselector HandWeaponLodSelector
+ObjectTemplate.addTemplate ColtComplex
+ObjectTemplate.addTemplate ColtSimple
+
+
+
+
+

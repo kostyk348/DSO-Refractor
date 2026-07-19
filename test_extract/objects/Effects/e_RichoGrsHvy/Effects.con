@@ -1,0 +1,60 @@
+
+
+rem *** e_richoGrsHvy ***
+ObjectTemplate.create EffectBundle e_richoGrsHvy
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.loadSoundScript Sounds/Richograss.ssc
+rem -------------------------------------
+ObjectTemplate.addTemplate Em_richoGrasHvy
+ObjectTemplate.addTemplate e_richoGrsandHvy
+ObjectTemplate.addTemplate Em_richoGHeavy_Base
+ObjectTemplate.setRotation 45/0/0.02
+ObjectTemplate.setStartOnEffects 1
+ObjectTemplate.timeToLive CRD_NONE/1/0/0
+rem -------------------------------------
+
+
+rem *** Em_richoGrasHvy ***
+ObjectTemplate.create Emitter Em_richoGrasHvy
+ObjectTemplate.template Fx_richoGrasHvy
+ObjectTemplate.lodDistance 50
+ObjectTemplate.timeToLive CRD_NONE/0.1/0/0
+ObjectTemplate.intensity CRD_UNIFORM/10/20/0
+ObjectTemplate.startRotation CRD_NONE/1/0/0
+
+
+rem *** Fx_richoGrasHvy ***
+ObjectTemplate.create SpriteParticle Fx_richoGrasHvy
+ObjectTemplate.timeToLive CRD_UNIFORM/0.1/0.1/0
+ObjectTemplate.size CRD_UNIFORM/0.4/0.7/0
+ObjectTemplate.gravityModifier CRD_NONE/0/0/0
+ObjectTemplate.sizeOverTime 0/0.310007|100/1
+ObjectTemplate.texture e_richogitt_I
+ObjectTemplate.initRotation CRD_UNIFORM/1/180/0
+ObjectTemplate.destBlendMode BMOne
+ObjectTemplate.rotationSpeed CRD_UNIFORM/1/180/1
+ObjectTemplate.colorRGBAOverTime 0/192/192/192/0|5/189/189/181/177|82/152/150/22/198|100/128/128/0/0
+
+
+rem *** e_richoGrsandHvy ***
+ObjectTemplate.create Emitter e_richoGrsandHvy
+ObjectTemplate.template Fx_richoGrsandHvy
+ObjectTemplate.startAtCreation 1
+ObjectTemplate.lodDistance 100
+ObjectTemplate.timeToLive CRD_NONE/0.1/0/0
+ObjectTemplate.intensity CRD_NONE/10/0/0
+ObjectTemplate.positionalSpeedInUp CRD_UNIFORM/1/2/0
+ObjectTemplate.startRotation CRD_NONE/1/0/0
+
+
+rem *** Fx_richoGrsandHvy ***
+ObjectTemplate.create SpriteParticle Fx_richoGrsandHvy
+ObjectTemplate.timeToLive CRD_NONE/0.7/0.7/0
+ObjectTemplate.size CRD_UNIFORM/0.14/0.17/0
+ObjectTemplate.gravityModifier CRD_NONE/0.5/0/0
+ObjectTemplate.sizeOverTime 0/1.11002|43/1.59998|100/3
+ObjectTemplate.texture e_richo3_I
+ObjectTemplate.initRotation CRD_UNIFORM/1/360/0
+ObjectTemplate.destBlendMode BMInvSourceAlpha
+ObjectTemplate.colorRGBAOverTime 0/163/143/105/204|65/169/159/120/145|89/169/159/120/124|100/169/159/120/0
+

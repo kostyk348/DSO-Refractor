@@ -1,0 +1,4 @@
+ObjectTemplate.create SimpleObject planeeng_M1
+ObjectTemplate.geometry planeeng_M1
+ObjectTemplate.setHasCollisionPhysics 1
+

@@ -1,0 +1,11 @@
+ObjectTemplate.create SimpleObject whetstone_M1
+ObjectTemplate.geometry whetstone_M1
+ObjectTemplate.setHasCollisionPhysics 1
+
+
+
+
+
+
+
+

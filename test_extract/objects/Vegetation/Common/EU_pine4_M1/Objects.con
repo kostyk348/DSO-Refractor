@@ -1,0 +1,3 @@
+ObjectTemplate.create SimpleObject EU_pine4_M1
+ObjectTemplate.geometry EU_pine4_M1
+ObjectTemplate.setHasCollisionPhysics 1

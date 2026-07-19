@@ -1,0 +1,11 @@
+GeometryTemplate.create StandardMesh churcfence_m1
+GeometryTemplate.file churcfence_m1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 50
+GeometryTemplate.setLodDistance 2 100
+GeometryTemplate.setLodDistance 3 200
+GeometryTemplate.setLodDistance 4 400
+GeometryTemplate.setLodDistance 5 800
+
+GeometryTemplate.create StandardMesh churcfencefence_m1
+GeometryTemplate.file churcfencefence_m1

@@ -1,0 +1,80 @@
+
+
+rem *** e_RichoWaterHeavy ***
+ObjectTemplate.create EffectBundle e_RichoWaterHeavy
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.loadSoundScript Sounds/richowater.ssc
+rem -------------------------------------
+ObjectTemplate.addTemplate Em_RichoWaterHeavyBase
+ObjectTemplate.setRotation 45/0/0.02
+ObjectTemplate.addTemplate Em_RichoWaterHeavyImpact
+ObjectTemplate.setRotation 90/0/0
+ObjectTemplate.addTemplate Em_RichoWaterHeavySprite
+ObjectTemplate.timeToLive CRD_NONE/1.8/0/0
+rem -------------------------------------
+
+rem *** Em_richoWaterHeavyBase ***
+ObjectTemplate.create Emitter Em_richoWaterHeavyBase
+ObjectTemplate.template Fx_richoWaterHeavyBase
+ObjectTemplate.lodDistance 375
+ObjectTemplate.timeToLive CRD_NONE/0.1/0/0
+ObjectTemplate.intensity CRD_NONE/2/0/0
+ObjectTemplate.relativePositionInUp CRD_NONE/0.05/0/0
+ObjectTemplate.rotationalSpeedInDof CRD_NONE/32/0/0
+ObjectTemplate.rotationalSpeedInUp CRD_UNIFORM/1/18/1
+ObjectTemplate.rotationalSpeedInRight CRD_UNIFORM/1/30/1
+ObjectTemplate.startRotation CRD_UNIFORM/1/10/1
+ObjectTemplate.moveToWaterSurface 1
+rem *** Fx_richoWaterHeavyBase ***
+ObjectTemplate.create Particle Fx_richoWaterHeavyBase
+ObjectTemplate.geometry Richo_Waterbase_m1
+ObjectTemplate.timeToLive CRD_NONE/2/0/0
+ObjectTemplate.size CRD_NONE/20/0/0
+ObjectTemplate.sizeModifier 3/2/3
+ObjectTemplate.sizeOverTime 0/0.200018|100/4
+ObjectTemplate.alphaOverTime 0/1|31/0.20005|100/1
+
+
+rem *** Em_RichoWaterHeavyImpact ***
+ObjectTemplate.create Emitter Em_RichoWaterHeavyImpact
+ObjectTemplate.template Fx_RichoWaterHeavyRing
+ObjectTemplate.startAtCreation 1
+ObjectTemplate.addEmitterSpeed 1
+ObjectTemplate.emitterSpeedScale 1
+ObjectTemplate.timeToLive CRD_NONE/0.1/0/0
+ObjectTemplate.intensity CRD_UNIFORM/10/0/0
+ObjectTemplate.relativePositionInUp CRD_NONE/0.05/0/0
+ObjectTemplate.startRotation CRD_NONE/90/0/0
+ObjectTemplate.moveToWaterSurface 1
+rem *** Fx_RichoWaterHeavyRing ***
+ObjectTemplate.create Particle Fx_RichoWaterHeavyRing
+ObjectTemplate.geometry Watermesh_ring_m1
+ObjectTemplate.timeToLive CRD_NONE/0.8/0/0
+ObjectTemplate.size CRD_UNIFORM/0.5/2/0
+ObjectTemplate.gravityModifier CRD_UNIFORM/0.01/0/0
+ObjectTemplate.sizeModifier 1/1/1
+ObjectTemplate.sizeOverTime 0/0.10004|100/4
+ObjectTemplate.gravityModifierOverTime 0/0.5|86/0.530015|100/1
+
+
+rem *** Em_RichoWaterHeavySprite ***
+ObjectTemplate.create Emitter Em_RichoWaterHeavySprite
+ObjectTemplate.template Fx_RichoWaterHeavySprite
+ObjectTemplate.startAtCreation 1
+ObjectTemplate.addEmitterSpeed 1
+ObjectTemplate.emitterSpeedScale 1
+ObjectTemplate.timeToLive CRD_NONE/0.1/0/0
+ObjectTemplate.intensity CRD_UNIFORM/11/60/0
+ObjectTemplate.positionalSpeedInDof CRD_NONE/1/0/1
+ObjectTemplate.positionalSpeedInUp CRD_NONE/2/0/0
+ObjectTemplate.positionalSpeedInRight CRD_NONE/1/0/1
+ObjectTemplate.startRotation CRD_UNIFORM/1/180/1
+rem *** Fx_RichoWaterHeavySprite ***
+ObjectTemplate.create SpriteParticle Fx_RichoWaterHeavySprite
+ObjectTemplate.timeToLive CRD_NONE/1/1/0
+ObjectTemplate.size CRD_UNIFORM/2/4/0
+ObjectTemplate.sizeOverTime 0/0.199997|100/0.29996
+ObjectTemplate.texture Water_ono_I
+ObjectTemplate.initRotation CRD_UNIFORM/1/180/1
+ObjectTemplate.destBlendMode BMInvSourceAlpha
+ObjectTemplate.colorRGBAOverTime 0/192/192/192/204|28/223/239/255/146|100/90/122/141/0

@@ -1,0 +1,9 @@
+GeometryTemplate.create StandardMesh afr_house2_ste_closed_m1
+GeometryTemplate.file afr_house2_ste_closed_m1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 50
+GeometryTemplate.setLodDistance 2 100
+GeometryTemplate.setLodDistance 3 250
+GeometryTemplate.setLodDistance 4 350
+GeometryTemplate.setLodDistance 5 600
+

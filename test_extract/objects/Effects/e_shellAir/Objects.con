@@ -1,0 +1,3 @@
+ObjectTemplate.create SimpleObject shellAirLw_m1
+ObjectTemplate.geometry shellAirLw_m1
+ObjectTemplate.setHasCollisionPhysics 0

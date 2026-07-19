@@ -1,0 +1,20 @@
+ObjectTemplate.create KitPart Brit_Scout_helm
+ObjectTemplate.geometry Brit_Scout_helm
+ObjectTemplate.setBoneName A
+ObjectTemplate.setCopyLinksCount 0
+
+ObjectTemplate.create Kit GB_Scout
+ObjectTemplate.geometry Kit_Allies_Scout
+ObjectTemplate.setHasCollisionPhysics 1
+ObjectTemplate.networkableInfo KitInfo
+ObjectTemplate.addTemplate brit_Scout_Helm
+ObjectTemplate.addTemplate Radio
+ObjectTemplate.addTemplate British_hippack
+
+ObjectTemplate.addTemplate No4Sniper
+ObjectTemplate.addTemplate Colt
+ObjectTemplate.addTemplate KnifeAllies
+
+ObjectTemplate.addTemplate Binoculars
+ObjectTemplate.addTemplate GrenadeAllies
+ObjectTemplate.aiTemplate  Scout

@@ -1,0 +1,66 @@
+ObjectTemplate.create Bundle r_ruswh_m1
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.aiTemplate r_ruswh_m1
+
+ObjectTemplate.addTemplate lodr_ruswh
+
+LodSelectorTemplate.create DistanceSelector r_ruswhSelector
+LodSelectorTemplate.addLodDistance 80
+ObjectTemplate.create LodObject lodr_ruswh
+ObjectTemplate.lodselector r_ruswhSelector
+ObjectTemplate.addTemplate r_ruswhInterior
+ObjectTemplate.addTemplate r_ruswhExterior
+
+ObjectTemplate.create Bundle r_ruswhInterior
+ObjectTemplate.geometry r_ruswh_m1
+rem -------------------------------------
+
+ObjectTemplate.addTemplate civiltable_m1
+ObjectTemplate.setPosition 6.1/0.405/-0.179
+ObjectTemplate.setRotation 0/0/0
+
+ObjectTemplate.addTemplate euchair02_M1
+ObjectTemplate.setPosition 6.1/0.405/-1.279
+ObjectTemplate.setRotation -40/0/0
+
+ObjectTemplate.addTemplate euchair02_M1
+ObjectTemplate.setPosition 6.1/0.615/0.821
+ObjectTemplate.setRotation 180/-90/30
+
+ObjectTemplate.addTemplate civiltable_m1
+ObjectTemplate.setPosition 6.1/0.405/-0.179
+ObjectTemplate.setRotation 0/0/0
+
+ObjectTemplate.addTemplate stove_eu_m1
+ObjectTemplate.setPosition -1.973/0.405/0.321
+ObjectTemplate.setRotation -90/0/0
+
+ObjectTemplate.addTemplate Eubed_M1
+ObjectTemplate.setPosition -6.499/0.405/2.821
+ObjectTemplate.setRotation 180/0/0
+
+ObjectTemplate.addTemplate Eubed_M1
+ObjectTemplate.setPosition -3.499/0.405/2.821
+ObjectTemplate.setRotation 180/0/0
+
+
+ObjectTemplate.addTemplate Eucloset_M1
+ObjectTemplate.setPosition -4.499/0.405/-3.427
+ObjectTemplate.setRotation 0/0/180
+
+ObjectTemplate.addTemplate Eubarrel_M1
+ObjectTemplate.setPosition -1.649/0.405/-3.378
+ObjectTemplate.setRotation 0/180/0
+
+
+
+
+
+
+
+
+rem -------------------------------------
+
+ObjectTemplate.create SimpleObject r_ruswhExterior
+ObjectTemplate.geometry r_ruswh_m1

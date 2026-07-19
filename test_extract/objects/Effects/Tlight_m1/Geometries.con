@@ -1,0 +1,2 @@
+GeometryTemplate.create StandardMesh Tlight_m1
+GeometryTemplate.file Tlight_m1

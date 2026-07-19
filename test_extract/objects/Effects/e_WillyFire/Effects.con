@@ -1,0 +1,76 @@
+
+
+rem *** e_WillyFire ***
+ObjectTemplate.create EffectBundle e_WillyFire
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.loadSoundScript ../Common/Sounds/fire.ssc
+rem -------------------------------------
+ObjectTemplate.addTemplate Em_WillyFire
+ObjectTemplate.addTemplate Em_WillyFireSmoke
+ObjectTemplate.timeToLive CRD_NONE/-1/0/0
+rem -------------------------------------
+
+
+rem *** Em_WillyFire ***
+ObjectTemplate.create Emitter Em_WillyFire
+ObjectTemplate.template Fx_WillyFire
+ObjectTemplate.looping 1
+ObjectTemplate.addEmitterSpeed 1
+ObjectTemplate.emitterSpeedScale 1
+ObjectTemplate.lodDistance 3000
+ObjectTemplate.timeToLive CRD_UNIFORM/2/0/0
+ObjectTemplate.intensity CRD_NONE/15/0/0
+ObjectTemplate.relativePositionInDof CRD_UNIFORM/0.3/-0.3/0
+ObjectTemplate.relativePositionInRight CRD_UNIFORM/0.3/-0.3/0
+ObjectTemplate.rotationalSpeedInDof CRD_NONE/0/0/0
+ObjectTemplate.rotationalSpeedInRight CRD_NONE/0/0/0
+ObjectTemplate.startRotation CRD_NONE/0/0/0
+
+
+rem *** Fx_WillyFire ***
+ObjectTemplate.create SpriteParticle Fx_WillyFire
+ObjectTemplate.timeToLive CRD_UNIFORM/0.65/0.65/0
+ObjectTemplate.size CRD_NONE/0.4/0.5/0
+ObjectTemplate.gravityModifier CRD_NONE/-0.3/0/0
+ObjectTemplate.sizeOverTime 0/1|61/1|86/1|100/1
+ObjectTemplate.texture e_Fire256
+ObjectTemplate.initRotation CRD_UNIFORM/0/10/0
+ObjectTemplate.srcBlendMode BMOne
+ObjectTemplate.destBlendMode BMInvSourceColor
+ObjectTemplate.rotationSpeed CRD_NONE/10/0/0
+ObjectTemplate.colorRGBAOverTime 0/0/0/0/0|3/255/255/255/255|85/255/255/255/191|100/255/255/255/0
+ObjectTemplate.numAnimationFrames 16
+ObjectTemplate.initAnimationFrame CRD_NONE/1/0/0
+ObjectTemplate.animationSpeed CRD_NONE/100/100/0
+ObjectTemplate.animationSpeedOverTime 0/1|100/0.200049
+
+
+rem *** Em_WillyFireSmoke ***
+ObjectTemplate.create Emitter Em_WillyFireSmoke
+ObjectTemplate.template Fx_WillyFireSmoke
+ObjectTemplate.looping 1
+ObjectTemplate.addEmitterSpeed 1
+ObjectTemplate.emitterSpeedScale 1
+ObjectTemplate.lodDistance 700
+ObjectTemplate.timeToLive CRD_NONE/0.1/0/0
+ObjectTemplate.intensity CRD_UNIFORM/10/12/0
+ObjectTemplate.relativePositionInDof CRD_UNIFORM/0/0.1/1
+ObjectTemplate.relativePositionInRight CRD_UNIFORM/0.3/-0.3/0
+ObjectTemplate.positionalSpeedInDof CRD_UNIFORM/0/0.05/1
+ObjectTemplate.positionalSpeedInRight CRD_UNIFORM/0/0.05/1
+ObjectTemplate.startRotation CRD_NONE/1/0/0
+
+
+rem *** Fx_WillyFireSmoke ***
+ObjectTemplate.create SpriteParticle Fx_WillyFireSmoke
+ObjectTemplate.timeToLive CRD_UNIFORM/1/1/0
+ObjectTemplate.size CRD_UNIFORM/0.2/0.3/0
+ObjectTemplate.gravityModifier CRD_NONE/-0.1/0/0
+ObjectTemplate.sizeOverTime 0/2.51985|100/1.89996
+ObjectTemplate.texture e_muzs1_I
+ObjectTemplate.initRotation CRD_EXPONENTIAL/0/180/1
+ObjectTemplate.srcBlendMode BMSourceColor
+ObjectTemplate.destBlendMode BMInvSourceAlpha
+ObjectTemplate.rotationSpeed CRD_UNIFORM/0/50/1
+ObjectTemplate.rotationSpeedOverTime 0/0|100/1
+ObjectTemplate.colorRGBAOverTime 0/0/0/0/204|32/192/192/192/177|45/145/138/138/167|79/24/0/0/216|100/0/0/0/0

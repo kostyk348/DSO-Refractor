@@ -1,0 +1,36 @@
+
+
+rem *** e_wdustPanzGround ***
+ObjectTemplate.create EffectBundle e_wdustPanzGround
+ObjectTemplate.saveInSeparateFile 1
+rem -------------------------------------
+ObjectTemplate.addTemplate Em_wDustGround
+ObjectTemplate.timeToLive CRD_NONE/-1/0/0
+rem -------------------------------------
+
+
+rem *** Em_wDustGround ***
+ObjectTemplate.create Emitter Em_wDustGround
+ObjectTemplate.template Fx_wDust&SmokeGround
+ObjectTemplate.looping 1
+ObjectTemplate.startAtCreation 1
+ObjectTemplate.timeToLive CRD_NONE/0.1/0/0
+ObjectTemplate.intensity CRD_NONE/15/0/0
+ObjectTemplate.IntensityAtSpeed 20
+ObjectTemplate.relativePositionInDof CRD_NONE/4.6/0/0
+ObjectTemplate.relativePositionInUp CRD_NONE/-0.5/0/0
+ObjectTemplate.relativePositionInRight CRD_UNIFORM/0.2/0/0
+ObjectTemplate.startRotation CRD_NONE/1/0/0
+
+
+rem *** Fx_wDust&SmokeGround ***
+ObjectTemplate.create SpriteParticle Fx_wDust&SmokeGround
+ObjectTemplate.timeToLive CRD_NONE/1/1/0
+ObjectTemplate.size CRD_UNIFORM/2/3/0
+ObjectTemplate.gravityModifier CRD_NONE/0/0/0
+ObjectTemplate.drag CRD_NONE/0.5/0/0
+ObjectTemplate.sizeOverTime 0/0|53/0.239998|100/0.400006
+ObjectTemplate.texture e_muzs3_I
+ObjectTemplate.initRotation CRD_NONE/1/180/1
+ObjectTemplate.destBlendMode BMInvSourceAlpha
+ObjectTemplate.colorRGBAOverTime 0/236/234/223/255|82/189/179/145/138|100/179/168/128/0

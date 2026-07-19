@@ -1,0 +1,3 @@
+ObjectTemplate.create SimpleObject rubble03_m1
+ObjectTemplate.geometry rubble03_m1
+ObjectTemplate.setHasCollisionPhysics 1

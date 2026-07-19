@@ -1,0 +1,71 @@
+ObjectTemplate.create Bundle French_Barn_Lrg_m1
+ObjectTemplate.setHasCollisionPhysics 1
+objectTemplate.aiTemplate French_Barn_Lrg_m1
+ObjectTemplate.addTemplate lodFrench_Barn_Lrg
+
+LodSelectorTemplate.create DistanceSelector French_Barn_LrgSelector
+LodSelectorTemplate.addLodDistance 100
+ObjectTemplate.create LodObject lodFrench_Barn_Lrg
+ObjectTemplate.lodselector French_Barn_LrgSelector
+ObjectTemplate.addTemplate French_Barn_LrgInterior
+ObjectTemplate.addTemplate French_Barn_LrgExterior
+
+ObjectTemplate.create Bundle French_Barn_LrgInterior
+ObjectTemplate.geometry French_Barn_Lrg_m1
+
+rem ---------------------------
+
+
+ObjectTemplate.addTemplate Woodladder_4m_m1
+ObjectTemplate.setPosition -4/2.2/0.3
+ObjectTemplate.setRotation 0/0/0
+
+ObjectTemplate.addTemplate Woodladder_4m_m1
+ObjectTemplate.setPosition -1.65/6.3/3.19
+ObjectTemplate.setRotation 0/0/0
+
+
+ObjectTemplate.addTemplate eutable_M1
+ObjectTemplate.setPosition 1.522/8.1/11.57
+ObjectTemplate.setRotation 180/0/180
+
+ObjectTemplate.addTemplate signalpanel_m1
+ObjectTemplate.setPosition 1.912/9.37/11.69
+ObjectTemplate.setRotation 180/0/0
+
+
+
+ObjectTemplate.addTemplate euchair03
+ObjectTemplate.setPosition 1.512/8.27/10.57
+ObjectTemplate.setRotation 44.539/-88.539/-2.489
+
+
+ObjectTemplate.addTemplate stecrate2_m1
+ObjectTemplate.setPosition 1.822/8.43/6.47
+ObjectTemplate.setRotation 180/0/180
+
+ObjectTemplate.addTemplate stecrate1_m1
+ObjectTemplate.setPosition 0.355/9.43/6.47
+ObjectTemplate.setRotation 160/0/180
+
+
+ObjectTemplate.addTemplate stecrate1_m1
+ObjectTemplate.setPosition -1.144/9.43/-1.029
+ObjectTemplate.setRotation 180/0/180
+
+ObjectTemplate.addTemplate stecrate1_m1
+ObjectTemplate.setPosition 2.586/5.38/1.081
+ObjectTemplate.setRotation 180/0/180
+
+ObjectTemplate.addTemplate stecrate1_m1
+ObjectTemplate.setPosition 0.556/4.0/2.4719
+ObjectTemplate.setRotation 0/0/0
+
+
+
+rem ---------------------------
+
+
+
+ObjectTemplate.create SimpleObject French_Barn_LrgExterior
+ObjectTemplate.geometry French_Barn_Lrg_m2

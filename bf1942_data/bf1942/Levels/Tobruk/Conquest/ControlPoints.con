@@ -1,0 +1,40 @@
+Object.create ALLIES_BASE 
+Object.absolutePosition 2546.28/69.6516/817.944
+rem
+rem ***  ***
+rem ------------------------------------------------
+rem Object.create ALLIES_BASE_CITY
+rem Object.absolutePosition 2401.45/80.6862/819.998
+rem --------------------------------------------------
+rem
+rem ***  ***
+rem
+Object.create ALLIES_BASE_SECONDLINE_right 
+Object.absolutePosition 2233.68/73.7306/717.589
+rem
+rem ***  ***
+rem
+Object.create ALLIES_BASE_SECONDLINE_left 
+Object.absolutePosition 2217.26/78.6635/842.967
+rem
+rem ***  ***
+rem
+Object.create ALLIES_BASE_FIRSTLINE_right 
+Object.absolutePosition 2083.9/69.2736/612.068
+rem
+rem ***  ***
+rem
+Object.create ALLIES_BASE_FIRSTLINE_middle 
+Object.absolutePosition 2038.04/71.5807/724.311
+rem
+rem ***  ***
+rem
+Object.create ALLIES_BASE_FIRSTLINE_left
+Object.absolutePosition 1976.1/80.5135/841.519
+rem
+rem ***  ***
+rem
+Object.create AXIS_BASE
+Object.absolutePosition 1743.65/67.1438/572.867
+
+rem *** EndOfFile ***

@@ -1,0 +1,3 @@
+ObjectTemplate.create SimpleObject SuburbHouse_4_closed_M1
+ObjectTemplate.geometry SuburbHouse_4_closed_M1
+ObjectTemplate.setHasCollisionPhysics 1

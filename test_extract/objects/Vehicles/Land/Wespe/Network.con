@@ -1,0 +1,12 @@
+NetworkableInfo.createNewInfo WespeTurretInfo
+NetworkableInfo.setPredictionMode PMLinear
+
+NetworkableInfo.createNewInfo WespeGunInfo
+NetworkableInfo.setPredictionMode PMLinear
+
+
+NetworkableInfo.createNewInfo WespeEngineInfo
+NetworkableInfo.setPredictionMode PMLinear
+
+NetworkableInfo.createNewInfo WespeBodyInfo
+NetworkableInfo.setPredictionMode PMLinear

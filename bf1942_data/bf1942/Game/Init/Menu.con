@@ -1,0 +1,8 @@
+Game.setCrossHairRadius 5
+Game.setCrossHairSize 5
+Game.setCameraBlink 0.75 1.5
+Game.setPlayerBlink 1.0 2.0
+Game.setSonarRotationSpeed 0.025
+Game.setRadioTimeoutTime 25
+Game.setRadioFlashTime 5
+Game.setPlayerHitFlashTime 2

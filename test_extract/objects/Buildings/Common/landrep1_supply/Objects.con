@@ -1,0 +1,111 @@
+rem
+rem *** landrep1 ***
+rem
+ObjectTemplate.create Bundle landrep1_supply
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.aiTemplate landrep1_supply
+ObjectTemplate.hasCollisionPhysics 1
+
+rem -------------------------------------
+ObjectTemplate.addTemplate lodlandrep1_supply
+
+ObjectTemplate.addTemplate repairpoint
+ObjectTemplate.setPosition 0/0/9
+ObjectTemplate.setRotation 0/0/0
+rem -------------------------------------
+
+
+LodSelectorTemplate.create DistanceSelector landrep1_supplySelector
+LodSelectorTemplate.addLodDistance 80
+ObjectTemplate.create LodObject lodlandrep1_supply
+ObjectTemplate.lodselector landrep1_supplySelector
+ObjectTemplate.addTemplate landrep1_supplyInterior
+ObjectTemplate.addTemplate landrep1_supplyExterior
+
+ObjectTemplate.create Bundle landrep1_supplyInterior
+ObjectTemplate.geometry landrep1_m1
+rem -------------------------------------
+
+
+
+ObjectTemplate.addTemplate militable_m1
+ObjectTemplate.setPosition 0.2/0.92/-7.800
+ObjectTemplate.setRotation 0/0/0
+
+ObjectTemplate.addTemplate militable_m1
+ObjectTemplate.setPosition -2.2/0.92/-7.800
+ObjectTemplate.setRotation 0/0/0
+
+ObjectTemplate.addTemplate mililocker_m1
+ObjectTemplate.setPosition 2.6/0.92/-8.397
+ObjectTemplate.setRotation 0/0/0
+
+ObjectTemplate.addTemplate mililocker_m1
+ObjectTemplate.setPosition -4.799/0.92/-0.101
+ObjectTemplate.setRotation 90/0/0
+
+
+ObjectTemplate.addTemplate planeeng_M1
+ObjectTemplate.setPosition 3.5/0.94/0.702
+ObjectTemplate.setRotation 170/0/0
+
+ObjectTemplate.addTemplate stebarrel1_m1
+ObjectTemplate.setPosition 4.43/0.92/-5.098
+ObjectTemplate.setRotation 0/0/0
+
+ObjectTemplate.addTemplate stebarrel1_m1
+ObjectTemplate.setPosition 4.43/0.92/-6.098
+ObjectTemplate.setRotation 23/0/0
+
+ObjectTemplate.addTemplate stebarrel1_m1
+ObjectTemplate.setPosition 4.43/0.92/-4.098
+ObjectTemplate.setRotation 29/0/0
+
+ObjectTemplate.addTemplate stebarrel1_m1
+ObjectTemplate.setPosition 3.43/0.92/-3.098
+ObjectTemplate.setRotation 16/0/0
+
+ObjectTemplate.addTemplate stecrate1_M1
+ObjectTemplate.setPosition 4.43/0.92/-1.051
+ObjectTemplate.setRotation 0/0/0
+
+ObjectTemplate.addTemplate rooflamp1_m1
+ObjectTemplate.setPosition -0.019/4.12/-3.001
+ObjectTemplate.setRotation 0/0/0
+
+ObjectTemplate.addTemplate milichair_m1
+ObjectTemplate.setPosition -4.799/0.92/-7.101
+ObjectTemplate.setRotation 90/0/0
+
+ObjectTemplate.addTemplate milichair_m1
+ObjectTemplate.setPosition -4.799/0.92/-6.101
+ObjectTemplate.setRotation 90/0/0
+
+
+
+
+
+
+
+
+rem -------------------------------------
+
+ObjectTemplate.create SimpleObject landrep1_supplyExterior
+ObjectTemplate.geometry landrep1_m2
+
+ObjectTemplate.create SupplyDepot repairpoint
+ObjectTemplate.radius 3
+ObjectTemplate.team 0
+ObjectTemplate.addVehicleType tiger -1 1 0
+ObjectTemplate.addVehicleType Panzeriv -1 1 0
+ObjectTemplate.addVehicleType hanomag -1 2 0
+ObjectTemplate.addVehicleType wespe -1 2 0
+ObjectTemplate.addVehicleType kubelwagen -1 2 0
+ObjectTemplate.addVehicleType sherman -1 1 0
+ObjectTemplate.addVehicleType m3a1 -1 2 0
+ObjectTemplate.addVehicleType priest -1 2 0
+ObjectTemplate.addVehicleType jeep -1 2 0
+ObjectTemplate.addVehicleType m10 -1 2 0
+ObjectTemplate.addAmmoType 0 -1 10 0
+ObjectTemplate.workOnVehicles 1
+ObjectTemplate.workOnSoldiers 0

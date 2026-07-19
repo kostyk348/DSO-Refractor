@@ -1,0 +1,40 @@
+
+
+rem *** T34GunBarrel ***
+ObjectTemplate.create FireArms T34GunBarrel
+ObjectTemplate.setNetworkableInfo TankFireArmInfo
+ObjectTemplate.loadSoundScript /Sounds/T34Cannon.ssc
+ObjectTemplate.geometry T34_Canon2_M1
+ObjectTemplate.aiTemplate T34MainGun
+rem -------------------------------------
+ObjectTemplate.addTemplate e_MuzzPanz
+ObjectTemplate.setPosition 0/0/3
+ObjectTemplate.setRotation -179.999/0/0
+rem -------------------------------------
+ObjectTemplate.projectileTemplate T34Projectile
+ObjectTemplate.projectilePosition 0/0/1
+ObjectTemplate.magSize 30
+ObjectTemplate.numOfMag 1
+ObjectTemplate.velocity 100
+ObjectTemplate.autoReload 1
+ObjectTemplate.reloadtime 0.35
+ObjectTemplate.roundOfFire 0.35
+ObjectTemplate.fireingForce 100
+ObjectTemplate.recoilSpeed 10
+ObjectTemplate.recoilSize 15
+
+
+rem *** T34Projectile ***
+ObjectTemplate.create Projectile T34Projectile
+ObjectTemplate.createNotInGrid 1
+ObjectTemplate.loadSoundScript ../../Common/Sounds/Projectile.ssc
+ObjectTemplate.geometry projectile_m1
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.timeToLive CRD_NONE/10/0/0
+ObjectTemplate.damageType 1
+ObjectTemplate.material 238
+ObjectTemplate.material2 207
+ObjectTemplate.hasCollisionEffect 1
+ObjectTemplate.addTemplate e_PanzShootTrail

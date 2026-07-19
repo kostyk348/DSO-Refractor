@@ -1,0 +1,63 @@
+
+rem *** e_WaterExplosion ***
+
+ObjectTemplate.create EffectBundle e_WaterExplosion
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.loadSoundScript Sounds/WaterExplosion.ssc
+rem -------------------------------------
+ObjectTemplate.addTemplate Em_WaterDepthRing
+ObjectTemplate.addTemplate Em_WaterDepthBubble
+ObjectTemplate.timeToLive CRD_NONE/1.8/0/0
+rem -------------------------------------
+
+rem *** Em_WaterDepthRing ***
+ObjectTemplate.create Emitter Em_WaterDepthRing
+ObjectTemplate.template Fx_WaterDepthRing
+ObjectTemplate.startAtCreation 1
+ObjectTemplate.addEmitterSpeed 1
+ObjectTemplate.emitterSpeedScale 1
+ObjectTemplate.timeToLive CRD_NONE/0.1/0/0
+ObjectTemplate.intensity CRD_UNIFORM/20/0/0
+ObjectTemplate.relativePositionInUp CRD_NONE/0.5/0/0
+ObjectTemplate.startRotation CRD_NONE/90/0/0
+ObjectTemplate.moveToWaterSurface 1
+
+rem *** Fx_WaterDepthRing ***
+ObjectTemplate.create Particle Fx_WaterDepthRing
+ObjectTemplate.geometry watermesh_ring_m1
+ObjectTemplate.timeToLive CRD_UNIFORM/2/5/0
+ObjectTemplate.size CRD_UNIFORM/1/3/0
+ObjectTemplate.gravityModifier CRD_NONE/0/0/0
+ObjectTemplate.sizeModifier 10/10/10
+ObjectTemplate.sizeOverTime 0/1.80017|100/8.99959
+ObjectTemplate.gravityModifierOverTime 0/0.5|86/0.530015|100/1
+ObjectTemplate.alphaOverTime 0/0.600009|100/0
+
+
+rem *** Em_WaterDepthBubble ***
+ObjectTemplate.create Emitter Em_WaterDepthBubble
+ObjectTemplate.template Fx_WaterDepthBubble
+ObjectTemplate.lodDistance 900
+ObjectTemplate.timeToLive CRD_NONE/0.4/0/0
+ObjectTemplate.intensity CRD_NONE/125/0/0
+ObjectTemplate.intensityOverTime 
+ObjectTemplate.relativePositionInDof CRD_UNIFORM/10/0/1
+ObjectTemplate.relativePositionInRight CRD_UNIFORM/10/0/1
+ObjectTemplate.positionalSpeedInDof CRD_UNIFORM/10/0/0
+ObjectTemplate.positionalSpeedInUp CRD_UNIFORM/2/4/0
+ObjectTemplate.positionalSpeedInRight CRD_UNIFORM/10/0/0
+ObjectTemplate.moveToWaterSurface 1
+
+rem *** Fx_WaterDepthBubble ***
+ObjectTemplate.create SpriteParticle Fx_WaterDepthBubble
+ObjectTemplate.timeToLive CRD_UNIFORM/1/2/0
+ObjectTemplate.size CRD_UNIFORM/4/2/0
+ObjectTemplate.gravityModifier CRD_NONE/1/0/0
+ObjectTemplate.drag CRD_NONE/0.5/0/0
+ObjectTemplate.sizeOverTime 0/1.56034|100/3.00005
+ObjectTemplate.gravityModifierOverTime 100/0.299997
+ObjectTemplate.texture e_water1
+ObjectTemplate.initRotation CRD_NONE/90/0/0
+ObjectTemplate.destBlendMode BMInvSourceAlpha
+ObjectTemplate.rotationSpeed CRD_UNIFORM/0/2/1
+ObjectTemplate.colorRGBAOverTime 0/225/237/255/51|13/234/242/255/212|43/255/255/255/255|100/225/237/255/0

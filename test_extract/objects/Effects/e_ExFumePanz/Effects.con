@@ -1,0 +1,39 @@
+
+
+rem *** e_ExFumePanz ***
+ObjectTemplate.create EffectBundle e_ExFumePanz
+ObjectTemplate.saveInSeparateFile 1
+rem -------------------------------------
+ObjectTemplate.addTemplate Em_ExFumePanz
+ObjectTemplate.setRotation 90/0/0
+ObjectTemplate.timeToLive CRD_NONE/1/0/0
+rem -------------------------------------
+
+
+rem *** Em_ExFumePanz ***
+ObjectTemplate.create Emitter Em_ExFumePanz
+ObjectTemplate.template Fx_ExFumePanz
+ObjectTemplate.looping 1
+ObjectTemplate.addEmitterSpeed 1
+ObjectTemplate.emitterSpeedScale 1
+ObjectTemplate.lodDistance 150
+ObjectTemplate.timeToLive CRD_NONE/0.3/0/0
+ObjectTemplate.intensity CRD_NONE/110/0/0
+ObjectTemplate.relativePositionInDof CRD_UNIFORM/0/0.3/1
+ObjectTemplate.positionalSpeedInUp CRD_NONE/1.1/0/0
+ObjectTemplate.positionalSpeedInRight CRD_NONE/0.7/0.2/0
+ObjectTemplate.startRotation CRD_NONE/1/0/0
+
+
+rem *** Fx_ExFumePanz ***
+ObjectTemplate.create SpriteParticle Fx_ExFumePanz
+ObjectTemplate.timeToLive CRD_NONE/2/2/0
+ObjectTemplate.gravityModifier CRD_NONE/0.1/0/0
+ObjectTemplate.drag CRD_NONE/1/0/0
+ObjectTemplate.sizeOverTime 0/0.499985|15/0.379986|100/1.04001
+ObjectTemplate.texture e_muzs2_I
+ObjectTemplate.initRotation CRD_NORMAL/0/180/0
+ObjectTemplate.destBlendMode BMInvSourceAlpha
+ObjectTemplate.rotationSpeed CRD_NORMAL/15/30/1
+ObjectTemplate.rotationSpeedOverTime 0/0.209998|100/1
+ObjectTemplate.colorRGBAOverTime 0/0/0/0/0|15/43/43/43/153|44/128/128/128/100|77/114/132/126/41|100/105/135/126/0

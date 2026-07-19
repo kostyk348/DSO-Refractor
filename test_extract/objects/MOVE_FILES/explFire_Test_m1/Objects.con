@@ -1,0 +1,62 @@
+
+ObjectTemplate.create Bundle BuildingFire
+ObjectTemplate.geometry explFire_Test_m1
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.hasArmor 1
+ObjectTemplate.maxhitpoints 2
+ObjectTemplate.hitpoints 2
+ObjectTemplate.Material 40
+ObjectTemplate.addArmorEffect 0 e_BuildingFire 0/0/0
+ObjectTemplate.timeToLiveAfterDeath 3
+ObjectTemplate.explosionDamage 0
+ObjectTemplate.resetWhenRemoved 1
+
+ObjectTemplate.create Bundle BuildingSmoke
+ObjectTemplate.geometry explFire_Test_m1
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.hasArmor 1
+ObjectTemplate.maxhitpoints 2
+ObjectTemplate.hitpoints 2
+ObjectTemplate.Material 40
+ObjectTemplate.addArmorEffect 0 e_BuildingSmoke 0/0/0
+ObjectTemplate.timeToLiveAfterDeath 3
+ObjectTemplate.explosionDamage 0
+ObjectTemplate.resetWhenRemoved 1
+
+ObjectTemplate.create Bundle BuildingDust
+ObjectTemplate.geometry explFire_Test_m1
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.hasArmor 1
+ObjectTemplate.maxhitpoints 2
+ObjectTemplate.hitpoints 2
+ObjectTemplate.Material 40
+ObjectTemplate.addArmorEffect 0 e_BuildingDust 0/0/0
+ObjectTemplate.timeToLiveAfterDeath 3
+ObjectTemplate.explosionDamage 0
+ObjectTemplate.resetWhenRemoved 1
+
+ObjectTemplate.create Bundle BuildingSmokeSmall
+ObjectTemplate.geometry ExplRadieSmall_m1
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.hasArmor 1
+ObjectTemplate.maxhitpoints 2
+ObjectTemplate.hitpoints 2
+ObjectTemplate.Material 40
+ObjectTemplate.addArmorEffect 0 e_BuildingSmokeSmall 0/0/0
+ObjectTemplate.timeToLiveAfterDeath 3
+ObjectTemplate.explosionDamage 0
+ObjectTemplate.resetWhenRemoved 1
+
+ObjectTemplate.create Bundle BuildingSmokeIdleDark
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.geometry explFire_Test_m1
+ObjectTemplate.addtemplate e_BuildingSmokeIdleDark 
+ObjectTemplate.setPosition 0/0/0
+ObjectTemplate.setRotation 0/0/0
+
+ObjectTemplate.create Bundle WaterShoreSvall 
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.geometry explFire_Test_m1
+ObjectTemplate.addtemplate e_WaterShoreSvall 
+ObjectTemplate.setPosition 0/0/0
+ObjectTemplate.setRotation 0/0/0

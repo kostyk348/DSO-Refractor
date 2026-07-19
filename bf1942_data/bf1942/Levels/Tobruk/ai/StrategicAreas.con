@@ -1,0 +1,172 @@
+aiStrategicArea.create areaOne 2488.5/765 2550/820 200
+
+aiStrategicArea.create axis_base 1687/521.5 1737/572 5
+
+aiStrategicArea.create city_tobruk 2318.5/716 2369/796.5 70
+
+aiStrategicArea.create firstline_leftbunke 1956.5/808 1982/833 100
+
+aiStrategicArea.create firstline_middlebunker 2008.5/685.5 2039/716 150
+
+aiStrategicArea.create firstline_right2 2109.5/549.5 2135/575 50
+
+aiStrategicArea.create firstline_rightbunk 2062.5/590 2088/615 100
+
+aiStrategicArea.create roadpoint_left 1862/728 1902/768 20
+
+aiStrategicArea.create roadpoint_right 1953/577 1993/617 20
+
+aiStrategicArea.create secondline_left2_bu 2183.5/911 2209/936.5 50
+
+aiStrategicArea.create secondline_left_bun 2212.5/798.5 2238/824 150
+
+aiStrategicArea.create secondline_right_bu 2214.5/684 2240/709.5 150
+
+aiStrategicArea.setActive areaOne
+AIStrategicArea.addNeighbour city_tobruk
+aiStrategicArea.addObjectTypeFlag Centre
+aiStrategicArea.addObjectTypeFlag Base
+aiStrategicArea.addObjectTypeFlag LandSpawner
+aiStrategicArea.addObjectTypeFlag SoldierSpawner
+aiStrategicArea.addObjectTypeFlag StrongPoint
+aiStrategicArea.addObjectTypeFlag ControlPoint
+AIStrategicArea.setOrderPosition Tank 2557/826.5
+AIStrategicArea.setOrderPosition Infantry 2557/826.5
+AIStrategicArea.setSide 2
+
+aiStrategicArea.setActive axis_base
+AIStrategicArea.addNeighbour roadpoint_left
+AIStrategicArea.addNeighbour roadpoint_right
+aiStrategicArea.addObjectTypeFlag Centre
+aiStrategicArea.addObjectTypeFlag Base
+aiStrategicArea.addObjectTypeFlag LandSpawner
+aiStrategicArea.addObjectTypeFlag SoldierSpawner
+aiStrategicArea.addObjectTypeFlag StrongPoint
+AIStrategicArea.setOrderPosition Tank 1739/578
+AIStrategicArea.setOrderPosition Infantry 1776/580
+AIStrategicArea.setSide 1
+
+aiStrategicArea.setActive city_tobruk
+AIStrategicArea.addNeighbour secondline_right_bu
+AIStrategicArea.addNeighbour secondline_left_bun
+AIStrategicArea.addNeighbour areaOne
+aiStrategicArea.addObjectTypeFlag Centre
+aiStrategicArea.addObjectTypeFlag Close
+AIStrategicArea.setOrderPosition Tank 2369/806.5
+AIStrategicArea.setOrderPosition Infantry 2369/806.5
+AIStrategicArea.setSide 2
+
+aiStrategicArea.setActive firstline_leftbunke
+AIStrategicArea.addNeighbour secondline_left_bun
+AIStrategicArea.addNeighbour secondline_left2_bu
+AIStrategicArea.addNeighbour firstline_middlebunker
+AIStrategicArea.addNeighbour roadpoint_left
+AIStrategicArea.addNeighbour roadpoint_middle
+aiStrategicArea.addObjectTypeFlag Flank
+aiStrategicArea.addObjectTypeFlag SoldierSpawner
+aiStrategicArea.addObjectTypeFlag StrongPoint
+aiStrategicArea.addObjectTypeFlag ControlPoint
+AIStrategicArea.setOrderPosition Tank 1982/833
+AIStrategicArea.setOrderPosition Infantry 1982/833
+AIStrategicArea.setSide 2
+
+aiStrategicArea.setActive firstline_middlebunker
+AIStrategicArea.addNeighbour secondline_right_bu
+AIStrategicArea.addNeighbour secondline_left_bun
+AIStrategicArea.addNeighbour firstline_rightbunk
+AIStrategicArea.addNeighbour firstline_leftbunke
+AIStrategicArea.addNeighbour roadpoint_right
+AIStrategicArea.addNeighbour roadpoint_left
+AIStrategicArea.addNeighbour roadpoint_middle
+aiStrategicArea.addObjectTypeFlag Centre
+aiStrategicArea.addObjectTypeFlag LandSpawner
+aiStrategicArea.addObjectTypeFlag SoldierSpawner
+aiStrategicArea.addObjectTypeFlag StrongPoint
+aiStrategicArea.addObjectTypeFlag ControlPoint
+AIStrategicArea.setOrderPosition Tank 2039/716
+AIStrategicArea.setOrderPosition Infantry 2039/716
+AIStrategicArea.setSide 2
+
+aiStrategicArea.setActive firstline_right2
+AIStrategicArea.addNeighbour secondline_right_bu
+AIStrategicArea.addNeighbour firstline_rightbunk
+AIStrategicArea.addNeighbour roadpoint_right
+aiStrategicArea.addObjectTypeFlag Flank
+aiStrategicArea.addObjectTypeFlag Remote
+aiStrategicArea.addObjectTypeFlag StrongPoint
+AIStrategicArea.setOrderPosition Tank 2135/575
+AIStrategicArea.setOrderPosition Infantry 2135/575
+AIStrategicArea.setSide 2
+
+aiStrategicArea.setActive firstline_rightbunk
+AIStrategicArea.addNeighbour secondline_right_bu
+AIStrategicArea.addNeighbour firstline_right2
+AIStrategicArea.addNeighbour firstline_middlebunker
+AIStrategicArea.addNeighbour roadpoint_right
+AIStrategicArea.addNeighbour roadpoint_middle
+aiStrategicArea.addObjectTypeFlag Flank
+aiStrategicArea.addObjectTypeFlag SoldierSpawner
+aiStrategicArea.addObjectTypeFlag StrongPoint
+aiStrategicArea.addObjectTypeFlag ControlPoint
+AIStrategicArea.setOrderPosition Tank 2088/615
+AIStrategicArea.setOrderPosition Infantry 2088/615
+AIStrategicArea.setSide 2
+
+aiStrategicArea.setActive roadpoint_left
+AIStrategicArea.addNeighbour axis_base
+rem AIStrategicArea.addNeighbour firstline_leftbunke
+rem AIStrategicArea.addNeighbour firstline_middlebunker
+aiStrategicArea.addObjectTypeFlag Flank
+AIStrategicArea.setOrderPosition Tank 1728/720
+AIStrategicArea.setOrderPosition Infantry 1728/722
+AIStrategicArea.setSide 1
+
+aiStrategicArea.setActive roadpoint_right
+AIStrategicArea.addNeighbour axis_base
+rem AIStrategicArea.addNeighbour firstline_rightbunk
+rem AIStrategicArea.addNeighbour firstline_right2
+rem AIStrategicArea.addNeighbour firstline_middlebunker
+aiStrategicArea.addObjectTypeFlag Flank
+AIStrategicArea.setOrderPosition Tank 1930/524
+AIStrategicArea.setOrderPosition Infantry 1930/524
+AIStrategicArea.setSide 1
+
+aiStrategicArea.setActive secondline_left2_bu
+AIStrategicArea.addNeighbour secondline_left_bun
+AIStrategicArea.addNeighbour firstline_leftbunke
+aiStrategicArea.addObjectTypeFlag Flank
+aiStrategicArea.addObjectTypeFlag Remote
+aiStrategicArea.addObjectTypeFlag StrongPoint
+AIStrategicArea.setOrderPosition Tank 2209/936.5
+AIStrategicArea.setOrderPosition Infantry 2209/936.5
+AIStrategicArea.setSide 2
+
+aiStrategicArea.setActive secondline_left_bun
+AIStrategicArea.addNeighbour secondline_right_bu
+AIStrategicArea.addNeighbour secondline_left2_bu
+AIStrategicArea.addNeighbour firstline_middlebunker
+AIStrategicArea.addNeighbour firstline_leftbunke
+AIStrategicArea.addNeighbour city_tobruk
+aiStrategicArea.addObjectTypeFlag Centre
+aiStrategicArea.addObjectTypeFlag LandSpawner
+aiStrategicArea.addObjectTypeFlag SoldierSpawner
+aiStrategicArea.addObjectTypeFlag StrongPoint
+aiStrategicArea.addObjectTypeFlag ControlPoint
+AIStrategicArea.setOrderPosition Tank 2240/835.5
+AIStrategicArea.setOrderPosition Infantry 2240/835.5
+AIStrategicArea.setSide 2
+
+aiStrategicArea.setActive secondline_right_bu
+AIStrategicArea.addNeighbour secondline_left_bun
+AIStrategicArea.addNeighbour firstline_rightbunk
+AIStrategicArea.addNeighbour firstline_right2
+AIStrategicArea.addNeighbour firstline_middlebunker
+AIStrategicArea.addNeighbour city_tobruk
+aiStrategicArea.addObjectTypeFlag Flank
+aiStrategicArea.addObjectTypeFlag LandSpawner
+aiStrategicArea.addObjectTypeFlag SoldierSpawner
+aiStrategicArea.addObjectTypeFlag StrongPoint
+aiStrategicArea.addObjectTypeFlag ControlPoint
+AIStrategicArea.setOrderPosition Tank 2240/709.5
+AIStrategicArea.setOrderPosition Infantry 2240/709.5
+AIStrategicArea.setSide 2

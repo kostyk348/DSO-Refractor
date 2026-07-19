@@ -1,0 +1,16 @@
+rem *** Plugins ***
+aiTemplatePlugIn.create Cover eu_fenceCover
+aiTemplatePlugIn.coverValue 5.0
+
+aiTemplatePlugIn.create Physical eu_fencePhysical
+
+rem *** AITemplate ***
+aiTemplate.create eu_fence_m1
+aiTemplate.addType ITCover
+aiTemplate.addType ITNoTemperature
+aiTemplate.degeneration 1
+aiTemplate.allowedTimeDiff -1
+aiTemplate.basicTemp 1
+aiTemplate.commonKnowledge 1
+aiTemplate.addPlugIn eu_fenceCover
+aiTemplate.addPlugIn eu_fencePhysical

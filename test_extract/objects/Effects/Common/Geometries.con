@@ -1,0 +1,97 @@
+GeometryTemplate.create StandardMesh muzzSMG_m1
+GeometryTemplate.file muzzSMG_m1
+
+GeometryTemplate.create StandardMesh muzzSG44_m1
+GeometryTemplate.file muzzSG44_m1
+
+GeometryTemplate.create StandardMesh MuzzHeavy_m1
+GeometryTemplate.file MuzzHeavy_m1
+
+GeometryTemplate.create StandardMesh shell792mmHi_m1
+GeometryTemplate.file shell792mmHi_m1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 50
+GeometryTemplate.setLodDistance 2 100
+GeometryTemplate.setLodDistance 3 200
+GeometryTemplate.setLodDistance 4 400
+GeometryTemplate.setLodDistance 5 800
+
+GeometryTemplate.create StandardMesh shell792mmLw_m1
+GeometryTemplate.file shell792mmLw_m1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 50
+GeometryTemplate.setLodDistance 2 100
+GeometryTemplate.setLodDistance 3 200
+GeometryTemplate.setLodDistance 4 400
+GeometryTemplate.setLodDistance 5 800
+
+GeometryTemplate.create StandardMesh Richo_main_m1
+GeometryTemplate.file Richo_main_m1
+
+GeometryTemplate.create StandardMesh Richo_glintlong_m1
+GeometryTemplate.file Richo_glintlong_m1
+
+GeometryTemplate.create StandardMesh Richo_meshDbrown_m1
+GeometryTemplate.file Richo_meshDbrown_m1
+
+GeometryTemplate.create StandardMesh richo_WhiteM_m1
+GeometryTemplate.file richo_WhiteM_m1
+
+GeometryTemplate.create StandardMesh Richo_meshbrown_m1
+GeometryTemplate.file Richo_meshbrown_m1
+
+GeometryTemplate.create StandardMesh Richo_meshbrown1_m1
+GeometryTemplate.file Richo_meshbrown1_m1
+
+GeometryTemplate.create StandardMesh Richo_meshbrown2_m1
+GeometryTemplate.file Richo_meshbrown2_m1
+
+GeometryTemplate.create StandardMesh e_MuzzSG44_m1
+GeometryTemplate.file e_MuzzSG44_m1
+
+GeometryTemplate.create StandardMesh e_MuzzGun_m1
+GeometryTemplate.file e_MuzzGun_m1
+
+GeometryTemplate.create StandardMesh watermesh_m1
+GeometryTemplate.file watermesh_m1
+
+
+GeometryTemplate.create StandardMesh watermesh_streak_m1
+GeometryTemplate.file watermesh_streak_m1
+
+
+GeometryTemplate.create StandardMesh watermesh_streak1_m1
+GeometryTemplate.file watermesh_streak1_m1
+
+
+GeometryTemplate.create StandardMesh watermesh_ring_m1
+GeometryTemplate.file watermesh_ring_m1
+
+
+GeometryTemplate.create StandardMesh Richo_WaterBase_m1
+GeometryTemplate.file Richo_WaterBase_m1
+
+
+GeometryTemplate.create StandardMesh Richo_meshbig_m1
+GeometryTemplate.file Richo_meshbig_m1
+
+
+GeometryTemplate.create StandardMesh Richo_meshmbig_m1
+GeometryTemplate.file Richo_meshmbig_m1
+
+GeometryTemplate.create StandardMesh Richo_meshsbig_m1
+GeometryTemplate.file Richo_meshsbig_m1
+
+GeometryTemplate.create StandardMesh watermesh_pouring_m1
+GeometryTemplate.file watermesh_pouring_m1
+
+GeometryTemplate.create StandardMesh shockwave_m1
+GeometryTemplate.file shockwave_m1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 50
+GeometryTemplate.setLodDistance 2 100
+GeometryTemplate.setLodDistance 3 200
+GeometryTemplate.setLodDistance 4 400
+GeometryTemplate.setLodDistance 5 800
+
+

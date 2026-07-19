@@ -1,0 +1,3 @@
+ObjectTemplate.create SimpleObject euchair_M1
+ObjectTemplate.geometry euchair_M1
+ObjectTemplate.setHasCollisionPhysics 1

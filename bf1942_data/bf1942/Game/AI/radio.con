@@ -1,0 +1,25 @@
+aiRadio.subscribeToMessage RMFirstRadioSpotted
+aiRadio.subscribeToMessage RMArmorSpotted
+aiRadio.subscribeToMessage RMInfantrySpotted
+aiRadio.subscribeToMessage RMUnitSpotted
+aiRadio.subscribeToMessage RMShipSpotted
+aiRadio.subscribeToMessage RMSubmarineSpotted
+aiRadio.subscribeToMessage RMAirplaneSpotted
+aiRadio.subscribeToMessage RMScoutSpotted
+	
+aiRadio.subscribeToMessage RMLocalWait
+aiRadio.subscribeToMessage RMLocalGo
+aiRadio.subscribeToMessage RMLocalFireInHole
+aiRadio.subscribeToMessage RMLocalTakeCover
+aiRadio.subscribeToMessage RMLocalBailOut
+
+aiRadio.subscribeToMessage RMLocalGetIn
+aiRadio.subscribeToMessage RMLocalCheckYourSix
+aiRadio.subscribeToMessage RMLocalAbandonShip
+
+aiRadio.subscribeToMessage RMLocalCoverMe
+aiRadio.subscribeToMessage RMLocalHoldPosition
+aiRadio.subscribeToMessage RMLocalHoldFire
+aiRadio.subscribeToMessage RMLocalFire
+aiRadio.subscribeToMessage RMLocalMedic
+aiRadio.subscribeToMessage RMLocalNeedRepairs

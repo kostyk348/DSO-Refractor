@@ -1,0 +1,19 @@
+
+GeometryTemplate.create StandardMesh supplyde_m1
+GeometryTemplate.file supplyde_m1
+GeometryTemplate.textureFadeMaxDist 70
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 15
+GeometryTemplate.setLodDistance 2 30
+GeometryTemplate.setLodDistance 3 40
+
+GeometryTemplate.create StandardMesh supplyde_m2
+GeometryTemplate.file supplyde_m2
+GeometryTemplate.textureFadeMaxDist 70
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 70
+GeometryTemplate.setLodDistance 2 90
+GeometryTemplate.setLodDistance 3 130
+GeometryTemplate.setLodDistance 4 180
+GeometryTemplate.setLodDistance 5 240
+

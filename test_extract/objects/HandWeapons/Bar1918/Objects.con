@@ -1,0 +1,91 @@
+ObjectTemplate.create HandFireArms Bar1918
+ObjectTemplate.itemIndex 3
+ObjectTemplate.networkableInfo HandFireArmsInfo
+ObjectTemplate.projectileTemplate barProjectile
+rem ObjectTemplate.setTracerTemplate Tracer_Projectile CRD_UNIFORM/1/3/0
+ObjectTemplate.projectilePosition 0/0/0.5
+ObjectTemplate.magSize 20
+ObjectTemplate.numOfMag 6
+ObjectTemplate.magType 0
+ObjectTemplate.reloadtime 4
+ObjectTemplate.roundOfFire 9
+objectTemplate.aiTemplate BarAI
+ObjectTemplate.zoomFov 0.5
+ObjectTemplate.soldierZoomFov 0.6 
+ObjectTemplate.soldierZoomPosition -0.1/0/0
+ObjectTemplate.soldierCameraPosition -0.06/-0.04/-0.07
+ObjectTemplate.addRootSpeed 0
+ObjectTemplate.AmmoType	1
+
+ObjectTemplate.altFireOnce 1
+rem objectTemplate.UseScope 1
+
+Rem *** Deviation Begin *****
+
+ObjectTemplate.velocity 400
+ObjectTemplate.setRecoilForceUp CRD_UNIFORM/0.28/0.32/0
+ObjectTemplate.setRecoilForceLeftRight CRD_UNIFORM/-0.2/0.2/0
+ObjectTemplate.setHasRecoilForce 1
+ObjectTemplate.setGoBackOnRecoil 0
+
+ObjectTemplate.setFireDev 3.0 0.25 0.03
+ObjectTemplate.setDevMod 1.0 0.85 0.5
+ObjectTemplate.setMinDev 0.5
+ObjectTemplate.setTurnDev 0 0 0 0
+ObjectTemplate.setSpeedDev 1.8 0.2 0.2 0.1
+ObjectTemplate.setMiscDev 2.5 2.5 0.1
+`
+Rem *** Deviation  End *****
+
+ObjectTemplate.fireInCameraDof 1
+ObjectTemplate.loadSoundScript Sounds/bar1918.ssc
+ObjectTemplate.GUIIndex 18
+
+ObjectTemplate.createSkeleton animations/Bar1918.ske
+ObjectTemplate.useSkeletonPartAsMain Bar1918
+ObjectTemplate.addTemplate Bar1918Lod
+
+ObjectTemplate.addTemplate e_MuzzSG44
+ObjectTemplate.setInputId -1
+ObjectTemplate.startoneffects 0
+ObjectTemplate.setPosition 0/0.06/0.675
+ObjectTemplate.setRotation 0/0/0
+
+ObjectTemplate.addTemplate e_shell792mm
+ObjectTemplate.setInputId -1
+ObjectTemplate.startoneffects 1
+ObjectTemplate.setPosition 0/0.04/0.28
+ObjectTemplate.setRotation 0/0/0
+
+rem ** SimpleObjects
+
+ObjectTemplate.create SimpleObject Bar1918Trigger
+ObjectTemplate.geometry Bar1918Trigger
+
+ObjectTemplate.create SimpleObject Bar1918Mag
+ObjectTemplate.geometry Bar1918Mag
+
+ObjectTemplate.create SimpleObject Bar1918Plupp
+ObjectTemplate.geometry Bar1918Plupp
+
+ObjectTemplate.create SimpleObject Bar1918Simple
+ObjectTemplate.geometry Shad_Bar1918
+
+ObjectTemplate.create AnimatedBundle Bar1918Complex
+ObjectTemplate.geometry Bar1918
+ObjectTemplate.hasDynamicShadow 1
+ObjectTemplate.createSkeleton animations/Bar1918.ske
+ObjectTemplate.addTemplate Bar1918Trigger
+ObjectTemplate.bindToSkeletonPart trigger
+ObjectTemplate.addTemplate Bar1918Mag
+ObjectTemplate.bindToSkeletonPart Mag
+ObjectTemplate.addTemplate Bar1918Plupp
+ObjectTemplate.bindToSkeletonPart plupp
+
+ObjectTemplate.create LodObject Bar1918Lod
+ObjectTemplate.lodselector HandWeaponLodSelector
+ObjectTemplate.addTemplate Bar1918Complex
+ObjectTemplate.addTemplate Bar1918Simple
+
+
+

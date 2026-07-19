@@ -1,0 +1,39 @@
+GeometryTemplate.create AnimatedMesh flaguk_m1
+GeometryTemplate.setSkin animations/flag.skn
+GeometryTemplate.file flaguk_m1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 100
+
+GeometryTemplate.create AnimatedMesh flagjp_m1
+GeometryTemplate.setSkin animations/flag.skn
+GeometryTemplate.file flagjp_m1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 100
+
+GeometryTemplate.create AnimatedMesh flagso_m1
+GeometryTemplate.setSkin animations/flag.skn
+GeometryTemplate.file flagso_m1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 100
+
+GeometryTemplate.create AnimatedMesh flagge_m1
+GeometryTemplate.setSkin animations/flag.skn
+GeometryTemplate.file flagge_m1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 100
+
+GeometryTemplate.create AnimatedMesh flagus_m1
+GeometryTemplate.setSkin animations/flag.skn
+GeometryTemplate.file flagus_m1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 100
+
+GeometryTemplate.create StandardMesh flagbase_m1
+GeometryTemplate.file flagbase_m1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 3
+GeometryTemplate.setLodDistance 2 10
+GeometryTemplate.setLodDistance 3 20
+GeometryTemplate.setLodDistance 4 30
+GeometryTemplate.setLodDistance 5 100
+

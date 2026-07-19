@@ -1,0 +1,4 @@
+ObjectTemplate.create SimpleObject Afri_bush3_M1
+ObjectTemplate.geometry Afri_bush3_M1
+ObjectTemplate.setHasCollisionPhysics 0
+objectTemplate.cullRadiusScale 3.0

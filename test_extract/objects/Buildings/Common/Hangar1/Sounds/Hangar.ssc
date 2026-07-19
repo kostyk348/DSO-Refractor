@@ -1,0 +1,51 @@
+newPatch
+############
+### Near ###
+############
+load @ROOT/Sound/@RTD/Factory_Rumble.wav
+loop
+minDistance 10
+relativePosition 5/0/0
+randomStartPitch 0.5 / 0.0
+volume .6
+*** Offset Pitch ***
+beginEffect
+	controlDestination Pitch
+	controlSource Default
+	envelope Linear
+	param 0.7
+	param 0
+endEffect
+
+*** Distance Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 20
+	param 70
+	param 1
+	param -1	
+endEffect
+
+
+################
+### Near/Far ###
+################
+load @ROOT/Sound/@RTD/Factory_Rumble.wav
+loop
+minDistance 10
+relativePosition -5/0/0
+randomStartPitch 0.3 / 0.0
+volume .5
+
+*** Distance Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 57
+	param 169
+	param 1
+	param -1	
+endEffect

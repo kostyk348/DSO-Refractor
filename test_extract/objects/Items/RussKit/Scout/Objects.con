@@ -1,0 +1,15 @@
+ObjectTemplate.create Kit Rus_Scout
+ObjectTemplate.geometry Kit_Allies_Scout
+ObjectTemplate.setHasCollisionPhysics 1
+ObjectTemplate.networkableInfo KitInfo
+ObjectTemplate.addTemplate Russ_ScoutHelm
+ObjectTemplate.addTemplate Radio
+ObjectTemplate.addTemplate Russian_hippack
+
+ObjectTemplate.addTemplate No4Sniper
+ObjectTemplate.addTemplate Colt
+ObjectTemplate.addTemplate KnifeAllies
+
+ObjectTemplate.addTemplate Binoculars
+ObjectTemplate.addTemplate GrenadeAllies
+ObjectTemplate.aitemplate Scout

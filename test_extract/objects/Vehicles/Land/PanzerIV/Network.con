@@ -1,0 +1,14 @@
+NetworkableInfo.createNewInfo PanzerIVTurretInfo
+NetworkableInfo.setPredictionMode PMLinear
+
+NetworkableInfo.createNewInfo PanzerIVGunInfo
+NetworkableInfo.setPredictionMode PMLinear
+
+
+NetworkableInfo.createNewInfo PanzerIVEngineInfo
+NetworkableInfo.setPredictionMode PMLinear
+
+NetworkableInfo.createNewInfo PanzerIVBodyInfo
+NetworkableInfo.setPredictionMode PMLinear
+
+

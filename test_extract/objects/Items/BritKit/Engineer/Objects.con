@@ -1,0 +1,25 @@
+ObjectTemplate.create KitPart Bac_pac_Big_us_Bri
+ObjectTemplate.geometry Bacpac_Big_us_Bri
+ObjectTemplate.setBoneName backpack
+ObjectTemplate.setCopyLinksCount 0
+
+
+
+ObjectTemplate.create Kit GB_Engineer
+ObjectTemplate.geometry Kit_Allies_Engineer
+ObjectTemplate.setHasCollisionPhysics 1
+ObjectTemplate.networkableInfo KitInfo
+ObjectTemplate.addTemplate brit_Helmet
+ObjectTemplate.addTemplate british_HipPack
+ObjectTemplate.addTemplate Bac_pac_Big_us_Bri
+
+
+ObjectTemplate.addTemplate No4
+ObjectTemplate.addTemplate Colt
+ObjectTemplate.addTemplate KnifeAllies
+ObjectTemplate.addTemplate RepairPack
+ObjectTemplate.addTemplate Landmine
+ObjectTemplate.addTemplate Detonator
+ObjectTemplate.addTemplate ExpPack
+rem ObjectTemplate.addTemplate GrenadeAllies
+ObjectTemplate.aiTemplate  Engineer

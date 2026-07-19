@@ -1,0 +1,16 @@
+ObjectTemplate.create Kit  Jap_Medic
+ObjectTemplate.geometry  Kit_Axis_Medic
+ObjectTemplate.setHasCollisionPhysics 1
+ObjectTemplate.networkableInfo KitInfo
+ObjectTemplate.addTemplate Medichelm_jap
+ObjectTemplate.addTemplate Jap_Medic_hippack
+
+
+ObjectTemplate.addTemplate MP18
+ObjectTemplate.addTemplate walterP38
+ObjectTemplate.addTemplate KnifeAxis
+
+
+ObjectTemplate.addTemplate MedPack
+ObjectTemplate.addTemplate GrenadeAxis
+ObjectTemplate.aiTemplate  Medic

@@ -1,0 +1,146 @@
+
+GeometryTemplate.create StandardMesh 1p_T34-85_Gunner_m1
+GeometryTemplate.file 1p_Tiger_Gunner_m1
+
+GeometryTemplate.create StandardMesh T34-85_Hull_L1
+GeometryTemplate.file T-34-85_Hull_L1
+GeometryTemplate.hasDynamicShadow 1
+
+GeometryTemplate.create StandardMesh Wreck_T34-85_M1
+GeometryTemplate.file Wreck_T34-85_M1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 150
+GeometryTemplate.setLodDistance 2 200
+GeometryTemplate.setLodDistance 3 300
+GeometryTemplate.setLodDistance 4 400
+GeometryTemplate.setLodDistance 5 500
+
+renderer.beginGlobalCluster T-34-85
+
+GeometryTemplate.create StandardMesh T34-85_Mgun_con_m1
+GeometryTemplate.file PanzerIV_Mgun_con_m1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 10
+GeometryTemplate.setLodDistance 2 15
+GeometryTemplate.setLodDistance 3 30
+GeometryTemplate.setLodDistance 4 50
+GeometryTemplate.setLodDistance 5 100
+
+GeometryTemplate.create StandardMesh T34-85_Mgun_Mount_m1
+GeometryTemplate.file Tank_Mgun_Mount_m1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 10
+GeometryTemplate.setLodDistance 2 15
+GeometryTemplate.setLodDistance 3 30
+GeometryTemplate.setLodDistance 4 50
+GeometryTemplate.setLodDistance 5 100
+
+GeometryTemplate.create StandardMesh T34-85_Canon1_M1
+GeometryTemplate.file T-34-85_Canon1_M1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 20
+GeometryTemplate.setLodDistance 2 60
+GeometryTemplate.setLodDistance 3 100
+
+GeometryTemplate.create StandardMesh T34-85_Canon2_M1
+GeometryTemplate.file T-34-85_Canon2_M1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 20
+GeometryTemplate.setLodDistance 2 60
+GeometryTemplate.setLodDistance 3 100
+
+GeometryTemplate.create StandardMesh T34-85_Hull_M1
+GeometryTemplate.file T-34-85_Hull_M1
+GeometryTemplate.hasDynamicShadow 1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 10
+GeometryTemplate.setLodDistance 2 15
+GeometryTemplate.setLodDistance 3 30
+GeometryTemplate.setLodDistance 4 50
+GeometryTemplate.setLodDistance 5 100
+
+GeometryTemplate.create AnimatedMesh T34-85_TrackL_M1
+GeometryTemplate.file T-34_TrackL_M1
+GeometryTemplate.setSkin animations/T-34_TrackL_M1.skn
+
+GeometryTemplate.create AnimatedMesh T34-85_TrackR_M1
+GeometryTemplate.file T-34_TrackR_M1
+GeometryTemplate.setSkin animations/T-34_TrackR_M1.skn
+
+GeometryTemplate.create StandardMesh T34-85_whe1R_M1
+GeometryTemplate.file T-34-85_whe1R_M1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 20
+GeometryTemplate.setLodDistance 2 60
+GeometryTemplate.setLodDistance 3 100
+
+GeometryTemplate.create StandardMesh T34-85_whe1L_M1
+GeometryTemplate.file T-34-85_whe1L_M1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 20
+GeometryTemplate.setLodDistance 2 60
+GeometryTemplate.setLodDistance 3 100
+
+GeometryTemplate.create StandardMesh T34-85_whe2R_M1
+GeometryTemplate.file T-34-85_whe2R_M1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 20
+GeometryTemplate.setLodDistance 2 60
+GeometryTemplate.setLodDistance 3 100
+
+GeometryTemplate.create StandardMesh T34-85_whe2L_M1
+GeometryTemplate.file T-34-85_whe2L_M1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 20
+GeometryTemplate.setLodDistance 2 60
+GeometryTemplate.setLodDistance 3 100
+
+GeometryTemplate.create StandardMesh T34-85_whe3L_M1
+GeometryTemplate.file T-34-85_whe3L_M1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 20
+GeometryTemplate.setLodDistance 2 60
+GeometryTemplate.setLodDistance 3 100
+
+GeometryTemplate.create StandardMesh T34-85_whe3R_M1
+GeometryTemplate.file T-34-85_whe3R_M1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 20
+GeometryTemplate.setLodDistance 2 60
+GeometryTemplate.setLodDistance 3 100
+
+GeometryTemplate.create StandardMesh T34-85_Hull_Hatch_M1
+GeometryTemplate.file T-34_Hull_Hatch_M1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 20
+GeometryTemplate.setLodDistance 2 60
+GeometryTemplate.setLodDistance 3 100
+
+GeometryTemplate.create StandardMesh T34-85_Tower_M1
+GeometryTemplate.file T-34-85_Tow_M1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 20
+GeometryTemplate.setLodDistance 2 60
+GeometryTemplate.setLodDistance 3 100
+
+GeometryTemplate.create StandardMesh T34-85_Tower_Hatch1_M1
+GeometryTemplate.file T-34-85_Tower_Hatch1_M1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 10
+GeometryTemplate.setLodDistance 2 15
+GeometryTemplate.setLodDistance 3 30
+GeometryTemplate.setLodDistance 4 50
+GeometryTemplate.setLodDistance 5 100
+
+GeometryTemplate.create StandardMesh T34-85_Tower_Hatch2_M1
+GeometryTemplate.file T-34-85_Tower_Hatch2_M1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 10
+GeometryTemplate.setLodDistance 2 15
+GeometryTemplate.setLodDistance 3 30
+GeometryTemplate.setLodDistance 4 50
+GeometryTemplate.setLodDistance 5 100
+
+renderer.endGlobalCluster
+
+

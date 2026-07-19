@@ -1,0 +1,3 @@
+ObjectTemplate.create SimpleObject Eubed_M1
+ObjectTemplate.geometry Eubed_M1
+ObjectTemplate.setHasCollisionPhysics 1

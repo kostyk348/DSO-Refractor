@@ -1,0 +1,5 @@
+GeometryTemplate.create StandardMesh Germ_ScoutHelm_Desert
+GeometryTemplate.file Germ_ScoutHelm_Desert_m1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 30
+GeometryTemplate.setLodDistance 2 100

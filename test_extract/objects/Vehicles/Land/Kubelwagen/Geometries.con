@@ -1,0 +1,61 @@
+renderer.beginGlobalCluster Kubelwagen
+GeometryTemplate.create StandardMesh Kubelwagen_Hull_M1
+GeometryTemplate.file Kubel_Hul_M1
+GeometryTemplate.hasDynamicShadow 1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 10
+GeometryTemplate.setLodDistance 2 15
+GeometryTemplate.setLodDistance 3 30
+GeometryTemplate.setLodDistance 4 50
+GeometryTemplate.setLodDistance 5 100
+
+GeometryTemplate.create StandardMesh Kubelwagen_WheelR_M1
+GeometryTemplate.file Kubel_WheelR_M1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 20
+GeometryTemplate.setLodDistance 2 60
+GeometryTemplate.setLodDistance 3 100
+
+GeometryTemplate.create StandardMesh Kubelwagen_WheelL_M1
+GeometryTemplate.file Kubel_WheelL_M1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 20
+GeometryTemplate.setLodDistance 2 60
+GeometryTemplate.setLodDistance 3 100
+
+
+GeometryTemplate.create StandardMesh Kubelwagen_Steering_M1
+GeometryTemplate.file Kubel_str_M1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 10
+GeometryTemplate.setLodDistance 2 15
+GeometryTemplate.setLodDistance 3 30
+GeometryTemplate.setLodDistance 4 50
+GeometryTemplate.setLodDistance 5 100
+
+GeometryTemplate.create StandardMesh Kubelwagen_1P_Steering_M1
+GeometryTemplate.file 1P_KubelWagen_stwheel_m1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 10
+GeometryTemplate.setLodDistance 2 15
+GeometryTemplate.setLodDistance 3 30
+GeometryTemplate.setLodDistance 4 50
+GeometryTemplate.setLodDistance 5 100
+
+GeometryTemplate.create StandardMesh Kubelwagen_1P_M1
+GeometryTemplate.file 1P_KubelWagen_m1
+renderer.endGlobalCluster
+
+GeometryTemplate.create StandardMesh Kubelwagen_Hull_L1
+GeometryTemplate.file Kubel_Hul_L1
+GeometryTemplate.hasDynamicShadow 1
+
+GeometryTemplate.create StandardMesh Wreck_Kubel_m1
+GeometryTemplate.file Wreck_Kubel_m1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 150
+GeometryTemplate.setLodDistance 2 200
+GeometryTemplate.setLodDistance 3 250
+GeometryTemplate.setLodDistance 4 300
+GeometryTemplate.setLodDistance 5 500
+

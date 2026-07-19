@@ -1,0 +1,16 @@
+NetworkableInfo.createNewInfo WillyEngineInfo
+NetworkableInfo.setPredictionMode PMLinear
+
+NetworkableInfo.createNewInfo WillySteeringInfo
+NetworkableInfo.setPredictionMode PMLinear
+
+NetworkableInfo.createNewInfo WillyBodyInfo
+NetworkableInfo.setPredictionMode PMLinear
+
+NetworkableInfo.createNewInfo WillySpringInfo
+NetworkableInfo.setPredictionMode PMLinear
+
+NetworkableInfo.createNewInfo WillyTurretInfo
+NetworkableInfo.setPredictionMode PMLinear
+
+

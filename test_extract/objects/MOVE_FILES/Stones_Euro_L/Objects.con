@@ -1,0 +1,4 @@
+ObjectTemplate.create SimpleObject Stones_Euro_L_M1
+ObjectTemplate.geometry Stones_Euro_L_M1
+ObjectTemplate.setHasCollisionPhysics 1
+

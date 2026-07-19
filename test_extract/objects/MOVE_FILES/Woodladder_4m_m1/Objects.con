@@ -1,0 +1,5 @@
+ObjectTemplate.create SimpleObject Woodladder_4m_m1
+ObjectTemplate.geometry Woodladder_4m_m1
+ObjectTemplate.setHasCollisionPhysics 1
+ObjectTemplate.addToCollisionGroup c_CGLadders
+ObjectTemplate.addToCollisionGroup c_CGProjectiles

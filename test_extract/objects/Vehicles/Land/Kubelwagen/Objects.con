@@ -1,0 +1,247 @@
+
+
+rem *** Kubelwagen ***
+ObjectTemplate.create PlayerControlObject Kubelwagen
+ObjectTemplate.NameTagOffset 0/-0.2/0
+ObjectTemplate.setNetworkableInfo KubelwagenBodyInfo
+ObjectTemplate.saveInSeparateFile 1
+objectTemplate.cullRadiusScale 2.5
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasDynamicShadow 1
+ObjectTemplate.explosionRadius 8
+ObjectTemplate.explosionDamage 5
+ObjectTemplate.drag 2
+ObjectTemplate.mass 2500
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.damageFromWater 1
+ObjectTemplate.hasArmor 1
+ObjectTemplate.speedMod 2
+ObjectTemplate.hitpoints 50
+ObjectTemplate.maxhitpoints 50
+ObjectTemplate.material 45
+ObjectTemplate.criticalDamage 6
+ObjectTemplate.explosionForceMod 20
+ObjectTemplate.hpLostWhileCriticalDamage 2
+ObjectTemplate.addArmorEffect 25 e_Kubeldamage 0/1.2/0
+ObjectTemplate.addArmorEffect 10 e_KubelFire 0/1.2/0
+ObjectTemplate.addArmorEffect 0 e_scrapmetal_willy 0/0/0
+ObjectTemplate.addArmorEffect 0 e_ExplGas 0/1.2/0
+ObjectTemplate.addArmorEffect -1 e_explWater01 0/0/0
+ObjectTemplate.aiTemplate Kubelwagen
+rem -------------------------------------
+ObjectTemplate.addTemplate lodKubelwagen
+rem -------------------------------------
+ObjectTemplate.setSoldierExitLocation -1.5/0/0 0/0/0
+ObjectTemplate.GUIIndex 71
+ObjectTemplate.setVehicleCategory VCLand
+ObjectTemplate.setVehicleType  VTScoutCar
+
+
+rem *** lodKubelwagen ***
+ObjectTemplate.create LodObject lodKubelwagen
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+rem -------------------------------------
+ObjectTemplate.addTemplate KubelwagenComplex
+ObjectTemplate.addTemplate KubelwagenSimple
+ObjectTemplate.addTemplate KubelwagenWreck
+rem -------------------------------------
+ObjectTemplate.lodSelector KubelwagenLodSelector
+
+
+rem *** KubelwagenComplex ***
+ObjectTemplate.create Bundle KubelwagenComplex
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+rem -------------------------------------
+ObjectTemplate.addTemplate lodKubelwagenCockpit
+ObjectTemplate.addTemplate KubelwagenCamera
+ObjectTemplate.setPosition -0.199/0.5/-0.399
+ObjectTemplate.addTemplate KubelwagenSeat
+ObjectTemplate.setPosition -0.299/0.25/0.1
+ObjectTemplate.addTemplate KubelwagenEntry
+ObjectTemplate.setPosition -0.3/0/1
+ObjectTemplate.addTemplate KubelwagenEntry
+ObjectTemplate.setPosition -0.3/0/-1
+ObjectTemplate.addTemplate KubelwagenPassangerSeat
+ObjectTemplate.setPosition 0.3/0/0
+ObjectTemplate.addTemplate KubelwagenEngine
+ObjectTemplate.addTemplate KubelwagenSteering
+ObjectTemplate.setPosition -0.276/0.368/0.546
+ObjectTemplate.setRotation 0/50/0
+rem -------------------------------------
+
+
+rem *** lodKubelwagenCockpit ***
+ObjectTemplate.create LodObject lodKubelwagenCockpit
+rem -------------------------------------
+ObjectTemplate.addTemplate KubelwagenCockpitExternal
+ObjectTemplate.addTemplate KubelwagenCockpitInternal
+ObjectTemplate.setPosition 0/-0.249/-0.433
+rem -------------------------------------
+ObjectTemplate.lodSelector KubelwagenCockpitSelector
+
+
+rem *** KubelwagenCockpitExternal ***
+ObjectTemplate.create SimpleObject KubelwagenCockpitExternal
+ObjectTemplate.hasDynamicShadow 1
+ObjectTemplate.geometry Kubelwagen_Hull_M1
+
+
+rem *** KubelwagenCockpitInternal ***
+ObjectTemplate.create Bundle KubelwagenCockpitInternal
+ObjectTemplate.geometry Kubelwagen_1P_M1
+
+
+rem *** KubelwagenCockpitSelector ***
+LodSelectorTemplate.create DistCompareSelector KubelwagenCockpitSelector
+LodSelectorTemplate.addLodDistance 1
+LodSelectorTemplate.addLodComparison 0.5
+
+
+rem *** KubelwagenCamera ***
+ObjectTemplate.create Camera KubelwagenCamera
+ObjectTemplate.setMinRotation -110/-40/0
+ObjectTemplate.setMaxRotation 110/10/0
+ObjectTemplate.setPivotPosition 0/0.25/0.3
+ObjectTemplate.setMaxSpeed 90/90/0
+ObjectTemplate.setAcceleration 5000/5000/0
+ObjectTemplate.setInputToYaw c_PIMouseLookX
+ObjectTemplate.setInputToPitch c_PIMouseLookY
+
+
+rem *** KubelwagenSeat ***
+ObjectTemplate.create SeatObject KubelwagenSeat
+ObjectTemplate.seatFlags c_SeatShowFullBodySoldier
+ObjectTemplate.seatFlags c_SeatIsOutside
+
+
+rem *** KubelwagenEntry ***
+ObjectTemplate.create EntryPoint KubelwagenEntry
+ObjectTemplate.setEntryRadius 2
+
+
+rem *** KubelwagenPassangerSeat ***
+ObjectTemplate.create PlayerControlObject KubelwagenPassangerSeat
+ObjectTemplate.setNetworkableInfo KubelwagenBodyInfo
+ObjectTemplate.aiTemplate KubelwagenPassenger
+rem -------------------------------------
+ObjectTemplate.addTemplate KubelwagenEntry2
+ObjectTemplate.setPosition -0.3/0/1
+ObjectTemplate.addTemplate KubelwagenCamera
+ObjectTemplate.setPosition 0/0.4/0
+ObjectTemplate.addTemplate KubelwagenPassengerSeat
+ObjectTemplate.setPosition 0/0.25/0.1
+rem -------------------------------------
+ObjectTemplate.setSoldierExitLocation 1.5/0/0 0/0/0
+ObjectTemplate.GUIIndex 72
+ObjectTemplate.setVehicleCategory VCLand
+ObjectTemplate.setVehicleType  VTScoutCar
+
+
+rem *** KubelwagenEntry2 ***
+ObjectTemplate.create EntryPoint KubelwagenEntry2
+ObjectTemplate.setEntryRadius 1.8
+
+
+rem *** KubelwagenPassengerSeat ***
+ObjectTemplate.create SeatObject KubelwagenPassengerSeat
+ObjectTemplate.seatFlags c_SeatShowFullBodySoldier
+ObjectTemplate.seatFlags c_SeatIsOutside
+ObjectTemplate.seatAnimationUpperBody Ub_PassengerInKubelwagen
+ObjectTemplate.seatAnimationLowerBody Lb_PassengerInKubelwagen
+
+
+rem *** KubelwagenFrontWheelL ***
+ObjectTemplate.create RotationalBundle KubelwagenFrontWheelL
+ObjectTemplate.setNetworkableInfo KubelwagenSteeringInfo
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+rem -------------------------------------
+ObjectTemplate.addTemplate KubelwagenFrontSpringL
+ObjectTemplate.setPosition 0/-0.425/0
+rem -------------------------------------
+ObjectTemplate.setMinRotation -30/0/0
+ObjectTemplate.setMaxRotation 30/0/0
+ObjectTemplate.setMaxSpeed 200/0/0
+ObjectTemplate.setAcceleration 200/0/0
+ObjectTemplate.setInputToYaw c_PIYaw
+ObjectTemplate.setAutomaticReset 1
+
+
+rem *** KubelwagenFrontWheelR ***
+ObjectTemplate.create RotationalBundle KubelwagenFrontWheelR
+ObjectTemplate.setNetworkableInfo KubelwagenSteeringInfo
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+rem -------------------------------------
+ObjectTemplate.addTemplate KubelwagenFrontSpringR
+ObjectTemplate.setPosition 0/-0.425/0
+rem -------------------------------------
+ObjectTemplate.setMinRotation -30/0/0
+ObjectTemplate.setMaxRotation 30/0/0
+ObjectTemplate.setMaxSpeed 200/0/0
+ObjectTemplate.setAcceleration 200/0/0
+ObjectTemplate.setInputToYaw c_PIYaw
+ObjectTemplate.setAutomaticReset 1
+
+
+rem *** KubelwagenSteering ***
+ObjectTemplate.create RotationalBundle KubelwagenSteering
+ObjectTemplate.setNetworkableInfo KubelwagenSteeringInfo
+rem -------------------------------------
+ObjectTemplate.addTemplate lodKubelwagenSteering
+ObjectTemplate.addTemplate KubelwagenSteeringDummy
+rem -------------------------------------
+ObjectTemplate.setMinRotation 0/0/-60
+ObjectTemplate.setMaxRotation 0/0/60
+ObjectTemplate.setMaxSpeed 0/0/480
+ObjectTemplate.setAcceleration 0/0/-240
+ObjectTemplate.setInputToRoll c_PIYaw
+ObjectTemplate.setAutomaticReset 1
+
+
+rem *** lodKubelwagenSteering ***
+ObjectTemplate.create LodObject lodKubelwagenSteering
+rem -------------------------------------
+ObjectTemplate.addTemplate KubelwagenHighRSteering
+ObjectTemplate.addTemplate KubelwagenLowSteering
+rem -------------------------------------
+ObjectTemplate.lodSelector KubelwagenSteeringSelector
+
+
+rem *** KubelwagenHighRSteering ***
+ObjectTemplate.create SimpleObject KubelwagenHighRSteering
+ObjectTemplate.geometry Kubelwagen_1P_Steering_M1
+
+
+rem *** KubelwagenLowSteering ***
+ObjectTemplate.create SimpleObject KubelwagenLowSteering
+ObjectTemplate.geometry Kubelwagen_Steering_M1
+LodSelectorTemplate.create DistanceSelector KubelwagenSteeringSelector
+LodSelectorTemplate.addLodDistance 2
+
+
+rem *** KubelwagenSteeringDummy ***
+ObjectTemplate.create AnimatedBundle KubelwagenSteeringDummy
+ObjectTemplate.addSkeletonIK Bip01_R_Hand 0.2/-0.06/-0.25 -80/60/50
+ObjectTemplate.addSkeletonIK Bip01_L_Hand -0.2/-0.06/-0.25 -80/-60/50
+
+
+rem *** KubelwagenSimple ***
+ObjectTemplate.create SimpleObject KubelwagenSimple
+ObjectTemplate.geometry Kubelwagen_Hull_L1
+
+rem *** KubelwagenWreck ***
+ObjectTemplate.create SimpleObject KubelwagenWreck
+ObjectTemplate.geometry Wreck_Kubel_m1
+
+rem *** KubelwagenLodSelector ***
+LodSelectorTemplate.create DistCompareSelector2 KubelwagenLodSelector
+LodSelectorTemplate.hasDestroyedLod 1
+LodSelectorTemplate.addLodDistance 100

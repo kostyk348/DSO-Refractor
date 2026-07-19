@@ -1,0 +1,37 @@
+
+
+rem *** e_richoSand ***
+ObjectTemplate.create EffectBundle e_richoSand
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.loadSoundScript Sounds/richoSand.ssc
+rem -------------------------------------
+ObjectTemplate.addTemplate Em_richoSand
+ObjectTemplate.setStartOnEffects 1
+ObjectTemplate.timeToLive CRD_NONE/0.5/0/0
+rem -------------------------------------
+
+
+rem *** Em_richoSand ***
+ObjectTemplate.create Emitter Em_richoSand
+ObjectTemplate.template Fx_richoSand
+ObjectTemplate.lodDistance 600
+ObjectTemplate.timeToLive CRD_NONE/0.1/0/0
+ObjectTemplate.intensity CRD_NONE/20/0/0
+ObjectTemplate.positionalSpeedInDof CRD_UNIFORM/0/0.1/1
+ObjectTemplate.positionalSpeedInUp CRD_UNIFORM/2/4/0
+ObjectTemplate.positionalSpeedInRight CRD_UNIFORM/0/0.1/1
+ObjectTemplate.startRotation CRD_NONE/1/0/0
+
+
+rem *** Fx_richoSand ***
+ObjectTemplate.create SpriteParticle Fx_richoSand
+ObjectTemplate.timeToLive CRD_NONE/0.5/0.5/0
+ObjectTemplate.size CRD_NONE/0.3/0/0
+ObjectTemplate.gravityModifier CRD_NONE/2/0/0
+ObjectTemplate.sizeOverTime 0/0.310007|100/1
+ObjectTemplate.texture e_water3
+ObjectTemplate.initRotation CRD_NONE/90/0/0
+ObjectTemplate.XYSizeRatio CRD_UNIFORM/10/12/0
+ObjectTemplate.destBlendMode BMInvSourceAlpha
+ObjectTemplate.XYSizeRatioOverTime 0/0.829997|100/0.410016
+ObjectTemplate.colorRGBAOverTime 0/108/95/70/255|82/135/121/84/198|100/138/125/87/0

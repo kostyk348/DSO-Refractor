@@ -1,0 +1,4 @@
+ObjectTemplate.create SimpleObject mililocker_m1
+ObjectTemplate.geometry mililocker_m1
+ObjectTemplate.aiTemplate mililocker_m1
+ObjectTemplate.setHasCollisionPhysics 1

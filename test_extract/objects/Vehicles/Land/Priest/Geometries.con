@@ -1,0 +1,111 @@
+renderer.beginGlobalCluster Priest
+GeometryTemplate.create StandardMesh Priest_Cannon2_M1
+GeometryTemplate.file Priest_Canon2_M1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 20
+GeometryTemplate.setLodDistance 2 60
+GeometryTemplate.setLodDistance 3 100
+
+GeometryTemplate.create StandardMesh Priest_Hull_M1
+GeometryTemplate.file Priest_Hull_M1
+GeometryTemplate.hasDynamicShadow 1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 10
+GeometryTemplate.setLodDistance 2 15
+GeometryTemplate.setLodDistance 3 30
+GeometryTemplate.setLodDistance 4 50
+GeometryTemplate.setLodDistance 5 100
+
+GeometryTemplate.create AnimatedMesh Priest_TrackL_M1
+GeometryTemplate.file Sherman_TrackL_M1
+GeometryTemplate.setSkin animations/Sherman_TrackL_M1.skn
+
+GeometryTemplate.create AnimatedMesh Priest_TrackR_M1
+GeometryTemplate.file Sherman_TrackR_M1
+GeometryTemplate.setSkin animations/Sherman_TrackR_M1.skn
+
+GeometryTemplate.create StandardMesh Priest_whe1R_M1
+GeometryTemplate.file Sherman_whe1R_M1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 20
+GeometryTemplate.setLodDistance 2 60
+GeometryTemplate.setLodDistance 3 100
+
+GeometryTemplate.create StandardMesh Priest_whe1L_M1
+GeometryTemplate.file Sherman_whe1L_M1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 20
+GeometryTemplate.setLodDistance 2 60
+GeometryTemplate.setLodDistance 3 100
+
+GeometryTemplate.create StandardMesh Priest_whe2R_M1
+GeometryTemplate.file Sherman_whe2R_M1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 20
+GeometryTemplate.setLodDistance 2 60
+GeometryTemplate.setLodDistance 3 100
+
+GeometryTemplate.create StandardMesh Priest_whe2L_M1
+GeometryTemplate.file Sherman_whe2L_M1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 20
+GeometryTemplate.setLodDistance 2 60
+GeometryTemplate.setLodDistance 3 100
+
+GeometryTemplate.create StandardMesh Priest_whe3R_M1
+GeometryTemplate.file Sherman_whe3R_M1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 20
+GeometryTemplate.setLodDistance 2 60
+GeometryTemplate.setLodDistance 3 100
+
+GeometryTemplate.create StandardMesh Priest_whe3L_M1
+GeometryTemplate.file Sherman_whe3L_M1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 20
+GeometryTemplate.setLodDistance 2 60
+GeometryTemplate.setLodDistance 3 100
+
+GeometryTemplate.create StandardMesh Priest_whe4R_M1
+GeometryTemplate.file Sherman_whe4R_M1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 20
+GeometryTemplate.setLodDistance 2 60
+GeometryTemplate.setLodDistance 3 100
+
+GeometryTemplate.create StandardMesh Priest_whe4L_M1
+GeometryTemplate.file Sherman_whe4L_M1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 20
+GeometryTemplate.setLodDistance 2 60
+GeometryTemplate.setLodDistance 3 100
+
+GeometryTemplate.create StandardMesh Priest_Cannon1_M1
+GeometryTemplate.file Priest_Canon1_M1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 20
+GeometryTemplate.setLodDistance 2 60
+GeometryTemplate.setLodDistance 3 100
+
+GeometryTemplate.create StandardMesh 1P_Priest_Driver_M1
+GeometryTemplate.file 1P_Sherman_Gunner_M1
+renderer.endGlobalCluster
+
+GeometryTemplate.create StandardMesh Priest_Hull_L1
+GeometryTemplate.file Priest_Hull_L1
+GeometryTemplate.hasDynamicShadow 1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 200
+GeometryTemplate.setLodDistance 2 250
+GeometryTemplate.setLodDistance 3 400
+GeometryTemplate.setLodDistance 4 600
+GeometryTemplate.setLodDistance 5 800
+
+GeometryTemplate.create StandardMesh Wreck_Priest_M1
+GeometryTemplate.file Wreck_Priest_M1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 150
+GeometryTemplate.setLodDistance 2 200
+GeometryTemplate.setLodDistance 3 250
+GeometryTemplate.setLodDistance 4 300
+GeometryTemplate.setLodDistance 5 500

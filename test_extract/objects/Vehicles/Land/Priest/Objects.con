@@ -1,0 +1,324 @@
+
+
+rem *** Priest ***
+ObjectTemplate.create PlayerControlObject Priest
+ObjectTemplate.NameTagOffset 0/-0.5/0
+ObjectTemplate.setNetworkableInfo PriestBodyInfo
+ObjectTemplate.saveInSeparateFile 1
+rem ObjectTemplate.geometry Priest_Hull_M1
+ObjectTemplate.hasMobilePhysics 1
+objectTemplate.cullRadiusScale 5
+ObjectTemplate.explosionRadius 8
+ObjectTemplate.explosionDamage 5
+ObjectTemplate.drag 2
+ObjectTemplate.mass 25000
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.hasDynamicShadow 1
+ObjectTemplate.hasArmor 1
+ObjectTemplate.speedMod 2
+ObjectTemplate.hitpoints 50
+ObjectTemplate.maxhitpoints 50
+ObjectTemplate.material 45
+ObjectTemplate.criticalDamage 12
+ObjectTemplate.explosionForceMod 13
+ObjectTemplate.hpLostWhileCriticalDamage 2
+ObjectTemplate.addArmorEffect 30 e_PanzDamage 0/1/-1.4
+ObjectTemplate.addArmorEffect 12 e_PanzFire 0/1/-1.4
+ObjectTemplate.addArmorEffect 0 e_ExplGas 0/0/0
+ObjectTemplate.addArmorEffect 0 e_scrapmetal 0/0/0
+ObjectTemplate.addArmorEffect -1 e_explWater01 0/0/0
+ObjectTemplate.damageFromWater 1
+ObjectTemplate.aiTemplate Priest
+rem -------------------------------------
+ObjectTemplate.addTemplate lodPriest
+rem -------------------------------------
+ObjectTemplate.setSoldierExitLocation -2/0.5/0 0/0/0
+ObjectTemplate.GUIIndex 73
+ObjectTemplate.setVehicleCategory VCLand
+ObjectTemplate.setVehicleType  VTArtillery
+
+
+rem *** lodPriest ***
+ObjectTemplate.create LodObject lodPriest
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+rem -------------------------------------
+ObjectTemplate.addTemplate PriestComplex
+ObjectTemplate.addTemplate PriestSimple
+ObjectTemplate.addTemplate PriestWreck
+rem -------------------------------------
+ObjectTemplate.lodSelector PriestLodSelector
+
+
+rem *** PriestComplex ***
+ObjectTemplate.create Bundle PriestComplex
+ObjectTemplate.geometry Priest_Hull_M1
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+rem -------------------------------------
+ObjectTemplate.addTemplate lodPriestCockpit
+ObjectTemplate.setPosition 0.04/1.28/1.18
+ObjectTemplate.addTemplate PriestEntry
+ObjectTemplate.setPosition -0.399/-0.149/1.2
+ObjectTemplate.addTemplate PriestEntry
+ObjectTemplate.setPosition -0.399/-0.149/-1.199
+ObjectTemplate.addTemplate PriestCamera
+ObjectTemplate.setPosition -0.499/1.3/1.3
+ObjectTemplate.addTemplate PriestEngine
+ObjectTemplate.addTemplate Priest_Gunner_PCO1
+ObjectTemplate.setPosition 0/-0.799/0
+rem -------------------------------------
+
+
+rem *** lodPriestCockpit ***
+ObjectTemplate.create LodObject lodPriestCockpit
+rem -------------------------------------
+ObjectTemplate.addTemplate PriestCockpitExternal
+ObjectTemplate.setPosition 0/-0.999/0
+ObjectTemplate.addTemplate PriestCockpitInternal
+ObjectTemplate.setPosition 0/0/0.2
+rem -------------------------------------
+ObjectTemplate.lodSelector PriestcockpitSelector
+
+
+rem *** PriestCockpitExternal ***
+ObjectTemplate.create SimpleObject PriestCockpitExternal
+ObjectTemplate.geometry 1P_Priest_Driver_M1
+
+
+rem *** PriestCockpitInternal ***
+ObjectTemplate.create SimpleObject PriestCockpitInternal
+ObjectTemplate.geometry 1P_Priest_Driver_M1
+
+
+rem *** PriestcockpitSelector ***
+LodSelectorTemplate.create DistCompareSelector PriestcockpitSelector
+LodSelectorTemplate.addLodDistance 5
+LodSelectorTemplate.addLodComparison 0.5
+
+
+rem *** PriestEntry ***
+ObjectTemplate.create EntryPoint PriestEntry
+ObjectTemplate.setEntryRadius 3.8
+
+
+rem *** PriestCamera ***
+ObjectTemplate.create Camera PriestCamera
+ObjectTemplate.setMaxSpeed 0/0/0
+ObjectTemplate.setAcceleration 0/0/0
+ObjectTemplate.setInputToYaw c_PIMouseLookX
+ObjectTemplate.setInputToPitch c_PIMouseLookY
+ObjectTemplate.setInputToRoll 
+
+
+rem *** Priest_TrackL ***
+ObjectTemplate.create AnimatedBundle Priest_TrackL
+ObjectTemplate.geometry Priest_TrackL_M1
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.createSkeleton animations/ShermanTrackL.ske
+ObjectTemplate.setAnimatedTextureSpeed -0.008/0
+rem -------------------------------------
+ObjectTemplate.addTemplate PriestWheelL1
+ObjectTemplate.setPosition -0.949/0.65/-2.599
+ObjectTemplate.addTemplate PriestWheelL2
+ObjectTemplate.setPosition -0.899/0.72/2.43
+ObjectTemplate.addTemplate PriestWheelL3Dummy
+ObjectTemplate.setPosition -0.999/0.12/2.05
+ObjectTemplate.useAsBone 0/-0.12/0
+ObjectTemplate.setBoneOriginOffset 0/-0.5/0
+ObjectTemplate.addTemplate PriestWheelL3
+ObjectTemplate.setPosition -0.999/0.12/1.2
+ObjectTemplate.useAsBone 0/-0.12/0
+ObjectTemplate.setBoneOriginOffset 0/-0.5/0
+ObjectTemplate.addTemplate PriestWheelL3DummySmoke
+ObjectTemplate.setPosition -0.999/0.12/-0.449
+ObjectTemplate.useAsBone 0/-0.12/0
+ObjectTemplate.setBoneOriginOffset 0/-0.5/0
+ObjectTemplate.addTemplate PriestWheelL3Dummy
+ObjectTemplate.setPosition -0.999/0.12/0.3
+ObjectTemplate.useAsBone 0/-0.12/0
+ObjectTemplate.setBoneOriginOffset 0/-0.5/0
+ObjectTemplate.addTemplate PriestWheelL3
+ObjectTemplate.setPosition -0.999/0.12/-1.249
+ObjectTemplate.useAsBone 0/-0.12/0
+ObjectTemplate.setBoneOriginOffset 0/-0.5/0
+ObjectTemplate.addTemplate PriestWheelL3Dummy
+ObjectTemplate.setPosition -0.999/0.12/-2.049
+ObjectTemplate.useAsBone 0/-0.12/0
+ObjectTemplate.setBoneOriginOffset 0/-0.5/0
+ObjectTemplate.addTemplate PriestWheelL4
+ObjectTemplate.setPosition -1.099/0.8/1.15
+ObjectTemplate.addTemplate PriestWheelL4
+ObjectTemplate.setPosition -1.099/0.8/-0.499
+ObjectTemplate.addTemplate PriestWheelL4
+ObjectTemplate.setPosition -1.099/0.8/-2.099
+rem -------------------------------------
+
+
+rem *** PriestWheelL1 ***
+ObjectTemplate.create SimpleObject PriestWheelL1
+ObjectTemplate.geometry Priest_whe1L_M1
+ObjectTemplate.hasResponsePhysics 1
+
+
+rem *** PriestWheelL2 ***
+ObjectTemplate.create SimpleObject PriestWheelL2
+ObjectTemplate.geometry Priest_whe2L_M1
+ObjectTemplate.hasResponsePhysics 1
+
+
+rem *** PriestWheelL4 ***
+ObjectTemplate.create SimpleObject PriestWheelL4
+ObjectTemplate.geometry Priest_whe4L_M1
+ObjectTemplate.hasResponsePhysics 1
+
+
+rem *** Priest_TrackR ***
+ObjectTemplate.create AnimatedBundle Priest_TrackR
+ObjectTemplate.geometry Priest_TrackR_M1
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.createSkeleton animations/ShermanTrackR.ske
+ObjectTemplate.setAnimatedTextureSpeed -0.008/0
+rem -------------------------------------
+ObjectTemplate.addTemplate PriestWheelR1
+ObjectTemplate.setPosition 0.95/0.65/-2.599
+ObjectTemplate.addTemplate PriestWheelR2
+ObjectTemplate.setPosition 0.9/0.72/2.43
+ObjectTemplate.addTemplate PriestWheelR3Dummy
+ObjectTemplate.setPosition 1/0.12/2.05
+ObjectTemplate.useAsBone 0/-0.12/0
+ObjectTemplate.setBoneOriginOffset 0/-0.5/0
+ObjectTemplate.addTemplate PriestWheelR3
+ObjectTemplate.setPosition 1/0.12/1.2
+ObjectTemplate.useAsBone 0/-0.12/0
+ObjectTemplate.setBoneOriginOffset 0/-0.5/0
+ObjectTemplate.addTemplate PriestWheelR3DummySmoke
+ObjectTemplate.setPosition 1/0.12/-0.449
+ObjectTemplate.useAsBone 0/-0.12/0
+ObjectTemplate.setBoneOriginOffset 0/-0.5/0
+ObjectTemplate.addTemplate PriestWheelR3Dummy
+ObjectTemplate.setPosition 1/0.12/0.3
+ObjectTemplate.useAsBone 0/-0.12/0
+ObjectTemplate.setBoneOriginOffset 0/-0.5/0
+ObjectTemplate.addTemplate PriestWheelR3
+ObjectTemplate.setPosition 1/0.12/-1.249
+ObjectTemplate.useAsBone 0/-0.12/0
+ObjectTemplate.setBoneOriginOffset 0/-0.5/0
+ObjectTemplate.addTemplate PriestWheelR3Dummy
+ObjectTemplate.setPosition 1/0.12/-2.049
+ObjectTemplate.useAsBone 0/-0.12/0
+ObjectTemplate.setBoneOriginOffset 0/-0.5/0
+ObjectTemplate.addTemplate PriestWheelR4
+ObjectTemplate.setPosition 1.1/0.8/1.15
+ObjectTemplate.addTemplate PriestWheelR4
+ObjectTemplate.setPosition 1.1/0.8/-0.499
+ObjectTemplate.addTemplate PriestWheelR4
+ObjectTemplate.setPosition 1.1/0.8/-2.099
+rem -------------------------------------
+
+
+rem *** PriestWheelR1 ***
+ObjectTemplate.create SimpleObject PriestWheelR1
+ObjectTemplate.geometry Priest_whe1R_M1
+ObjectTemplate.hasResponsePhysics 1
+
+
+rem *** PriestWheelR2 ***
+ObjectTemplate.create SimpleObject PriestWheelR2
+ObjectTemplate.geometry Priest_whe2R_M1
+ObjectTemplate.hasResponsePhysics 1
+
+
+rem *** PriestWheelR4 ***
+ObjectTemplate.create SimpleObject PriestWheelR4
+ObjectTemplate.geometry Priest_whe4R_M1
+ObjectTemplate.hasResponsePhysics 1
+
+
+rem *** Priest_Gunner_PCO1 ***
+ObjectTemplate.create PlayerControlObject Priest_Gunner_PCO1
+ObjectTemplate.NameTagOffset 0/1.2/0
+ObjectTemplate.setNetworkableInfo PriestBodyInfo
+ObjectTemplate.loadSoundScript Sounds/PriestTrack.ssc
+ObjectTemplate.aiTemplate PriestCannon
+rem -------------------------------------
+ObjectTemplate.addTemplate PriestEntry
+ObjectTemplate.setPosition 0.2/0/0.5
+ObjectTemplate.addTemplate PriestGunBase
+ObjectTemplate.setPosition 0.2/2.44/0.82
+rem ObjectTemplate.addTemplate PriestGunnerSeat
+rem -------------------------------------
+ObjectTemplate.setSoldierExitLocation -2/0/0 180/0/0
+ObjectTemplate.GUIIndex 77
+ObjectTemplate.setVehicleCategory VCLand
+ObjectTemplate.setVehicleType  VTArtillery
+ObjectTemplate.artPos 1
+ObjectTemplate.DirBarXScale 30
+ObjectTemplate.DirBarYScaleAbove 80
+ObjectTemplate.DirBarYScaleBelow 5
+
+
+rem *** PriestGunBase ***
+ObjectTemplate.create RotationalBundle PriestGunBase
+ObjectTemplate.setNetworkableInfo PriestGunInfo
+ObjectTemplate.loadSoundScript Sounds/priestTurret.ssc
+ObjectTemplate.geometry Priest_Cannon1_M1
+rem -------------------------------------
+ObjectTemplate.addTemplate PriestCannonBase
+ObjectTemplate.setPosition 0/-0.049/0
+rem -------------------------------------
+ObjectTemplate.setMinRotation -25/0/0
+ObjectTemplate.setMaxRotation 25/0/0
+ObjectTemplate.setMaxSpeed 20/25/0
+ObjectTemplate.setAcceleration 1000/0/0
+ObjectTemplate.setInputToYaw c_PIMouseLookX
+
+
+rem *** PriestCannonBase ***
+ObjectTemplate.create RotationalBundle PriestCannonBase
+ObjectTemplate.setNetworkableInfo PriestGunInfo
+ObjectTemplate.loadSoundScript Sounds/priestgunbase.ssc
+rem -------------------------------------
+ObjectTemplate.addTemplate PriestCannon
+ObjectTemplate.addTemplate PriestGunnerCamera
+ObjectTemplate.setPosition -0.199/0/0
+rem -------------------------------------
+ObjectTemplate.setMinRotation 0/-80/0
+ObjectTemplate.setMaxRotation 0/5/0
+ObjectTemplate.setMaxSpeed 50/15/0
+ObjectTemplate.setAcceleration 0/1000/0
+ObjectTemplate.setInputToPitch c_PIMouseLookY
+
+
+rem *** PriestGunnerCamera ***
+ObjectTemplate.create Camera PriestGunnerCamera
+ObjectTemplate.setMaxSpeed 0/0/0
+ObjectTemplate.setAcceleration 0/0/0
+ObjectTemplate.setInputToYaw c_PIMouseLookX
+ObjectTemplate.setInputToPitch c_PIMouseLookY
+ObjectTemplate.setInputToRoll 
+ObjectTemplate.CVMExternTrace 1
+
+beginrem
+rem *** PriestGunnerSeat ***
+ObjectTemplate.create SeatObject PriestGunnerSeat
+ObjectTemplate.seatFlags c_SeatIsOutside
+endrem
+
+rem *** PriestSimple ***
+ObjectTemplate.create SimpleObject PriestSimple
+ObjectTemplate.geometry Priest_Hull_L1
+
+
+rem *** PriestWreck ***
+ObjectTemplate.create SimpleObject PriestWreck
+ObjectTemplate.geometry Wreck_Priest_m1
+
+
+rem *** PriestLodSelector ***
+LodSelectorTemplate.create DistCompareSelector2 PriestLodSelector
+LodSelectorTemplate.hasDestroyedLod 1
+LodSelectorTemplate.addLodDistance 100

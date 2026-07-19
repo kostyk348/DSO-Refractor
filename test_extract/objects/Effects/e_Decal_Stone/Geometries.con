@@ -1,0 +1,3 @@
+GeometryTemplate.create StandardMesh Decal_Stone_m1
+GeometryTemplate.file Decal_Stone_m1
+GeometryTemplate.setLodDistance 0 100

@@ -1,0 +1,150 @@
+newPatch
+
+############
+### Ouch ###
+############
+load @ROOT/Sound/@RTD/@Language/WatchYourAim.wav
+minDistance 2
+
+randomStartPitch 0.09 / 0.0
+
+*** Distance Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 8
+	param 30
+	param 1
+	param -1
+endEffect
+
+load @ROOT/Sound/@RTD/@Language/WatchYourAim2.wav
+minDistance 2
+
+randomStartPitch 0.09 / 0.0
+
+*** Distance Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 8
+	param 30
+	param 1
+	param -1
+endEffect
+
+load @ROOT/Sound/@RTD/@Language/WatchYourAim3.wav
+minDistance 2
+
+randomStartPitch 0.09 / 0.0
+
+*** Distance Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 8
+	param 30
+	param 1
+	param -1
+endEffect
+
+load @ROOT/Sound/@RTD/@Language/WatchYourAim4.wav
+minDistance 2
+
+randomStartPitch 0.09 / 0.0
+
+*** Distance Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 8
+	param 30
+	param 1
+	param -1
+endEffect
+
+load @ROOT/Sound/@RTD/@Language/WatchYourAim5.wav
+minDistance 2
+
+randomStartPitch 0.09 / 0.0
+
+*** Distance Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 8
+	param 30
+	param 1
+	param -1
+endEffect
+
+load @ROOT/Sound/@RTD/@Language/WatchYourAim6.wav
+minDistance 2
+
+randomStartPitch 0.09 / 0.0
+
+*** Distance Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 8
+	param 30
+	param 1
+	param -1
+endEffect
+
+load @ROOT/Sound/@RTD/@Language/WatchYourAim7.wav
+minDistance 2
+
+randomStartPitch 0.09 / 0.0
+
+*** Distance Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 8
+	param 30
+	param 1
+	param -1
+endEffect
+
+load @ROOT/Sound/@RTD/@Language/WatchYourAim8.wav
+minDistance 2
+
+randomStartPitch 0.09 / 0.0
+
+*** Distance Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 8
+	param 30
+	param 1
+	param -1
+endEffect
+
+load @ROOT/Sound/@RTD/@Language/WatchYourAim9.wav
+minDistance 2
+
+randomStartPitch 0.09 / 0.0
+
+*** Distance Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 8
+	param 30
+	param 1
+	param -1
+endEffect
+
+randomPlay 1

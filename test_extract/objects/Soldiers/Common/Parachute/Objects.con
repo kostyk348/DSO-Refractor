@@ -1,0 +1,8 @@
+ObjectTemplate.create AnimatedBundle Parachute
+ObjectTemplate.name Parachute
+ObjectTemplate.geometry Parachute
+ObjectTemplate.createSkeleton animations/Parachute.ske
+ObjectTemplate.hasDynamicShadow 1
+
+
+

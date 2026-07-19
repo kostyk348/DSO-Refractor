@@ -1,0 +1,36 @@
+
+GeometryTemplate.create StandardMesh BackPack
+GeometryTemplate.file BackPack
+
+GeometryTemplate.create StandardMesh HipPack
+GeometryTemplate.file HipPack
+
+GeometryTemplate.create StandardMesh Soldier/USHelmet
+GeometryTemplate.file USHelmet
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 30
+GeometryTemplate.setLodDistance 2 100
+
+GeometryTemplate.create StandardMesh Soldier/GerHelmet
+GeometryTemplate.file GerHelmet
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 30
+GeometryTemplate.setLodDistance 2 100
+
+GeometryTemplate.create StandardMesh Soldier/BritHelmet
+GeometryTemplate.file BritHelmet
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 30
+GeometryTemplate.setLodDistance 2 100
+
+GeometryTemplate.create StandardMesh Soldier/RussHelmet
+GeometryTemplate.file RussHelmet
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 30
+GeometryTemplate.setLodDistance 2 100
+
+GeometryTemplate.create StandardMesh Soldier/JapHelmet
+GeometryTemplate.file JapHelmet
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 30
+GeometryTemplate.setLodDistance 2 100

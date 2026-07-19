@@ -1,0 +1,4 @@
+ObjectTemplate.create SimpleObject rh_tsp_M1
+ObjectTemplate.geometry rh_tsp_M1
+ObjectTemplate.setHasCollisionPhysics 1
+

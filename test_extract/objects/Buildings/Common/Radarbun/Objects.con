@@ -1,0 +1,19 @@
+ObjectTemplate.create Bundle radarbun_M1
+ObjectTemplate.geometry radarbun_M1
+ObjectTemplate.setHasCollisionPhysics 1
+ObjectTemplate.aiTemplate radarbun_M1
+ObjectTemplate.loadSoundScript Sounds/Radarbun.ssc
+rem ---------------------------------------
+ObjectTemplate.addTemplate radarbun_tower_M1
+ObjectTemplate.setPosition -0.004/4.75/0.116
+rem ---------------------------------------
+
+ObjectTemplate.create RotationalBundle radarbun_tower_M1
+ObjectTemplate.geometry radarbun_tow_M1
+ObjectTemplate.setHasCollisionPhysics 1
+objectTemplate.loadSoundScript Sounds/Radarbun_tow.ssc
+ObjectTemplate.setMinRotation 0/0/0
+ObjectTemplate.setMaxRotation 0/0/0
+ObjectTemplate.setMaxSpeed 110/0/0
+ObjectTemplate.setAcceleration 10/0/0
+ObjectTemplate.setContinousRotationSpeed 15/0/

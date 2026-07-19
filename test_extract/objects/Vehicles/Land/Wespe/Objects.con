@@ -1,0 +1,335 @@
+
+
+rem *** Wespe ***
+ObjectTemplate.create PlayerControlObject Wespe
+ObjectTemplate.NameTagOffset 0/-0.5/0
+ObjectTemplate.setNetworkableInfo WespeBodyInfo
+ObjectTemplate.saveInSeparateFile 1
+objectTemplate.cullRadiusScale 5
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasDynamicShadow 1
+ObjectTemplate.explosionRadius 8
+ObjectTemplate.explosionDamage 5
+ObjectTemplate.drag 8
+ObjectTemplate.mass 25000
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.hasArmor 1
+ObjectTemplate.hitpoints 50
+ObjectTemplate.maxhitpoints 50
+ObjectTemplate.material 45
+ObjectTemplate.criticalDamage 12
+ObjectTemplate.hpLostWhileCriticalDamage 2
+ObjectTemplate.explosionForceMod 13
+ObjectTemplate.addArmorEffect 30 e_WespeDamage 0/0.2/0.5
+ObjectTemplate.addArmorEffect 15 e_WespeFire 0/0.6/1
+ObjectTemplate.addArmorEffect 0 e_ExplGas 0/0/0
+ObjectTemplate.addArmorEffect 0 e_scrapmetal 0/0/0
+ObjectTemplate.addArmorEffect -1 e_explWater01 0/0/0
+ObjectTemplate.damageFromWater 1
+ObjectTemplate.aiTemplate Wespe
+rem -------------------------------------
+ObjectTemplate.addTemplate lodWespe
+rem -------------------------------------
+ObjectTemplate.setSoldierExitLocation -2/0.5/0 0/0/0
+ObjectTemplate.GUIIndex 76
+ObjectTemplate.setVehicleCategory VCLand
+ObjectTemplate.setVehicleType  VTArtillery
+
+
+rem *** lodWespe ***
+ObjectTemplate.create LodObject lodWespe
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+rem -------------------------------------
+ObjectTemplate.addTemplate WespeComplex
+ObjectTemplate.addTemplate WespeSimple
+ObjectTemplate.addTemplate WespeWreck
+rem -------------------------------------
+ObjectTemplate.lodSelector WespeLodSelector
+
+
+rem *** WespeComplex ***
+ObjectTemplate.create Bundle WespeComplex
+ObjectTemplate.loadSoundScript Sounds/WespeTrack.ssc
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+rem -------------------------------------
+ObjectTemplate.addTemplate lodWespeCockpit
+ObjectTemplate.addTemplate WespeEntry
+ObjectTemplate.setPosition -0.299/0/1.2
+ObjectTemplate.addTemplate WespeEntry
+ObjectTemplate.setPosition -0.299/0/-1.199
+ObjectTemplate.addTemplate WespeEngine
+ObjectTemplate.setPosition 0/0/-0.449
+ObjectTemplate.addTemplate WespeDoor
+ObjectTemplate.setPosition -0.172/0.605/0.715
+ObjectTemplate.addTemplate WespeCamera
+ObjectTemplate.setPosition -0.169/0.49/0.955
+ObjectTemplate.addTemplate Wespe_Gunner_PCO1
+ObjectTemplate.setPosition 0/0/-0.449
+rem -------------------------------------
+
+
+rem *** lodWespeCockpit ***
+ObjectTemplate.create LodObject lodWespeCockpit
+rem -------------------------------------
+ObjectTemplate.addTemplate WespeCockpitExternal
+ObjectTemplate.addTemplate WespeCockpitInternal
+ObjectTemplate.setPosition 0/-0.792/-0.399
+rem -------------------------------------
+ObjectTemplate.lodSelector WespeCockpitSelector
+
+
+rem *** WespeCockpitExternal ***
+ObjectTemplate.create SimpleObject WespeCockpitExternal
+ObjectTemplate.geometry Wespe_Hull_M1
+
+
+rem *** WespeCockpitInternal ***
+ObjectTemplate.create SimpleObject WespeCockpitInternal
+ObjectTemplate.geometry 1P_Wespe_Driver_M1
+
+
+rem *** WespeCockpitSelector ***
+LodSelectorTemplate.create DistCompareSelector WespeCockpitSelector
+LodSelectorTemplate.addLodDistance 1.2
+LodSelectorTemplate.addLodComparison 0.5
+
+
+rem *** WespeEntry ***
+ObjectTemplate.create EntryPoint WespeEntry
+ObjectTemplate.setEntryRadius 2.5
+
+
+rem *** WespeTrackL ***
+ObjectTemplate.create AnimatedBundle WespeTrackL
+ObjectTemplate.geometry Wespe_Track_L_M1
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.createSkeleton animations/Wespe_Track_L_M1.ske
+ObjectTemplate.setAnimatedTextureSpeed -0.008/0
+rem -------------------------------------
+ObjectTemplate.addTemplate WespeWheel1L
+ObjectTemplate.setPosition -0.869/-0.225/2.242
+ObjectTemplate.useAsBone 0/0/0
+ObjectTemplate.setBoneOriginOffset 0/0/0
+ObjectTemplate.addTemplate WespeWheel2L
+ObjectTemplate.setPosition -0.893/-0.799/1.482
+ObjectTemplate.useAsBone 0/-0.1/0
+ObjectTemplate.setBoneOriginOffset 0/0/0
+ObjectTemplate.addTemplate WespeWheel2LDummy
+ObjectTemplate.setPosition -0.893/-0.784/0.858
+ObjectTemplate.useAsBone 0/-0.1/0
+ObjectTemplate.setBoneOriginOffset 0/0/0
+ObjectTemplate.addTemplate WespeWheel2LSmoke
+ObjectTemplate.setPosition -0.893/-0.769/0.234
+ObjectTemplate.useAsBone 0/-0.1/0
+ObjectTemplate.setBoneOriginOffset 0/0/0
+ObjectTemplate.addTemplate WespeWheel2LDummy
+ObjectTemplate.setPosition -0.893/-0.754/-0.347
+ObjectTemplate.useAsBone 0/-0.1/0
+ObjectTemplate.setBoneOriginOffset 0/0/0
+ObjectTemplate.addTemplate WespeWheel2L
+ObjectTemplate.setPosition -0.893/-0.739/-0.971
+ObjectTemplate.useAsBone 0/-0.1/0
+ObjectTemplate.setBoneOriginOffset 0/0/0
+ObjectTemplate.addTemplate WespeWheel3L
+ObjectTemplate.setPosition -0.869/0.039/1.365
+ObjectTemplate.useAsBone 0/0/0
+ObjectTemplate.setBoneOriginOffset 0/0/0
+ObjectTemplate.addTemplate WespeWheel3L
+ObjectTemplate.setPosition -0.869/0.039/0.351
+ObjectTemplate.useAsBone 0/0/0
+ObjectTemplate.setBoneOriginOffset 0/0/0
+ObjectTemplate.addTemplate WespeWheel3L
+ObjectTemplate.setPosition -0.869/0.039/-0.698
+ObjectTemplate.useAsBone 0/0/0
+ObjectTemplate.setBoneOriginOffset 0/0/0
+ObjectTemplate.addTemplate WespeWheel4L
+ObjectTemplate.setPosition -0.869/-0.23/-1.556
+ObjectTemplate.useAsBone 0/0/0
+ObjectTemplate.setBoneOriginOffset 0/0/0
+rem -------------------------------------
+
+
+rem *** WespeWheel1L ***
+ObjectTemplate.create SimpleObject WespeWheel1L
+ObjectTemplate.geometry Wespe_wheel1L_M1
+ObjectTemplate.hasResponsePhysics 1
+
+
+rem *** WespeWheel3L ***
+ObjectTemplate.create SimpleObject WespeWheel3L
+ObjectTemplate.geometry Wespe_wheel3R_M1
+ObjectTemplate.hasResponsePhysics 1
+
+
+rem *** WespeWheel4L ***
+ObjectTemplate.create SimpleObject WespeWheel4L
+ObjectTemplate.geometry Wespe_wheel4L_M1
+ObjectTemplate.hasResponsePhysics 1
+
+
+rem *** WespeTrackR ***
+ObjectTemplate.create AnimatedBundle WespeTrackR
+ObjectTemplate.geometry Wespe_Track_R_M1
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.createSkeleton animations/Wespe_Track_R_M1.ske
+ObjectTemplate.setAnimatedTextureSpeed -0.008/0
+rem -------------------------------------
+ObjectTemplate.addTemplate WespeWheel1R
+ObjectTemplate.setPosition 0.873/-0.225/2.242
+ObjectTemplate.useAsBone 0/0/0
+ObjectTemplate.setBoneOriginOffset 0/0/0
+ObjectTemplate.addTemplate WespeWheel2R
+ObjectTemplate.setPosition 0.897/-0.799/1.482
+ObjectTemplate.useAsBone 0/-0.1/0
+ObjectTemplate.setBoneOriginOffset 0/0/0
+ObjectTemplate.addTemplate WespeWheel2RDummy
+ObjectTemplate.setPosition 0.897/-0.784/0.858
+ObjectTemplate.useAsBone 0/-0.1/0
+ObjectTemplate.setBoneOriginOffset 0/0/0
+ObjectTemplate.addTemplate WespeWheel2RSmoke
+ObjectTemplate.setPosition 0.897/-0.769/0.234
+ObjectTemplate.useAsBone 0/-0.1/0
+ObjectTemplate.setBoneOriginOffset 0/0/0
+ObjectTemplate.addTemplate WespeWheel2RDummy
+ObjectTemplate.setPosition 0.897/-0.754/-0.347
+ObjectTemplate.useAsBone 0/-0.1/0
+ObjectTemplate.setBoneOriginOffset 0/0/0
+ObjectTemplate.addTemplate WespeWheel2R
+ObjectTemplate.setPosition 0.897/-0.739/-0.971
+ObjectTemplate.useAsBone 0/-0.1/0
+ObjectTemplate.setBoneOriginOffset 0/0/0
+ObjectTemplate.addTemplate WespeWheel3R
+ObjectTemplate.setPosition 0.873/0.039/1.365
+ObjectTemplate.useAsBone 0/0/0
+ObjectTemplate.setBoneOriginOffset 0/0/0
+ObjectTemplate.addTemplate WespeWheel3R
+ObjectTemplate.setPosition 0.873/0.039/0.351
+ObjectTemplate.useAsBone 0/0/0
+ObjectTemplate.setBoneOriginOffset 0/0/0
+ObjectTemplate.addTemplate WespeWheel3R
+ObjectTemplate.setPosition 0.873/0.039/-0.698
+ObjectTemplate.useAsBone 0/0/0
+ObjectTemplate.setBoneOriginOffset 0/0/0
+ObjectTemplate.addTemplate WespeWheel4R
+ObjectTemplate.setPosition 0.873/-0.23/-1.556
+ObjectTemplate.useAsBone 0/0/0
+ObjectTemplate.setBoneOriginOffset 0/0/0
+rem -------------------------------------
+
+
+rem *** WespeWheel1R ***
+ObjectTemplate.create SimpleObject WespeWheel1R
+ObjectTemplate.geometry Wespe_wheel1R_M1
+ObjectTemplate.hasResponsePhysics 1
+
+
+rem *** WespeWheel3R ***
+ObjectTemplate.create SimpleObject WespeWheel3R
+ObjectTemplate.geometry Wespe_wheel3L_M1
+ObjectTemplate.hasResponsePhysics 1
+
+
+rem *** WespeWheel4R ***
+ObjectTemplate.create SimpleObject WespeWheel4R
+ObjectTemplate.geometry Wespe_wheel4R_M1
+ObjectTemplate.hasResponsePhysics 1
+
+
+rem *** WespeDoor ***
+ObjectTemplate.create SimpleObject WespeDoor
+ObjectTemplate.geometry Wespe_Door_M1
+ObjectTemplate.hasResponsePhysics 1
+
+
+rem *** WespeCamera ***
+ObjectTemplate.create Camera WespeCamera
+ObjectTemplate.setMaxSpeed 0/0/0
+ObjectTemplate.setAcceleration 0/0/0
+ObjectTemplate.setInputToYaw c_PIMouseLookX
+ObjectTemplate.setInputToPitch c_PIMouseLookY
+
+rem *** Wespe_Gunner_PCO1 ***
+ObjectTemplate.create PlayerControlObject Wespe_Gunner_PCO1
+ObjectTemplate.NameTagOffset 0/-0.1/0
+ObjectTemplate.setNetworkableInfo WespeBodyInfo
+ObjectTemplate.aiTemplate WespeCannon
+rem -------------------------------------
+ObjectTemplate.addTemplate WespeEntry
+ObjectTemplate.setPosition 0.4/0/0.5
+ObjectTemplate.addTemplate WespeTower
+ObjectTemplate.setPosition 0/0.585/-0.202
+rem ObjectTemplate.addTemplate WespeGunnerSeat
+rem -------------------------------------
+ObjectTemplate.setSoldierExitLocation -2/0/0 180/0/0
+ObjectTemplate.GUIIndex 78
+ObjectTemplate.setVehicleCategory VCLand
+ObjectTemplate.setVehicleType  VTArtillery
+ObjectTemplate.artPos 1
+ObjectTemplate.DirBarXScale 20
+ObjectTemplate.DirBarYScaleAbove 20
+ObjectTemplate.DirBarYScaleBelow 5
+
+rem *** WespeTower ***
+ObjectTemplate.create RotationalBundle WespeTower
+ObjectTemplate.setNetworkableInfo WespeTurretInfo
+ObjectTemplate.loadSoundScript Sounds/wespeTurret.ssc
+ObjectTemplate.geometry Wespe_Tower_M1
+ObjectTemplate.hasCollisionPhysics 1
+rem -------------------------------------
+ObjectTemplate.addTemplate WespeGunBase
+ObjectTemplate.setPosition 0/0.351/0
+rem -------------------------------------
+ObjectTemplate.setMinRotation -20/0/0
+ObjectTemplate.setMaxRotation 20/0/0
+ObjectTemplate.setMaxSpeed 20/25/0
+ObjectTemplate.setAcceleration 500/0/0
+ObjectTemplate.setInputToYaw c_PIMouseLookX
+
+rem *** WespeGunBase ***
+ObjectTemplate.create RotationalBundle WespeGunBase
+ObjectTemplate.setNetworkableInfo WespeGunInfo
+ObjectTemplate.loadSoundScript Sounds/wespegunbase.ssc
+rem -------------------------------------
+ObjectTemplate.addTemplate WespeCannon
+ObjectTemplate.addTemplate WespeGunnerCamera
+ObjectTemplate.setPosition -0.299/0.05/0.9
+rem -------------------------------------
+ObjectTemplate.setMinRotation 0/-20/0
+ObjectTemplate.setMaxRotation 0/5/0
+ObjectTemplate.setMaxSpeed 20/15/0
+ObjectTemplate.setAcceleration 0/500/0
+ObjectTemplate.setInputToPitch c_PIMouseLookY
+
+rem *** WespeGunnerCamera ***
+ObjectTemplate.create Camera WespeGunnerCamera
+ObjectTemplate.setMaxSpeed 0/0/0
+ObjectTemplate.setAcceleration 0/0/0
+ObjectTemplate.setInputToYaw c_PIMouseLookX
+ObjectTemplate.setInputToPitch c_PIMouseLookY
+ObjectTemplate.CVMExternTrace 1
+
+beginrem
+rem *** WespeGunnerSeat ***
+ObjectTemplate.create SeatObject WespeGunnerSeat
+ObjectTemplate.seatFlags c_SeatIsOutside
+endrem
+
+rem *** WespeSimple ***
+ObjectTemplate.create SimpleObject WespeSimple
+ObjectTemplate.geometry Wespe_Hull_L1
+
+
+rem *** WespeWreck ***
+ObjectTemplate.create SimpleObject WespeWreck
+ObjectTemplate.geometry Wreck_Wespe_m1
+
+
+rem *** WespeLodSelector ***
+LodSelectorTemplate.create DistCompareSelector2 WespeLodSelector
+LodSelectorTemplate.hasDestroyedLod 1
+LodSelectorTemplate.addLodDistance 100

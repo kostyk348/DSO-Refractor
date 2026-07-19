@@ -1,0 +1,39 @@
+ObjectTemplate.create KitPart Russ_Helmet
+ObjectTemplate.geometry Russ_Helmet
+ObjectTemplate.setBoneName A
+ObjectTemplate.setCopyLinksCount 0
+
+ObjectTemplate.create KitPart Russian_hippack
+ObjectTemplate.geometry Russian_hippack
+ObjectTemplate.setBoneName HipPack
+ObjectTemplate.setCopyLinksCount 0
+
+ObjectTemplate.create KitPart BacpacBig_rus
+ObjectTemplate.geometry BacpacBig_rus
+ObjectTemplate.setBoneName backpack
+ObjectTemplate.setCopyLinksCount 0
+
+ObjectTemplate.create KitPart Russian_Medic_hippack
+ObjectTemplate.geometry Russian_Medic_hippack
+ObjectTemplate.setBoneName hippack
+ObjectTemplate.setCopyLinksCount 0
+
+ObjectTemplate.create KitPart medichelm_Russ
+ObjectTemplate.geometry medichelm_Russ
+ObjectTemplate.setBoneName A
+ObjectTemplate.setCopyLinksCount 0
+
+ObjectTemplate.create KitPart Bacpac_rus
+ObjectTemplate.geometry Bacpac_rus
+ObjectTemplate.setBoneName backpack
+ObjectTemplate.setCopyLinksCount 0
+
+ObjectTemplate.create KitPart Russ_ScoutHelm
+ObjectTemplate.geometry Russ_ScoutHelm
+ObjectTemplate.setBoneName A
+ObjectTemplate.setCopyLinksCount 0
+
+ObjectTemplate.create KitPart Radio
+ObjectTemplate.geometry Radio
+ObjectTemplate.setBoneName backpack
+ObjectTemplate.setCopyLinksCount 0

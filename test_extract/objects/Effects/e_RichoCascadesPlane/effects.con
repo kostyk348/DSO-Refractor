@@ -1,0 +1,28 @@
+rem
+rem *** e_RichoCascadesPlane ***
+rem
+ObjectTemplate.create EffectBundle e_RichoCascadesPlane
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.loadSoundScript Sounds/CascadesMetal.ssc
+rem -------------------------------------
+ObjectTemplate.addTemplate em_RichoCascadesPlane
+ObjectTemplate.timeToLive CRD_NONE/0.1/0/0
+rem -------------------------------------
+
+rem *** Em_RichoCascadesPlane **
+ObjectTemplate.create Emitter Em_RichoCascadesPlane
+ObjectTemplate.template Gibb_Mroof30_nc_m1
+ObjectTemplate.addEmitterSpeed 1
+ObjectTemplate.emitterSpeedScale 1
+ObjectTemplate.startProbability 1
+ObjectTemplate.lodDistance 600
+ObjectTemplate.timeToLive CRD_NONE/0.1/0/0
+ObjectTemplate.intensity CRD_UNIFORM/11/0/0
+ObjectTemplate.relativePositionInDof CRD_NONE/0.1/0/0
+ObjectTemplate.positionalSpeedInDof CRD_UNIFORM/5/-5/0
+ObjectTemplate.positionalSpeedInUp CRD_UNIFORM/8/4/0
+ObjectTemplate.positionalSpeedInRight CRD_UNIFORM/5/-5/0
+ObjectTemplate.rotationalSpeedInDof CRD_UNIFORM/10/0/0
+ObjectTemplate.rotationalSpeedInUp CRD_UNIFORM/1/10/0
+ObjectTemplate.rotationalSpeedInRight CRD_UNIFORM/1/50/0
+ObjectTemplate.startRotation CRD_UNIFORM/1/20/0

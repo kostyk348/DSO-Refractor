@@ -1,0 +1,9 @@
+
+rem *** e_collision_Soldier ***
+ObjectTemplate.create EffectBundle e_collision_Soldier
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.loadSoundScript Sounds/e_Collision_Soldier.ssc
+rem -------------------------------------
+ObjectTemplate.addTemplate Em_Silent
+ObjectTemplate.timeToLive CRD_NONE/1.8/0/0
+rem -------------------------------------

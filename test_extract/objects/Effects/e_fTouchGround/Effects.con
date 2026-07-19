@@ -1,0 +1,10 @@
+
+
+rem *** e_fTouchGround ***
+ObjectTemplate.create EffectBundle e_fTouchGround
+ObjectTemplate.saveInSeparateFile 1
+
+rem *** Em_Silent ***
+ObjectTemplate.addTemplate Em_Silent
+ObjectTemplate.timeToLive CRD_NONE/1.8/0/0
+

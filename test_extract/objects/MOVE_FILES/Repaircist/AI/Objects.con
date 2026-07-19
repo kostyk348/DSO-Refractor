@@ -1,0 +1,18 @@
+rem *** Plugins ***
+aiTemplatePlugIn.create Cover RepaircistCover
+aiTemplatePlugIn.coverValue 15.0
+
+aiTemplatePlugIn.create Physical RepaircistPhysical
+
+rem *** AITemplate ***
+aiTemplate.create repaircist_m1
+aiTemplate.addType ITCover
+aiTemplate.addType ITNoTemperature
+aiTemplate.degeneration 1
+aiTemplate.allowedTimeDiff -1
+aiTemplate.basicTemp 1
+aiTemplate.commonKnowledge 1
+aiTemplate.addPlugIn RepaircistCover
+aiTemplate.addPlugIn RepaircistPhysical
+
+

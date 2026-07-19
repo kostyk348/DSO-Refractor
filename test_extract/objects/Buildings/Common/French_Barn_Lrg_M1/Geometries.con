@@ -1,0 +1,18 @@
+GeometryTemplate.create StandardMesh French_Barn_Lrg_m1
+GeometryTemplate.file French_Barn_Lrg_m1
+GeometryTemplate.textureFadeMaxDist 100
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 20
+GeometryTemplate.setLodDistance 2 40
+GeometryTemplate.setLodDistance 3 60
+GeometryTemplate.setLodDistance 4 80
+
+GeometryTemplate.create StandardMesh French_Barn_Lrg_m2
+GeometryTemplate.file French_Barn_Lrg_m2
+GeometryTemplate.textureFadeMaxDist 100
+GeometryTemplate.setLodDistance 0 100
+GeometryTemplate.setLodDistance 1 150
+GeometryTemplate.setLodDistance 2 200
+GeometryTemplate.setLodDistance 3 250
+GeometryTemplate.setLodDistance 4 450
+GeometryTemplate.setLodDistance 5 600

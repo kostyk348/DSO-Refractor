@@ -1,0 +1,75 @@
+ObjectTemplate.create Bundle afr_house1_ste_m1
+ObjectTemplate.setHasCollisionPhysics 1
+objectTemplate.aiTemplate afr_house1_ste_m1
+ObjectTemplate.addTemplate lodafr_house1_ste
+
+
+
+LodSelectorTemplate.create DistanceSelector afr_house1_steSelector
+LodSelectorTemplate.addLodDistance 70
+ObjectTemplate.create LodObject lodafr_house1_ste
+ObjectTemplate.lodselector afr_house1_steSelector
+ObjectTemplate.addTemplate afr_house1_steInterior
+ObjectTemplate.addTemplate afr_house1_steExterior
+
+ObjectTemplate.create Bundle afr_house1_steInterior
+ObjectTemplate.geometry afr_house1_ste_m1
+rem --------------------------------------------------
+
+ObjectTemplate.addTemplate PajarB_M1
+ObjectTemplate.setPosition -5.7/0.19/-4.7
+ObjectTemplate.setRotation 0/0/180
+
+ObjectTemplate.addTemplate PajarB_M1
+ObjectTemplate.setPosition -5.7/0.19/-3
+ObjectTemplate.setRotation 0/0/180
+
+ObjectTemplate.addTemplate Pajar1_M1
+ObjectTemplate.setPosition -0.6/0.19/-1
+ObjectTemplate.setRotation 0/0/180
+
+ObjectTemplate.addTemplate Pajar1_M1
+ObjectTemplate.setPosition 6/0.19/4.3
+ObjectTemplate.setRotation 0/0/180
+
+ObjectTemplate.addTemplate Pacificfurni1_m1
+ObjectTemplate.setPosition 6/0.19/0
+ObjectTemplate.setRotation 90/0/0
+
+ObjectTemplate.addTemplate africarpet1_m1
+ObjectTemplate.setPosition -3/0.19/0
+ObjectTemplate.setRotation 90/0/0
+
+ObjectTemplate.addTemplate Pacificfurni1_m1
+ObjectTemplate.setPosition -5.7/0.19/1
+ObjectTemplate.setRotation 90/0/0
+
+rem --------------------------------------------------------
+
+ObjectTemplate.addTemplate Patable_M1
+ObjectTemplate.setPosition 4.25/3.59/0
+ObjectTemplate.setRotation 90/0/180
+
+ObjectTemplate.addTemplate Bambrug_M1
+ObjectTemplate.setPosition 4.25/3.59/1.8
+ObjectTemplate.setRotation 90/0/180
+
+ObjectTemplate.addTemplate Bambrug_M1
+ObjectTemplate.setPosition 4.25/3.59/-1.8
+ObjectTemplate.setRotation 90/0/180
+
+ObjectTemplate.addTemplate Bambrug_M1
+ObjectTemplate.setPosition 5.8/3.59/0
+ObjectTemplate.setRotation 0/0/180
+
+ObjectTemplate.addTemplate Bambrug_M1
+ObjectTemplate.setPosition 2.9/3.59/0
+ObjectTemplate.setRotation 0/0/180
+
+ObjectTemplate.addTemplate Pajar1_M1
+ObjectTemplate.setPosition 6/3.59/4.3
+ObjectTemplate.setRotation 0/0/180
+
+rem --------------------------------------------------------
+ObjectTemplate.create SimpleObject afr_house1_steExterior
+ObjectTemplate.geometry afr_house1_ste_m2

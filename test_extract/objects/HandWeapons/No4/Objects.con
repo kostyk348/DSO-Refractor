@@ -1,0 +1,192 @@
+
+
+rem ----------------------------------------------------------
+rem Firearm: No4
+rem ----------------------------------------------------------
+ObjectTemplate.create HandFireArms No4
+ObjectTemplate.networkableInfo HandFireArmsInfo
+ObjectTemplate.itemIndex 3
+ObjectTemplate.projectileTemplate no4Projectile
+ObjectTemplate.projectilePosition 0/0/0.5
+ObjectTemplate.magSize 5
+ObjectTemplate.numOfMag 5
+ObjectTemplate.magType 0
+ObjectTemplate.reloadtime 2.5
+ObjectTemplate.roundOfFire 0.29
+ObjectTemplate.fireOnce 1
+objectTemplate.aiTemplate No4AI
+ObjectTemplate.zoomFov 0.4
+ObjectTemplate.altFireOnce 1
+ObjectTemplate.GUIIndex 6
+ObjectTemplate.soldierZoomFov 0.6 
+ObjectTemplate.soldierZoomPosition -0.07/0/0
+ObjectTemplate.soldierCameraPosition -0.02/-0.03/0.01
+ObjectTemplate.addRootSpeed 0
+ObjectTemplate.AmmoType	1
+
+Rem *** Deviation Begin *****
+
+ObjectTemplate.velocity 800
+ObjectTemplate.setRecoilForceUp CRD_UNIFORM/1.2/1.2/0
+ObjectTemplate.setRecoilForceLeftRight CRD_UNIFORM/-0.1/-0.3/0
+ObjectTemplate.setHasRecoilForce 1
+ObjectTemplate.setGoBackOnRecoil 1
+
+ObjectTemplate.setFireDev 0 0 0
+ObjectTemplate.setDevMod  1 0.7 0.5
+ObjectTemplate.setMinDev 0.25
+ObjectTemplate.setTurnDev 0 0 0 0
+ObjectTemplate.setSpeedDev 1.5 0.4 0.4 0.1
+ObjectTemplate.setMiscDev 2.5 2.5 0.1
+
+Rem *** Deviation  End *****
+
+ObjectTemplate.fireInCameraDof 1
+ObjectTemplate.loadSoundScript Sounds/no4.ssc
+ObjectTemplate.createSkeleton animations/No4.ske
+ObjectTemplate.useSkeletonPartAsMain No4
+ObjectTemplate.addTemplate No4Lod
+
+ObjectTemplate.addTemplate e_MuzzGun
+ObjectTemplate.setInputId -1
+ObjectTemplate.startoneffects 0
+ObjectTemplate.setPosition 0/0.045/0.745
+ObjectTemplate.setRotation 0/0/0
+
+ObjectTemplate.addTemplate e_Shell792D
+ObjectTemplate.setInputId -1
+ObjectTemplate.startoneffects 1
+ObjectTemplate.setPosition 0/0.03/0.39
+ObjectTemplate.setRotation 0/0/0
+
+
+
+rem ----------------------------------------------------------
+rem Firearm: No4Sniper
+rem ----------------------------------------------------------
+ObjectTemplate.create HandFireArms No4Sniper
+ObjectTemplate.networkableInfo HandFireArmsInfo
+ObjectTemplate.itemIndex 3
+ObjectTemplate.zoomFov 0.1
+ObjectTemplate.unZoomBetweenFireTime 3.0
+ObjectTemplate.useScope 1
+ObjectTemplate.projectileTemplate no4Projectile
+ObjectTemplate.projectilePosition 0/0/2
+ObjectTemplate.magSize 5
+ObjectTemplate.numOfMag 4
+ObjectTemplate.magType 0
+ObjectTemplate.reloadtime 3
+ObjectTemplate.roundOfFire 0.3
+ObjectTemplate.fireOnce 1
+ObjectTemplate.altFireOnce 1
+ObjectTemplate.autoReload 1
+ObjectTemplate.GUIIndex 6
+objectTemplate.aiTemplate SniperNo4AI
+rem ObjectTemplate.positionalSpeedInDof CRD_NONE/800/0/0
+ObjectTemplate.soldierZoomFov 0.6 
+ObjectTemplate.soldierZoomPosition 0.1/0/0
+ObjectTemplate.soldierCameraPosition -0.03/-0.04/0.1
+ObjectTemplate.addRootSpeed 0
+ObjectTemplate.AmmoType	1
+Rem *** Deviation Begin *****
+
+ObjectTemplate.velocity 1000
+ObjectTemplate.setSpeedDev 0.8 0.2 0.2 0.1
+ObjectTemplate.setMiscDev 2.5 2.5 0.1
+
+Rem *** Deviation  End *****
+
+ObjectTemplate.fireInCameraDof 1
+ObjectTemplate.loadSoundScript Sounds/no4.ssc
+
+ObjectTemplate.createSkeleton animations/No4.ske
+ObjectTemplate.useSkeletonPartAsMain No4
+ObjectTemplate.addTemplate No4SniperLod
+
+ObjectTemplate.addTemplate e_MuzzGun
+ObjectTemplate.setInputId -1
+ObjectTemplate.startoneffects 0
+ObjectTemplate.setPosition 0/0.045/0.745
+ObjectTemplate.setRotation 0/0/0
+
+ObjectTemplate.addTemplate e_shell792D
+ObjectTemplate.setInputId -1
+ObjectTemplate.startoneffects 1
+ObjectTemplate.setPosition 0/0.03/0.39
+ObjectTemplate.setRotation 0/0/0
+
+
+rem
+rem ** Objects
+rem
+
+ObjectTemplate.create SimpleObject No4Base
+ObjectTemplate.geometry No4Base
+
+ObjectTemplate.create SimpleObject No4Trigger
+ObjectTemplate.geometry No4Trigger
+
+ObjectTemplate.create SimpleObject No4Block
+ObjectTemplate.geometry No4Block
+
+ObjectTemplate.create SimpleObject No4Load
+ObjectTemplate.geometry No4Load
+
+ObjectTemplate.create SimpleObject No4Mag
+ObjectTemplate.geometry No4Mag
+
+ObjectTemplate.create SimpleObject No4Scope
+ObjectTemplate.geometry No4Scope
+
+ObjectTemplate.create SimpleObject No4Clip
+ObjectTemplate.geometry No4Clip
+
+ObjectTemplate.create SimpleObject No4SniperSimple
+ObjectTemplate.geometry Shad_No4_Scope
+
+ObjectTemplate.create AnimatedBundle No4SniperComplex
+ObjectTemplate.geometry No4
+ObjectTemplate.hasDynamicShadow 1
+ObjectTemplate.createSkeleton animations/No4.ske
+ObjectTemplate.addTemplate No4Trigger
+ObjectTemplate.bindToSkeletonPart Trigger
+ObjectTemplate.addTemplate No4Block
+ObjectTemplate.bindToSkeletonPart Block
+ObjectTemplate.addTemplate No4Load
+ObjectTemplate.bindToSkeletonPart Load
+ObjectTemplate.addTemplate No4Mag
+ObjectTemplate.bindToSkeletonPart Mag
+ObjectTemplate.addTemplate No4Scope
+ObjectTemplate.bindToSkeletonPart SIKTE
+ObjectTemplate.addTemplate No4Clip
+ObjectTemplate.bindToSkeletonPart clip
+
+ObjectTemplate.create LodObject No4SniperLod
+ObjectTemplate.lodselector HandWeaponLodSelector
+ObjectTemplate.addTemplate No4SniperComplex
+ObjectTemplate.addTemplate No4SniperSimple
+
+ObjectTemplate.create SimpleObject No4Simple
+ObjectTemplate.geometry Shad_No4
+
+ObjectTemplate.create AnimatedBundle No4Complex
+ObjectTemplate.geometry No4
+ObjectTemplate.hasDynamicShadow 1
+ObjectTemplate.createSkeleton animations/No4.ske
+ObjectTemplate.addTemplate No4Trigger
+ObjectTemplate.bindToSkeletonPart Trigger
+ObjectTemplate.addTemplate No4Block
+ObjectTemplate.bindToSkeletonPart Block
+ObjectTemplate.addTemplate No4Load
+ObjectTemplate.bindToSkeletonPart Load
+ObjectTemplate.addTemplate No4Mag
+ObjectTemplate.bindToSkeletonPart Mag
+ObjectTemplate.addTemplate No4Clip
+ObjectTemplate.bindToSkeletonPart clip
+
+ObjectTemplate.create LodObject No4Lod
+ObjectTemplate.lodselector HandWeaponLodSelector
+ObjectTemplate.addTemplate No4Complex
+ObjectTemplate.addTemplate No4Simple
+
+

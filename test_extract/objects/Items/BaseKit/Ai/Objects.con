@@ -1,0 +1,75 @@
+rem *** KitTemplates ***
+
+rem   *** Medic ***
+
+kitTemplate.create Medic Medic
+
+kitTemplate.setStrategicStrength 0 1
+kitTemplate.setStrategicStrength 1 1
+
+kitTemplate.setBattleStrength Infantry    6.0
+kitTemplate.setBattleStrength LightArmour 3.0
+kitTemplate.setBattleStrength HeavyArmour 1.0
+kitTemplate.setBattleStrength NavalArmour 0.0
+kitTemplate.setBattleStrength Submarine   0.0
+kitTemplate.setBattleStrength Air         0.0
+
+rem   *** Engineer ***
+
+kitTemplate.create Engineer Engineer
+
+kitTemplate.setStrategicStrength 0 1
+kitTemplate.setStrategicStrength 1 2
+
+kitTemplate.setBattleStrength Infantry    4.0
+kitTemplate.setBattleStrength LightArmour 4.0
+kitTemplate.setBattleStrength HeavyArmour 3.0
+kitTemplate.setBattleStrength NavalArmour 0.0
+kitTemplate.setBattleStrength Submarine   0.0
+kitTemplate.setBattleStrength Air         0.0
+
+
+rem   *** AT ***
+
+kitTemplate.create AT AT
+
+kitTemplate.setStrategicStrength 0 2
+kitTemplate.setStrategicStrength 1 2
+
+kitTemplate.setBattleStrength Infantry    2.0
+kitTemplate.setBattleStrength LightArmour 8.0
+kitTemplate.setBattleStrength HeavyArmour 4.0
+kitTemplate.setBattleStrength NavalArmour 0.0
+kitTemplate.setBattleStrength Submarine   0.0
+kitTemplate.setBattleStrength Air         0.0
+
+
+rem   *** Assault ***
+
+kitTemplate.create Assault Assault
+
+kitTemplate.setStrategicStrength 0 1
+kitTemplate.setStrategicStrength 1 1
+
+kitTemplate.setBattleStrength Infantry    8.0
+kitTemplate.setBattleStrength LightArmour 3.0
+kitTemplate.setBattleStrength HeavyArmour 1.0
+kitTemplate.setBattleStrength NavalArmour 0.0
+kitTemplate.setBattleStrength Submarine   0.0
+kitTemplate.setBattleStrength Air         2.0
+
+
+rem   *** Scout ***
+
+kitTemplate.create Scout Scout
+
+kitTemplate.setStrategicStrength 0 2
+kitTemplate.setStrategicStrength 1 1
+
+kitTemplate.setBattleStrength Infantry    4.0
+kitTemplate.setBattleStrength LightArmour 0.0
+kitTemplate.setBattleStrength HeavyArmour 0.0
+kitTemplate.setBattleStrength NavalArmour 0.0
+kitTemplate.setBattleStrength Submarine   0.0
+kitTemplate.setBattleStrength Air         0.0
+

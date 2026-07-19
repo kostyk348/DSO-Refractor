@@ -1,0 +1,165 @@
+rem ----------------------------------------------------------
+rem Firearm: K98
+rem ----------------------------------------------------------
+ObjectTemplate.create HandFireArms K98
+ObjectTemplate.itemIndex 3
+ObjectTemplate.projectileTemplate k98Projectile
+ObjectTemplate.projectilePosition 0/0/0.5
+ObjectTemplate.magSize 5
+ObjectTemplate.numOfMag 5
+ObjectTemplate.magType 0
+ObjectTemplate.reloadtime 2.5
+ObjectTemplate.roundOfFire 0.29
+ObjectTemplate.fireOnce 1
+objectTemplate.aiTemplate K98AI
+ObjectTemplate.zoomFov 0.4
+ObjectTemplate.altFireOnce 1
+ObjectTemplate.soldierZoomFov 0.6 
+ObjectTemplate.soldierZoomPosition -0.07/0/0
+ObjectTemplate.soldierCameraPosition -0.02/-0.03/0.01
+ObjectTemplate.addRootSpeed 0
+ObjectTemplate.AmmoType	1
+
+objectTemplate.GUIIndex 11
+Rem *** Deviation Begin *****
+
+ObjectTemplate.velocity 800
+ObjectTemplate.setRecoilForceUp CRD_UNIFORM/1.2/1.2/0
+ObjectTemplate.setRecoilForceLeftRight CRD_UNIFORM/-0.1/-0.3/0
+ObjectTemplate.setHasRecoilForce 1
+ObjectTemplate.setGoBackOnRecoil 1
+
+ObjectTemplate.setFireDev 0 0 0
+ObjectTemplate.setDevMod  1 0.7 0.5
+ObjectTemplate.setMinDev 0.25
+ObjectTemplate.setTurnDev 0 0 0 0
+ObjectTemplate.setSpeedDev 1.5 0.4 0.4 0.1
+ObjectTemplate.setMiscDev 2.5 2.5 0.1
+
+Rem *** Deviation  End *****
+
+ObjectTemplate.fireInCameraDof 1
+ObjectTemplate.loadSoundScript Sounds/k98.ssc
+
+ObjectTemplate.createSkeleton animations/K98.ske
+ObjectTemplate.useSkeletonPartAsMain K98
+ObjectTemplate.addTemplate K98Lod
+
+ObjectTemplate.addTemplate e_MuzzGun
+ObjectTemplate.setInputId -1
+ObjectTemplate.startoneffects 0
+ObjectTemplate.setPosition 0/0.05/0.84
+ObjectTemplate.setRotation 0/0/0
+
+ObjectTemplate.addTemplate e_shell792D
+ObjectTemplate.setInputId -1
+ObjectTemplate.startoneffects 1
+ObjectTemplate.setPosition 0/0.05/0.41
+ObjectTemplate.setRotation 0/0/0
+
+rem ----------------------------------------------------------
+rem Firearm: K98Sniper
+rem ----------------------------------------------------------
+ObjectTemplate.create HandFireArms K98Sniper
+ObjectTemplate.itemIndex 3
+ObjectTemplate.zoomFov 0.1
+ObjectTemplate.unZoomBetweenFireTime 3.0
+ObjectTemplate.useScope 1
+ObjectTemplate.projectileTemplate k98Projectile
+ObjectTemplate.projectilePosition 0/0/0.5
+ObjectTemplate.magSize 5
+ObjectTemplate.numOfMag 4
+ObjectTemplate.magType 0
+ObjectTemplate.reloadtime 3
+ObjectTemplate.roundOfFire 0.3
+ObjectTemplate.fireOnce 1
+ObjectTemplate.altFireOnce 1
+objectTemplate.GUIIndex 11
+objectTemplate.aiTemplate SniperK98AI
+rem ObjectTemplate.positionalSpeedInDof CRD_NONE/800/0/0
+ObjectTemplate.soldierZoomFov 0.6 
+ObjectTemplate.soldierZoomPosition -0.1/0/0
+ObjectTemplate.soldierCameraPosition -0.02/-0.04/0.1
+ObjectTemplate.addRootSpeed 0
+ObjectTemplate.AmmoType	1
+
+Rem *** Deviation Begin *****
+
+ObjectTemplate.velocity 1000
+ObjectTemplate.setSpeedDev 0.8 0.2 0.2 0.1
+ObjectTemplate.setMiscDev 2.5 2.5 0.1
+
+Rem *** Deviation  End *****
+
+ObjectTemplate.fireInCameraDof 1
+ObjectTemplate.loadSoundScript Sounds/k98.ssc
+
+ObjectTemplate.createSkeleton animations/K98.ske
+ObjectTemplate.useSkeletonPartAsMain K98
+ObjectTemplate.addTemplate K98SniperLod
+
+ObjectTemplate.addTemplate e_MuzzGun
+ObjectTemplate.setInputId -1
+ObjectTemplate.startoneffects 0
+ObjectTemplate.setPosition 0/0.05/0.84
+ObjectTemplate.setRotation 0/0/0
+
+ObjectTemplate.addTemplate e_Shell792D
+ObjectTemplate.setInputId -1
+ObjectTemplate.startoneffects 1
+ObjectTemplate.setPosition 0/0.05/0.41
+ObjectTemplate.setRotation 0/0/0
+
+
+rem *** Objects ***
+ObjectTemplate.create SimpleObject K98Trigger
+ObjectTemplate.geometry K98Trigger
+
+ObjectTemplate.create SimpleObject K98Load
+ObjectTemplate.geometry K98Load
+
+ObjectTemplate.create SimpleObject K98Scope
+ObjectTemplate.geometry K98Scope
+
+ObjectTemplate.create SimpleObject K98Clip
+ObjectTemplate.geometry K98Clip
+
+ObjectTemplate.create SimpleObject K98Simple
+ObjectTemplate.geometry Shad_K98
+
+ObjectTemplate.create AnimatedBundle K98Complex
+ObjectTemplate.geometry K98
+ObjectTemplate.hasDynamicShadow 1
+ObjectTemplate.createSkeleton animations/K98.ske
+ObjectTemplate.addTemplate K98Trigger
+ObjectTemplate.bindToSkeletonPart Trigger
+ObjectTemplate.addTemplate K98Load
+ObjectTemplate.bindToSkeletonPart Load
+ObjectTemplate.addTemplate K98Clip
+ObjectTemplate.bindToSkeletonPart clip
+
+ObjectTemplate.create LodObject K98Lod
+ObjectTemplate.lodselector HandWeaponLodSelector
+ObjectTemplate.addTemplate K98Complex
+ObjectTemplate.addTemplate K98Simple
+
+ObjectTemplate.create SimpleObject K98SniperSimple
+ObjectTemplate.geometry Shad_K98_Scope
+
+ObjectTemplate.create AnimatedBundle K98SniperComplex
+ObjectTemplate.geometry K98
+ObjectTemplate.createSkeleton animations/K98.ske
+ObjectTemplate.addTemplate K98Trigger
+ObjectTemplate.bindToSkeletonPart Trigger
+ObjectTemplate.addTemplate K98Load
+ObjectTemplate.bindToSkeletonPart Load
+ObjectTemplate.addTemplate K98Scope
+ObjectTemplate.bindToSkeletonPart SIKTE
+ObjectTemplate.addTemplate K98Clip
+ObjectTemplate.bindToSkeletonPart clip
+
+ObjectTemplate.create LodObject K98SniperLod
+ObjectTemplate.lodselector HandWeaponLodSelector
+ObjectTemplate.addTemplate K98SniperComplex
+ObjectTemplate.addTemplate K98SniperSimple
+

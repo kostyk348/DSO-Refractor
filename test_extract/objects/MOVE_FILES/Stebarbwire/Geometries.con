@@ -1,0 +1,9 @@
+
+GeometryTemplate.create StandardMesh stebarbwire_m1
+GeometryTemplate.file stebarbwire_m1
+GeometryTemplate.alphaTestValue 0.08
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 2
+GeometryTemplate.setLodDistance 2 10
+GeometryTemplate.setLodDistance 3 30
+GeometryTemplate.setLodDistance 4 300

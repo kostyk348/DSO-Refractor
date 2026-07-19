@@ -1,0 +1,126 @@
+
+
+rem *** e_GibbPlaneSm ***
+ObjectTemplate.create EffectBundle e_GibbPlaneSm
+ObjectTemplate.saveInSeparateFile 1
+rem -------------------------------------
+ObjectTemplate.addTemplate Em_GibbPlaneSm_01
+ObjectTemplate.timeToLive CRD_NONE/1/0/0
+ObjectTemplate.addTemplate Em_GibbPlaneSm_02
+ObjectTemplate.setPosition 2.2/-0.043/0.288
+ObjectTemplate.timeToLive CRD_NONE/1/0/0
+ObjectTemplate.addTemplate Em_GibbPlaneSm_03
+ObjectTemplate.setPosition -1.791/0/0
+ObjectTemplate.timeToLive CRD_NONE/1/0/0
+ObjectTemplate.addTemplate Em_GibbPlaneSm_04
+ObjectTemplate.setPosition -0.614/0.694/-4.457
+ObjectTemplate.timeToLive CRD_NONE/1/0/0
+rem -------------------------------------
+
+
+rem *** Em_GibbPlaneSm_01 ***
+ObjectTemplate.create Emitter Em_GibbPlaneSm_01
+ObjectTemplate.template Planepart1
+ObjectTemplate.addEmitterSpeed 1
+ObjectTemplate.emitterSpeedScale 1
+ObjectTemplate.lodDistance 375
+ObjectTemplate.timeToLive CRD_NONE/0.1/0/0
+ObjectTemplate.intensity CRD_NONE/10/0/0
+ObjectTemplate.positionalSpeedInDof CRD_UNIFORM/0/1/1
+ObjectTemplate.positionalSpeedInUp CRD_UNIFORM/0/1/1
+ObjectTemplate.positionalSpeedInRight CRD_UNIFORM/0/1/1
+ObjectTemplate.rotationalSpeedInDof CRD_NONE/0/0/0
+ObjectTemplate.rotationalSpeedInUp CRD_NONE/0/0/0
+ObjectTemplate.rotationalSpeedInRight CRD_UNIFORM/0/1/0
+ObjectTemplate.startRotation CRD_NONE/0/0/0
+
+
+rem *** Planepart1 ***
+ObjectTemplate.create Bundle Planepart1
+ObjectTemplate.geometry Planepart1_m1
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+rem -------------------------------------
+ObjectTemplate.addTemplate e_FireSmallYellow
+ObjectTemplate.setPosition 0/0.7/-2.499
+rem -------------------------------------
+
+
+rem *** Em_GibbPlaneSm_02 ***
+ObjectTemplate.create Emitter Em_GibbPlaneSm_02
+ObjectTemplate.template Planepart2
+ObjectTemplate.addEmitterSpeed 1
+ObjectTemplate.emitterSpeedScale 1
+ObjectTemplate.lodDistance 375
+ObjectTemplate.timeToLive CRD_NONE/0.1/0/0
+ObjectTemplate.intensity CRD_NONE/10/0/0
+ObjectTemplate.positionalSpeedInDof CRD_UNIFORM/2/4/1
+ObjectTemplate.positionalSpeedInUp CRD_UNIFORM/2/4/1
+ObjectTemplate.positionalSpeedInRight CRD_UNIFORM/2/4/1
+ObjectTemplate.rotationalSpeedInDof CRD_UNIFORM/0/2/1
+ObjectTemplate.rotationalSpeedInUp CRD_UNIFORM/0/2/1
+ObjectTemplate.rotationalSpeedInRight CRD_UNIFORM/0/2/1
+ObjectTemplate.startRotation CRD_NONE/0/0/0
+
+
+rem *** Planepart2 ***
+ObjectTemplate.create Bundle Planepart2
+ObjectTemplate.geometry Planepart2_m1
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+rem -------------------------------------
+ObjectTemplate.addTemplate e_FireSmallYellow
+ObjectTemplate.setPosition 0/0.7/-2.499
+rem -------------------------------------
+
+
+rem *** Em_GibbPlaneSm_03 ***
+ObjectTemplate.create Emitter Em_GibbPlaneSm_03
+ObjectTemplate.template Planepart3
+ObjectTemplate.addEmitterSpeed 1
+ObjectTemplate.emitterSpeedScale 1
+ObjectTemplate.lodDistance 375
+ObjectTemplate.timeToLive CRD_NONE/0.1/0/0
+ObjectTemplate.intensity CRD_UNIFORM/10/2/1
+ObjectTemplate.positionalSpeedInDof CRD_UNIFORM/2/4/1
+ObjectTemplate.positionalSpeedInUp CRD_UNIFORM/2/4/1
+ObjectTemplate.positionalSpeedInRight CRD_UNIFORM/2/4/1
+ObjectTemplate.rotationalSpeedInDof CRD_UNIFORM/0/2/1
+ObjectTemplate.rotationalSpeedInUp CRD_UNIFORM/0/2/1
+ObjectTemplate.rotationalSpeedInRight CRD_UNIFORM/0/2/1
+ObjectTemplate.startRotation CRD_NONE/0/0/0
+
+
+rem *** Planepart3 ***
+ObjectTemplate.create Bundle Planepart3
+ObjectTemplate.geometry Planepart3_m1
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+rem -------------------------------------
+ObjectTemplate.addTemplate e_FireSmallYellow
+ObjectTemplate.setPosition 0/0.7/-2.499
+rem -------------------------------------
+
+
+rem *** Em_GibbPlaneSm_04 ***
+ObjectTemplate.create Emitter Em_GibbPlaneSm_04
+ObjectTemplate.template Planepart4
+ObjectTemplate.addEmitterSpeed 1
+ObjectTemplate.emitterSpeedScale 1
+ObjectTemplate.lodDistance 375
+ObjectTemplate.timeToLive CRD_NONE/0.1/0/0
+ObjectTemplate.intensity CRD_UNIFORM/10/0/0
+ObjectTemplate.positionalSpeedInDof CRD_UNIFORM/3/5/1
+ObjectTemplate.positionalSpeedInUp CRD_UNIFORM/3/5/1
+ObjectTemplate.positionalSpeedInRight CRD_UNIFORM/3/5/1
+ObjectTemplate.rotationalSpeedInDof CRD_UNIFORM/3/10/1
+ObjectTemplate.rotationalSpeedInUp CRD_UNIFORM/3/10/1
+ObjectTemplate.rotationalSpeedInRight CRD_UNIFORM/3/10/1
+ObjectTemplate.startRotation CRD_NONE/0/0/0
+
+
+rem *** Planepart4 ***
+ObjectTemplate.create SimpleObject Planepart4
+ObjectTemplate.geometry Planepart4_m1
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1

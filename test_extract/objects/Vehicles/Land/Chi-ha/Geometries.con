@@ -1,0 +1,201 @@
+
+GeometryTemplate.create StandardMesh Chi-ha_Mgun_con_m1
+GeometryTemplate.file PanzerIV_Mgun_con_m1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 10
+GeometryTemplate.setLodDistance 2 15
+GeometryTemplate.setLodDistance 3 30
+GeometryTemplate.setLodDistance 4 50
+GeometryTemplate.setLodDistance 5 100
+
+GeometryTemplate.create StandardMesh Chi-ha_Mgun_Mount_m1
+GeometryTemplate.file Tank_Mgun_Mount_m1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 10
+GeometryTemplate.setLodDistance 2 15
+GeometryTemplate.setLodDistance 3 30
+GeometryTemplate.setLodDistance 4 50
+GeometryTemplate.setLodDistance 5 100
+
+renderer.beginGlobalCluster Chi-ha
+GeometryTemplate.create StandardMesh Chi-ha_Tower_m1
+GeometryTemplate.file Chi-ha_Tower_m1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 10
+GeometryTemplate.setLodDistance 2 15
+GeometryTemplate.setLodDistance 3 30
+GeometryTemplate.setLodDistance 4 50
+GeometryTemplate.setLodDistance 5 100
+
+GeometryTemplate.create StandardMesh Chi-ha_Cannon_m1
+GeometryTemplate.file Chi-ha_Cannon_m1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 30
+GeometryTemplate.setLodDistance 2 100
+GeometryTemplate.setLodDistance 3 200
+
+GeometryTemplate.create StandardMesh Chi-ha_Cannon_Barrel_m1
+GeometryTemplate.file Chi-ha_Cannon_Barrel_m1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 10
+GeometryTemplate.setLodDistance 2 15
+GeometryTemplate.setLodDistance 3 30
+GeometryTemplate.setLodDistance 4 50
+GeometryTemplate.setLodDistance 5 100
+
+GeometryTemplate.create StandardMesh Chi-ha_Hull_m1
+GeometryTemplate.file Chi-ha_Hull_m1
+GeometryTemplate.hasDynamicShadow 1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 10
+GeometryTemplate.setLodDistance 2 15
+GeometryTemplate.setLodDistance 3 30
+GeometryTemplate.setLodDistance 4 50
+GeometryTemplate.setLodDistance 5 100
+
+GeometryTemplate.create AnimatedMesh Chi-ha_LeftTrack
+GeometryTemplate.file Chi-ha_Left_Track_m1
+GeometryTemplate.setSkin animations/Chi-ha_Left_Track_m1.skn
+
+GeometryTemplate.create AnimatedMesh Chi-ha_RightTrack
+GeometryTemplate.file Chi-ha_Right_Track_m1
+GeometryTemplate.setSkin animations/Chi-ha_Right_Track_m1.skn
+
+GeometryTemplate.create StandardMesh Chi-ha_Hatch1_m1
+GeometryTemplate.file Chi-ha_Hatch1_m1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 10
+GeometryTemplate.setLodDistance 2 15
+GeometryTemplate.setLodDistance 3 30
+GeometryTemplate.setLodDistance 4 50
+GeometryTemplate.setLodDistance 5 100
+
+GeometryTemplate.create StandardMesh Chi-ha_Hatch2_m1
+GeometryTemplate.file Chi-ha_Hatch2_m1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 10
+GeometryTemplate.setLodDistance 2 15
+GeometryTemplate.setLodDistance 3 30
+GeometryTemplate.setLodDistance 4 50
+GeometryTemplate.setLodDistance 5 100
+
+GeometryTemplate.create StandardMesh Chi-ha_Left_Whe1_m1
+GeometryTemplate.file Chi-ha_Left_Whe1_m1
+GeometryTemplate.alphaTestValue 0.08
+GeometryTemplate.triangleSortLodDistance 0
+GeometryTemplate.alphaLodDistance 0
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 20
+GeometryTemplate.setLodDistance 2 60
+GeometryTemplate.setLodDistance 3 100
+
+GeometryTemplate.create StandardMesh Chi-ha_Left_Whe2_m1
+GeometryTemplate.file Chi-ha_Left_Whe2_m1
+GeometryTemplate.alphaTestValue 0.08
+GeometryTemplate.triangleSortLodDistance 0
+GeometryTemplate.alphaLodDistance 0
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 20
+GeometryTemplate.setLodDistance 2 60
+GeometryTemplate.setLodDistance 3 100
+
+GeometryTemplate.create StandardMesh Chi-ha_Left_Whe3_m1
+GeometryTemplate.file Chi-ha_Left_Whe3_m1
+GeometryTemplate.alphaTestValue 0.08
+GeometryTemplate.triangleSortLodDistance 0
+GeometryTemplate.alphaLodDistance 0
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 20
+GeometryTemplate.setLodDistance 2 60
+GeometryTemplate.setLodDistance 3 100
+
+GeometryTemplate.create StandardMesh Chi-ha_Left_Whe4_m1
+GeometryTemplate.file Chi-ha_Left_Whe4_m1
+GeometryTemplate.alphaTestValue 0.08
+GeometryTemplate.triangleSortLodDistance 0
+GeometryTemplate.alphaLodDistance 0
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 20
+GeometryTemplate.setLodDistance 2 60
+GeometryTemplate.setLodDistance 3 100
+
+GeometryTemplate.create StandardMesh Chi-ha_Left_Whe5_m1
+GeometryTemplate.file Chi-ha_Left_Whe5_m1
+GeometryTemplate.alphaTestValue 0.08
+GeometryTemplate.triangleSortLodDistance 0
+GeometryTemplate.alphaLodDistance 0
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 20
+GeometryTemplate.setLodDistance 2 60
+GeometryTemplate.setLodDistance 3 100
+
+GeometryTemplate.create StandardMesh Chi-ha_Right_Whe1_m1
+GeometryTemplate.file Chi-ha_Right_Whe1_m1
+GeometryTemplate.alphaTestValue 0.08
+GeometryTemplate.triangleSortLodDistance 0
+GeometryTemplate.alphaLodDistance 0
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 20
+GeometryTemplate.setLodDistance 2 60
+GeometryTemplate.setLodDistance 3 100
+
+GeometryTemplate.create StandardMesh Chi-ha_Right_Whe2_m1
+GeometryTemplate.file Chi-ha_Right_Whe2_m1
+GeometryTemplate.alphaTestValue 0.08
+GeometryTemplate.triangleSortLodDistance 0
+GeometryTemplate.alphaLodDistance 0
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 20
+GeometryTemplate.setLodDistance 2 60
+GeometryTemplate.setLodDistance 3 100
+
+GeometryTemplate.create StandardMesh Chi-ha_Right_Whe3_m1
+GeometryTemplate.file Chi-ha_Right_Whe3_m1
+GeometryTemplate.alphaTestValue 0.08
+GeometryTemplate.triangleSortLodDistance 0
+GeometryTemplate.alphaLodDistance 0
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 20
+GeometryTemplate.setLodDistance 2 60
+GeometryTemplate.setLodDistance 3 100
+
+GeometryTemplate.create StandardMesh Chi-ha_Right_Whe4_m1
+GeometryTemplate.file Chi-ha_Right_Whe4_m1
+GeometryTemplate.alphaTestValue 0.08
+GeometryTemplate.triangleSortLodDistance 0
+GeometryTemplate.alphaLodDistance 0
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 20
+GeometryTemplate.setLodDistance 2 60
+GeometryTemplate.setLodDistance 3 100
+
+GeometryTemplate.create StandardMesh Chi-ha_Right_Whe5_m1
+GeometryTemplate.file Chi-ha_Right_Whe5_m1
+GeometryTemplate.alphaTestValue 0.08
+GeometryTemplate.triangleSortLodDistance 0
+GeometryTemplate.alphaLodDistance 0
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 20
+GeometryTemplate.setLodDistance 2 60
+GeometryTemplate.setLodDistance 3 100
+renderer.endGlobalCluster
+
+GeometryTemplate.create StandardMesh Chi-ha_Hull_l1
+GeometryTemplate.file Chi-ha_Hull_l1
+GeometryTemplate.hasDynamicShadow 1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 150
+GeometryTemplate.setLodDistance 2 200
+GeometryTemplate.setLodDistance 3 250
+GeometryTemplate.setLodDistance 4 300
+GeometryTemplate.setLodDistance 5 500
+
+GeometryTemplate.create StandardMesh Wreck_Chiha_m1
+GeometryTemplate.file Wreck_Chiha_m1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 150
+GeometryTemplate.setLodDistance 2 200
+GeometryTemplate.setLodDistance 3 250
+GeometryTemplate.setLodDistance 4 300
+GeometryTemplate.setLodDistance 5 500
+

@@ -1,0 +1,4 @@
+GeometryTemplate.create TreeMesh Birtsh_bush1_M1
+GeometryTemplate.file Birtsh_bush1_M1
+GeometryTemplate.billboard 1
+GeometryTemplate.billboardDistance 50

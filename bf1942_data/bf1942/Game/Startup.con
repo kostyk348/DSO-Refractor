@@ -1,0 +1,4 @@
+renderer.playBink Movies/ea.bik 2.0
+renderer.playBink Movies/intro.bik 15.0
+renderer.playBink Movies/legal.bik 2.0
+

@@ -1,0 +1,36 @@
+ObjectTemplate.create HandFireArms RepairPack
+ObjectTemplate.loadSoundScript Sounds/RepairPack.ssc
+ObjectTemplate.networkableInfo HandFireArmsInfo
+ObjectTemplate.itemIndex 6
+rem ** Magtype == 1 is healing type (repairing)
+ObjectTemplate.magType 1
+ObjectTemplate.numOfMag 1
+ObjectTemplate.magSize 1000
+ObjectTemplate.GUIIndex 4
+ObjectTemplate.aitemplate RepairPackAI
+ObjectTemplate.soldierCameraPosition 0/-0.09/0.3
+
+rem *** Recover time
+ObjectTemplate.reloadtime 1
+rem *** Use RepairPack time
+ObjectTemplate.roundOfFire 10
+
+ObjectTemplate.autoReload 0
+ObjectTemplate.createSkeleton animations/RepairPack.ske
+ObjectTemplate.useSkeletonPartAsMain base
+ObjectTemplate.addTemplate RepairPackLod
+
+rem ** Objects
+
+ObjectTemplate.create SimpleObject RepairPackSimple
+ObjectTemplate.geometry Shad_RepairPack
+
+ObjectTemplate.create AnimatedBundle RepairPackComplex
+ObjectTemplate.geometry RepairPack
+ObjectTemplate.hasDynamicShadow 1
+ObjectTemplate.createSkeleton animations/RepairPack.ske
+
+ObjectTemplate.create LodObject RepairPackLod
+ObjectTemplate.lodselector HandWeaponLodSelector
+ObjectTemplate.addTemplate RepairPackComplex
+ObjectTemplate.addTemplate RepairPackSimple

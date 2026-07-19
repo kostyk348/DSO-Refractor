@@ -1,0 +1,148 @@
+renderer.beginGlobalCluster PanzerIV
+
+GeometryTemplate.create StandardMesh PanzerIV_Gun_Base_M1
+GeometryTemplate.file PanzerIV_Gun_Base_M1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 20
+GeometryTemplate.setLodDistance 2 60
+GeometryTemplate.setLodDistance 3 100
+
+GeometryTemplate.create StandardMesh PanzerIV_Mgun_con_m1
+GeometryTemplate.file PanzerIV_Mgun_con_m1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 10
+GeometryTemplate.setLodDistance 2 15
+GeometryTemplate.setLodDistance 3 30
+GeometryTemplate.setLodDistance 4 50
+GeometryTemplate.setLodDistance 5 100
+
+GeometryTemplate.create StandardMesh PanzerIV_Mgun_Mount_m1
+GeometryTemplate.file Tank_Mgun_Mount_m1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 10
+GeometryTemplate.setLodDistance 2 15
+GeometryTemplate.setLodDistance 3 30
+GeometryTemplate.setLodDistance 4 50
+GeometryTemplate.setLodDistance 5 100
+
+GeometryTemplate.create StandardMesh PanzerIV_Tower_M1
+GeometryTemplate.file PanzerIV_Tow_M1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 10
+GeometryTemplate.setLodDistance 2 15
+GeometryTemplate.setLodDistance 3 30
+GeometryTemplate.setLodDistance 4 50
+GeometryTemplate.setLodDistance 5 100
+
+GeometryTemplate.create StandardMesh PanzerIV_Hull_M1
+GeometryTemplate.file PanzerIV_Hull_M1
+GeometryTemplate.hasDynamicShadow 1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 10
+GeometryTemplate.setLodDistance 2 35
+GeometryTemplate.setLodDistance 3 100
+
+
+
+GeometryTemplate.create StandardMesh 1P_PanzerIV_Gunner_M1
+GeometryTemplate.file 1P_PanzerIV_Gunner_M1
+
+GeometryTemplate.create AnimatedMesh PanzerIVTrackR
+GeometryTemplate.file PanzerIV_Track_Left_M1
+GeometryTemplate.setSkin animations/PanzerIV_Track_Left_M1.skn
+
+GeometryTemplate.create AnimatedMesh PanzerIVTrackL
+GeometryTemplate.file PanzerIV_Track_Right_M1
+GeometryTemplate.setSkin animations/PanzerIV_Track_Right_M1.skn
+
+GeometryTemplate.create StandardMesh PanzerIV_whe2L_M1
+GeometryTemplate.file PanzerIV_whe2L_M1
+GeometryTemplate.alphaTestValue 0.08
+GeometryTemplate.triangleSortLodDistance 0
+GeometryTemplate.alphaLodDistance 0
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 20
+GeometryTemplate.setLodDistance 2 60
+GeometryTemplate.setLodDistance 3 100
+
+GeometryTemplate.create StandardMesh PanzerIV_whe2R_M1
+GeometryTemplate.file PanzerIV_whe2R_M1
+GeometryTemplate.alphaTestValue 0.08
+GeometryTemplate.triangleSortLodDistance 0
+GeometryTemplate.alphaLodDistance 0
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 20
+GeometryTemplate.setLodDistance 2 60
+GeometryTemplate.setLodDistance 3 100
+
+GeometryTemplate.create StandardMesh PanzerIV_whe1R_M1
+GeometryTemplate.file PanzerIV_whe1R_M1
+GeometryTemplate.alphaTestValue 0.08
+GeometryTemplate.triangleSortLodDistance 0
+GeometryTemplate.alphaLodDistance 0
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 20
+GeometryTemplate.setLodDistance 2 60
+GeometryTemplate.setLodDistance 3 100
+
+GeometryTemplate.create StandardMesh PanzerIV_whe1L_M1
+GeometryTemplate.file PanzerIV_whe1L_M1
+GeometryTemplate.alphaTestValue 0.08
+GeometryTemplate.triangleSortLodDistance 0
+GeometryTemplate.alphaLodDistance 0
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 20
+GeometryTemplate.setLodDistance 2 60
+GeometryTemplate.setLodDistance 3 100
+
+GeometryTemplate.create StandardMesh PanzerIV_whe4R_M1
+GeometryTemplate.file PanzerIV_whe4R_M1
+GeometryTemplate.alphaTestValue 0.08
+GeometryTemplate.triangleSortLodDistance 0
+GeometryTemplate.alphaLodDistance 0
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 20
+GeometryTemplate.setLodDistance 2 60
+GeometryTemplate.setLodDistance 3 100
+
+GeometryTemplate.create StandardMesh PanzerIV_whe4L_M1
+GeometryTemplate.file PanzerIV_whe4L_M1
+GeometryTemplate.alphaTestValue 0.08
+GeometryTemplate.triangleSortLodDistance 0
+GeometryTemplate.alphaLodDistance 0
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 20
+GeometryTemplate.setLodDistance 2 60
+GeometryTemplate.setLodDistance 3 100
+
+GeometryTemplate.create StandardMesh PanzerIV_Gun_Barrel_M1
+GeometryTemplate.file PanzerIV_Gun_Barrel_M1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 10
+GeometryTemplate.setLodDistance 2 15
+GeometryTemplate.setLodDistance 3 30
+GeometryTemplate.setLodDistance 4 50
+GeometryTemplate.setLodDistance 5 100
+
+GeometryTemplate.create StandardMesh PanzerIV_Hull_Hatch_M1
+GeometryTemplate.file PanzerIV_Hull_Hatch_M1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 20
+GeometryTemplate.setLodDistance 2 30
+GeometryTemplate.setLodDistance 3 40
+GeometryTemplate.setLodDistance 4 80
+GeometryTemplate.setLodDistance 5 100
+renderer.endGlobalCluster
+
+GeometryTemplate.create StandardMesh PanzerIV_Hull_L1
+GeometryTemplate.file PanzerIV_Hull_L1
+GeometryTemplate.hasDynamicShadow 1
+
+GeometryTemplate.create StandardMesh Wreck_PanzerIV_m1
+GeometryTemplate.file Wreck_PanzerIV_m1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 150
+GeometryTemplate.setLodDistance 2 200
+GeometryTemplate.setLodDistance 3 250
+GeometryTemplate.setLodDistance 4 300
+GeometryTemplate.setLodDistance 5 500

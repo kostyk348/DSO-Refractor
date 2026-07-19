@@ -1,0 +1,176 @@
+rem ***
+rem ***
+rem ***
+ObjectTemplate.create Bundle AA_Allies_Base
+ObjectTemplate.saveInSeparateFile 1
+beginrem
+	ObjectTemplate.HasArmor 1
+	ObjectTemplate.HitPoints 15
+	ObjectTemplate.MaxHitPoints 15
+	ObjectTemplate.Material 45
+endrem
+rem ---------------------------------------------------
+ObjectTemplate.addTemplate AA_Allies_Entry
+ObjectTemplate.setPosition 0/0/0
+ObjectTemplate.setRotation 0/0/0
+ObjectTemplate.addTemplate AA_Allies_Carriage
+ObjectTemplate.setPosition 0/0/0
+ObjectTemplate.setRotation 0/0/0
+rem ---------------------------------------------------
+
+rem ***
+rem ***
+rem ***
+ObjectTemplate.create Camera AA_Allies_Camera
+ObjectTemplate.setMinRotation 0/0/0
+ObjectTemplate.setMaxRotation 0/0/0
+ObjectTemplate.setPivotPosition 0/0/0
+ObjectTemplate.setMaxSpeed 0/0/0
+ObjectTemplate.setAcceleration 0/0/0
+ObjectTemplate.setContinousRotationSpeed 0/0/0
+ObjectTemplate.setInputToYaw c_PIMouseLookX
+ObjectTemplate.setInputToPitch c_PIMouseLookY
+ObjectTemplate.setInputToRoll c_PINone
+ObjectTemplate.setHasTarget 0
+
+rem ***
+rem ***
+rem ***
+ObjectTemplate.create EntryPoint AA_Allies_Entry
+ObjectTemplate.setEntryRadius 3.2
+
+rem ***
+rem ***
+rem ***
+ObjectTemplate.create RotationalBundle AA_Allies_Carriage
+ObjectTemplate.networkableInfo AA_Allies_TurretInfo
+ObjectTemplate.geometry AA_Allies_carriage_m1
+ObjectTemplate.setMinRotation 0/0/0
+ObjectTemplate.setMaxRotation 0/0/0
+ObjectTemplate.setPivotPosition 0/0/0
+ObjectTemplate.setMaxSpeed 100/0/0
+ObjectTemplate.setAcceleration 1000/0/0
+ObjectTemplate.setContinousRotationSpeed 0/0/0
+ObjectTemplate.setInputToYaw c_PIMouseLookX
+rem ---------------------------------------------------
+ObjectTemplate.addTemplate AA_AlliesSeat
+ObjectTemplate.setPosition 0.7/0.7/-0.2
+ObjectTemplate.setRotation 0/0/0
+ObjectTemplate.addTemplate AA_Allies_Cannon
+ObjectTemplate.setPosition 0/0.987/-0.171
+ObjectTemplate.setRotation 0/-45/0
+ObjectTemplate.addTemplate AA_Allies_Roll
+ObjectTemplate.setPosition 0/0.529/0.187
+ObjectTemplate.setRotation 0/0/0
+ObjectTemplate.addTemplate AA_Allies_Crank
+ObjectTemplate.setPosition 0.48/0.76/0.113
+ObjectTemplate.setRotation 0/0/0
+rem ---------------------------------------------------
+ObjectTemplate.setAttachToListener 1
+ObjectTemplate.loadSoundScript Sounds/AA_Allies_Carriage.ssc
+
+rem ***
+rem ***
+rem ***
+ObjectTemplate.create RotationalBundle AA_Allies_Roll
+ObjectTemplate.networkableInfo AA_Allies_GunInfo
+ObjectTemplate.geometry AA_Allies_roll_m1
+ObjectTemplate.setPosition 0/0/15.5
+ObjectTemplate.setRotation 0/0/0
+ObjectTemplate.setMinRotation 0/-90/0
+ObjectTemplate.setMaxRotation 0/90/0
+ObjectTemplate.setPivotPosition 0/0/0
+ObjectTemplate.setMaxSpeed 0/200/0
+ObjectTemplate.setAcceleration 0/450/0
+ObjectTemplate.setContinousRotationSpeed 0/0/0
+ObjectTemplate.setInputToYaw c_PINone
+ObjectTemplate.setInputToPitch c_PIMouseLookY
+ObjectTemplate.setInputToRoll c_PINone
+
+ObjectTemplate.setAttachToListener 1
+ObjectTemplate.loadSoundScript Sounds/AA_AlliesGunBase.ssc
+
+rem ***
+rem *** AA_Allies Cockpit
+rem ***
+LodSelectorTemplate.create DistCompareSelector aa_allcockpitSelector
+LodSelectorTemplate.addLodComparison 0.5
+LodSelectorTemplate.addLodDistance 10
+ObjectTemplate.create LodObject lodAA_AllCockpit
+ObjectTemplate.addTemplate AA_AllCockpitExternal
+ObjectTemplate.addTemplate AA_AllCockpitInternal
+ObjectTemplate.lodselector aa_allcockpitSelector
+ObjectTemplate.create SimpleObject AA_AllCockpitExternal
+ObjectTemplate.geometry AA_Allies_cannon_m1
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.create SimpleObject AA_AllCockpitInternal
+ObjectTemplate.geometry 1P_Bofors
+
+
+rem ***
+rem ***
+rem ***
+ObjectTemplate.create RotationalBundle AA_Allies_Cannon
+ObjectTemplate.networkableInfo AA_Allies_GunInfo
+ObjectTemplate.addTemplate lodAA_AllCockpit
+rem ObjectTemplate.geometry AA_Allies_cannon_m1
+ObjectTemplate.setMinRotation 0/-35/0
+ObjectTemplate.setMaxRotation 0/47/0
+ObjectTemplate.setPivotPosition 0/0/0
+ObjectTemplate.setMaxSpeed 0/100/0
+ObjectTemplate.setAcceleration 0/1000/0
+ObjectTemplate.setInputToPitch c_PIMouseLookY
+ObjectTemplate.setAttachToListener 1
+ObjectTemplate.loadSoundScript Sounds/AA_Allies_Cannon.ssc
+rem ----------------------------------------------------------
+ObjectTemplate.addTemplate AA_Allies_Camera
+ObjectTemplate.setPosition 0.736/0.318/0
+ObjectTemplate.setRotation 0/0/0
+ObjectTemplate.addTemplate AA_Allies_Pipe
+ObjectTemplate.setPosition 0/0.026/1.017
+ObjectTemplate.setRotation 0/0/0
+rem ----------------------------------------------------------
+
+rem ***
+rem ***
+rem ***
+ObjectTemplate.create Bundle AA_Allies_Pipe
+rem ObjectTemplate.geometry AA_Allies_pipe_m1
+rem ----------------------------------------------------------
+ObjectTemplate.addTemplate AA_Allies_GunBarrel
+rem ObjectTemplate.setPosition 0/-0.03/2.3
+rem ObjectTemplate.setRotation 0/0/0
+rem ----------------------------------------------------------
+
+rem ***
+rem ***
+rem ***
+ObjectTemplate.create AnimatedBundle AA_Allies_Crank
+ObjectTemplate.addTemplate AA_Allies_RotatingCrank
+ObjectTemplate.addSkeletonIK Bip01_R_Hand 0.5/0.15/-0.05 -90/180/0
+ObjectTemplate.addSkeletonIK Bip01_L_Hand 0.2/-0.1/-0.05 -90/180/0
+
+rem ***
+rem ***
+rem ***
+ObjectTemplate.create RotationalBundle AA_Allies_RotatingCrank
+ObjectTemplate.geometry AA_Allies_crank_m1
+ObjectTemplate.setMinRotation 0/0/0
+ObjectTemplate.setMaxRotation 0/0/0
+ObjectTemplate.setPivotPosition 0/0/0
+ObjectTemplate.setMaxSpeed 0/500/0
+ObjectTemplate.setAcceleration 0/10000/0
+ObjectTemplate.setContinousRotationSpeed 0/0/0
+ObjectTemplate.setInputToPitch 4
+
+rem ***
+rem ***
+rem ***
+ObjectTemplate.create SeatObject AA_AlliesSeat
+ObjectTemplate.seatFlags c_SeatShowFullBodySoldier
+ObjectTemplate.seatFlags c_SeatIsOutside
+
+
+

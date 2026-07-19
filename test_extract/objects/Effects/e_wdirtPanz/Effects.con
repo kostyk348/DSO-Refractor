@@ -1,0 +1,124 @@
+
+
+rem *** e_wdirtPanz ***
+ObjectTemplate.create EffectBundle e_wdirtPanz
+ObjectTemplate.saveInSeparateFile 1
+rem -------------------------------------
+ObjectTemplate.addTemplate Em_wGravel
+ObjectTemplate.timeToLive CRD_NONE/1/0/0
+ObjectTemplate.addTemplate Em_wGravelGround
+ObjectTemplate.timeToLive CRD_NONE/1/0/0
+ObjectTemplate.addTemplate Em_wGravelGround1
+ObjectTemplate.timeToLive CRD_NONE/1/0/0
+ObjectTemplate.addTemplate Em_wGravelGround2
+ObjectTemplate.timeToLive CRD_NONE/1/0/0
+rem -------------------------------------
+ObjectTemplate.addWorkOnMaterial 2
+ObjectTemplate.addWorkOnMaterial 3
+ObjectTemplate.addWorkOnMaterial 4
+ObjectTemplate.addWorkOnMaterial 8
+
+
+rem *** Em_wGravel ***
+ObjectTemplate.create Emitter Em_wGravel
+ObjectTemplate.template Fx_wGravel
+ObjectTemplate.startAtCreation 1
+ObjectTemplate.timeToLive CRD_NONE/0.1/0/0
+ObjectTemplate.intensity CRD_UNIFORM/2/5/0
+ObjectTemplate.IntensityAtSpeed 20
+ObjectTemplate.positionalSpeedInUp CRD_NONE/1/0/0
+ObjectTemplate.positionalSpeedInRight CRD_NONE/2/0/1
+ObjectTemplate.rotationalSpeedInUp CRD_UNIFORM/1/20/0
+ObjectTemplate.rotationalSpeedInRight CRD_UNIFORM/1/10/0
+ObjectTemplate.startRotation CRD_UNIFORM/1/180/0
+
+
+rem *** Fx_wGravel ***
+ObjectTemplate.create Particle Fx_wGravel
+ObjectTemplate.geometry Richo_meshbig_m1
+ObjectTemplate.timeToLive CRD_UNIFORM/0.2/0.8/0
+ObjectTemplate.gravityModifier CRD_NONE/0.6/0/0
+ObjectTemplate.drag CRD_NONE/0.3/0/0
+
+
+rem *** Em_wGravelGround ***
+ObjectTemplate.create Emitter Em_wGravelGround
+ObjectTemplate.template Fx_wGravelGround
+ObjectTemplate.startAtCreation 1
+ObjectTemplate.addEmitterSpeed 1
+ObjectTemplate.emitterSpeedScale 1
+ObjectTemplate.timeToLive CRD_NONE/0.1/0/0
+ObjectTemplate.intensity CRD_NONE/10/0/0
+ObjectTemplate.IntensityAtSpeed 20
+ObjectTemplate.relativePositionInDof CRD_UNIFORM/0/0/0
+ObjectTemplate.relativePositionInUp CRD_UNIFORM/-0.2/0/0
+ObjectTemplate.positionalSpeedInUp CRD_UNIFORM/1/0/0
+ObjectTemplate.positionalSpeedInRight CRD_UNIFORM/0/0/0
+ObjectTemplate.rotationalSpeedInDof CRD_UNIFORM/1/20/0
+ObjectTemplate.rotationalSpeedInUp CRD_UNIFORM/1/10/0
+ObjectTemplate.startRotation CRD_UNIFORM/1/180/0
+
+
+rem *** Fx_wGravelGround ***
+ObjectTemplate.create Particle Fx_wGravelGround
+ObjectTemplate.geometry Richo_meshBrown_m1
+ObjectTemplate.timeToLive CRD_NONE/1/0/0
+ObjectTemplate.size CRD_UNIFORM/1/2/0
+ObjectTemplate.gravityModifier CRD_NONE/0.6/0/0
+ObjectTemplate.drag CRD_NONE/0.3/0/0
+
+
+rem *** Em_wGravelGround1 ***
+ObjectTemplate.create Emitter Em_wGravelGround1
+ObjectTemplate.template Fx_wGravelGround1
+ObjectTemplate.startAtCreation 1
+ObjectTemplate.addEmitterSpeed 1
+ObjectTemplate.emitterSpeedScale 1
+ObjectTemplate.timeToLive CRD_NONE/0.1/0/0
+ObjectTemplate.intensity CRD_UNIFORM/6/15/0
+ObjectTemplate.IntensityAtSpeed 20
+ObjectTemplate.relativePositionInDof CRD_NONE/0.1/0/0
+ObjectTemplate.relativePositionInUp CRD_UNIFORM/-0.1/0/0
+ObjectTemplate.relativePositionInRight CRD_UNIFORM/-0.1/0.3/0
+ObjectTemplate.positionalSpeedInUp CRD_UNIFORM/2/0/0
+ObjectTemplate.rotationalSpeedInDof CRD_UNIFORM/1/0/0
+ObjectTemplate.rotationalSpeedInUp CRD_UNIFORM/10/50/0
+ObjectTemplate.rotationalSpeedInRight CRD_UNIFORM/1/10/0
+ObjectTemplate.startRotation CRD_UNIFORM/1/180/0
+
+
+rem *** Fx_wGravelGround1 ***
+ObjectTemplate.create Particle Fx_wGravelGround1
+ObjectTemplate.geometry Richo_meshmbig_m1
+ObjectTemplate.timeToLive CRD_NONE/0.5/0/0
+ObjectTemplate.size CRD_UNIFORM/1/2/0
+ObjectTemplate.gravityModifier CRD_NONE/0.4/-0.2/0
+ObjectTemplate.drag CRD_NONE/0.3/0/0
+
+
+rem *** Em_wGravelGround2 ***
+ObjectTemplate.create Emitter Em_wGravelGround2
+ObjectTemplate.template Fx_wGravelGround2
+ObjectTemplate.startAtCreation 1
+ObjectTemplate.addEmitterSpeed 1
+ObjectTemplate.emitterSpeedScale 1
+ObjectTemplate.timeToLive CRD_NONE/0.1/0/0
+ObjectTemplate.intensity CRD_UNIFORM/6/15/0
+ObjectTemplate.IntensityAtSpeed 20
+ObjectTemplate.relativePositionInDof CRD_NONE/0.1/0/0
+ObjectTemplate.relativePositionInUp CRD_UNIFORM/-0.1/0/0
+ObjectTemplate.relativePositionInRight CRD_UNIFORM/-0.1/0.3/0
+ObjectTemplate.positionalSpeedInUp CRD_UNIFORM/2/0/0
+ObjectTemplate.rotationalSpeedInDof CRD_UNIFORM/1/0/0
+ObjectTemplate.rotationalSpeedInUp CRD_UNIFORM/10/50/0
+ObjectTemplate.rotationalSpeedInRight CRD_UNIFORM/1/10/0
+ObjectTemplate.startRotation CRD_UNIFORM/1/180/0
+
+
+rem *** Fx_wGravelGround2 ***
+ObjectTemplate.create Particle Fx_wGravelGround2
+ObjectTemplate.geometry Richo_meshsbig_m1
+ObjectTemplate.timeToLive CRD_NONE/0/0/0
+ObjectTemplate.size CRD_UNIFORM/1/2/0
+ObjectTemplate.gravityModifier CRD_NONE/0.4/-0.2/0
+ObjectTemplate.drag CRD_NONE/0.3/0/0

@@ -1,0 +1,9 @@
+
+GeometryTemplate.create StandardMesh Stones_Pacif_L_m1
+GeometryTemplate.file Stones_Pacif_L_m1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 15
+GeometryTemplate.setLodDistance 2 20
+GeometryTemplate.setLodDistance 3 25
+GeometryTemplate.setLodDistance 4 30
+GeometryTemplate.setLodDistance 5 100

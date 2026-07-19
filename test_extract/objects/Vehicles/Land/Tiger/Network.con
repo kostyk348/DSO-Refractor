@@ -1,0 +1,11 @@
+NetworkableInfo.createNewInfo TigerTurretInfo
+NetworkableInfo.setPredictionMode PMLinear
+
+NetworkableInfo.createNewInfo TigerGunInfo
+NetworkableInfo.setPredictionMode PMLinear
+
+NetworkableInfo.createNewInfo TigerEngineInfo
+NetworkableInfo.setPredictionMode PMLinear
+
+NetworkableInfo.createNewInfo TigerBodyInfo
+NetworkableInfo.setPredictionMode PMLinear

@@ -1,0 +1,98 @@
+ObjectTemplate.create HandFireArms GrenadeAllies
+ObjectTemplate.itemIndex 4
+ObjectTemplate.networkableInfo HandFireArmsInfo
+ObjectTemplate.hasDynamicShadow 1
+ObjectTemplate.projectileTemplate GrenadeAlliesProjectile
+ObjectTemplate.projectilePosition 0/0/2
+ObjectTemplate.ForceOnExplosion 10
+ObjectTemplate.magSize 3
+ObjectTemplate.numOfMag 1
+ObjectTemplate.magType 0
+ObjectTemplate.reloadtime 2
+ObjectTemplate.roundOfFire 1
+ObjectTemplate.fireOnce 1
+rem ObjectTemplate.altFireOnce 1
+ObjectTemplate.hasArmor 1
+ObjectTemplate.material 70
+ObjectTemplate.hitpoints 10000
+ObjectTemplate.maxhitpoints 10000
+ObjectTemplate.AmmoType	2
+
+ObjectTemplate.autoReload 1
+ObjectTemplate.GUIIndex 13
+ObjectTemplate.rotationalSpeed -8/0/0
+ObjectTemplate.velocity 20
+
+ObjectTemplate.minDeviation 0
+ObjectTemplate.maxDeviation 0.08
+ObjectTemplate.fireInCameraDof 1
+ObjectTemplate.hideDuringFireTime 0.4
+ObjectTemplate.fireDelay 1
+objectTemplate.aiTemplate GrenadeAlliesAI
+ObjectTemplate.soldierCameraPosition 0/-0.03/0.2
+ObjectTemplate.cantSelectWhenNoAmmo 1
+ObjectTemplate.changeWeaponWhenNoAmmo 1
+
+ObjectTemplate.velocityDependentOnHeat 1
+ObjectTemplate.heatAddWhenFire 0.025
+rem ObjectTemplate.coolDownPerSec 0.05
+ObjectTemplate.changeWeaponWhenNoAmmo 1
+
+ObjectTemplate.createSkeleton animations/GrenadeAllies.ske
+ObjectTemplate.useSkeletonPartAsMain Base
+ObjectTemplate.addTemplate GrenadeAlliesLod
+
+ObjectTemplate.loadSoundScript Sounds/GrenadeAllies.ssc
+
+rem
+rem ** SimpleObjects
+rem 
+ObjectTemplate.create SimpleObject GrenadeAlliesPigg
+ObjectTemplate.geometry GrenadeAlliesPigg
+
+ObjectTemplate.create SimpleObject GrenadeAlliesSprint
+ObjectTemplate.geometry GrenadeAlliesSprint
+
+ObjectTemplate.create SimpleObject GrenadeAlliesSimple
+ObjectTemplate.geometry Shad_GrenadeAllies
+
+ObjectTemplate.create AnimatedBundle GrenadeAlliesComplex
+ObjectTemplate.createSkeleton animations/GrenadeAllies.ske
+ObjectTemplate.geometry GrenadeAllies
+ObjectTemplate.addTemplate GrenadeAlliesSprint
+ObjectTemplate.bindToSkeletonPart sprint
+ObjectTemplate.addTemplate GrenadeAlliesPigg
+ObjectTemplate.bindToSkeletonPart pigg
+
+ObjectTemplate.create LodObject GrenadeAlliesLod
+ObjectTemplate.lodselector HandWeaponLodSelector
+ObjectTemplate.addTemplate GrenadeAlliesComplex
+ObjectTemplate.addTemplate GrenadeAlliesSimple
+
+
+
+ObjectTemplate.create Projectile GrenadeAlliesProjectile
+ObjectTemplate.networkableInfo ProjectileInfo
+ObjectTemplate.geometry GrenadeAllies
+ObjectTemplate.hasDynamicShadow 1
+ObjectTemplate.setHasMobilePhysics 1
+ObjectTemplate.setHasCollisionPhysics 1
+ObjectTemplate.setHasResponsePhysics 1
+ObjectTemplate.setHasPointPhysics 0
+ObjectTemplate.hasCollisionEffect 0
+ObjectTemplate.invisibleAtEndEffect 1
+ObjectTemplate.hasArmor 1
+ObjectTemplate.hitPoints 9999
+ObjectTemplate.maxHitPoints 9999
+ObjectTemplate.explosionDamage 0
+rem *** MattiasH doesn't permit random time on projectiles. ask him about this.
+ObjectTemplate.timeToLive CRD_NONE/4/0/0
+ObjectTemplate.useMMOnEndEffect 1
+ObjectTemplate.dieAfterColl 0
+ObjectTemplate.radius 15.0
+ObjectTemplate.damageType 1
+ObjectTemplate.material 70
+ObjectTemplate.material2 205
+ObjectTemplate.hasOnTimeEffect 1
+ObjectTemplate.endEffectTemplate e_ExplGranade
+ObjectTemplate.noFFSound 1

@@ -1,0 +1,4 @@
+GeometryTemplate.create TreeMesh EU_asp2_M1
+GeometryTemplate.file EU_asp2_M1
+GeometryTemplate.billboard 1
+GeometryTemplate.billboardDistance 50

@@ -1,0 +1,75 @@
+ObjectTemplate.create KitPart BackPack
+ObjectTemplate.geometry BackPack
+ObjectTemplate.setBoneName backpack
+ObjectTemplate.setCopyLinksCount 0
+
+ObjectTemplate.create KitPart HipPack
+ObjectTemplate.geometry HipPack
+ObjectTemplate.setBoneName HipPack
+ObjectTemplate.setCopyLinksCount 0
+
+ObjectTemplate.create KitPart USSoldierHelmet
+ObjectTemplate.geometry Soldier/USHelmet
+ObjectTemplate.setBoneName A
+ObjectTemplate.setCopyLinksCount 0
+
+ObjectTemplate.create KitPart JapSoldierHelmet
+ObjectTemplate.geometry Soldier/JapHelmet
+ObjectTemplate.setBoneName A
+ObjectTemplate.setCopyLinksCount 0
+
+ObjectTemplate.create KitPart GerSoldierHelmet
+ObjectTemplate.geometry Soldier/GerHelmet
+ObjectTemplate.setBoneName A
+ObjectTemplate.setCopyLinksCount 0
+
+ObjectTemplate.create KitPart BritSoldierHelmet
+ObjectTemplate.geometry Soldier/BritHelmet
+ObjectTemplate.setBoneName A
+ObjectTemplate.setCopyLinksCount 0
+
+ObjectTemplate.create KitPart RussSoldierHelmet
+ObjectTemplate.geometry Soldier/RussHelmet
+ObjectTemplate.setBoneName A
+ObjectTemplate.setCopyLinksCount 0
+
+
+ObjectTemplate.create Kit JapKit
+ObjectTemplate.networkableInfo KitInfo
+ObjectTemplate.addTemplate JapSoldierHelmet
+ObjectTemplate.addTemplate Backpack
+ObjectTemplate.addTemplate HipPack
+ObjectTemplate.addTemplate Thompson
+
+ObjectTemplate.create Kit GerKit
+ObjectTemplate.networkableInfo KitInfo
+ObjectTemplate.addTemplate GerSoldierHelmet
+ObjectTemplate.addTemplate Backpack
+ObjectTemplate.addTemplate HipPack
+ObjectTemplate.addTemplate Thompson
+
+ObjectTemplate.create Kit BritKit
+ObjectTemplate.networkableInfo KitInfo
+ObjectTemplate.addTemplate BritSoldierHelmet
+ObjectTemplate.addTemplate Backpack
+ObjectTemplate.addTemplate HipPack
+ObjectTemplate.addTemplate Thompson
+
+ObjectTemplate.create Kit RussKit
+ObjectTemplate.networkableInfo KitInfo
+ObjectTemplate.addTemplate RussSoldierHelmet
+ObjectTemplate.addTemplate Backpack
+ObjectTemplate.addTemplate HipPack
+ObjectTemplate.addTemplate Thompson
+
+ObjectTemplate.create Kit USKit
+ObjectTemplate.networkableInfo KitInfo
+ObjectTemplate.addTemplate UsSoldierHelmet
+ObjectTemplate.addTemplate Backpack
+ObjectTemplate.addTemplate HipPack
+ObjectTemplate.addTemplate mp40
+
+
+
+
+

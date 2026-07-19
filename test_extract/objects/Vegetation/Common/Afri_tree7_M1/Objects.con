@@ -1,0 +1,3 @@
+ObjectTemplate.create SimpleObject Afri_tree7_M1
+ObjectTemplate.geometry Afri_tree7_M1
+ObjectTemplate.setHasCollisionPhysics 1

@@ -1,0 +1,3 @@
+ObjectTemplate.create SimpleObject Milifence_pole_m1
+ObjectTemplate.geometry Milifence_pole_m1
+ObjectTemplate.setHasCollisionPhysics 1

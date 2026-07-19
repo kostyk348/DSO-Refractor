@@ -1,0 +1,16 @@
+ObjectTemplate.create Kit Jap_Scout
+ObjectTemplate.geometry Kit_Axis_Scout
+ObjectTemplate.setHasCollisionPhysics 1
+ObjectTemplate.networkableInfo KitInfo
+ObjectTemplate.addTemplate Jap_ScoutHelm
+ObjectTemplate.addTemplate Radio
+ObjectTemplate.addTemplate Jap_Hip_Pack
+
+ObjectTemplate.addTemplate k98Sniper
+ObjectTemplate.addTemplate walterp38
+ObjectTemplate.addTemplate KnifeAxis
+ObjectTemplate.addTemplate GrenadeAxis
+ObjectTemplate.addTemplate Binoculars
+
+ObjectTemplate.aiTemplate  Scout
+

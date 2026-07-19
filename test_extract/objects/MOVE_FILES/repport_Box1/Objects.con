@@ -1,0 +1,4 @@
+ObjectTemplate.create SimpleObject repport_box1_m1
+ObjectTemplate.geometry repport_box1_m1
+ObjectTemplate.setHasCollisionPhysics 1
+objectTemplate.aiTemplate repport_box1_m1

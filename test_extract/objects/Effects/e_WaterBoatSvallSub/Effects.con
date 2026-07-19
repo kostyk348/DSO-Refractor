@@ -1,0 +1,34 @@
+
+
+rem *** e_WaterBoatSvallSub ***
+ObjectTemplate.create EffectBundle e_WaterBoatSvallSub 
+ObjectTemplate.saveInSeparateFile 1
+rem -------------------------------------
+ObjectTemplate.addTemplate Em_WaterBoatSvallSub 
+ObjectTemplate.timeToLive CRD_NONE/-1/0/0
+rem -------------------------------------
+ObjectTemplate.minDistanceUnderwaterSurface 0
+ObjectTemplate.maxDistanceUnderwaterSurface 3
+
+
+rem *** Em_WaterBoatSvallSub ***
+ObjectTemplate.create Emitter Em_WaterBoatSvallSub 
+ObjectTemplate.template Fx_WaterBoatSvallSub 
+ObjectTemplate.looping 1
+ObjectTemplate.startAtCreation 1
+ObjectTemplate.lodDistance 800
+ObjectTemplate.timeToLive CRD_NONE/1/0/0
+ObjectTemplate.intensity CRD_NONE/4/0/0
+ObjectTemplate.moveToWaterSurface 1
+
+
+rem *** Fx_WaterBoatSvallSub ***
+ObjectTemplate.create Particle Fx_WaterBoatSvallSub 
+ObjectTemplate.geometry watermesh_streak1_m1
+ObjectTemplate.timeToLive CRD_NONE/3/2/0
+ObjectTemplate.size CRD_NONE/30/0/0
+ObjectTemplate.gravityModifier CRD_NONE/0/0/0
+ObjectTemplate.sizeModifier 4/1/1
+ObjectTemplate.sizeOverTime 0/0.200003|100/0.599994
+ObjectTemplate.alphaOverTime 0/0.240089|11/0.640089|100/0
+

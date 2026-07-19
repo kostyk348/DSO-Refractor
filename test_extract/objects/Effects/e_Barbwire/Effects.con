@@ -1,0 +1,11 @@
+
+
+rem *** e_Barbwire ***
+ObjectTemplate.create EffectBundle e_Barbwire
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.loadSoundScript Sounds/e_Barbwire.ssc
+ObjectTemplate.timeToLive CRD_NONE/-1/0/0
+
+rem *** Em_Silent ***
+ObjectTemplate.addTemplate Em_Silent
+

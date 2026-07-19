@@ -1,0 +1,104 @@
+
+
+rem *** Chi-ha_Engine ***
+ObjectTemplate.create Engine Chi-ha_Engine
+ObjectTemplate.setNetworkableInfo Chi-ha_EngineInfo
+ObjectTemplate.setAttachToListener 1
+ObjectTemplate.loadSoundScript Sounds/ChihaEngine.ssc
+ObjectTemplate.hasMobilePhysics 1
+rem -------------------------------------
+ObjectTemplate.addTemplate Chi-ha_TrackL
+ObjectTemplate.setPosition -0.985/-0.373/0.011
+ObjectTemplate.addTemplate Chi-ha_TrackR
+ObjectTemplate.setPosition 0.986/-0.373/0.011
+rem -------------------------------------
+ObjectTemplate.setMinRotation -1/0/-2500
+ObjectTemplate.setMaxRotation 1/0/5000
+ObjectTemplate.setMaxSpeed 100/0/5000
+ObjectTemplate.setAcceleration 100/0/5000
+ObjectTemplate.setInputToYaw c_PIYaw
+ObjectTemplate.setInputToRoll c_PIThrottle
+ObjectTemplate.setAutomaticReset 1
+ObjectTemplate.setEngineType c_ETTank
+ObjectTemplate.setTorque 2.5
+ObjectTemplate.setDifferential 4
+ObjectTemplate.setNumberOfGears 5
+ObjectTemplate.setGearUp 0.95
+ObjectTemplate.setGearDown 0.45
+ObjectTemplate.setGearChangeTime 0.5
+
+
+rem *** Chi-ha_WheelL2Dummy ***
+ObjectTemplate.create Spring Chi-ha_WheelL2Dummy
+ObjectTemplate.geometry Chi-ha_Left_Whe2_m1
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.Grip c_PGFEngineDummyGrip
+ObjectTemplate.setStrength 0
+ObjectTemplate.setDamping 0
+
+
+rem *** Chi-ha_WheelL2 ***
+ObjectTemplate.create Spring Chi-ha_WheelL2
+ObjectTemplate.setNetworkableInfo SpringInfo
+ObjectTemplate.geometry Chi-ha_Left_Whe2_m1
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.Grip c_PGFEngineGrip
+ObjectTemplate.setStrength 14
+ObjectTemplate.setDamping 2
+
+
+rem *** Chi-ha_WheelL2DummySmoke ***
+ObjectTemplate.create Spring Chi-ha_WheelL2DummySmoke
+ObjectTemplate.geometry Chi-ha_Left_Whe2_m1
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.Grip c_PGFEngineDummyGrip
+rem -------------------------------------
+ObjectTemplate.addTemplate e_wdustPanzL
+ObjectTemplate.addTemplate e_wdustPanz
+rem -------------------------------------
+ObjectTemplate.setStrength 0
+ObjectTemplate.setDamping 0
+
+
+rem *** Chi-ha_WheelR2Dummy ***
+ObjectTemplate.create Spring Chi-ha_WheelR2Dummy
+ObjectTemplate.geometry Chi-ha_Right_Whe2_m1
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.Grip c_PGFEngineDummyGrip
+ObjectTemplate.setStrength 0
+ObjectTemplate.setDamping 0
+
+
+rem *** Chi-ha_WheelR2 ***
+ObjectTemplate.create Spring Chi-ha_WheelR2
+ObjectTemplate.setNetworkableInfo SpringInfo
+ObjectTemplate.geometry Chi-ha_Right_Whe2_m1
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.Grip c_PGFEngineGrip
+ObjectTemplate.setStrength 14
+ObjectTemplate.setDamping 2
+
+
+rem *** Chi-ha_WheelR2DummySmoke ***
+ObjectTemplate.create Spring Chi-ha_WheelR2DummySmoke
+ObjectTemplate.geometry Chi-ha_Right_Whe2_m1
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.Grip c_PGFEngineDummyGrip
+rem -------------------------------------
+ObjectTemplate.addTemplate e_wdustPanzL
+ObjectTemplate.addTemplate e_wdustPanz
+rem -------------------------------------
+ObjectTemplate.setStrength 0
+ObjectTemplate.setDamping 0

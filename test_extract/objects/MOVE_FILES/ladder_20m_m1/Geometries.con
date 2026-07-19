@@ -1,0 +1,8 @@
+GeometryTemplate.create StandardMesh ladder_20m_m1
+GeometryTemplate.file ladder_20m_m1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 20
+GeometryTemplate.setLodDistance 2 30
+GeometryTemplate.setLodDistance 3 40
+GeometryTemplate.setLodDistance 4 60
+GeometryTemplate.setLodDistance 5 100

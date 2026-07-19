@@ -1,0 +1,3 @@
+ObjectTemplate.create SimpleObject sidewalkL_m1
+ObjectTemplate.geometry sidewalkL_m1
+ObjectTemplate.setHasCollisionPhysics 1

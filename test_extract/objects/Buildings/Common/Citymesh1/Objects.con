@@ -1,0 +1,70 @@
+ObjectTemplate.create Bundle citymesh1_m1
+ObjectTemplate.setHasCollisionPhysics 1
+objectTemplate.aiTemplate citymesh1_m1
+ObjectTemplate.addTemplate lodcitymesh1
+
+LodSelectorTemplate.create DistanceSelector citymesh1Selector
+LodSelectorTemplate.addLodDistance 70
+ObjectTemplate.create LodObject lodcitymesh1
+ObjectTemplate.lodselector citymesh1Selector
+ObjectTemplate.addTemplate citymesh1Interior
+ObjectTemplate.addTemplate citymesh1Exterior
+
+ObjectTemplate.create bundle citymesh1Interior
+ObjectTemplate.geometry citymesh1_m1
+
+rem ---------------------------
+ObjectTemplate.addTemplate eubooksh_M1
+ObjectTemplate.setPosition 1.5/8.365/-2.544
+ObjectTemplate.setRotation 0/0/0
+
+ObjectTemplate.addTemplate eurocarpet1_M1
+ObjectTemplate.setPosition 0.5/8.42/-0.21
+ObjectTemplate.setRotation 0/0/0
+
+ObjectTemplate.addTemplate eurocarpet2_M1
+ObjectTemplate.setPosition 0.1/12.57/-1
+ObjectTemplate.setRotation 0/0/0
+
+ObjectTemplate.addTemplate euchair02_M1
+ObjectTemplate.setPosition -1.269/8.365/-2.543
+ObjectTemplate.setRotation 0/0/0
+
+ObjectTemplate.addTemplate euchair02_M1
+ObjectTemplate.setPosition -1.327/8.655/1.103
+ObjectTemplate.setRotation 159.052/-3.357/-90.934
+
+
+
+ObjectTemplate.addTemplate eupaint1_M1
+ObjectTemplate.setPosition -1.268/10.535/-2.712
+ObjectTemplate.setRotation 180/0/180
+
+ObjectTemplate.addTemplate eubooksh_M1
+ObjectTemplate.setPosition 2.5/12.51/-4.033
+ObjectTemplate.setRotation 0/0/0
+
+ObjectTemplate.addTemplate eubooksh_M1
+ObjectTemplate.setPosition -2.5/12.51/-4.033
+ObjectTemplate.setRotation 0/0/0
+
+ObjectTemplate.addTemplate euchair_M1
+ObjectTemplate.setPosition -3.599/12.81/4.833
+ObjectTemplate.setRotation 143/4/-90 
+
+ObjectTemplate.addTemplate eupaint1_M1
+ObjectTemplate.setPosition 5.9/5.76/-4.033
+ObjectTemplate.setRotation 90/0/180
+
+
+
+ObjectTemplate.addTemplate eupaint3_M1
+ObjectTemplate.setPosition -0.099/14.71/-4.312
+ObjectTemplate.setRotation 0/0/0
+
+
+
+
+rem ---------------------------
+ObjectTemplate.create SimpleObject citymesh1Exterior
+ObjectTemplate.geometry citymesh1_m2

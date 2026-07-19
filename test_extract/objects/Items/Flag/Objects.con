@@ -1,0 +1,62 @@
+ObjectTemplate.create AnimatedBundle AnimatedFlag
+ObjectTemplate.geometry flagso_m1
+ObjectTemplate.createSkeleton animations/flag.ske
+ObjectTemplate.setAnimationState FlagBlow
+ObjectTemplate.loadSoundScript Sounds/flag.ssc
+
+ObjectTemplate.create AnimatedBundle AnimatedSoFlag
+ObjectTemplate.geometry flagso_m1
+ObjectTemplate.createSkeleton animations/flag.ske
+ObjectTemplate.setAnimationState FlagBlow
+ObjectTemplate.loadSoundScript Sounds/flag.ssc
+
+ObjectTemplate.create AnimatedBundle AnimatedUsFlag
+ObjectTemplate.geometry flagus_m1
+ObjectTemplate.createSkeleton animations/flag.ske
+ObjectTemplate.setAnimationState FlagBlow
+ObjectTemplate.loadSoundScript Sounds/flag.ssc
+
+ObjectTemplate.create AnimatedBundle AnimatedJapFlag
+ObjectTemplate.geometry flagJp_m1
+ObjectTemplate.createSkeleton animations/flag.ske
+ObjectTemplate.setAnimationState FlagBlow
+ObjectTemplate.loadSoundScript Sounds/flag.ssc
+
+
+
+
+
+ObjectTemplate.create AnimatedBundle AnimatedGeFlag
+ObjectTemplate.geometry flagge_m1
+ObjectTemplate.createSkeleton animations/flag.ske
+ObjectTemplate.setAnimationState FlagBlow
+ObjectTemplate.loadSoundScript Sounds/flag.ssc
+
+ObjectTemplate.create AnimatedBundle AnimatedUkFlag
+ObjectTemplate.geometry flaguk_m1
+ObjectTemplate.createSkeleton animations/flag.ske
+ObjectTemplate.setAnimationState FlagBlow
+ObjectTemplate.loadSoundScript Sounds/flag.ssc
+
+rem BlueFlag and RedFlag is defined per level.
+
+ObjectTemplate.create FlagBase BlueBase
+ObjectTemplate.team 1
+ObjectTemplate.flagTemplate BlueFlag
+ObjectTemplate.radius 5
+ObjectTemplate.geometry flagbase_m1
+ObjectTemplate.sethasCollisionPhysics 1
+ObjectTemplate.setFlagLocation 0/7.6/0 0/0/0
+
+ObjectTemplate.create FlagBase RedBase
+ObjectTemplate.team 2
+ObjectTemplate.flagTemplate RedFlag
+ObjectTemplate.radius 5
+ObjectTemplate.geometry flagbase_m1
+ObjectTemplate.sethasCollisionPhysics 1
+ObjectTemplate.setFlagLocation 0/7.6/0 0/0/0
+
+ObjectTemplate.create SimpleObject FlagPole 
+ObjectTemplate.geometry flagbase_m1
+ObjectTemplate.setHasCollisionPhysics 1
+

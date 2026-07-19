@@ -1,0 +1,112 @@
+rem *** Create Strategies ***
+
+
+rem *** German on Tobruk ***
+
+aiStrategy.createStrategy flank
+aiStrategy.Aggression 1.0
+aiStrategy.NumberOfAttacks 2
+aiStrategy.NumberOfDefences 1
+aiStrategy.setPrerequisite flankPrereq
+aiStrategy.setTreeModifierCombatStrength  TTNFriendGroundMobile All 1.5
+aiStrategy.setTreeModifier  TTNFriendGroundFixed 0.8
+aiStrategy.setTreeModifier  TTNHostileGroundFixed 1.25
+aiStrategy.setStrategicObjectsModifier Base 0.5 Hostile
+aiStrategy.setStrategicObjectsModifier Base 2.0 Owned
+aiStrategy.setStrategicObjectsModifier Centre 0.5 Hostile
+aiStrategy.setStrategicObjectsModifier Centre 2.0 Owned
+aiStrategy.setStrategicObjectsModifier ControlPoint 2.0
+aiStrategy.setStrategicObjectsModifier Flank 10.0 Hostile
+
+aiStrategy.createStrategy centre
+aiStrategy.Aggression 1.0
+aiStrategy.NumberOfAttacks 1
+aiStrategy.NumberOfDefences 2
+aiStrategy.setPrerequisite centrePrereq
+aiStrategy.setTreeModifierCombatStrength  TTNFriendGroundMobile All 1.5
+aiStrategy.setTreeModifier  TTNFriendGroundFixed 0.8
+aiStrategy.setTreeModifier  TTNHostileGroundFixed 1.25
+aiStrategy.setStrategicObjectsModifier Base 6.0 Hostile
+aiStrategy.setStrategicObjectsModifier Close 6.0 Hostile
+aiStrategy.setStrategicObjectsModifier Centre 10.0 Hostile
+aiStrategy.setStrategicObjectsModifier Centre 0.5 Owned
+aiStrategy.setStrategicObjectsModifier ControlPoint 2.0
+aiStrategy.setStrategicObjectsModifier Flank 0.5 Hostile
+aiStrategy.setStrategicObjectsModifier Flank 3.0 Owned
+
+aiStrategy.createStrategy spear
+aiStrategy.Aggression 0.8
+aiStrategy.NumberOfAttacks 1
+aiStrategy.NumberOfDefences 2
+aiStrategy.setPrerequisite spearPrereq
+aiStrategy.setTreeModifierCombatStrength TTNFriendGroundMobile All 1.5
+aiStrategy.setTreeModifier TTNFriendGroundFixed 0.8
+aiStrategy.setTreeModifier TTNHostileGroundFixed 1.25
+aiStrategy.setStrategicObjectsModifier Base 10.0 Hostile
+aiStrategy.setStrategicObjectsModifier Close 5.0 Hostile
+aiStrategy.setStrategicObjectsModifier Centre 2.5 Hostile
+aiStrategy.setStrategicObjectsModifier ControlPoint 2.0
+
+
+rem *** British on Tobruk ***
+
+aiStrategy.createStrategy holdFront3
+aiStrategy.Aggression 0.0
+aiStrategy.NumberOfAttacks 0
+aiStrategy.NumberOfDefences 3
+aiStrategy.setPrerequisite front3Prereq
+aiStrategy.setTreeModifier TTNHostileGroundMobile 1.2
+aiStrategy.setTreeModifier TTNFriendGroundFixed 1.4
+aiStrategy.setTreeModifier TTNHostileGroundFixed 0.8
+aiStrategy.setStrategicObjectsModifier ControlPoint 2.0
+aiStrategy.setStrategicObjectsModifier Centre 1.5 Owned
+aiStrategy.setStrategicObjectsModifier Close 2.0 Owned
+aiStrategy.setStrategicObjectsModifier Base 3.0 Owned
+aiStrategy.setStrategicObjectsModifier Safe 0.05 Owned
+aiStrategy.setStrategicObjectsModifier Front 10.0 Owned
+
+aiStrategy.createStrategy holdFront2
+aiStrategy.Aggression 0.0
+aiStrategy.NumberOfAttacks 0
+aiStrategy.NumberOfDefences 2
+aiStrategy.setPrerequisite front2Prereq
+aiStrategy.setTreeModifier TTNHostileGroundMobile 1.2
+aiStrategy.setTreeModifier TTNFriendGroundFixed 1.4
+aiStrategy.setTreeModifier TTNHostileGroundFixed 0.8
+aiStrategy.setStrategicObjectsModifier Centre 1.5 Owned
+aiStrategy.setStrategicObjectsModifier Close 2.0 Owned
+aiStrategy.setStrategicObjectsModifier Base 3.0 Owned
+aiStrategy.setStrategicObjectsModifier Safe 0.05 Owned
+aiStrategy.setStrategicObjectsModifier Front 10.0 Owned
+aiStrategy.setStrategicObjectsModifier ControlPoint 2.0
+
+aiStrategy.createStrategy retake
+aiStrategy.Aggression 0.4
+aiStrategy.NumberOfAttacks 1
+aiStrategy.NumberOfDefences 2
+aiStrategy.setPrerequisite retakePrereq
+aiStrategy.setTreeModifier TTNHostileGroundMobile 1.2
+aiStrategy.setTreeModifier TTNFriendGroundFixed 1.4
+aiStrategy.setTreeModifier TTNHostileGroundFixed 0.8
+aiStrategy.setStrategicObjectsModifier Centre 1.5 Owned
+aiStrategy.setStrategicObjectsModifier Close 2.0 Owned
+aiStrategy.setStrategicObjectsModifier Base 3.0 Owned
+aiStrategy.setStrategicObjectsModifier Safe 0.05 Owned
+aiStrategy.setStrategicObjectsModifier Front 10.0 Owned
+aiStrategy.setStrategicObjectsModifier ControlPoint 2.0
+
+aiStrategy.createStrategy breakOut
+aiStrategy.Aggression 0.85
+aiStrategy.NumberOfAttacks 2
+aiStrategy.NumberOfDefences 1
+aiStrategy.setPrerequisite breakOutPrereq
+aiStrategy.setTreeModifier TTNHostileGroundMobile 1.2
+aiStrategy.setTreeModifier TTNFriendGroundFixed 1.4
+aiStrategy.setTreeModifier TTNHostileGroundFixed 0.8
+aiStrategy.setStrategicObjectsModifier Centre 1.5 Owned
+aiStrategy.setStrategicObjectsModifier Close 2.0 
+aiStrategy.setStrategicObjectsModifier Base 3.0 
+aiStrategy.setStrategicObjectsModifier Safe 0.05 Owned
+aiStrategy.setStrategicObjectsModifier Front 10.0
+aiStrategy.setStrategicObjectsModifier ControlPoint 2.0
+

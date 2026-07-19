@@ -1,0 +1,4 @@
+ObjectTemplate.create SimpleObject Oma_conc_m1
+ObjectTemplate.geometry Oma_conc_m1
+ObjectTemplate.aiTemplate Oma_conc_m1
+ObjectTemplate.setHasCollisionPhysics 1

@@ -1,0 +1,3 @@
+ObjectTemplate.create SimpleObject Patable_M1
+ObjectTemplate.geometry Patable_M1
+ObjectTemplate.setHasCollisionPhysics 1

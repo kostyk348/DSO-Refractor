@@ -1,0 +1,85 @@
+newPatch
+############
+### Para ###
+############
+
+load @ROOT/Sound/@RTD/para1.wav
+randomStartPitch 0.03 / 0.03
+minDistance 1
+
+*** Time Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Time
+	envelope Ramp
+	param 0.4
+	param 0.4
+	param 0
+	param 1	
+endEffect
+trigger Volume
+*** Distance Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 10
+	param 30
+	param 1
+	param -1	
+endEffect
+
+load @ROOT/Sound/@RTD/para2.wav
+randomStartPitch 0.03 / 0.03
+minDistance 1
+
+*** Time Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Time
+	envelope Ramp
+	param 0.4
+	param 0.4
+	param 0
+	param 1	
+endEffect
+trigger Volume
+*** Distance Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 10
+	param 30
+	param 1
+	param -1	
+endEffect
+
+load @ROOT/Sound/@RTD/para3.wav
+randomStartPitch 0.03 / 0.03
+minDistance 1
+
+*** Time Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Time
+	envelope Ramp
+	param 0.3
+	param 0.2
+	param 0
+	param 1	
+endEffect
+trigger Volume
+*** Distance Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 10
+	param 30
+	param 1
+	param -1	
+endEffect
+
+randomPlay 1
+

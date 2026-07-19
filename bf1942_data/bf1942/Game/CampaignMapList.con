@@ -1,0 +1,16 @@
+Game.addLevel BattleAxe
+Game.addLevel Gazala
+Game.addLevel Wake
+Game.addLevel Kursk
+Game.addLevel Tobruk
+Game.addLevel Midway
+Game.addLevel Stalingrad
+Game.addLevel El_Alamein
+Game.addLevel Guadalcanal
+Game.addLevel Kharkov
+Game.addLevel Omaha_Beach
+Game.addLevel Bocage
+Game.addLevel Market_Garden
+Game.addLevel Battle_for_the_Bulge
+Game.addLevel Berlin
+Game.addLevel Iwo_jima

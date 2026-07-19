@@ -1,0 +1,104 @@
+
+
+rem *** PanzerIVEngine ***
+ObjectTemplate.create Engine PanzerIVEngine
+ObjectTemplate.setNetworkableInfo PanzerIVEngineInfo
+ObjectTemplate.setAttachToListener 1
+ObjectTemplate.loadSoundScript Sounds/PanzerIVEngine.ssc
+ObjectTemplate.hasMobilePhysics 1
+rem -------------------------------------
+ObjectTemplate.addTemplate PanzerIVTrackL
+ObjectTemplate.setPosition -1.263/-0.099/-4.084
+ObjectTemplate.addTemplate PanzerIVTrackR
+ObjectTemplate.setPosition 1.264/-0.099/-4.084
+rem -------------------------------------
+ObjectTemplate.setMinRotation -1/0/-2500
+ObjectTemplate.setMaxRotation 1/0/5000
+ObjectTemplate.setMaxSpeed 100/0/5000
+ObjectTemplate.setAcceleration 100/0/5000
+ObjectTemplate.setInputToYaw c_PIYaw
+ObjectTemplate.setInputToRoll c_PIThrottle
+ObjectTemplate.setAutomaticReset 1
+ObjectTemplate.setEngineType c_ETTank
+ObjectTemplate.setTorque 2.5
+ObjectTemplate.setDifferential 4
+ObjectTemplate.setNumberOfGears 5
+ObjectTemplate.setGearUp 0.95
+ObjectTemplate.setGearDown 0.45
+ObjectTemplate.setGearChangeTime 0.5
+
+
+rem *** PanzerIVWheelL2DummySmoke ***
+ObjectTemplate.create Spring PanzerIVWheelL2DummySmoke
+ObjectTemplate.geometry PanzerIV_whe2R_M1
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.Grip c_PGFEngineDummyGrip
+rem -------------------------------------
+ObjectTemplate.addTemplate e_wdustPanzL
+ObjectTemplate.addTemplate e_wdustPanz
+rem -------------------------------------
+ObjectTemplate.setStrength 0
+ObjectTemplate.setDamping 0
+
+
+rem *** PanzerIVWheelL2Dummy ***
+ObjectTemplate.create Spring PanzerIVWheelL2Dummy
+ObjectTemplate.geometry PanzerIV_whe2R_M1
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.Grip c_PGFEngineDummyGrip
+ObjectTemplate.setStrength 0
+ObjectTemplate.setDamping 0
+
+
+rem *** PanzerIVWheelL2 ***
+ObjectTemplate.create Spring PanzerIVWheelL2
+ObjectTemplate.setNetworkableInfo SpringInfo
+ObjectTemplate.geometry PanzerIV_whe2R_M1
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.Grip c_PGFEngineGrip
+ObjectTemplate.setStrength 11
+ObjectTemplate.setDamping 3
+
+
+rem *** PanzerIVWheelR2DummySmoke ***
+ObjectTemplate.create Spring PanzerIVWheelR2DummySmoke
+ObjectTemplate.geometry PanzerIV_whe2L_M1
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.Grip c_PGFEngineDummyGrip
+rem -------------------------------------
+ObjectTemplate.addTemplate e_wdustPanzL
+ObjectTemplate.addTemplate e_wdustPanz
+rem -------------------------------------
+ObjectTemplate.setStrength 0
+ObjectTemplate.setDamping 0
+
+
+rem *** PanzerIVWheelR2Dummy ***
+ObjectTemplate.create Spring PanzerIVWheelR2Dummy
+ObjectTemplate.geometry PanzerIV_whe2L_M1
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.Grip c_PGFEngineDummyGrip
+ObjectTemplate.setStrength 0
+ObjectTemplate.setDamping 0
+
+
+rem *** PanzerIVWheelR2 ***
+ObjectTemplate.create Spring PanzerIVWheelR2
+ObjectTemplate.setNetworkableInfo SpringInfo
+ObjectTemplate.geometry PanzerIV_whe2L_M1
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.Grip c_PGFEngineGrip
+ObjectTemplate.setStrength 11
+ObjectTemplate.setDamping 3

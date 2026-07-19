@@ -1,0 +1,139 @@
+
+
+rem *** M3A1Spring1 ***
+ObjectTemplate.create Spring M3A1Spring1
+ObjectTemplate.setNetworkableInfo SpringInfo
+ObjectTemplate.geometry M3A1_Wheel1_M1
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.Grip c_PGFRollGrip
+rem -------------------------------------
+ObjectTemplate.addTemplate e_wdustWheelFL
+ObjectTemplate.addTemplate e_wdustWheelF
+rem -------------------------------------
+ObjectTemplate.setStrength 28
+ObjectTemplate.setDamping 7
+
+
+rem *** M3A1Engine ***
+ObjectTemplate.create Engine M3A1Engine
+ObjectTemplate.setNetworkableInfo M3A1EngineInfo
+ObjectTemplate.setAttachToListener 1
+ObjectTemplate.loadSoundScript Sounds/M3A1Engine.ssc
+rem -------------------------------------
+ObjectTemplate.addTemplate m3a1TrackL
+ObjectTemplate.setPosition 0/-0.749/-0.949
+rem -------------------------------------
+ObjectTemplate.setMinRotation -1/0/-2500
+ObjectTemplate.setMaxRotation 1/0/5000
+ObjectTemplate.setMaxSpeed 10/0/5000
+ObjectTemplate.setAcceleration 10/0/5000
+ObjectTemplate.setInputToYaw c_PIYaw
+ObjectTemplate.setInputToRoll c_PIThrottle
+ObjectTemplate.setAutomaticReset 1
+ObjectTemplate.setEngineType c_ETTank
+ObjectTemplate.setTorque 4
+ObjectTemplate.setDifferential 5
+ObjectTemplate.setNumberOfGears 4
+ObjectTemplate.setGearUp 0.95
+ObjectTemplate.setGearDown 0.45
+ObjectTemplate.setGearChangeTime 0.5
+
+
+rem *** M3A1Wheel4Left ***
+ObjectTemplate.create Spring M3A1Wheel4Left
+ObjectTemplate.setNetworkableInfo SpringInfo
+ObjectTemplate.geometry M3A1_Wheel4_M1
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.Grip c_PGFEngineGrip
+ObjectTemplate.setStrength 20
+ObjectTemplate.setDamping 5
+
+
+rem *** M3A1Wheel4Right ***
+ObjectTemplate.create Spring M3A1Wheel4Right
+ObjectTemplate.setNetworkableInfo SpringInfo
+ObjectTemplate.geometry M3A1_Wheel4_M1
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.Grip c_PGFEngineGrip
+ObjectTemplate.setStrength 20
+ObjectTemplate.setDamping 5
+
+
+rem *** M3A1Wheel4LeftDummy ***
+ObjectTemplate.create Spring M3A1Wheel4LeftDummy
+ObjectTemplate.geometry M3A1_Wheel4_M1
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.Grip c_PGFEngineDummyGrip
+ObjectTemplate.setStrength 0
+ObjectTemplate.setDamping 0
+
+
+rem *** M3A1Wheel4RightDummy ***
+ObjectTemplate.create Spring M3A1Wheel4RightDummy
+ObjectTemplate.geometry M3A1_Wheel4_M1
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.Grip c_PGFEngineDummyGrip
+ObjectTemplate.setStrength 0
+ObjectTemplate.setDamping 0
+
+
+rem *** M3A1Wheel4LeftBack ***
+ObjectTemplate.create Spring M3A1Wheel4LeftBack
+ObjectTemplate.geometry M3A1_Wheel4_M1
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.Grip c_PGFEngineDummyGrip
+rem -------------------------------------
+ObjectTemplate.addTemplate e_wdustPanzL
+ObjectTemplate.addTemplate e_wdustPanz
+rem -------------------------------------
+ObjectTemplate.setStrength 0
+ObjectTemplate.setDamping 0
+
+
+rem *** M3A1Wheel4RightBack ***
+ObjectTemplate.create Spring M3A1Wheel4RightBack
+ObjectTemplate.geometry M3A1_Wheel4_M1
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.Grip c_PGFEngineDummyGrip
+rem -------------------------------------
+ObjectTemplate.addTemplate e_wdustPanzL
+ObjectTemplate.addTemplate e_wdustPanz
+rem -------------------------------------
+ObjectTemplate.setStrength 0
+ObjectTemplate.setDamping 0
+
+
+rem *** M3A1Wheel2 ***
+ObjectTemplate.create Spring M3A1Wheel2
+ObjectTemplate.geometry M3A1_Wheel2_M1
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.Grip c_PGFEngineDummyGrip
+ObjectTemplate.setStrength 0
+ObjectTemplate.setDamping 0
+
+
+rem *** M3A1Wheel3 ***
+ObjectTemplate.create Spring M3A1Wheel3
+ObjectTemplate.geometry M3A1_Wheel3_M1
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.Grip c_PGFEngineDummyGrip
+ObjectTemplate.setStrength 0
+ObjectTemplate.setDamping 0

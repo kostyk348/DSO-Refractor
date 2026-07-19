@@ -1,0 +1,250 @@
+rem *
+rem * ***** EXpac explosion SPLASH DAMAGE*****
+rem *
+
+rem * *************************************************
+rem *		Infantry target
+rem * *************************************************
+MaterialManager.attGroup 204
+MaterialManager.defGroup 40
+MaterialManager.damageMod 10
+
+MaterialManager.attGroup 204
+MaterialManager.defGroup 41
+MaterialManager.damageMod 10
+
+MaterialManager.attGroup 204
+MaterialManager.defGroup 42
+MaterialManager.damageMod 10
+
+rem * *************************************************
+rem *		scout cars target
+rem * *************************************************
+
+MaterialManager.attGroup 204
+MaterialManager.defGroup 43
+MaterialManager.damageMod 6
+
+MaterialManager.attGroup 204
+MaterialManager.defGroup 44
+MaterialManager.damageMod 6
+
+rem * *************************************************
+rem *		Light Vehicle target
+rem * *************************************************
+
+MaterialManager.attGroup 204
+MaterialManager.defGroup 45
+MaterialManager.damageMod 10
+
+MaterialManager.attGroup 204
+MaterialManager.defGroup 46
+MaterialManager.damageMod 10
+
+MaterialManager.attGroup 204
+MaterialManager.defGroup 47
+MaterialManager.damageMod 10
+
+MaterialManager.attGroup 204
+MaterialManager.defGroup 48
+MaterialManager.damageMod 10
+
+MaterialManager.attGroup 204
+MaterialManager.defGroup 49
+MaterialManager.damageMod 1.2
+
+
+rem * *************************************************
+rem *		Heavy Vehicle target
+rem * *************************************************
+
+MaterialManager.attGroup 204
+MaterialManager.defGroup 50
+MaterialManager.damageMod 8
+
+MaterialManager.attGroup 204
+MaterialManager.defGroup 51
+MaterialManager.damageMod 8
+
+MaterialManager.attGroup 204
+MaterialManager.defGroup 52
+MaterialManager.damageMod 8
+
+MaterialManager.attGroup 204
+MaterialManager.defGroup 53
+MaterialManager.damageMod 8
+
+MaterialManager.attGroup 204
+MaterialManager.defGroup 54
+MaterialManager.damageMod 8
+
+rem * *************************************************
+rem *		Ship target
+rem * *************************************************
+
+
+MaterialManager.attGroup 204
+MaterialManager.defGroup 55
+MaterialManager.damageMod 10
+
+MaterialManager.attGroup 204
+MaterialManager.defGroup 56
+MaterialManager.damageMod 10
+
+MaterialManager.attGroup 204
+MaterialManager.defGroup 57
+MaterialManager.damageMod 10
+
+MaterialManager.attGroup 204
+MaterialManager.defGroup 58
+MaterialManager.damageMod 10
+
+MaterialManager.attGroup 204
+MaterialManager.defGroup 59
+MaterialManager.damageMod 10.0
+
+rem * *************************************************
+rem *		Planes target
+rem * *************************************************
+
+MaterialManager.attGroup 204
+MaterialManager.defGroup 60
+MaterialManager.damageMod 5
+
+MaterialManager.attGroup 204
+MaterialManager.defGroup 61
+MaterialManager.damageMod 2
+
+MaterialManager.attGroup 204
+MaterialManager.defGroup 62
+MaterialManager.damageMod 1
+
+rem * *************************************************
+rem *		Default
+rem * *************************************************
+
+MaterialManager.attGroup 204
+MaterialManager.defGroup 0
+MaterialManager.damageMod 0.0
+
+MaterialManager.attGroup 204
+MaterialManager.defGroup 1
+MaterialManager.damageMod 0.0
+
+rem *
+rem * ***** EXpac explosion direct DAMAGE*****
+rem *
+
+rem * *************************************************
+rem *		Infantry target
+rem * *************************************************
+MaterialManager.attGroup 230
+MaterialManager.defGroup 40
+MaterialManager.damageMod 0
+
+MaterialManager.attGroup 230
+MaterialManager.defGroup 41
+MaterialManager.damageMod 0
+
+MaterialManager.attGroup 230
+MaterialManager.defGroup 42
+MaterialManager.damageMod 0
+
+rem * *************************************************
+rem *		scout cars target
+rem * *************************************************
+
+MaterialManager.attGroup 230
+MaterialManager.defGroup 43
+MaterialManager.damageMod 0
+
+MaterialManager.attGroup 230
+MaterialManager.defGroup 44
+MaterialManager.damageMod 0
+
+rem * *************************************************
+rem *		Light Vehicle target
+rem * *************************************************
+
+MaterialManager.attGroup 230
+MaterialManager.defGroup 45
+MaterialManager.damageMod 0
+
+MaterialManager.attGroup 230
+MaterialManager.defGroup 46
+MaterialManager.damageMod 0
+
+MaterialManager.attGroup 230
+MaterialManager.defGroup 47
+MaterialManager.damageMod 0
+
+MaterialManager.attGroup 230
+MaterialManager.defGroup 48
+MaterialManager.damageMod 0
+
+MaterialManager.attGroup 230
+MaterialManager.defGroup 49
+MaterialManager.damageMod 0
+
+
+rem * *************************************************
+rem *		Heavy Vehicle target
+rem * *************************************************
+
+MaterialManager.attGroup 230
+MaterialManager.defGroup 50
+MaterialManager.damageMod 0
+
+MaterialManager.attGroup 230
+MaterialManager.defGroup 51
+MaterialManager.damageMod 0
+
+MaterialManager.attGroup 230
+MaterialManager.defGroup 52
+MaterialManager.damageMod 0
+
+MaterialManager.attGroup 230
+MaterialManager.defGroup 53
+MaterialManager.damageMod 0
+
+MaterialManager.attGroup 230
+MaterialManager.defGroup 54
+MaterialManager.damageMod 0
+
+rem * *************************************************
+rem *		Ship target
+rem * *************************************************
+
+
+MaterialManager.attGroup 230
+MaterialManager.defGroup 55
+MaterialManager.damageMod 0
+
+MaterialManager.attGroup 230
+MaterialManager.defGroup 56
+MaterialManager.damageMod 0
+
+MaterialManager.attGroup 230
+MaterialManager.defGroup 57
+MaterialManager.damageMod 0
+
+MaterialManager.attGroup 230
+MaterialManager.defGroup 58
+MaterialManager.damageMod 0
+
+MaterialManager.attGroup 230
+MaterialManager.defGroup 59
+MaterialManager.damageMod 0
+
+rem * *************************************************
+rem *		Default
+rem * *************************************************
+
+MaterialManager.attGroup 230
+MaterialManager.defGroup 0
+MaterialManager.damageMod 0.0
+
+MaterialManager.attGroup 230
+MaterialManager.defGroup 1
+MaterialManager.damageMod 0.0
+

@@ -1,0 +1,156 @@
+ObjectTemplate.create Bundle SuburbHouse_3_M1
+ObjectTemplate.setHasCollisionPhysics 1
+objectTemplate.aiTemplate SuburbHouse_3_m1
+ObjectTemplate.addTemplate lodSuburbHouse_3
+
+LodSelectorTemplate.create DistanceSelector SuburbHouse_3Selector
+LodSelectorTemplate.addLodDistance 70
+ObjectTemplate.create LodObject lodSuburbHouse_3
+ObjectTemplate.lodselector SuburbHouse_3Selector
+ObjectTemplate.addTemplate SuburbHouse_3Interior
+ObjectTemplate.addTemplate SuburbHouse_3Exterior
+
+ObjectTemplate.create Bundle SuburbHouse_3Interior
+ObjectTemplate.geometry SuburbHouse_3_m1
+rem ------------------------------------------------
+
+ObjectTemplate.addTemplate civiltable_m1
+ObjectTemplate.setPosition 0.9/0.3/9.15
+ObjectTemplate.setRotation 90/0/0
+
+ObjectTemplate.addTemplate euchair02_M1
+ObjectTemplate.setPosition 0/0.3/8.63
+ObjectTemplate.setRotation 90/0/0
+
+
+ObjectTemplate.addTemplate euchair02_M1
+ObjectTemplate.setPosition 0/0.3/9.6
+ObjectTemplate.setRotation 90/0/0
+
+
+ObjectTemplate.addTemplate euchair02_M1
+ObjectTemplate.setPosition 1.7/0.3/8.63
+ObjectTemplate.setRotation -90/0/0
+
+
+ObjectTemplate.addTemplate euchair02_M1
+ObjectTemplate.setPosition 1.8/0.3/9.6
+ObjectTemplate.setRotation -90/0/0
+
+
+ObjectTemplate.addTemplate eubarrel_M1
+ObjectTemplate.setPosition -4.369/0.27/8.2
+ObjectTemplate.setRotation -90/0/180
+
+
+ObjectTemplate.addTemplate plateshelf_m1
+ObjectTemplate.setPosition 0.9/2/10.45
+ObjectTemplate.setRotation 180/0/180
+
+ObjectTemplate.addTemplate stove_eu_m1
+ObjectTemplate.setPosition 0.9/0.3/2.6
+ObjectTemplate.setRotation 180/0/0
+
+
+
+rem ------------------------------------------------
+
+ObjectTemplate.addTemplate civiltable_m1
+ObjectTemplate.setPosition 0.9/4.575/-9.25
+ObjectTemplate.setRotation 90/0/0
+
+ObjectTemplate.addTemplate euchair02_M1
+ObjectTemplate.setPosition 0/4.575/-8.73
+ObjectTemplate.setRotation 90/0/0
+
+
+ObjectTemplate.addTemplate euchair02_M1
+ObjectTemplate.setPosition 0/4.575/-9.7
+ObjectTemplate.setRotation 90/0/0
+
+
+ObjectTemplate.addTemplate euchair02_M1
+ObjectTemplate.setPosition 1.7/4.575/-8.73
+ObjectTemplate.setRotation -90/0/0
+
+
+ObjectTemplate.addTemplate euchair02_M1
+ObjectTemplate.setPosition 1.8/4.575/-9.7
+ObjectTemplate.setRotation -90/0/0
+
+
+ObjectTemplate.addTemplate eubarrel_M1
+ObjectTemplate.setPosition 2.1/4.575/-2.66
+ObjectTemplate.setRotation 0/0/180
+
+
+ObjectTemplate.addTemplate plateshelf_m1
+ObjectTemplate.setPosition 0.9/6.5/-10.45
+ObjectTemplate.setRotation 0/0/180
+
+ObjectTemplate.addTemplate stove_eu_m1
+ObjectTemplate.setPosition 0.9/4.575/-2.6
+ObjectTemplate.setRotation 0/0/0
+
+rem ------------------------------------------------
+
+
+ObjectTemplate.addTemplate eubed_m1
+ObjectTemplate.setPosition 1.5/0.3/-9.40
+ObjectTemplate.setRotation 0/0/0
+
+
+ObjectTemplate.addTemplate eubed_m1
+ObjectTemplate.setPosition -1.5/0.3/-9.40
+ObjectTemplate.setRotation 0/0/0
+
+ObjectTemplate.addTemplate eubooksh_M1
+ObjectTemplate.setPosition 0.9/0.3/-2.5
+ObjectTemplate.setRotation 180/0/0
+
+ObjectTemplate.addTemplate eupaint1_m1
+ObjectTemplate.setPosition 0/2.4/-10.35
+ObjectTemplate.setRotation 180/0/180
+
+
+rem --------------------------------------------------------
+
+
+ObjectTemplate.addTemplate eubed_m1
+ObjectTemplate.setPosition 1.5/4.575/9.40
+ObjectTemplate.setRotation 180/0/0
+
+
+ObjectTemplate.addTemplate eubed_m1
+ObjectTemplate.setPosition -1.5/4.575/9.40
+ObjectTemplate.setRotation 180/0/0
+
+ObjectTemplate.addTemplate eubooksh_M1
+ObjectTemplate.setPosition 0.9/4.575/2.5
+ObjectTemplate.setRotation 180/0/0
+
+
+ObjectTemplate.addTemplate eupaint1_m1
+ObjectTemplate.setPosition 0/6.6/10.35
+ObjectTemplate.setRotation 0/0/180
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+rem --------------------------------------------------------
+ObjectTemplate.create SimpleObject SuburbHouse_3Exterior
+ObjectTemplate.geometry SuburbHouse_3_m2
+
+
+

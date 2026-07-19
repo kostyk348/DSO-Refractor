@@ -1,0 +1,14 @@
+NetworkableInfo.createNewInfo Chi-ha_TurretInfo
+NetworkableInfo.setPredictionMode PMLinear
+
+NetworkableInfo.createNewInfo Chi-ha_GunInfo
+NetworkableInfo.setPredictionMode PMLinear
+
+
+NetworkableInfo.createNewInfo Chi-ha_EngineInfo
+NetworkableInfo.setPredictionMode PMLinear
+
+NetworkableInfo.createNewInfo Chi-ha_BodyInfo
+NetworkableInfo.setPredictionMode PMLinear
+
+

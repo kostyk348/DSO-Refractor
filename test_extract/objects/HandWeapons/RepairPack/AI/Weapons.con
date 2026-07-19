@@ -1,0 +1,16 @@
+rem *** Add MedPack ***
+weaponTemplate.create RepairPackAI
+weaponTemplate.burst 0
+weaponTemplate.indirect 0
+weaponTemplate.minRange 0.0
+weaponTemplate.maxRange 2.5
+weaponTemplate.weaponActivate PIMenuSelect6
+weaponTemplate.weaponFire PIFire
+weaponTemplate.healing 1
+weaponTemplate.setStrength Infantry    0.0
+weaponTemplate.setStrength LightArmour 2.0
+weaponTemplate.setStrength HeavyArmour 2.0
+weaponTemplate.setStrength NavalArmour 2.0
+weaponTemplate.setStrength Submarine   2.0
+weaponTemplate.setStrength Air         2.0
+

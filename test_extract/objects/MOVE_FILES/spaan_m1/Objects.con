@@ -1,0 +1,3 @@
+ObjectTemplate.create SimpleObject spaan_m1
+ObjectTemplate.geometry spaan_m1
+ObjectTemplate.setHasCollisionPhysics 1

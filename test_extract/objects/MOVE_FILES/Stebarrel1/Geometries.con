@@ -1,0 +1,9 @@
+
+GeometryTemplate.create StandardMesh stebarrel1_m1
+GeometryTemplate.file stebarrel1_m1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 25
+GeometryTemplate.setLodDistance 2 40
+GeometryTemplate.setLodDistance 3 105
+GeometryTemplate.setLodDistance 4 300
+GeometryTemplate.setLodDistance 5 600

@@ -1,0 +1,85 @@
+
+
+rem *** e_ScrapAAFlak38 ***
+ObjectTemplate.create EffectBundle e_ScrapAAFlak38
+ObjectTemplate.saveInSeparateFile 1
+rem -------------------------------------
+ObjectTemplate.addTemplate Em_ScrapAAFlak38_1
+ObjectTemplate.addTemplate Em_ScrapAAFlak38_2
+ObjectTemplate.addTemplate Em_ScrapAAFlak38_3
+ObjectTemplate.addTemplate Em_ScrapAAFlak38_4
+ObjectTemplate.addTemplate Em_ScrapAAFlak38_5
+ObjectTemplate.timeToLive CRD_NONE/1.8/0/0
+rem -------------------------------------
+
+
+rem *** Em_ScrapAAFlak38_1 ***
+ObjectTemplate.create Emitter Em_ScrapAAFlak38_1
+ObjectTemplate.template flak38_cannon_Toss
+ObjectTemplate.addEmitterSpeed 1
+ObjectTemplate.emitterSpeedScale 1
+ObjectTemplate.lodDistance 375
+ObjectTemplate.timeToLive CRD_NONE/1/0/0
+ObjectTemplate.intensity CRD_NONE/1/0/0
+ObjectTemplate.relativePositionInDof CRD_NONE/0.1/0/0
+ObjectTemplate.positionalSpeedInDof CRD_UNIFORM/10/0/1
+ObjectTemplate.positionalSpeedInUp CRD_UNIFORM/20/15/0
+ObjectTemplate.positionalSpeedInRight CRD_UNIFORM/10/0/1
+ObjectTemplate.startRotation CRD_UNIFORM/1/100/0
+
+
+rem *** Em_ScrapAAFlak38_2 ***
+ObjectTemplate.create Emitter Em_ScrapAAFlak38_2
+ObjectTemplate.template flak38_gun_Toss
+ObjectTemplate.addEmitterSpeed 1
+ObjectTemplate.emitterSpeedScale 1
+ObjectTemplate.lodDistance 375
+ObjectTemplate.timeToLive CRD_NONE/1/0/0
+ObjectTemplate.intensity CRD_NONE/1/0/0
+ObjectTemplate.relativePositionInDof CRD_NONE/0.1/0/0
+ObjectTemplate.positionalSpeedInDof CRD_UNIFORM/10/0/1
+ObjectTemplate.positionalSpeedInUp CRD_UNIFORM/20/15/0
+ObjectTemplate.positionalSpeedInRight CRD_UNIFORM/10/0/1
+ObjectTemplate.startRotation CRD_NONE/1/0/0
+
+rem *** Em_ScrapAAFlak38_3 ***
+ObjectTemplate.create Emitter Em_ScrapAAFlak38_3
+ObjectTemplate.template flak38_gun_Barrel_Toss
+ObjectTemplate.addEmitterSpeed 1
+ObjectTemplate.emitterSpeedScale 1
+ObjectTemplate.lodDistance 375
+ObjectTemplate.timeToLive CRD_NONE/1/0/0
+ObjectTemplate.intensity CRD_NONE/1/0/0
+ObjectTemplate.relativePositionInDof CRD_NONE/0.1/0/0
+ObjectTemplate.positionalSpeedInDof CRD_UNIFORM/10/0/1
+ObjectTemplate.positionalSpeedInUp CRD_UNIFORM/20/15/0
+ObjectTemplate.positionalSpeedInRight CRD_UNIFORM/10/0/1
+ObjectTemplate.startRotation CRD_NONE/1/0/0
+
+rem *** Em_ScrapAAFlak38_4 ***
+ObjectTemplate.create Emitter Em_ScrapAAFlak38_4
+ObjectTemplate.template flak38_pedal_Toss
+ObjectTemplate.addEmitterSpeed 1
+ObjectTemplate.emitterSpeedScale 1
+ObjectTemplate.lodDistance 375
+ObjectTemplate.timeToLive CRD_NONE/1/0/0
+ObjectTemplate.intensity CRD_NONE/1/0/0
+ObjectTemplate.relativePositionInDof CRD_NONE/0.1/0/0
+ObjectTemplate.positionalSpeedInDof CRD_UNIFORM/10/0/1
+ObjectTemplate.positionalSpeedInUp CRD_UNIFORM/20/15/0
+ObjectTemplate.positionalSpeedInRight CRD_UNIFORM/10/0/1
+ObjectTemplate.startRotation CRD_NONE/1/0/0
+
+rem *** Em_ScrapAAFlak38_5 ***
+ObjectTemplate.create Emitter Em_ScrapAAFlak38_5
+ObjectTemplate.template flak38_lavett_Toss
+ObjectTemplate.addEmitterSpeed 1
+ObjectTemplate.emitterSpeedScale 1
+ObjectTemplate.lodDistance 375
+ObjectTemplate.timeToLive CRD_NONE/1/0/0
+ObjectTemplate.intensity CRD_NONE/1/0/0
+ObjectTemplate.relativePositionInDof CRD_NONE/0.1/0/0
+ObjectTemplate.positionalSpeedInDof CRD_UNIFORM/10/0/1
+ObjectTemplate.positionalSpeedInUp CRD_UNIFORM/10/15/0
+ObjectTemplate.positionalSpeedInRight CRD_UNIFORM/10/0/1
+ObjectTemplate.startRotation CRD_UNIFORM/1/150/0

@@ -1,0 +1,79 @@
+ObjectTemplate.create BFSoldier JapaneseSoldier
+ObjectTemplate.createSkeleton animations/UsSoldier.ske
+include ../Common/CommonSoldierData.inc
+include ../Common/Sounds/SoldierSound.inc
+
+ObjectTemplate.addTemplate JapSoldierComplexHead
+ObjectTemplate.setRandomGeometries 3
+ObjectTemplate.setIsFirstPersonPart 0
+ObjectTemplate.setLodValue 0.01
+ObjectTemplate.bindToSkeletonPart Bip01_Spine3 3
+
+ObjectTemplate.addTemplate JapSoldierHead
+ObjectTemplate.setIsFirstPersonPart 0
+ObjectTemplate.setLodValue -0.01
+
+ObjectTemplate.addTemplate JapSoldier3PBody
+ObjectTemplate.setIsFirstPersonPart 0
+
+ObjectTemplate.addTemplate JapSoldier1PBody
+ObjectTemplate.setIsFirstPersonPart 1
+
+ObjectTemplate.addTemplate JapSoldierRightHand
+ObjectTemplate.setIsFirstPersonPart 0
+ObjectTemplate.setLodValue 0.03
+
+ObjectTemplate.addTemplate JapSoldierLeftHand
+ObjectTemplate.setIsFirstPersonPart 0
+ObjectTemplate.setLodValue 0.03
+
+ObjectTemplate.addTemplate 1PJapSoldierRightHand
+ObjectTemplate.setIsFirstPersonPart 1
+ObjectTemplate.setLodValue 0.03
+
+ObjectTemplate.addTemplate 1PJapSoldierLeftHand
+ObjectTemplate.setIsFirstPersonPart 1
+ObjectTemplate.setLodValue 0.03
+
+ObjectTemplate.create SimpleObject JapSoldier1PBody
+ObjectTemplate.geometry Soldier/1PJapBody
+
+ObjectTemplate.create SimpleObject JapSoldier3PBody
+ObjectTemplate.geometry Soldier/3PJapBody
+ObjectTemplate.hasDynamicShadow 1
+
+ObjectTemplate.create AnimatedBundle JapSoldierComplexHead1
+rem *** SHOULD BE UsFace.Ske on every nationality.
+ObjectTemplate.createSkeleton animations/UsFace.ske
+ObjectTemplate.geometry Soldier/JapComplexHead1
+ObjectTemplate.hasDynamicShadow 1
+
+ObjectTemplate.create AnimatedBundle JapSoldierComplexHead2
+rem *** SHOULD BE UsFace.Ske on every nationality.
+ObjectTemplate.createSkeleton animations/UsFace.ske
+ObjectTemplate.geometry Soldier/JapComplexHead2
+ObjectTemplate.hasDynamicShadow 1
+
+ObjectTemplate.create AnimatedBundle JapSoldierComplexHead3
+rem *** SHOULD BE UsFace.Ske on every nationality.
+ObjectTemplate.createSkeleton animations/UsFace.ske
+ObjectTemplate.geometry Soldier/JapComplexHead3
+ObjectTemplate.hasDynamicShadow 1
+
+ObjectTemplate.create SimpleObject JapSoldierHead
+ObjectTemplate.geometry Soldier/JapHead
+ObjectTemplate.hasDynamicShadow 1
+
+ObjectTemplate.create SimpleObject JapSoldierLeftHand
+ObjectTemplate.geometry Soldier/JapLeftHand
+
+ObjectTemplate.create SimpleObject JapSoldierRightHand
+ObjectTemplate.geometry Soldier/JapRightHand
+
+ObjectTemplate.create SimpleObject 1PJapSoldierLeftHand
+ObjectTemplate.geometry Soldier/1PJapLeftHand
+
+ObjectTemplate.create SimpleObject 1PJapSoldierRightHand
+ObjectTemplate.geometry Soldier/1PJapRightHand
+
+	

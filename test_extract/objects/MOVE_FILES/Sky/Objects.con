@@ -1,0 +1,6 @@
+ObjectTemplate.create SimpleObject Skyelala_M1
+ObjectTemplate.geometry Skyelala_M1
+ObjectTemplate.setHasCollisionPhysics 1
+
+
+

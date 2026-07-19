@@ -1,0 +1,3 @@
+ObjectTemplate.create SimpleObject bullet_m1
+ObjectTemplate.geometry bullet_m1
+ObjectTemplate.setHasCollisionPhysics 1

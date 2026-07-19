@@ -1,0 +1,20 @@
+ObjectTemplate.create KitPart brit_Assault_BackPack
+ObjectTemplate.geometry brit_Assult_Bacpac
+ObjectTemplate.setBoneName backpack
+ObjectTemplate.setCopyLinksCount 0
+
+ObjectTemplate.create Kit GB_Assault
+ObjectTemplate.geometry Kit_Allies_Assault
+ObjectTemplate.setHasCollisionPhysics 1
+ObjectTemplate.networkableInfo KitInfo
+ObjectTemplate.addTemplate brit_Helmet
+ObjectTemplate.addTemplate brit_Assault_BackPack
+ObjectTemplate.addTemplate British_hippack
+
+ObjectTemplate.addTemplate Bar1918
+ObjectTemplate.addTemplate Colt
+ObjectTemplate.addTemplate KnifeAllies
+ObjectTemplate.addTemplate GrenadeAllies
+
+
+ObjectTemplate.aiTemplate  Assault

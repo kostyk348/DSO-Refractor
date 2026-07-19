@@ -1,0 +1,17 @@
+ObjectTemplate.create Kit US_Engineer
+ObjectTemplate.geometry Kit_Allies_Engineer
+ObjectTemplate.setHasCollisionPhysics 1
+ObjectTemplate.networkableInfo KitInfo
+ObjectTemplate.addTemplate Us_Helmet
+ObjectTemplate.addTemplate US_Grenades
+ObjectTemplate.addTemplate US_Hip_Pack
+
+ObjectTemplate.addTemplate No4
+ObjectTemplate.addTemplate Colt
+ObjectTemplate.addTemplate KnifeAllies
+
+ObjectTemplate.addTemplate RepairPack
+ObjectTemplate.addTemplate Landmine
+ObjectTemplate.addTemplate Detonator
+ObjectTemplate.addTemplate ExpPack
+ObjectTemplate.aitemplate Engineer

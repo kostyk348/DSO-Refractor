@@ -1,0 +1,3 @@
+ObjectTemplate.create SimpleObject djungle_monstrea_M1
+ObjectTemplate.geometry djungle_monstrea_M1
+ObjectTemplate.setHasCollisionPhysics 1

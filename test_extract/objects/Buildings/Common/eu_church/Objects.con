@@ -1,0 +1,17 @@
+ObjectTemplate.create Bundle eu_church_M1
+ObjectTemplate.setHasCollisionPhysics 1
+objectTemplate.aiTemplate eu_church_M1
+ObjectTemplate.addTemplate lodeu_church
+
+LodSelectorTemplate.create DistanceSelector eu_churchSelector
+LodSelectorTemplate.addLodDistance 70
+ObjectTemplate.create LodObject lodeu_church
+ObjectTemplate.lodselector eu_churchSelector
+ObjectTemplate.addTemplate eu_churchInterior
+ObjectTemplate.addTemplate eu_churchExterior
+
+ObjectTemplate.create Bundle eu_churchInterior
+ObjectTemplate.geometry eu_church_m1
+
+ObjectTemplate.create SimpleObject eu_churchExterior
+ObjectTemplate.geometry eu_church_m2

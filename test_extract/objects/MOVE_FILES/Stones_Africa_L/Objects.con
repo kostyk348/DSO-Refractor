@@ -1,0 +1,5 @@
+ObjectTemplate.create SimpleObject Stones_Africa_L_M1
+ObjectTemplate.geometry Stones_Africa_L_M1
+ObjectTemplate.setHasCollisionPhysics 1
+ObjectTemplate.aiTemplate Stones_Africa_L_M1
+

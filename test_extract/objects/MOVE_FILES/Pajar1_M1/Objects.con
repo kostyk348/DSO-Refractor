@@ -1,0 +1,3 @@
+ObjectTemplate.create SimpleObject Pajar1_M1
+ObjectTemplate.geometry Pajar1_M1
+ObjectTemplate.setHasCollisionPhysics 1
