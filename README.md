@@ -4,7 +4,6 @@ OpenGL terrain + static objects renderer for **Battlefield 1942 (Demo — Tobruk
 
 Loads the original `.rfa` archives from the BF1942 Demo — heightmap terrain, 415 static objects (buildings, bunkers, walls, sandbags), all textured from the original DDS files.
 
-![demo](bf_demo.gif)
 
 ## Build & Run
 
