@@ -1,14 +1,18 @@
 # DSO-Refractor
 
+[![Release](https://img.shields.io/github/v/release/kostyk348/DSO-Refractor?sort=semver&color=blue)](https://github.com/kostyk348/DSO-Refractor/releases)
+[![License](https://img.shields.io/badge/license-Apache-2.0-green)](https://github.com/kostyk348/DSO-Refractor/blob/main/LICENSE)
+[![Last commit](https://img.shields.io/github/last-commit/kostyk348/DSO-Refractor?branch=main)](https://github.com/kostyk348/DSO-Refractor/commits/main)
+
 OpenGL terrain + static objects renderer for **Battlefield 1942 (Demo — Tobruk/Tunisia)**.
 
 Loads the original `.rfa` archives from the BF1942 Demo — heightmap terrain, 415 static objects (buildings, bunkers, walls, sandbags), all textured from the original DDS files.
-
 
 ## Build & Run
 
 ```bash
 # Requires: SDL2, GLEW, OpenGL 3.3+, X11
+
 make bin
 LD_LIBRARY_PATH=/home/lain/dsa ./dsr-bin
 ```
