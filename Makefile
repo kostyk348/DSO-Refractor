@@ -4,7 +4,9 @@ CFLAGS  = -g -O2 -std=c11 -Wall -Wextra -Wno-unused-parameter -Wno-unused-variab
 CXXFLAGS= -g -O2 -std=c++17 -Wall -Wextra -fPIC
 
 # Includes
-DSR_DIR = /home/lain/dsa
+# Where the DSA library lives. Override it for your own checkout:
+#   make DSR_DIR=/path/to/dsa
+DSR_DIR ?= ../dsa
 CFLAGS  += -I$(DSR_DIR)/include -D_GNU_SOURCE -D_DEFAULT_SOURCE
 
 # SDL2 via pkg-config
